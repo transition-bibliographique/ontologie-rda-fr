@@ -1,0 +1,59 @@
+# Ce workflow a pour but de construire et publier l'image docker qui sera utilisée
+# pour le site https://rdafr.fr qui hébergera l'ontologie donc les sources
+# sont présentes sur ce dépôt
+name: "build-pub-rdafr.fr-docker-image"
+
+env:
+  DOCKERHUB_IMAGE_PREFIX: abesesr/ontologie-rda-fr
+
+on:
+  push:
+    branches:    
+      - 'develop'
+      # plus tard quand on aura des release de l'ontologie, on pourra ajouter main et les tags/releases
+  workflow_dispatch:
+
+
+jobs:
+  build-pub-rdafr.fr-docker-image:
+    runs-on: ubuntu-latest
+    steps:
+
+
+      - name: "Build: checkout source code"
+        uses: actions/checkout@v2
+      - name: "Build: create the folder where to build the stuff"
+        run: |
+          mkdir -p build/
+      - name: "Build: convert README.md to index.html with pandoc"
+        run: |
+          docker run --rm \
+            --volume "`pwd`:/data" \
+            --user `id -u`:`id -g` \
+            pandoc/core:2.19 \
+            --standalone --shift-heading-level-by=-1 \
+            README.md -o build/index.html
+      - name: "Build: build the docker image for rdafr.fr website"
+        run: |
+          docker build . -t localimage:latest
+          
+
+      - name: "Push: prepare version from git tags/branchs"
+        id: docker_tag_meta
+        uses: docker/metadata-action@v3
+        with:
+          images: ${{ env.DOCKERHUB_IMAGE_PREFIX }}
+      - name: "Push: login to DockerHub"
+        if: github.event_name != 'pull_request' && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/develop' || startsWith(github.ref, 'refs/tags/'))
+        run: |
+          echo "${{ secrets.DOCKERHUB_TOKEN }}" | docker login -u ${{ secrets.DOCKERHUB_USERNAME }} --password-stdin
+      - name: "Push: push docker image"
+        if: github.event_name != 'pull_request' && (github.ref == 'refs/heads/main' || github.ref == 'refs/heads/develop' || startsWith(github.ref, 'refs/tags/'))
+        run: |
+          DOCKER_TAGS="${{ steps.docker_tag_meta.outputs.tags }}"
+          for DOCKER_TAG in $DOCKER_TAGS
+          do
+            # publication de l'image
+            docker build . -t ${DOCKER_TAG}
+            docker push ${DOCKER_TAG}
+          done
