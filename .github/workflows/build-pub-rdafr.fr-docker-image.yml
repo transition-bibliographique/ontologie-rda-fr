@@ -15,7 +15,7 @@ on:
 
 
 jobs:
-  build-pub-rdafr.fr-docker-image:
+  build-pub-rdafr-docker-image:
     runs-on: ubuntu-latest
     steps:
 
