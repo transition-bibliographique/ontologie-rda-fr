@@ -15,9 +15,9 @@ ENV LC_ALL fr_FR.UTF-8
 # de https://rdafr.fr avec l'outil pandoc https://pandoc.org/
 RUN DEBIAN_FRONTEND=noninteractive apt install -y pandoc
 COPY ./README.md   /usr/share/nginx/html/
-COPY ./footer.html /usr/share/nginx/html/
+COPY ./.docker/footer.html /usr/share/nginx/html/
 RUN sed -i "s#LAST_MODIFICATION_DATE_PLACEHOLDER#$(date +'%e %B %Y')#g" /usr/share/nginx/html/footer.html
-COPY ./style.css   /usr/share/nginx/html/
+COPY ./.docker/style.css   /usr/share/nginx/html/
 WORKDIR /usr/share/nginx/html/
 RUN pandoc --standalone --toc \
       --shift-heading-level-by=-1 \
