@@ -9,6 +9,3 @@ Dans le cadre du programme [Transition bibliographique](https://www.transition-b
 L’ontologie RDA-FR permettra aux agences bibliographiques nationales et éditeurs de SGB (systèmes de gestion de bibliothèques) de créer ou de diffuser dans un environnement web sémantique des données structurées conformément à ce code. L’enjeu est d’assurer la visibilité des données produites selon le code RDA-FR dans le web de données et de faciliter leur exploitation par tous, au-delà des bibliothèques.
 
 Sa première utilisation nationale se fera dans le cadre du [FNE](https://www.transition-bibliographique.fr/fne/fichier-national-entites/) dont le périmètre initial comprendra l’entité Agent et ses sous-classes (Collectivité, Famille, Personne) ainsi que l'entité associée Identité publique de personne.
-
-______________________________________________________
-30 septembre 2022
