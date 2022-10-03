@@ -22,21 +22,10 @@ jobs:
 
       - name: "Build: checkout source code"
         uses: actions/checkout@v2
-      - name: "Build: create the folder where to build the stuff"
-        run: |
-          mkdir -p build/
-      - name: "Build: convert README.md to index.html with pandoc"
-        run: |
-          docker run --rm \
-            --volume "`pwd`:/data" \
-            --user `id -u`:`id -g` \
-            pandoc/core:2.19 \
-            --standalone --shift-heading-level-by=-1 \
-            README.md -o build/index.html
       - name: "Build: build the docker image for rdafr.fr website"
         run: |
           docker build . -t localimage:latest
-          
+
 
       - name: "Push: prepare version from git tags/branchs"
         id: docker_tag_meta
