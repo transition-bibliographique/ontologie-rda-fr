@@ -225,6 +225,7 @@ ul.task-list li input[type="checkbox"] {
 footer {
     border-top: 1px solid #919293;
     padding-top: 0.4em 0 0 0;
+    margin-top: 3em;
     font-size: 70%;
     font-style: italic;
     color: #919293;
