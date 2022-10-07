@@ -10,4 +10,3 @@ L’ontologie RDA-FR permettra aux agences bibliographiques nationales et édite
 
 Sa première utilisation nationale se fera dans le cadre du [FNE](https://www.transition-bibliographique.fr/fne/fichier-national-entites/) dont le périmètre initial comprendra l’entité Agent et ses sous-classes (Collectivité, Famille, Personne) ainsi que l'entité associée Identité publique de personne.
 
-test
