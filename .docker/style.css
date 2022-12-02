@@ -6,7 +6,8 @@ html {
     background-color: #fdfdfd;
 }
 
-body {
+body { margin: 0; }
+body main {
     margin: 0 auto;
     max-width: 36em;
     padding-left: 50px;
@@ -20,7 +21,7 @@ body {
 }
 
 @media (max-width: 600px) {
-    body {
+    body main {
         font-size: 0.9em;
         padding: 1em;
     }
@@ -31,7 +32,7 @@ body {
 }
 
 @media print {
-    body {
+    body main {
         background-color: transparent;
         color: black;
         font-size: 12pt;
@@ -222,12 +223,77 @@ ul.task-list li input[type="checkbox"] {
 }
 
 
+
+
+
+
+
 footer {
-    border-top: 1px solid #919293;
-    padding-top: 0.4em 0 0 0;
-    margin-top: 3em;
-    font-size: 70%;
-    font-style: italic;
-    color: #919293;
-    text-align: left;
+	font-size:.8125em;
+	position:relative;
+	font-style:normal;
+    text-align: justify;
+    color: #ffffff;
+	background-color: #2c4a63;
+    line-height: 1.2em;
 }
+
+footer .text-footer-ontologie-rdafr {
+	width: 895px;
+	padding-top: 10px;
+    padding-left: 20px;
+}
+
+footer .text-lastmodif {
+	font-size: 70%;
+	font-style: italic;
+	text-align: left;
+}
+
+
+footer .logo-abes-bnf {
+	float: right;
+	display: inline-flex;
+    text-align: right;
+    margin-top: 20px;
+	margin-right: 20px;
+}
+footer .logo-abes {
+	margin-right: 20px;
+}
+
+footer .legal-footer-ontologie-rdafr {
+	background-color:#04304e;
+    padding: 15px 15px 25px 0;
+    font-size: 12px;
+    line-height: 1;
+}
+footer .legal-footer-ontologie-rdafr ul {
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+footer .legal-footer-ontologie-rdafr ul {
+    float: right;
+    text-align: right;
+    padding-left: 15px;
+}
+
+footer .legal-footer-ontologie-rdafr li {
+    float: left;
+}
+footer .legal-footer-ontologie-rdafr a { color: #fff; }
+footer .legal-footer-ontologie-rdafr a:hover { color:#ee7900 }
+footer .legal-footer-ontologie-rdafr li:after {
+    content: "|";
+    margin-left: 5px;
+    margin-right: 5px;
+}
+footer .legal-footer-ontologie-rdafr li:last-child:after {
+    content: "";
+    margin-left: 0;
+    margin-right: 0;
+}
+
+
