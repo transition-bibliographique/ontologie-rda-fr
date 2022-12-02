@@ -4,7 +4,7 @@
 name: "build-pub-rdafr.fr-docker-image"
 
 env:
-  DOCKERHUB_IMAGE_PREFIX: abesesr/ontologie-rda-fr
+  DOCKERHUB_IMAGE_PREFIX: transitionbibliographique/ontologie-rda-fr
 
 on:
   push:
