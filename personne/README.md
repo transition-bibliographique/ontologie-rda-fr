@@ -1,5 +1,5 @@
 # Ontologie RDA-FR : personne
 
-(travail en cours)
+L'ontologie personne de RDA-FR
 
-Répertoire pour travailler sur l'ontologie personne de RDA-FR
+(travail en cours)
