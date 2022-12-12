@@ -1,0 +1,2649 @@
+
+<!DOCTYPE HTML><html lang="fr">
+   <head>
+      <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+      <style>
+					body {
+						margin: 0;
+						font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+							"Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+							"Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+							"Noto Color Emoji";
+						background-color: #fff;
+					}
+					
+					.anchor {
+						float: left;
+						padding-right: 4px;
+						margin-left: -20px;
+						line-height: 1;
+						padding-top: 12px;
+					}
+							
+					a {
+						color: #007bff;
+						text-decoration: none;
+						background-color: transparent;
+					}
+					
+					a:-webkit-any-link {
+						cursor: pointer;
+					}
+					
+					.p {
+						font-size: 0.875em;
+					}
+					
+					h2 {
+						margin: 25px 0px 10px 0px;
+					}
+					
+					@media only print {
+					}
+					
+					@page {
+						size: A4 portrait;
+						margin-top: 1.2cm;
+						margin-bottom: 1.2cm;
+						margin-left: 1.2cm;
+						margin-right: 1.2cm;
+						background-repeat: no-repeat;
+						background-position: 40px 10px;
+						
+						@bottom-center
+						{
+						content
+						:
+						counter(
+						page
+						);
+					}
+					
+					}
+							
+					/* This section draw the format web */
+					.ul_type_none {
+						list-style-type: none;
+					}
+					
+					.sp_list_description_properties {
+						/* don't set it lower otherwise it gets hidden in PDF */
+						padding-left: 20px;
+					}
+					
+					dl, ol, ul {
+						margin-top: 0;
+						margin-bottom: 1rem;
+					}
+					
+					li {
+						display: list-item;
+						text-align: -webkit-match-parent;
+					}
+					
+					.sp_section_title_header {
+						font-family: Georgia, Garamond, serif;	
+						margin-top: 25px;
+						margin-bottom: 2.5rem;
+					    font-size: 1.5625rem;
+						display: block;
+						font-weight: 500;
+						color: #1e1e1f;
+						line-height: 1.2em;   
+					}
+					
+					.sp_section_subtitle {
+						font-family: Georgia, Garamond, serif;	
+						margin-top: 0;
+						margin-bottom: 0.5rem;
+						display: block;
+						font-weight: 500;
+						color: #1e1e1f;
+						line-height: 1.2em;  
+					}
+					
+					.sp_section_title_table {
+						font-family: Georgia, Garamond, serif;	
+						/* 0 because URI is right under */
+						margin-bottom: 0rem;
+						display: block;
+						font-weight: 500;
+						color: #1e1e1f;
+						line-height: 1.2em; 
+					}
+							
+
+					.sp_section_title_toc {
+						font-family: Georgia, Garamond, serif;	
+					}
+
+					/* URI below the title of the section */
+					.sp_section_uri	 {
+						margin-top: 0px;
+					}
+
+					/* div wrapping section title and URI below - same as a paragraph margin */
+					.sp_section_title_table_wrapper {
+						margin-bottom: 16px;
+					}
+					
+					 
+					table {
+						display: table;
+						border-spacing: 0px;
+						margin-botton: 1rem;
+					}
+					
+					tr:nth-child(even) {
+						background-color: #eee;
+					}
+							
+					.sp_table_prefixes table {
+						border-collapse: collapse;
+						margin-bottom: 1rem;
+						color: #212529;
+					}
+											
+					.sp_table_prefixes td {
+						padding: 0.25rem;
+						vertical-align: top;
+						border-top: 1px solid #dee2e6;
+					}
+					
+					.sp_table_propertyshapes {
+						border-collapse: collapse;
+						width: 100%;
+					}
+										
+					.sp_table_propertyshapes thead {
+						display: table-header-group;
+						vertical-align: middle;
+						border-color: inherit;
+					}
+													
+					.sp_table_propertyshapes tr {
+					    display: table-row;
+					    vertical-align: inherit;
+					    border-color: inherit;
+					}
+													
+					.sp_table_propertyshapes th:nth-child(4) {
+						width: 6%;
+					}
+													
+					.sp_table_propertyshapes td {
+						padding: 0.75rem;
+						border-top: 1px solid #dee2e6;
+					}
+													
+					.sp_table_propertyshapes tbody {
+						display: table-row-group;
+						vertical-align: middle;
+						border-color: inherit;
+					}
+										
+					.sp_table_propertyshapes_col_description {
+						word-break: break-word;
+					}
+					
+					.sp_serialization_badge {
+						margin-right: 0.5em;
+					}
+							
+					
+							.container {
+							    width: calc(100% - 40px);
+							    max-width: 1000px;
+							    margin-left: auto;
+							    margin-right: auto;
+							}
+							.container {width: calc(100% - 500px);}
+							.toc {
+								position: fixed;
+								top: 0;
+								left: 0;
+								font-size: small;
+								padding: 10px 20px;
+								width: auto;
+								border-right: solid 2px #eeeeee;
+								bottom: 0;
+								overflow-y: scroll;
+								background-color:white;
+								max-width:275px;
+							}
+							.sp_list_toc {padding-left: 0px;}							
+						</style>
+      <meta charset="UTF-8">
+      <meta name="lang" content="fr">
+      <meta property="og:locale" content="fr">
+   </head>
+   <body>
+      <div class="sp_container_principal container pt-4">
+         <h1 class="mb-4 sp_section_title_header"></h1>
+         <div><b>Date de création : </b>2022-09-11<br><b>Dernière modification : </b>2022-09-11 00:00:00<br><b>Version : </b>0.1<br><br></div>
+         <div class="sp_section_title_toc toc">
+            <h2 id="Index">Table des Matières</h2>
+            <ul role="list" class="sp_list_toc ul_type_none t-x-mode">
+               <li><a href="#prefixes">Espaces de nom</a></li>
+               <li><a href="#rdafrc:C100013">entité rdafr</a></li>
+               <li><a href="#rdafrc:C100012">nomen</a></li>
+               <li><a href="#rdafrc:C100002">agent</a></li>
+               <li><a href="#rdafrc:C100004">personne</a></li>
+               <li><a href="#rdafrc:C100005">collectivité</a></li>
+               <li><a href="#rdafrc:C100008">famille</a></li>
+               <li><a href="#rdafrc:C100015">identité publique de personne</a></li>
+               <li><a href="#rdafrc:C100016">entité fictive</a></li>
+               <li><a href="#rdafrc:C100001">oeuvre</a></li>
+               <li><a href="#rdafrc:C100006">expression</a></li>
+               <li><a href="#rdafrc:C100007">manifestation</a></li>
+               <li><a href="#rdafrc:C100003">item</a></li>
+               <li><a href="#rdafrc:C100020">concept (rda-fr)</a></li>
+               <li><a href="#rdafrc:C100009">lieu</a></li>
+               <li><a href="#rdafrc:C100017">objet</a></li>
+               <li><a href="#rdafrc:C100018">événement</a></li>
+               <li><a href="#rdafrc:C100019">événement culturel</a></li>
+               <li><a href="#rdafrc:C100010">laps de temps</a></li>
+               <li><a href="#rdafrc:C100021">période</a></li>
+               <li><a href="#rdafrc:C100022">date unique</a></li>
+               <li><a href="#rdafrc:C100024">texte</a></li>
+               <li><a href="#rdafrc:C100023">série de date ou de laps de temps</a></li>
+               <li><a href="#rdafrc:C200000">relation</a></li>
+               <li><a href="#rdafrc:C200001">relation de lieu</a></li>
+               <li><a href="#rdafrc:C200014">relation sociale économique et culturelle dans la relation</a></li>
+               <li><a href="#rdafrc:C200015">relation a pour élève - a pour enseignant</a></li>
+               <li><a href="#rdafrc:C200016">relation influence - influencé par</a></li>
+               <li><a href="#rdafrc:C200018">relation commande à - reçoit des commandes d'oeuvres</a></li>
+               <li><a href="#rdafrc:C200020">relation est mécène de - a pour mécène</a></li>
+               <li><a href="#rdafrc:C200022">relation a pour associé ou associée</a></li>
+               <li><a href="#rdafrc:C200021">relation familiale</a></li>
+               <li><a href="#rdafrc:C200023">relation descend - a pour descendant ou descendante</a></li>
+               <li><a href="#rdafrc:C200025">relation a pour parent - a pour enfant</a></li>
+               <li><a href="#rdafrc:C200027">relation est la sœur ou le frère de</a></li>
+               <li><a href="#rdafrc:C200028">relation est la conjointe ou le conjoint de</a></li>
+               <li><a href="#rdafrc:C200029">relation est à distinguer de</a></li>
+               <li><a href="#rdafrc:C200031">relation est membre de famille - famille a comme membre</a></li>
+               <li><a href="#rdafrc:C200032">relation fonde une famille - famille est fondée par</a></li>
+               <li><a href="#rdafrc:C200033">relation membre d'une collectivité - collectivité a membre</a></li>
+               <li><a href="#rdafrc:C200034">relation est diplômé de - a un diplômé ou diplômée</a></li>
+               <li><a href="#rdafrc:C200035">relation travaille pour - emploie</a></li>
+               <li><a href="#rdafrc:C200036">relation fonde une collectivité - collectivité fondée par</a></li>
+               <li><a href="#rdafrc:C200037">relation est propriétaire - est la propriété de</a></li>
+               <li><a href="#rdafrc:C200038">relation dirige - est dirigée par</a></li>
+               <li><a href="#rdafrc:C200039">relation personne commanditée - collectivité commandite</a></li>
+               <li><a href="#rdafrc:C200040">relation personne commandite - collectivité commandité par</a></li>
+               <li><a href="#rdafrc:C200041">relation personne à distinguer de - collectivité à distinguer de</a></li>
+               <li><a href="#skos:Concept">Concept (skos)</a></li>
+               <li><a href="#rdafrtl:Langue">Langue</a></li>
+               <li><a href="#rdafrtl:Ecriture">Système d'écriture</a></li>
+               <li><a href="#rdafrtl:SchemaEncodage">Schéma d'encodage</a></li>
+               <li><a href="#rdafrtl:CategorieNomen">Catégorie de nomen</a></li>
+               <li><a href="#rdafrtl:SystemeConversion">Système de conversion</a></li>
+               <li><a href="#rdafrtl:Genre">Genre</a></li>
+               <li><a href="#rdafrtl:Role">Role</a></li>
+               <li><a href="#rdafrtl:DegreCertitude">Degré de certitude</a></li>
+               <li><a href="#rdafrtl:Calendrier">Calendrier</a></li>
+               <li><a href="#rdafrtl:CategorieIdentitePublique">Catégorie d'identité publique</a></li>
+            </ul>
+         </div>
+         <div class="row mt-3">
+            <div class="col">
+               <section id="prefixes">
+                  <h2 class="sp_section_subtitle">Espaces de nom</h2>
+                  <table class="sp_table_prefixes table table-striped table-responsive">
+                     <thead>
+                        <tr>
+                           <th>Préfixe</th>
+                           <th>Espace de nom</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>rdafra</td>
+                           <td><a href="https://rdafr.fr/Elements/a/" target="_blank">https://rdafr.fr/Elements/a/</a></td>
+                        </tr>
+                        <tr>
+                           <td>rdafrc</td>
+                           <td><a href="https://rdafr.fr/Elements/c/" target="_blank">https://rdafr.fr/Elements/c/</a></td>
+                        </tr>
+                        <tr>
+                           <td>rdafrn</td>
+                           <td><a href="https://rdafr.fr/Elements/n/" target="_blank">https://rdafr.fr/Elements/n/</a></td>
+                        </tr>
+                        <tr>
+                           <td>rdafrr</td>
+                           <td><a href="https://rdafr.fr/Elements/r/" target="_blank">https://rdafr.fr/Elements/r/</a></td>
+                        </tr>
+                        <tr>
+                           <td>rdafrt</td>
+                           <td><a href="https://rdafr.fr/Elements/t/" target="_blank">https://rdafr.fr/Elements/t/</a></td>
+                        </tr>
+                        <tr>
+                           <td>rdafrtl</td>
+                           <td><a href="https://rdafr.fr/termList/" target="_blank">https://rdafr.fr/termList/</a></td>
+                        </tr>
+                        <tr>
+                           <td>rdafrx</td>
+                           <td><a href="https://rdafr.fr/Elements/x/" target="_blank">https://rdafr.fr/Elements/x/</a></td>
+                        </tr>
+                        <tr>
+                           <td>rdf</td>
+                           <td><a href="http://www.w3.org/1999/02/22-rdf-syntax-ns#" target="_blank">http://www.w3.org/1999/02/22-rdf-syntax-ns#</a></td>
+                        </tr>
+                        <tr>
+                           <td>rdfs</td>
+                           <td><a href="http://www.w3.org/2000/01/rdf-schema#" target="_blank">http://www.w3.org/2000/01/rdf-schema#</a></td>
+                        </tr>
+                        <tr>
+                           <td>skos</td>
+                           <td><a href="http://www.w3.org/2004/02/skos/core#" target="_blank">http://www.w3.org/2004/02/skos/core#</a></td>
+                        </tr>
+                        <tr>
+                           <td>xsd</td>
+                           <td><a href="http://www.w3.org/2001/XMLSchema#" target="_blank">http://www.w3.org/2001/XMLSchema#</a></td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+            </div>
+         </div><br><div class="row mt-3">
+            <div class="col">
+               <section id="rdafrc:C100013">
+                  <div class="sp_section_title_table_wrapper">
+                     <h2 class="sp_section_title_table">entité rdafr</h2><code class="sp_section_uri">https://rdafr.fr/Elements/c/C100013</code></div>
+                  <ul class="sp_list_description_properties">
+                     <li>S'applique à : <a href="https://rdafr.fr/Elements/c/C100013">rdafrc:C100013</a></li>
+                     <li>Type de noeud : IRI</li>
+                     <li>Shape fermée</li>
+                  </ul>
+                  <table class="sp_table_propertyshapes table-striped table-responsive">
+                     <thead>
+                        <tr>
+                           <th>Nom de la propriété</th>
+                           <th>URI</th>
+                           <th>Valeur attendue</th>
+                           <th>Card.</th>
+                           <th class="sp_description_column">Description</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>a laps de temps</td>
+                           <td><code><a href="https://rdafr.fr/Elements/x/P100002u">rdafrx:P100002u</a></code></td>
+                           <td><code><a href="#rdafrc:C100010">laps de temps</a></code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>a pour degré de certitude</td>
+                           <td><code><a href="https://rdafr.fr/Elements/x/P100005u">rdafrx:P100005u</a></code></td>
+                           <td><code><a href="#rdafrtl:DegreCertitude">Degré de certitude</a></code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>a pour nomen</td>
+                           <td><code><a href="https://rdafr.fr/Elements/x/P100007u">rdafrx:P100007u</a></code></td>
+                           <td><code><a href="#rdafrc:C100012">nomen</a></code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>a pour source [texte]</td>
+                           <td><code><a href="https://rdafr.fr/Elements/x/P100003t">rdafrx:P100003t</a></code></td>
+                           <td><code>rdfs:Literal</code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>a pour source [uri]</td>
+                           <td><code><a href="https://rdafr.fr/Elements/x/P100003u">rdafrx:P100003u</a></code></td>
+                           <td><code><a href="#rdafrc:C100013">entité rdafr</a></code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>a un caractère confidentiel</td>
+                           <td><code><a href="https://rdafr.fr/Elements/x/P100006">rdafrx:P100006</a></code></td>
+                           <td><code>xsd:boolean</code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>dans la relation</td>
+                           <td><code><a href="https://rdafr.fr/Elements/x/P100001r">rdafrx:P100001r</a></code></td>
+                           <td><code><a href="#rdafrc:C200000">relation</a></code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>propriété</td>
+                           <td><code><a href="https://rdafr.fr/Elements/x/P100008">rdafrx:P100008</a></code></td>
+                           <td><code>rdafrx:P100008</code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+            </div>
+         </div><br><div class="row mt-3">
+            <div class="col">
+               <section id="rdafrc:C100012">
+                  <div class="sp_section_title_table_wrapper">
+                     <h2 class="sp_section_title_table">nomen</h2><code class="sp_section_uri">https://rdafr.fr/Elements/c/C100012</code></div>
+                  <ul class="sp_list_description_properties">
+                     <li>S'applique à : <a href="https://rdafr.fr/Elements/c/C100012">rdafrc:C100012</a></li>
+                     <li>Hérite de : <a href="#rdafrc:C100013">entité rdafr</a></li>
+                     <li>Type de noeud : IRI</li>
+                     <li>Shape fermée</li>
+                  </ul>
+                  <table class="sp_table_propertyshapes table-striped table-responsive">
+                     <thead>
+                        <tr>
+                           <th>Nom de la propriété</th>
+                           <th>URI</th>
+                           <th>Valeur attendue</th>
+                           <th>Card.</th>
+                           <th class="sp_description_column">Description</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>a pour catégorie</td>
+                           <td><code><a href="https://rdafr.fr/Elements/n/P800010">rdafrn:P800010</a></code></td>
+                           <td><code><a href="#rdafrtl:CategorieNomen">Catégorie de nomen</a></code><br></td>
+                           <td>
+                              <div style="width:30px">1..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>a pour chaîne du nomen</td>
+                           <td><code><a href="https://rdafr.fr/Elements/n/P800002t">rdafrn:P800002t</a></code></td>
+                           <td><code>xsd:string</code><br></td>
+                           <td>
+                              <div style="width:30px">1..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>a pour date d'attestation</td>
+                           <td><code><a href="https://rdafr.fr/Elements/n/P800010u">rdafrn:P800010u</a></code></td>
+                           <td><code><a href="#rdafrc:C100010">laps de temps</a></code><br></td>
+                           <td>
+                              <div style="width:30px">0..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>a pour dates d'utilisation</td>
+                           <td><code><a href="https://rdafr.fr/Elements/n/P800009u">rdafrn:P800009u</a></code></td>
+                           <td><code><a href="#rdafrc:C100010">laps de temps</a></code><br></td>
+                           <td>
+                              <div style="width:30px">1..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>a pour langue</td>
+                           <td><code><a href="https://rdafr.fr/Elements/n/P800004u">rdafrn:P800004u</a></code></td>
+                           <td><code><a href="#rdafrtl:Langue">Langue</a></code><br></td>
+                           <td>
+                              <div style="width:30px">0..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>a pour schéma d'encodage</td>
+                           <td><code><a href="https://rdafr.fr/Elements/n/P800003u">rdafrn:P800003u</a></code></td>
+                           <td><code><a href="#rdafrtl:SchemaEncodage">Schéma d'encodage</a></code><br></td>
+                           <td>
+                              <div style="width:30px">1..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>a pour source [texte]</td>
+                           <td><code><a href="https://rdafr.fr/Elements/x/P100003t">rdafrx:P100003t</a></code></td>
+                           <td><code>rdf:langString</code><br></td>
+                           <td>
+                              <div style="width:30px">0..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>a pour source [uri]</td>
+                           <td><code><a href="https://rdafr.fr/Elements/x/P100003u">rdafrx:P100003u</a></code></td>
+                           <td><code><a href="#rdafrc:C100013">entité rdafr</a></code><br></td>
+                           <td>
+                              <div style="width:30px">0..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>a pour système de conversion des écritures</td>
+                           <td><code><a href="https://rdafr.fr/Elements/n/P800006u">rdafrn:P800006u</a></code></td>
+                           <td><code><a href="#rdafrtl:SystemeConversion">Système de conversion</a></code><br></td>
+                           <td>
+                              <div style="width:30px">0..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>a pour écriture</td>
+                           <td><code><a href="https://rdafr.fr/Elements/n/P800005u">rdafrn:P800005u</a></code></td>
+                           <td><code><a href="#rdafrtl:Ecriture">Système d'écriture</a></code><br></td>
+                           <td>
+                              <div style="width:30px">0..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+            </div>
+         </div><br><div class="row mt-3">
+            <div class="col">
+               <section id="rdafrc:C100002">
+                  <div class="sp_section_title_table_wrapper">
+                     <h2 class="sp_section_title_table">agent</h2><code class="sp_section_uri">https://rdafr.fr/Elements/c/C100002</code></div>
+                  <ul class="sp_list_description_properties">
+                     <li>S'applique à : <a href="https://rdafr.fr/Elements/c/C100002">rdafrc:C100002</a></li>
+                     <li>Hérite de : <a href="#rdafrc:C100013">entité rdafr</a></li>
+                     <li>Type de noeud : IRI</li>
+                     <li>Shape fermée</li>
+                  </ul>
+               </section>
+            </div>
+         </div><br><div class="row mt-3">
+            <div class="col">
+               <section id="rdafrc:C100004">
+                  <div class="sp_section_title_table_wrapper">
+                     <h2 class="sp_section_title_table">personne</h2><code class="sp_section_uri">https://rdafr.fr/Elements/c/C100004</code></div>
+                  <ul class="sp_list_description_properties">
+                     <li>S'applique à : <a href="https://rdafr.fr/Elements/c/C100004">rdafrc:C100004</a></li>
+                     <li>Hérite de : <a href="#rdafrc:C100002">agent</a></li>
+                     <li>Type de noeud : IRI</li>
+                     <li>Shape fermée</li>
+                  </ul>
+                  <table class="sp_table_propertyshapes table-striped table-responsive">
+                     <thead>
+                        <tr>
+                           <th>Nom de la propriété</th>
+                           <th>URI</th>
+                           <th>Valeur attendue</th>
+                           <th>Card.</th>
+                           <th class="sp_description_column">Description</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>a pour adresse de la personne</td>
+                           <td><code><a href="https://rdafr.fr/Elements/a/P500019r">rdafra:P500019r</a></code></td>
+                           <td><code><a href="#rdafrc:C200001">relation de lieu</a></code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>a pour affiliation de la personne</td>
+                           <td><code><a href="https://rdafr.fr/Elements/a/P500024t">rdafra:P500024t</a></code></td>
+                           <td><code>rdf:langString</code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>a pour associé ou associée [dans la relation]</td>
+                           <td><code><a href="https://rdafr.fr/Elements/a/P500046r">rdafra:P500046r</a></code></td>
+                           <td><code><a href="#rdafrc:C200022">relation a pour associé ou associée</a></code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>a pour date associée à la personne</td>
+                           <td><code><a href="https://rdafr.fr/Elements/a/P500001r">rdafra:P500001r</a></code></td>
+                           <td><code><a href="#rdafrc:C100010">laps de temps</a></code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>a pour date de décès de la personne</td>
+                           <td><code><a href="https://rdafr.fr/Elements/a/P500003r">rdafra:P500003r</a></code></td>
+                           <td><code><a href="#rdafrc:C100010">laps de temps</a></code><br></td>
+                           <td>
+                              <div style="width:30px">0..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>a pour date de naissance de la personne</td>
+                           <td><code><a href="https://rdafr.fr/Elements/a/P500002r">rdafra:P500002r</a></code></td>
+                           <td><code><a href="#rdafrc:C100010">laps de temps</a></code><br></td>
+                           <td>
+                              <div style="width:30px">0..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>a pour descendant ou descendante [dans la relation]</td>
+                           <td><code><a href="https://rdafr.fr/Elements/a/P500050r">rdafra:P500050r</a></code></td>
+                           <td><code><a href="#rdafrc:C200023">relation descend - a pour descendant ou descendante</a></code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>a pour domaine d'activité de la personne</td>
+                           <td><code><a href="https://rdafr.fr/Elements/a/P500021t">rdafra:P500021t</a></code></td>
+                           <td><code>rdf:langString</code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>a pour domaine d'activité de la personne</td>
+                           <td><code><a href="https://rdafr.fr/Elements/a/P500021u">rdafra:P500021u</a></code></td>
+                           <td><code>owl:Thing</code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>a pour genre de la personne</td>
+                           <td><code><a href="https://rdafr.fr/Elements/a/P500006u">rdafra:P500006u</a></code></td>
+                           <td><code><a href="#rdafrtl:Genre">Genre</a></code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>a pour identifiant associé à la personne</td>
+                           <td><code><a href="https://rdafr.fr/Elements/a/P500026t">rdafra:P500026t</a></code></td>
+                           <td><code>rdfs:Literal</code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>a pour identifiant associé à la personne</td>
+                           <td><code><a href="https://rdafr.fr/Elements/a/P500026u">rdafra:P500026u</a></code></td>
+                           <td><code><a href="#rdafrc:C100012">nomen</a></code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>a pour identité publique de la personne</td>
+                           <td><code><a href="https://rdafr.fr/Elements/a/P500027u">rdafra:P500027u</a></code></td>
+                           <td><code><a href="#rdafrc:C100015">identité publique de personne</a></code><br></td>
+                           <td>
+                              <div style="width:30px">1..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>a pour information biographique et historique</td>
+                           <td><code><a href="https://rdafr.fr/Elements/a/P500025t">rdafra:P500025t</a></code></td>
+                           <td><code>rdf:langString</code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>a pour langue de la personne</td>
+                           <td><code><a href="https://rdafr.fr/Elements/a/P500020u">rdafra:P500020u</a></code></td>
+                           <td><code><a href="#rdafrtl:Langue">Langue</a></code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>a pour lieu associé à la personne</td>
+                           <td><code><a href="https://rdafr.fr/Elements/a/P500007r">rdafra:P500007r</a></code></td>
+                           <td><code><a href="#rdafrc:C200001">relation de lieu</a></code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>a pour lieu de décès de la personne</td>
+                           <td><code><a href="https://rdafr.fr/Elements/a/P500013r">rdafra:P500013r</a></code></td>
+                           <td><code><a href="#rdafrc:C200001">relation de lieu</a></code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>a pour lieu de naissance de la personne</td>
+                           <td><code><a href="https://rdafr.fr/Elements/a/P500009r">rdafra:P500009r</a></code></td>
+                           <td><code><a href="#rdafrc:C200001">relation de lieu</a></code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>a pour lieu de résidence</td>
+                           <td><code><a href="https://rdafr.fr/Elements/a/P500017r">rdafra:P500017r</a></code></td>
+                           <td><code><a href="#rdafrc:C200001">relation de lieu</a></code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>a pour mécène [dans la relation]</td>
+                           <td><code><a href="https://rdafr.fr/Elements/a/P500044r">rdafra:P500044r</a></code></td>
+                           <td><code><a href="#rdafrc:C200020">relation est mécène de - a pour mécène</a></code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>a pour pays associé à la personne</td>
+                           <td><code><a href="https://rdafr.fr/Elements/a/P500015r">rdafra:P500015r</a></code></td>
+                           <td><code><a href="#rdafrc:C200001">relation de lieu</a></code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>a pour profession ou occupation de la personne</td>
+                           <td><code><a href="https://rdafr.fr/Elements/a/P500023t">rdafra:P500023t</a></code></td>
+                           <td><code>rdf:langString</code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>a pour profession ou occupation de la personne</td>
+                           <td><code><a href="https://rdafr.fr/Elements/a/P500023u">rdafra:P500023u</a></code></td>
+                           <td><code>owl:Thing</code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>a pour période d'activité de la personne</td>
+                           <td><code><a href="https://rdafr.fr/Elements/a/P500004r">rdafra:P500004r</a></code></td>
+                           <td><code><a href="#rdafrc:C100010">laps de temps</a></code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>a pour titre de la personne</td>
+                           <td><code><a href="https://rdafr.fr/Elements/a/P500005t">rdafra:P500005t</a></code></td>
+                           <td><code>rdf:langString</code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>a un élève [dans la relation]</td>
+                           <td><code><a href="https://rdafr.fr/Elements/a/P500029r">rdafra:P500029r</a></code></td>
+                           <td><code><a href="#rdafrc:C200015">relation a pour élève - a pour enseignant</a></code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>a une relation familiale avec [dans la relation]</td>
+                           <td><code><a href="https://rdafr.fr/Elements/a/P500047r">rdafra:P500047r</a></code></td>
+                           <td><code></code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>a une relation sociale, économique ou culturelle avec [dans la relation]</td>
+                           <td><code><a href="https://rdafr.fr/Elements/a/P500028r">rdafra:P500028r</a></code></td>
+                           <td><code><a href="#rdafrc:C200014">relation sociale économique et culturelle dans la relation</a></code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>commande des œuvres à [dans la relation]</td>
+                           <td><code><a href="https://rdafr.fr/Elements/a/P500038r">rdafra:P500038r</a></code></td>
+                           <td><code><a href="#rdafrc:C200018">relation commande à - reçoit des commandes d'oeuvres</a></code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>commandite [dans la relation]</td>
+                           <td><code><a href="https://rdafr.fr/Elements/a/P500084r">rdafra:P500084r</a></code></td>
+                           <td><code><a href="#rdafrc:C200040">relation personne commandite - collectivité commandité par</a></code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>descend de [dans la relation]</td>
+                           <td><code><a href="https://rdafr.fr/Elements/a/P500048r">rdafra:P500048r</a></code></td>
+                           <td><code><a href="#rdafrc:C200023">relation descend - a pour descendant ou descendante</a></code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>dirige [dans la relation]</td>
+                           <td><code><a href="https://rdafr.fr/Elements/a/P500080r">rdafra:P500080r</a></code></td>
+                           <td><code><a href="#rdafrc:C200038">relation dirige - est dirigée par</a></code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>est commandité par [dans la relation]</td>
+                           <td><code><a href="https://rdafr.fr/Elements/a/P500082r">rdafra:P500082r</a></code></td>
+                           <td><code><a href="#rdafrc:C200039">relation personne commanditée - collectivité commandite</a></code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>est diplômé de [dans la relation]</td>
+                           <td><code><a href="https://rdafr.fr/Elements/a/P500072r">rdafra:P500072r</a></code></td>
+                           <td><code><a href="#rdafrc:C200034">relation est diplômé de - a un diplômé ou diplômée</a></code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>est influencé ou influencée par [dans la relation]</td>
+                           <td><code><a href="https://rdafr.fr/Elements/a/P500036r">rdafra:P500036r</a></code></td>
+                           <td><code><a href="#rdafrc:C200016">relation influence - influencé par</a></code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>est la conjointe ou le conjoint de [dans la relation]</td>
+                           <td><code><a href="https://rdafr.fr/Elements/a/P500058r">rdafra:P500058r</a></code></td>
+                           <td><code><a href="#rdafrc:C200028">relation est la conjointe ou le conjoint de</a></code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>est la sœur ou le frère de [dans la relation]</td>
+                           <td><code><a href="https://rdafr.fr/Elements/a/P500056r">rdafra:P500056r</a></code></td>
+                           <td><code><a href="#rdafrc:C200027">relation est la sœur ou le frère de</a></code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>est le parent de [dans la relation]</td>
+                           <td><code><a href="https://rdafr.fr/Elements/a/P500052r">rdafra:P500052r</a></code></td>
+                           <td><code><a href="#rdafrc:C200025">relation a pour parent - a pour enfant</a></code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>est l’enfant de [dans la relation]</td>
+                           <td><code><a href="https://rdafr.fr/Elements/a/P500054r">rdafra:P500054r</a></code></td>
+                           <td><code><a href="#rdafrc:C200025">relation a pour parent - a pour enfant</a></code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>est membre d'une collectivité [dans la relation]</td>
+                           <td><code><a href="https://rdafr.fr/Elements/a/P500068r">rdafra:P500068r</a></code></td>
+                           <td><code><a href="#rdafrc:C200033">relation membre d'une collectivité - collectivité a membre</a></code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>est membre d'une famille [dans la relation]</td>
+                           <td><code><a href="https://rdafr.fr/Elements/a/P500064r">rdafra:P500064r</a></code></td>
+                           <td><code><a href="#rdafrc:C200031">relation est membre de famille - famille a comme membre</a></code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>est mécène de [dans la relation]</td>
+                           <td><code><a href="https://rdafr.fr/Elements/a/P500042r">rdafra:P500042r</a></code></td>
+                           <td><code><a href="#rdafrc:C200020">relation est mécène de - a pour mécène</a></code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>est propriétaire [dans la relation]</td>
+                           <td><code><a href="https://rdafr.fr/Elements/a/P500078r">rdafra:P500078r</a></code></td>
+                           <td><code><a href="#rdafrc:C200037">relation est propriétaire - est la propriété de</a></code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>est à distinguer de collectivité [dans la relation]</td>
+                           <td><code><a href="https://rdafr.fr/Elements/a/P500086r">rdafra:P500086r</a></code></td>
+                           <td><code><a href="#rdafrc:C200041">relation personne à distinguer de - collectivité à distinguer de</a></code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>est à distinguer de personne [dans la relation]</td>
+                           <td><code><a href="https://rdafr.fr/Elements/a/P500060r">rdafra:P500060r</a></code></td>
+                           <td><code><a href="#rdafrc:C200029">relation est à distinguer de</a></code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>est élève de [dans la relation]</td>
+                           <td><code><a href="https://rdafr.fr/Elements/a/P500030r">rdafra:P500030r</a></code></td>
+                           <td><code><a href="#rdafrc:C200015">relation a pour élève - a pour enseignant</a></code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>fonde une collectivité [dans la relation]</td>
+                           <td><code><a href="https://rdafr.fr/Elements/a/P500076r">rdafra:P500076r</a></code></td>
+                           <td><code><a href="#rdafrc:C200036">relation fonde une collectivité - collectivité fondée par</a></code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>fonde une famille [dans la relation]</td>
+                           <td><code><a href="https://rdafr.fr/Elements/a/P500066r">rdafra:P500066r</a></code></td>
+                           <td><code><a href="#rdafrc:C200032">relation fonde une famille - famille est fondée par</a></code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>influence [dans la relation]</td>
+                           <td><code><a href="https://rdafr.fr/Elements/a/P500034r">rdafra:P500034r</a></code></td>
+                           <td><code><a href="#rdafrc:C200016">relation influence - influencé par</a></code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>reçoit des commandes de [dans la relation]</td>
+                           <td><code><a href="https://rdafr.fr/Elements/a/P500040r">rdafra:P500040r</a></code></td>
+                           <td><code><a href="#rdafrc:C200018">relation commande à - reçoit des commandes d'oeuvres</a></code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>travaille pour [dans la relation]</td>
+                           <td><code><a href="https://rdafr.fr/Elements/a/P500074r">rdafra:P500074r</a></code></td>
+                           <td><code><a href="#rdafrc:C200035">relation travaille pour - emploie</a></code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+            </div>
+         </div><br><div class="row mt-3">
+            <div class="col">
+               <section id="rdafrc:C100005">
+                  <div class="sp_section_title_table_wrapper">
+                     <h2 class="sp_section_title_table">collectivité</h2><code class="sp_section_uri">https://rdafr.fr/Elements/c/C100005</code></div>
+                  <p><em>Agent identifié comme étant une organisation ou une partie d'organisation, ou un groupe de personnes et/ou d'organisations.
+Une collectivité n’est considérée comme telle que si elle est identifiée par un nom particulier et si elle agit, ou peut agir, comme une unité. Un nom particulier consiste en une appellation spécifique plutôt qu’en une description générale.</em></p>
+                  <ul class="sp_list_description_properties">
+                     <li>S'applique à : <a href="https://rdafr.fr/Elements/c/C100005">rdafrc:C100005</a></li>
+                     <li>Hérite de : <a href="#rdafrc:C100002">agent</a></li>
+                     <li>Type de noeud : IRI</li>
+                     <li>Shape fermée</li>
+                  </ul>
+               </section>
+            </div>
+         </div><br><div class="row mt-3">
+            <div class="col">
+               <section id="rdafrc:C100008">
+                  <div class="sp_section_title_table_wrapper">
+                     <h2 class="sp_section_title_table">famille</h2><code class="sp_section_uri">https://rdafr.fr/Elements/c/C100008</code></div>
+                  <ul class="sp_list_description_properties">
+                     <li>S'applique à : <a href="https://rdafr.fr/Elements/c/C100008">rdafrc:C100008</a></li>
+                     <li>Hérite de : <a href="#rdafrc:C100002">agent</a></li>
+                     <li>Type de noeud : IRI</li>
+                     <li>Shape fermée</li>
+                  </ul>
+               </section>
+            </div>
+         </div><br><div class="row mt-3">
+            <div class="col">
+               <section id="rdafrc:C100015">
+                  <div class="sp_section_title_table_wrapper">
+                     <h2 class="sp_section_title_table">identité publique de personne</h2><code class="sp_section_uri">https://rdafr.fr/Elements/c/C100015</code></div>
+                  <p><em>Identité d’une personne qui est connue ou a été rendue publique.
+Les personnes sont identifiées à travers leurs identités publiques. 
+Les noms présentés comme des noms de personnes réelles constituent également des identités publiques distinctes.</em></p>
+                  <ul class="sp_list_description_properties">
+                     <li>S'applique à : <a href="https://rdafr.fr/Elements/c/C100015">rdafrc:C100015</a></li>
+                     <li>Hérite de : <a href="#rdafrc:C100013">entité rdafr</a></li>
+                     <li>Type de noeud : IRI</li>
+                     <li>Shape fermée</li>
+                  </ul>
+               </section>
+            </div>
+         </div><br><div class="row mt-3">
+            <div class="col">
+               <section id="rdafrc:C100016">
+                  <div class="sp_section_title_table_wrapper">
+                     <h2 class="sp_section_title_table">entité fictive</h2><code class="sp_section_uri">https://rdafr.fr/Elements/c/C100016</code></div>
+                  <p><em>personnes, organisations, lieux... fictifs</em></p>
+                  <ul class="sp_list_description_properties">
+                     <li>S'applique à : <a href="https://rdafr.fr/Elements/c/C100016">rdafrc:C100016</a></li>
+                     <li>Hérite de : <a href="#rdafrc:C100013">entité rdafr</a></li>
+                     <li>Type de noeud : IRI</li>
+                     <li>Shape fermée</li>
+                  </ul>
+               </section>
+            </div>
+         </div><br><div class="row mt-3">
+            <div class="col">
+               <section id="rdafrc:C100001">
+                  <div class="sp_section_title_table_wrapper">
+                     <h2 class="sp_section_title_table">oeuvre</h2><code class="sp_section_uri">https://rdafr.fr/Elements/c/C100001</code></div>
+                  <ul class="sp_list_description_properties">
+                     <li>S'applique à : <a href="https://rdafr.fr/Elements/c/C100001">rdafrc:C100001</a></li>
+                     <li>Hérite de : <a href="#rdafrc:C100013">entité rdafr</a></li>
+                     <li>Type de noeud : IRI</li>
+                     <li>Shape fermée</li>
+                  </ul>
+               </section>
+            </div>
+         </div><br><div class="row mt-3">
+            <div class="col">
+               <section id="rdafrc:C100006">
+                  <div class="sp_section_title_table_wrapper">
+                     <h2 class="sp_section_title_table">expression</h2><code class="sp_section_uri">https://rdafr.fr/Elements/c/C100006</code></div>
+                  <ul class="sp_list_description_properties">
+                     <li>S'applique à : <a href="https://rdafr.fr/Elements/c/C100006">rdafrc:C100006</a></li>
+                     <li>Hérite de : <a href="#rdafrc:C100013">entité rdafr</a></li>
+                     <li>Type de noeud : IRI</li>
+                     <li>Shape fermée</li>
+                  </ul>
+               </section>
+            </div>
+         </div><br><div class="row mt-3">
+            <div class="col">
+               <section id="rdafrc:C100007">
+                  <div class="sp_section_title_table_wrapper">
+                     <h2 class="sp_section_title_table">manifestation</h2><code class="sp_section_uri">https://rdafr.fr/Elements/c/C100007</code></div>
+                  <ul class="sp_list_description_properties">
+                     <li>S'applique à : <a href="https://rdafr.fr/Elements/c/C100007">rdafrc:C100007</a></li>
+                     <li>Hérite de : <a href="#rdafrc:C100013">entité rdafr</a></li>
+                     <li>Type de noeud : IRI</li>
+                     <li>Shape fermée</li>
+                  </ul>
+               </section>
+            </div>
+         </div><br><div class="row mt-3">
+            <div class="col">
+               <section id="rdafrc:C100003">
+                  <div class="sp_section_title_table_wrapper">
+                     <h2 class="sp_section_title_table">item</h2><code class="sp_section_uri">https://rdafr.fr/Elements/c/C100003</code></div>
+                  <ul class="sp_list_description_properties">
+                     <li>S'applique à : <a href="https://rdafr.fr/Elements/c/C100003">rdafrc:C100003</a></li>
+                     <li>Hérite de : <a href="#rdafrc:C100013">entité rdafr</a></li>
+                     <li>Type de noeud : IRI</li>
+                     <li>Shape fermée</li>
+                  </ul>
+               </section>
+            </div>
+         </div><br><div class="row mt-3">
+            <div class="col">
+               <section id="rdafrc:C100020">
+                  <div class="sp_section_title_table_wrapper">
+                     <h2 class="sp_section_title_table">concept (rda-fr)</h2><code class="sp_section_uri">https://rdafr.fr/Elements/c/C100020</code></div>
+                  <ul class="sp_list_description_properties">
+                     <li>S'applique à : <a href="https://rdafr.fr/Elements/c/C100020">rdafrc:C100020</a></li>
+                     <li>Hérite de : <a href="#rdafrc:C100013">entité rdafr</a></li>
+                     <li>Type de noeud : IRI</li>
+                     <li>Shape fermée</li>
+                  </ul>
+               </section>
+            </div>
+         </div><br><div class="row mt-3">
+            <div class="col">
+               <section id="rdafrc:C100009">
+                  <div class="sp_section_title_table_wrapper">
+                     <h2 class="sp_section_title_table">lieu</h2><code class="sp_section_uri">https://rdafr.fr/Elements/c/C100009</code></div>
+                  <p><em>Une portion d'espace déterminée</em></p>
+                  <ul class="sp_list_description_properties">
+                     <li>S'applique à : <a href="https://rdafr.fr/Elements/c/C100009">rdafrc:C100009</a></li>
+                     <li>Hérite de : <a href="#rdafrc:C100013">entité rdafr</a></li>
+                     <li>Type de noeud : IRI</li>
+                     <li>Shape fermée</li>
+                  </ul>
+               </section>
+            </div>
+         </div><br><div class="row mt-3">
+            <div class="col">
+               <section id="rdafrc:C100017">
+                  <div class="sp_section_title_table_wrapper">
+                     <h2 class="sp_section_title_table">objet</h2><code class="sp_section_uri">https://rdafr.fr/Elements/c/C100017</code></div>
+                  <ul class="sp_list_description_properties">
+                     <li>S'applique à : <a href="https://rdafr.fr/Elements/c/C100017">rdafrc:C100017</a></li>
+                     <li>Hérite de : <a href="#rdafrc:C100013">entité rdafr</a></li>
+                     <li>Type de noeud : IRI</li>
+                     <li>Shape fermée</li>
+                  </ul>
+               </section>
+            </div>
+         </div><br><div class="row mt-3">
+            <div class="col">
+               <section id="rdafrc:C100018">
+                  <div class="sp_section_title_table_wrapper">
+                     <h2 class="sp_section_title_table">événement</h2><code class="sp_section_uri">https://rdafr.fr/Elements/c/C100018</code></div>
+                  <ul class="sp_list_description_properties">
+                     <li>S'applique à : <a href="https://rdafr.fr/Elements/c/C100018">rdafrc:C100018</a></li>
+                     <li>Hérite de : <a href="#rdafrc:C100013">entité rdafr</a></li>
+                     <li>Type de noeud : IRI</li>
+                     <li>Shape fermée</li>
+                  </ul>
+               </section>
+            </div>
+         </div><br><div class="row mt-3">
+            <div class="col">
+               <section id="rdafrc:C100019">
+                  <div class="sp_section_title_table_wrapper">
+                     <h2 class="sp_section_title_table">événement culturel</h2><code class="sp_section_uri">https://rdafr.fr/Elements/c/C100019</code></div>
+                  <ul class="sp_list_description_properties">
+                     <li>S'applique à : <a href="https://rdafr.fr/Elements/c/C100019">rdafrc:C100019</a></li>
+                     <li>Hérite de : <a href="#rdafrc:C100013">entité rdafr</a></li>
+                     <li>Type de noeud : IRI</li>
+                     <li>Shape fermée</li>
+                  </ul>
+               </section>
+            </div>
+         </div><br><div class="row mt-3">
+            <div class="col">
+               <section id="rdafrc:C100010">
+                  <div class="sp_section_title_table_wrapper">
+                     <h2 class="sp_section_title_table">laps de temps</h2><code class="sp_section_uri">https://rdafr.fr/Elements/c/C100010</code></div>
+                  <ul class="sp_list_description_properties">
+                     <li>S'applique à : <a href="https://rdafr.fr/Elements/c/C100010">rdafrc:C100010</a></li>
+                     <li>Hérite de : <a href="#rdafrc:C100013">entité rdafr</a></li>
+                     <li>Type de noeud : IRI</li>
+                     <li>Shape fermée</li>
+                  </ul>
+                  <table class="sp_table_propertyshapes table-striped table-responsive">
+                     <thead>
+                        <tr>
+                           <th>Nom de la propriété</th>
+                           <th>URI</th>
+                           <th>Valeur attendue</th>
+                           <th>Card.</th>
+                           <th class="sp_description_column">Description</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>a calendrier de référence</td>
+                           <td><code><a href="https://rdafr.fr/Elements/x/P510002u">rdafrx:P510002u</a></code></td>
+                           <td><code><a href="#rdafrtl:Calendrier">Calendrier</a></code><br></td>
+                           <td>
+                              <div style="width:30px">1..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>a pour degré de certitude</td>
+                           <td><code><a href="https://rdafr.fr/Elements/x/P100005u">rdafrx:P100005u</a></code></td>
+                           <td><code><a href="#rdafrtl:DegreCertitude">Degré de certitude</a></code><br></td>
+                           <td>
+                              <div style="width:30px">1..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>a pour source [texte]</td>
+                           <td><code><a href="https://rdafr.fr/Elements/x/P100003t">rdafrx:P100003t</a></code></td>
+                           <td><code>rdf:langString</code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>a pour source [uri]</td>
+                           <td><code><a href="https://rdafr.fr/Elements/x/P100003u">rdafrx:P100003u</a></code></td>
+                           <td><code><a href="#rdafrc:C200000">relation</a></code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>date [texte]</td>
+                           <td><code><a href="https://rdafr.fr/Elements/t/P510004t">rdafrt:P510004t</a></code></td>
+                           <td><code>rdfs:Literal</code><br></td>
+                           <td>
+                              <div style="width:30px">0..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>date standardisée</td>
+                           <td><code><a href="https://rdafr.fr/Elements/t/P510005t">rdafrt:P510005t</a></code></td>
+                           <td><code>rdfs:Literal</code><br></td>
+                           <td>
+                              <div style="width:30px">0..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+            </div>
+         </div><br><div class="row mt-3">
+            <div class="col">
+               <section id="rdafrc:C100021">
+                  <div class="sp_section_title_table_wrapper">
+                     <h2 class="sp_section_title_table">période</h2><code class="sp_section_uri">https://rdafr.fr/Elements/c/C100021</code></div>
+                  <ul class="sp_list_description_properties">
+                     <li>S'applique à : <a href="https://rdafr.fr/Elements/c/C100021">rdafrc:C100021</a></li>
+                     <li>Hérite de : <a href="#rdafrc:C100010">laps de temps</a></li>
+                     <li>Type de noeud : IRI</li>
+                     <li>Shape fermée</li>
+                  </ul>
+                  <table class="sp_table_propertyshapes table-striped table-responsive">
+                     <thead>
+                        <tr>
+                           <th>Nom de la propriété</th>
+                           <th>URI</th>
+                           <th>Valeur attendue</th>
+                           <th>Card.</th>
+                           <th class="sp_description_column">Description</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>a une date de début</td>
+                           <td><code><a href="https://rdafr.fr/Elements/t/P510020u">rdafrt:P510020u</a></code></td>
+                           <td><code><a href="#rdafrc:C100022">date unique</a></code><br></td>
+                           <td>
+                              <div style="width:30px">1..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>a une date de fin</td>
+                           <td><code><a href="https://rdafr.fr/Elements/t/P510021u">rdafrt:P510021u</a></code></td>
+                           <td><code><a href="#rdafrc:C100022">date unique</a></code><br></td>
+                           <td>
+                              <div style="width:30px">1..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+            </div>
+         </div><br><div class="row mt-3">
+            <div class="col">
+               <section id="rdafrc:C100022">
+                  <div class="sp_section_title_table_wrapper">
+                     <h2 class="sp_section_title_table">date unique</h2><code class="sp_section_uri">https://rdafr.fr/Elements/c/C100022</code></div>
+                  <ul class="sp_list_description_properties">
+                     <li>S'applique à : <a href="https://rdafr.fr/Elements/c/C100022">rdafrc:C100022</a></li>
+                     <li>Hérite de : <a href="#rdafrc:C100010">laps de temps</a></li>
+                     <li>Type de noeud : IRI</li>
+                     <li>Shape fermée</li>
+                  </ul>
+               </section>
+            </div>
+         </div><br><div class="row mt-3">
+            <div class="col">
+               <section id="rdafrc:C100024">
+                  <div class="sp_section_title_table_wrapper">
+                     <h2 class="sp_section_title_table">texte</h2><code class="sp_section_uri">https://rdafr.fr/Elements/c/C100024</code></div>
+                  <ul class="sp_list_description_properties">
+                     <li>S'applique à : <a href="https://rdafr.fr/Elements/c/C100024">rdafrc:C100024</a></li>
+                     <li>Hérite de : <a href="#rdafrc:C100013">entité rdafr</a></li>
+                     <li>Type de noeud : IRI</li>
+                     <li>Shape fermée</li>
+                  </ul>
+               </section>
+            </div>
+         </div><br><div class="row mt-3">
+            <div class="col">
+               <section id="rdafrc:C100023">
+                  <div class="sp_section_title_table_wrapper">
+                     <h2 class="sp_section_title_table">série de date ou de laps de temps</h2><code class="sp_section_uri">https://rdafr.fr/Elements/c/C100023</code></div>
+                  <ul class="sp_list_description_properties">
+                     <li>S'applique à : <a href="https://rdafr.fr/Elements/c/C100023">rdafrc:C100023</a></li>
+                     <li>Hérite de : <a href="#rdafrc:C100010">laps de temps</a></li>
+                     <li>Type de noeud : IRI</li>
+                     <li>Shape fermée</li>
+                  </ul>
+                  <table class="sp_table_propertyshapes table-striped table-responsive">
+                     <thead>
+                        <tr>
+                           <th>Nom de la propriété</th>
+                           <th>URI</th>
+                           <th>Valeur attendue</th>
+                           <th>Card.</th>
+                           <th class="sp_description_column">Description</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>est constitué d'une date unique</td>
+                           <td><code><a href="https://rdafr.fr/Elements/t/P510022u">rdafrt:P510022u</a></code></td>
+                           <td><code><a href="#rdafrc:C100022">date unique</a></code><br></td>
+                           <td>
+                              <div style="width:30px">1..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>est constitué d'une période</td>
+                           <td><code><a href="https://rdafr.fr/Elements/t/P510023u">rdafrt:P510023u</a></code></td>
+                           <td><code><a href="#rdafrc:C100021">période</a></code><br></td>
+                           <td>
+                              <div style="width:30px">1..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+            </div>
+         </div><br><div class="row mt-3">
+            <div class="col">
+               <section id="rdafrc:C200000">
+                  <div class="sp_section_title_table_wrapper">
+                     <h2 class="sp_section_title_table">relation</h2><code class="sp_section_uri">https://rdafr.fr/Elements/c/C200000</code></div>
+                  <ul class="sp_list_description_properties">
+                     <li>S'applique à : <a href="https://rdafr.fr/Elements/c/C200000">rdafrc:C200000</a></li>
+                     <li>Hérite de : <a href="#rdafrc:C100013">entité rdafr</a></li>
+                     <li>Type de noeud : IRI</li>
+                     <li>Shape fermée</li>
+                  </ul>
+                  <table class="sp_table_propertyshapes table-striped table-responsive">
+                     <thead>
+                        <tr>
+                           <th>Nom de la propriété</th>
+                           <th>URI</th>
+                           <th>Valeur attendue</th>
+                           <th>Card.</th>
+                           <th class="sp_description_column">Description</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>a laps de temps</td>
+                           <td><code><a href="https://rdafr.fr/Elements/x/P100002u">rdafrx:P100002u</a></code></td>
+                           <td><code><a href="#rdafrc:C100010">laps de temps</a></code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>a pour degré de certitude</td>
+                           <td><code><a href="https://rdafr.fr/Elements/x/P100005u">rdafrx:P100005u</a></code></td>
+                           <td><code><a href="#rdafrtl:DegreCertitude">Degré de certitude</a></code><br></td>
+                           <td>
+                              <div style="width:30px">0..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>a pour source [texte]</td>
+                           <td><code><a href="https://rdafr.fr/Elements/x/P100003t">rdafrx:P100003t</a></code></td>
+                           <td><code>rdf:langString</code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>a pour source [uri]</td>
+                           <td><code><a href="https://rdafr.fr/Elements/x/P100003u">rdafrx:P100003u</a></code></td>
+                           <td><code><a href="#rdafrc:C100013">entité rdafr</a></code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>a un caractère confidentiel</td>
+                           <td><code><a href="https://rdafr.fr/Elements/x/P100006">rdafrx:P100006</a></code></td>
+                           <td><code>xsd:boolean</code><br></td>
+                           <td>
+                              <div style="width:30px">0..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>valeur textuelle de la relation</td>
+                           <td><code><a href="https://rdafr.fr/Elements/r/P200001t">rdafrr:P200001t</a></code></td>
+                           <td><code>rdfs:Literal</code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+            </div>
+         </div><br><div class="row mt-3">
+            <div class="col">
+               <section id="rdafrc:C200001">
+                  <div class="sp_section_title_table_wrapper">
+                     <h2 class="sp_section_title_table">relation de lieu</h2><code class="sp_section_uri">https://rdafr.fr/Elements/c/C200001</code></div>
+                  <ul class="sp_list_description_properties">
+                     <li>S'applique à : <a href="https://rdafr.fr/Elements/c/C200001">rdafrc:C200001</a></li>
+                     <li>Hérite de : <a href="#rdafrc:C200000">relation</a></li>
+                     <li>Type de noeud : IRI</li>
+                     <li>Shape fermée</li>
+                  </ul>
+                  <table class="sp_table_propertyshapes table-striped table-responsive">
+                     <thead>
+                        <tr>
+                           <th>Nom de la propriété</th>
+                           <th>URI</th>
+                           <th>Valeur attendue</th>
+                           <th>Card.</th>
+                           <th class="sp_description_column">Description</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>a pour lieu [texte]</td>
+                           <td><code><a href="https://rdafr.fr/Elements/r/P200004t">rdafrr:P200004t</a></code></td>
+                           <td><code>rdf:langString</code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>a pour lieu [uri]</td>
+                           <td><code><a href="https://rdafr.fr/Elements/r/P200004u">rdafrr:P200004u</a></code></td>
+                           <td><code><a href="#rdafrc:C100009">lieu</a></code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+            </div>
+         </div><br><div class="row mt-3">
+            <div class="col">
+               <section id="rdafrc:C200014">
+                  <div class="sp_section_title_table_wrapper">
+                     <h2 class="sp_section_title_table">relation sociale économique et culturelle dans la relation</h2><code class="sp_section_uri">https://rdafr.fr/Elements/c/C200014</code></div>
+                  <ul class="sp_list_description_properties">
+                     <li>S'applique à : <a href="https://rdafr.fr/Elements/c/C200014">rdafrc:C200014</a></li>
+                     <li>Hérite de : <a href="#rdafrc:C200000">relation</a></li>
+                     <li>Type de noeud : IRI</li>
+                     <li>Shape fermée</li>
+                  </ul>
+                  <table class="sp_table_propertyshapes table-striped table-responsive">
+                     <thead>
+                        <tr>
+                           <th>Nom de la propriété</th>
+                           <th>URI</th>
+                           <th>Valeur attendue</th>
+                           <th>Card.</th>
+                           <th class="sp_description_column">Description</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>a pour relation sociale économique et culturelle</td>
+                           <td><code><a href="https://rdafr.fr/Elements/r/P200103t">rdafrr:P200103t</a></code></td>
+                           <td><code>rdfs:Literal</code><br></td>
+                           <td>
+                              <div style="width:30px">0..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+            </div>
+         </div><br><div class="row mt-3">
+            <div class="col">
+               <section id="rdafrc:C200015">
+                  <div class="sp_section_title_table_wrapper">
+                     <h2 class="sp_section_title_table">relation a pour élève - a pour enseignant</h2><code class="sp_section_uri">https://rdafr.fr/Elements/c/C200015</code></div>
+                  <ul class="sp_list_description_properties">
+                     <li>S'applique à : <a href="https://rdafr.fr/Elements/c/C200015">rdafrc:C200015</a></li>
+                     <li>Hérite de : <a href="#rdafrc:C200014">relation sociale économique et culturelle dans la relation</a></li>
+                     <li>Type de noeud : IRI</li>
+                     <li>Shape fermée</li>
+                  </ul>
+                  <table class="sp_table_propertyshapes table-striped table-responsive">
+                     <thead>
+                        <tr>
+                           <th>Nom de la propriété</th>
+                           <th>URI</th>
+                           <th>Valeur attendue</th>
+                           <th>Card.</th>
+                           <th class="sp_description_column">Description</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>est enseignant de</td>
+                           <td><code><a href="https://rdafr.fr/Elements/r/P200105t">rdafrr:P200105t</a></code></td>
+                           <td><code>rdfs:Literal</code><br></td>
+                           <td>
+                              <div style="width:30px">0..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>est élève de</td>
+                           <td><code><a href="https://rdafr.fr/Elements/r/P200104t">rdafrr:P200104t</a></code></td>
+                           <td><code>rdfs:Literal</code><br></td>
+                           <td>
+                              <div style="width:30px">0..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+            </div>
+         </div><br><div class="row mt-3">
+            <div class="col">
+               <section id="rdafrc:C200016">
+                  <div class="sp_section_title_table_wrapper">
+                     <h2 class="sp_section_title_table">relation influence - influencé par</h2><code class="sp_section_uri">https://rdafr.fr/Elements/c/C200016</code></div>
+                  <ul class="sp_list_description_properties">
+                     <li>S'applique à : <a href="https://rdafr.fr/Elements/c/C200016">rdafrc:C200016</a></li>
+                     <li>Hérite de : <a href="#rdafrc:C200014">relation sociale économique et culturelle dans la relation</a></li>
+                     <li>Type de noeud : IRI</li>
+                     <li>Shape fermée</li>
+                  </ul>
+                  <table class="sp_table_propertyshapes table-striped table-responsive">
+                     <thead>
+                        <tr>
+                           <th>Nom de la propriété</th>
+                           <th>URI</th>
+                           <th>Valeur attendue</th>
+                           <th>Card.</th>
+                           <th class="sp_description_column">Description</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>est influencé ou influencée par</td>
+                           <td><code><a href="https://rdafr.fr/Elements/r/P200108t">rdafrr:P200108t</a></code></td>
+                           <td><code>rdfs:Literal</code><br></td>
+                           <td>
+                              <div style="width:30px">0..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>influence</td>
+                           <td><code><a href="https://rdafr.fr/Elements/r/P200107t">rdafrr:P200107t</a></code></td>
+                           <td><code>rdfs:Literal</code><br></td>
+                           <td>
+                              <div style="width:30px">0..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+            </div>
+         </div><br><div class="row mt-3">
+            <div class="col">
+               <section id="rdafrc:C200018">
+                  <div class="sp_section_title_table_wrapper">
+                     <h2 class="sp_section_title_table">relation commande à - reçoit des commandes d'oeuvres</h2><code class="sp_section_uri">https://rdafr.fr/Elements/c/C200018</code></div>
+                  <ul class="sp_list_description_properties">
+                     <li>S'applique à : <a href="https://rdafr.fr/Elements/c/C200018">rdafrc:C200018</a></li>
+                     <li>Hérite de : <a href="#rdafrc:C200014">relation sociale économique et culturelle dans la relation</a></li>
+                     <li>Type de noeud : IRI</li>
+                     <li>Shape fermée</li>
+                  </ul>
+                  <table class="sp_table_propertyshapes table-striped table-responsive">
+                     <thead>
+                        <tr>
+                           <th>Nom de la propriété</th>
+                           <th>URI</th>
+                           <th>Valeur attendue</th>
+                           <th>Card.</th>
+                           <th class="sp_description_column">Description</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>commande des œuvres à</td>
+                           <td><code><a href="https://rdafr.fr/Elements/r/P200109t">rdafrr:P200109t</a></code></td>
+                           <td><code>rdfs:Literal</code><br></td>
+                           <td>
+                              <div style="width:30px">0..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>reçoit des commandes de</td>
+                           <td><code><a href="https://rdafr.fr/Elements/r/P200110t">rdafrr:P200110t</a></code></td>
+                           <td><code>rdfs:Literal</code><br></td>
+                           <td>
+                              <div style="width:30px">0..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+            </div>
+         </div><br><div class="row mt-3">
+            <div class="col">
+               <section id="rdafrc:C200020">
+                  <div class="sp_section_title_table_wrapper">
+                     <h2 class="sp_section_title_table">relation est mécène de - a pour mécène</h2><code class="sp_section_uri">https://rdafr.fr/Elements/c/C200020</code></div>
+                  <ul class="sp_list_description_properties">
+                     <li>S'applique à : <a href="https://rdafr.fr/Elements/c/C200020">rdafrc:C200020</a></li>
+                     <li>Hérite de : <a href="#rdafrc:C200014">relation sociale économique et culturelle dans la relation</a></li>
+                     <li>Type de noeud : IRI</li>
+                     <li>Shape fermée</li>
+                  </ul>
+                  <table class="sp_table_propertyshapes table-striped table-responsive">
+                     <thead>
+                        <tr>
+                           <th>Nom de la propriété</th>
+                           <th>URI</th>
+                           <th>Valeur attendue</th>
+                           <th>Card.</th>
+                           <th class="sp_description_column">Description</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>a pour mécène</td>
+                           <td><code><a href="https://rdafr.fr/Elements/r/P200112t">rdafrr:P200112t</a></code></td>
+                           <td><code>rdfs:Literal</code><br></td>
+                           <td>
+                              <div style="width:30px">0..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>est mécène de</td>
+                           <td><code><a href="https://rdafr.fr/Elements/r/P200111t">rdafrr:P200111t</a></code></td>
+                           <td><code>rdfs:Literal</code><br></td>
+                           <td>
+                              <div style="width:30px">0..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+            </div>
+         </div><br><div class="row mt-3">
+            <div class="col">
+               <section id="rdafrc:C200022">
+                  <div class="sp_section_title_table_wrapper">
+                     <h2 class="sp_section_title_table">relation a pour associé ou associée</h2><code class="sp_section_uri">https://rdafr.fr/Elements/c/C200022</code></div>
+                  <ul class="sp_list_description_properties">
+                     <li>S'applique à : <a href="https://rdafr.fr/Elements/c/C200022">rdafrc:C200022</a></li>
+                     <li>Hérite de : <a href="#rdafrc:C200014">relation sociale économique et culturelle dans la relation</a></li>
+                     <li>Type de noeud : IRI</li>
+                     <li>Shape fermée</li>
+                  </ul>
+                  <table class="sp_table_propertyshapes table-striped table-responsive">
+                     <thead>
+                        <tr>
+                           <th>Nom de la propriété</th>
+                           <th>URI</th>
+                           <th>Valeur attendue</th>
+                           <th>Card.</th>
+                           <th class="sp_description_column">Description</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>a pour associé ou associée</td>
+                           <td><code><a href="https://rdafr.fr/Elements/r/P200113t">rdafrr:P200113t</a></code></td>
+                           <td><code>rdfs:Literal</code><br></td>
+                           <td>
+                              <div style="width:30px">0..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+            </div>
+         </div><br><div class="row mt-3">
+            <div class="col">
+               <section id="rdafrc:C200021">
+                  <div class="sp_section_title_table_wrapper">
+                     <h2 class="sp_section_title_table">relation familiale</h2><code class="sp_section_uri">https://rdafr.fr/Elements/c/C200021</code></div>
+                  <ul class="sp_list_description_properties">
+                     <li>S'applique à : <a href="https://rdafr.fr/Elements/c/C200021">rdafrc:C200021</a></li>
+                     <li>Hérite de : <a href="#rdafrc:C200000">relation</a></li>
+                     <li>Type de noeud : IRI</li>
+                     <li>Shape fermée</li>
+                  </ul>
+                  <table class="sp_table_propertyshapes table-striped table-responsive">
+                     <thead>
+                        <tr>
+                           <th>Nom de la propriété</th>
+                           <th>URI</th>
+                           <th>Valeur attendue</th>
+                           <th>Card.</th>
+                           <th class="sp_description_column">Description</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>a pour relation familiale</td>
+                           <td><code><a href="https://rdafr.fr/Elements/r/P200142t">rdafrr:P200142t</a></code></td>
+                           <td><code>rdfs:Literal</code><br></td>
+                           <td>
+                              <div style="width:30px">0..*</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+            </div>
+         </div><br><div class="row mt-3">
+            <div class="col">
+               <section id="rdafrc:C200023">
+                  <div class="sp_section_title_table_wrapper">
+                     <h2 class="sp_section_title_table">relation descend - a pour descendant ou descendante</h2><code class="sp_section_uri">https://rdafr.fr/Elements/c/C200023</code></div>
+                  <ul class="sp_list_description_properties">
+                     <li>S'applique à : <a href="https://rdafr.fr/Elements/c/C200023">rdafrc:C200023</a></li>
+                     <li>Hérite de : <a href="#rdafrc:C200021">relation familiale</a></li>
+                     <li>Type de noeud : IRI</li>
+                     <li>Shape fermée</li>
+                  </ul>
+                  <table class="sp_table_propertyshapes table-striped table-responsive">
+                     <thead>
+                        <tr>
+                           <th>Nom de la propriété</th>
+                           <th>URI</th>
+                           <th>Valeur attendue</th>
+                           <th>Card.</th>
+                           <th class="sp_description_column">Description</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>a pour descendant ou descendante</td>
+                           <td><code><a href="https://rdafr.fr/Elements/r/P200115t">rdafrr:P200115t</a></code></td>
+                           <td><code>rdfs:Literal</code><br></td>
+                           <td>
+                              <div style="width:30px">0..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>descend de</td>
+                           <td><code><a href="https://rdafr.fr/Elements/r/P200114t">rdafrr:P200114t</a></code></td>
+                           <td><code>rdfs:Literal</code><br></td>
+                           <td>
+                              <div style="width:30px">0..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+            </div>
+         </div><br><div class="row mt-3">
+            <div class="col">
+               <section id="rdafrc:C200025">
+                  <div class="sp_section_title_table_wrapper">
+                     <h2 class="sp_section_title_table">relation a pour parent - a pour enfant</h2><code class="sp_section_uri">https://rdafr.fr/Elements/c/C200025</code></div>
+                  <ul class="sp_list_description_properties">
+                     <li>S'applique à : <a href="https://rdafr.fr/Elements/c/C200025">rdafrc:C200025</a></li>
+                     <li>Hérite de : <a href="#rdafrc:C200021">relation familiale</a></li>
+                     <li>Type de noeud : IRI</li>
+                     <li>Shape fermée</li>
+                  </ul>
+                  <table class="sp_table_propertyshapes table-striped table-responsive">
+                     <thead>
+                        <tr>
+                           <th>Nom de la propriété</th>
+                           <th>URI</th>
+                           <th>Valeur attendue</th>
+                           <th>Card.</th>
+                           <th class="sp_description_column">Description</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>est le parent de</td>
+                           <td><code><a href="https://rdafr.fr/Elements/r/P200116t">rdafrr:P200116t</a></code></td>
+                           <td><code>rdfs:Literal</code><br></td>
+                           <td>
+                              <div style="width:30px">0..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>est l’enfant de</td>
+                           <td><code><a href="https://rdafr.fr/Elements/r/P200117t">rdafrr:P200117t</a></code></td>
+                           <td><code>rdfs:Literal</code><br></td>
+                           <td>
+                              <div style="width:30px">0..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+            </div>
+         </div><br><div class="row mt-3">
+            <div class="col">
+               <section id="rdafrc:C200027">
+                  <div class="sp_section_title_table_wrapper">
+                     <h2 class="sp_section_title_table">relation est la sœur ou le frère de</h2><code class="sp_section_uri">https://rdafr.fr/Elements/c/C200027</code></div>
+                  <ul class="sp_list_description_properties">
+                     <li>S'applique à : <a href="https://rdafr.fr/Elements/c/C200027">rdafrc:C200027</a></li>
+                     <li>Hérite de : <a href="#rdafrc:C200021">relation familiale</a></li>
+                     <li>Type de noeud : IRI</li>
+                     <li>Shape fermée</li>
+                  </ul>
+                  <table class="sp_table_propertyshapes table-striped table-responsive">
+                     <thead>
+                        <tr>
+                           <th>Nom de la propriété</th>
+                           <th>URI</th>
+                           <th>Valeur attendue</th>
+                           <th>Card.</th>
+                           <th class="sp_description_column">Description</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>est la sœur ou le frère de</td>
+                           <td><code><a href="https://rdafr.fr/Elements/r/P200118t">rdafrr:P200118t</a></code></td>
+                           <td><code>rdfs:Literal</code><br></td>
+                           <td>
+                              <div style="width:30px">0..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+            </div>
+         </div><br><div class="row mt-3">
+            <div class="col">
+               <section id="rdafrc:C200028">
+                  <div class="sp_section_title_table_wrapper">
+                     <h2 class="sp_section_title_table">relation est la conjointe ou le conjoint de</h2><code class="sp_section_uri">https://rdafr.fr/Elements/c/C200028</code></div>
+                  <ul class="sp_list_description_properties">
+                     <li>S'applique à : <a href="https://rdafr.fr/Elements/c/C200028">rdafrc:C200028</a></li>
+                     <li>Hérite de : <a href="#rdafrc:C200021">relation familiale</a></li>
+                     <li>Type de noeud : IRI</li>
+                     <li>Shape fermée</li>
+                  </ul>
+                  <table class="sp_table_propertyshapes table-striped table-responsive">
+                     <thead>
+                        <tr>
+                           <th>Nom de la propriété</th>
+                           <th>URI</th>
+                           <th>Valeur attendue</th>
+                           <th>Card.</th>
+                           <th class="sp_description_column">Description</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>est la conjointe ou le conjoint de</td>
+                           <td><code><a href="https://rdafr.fr/Elements/r/P200119t">rdafrr:P200119t</a></code></td>
+                           <td><code>rdfs:Literal</code><br></td>
+                           <td>
+                              <div style="width:30px">0..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+            </div>
+         </div><br><div class="row mt-3">
+            <div class="col">
+               <section id="rdafrc:C200029">
+                  <div class="sp_section_title_table_wrapper">
+                     <h2 class="sp_section_title_table">relation est à distinguer de</h2><code class="sp_section_uri">https://rdafr.fr/Elements/c/C200029</code></div>
+                  <ul class="sp_list_description_properties">
+                     <li>S'applique à : <a href="https://rdafr.fr/Elements/c/C200029">rdafrc:C200029</a></li>
+                     <li>Hérite de : <a href="#rdafrc:C200014">relation sociale économique et culturelle dans la relation</a></li>
+                     <li>Type de noeud : IRI</li>
+                     <li>Shape fermée</li>
+                  </ul>
+                  <table class="sp_table_propertyshapes table-striped table-responsive">
+                     <thead>
+                        <tr>
+                           <th>Nom de la propriété</th>
+                           <th>URI</th>
+                           <th>Valeur attendue</th>
+                           <th>Card.</th>
+                           <th class="sp_description_column">Description</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>est à distinguer de</td>
+                           <td><code><a href="https://rdafr.fr/Elements/r/P200120t">rdafrr:P200120t</a></code></td>
+                           <td><code>rdf:langString</code><br></td>
+                           <td>
+                              <div style="width:30px">0..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+            </div>
+         </div><br><div class="row mt-3">
+            <div class="col">
+               <section id="rdafrc:C200031">
+                  <div class="sp_section_title_table_wrapper">
+                     <h2 class="sp_section_title_table">relation est membre de famille - famille a comme membre</h2><code class="sp_section_uri">https://rdafr.fr/Elements/c/C200031</code></div>
+                  <ul class="sp_list_description_properties">
+                     <li>S'applique à : <a href="https://rdafr.fr/Elements/c/C200031">rdafrc:C200031</a></li>
+                     <li>Hérite de : <a href="#rdafrc:C200014">relation sociale économique et culturelle dans la relation</a></li>
+                     <li>Type de noeud : IRI</li>
+                     <li>Shape fermée</li>
+                  </ul>
+                  <table class="sp_table_propertyshapes table-striped table-responsive">
+                     <thead>
+                        <tr>
+                           <th>Nom de la propriété</th>
+                           <th>URI</th>
+                           <th>Valeur attendue</th>
+                           <th>Card.</th>
+                           <th class="sp_description_column">Description</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>est membre d'une famille</td>
+                           <td><code><a href="https://rdafr.fr/Elements/r/P200122t">rdafrr:P200122t</a></code></td>
+                           <td><code>rdf:langString</code><br></td>
+                           <td>
+                              <div style="width:30px">0..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>famille a membre</td>
+                           <td><code><a href="https://rdafr.fr/Elements/r/P200121t">rdafrr:P200121t</a></code></td>
+                           <td><code>rdf:langString</code><br></td>
+                           <td>
+                              <div style="width:30px">0..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+            </div>
+         </div><br><div class="row mt-3">
+            <div class="col">
+               <section id="rdafrc:C200032">
+                  <div class="sp_section_title_table_wrapper">
+                     <h2 class="sp_section_title_table">relation fonde une famille - famille est fondée par</h2><code class="sp_section_uri">https://rdafr.fr/Elements/c/C200032</code></div>
+                  <ul class="sp_list_description_properties">
+                     <li>S'applique à : <a href="https://rdafr.fr/Elements/c/C200032">rdafrc:C200032</a></li>
+                     <li>Hérite de : <a href="#rdafrc:C200014">relation sociale économique et culturelle dans la relation</a></li>
+                     <li>Type de noeud : IRI</li>
+                     <li>Shape fermée</li>
+                  </ul>
+                  <table class="sp_table_propertyshapes table-striped table-responsive">
+                     <thead>
+                        <tr>
+                           <th>Nom de la propriété</th>
+                           <th>URI</th>
+                           <th>Valeur attendue</th>
+                           <th>Card.</th>
+                           <th class="sp_description_column">Description</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>famille fondée par</td>
+                           <td><code><a href="https://rdafr.fr/Elements/r/P200123t">rdafrr:P200123t</a></code></td>
+                           <td><code>rdf:langString</code><br></td>
+                           <td>
+                              <div style="width:30px">0..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>fonde une famille</td>
+                           <td><code><a href="https://rdafr.fr/Elements/r/P200124t">rdafrr:P200124t</a></code></td>
+                           <td><code>rdf:langString</code><br></td>
+                           <td>
+                              <div style="width:30px">0..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+            </div>
+         </div><br><div class="row mt-3">
+            <div class="col">
+               <section id="rdafrc:C200033">
+                  <div class="sp_section_title_table_wrapper">
+                     <h2 class="sp_section_title_table">relation membre d'une collectivité - collectivité a membre</h2><code class="sp_section_uri">https://rdafr.fr/Elements/c/C200033</code></div>
+                  <ul class="sp_list_description_properties">
+                     <li>S'applique à : <a href="https://rdafr.fr/Elements/c/C200033">rdafrc:C200033</a></li>
+                     <li>Hérite de : <a href="#rdafrc:C200014">relation sociale économique et culturelle dans la relation</a></li>
+                     <li>Type de noeud : IRI</li>
+                     <li>Shape fermée</li>
+                  </ul>
+                  <table class="sp_table_propertyshapes table-striped table-responsive">
+                     <thead>
+                        <tr>
+                           <th>Nom de la propriété</th>
+                           <th>URI</th>
+                           <th>Valeur attendue</th>
+                           <th>Card.</th>
+                           <th class="sp_description_column">Description</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>collectivité a membre</td>
+                           <td><code><a href="https://rdafr.fr/Elements/r/P200126t">rdafrr:P200126t</a></code></td>
+                           <td><code>rdf:langString</code><br></td>
+                           <td>
+                              <div style="width:30px">0..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>est membre d'une collectivité</td>
+                           <td><code><a href="https://rdafr.fr/Elements/r/P200125t">rdafrr:P200125t</a></code></td>
+                           <td><code>rdf:langString</code><br></td>
+                           <td>
+                              <div style="width:30px">0..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+            </div>
+         </div><br><div class="row mt-3">
+            <div class="col">
+               <section id="rdafrc:C200034">
+                  <div class="sp_section_title_table_wrapper">
+                     <h2 class="sp_section_title_table">relation est diplômé de - a un diplômé ou diplômée</h2><code class="sp_section_uri">https://rdafr.fr/Elements/c/C200034</code></div>
+                  <ul class="sp_list_description_properties">
+                     <li>S'applique à : <a href="https://rdafr.fr/Elements/c/C200034">rdafrc:C200034</a></li>
+                     <li>Hérite de : <a href="#rdafrc:C200014">relation sociale économique et culturelle dans la relation</a></li>
+                     <li>Type de noeud : IRI</li>
+                     <li>Shape fermée</li>
+                  </ul>
+                  <table class="sp_table_propertyshapes table-striped table-responsive">
+                     <thead>
+                        <tr>
+                           <th>Nom de la propriété</th>
+                           <th>URI</th>
+                           <th>Valeur attendue</th>
+                           <th>Card.</th>
+                           <th class="sp_description_column">Description</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>a diplôme</td>
+                           <td><code><a href="https://rdafr.fr/Elements/r/P200128t">rdafrr:P200128t</a></code></td>
+                           <td><code>rdf:langString</code><br></td>
+                           <td>
+                              <div style="width:30px">0..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>est diplômé de</td>
+                           <td><code><a href="https://rdafr.fr/Elements/r/P200127t">rdafrr:P200127t</a></code></td>
+                           <td><code>rdf:langString</code><br></td>
+                           <td>
+                              <div style="width:30px">0..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+            </div>
+         </div><br><div class="row mt-3">
+            <div class="col">
+               <section id="rdafrc:C200035">
+                  <div class="sp_section_title_table_wrapper">
+                     <h2 class="sp_section_title_table">relation travaille pour - emploie</h2><code class="sp_section_uri">https://rdafr.fr/Elements/c/C200035</code></div>
+                  <ul class="sp_list_description_properties">
+                     <li>S'applique à : <a href="https://rdafr.fr/Elements/c/C200035">rdafrc:C200035</a></li>
+                     <li>Hérite de : <a href="#rdafrc:C200014">relation sociale économique et culturelle dans la relation</a></li>
+                     <li>Type de noeud : IRI</li>
+                     <li>Shape fermée</li>
+                  </ul>
+                  <table class="sp_table_propertyshapes table-striped table-responsive">
+                     <thead>
+                        <tr>
+                           <th>Nom de la propriété</th>
+                           <th>URI</th>
+                           <th>Valeur attendue</th>
+                           <th>Card.</th>
+                           <th class="sp_description_column">Description</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>emploie</td>
+                           <td><code><a href="https://rdafr.fr/Elements/r/P200130t">rdafrr:P200130t</a></code></td>
+                           <td><code>rdf:langString</code><br></td>
+                           <td>
+                              <div style="width:30px">0..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>travaille pour</td>
+                           <td><code><a href="https://rdafr.fr/Elements/r/P200129t">rdafrr:P200129t</a></code></td>
+                           <td><code>rdf:langString</code><br></td>
+                           <td>
+                              <div style="width:30px">0..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+            </div>
+         </div><br><div class="row mt-3">
+            <div class="col">
+               <section id="rdafrc:C200036">
+                  <div class="sp_section_title_table_wrapper">
+                     <h2 class="sp_section_title_table">relation fonde une collectivité - collectivité fondée par</h2><code class="sp_section_uri">https://rdafr.fr/Elements/c/C200036</code></div>
+                  <ul class="sp_list_description_properties">
+                     <li>S'applique à : <a href="https://rdafr.fr/Elements/c/C200036">rdafrc:C200036</a></li>
+                     <li>Hérite de : <a href="#rdafrc:C200014">relation sociale économique et culturelle dans la relation</a></li>
+                     <li>Type de noeud : IRI</li>
+                     <li>Shape fermée</li>
+                  </ul>
+                  <table class="sp_table_propertyshapes table-striped table-responsive">
+                     <thead>
+                        <tr>
+                           <th>Nom de la propriété</th>
+                           <th>URI</th>
+                           <th>Valeur attendue</th>
+                           <th>Card.</th>
+                           <th class="sp_description_column">Description</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>fonde une collectivité</td>
+                           <td><code><a href="https://rdafr.fr/Elements/r/P200131t">rdafrr:P200131t</a></code></td>
+                           <td><code>rdf:langString</code><br></td>
+                           <td>
+                              <div style="width:30px">0..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+            </div>
+         </div><br><div class="row mt-3">
+            <div class="col">
+               <section id="rdafrc:C200037">
+                  <div class="sp_section_title_table_wrapper">
+                     <h2 class="sp_section_title_table">relation est propriétaire - est la propriété de</h2><code class="sp_section_uri">https://rdafr.fr/Elements/c/C200037</code></div>
+                  <ul class="sp_list_description_properties">
+                     <li>S'applique à : <a href="https://rdafr.fr/Elements/c/C200037">rdafrc:C200037</a></li>
+                     <li>Hérite de : <a href="#rdafrc:C200014">relation sociale économique et culturelle dans la relation</a></li>
+                     <li>Type de noeud : IRI</li>
+                     <li>Shape fermée</li>
+                  </ul>
+                  <table class="sp_table_propertyshapes table-striped table-responsive">
+                     <thead>
+                        <tr>
+                           <th>Nom de la propriété</th>
+                           <th>URI</th>
+                           <th>Valeur attendue</th>
+                           <th>Card.</th>
+                           <th class="sp_description_column">Description</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>est la propriété de</td>
+                           <td><code><a href="https://rdafr.fr/Elements/r/P200134t">rdafrr:P200134t</a></code></td>
+                           <td><code>rdf:langString</code><br></td>
+                           <td>
+                              <div style="width:30px">0..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>est propriétaire</td>
+                           <td><code><a href="https://rdafr.fr/Elements/r/P200132t">rdafrr:P200132t</a></code></td>
+                           <td><code>rdf:langString</code><br></td>
+                           <td>
+                              <div style="width:30px">0..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>fondée par</td>
+                           <td><code><a href="https://rdafr.fr/Elements/r/P200133t">rdafrr:P200133t</a></code></td>
+                           <td><code>rdf:langString</code><br></td>
+                           <td>
+                              <div style="width:30px">0..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+            </div>
+         </div><br><div class="row mt-3">
+            <div class="col">
+               <section id="rdafrc:C200038">
+                  <div class="sp_section_title_table_wrapper">
+                     <h2 class="sp_section_title_table">relation dirige - est dirigée par</h2><code class="sp_section_uri">https://rdafr.fr/Elements/c/C200038</code></div>
+                  <ul class="sp_list_description_properties">
+                     <li>S'applique à : <a href="https://rdafr.fr/Elements/c/C200038">rdafrc:C200038</a></li>
+                     <li>Hérite de : <a href="#rdafrc:C200014">relation sociale économique et culturelle dans la relation</a></li>
+                     <li>Type de noeud : IRI</li>
+                     <li>Shape fermée</li>
+                  </ul>
+                  <table class="sp_table_propertyshapes table-striped table-responsive">
+                     <thead>
+                        <tr>
+                           <th>Nom de la propriété</th>
+                           <th>URI</th>
+                           <th>Valeur attendue</th>
+                           <th>Card.</th>
+                           <th class="sp_description_column">Description</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>dirige</td>
+                           <td><code><a href="https://rdafr.fr/Elements/r/P200135t">rdafrr:P200135t</a></code></td>
+                           <td><code>rdf:langString</code><br></td>
+                           <td>
+                              <div style="width:30px">0..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>est dirigée par</td>
+                           <td><code><a href="https://rdafr.fr/Elements/r/P200136t">rdafrr:P200136t</a></code></td>
+                           <td><code>rdf:langString</code><br></td>
+                           <td>
+                              <div style="width:30px">0..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+            </div>
+         </div><br><div class="row mt-3">
+            <div class="col">
+               <section id="rdafrc:C200039">
+                  <div class="sp_section_title_table_wrapper">
+                     <h2 class="sp_section_title_table">relation personne commanditée - collectivité commandite</h2><code class="sp_section_uri">https://rdafr.fr/Elements/c/C200039</code></div>
+                  <ul class="sp_list_description_properties">
+                     <li>S'applique à : <a href="https://rdafr.fr/Elements/c/C200039">rdafrc:C200039</a></li>
+                     <li>Hérite de : <a href="#rdafrc:C200014">relation sociale économique et culturelle dans la relation</a></li>
+                     <li>Type de noeud : IRI</li>
+                     <li>Shape fermée</li>
+                  </ul>
+                  <table class="sp_table_propertyshapes table-striped table-responsive">
+                     <thead>
+                        <tr>
+                           <th>Nom de la propriété</th>
+                           <th>URI</th>
+                           <th>Valeur attendue</th>
+                           <th>Card.</th>
+                           <th class="sp_description_column">Description</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>commandite</td>
+                           <td><code><a href="https://rdafr.fr/Elements/r/P200138t">rdafrr:P200138t</a></code></td>
+                           <td><code>rdf:langString</code><br></td>
+                           <td>
+                              <div style="width:30px">0..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>est commandité par</td>
+                           <td><code><a href="https://rdafr.fr/Elements/r/P200137t">rdafrr:P200137t</a></code></td>
+                           <td><code>rdf:langString</code><br></td>
+                           <td>
+                              <div style="width:30px">0..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+            </div>
+         </div><br><div class="row mt-3">
+            <div class="col">
+               <section id="rdafrc:C200040">
+                  <div class="sp_section_title_table_wrapper">
+                     <h2 class="sp_section_title_table">relation personne commandite - collectivité commandité par</h2><code class="sp_section_uri">https://rdafr.fr/Elements/c/C200040</code></div>
+                  <ul class="sp_list_description_properties">
+                     <li>Hérite de : <a href="#rdafrc:C200014">relation sociale économique et culturelle dans la relation</a></li>
+                     <li>Type de noeud : IRI</li>
+                     <li>Shape fermée</li>
+                  </ul>
+                  <table class="sp_table_propertyshapes table-striped table-responsive">
+                     <thead>
+                        <tr>
+                           <th>Nom de la propriété</th>
+                           <th>URI</th>
+                           <th>Valeur attendue</th>
+                           <th>Card.</th>
+                           <th class="sp_description_column">Description</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>commandite</td>
+                           <td><code><a href="https://rdafr.fr/Elements/r/P200139t">rdafrr:P200139t</a></code></td>
+                           <td><code>rdf:langString</code><br></td>
+                           <td>
+                              <div style="width:30px">0..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                        <tr>
+                           <td>commanditée par</td>
+                           <td><code><a href="https://rdafr.fr/Elements/r/P200140t">rdafrr:P200140t</a></code></td>
+                           <td><code>rdf:langString</code><br></td>
+                           <td>
+                              <div style="width:30px">0..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+            </div>
+         </div><br><div class="row mt-3">
+            <div class="col">
+               <section id="rdafrc:C200041">
+                  <div class="sp_section_title_table_wrapper">
+                     <h2 class="sp_section_title_table">relation personne à distinguer de - collectivité à distinguer de</h2><code class="sp_section_uri">https://rdafr.fr/Elements/c/C200041</code></div>
+                  <ul class="sp_list_description_properties">
+                     <li>Hérite de : <a href="#rdafrc:C200014">relation sociale économique et culturelle dans la relation</a></li>
+                     <li>Type de noeud : IRI</li>
+                     <li>Shape fermée</li>
+                  </ul>
+                  <table class="sp_table_propertyshapes table-striped table-responsive">
+                     <thead>
+                        <tr>
+                           <th>Nom de la propriété</th>
+                           <th>URI</th>
+                           <th>Valeur attendue</th>
+                           <th>Card.</th>
+                           <th class="sp_description_column">Description</th>
+                        </tr>
+                     </thead>
+                     <tbody>
+                        <tr>
+                           <td>est à distinguer de collectivité</td>
+                           <td><code><a href="https://rdafr.fr/Elements/r/P200141t">rdafrr:P200141t</a></code></td>
+                           <td><code>rdf:langString</code><br></td>
+                           <td>
+                              <div style="width:30px">0..1</div>
+                           </td>
+                           <td class="sp_table_propertyshapes_col_description"></td>
+                        </tr>
+                     </tbody>
+                  </table>
+               </section>
+            </div>
+         </div><br><div class="row mt-3">
+            <div class="col">
+               <section id="skos:Concept">
+                  <div class="sp_section_title_table_wrapper">
+                     <h2 class="sp_section_title_table">Concept (skos)</h2><code class="sp_section_uri">http://www.w3.org/2004/02/skos/core#Concept</code></div>
+                  <ul class="sp_list_description_properties">
+                     <li>S'applique à : <a href="http://www.w3.org/2004/02/skos/core#Concept">skos:Concept</a></li>
+                     <li>Type de noeud : IRI</li>
+                     <li>Shape fermée</li>
+                  </ul>
+               </section>
+            </div>
+         </div><br><div class="row mt-3">
+            <div class="col">
+               <section id="rdafrtl:Langue">
+                  <div class="sp_section_title_table_wrapper">
+                     <h2 class="sp_section_title_table">Langue</h2><code class="sp_section_uri">https://rdafr.fr/termList/Langue</code></div>
+                  <ul class="sp_list_description_properties">
+                     <li>S'applique à : <a href="https://rdafr.fr/termList/Langue">rdafrtl:Langue</a></li>
+                     <li>Hérite de : <a href="#skos:Concept">Concept (skos)</a></li>
+                     <li>Type de noeud : IRI</li>
+                     <li>Shape fermée</li>
+                  </ul>
+               </section>
+            </div>
+         </div><br><div class="row mt-3">
+            <div class="col">
+               <section id="rdafrtl:Ecriture">
+                  <div class="sp_section_title_table_wrapper">
+                     <h2 class="sp_section_title_table">Système d'écriture</h2><code class="sp_section_uri">https://rdafr.fr/termList/Ecriture</code></div>
+                  <ul class="sp_list_description_properties">
+                     <li>S'applique à : <a href="https://rdafr.fr/termList/Ecriture">rdafrtl:Ecriture</a></li>
+                     <li>Hérite de : <a href="#skos:Concept">Concept (skos)</a></li>
+                     <li>Type de noeud : IRI</li>
+                     <li>Shape fermée</li>
+                  </ul>
+               </section>
+            </div>
+         </div><br><div class="row mt-3">
+            <div class="col">
+               <section id="rdafrtl:SchemaEncodage">
+                  <div class="sp_section_title_table_wrapper">
+                     <h2 class="sp_section_title_table">Schéma d'encodage</h2><code class="sp_section_uri">https://rdafr.fr/termList/SchemaEncodage</code></div>
+                  <ul class="sp_list_description_properties">
+                     <li>S'applique à : <a href="https://rdafr.fr/termList/SchemaEncodage">rdafrtl:SchemaEncodage</a></li>
+                     <li>Hérite de : <a href="#skos:Concept">Concept (skos)</a></li>
+                     <li>Type de noeud : IRI</li>
+                     <li>Shape fermée</li>
+                  </ul>
+               </section>
+            </div>
+         </div><br><div class="row mt-3">
+            <div class="col">
+               <section id="rdafrtl:CategorieNomen">
+                  <div class="sp_section_title_table_wrapper">
+                     <h2 class="sp_section_title_table">Catégorie de nomen</h2><code class="sp_section_uri">https://rdafr.fr/termList/CategorieNomen</code></div>
+                  <ul class="sp_list_description_properties">
+                     <li>S'applique à : <a href="https://rdafr.fr/termList/CategorieNomen">rdafrtl:CategorieNomen</a></li>
+                     <li>Hérite de : <a href="#skos:Concept">Concept (skos)</a></li>
+                     <li>Type de noeud : IRI</li>
+                     <li>Shape fermée</li>
+                  </ul>
+               </section>
+            </div>
+         </div><br><div class="row mt-3">
+            <div class="col">
+               <section id="rdafrtl:SystemeConversion">
+                  <div class="sp_section_title_table_wrapper">
+                     <h2 class="sp_section_title_table">Système de conversion</h2><code class="sp_section_uri">https://rdafr.fr/termList/SystemeConversion</code></div>
+                  <ul class="sp_list_description_properties">
+                     <li>S'applique à : <a href="https://rdafr.fr/termList/SystemeConversion">rdafrtl:SystemeConversion</a></li>
+                     <li>Hérite de : <a href="#skos:Concept">Concept (skos)</a></li>
+                     <li>Type de noeud : IRI</li>
+                     <li>Shape fermée</li>
+                  </ul>
+               </section>
+            </div>
+         </div><br><div class="row mt-3">
+            <div class="col">
+               <section id="rdafrtl:Genre">
+                  <div class="sp_section_title_table_wrapper">
+                     <h2 class="sp_section_title_table">Genre</h2><code class="sp_section_uri">https://rdafr.fr/termList/Genre</code></div>
+                  <ul class="sp_list_description_properties">
+                     <li>S'applique à : <a href="https://rdafr.fr/termList/Genre">rdafrtl:Genre</a></li>
+                     <li>Hérite de : <a href="#skos:Concept">Concept (skos)</a></li>
+                     <li>Type de noeud : IRI</li>
+                     <li>Shape fermée</li>
+                  </ul>
+               </section>
+            </div>
+         </div><br><div class="row mt-3">
+            <div class="col">
+               <section id="rdafrtl:Role">
+                  <div class="sp_section_title_table_wrapper">
+                     <h2 class="sp_section_title_table">Role</h2><code class="sp_section_uri">https://rdafr.fr/termList/Role</code></div>
+                  <ul class="sp_list_description_properties">
+                     <li>S'applique à : <a href="https://rdafr.fr/termList/Role">rdafrtl:Role</a></li>
+                     <li>Hérite de : <a href="#skos:Concept">Concept (skos)</a></li>
+                     <li>Type de noeud : IRI</li>
+                     <li>Shape fermée</li>
+                  </ul>
+               </section>
+            </div>
+         </div><br><div class="row mt-3">
+            <div class="col">
+               <section id="rdafrtl:DegreCertitude">
+                  <div class="sp_section_title_table_wrapper">
+                     <h2 class="sp_section_title_table">Degré de certitude</h2><code class="sp_section_uri">https://rdafr.fr/termList/DegreCertitude</code></div>
+                  <ul class="sp_list_description_properties">
+                     <li>S'applique à : <a href="https://rdafr.fr/termList/DegreCertitude">rdafrtl:DegreCertitude</a></li>
+                     <li>Hérite de : <a href="#skos:Concept">Concept (skos)</a></li>
+                     <li>Type de noeud : IRI</li>
+                     <li>Shape fermée</li>
+                  </ul>
+               </section>
+            </div>
+         </div><br><div class="row mt-3">
+            <div class="col">
+               <section id="rdafrtl:Calendrier">
+                  <div class="sp_section_title_table_wrapper">
+                     <h2 class="sp_section_title_table">Calendrier</h2><code class="sp_section_uri">https://rdafr.fr/termList/Calendrier</code></div>
+                  <ul class="sp_list_description_properties">
+                     <li>S'applique à : <a href="https://rdafr.fr/termList/Calendrier">rdafrtl:Calendrier</a></li>
+                     <li>Hérite de : <a href="#skos:Concept">Concept (skos)</a></li>
+                     <li>Type de noeud : IRI</li>
+                     <li>Shape fermée</li>
+                  </ul>
+               </section>
+            </div>
+         </div><br><div class="row mt-3">
+            <div class="col">
+               <section id="rdafrtl:CategorieIdentitePublique">
+                  <div class="sp_section_title_table_wrapper">
+                     <h2 class="sp_section_title_table">Catégorie d'identité publique</h2><code class="sp_section_uri">https://rdafr.fr/termList/CategorieIdentitePublique</code></div>
+                  <ul class="sp_list_description_properties">
+                     <li>S'applique à : <a href="https://rdafr.fr/termList/CategorieIdentitePublique">rdafrtl:CategorieIdentitePublique</a></li>
+                     <li>Hérite de : <a href="#skos:Concept">Concept (skos)</a></li>
+                     <li>Type de noeud : IRI</li>
+                     <li>Shape fermée</li>
+                  </ul>
+               </section>
+            </div>
+         </div><br></div><script src="https://cdn.jsdelivr.net/npm/anchor-js/anchor.min.js">//</script><script>				
+					anchors.options = {
+	                    icon: '#'
+	                  };
+               		anchors.options.placement = 'left';
+					anchors.add();		
+				</script></body>
+</html>
