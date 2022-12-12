@@ -28,6 +28,19 @@ RUN pandoc --standalone --toc \
       README.md -o ./index.html
 
 
+# Compilation des SHACL .ttl en HTML en utilisant
+# l'outil https://shacl-play.sparna.fr/play/doc
+RUN DEBIAN_FRONTEND=noninteractive apt install -y curl
+COPY ./personne/ /usr/share/nginx/html/personne/
+RUN curl -F inputShapeFile=@personne/shacl-20221212.ttl \
+         -F shapesSource=file \
+         -F language=fr \
+         -H 'Accept-Language: fr-FR,fr' \
+         https://shacl-play.sparna.fr/play/doc \
+         > /usr/share/nginx/html/personne/index.html
+COPY ./vocabulaire/ /usr/share/nginx/html/vocabulaire/
+
+
 # Lance le serveur web
 CMD ["nginx", "-g", "daemon off;"]
 EXPOSE 80
