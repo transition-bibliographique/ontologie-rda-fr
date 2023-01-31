@@ -352,6 +352,30 @@ rdafrru:P204 rdfs:domain rdafrc:C100002;
 
 rdafrc:C100002 sh:property rdafrru:P204 .
 
+rdafrru:P454 rdfs:domain rdafrc:C100025;
+  rdfs:range rdafrc:C100015;
+  owl:versionInfo "0.0.1";
+  sh:description "Un groupe informel est connu sous une identité publique qui se présente sous forme d'un pseudonyme collectif (nom se présentant formellement comme un nom de personne)"@fr;
+  sh:maxCount 1;
+  sh:minCount 1;
+  sh:name "a pour identité publique du groupe informel"@fr;
+  sh:node rdafrc:C100015;
+  sh:nodeKind sh:IRI;
+  sh:path rdafra:P500300 .
+
+rdafrc:C100025 sh:property rdafrru:P454, rdafrru:P455 .
+
+rdafrru:P455 rdfs:domain rdafrc:C100025;
+  rdfs:range rdf:langString;
+  rdfs:subPropertyOf rdafrx:P100008;
+  owl:versionInfo "0.0.1";
+  sh:class rdf:langString;
+  sh:datatype rdf:langString;
+  sh:description "Information générale sur le groupe informel"@fr;
+  sh:name "a pour information sur le groupe informel"@fr;
+  sh:nodeKind sh:Literal;
+  sh:path rdafra:P500301 .
+
 rdafrru:P304 rdfs:domain rdafrc:C100004;
   rdfs:range rdafrc:C100010;
   rdfs:seeAlso "9.3.1";
@@ -1127,9 +1151,9 @@ rdafrc:C100001 a rdfs:Class, owl:Class, sh:NodeShape;
   skos:notation "w";
   sh:closed true;
   sh:description "Source : Glossaire de RDA-FR, 2020"@fr;
-  sh:ignoredProperties _:node1gnuf2bqtx415 .
+  sh:ignoredProperties _:node1gnuf2bqtx626 .
 
-_:node1gnuf2bqtx415 rdf:first rdf:type;
+_:node1gnuf2bqtx626 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafrc:C100001 sh:nodeKind sh:IRI;
@@ -1152,9 +1176,9 @@ Attention : à la fin de cette définition il y avait une parenthèse de précis
 
 Pour information, la définition de IFLA LRM est la suivante :
 Une entité à même d'agir de son propre chef, de se voir accorder des droits et d’être tenue pour responsable de ses actions"""@fr;
-  sh:ignoredProperties _:node1gnuf2bqtx416 .
+  sh:ignoredProperties _:node1gnuf2bqtx627 .
 
-_:node1gnuf2bqtx416 rdf:first rdf:type;
+_:node1gnuf2bqtx627 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafrc:C100002 sh:nodeKind sh:IRI;
@@ -1177,9 +1201,9 @@ Pas de définition dans le Glossaire RDA-FR de 2020
 Item (RDA-FR section 1 chp1) : un ou plusieurs objets portant des signes chargés de véhiculer un contenu intellectuel ou
 artistique. En termes de contenu intellectuel ou artistique et de présentation matérielle, un item exemplifie une manifestation et en reflète en principe toutes les caractéristiques. Il peut avoir en outre des caractéristiques singulières en fonction de son histoire.
 En pratique, un item correspond à un exemplaire."""@fr;
-  sh:ignoredProperties _:node1gnuf2bqtx417 .
+  sh:ignoredProperties _:node1gnuf2bqtx628 .
 
-_:node1gnuf2bqtx417 rdf:first rdf:type;
+_:node1gnuf2bqtx628 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafrc:C100003 sh:nodeKind sh:IRI;
@@ -1217,9 +1241,9 @@ Commentaire : dans cette version de l'ontologie on pourrait supprimer la parenth
 Pour information, la définition de IFLA LRM est la suivante :
 Un être humain en particulier 
 Note d'application : L’entité personne est restreinte aux personnes réelles, existant ou étant présumées avoir existé. Il n’est pas nécessaire d’avoir des preuves formelles de l’existence d’une personne, du moment que sa véracité historique est globalement acceptée. En revanche, les figures généralement considérées comme fictives (par exemple, Kermit la grenouille), les personnages littéraires (par exemple, Miss Marple) ou purement légendaires (par exemple, Merlin l’enchanteur) ne sont pas des instances de l’entité personne."""@fr;
-  sh:ignoredProperties _:node1gnuf2bqtx418 .
+  sh:ignoredProperties _:node1gnuf2bqtx629 .
 
-_:node1gnuf2bqtx418 rdf:first rdf:type;
+_:node1gnuf2bqtx629 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafrc:C100004 sh:nodeKind sh:IRI;
@@ -1246,9 +1270,9 @@ Comprend :
 - les groupes constitués dans le cadre d’un projet, d’une mission ou d’un programme, 
 -les équipages de navires, véhicules spatiaux…, 
 - les groupes occasionnels et les groupes constitués à l’occasion d’événements ponctuels, tels que rencontres, conférences, congrès, expéditions, compétitions sportives, groupes projets, expositions, festivals, foires, etc. (voir la définition de Groupe occasionnel)"""@fr;
-  sh:ignoredProperties _:node1gnuf2bqtx419 .
+  sh:ignoredProperties _:node1gnuf2bqtx630 .
 
-_:node1gnuf2bqtx419 rdf:first rdf:type;
+_:node1gnuf2bqtx630 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafrc:C100005 sh:nodeKind sh:IRI;
@@ -1265,9 +1289,9 @@ rdafrc:C100006 a rdfs:Class, owl:Class, sh:NodeShape;
   skos:notation "e";
   sh:closed true;
   sh:description "Source: Glossaire RDA-FR"@fr;
-  sh:ignoredProperties _:node1gnuf2bqtx420 .
+  sh:ignoredProperties _:node1gnuf2bqtx631 .
 
-_:node1gnuf2bqtx420 rdf:first rdf:type;
+_:node1gnuf2bqtx631 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafrc:C100006 sh:nodeKind sh:IRI;
@@ -1286,9 +1310,9 @@ rdafrc:C100007 a rdfs:Class, owl:Class, sh:NodeShape;
   sh:description """Source : RDA-FR, section 1 chp1, conforme à IFLA LRM
 
 Pas de définition dans le Glossaire de RDA-FR, 2020"""@fr;
-  sh:ignoredProperties _:node1gnuf2bqtx421 .
+  sh:ignoredProperties _:node1gnuf2bqtx632 .
 
-_:node1gnuf2bqtx421 rdf:first rdf:type;
+_:node1gnuf2bqtx632 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafrc:C100007 sh:nodeKind sh:IRI;
@@ -1314,9 +1338,9 @@ Cela comprend :
 - les unités familiales (parents, enfants, etc.) ;
 - les maisons nobiliaires ;
 - l'ensemble des détenteurs successifs d'un titre dans une maison nobiliaire."""@fr;
-  sh:ignoredProperties _:node1gnuf2bqtx422 .
+  sh:ignoredProperties _:node1gnuf2bqtx633 .
 
-_:node1gnuf2bqtx422 rdf:first rdf:type;
+_:node1gnuf2bqtx633 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafrc:C100008 sh:nodeKind sh:IRI;
@@ -1333,9 +1357,9 @@ rdafrc:C100009 a rdfs:Class, owl:Class, sh:NodeShape;
   skos:notation "p";
   sh:closed true;
   sh:description "Source : définition issue du chapitre 12, en cours de finalisation"@fr;
-  sh:ignoredProperties _:node1gnuf2bqtx423 .
+  sh:ignoredProperties _:node1gnuf2bqtx634 .
 
-_:node1gnuf2bqtx423 rdf:first rdf:type;
+_:node1gnuf2bqtx634 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafrc:C100009 sh:nodeKind sh:IRI;
@@ -1353,9 +1377,9 @@ rdafrc:C100010 a rdfs:Class, owl:Class, sh:NodeShape;
   sh:closed true;
   sh:description """Pas de définition dans le Glossaire RDA-FR de 2020 (partie non élaborée)
 Source : IFLA LRM"""@fr;
-  sh:ignoredProperties _:node1gnuf2bqtx424 .
+  sh:ignoredProperties _:node1gnuf2bqtx635 .
 
-_:node1gnuf2bqtx424 rdf:first rdf:type;
+_:node1gnuf2bqtx635 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafrc:C100010 sh:nodeKind sh:IRI;
@@ -1372,9 +1396,9 @@ rdafrc:C100011 a rdfs:Class, owl:Class, sh:NodeShape;
   sh:closed true;
   sh:description """Pas de définition dans le Glossaire RDA-FR de 2020 (entité non retenue par le code jusqu'à présent)
 Source : IFLA LRM"""@fr;
-  sh:ignoredProperties _:node1gnuf2bqtx425 .
+  sh:ignoredProperties _:node1gnuf2bqtx636 .
 
-_:node1gnuf2bqtx425 rdf:first rdf:type;
+_:node1gnuf2bqtx636 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafrc:C100011 sh:nodeKind sh:IRI;
@@ -1392,9 +1416,9 @@ rdafrc:C100012 a rdfs:Class, owl:Class, sh:NodeShape;
   sh:closed true;
   sh:description """Pas de défintion dans le Glossaire RDA-FR de 2020
 Source : IFLA LRM"""@fr;
-  sh:ignoredProperties _:node1gnuf2bqtx426 .
+  sh:ignoredProperties _:node1gnuf2bqtx637 .
 
-_:node1gnuf2bqtx426 rdf:first rdf:type;
+_:node1gnuf2bqtx637 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafrc:C100012 sh:nodeKind sh:IRI;
@@ -1415,9 +1439,9 @@ spécifiquement nommées.
 
 Définition de RDA Entity dans RDA Toolkit :
 An abstract class of key conceptual objects in the universe of human discourse that are a focus of interest to users of RDA metadata in a system for resource discovery. An RDA entity includes an agent, collective agent, corporate body, expression, family, item, manifestation, nomen, person, place, timespan, and work."""@fr;
-  sh:ignoredProperties _:node1gnuf2bqtx427 .
+  sh:ignoredProperties _:node1gnuf2bqtx638 .
 
-_:node1gnuf2bqtx427 rdf:first rdf:type;
+_:node1gnuf2bqtx638 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafrc:C100013 sh:nodeKind sh:IRI;
@@ -1450,9 +1474,9 @@ Les noms présentés comme des noms de personnes réelles constituent également
 
 Dans le chapitre 9 on trouve aussi :
 Toute personne a au moins une identité publique, et aucune identité publique ne peut exister sans être associée à une personne ou à un agent. Une personne peut être connue sous une seule identité publique, ou sous plusieurs. Ces identités publiques sont désignées en tant que telles. Les propriétés relatives à la personne et celles relatives à l’identité publique sont clairement distinguées."""@fr;
-  sh:ignoredProperties _:node1gnuf2bqtx428 .
+  sh:ignoredProperties _:node1gnuf2bqtx639 .
 
-_:node1gnuf2bqtx428 rdf:first rdf:type;
+_:node1gnuf2bqtx639 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafrc:C100015 sh:nodeKind sh:IRI;
@@ -1466,9 +1490,9 @@ rdafrc:C100017 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.0.1";
   skos:notation "b";
   sh:closed true;
-  sh:ignoredProperties _:node1gnuf2bqtx429 .
+  sh:ignoredProperties _:node1gnuf2bqtx640 .
 
-_:node1gnuf2bqtx429 rdf:first rdf:type;
+_:node1gnuf2bqtx640 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafrc:C100017 sh:nodeKind sh:IRI;
@@ -1482,9 +1506,9 @@ rdafrc:C100018 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.0.1";
   skos:notation "v";
   sh:closed true;
-  sh:ignoredProperties _:node1gnuf2bqtx430 .
+  sh:ignoredProperties _:node1gnuf2bqtx641 .
 
-_:node1gnuf2bqtx430 rdf:first rdf:type;
+_:node1gnuf2bqtx641 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafrc:C100018 sh:nodeKind sh:IRI;
@@ -1497,9 +1521,9 @@ rdafrc:C100019 a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf rdafrc:C100018;
   owl:versionInfo "0.0.1";
   sh:closed true;
-  sh:ignoredProperties _:node1gnuf2bqtx431 .
+  sh:ignoredProperties _:node1gnuf2bqtx642 .
 
-_:node1gnuf2bqtx431 rdf:first rdf:type;
+_:node1gnuf2bqtx642 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafrc:C100019 sh:nodeKind sh:IRI;
@@ -1513,9 +1537,9 @@ rdafrc:C100020 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.0.1";
   skos:notation "?";
   sh:closed true;
-  sh:ignoredProperties _:node1gnuf2bqtx432 .
+  sh:ignoredProperties _:node1gnuf2bqtx643 .
 
-_:node1gnuf2bqtx432 rdf:first rdf:type;
+_:node1gnuf2bqtx643 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafrc:C100020 sh:nodeKind sh:IRI;
@@ -1529,9 +1553,9 @@ rdafrc:C100021 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.0.1";
   skos:notation "t";
   sh:closed true;
-  sh:ignoredProperties _:node1gnuf2bqtx433 .
+  sh:ignoredProperties _:node1gnuf2bqtx644 .
 
-_:node1gnuf2bqtx433 rdf:first rdf:type;
+_:node1gnuf2bqtx644 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafrc:C100021 sh:nodeKind sh:IRI;
@@ -1545,9 +1569,9 @@ rdafrc:C100022 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.0.1";
   skos:notation "t";
   sh:closed true;
-  sh:ignoredProperties _:node1gnuf2bqtx434 .
+  sh:ignoredProperties _:node1gnuf2bqtx645 .
 
-_:node1gnuf2bqtx434 rdf:first rdf:type;
+_:node1gnuf2bqtx645 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafrc:C100022 sh:nodeKind sh:IRI;
@@ -1561,9 +1585,9 @@ rdafrc:C100023 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.0.1";
   skos:notation "t";
   sh:closed true;
-  sh:ignoredProperties _:node1gnuf2bqtx435 .
+  sh:ignoredProperties _:node1gnuf2bqtx646 .
 
-_:node1gnuf2bqtx435 rdf:first rdf:type;
+_:node1gnuf2bqtx646 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafrc:C100023 sh:nodeKind sh:IRI;
@@ -1578,9 +1602,9 @@ rdafrc:C100025 a rdfs:Class, owl:Class, sh:NodeShape;
   skos:notation "t";
   sh:closed true;
   sh:description "AA : c'est dans la partie \"comprend\" de la définition de collectivité du chp11, qu'est indiqué expressément que les groupes artistiques, etc., font partie de l'entité Collectivité. Donc, pas besoin de mentionner ici l'exclusion de ces groupes de la classe Groupe informel"@fr;
-  sh:ignoredProperties _:node1gnuf2bqtx436 .
+  sh:ignoredProperties _:node1gnuf2bqtx647 .
 
-_:node1gnuf2bqtx436 rdf:first rdf:type;
+_:node1gnuf2bqtx647 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafrc:C100025 sh:nodeKind sh:IRI;
@@ -1593,9 +1617,9 @@ rdafrx:P100001r a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf rdafrc:C100013;
   owl:versionInfo "0.0.1";
   sh:closed true;
-  sh:ignoredProperties _:node1gnuf2bqtx437 .
+  sh:ignoredProperties _:node1gnuf2bqtx648 .
 
-_:node1gnuf2bqtx437 rdf:first rdf:type;
+_:node1gnuf2bqtx648 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafrx:P100001r sh:nodeKind sh:IRI;
@@ -1608,9 +1632,9 @@ rdafrx:P100008 a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf rdafrc:C100013;
   owl:versionInfo "0.0.1";
   sh:closed true;
-  sh:ignoredProperties _:node1gnuf2bqtx438 .
+  sh:ignoredProperties _:node1gnuf2bqtx649 .
 
-_:node1gnuf2bqtx438 rdf:first rdf:type;
+_:node1gnuf2bqtx649 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafrx:P100008 sh:nodeKind sh:IRI;
@@ -1623,9 +1647,9 @@ skos:Concept a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf owl:Thing;
   owl:versionInfo "0.0.1";
   sh:closed true;
-  sh:ignoredProperties _:node1gnuf2bqtx439 .
+  sh:ignoredProperties _:node1gnuf2bqtx650 .
 
-_:node1gnuf2bqtx439 rdf:first rdf:type;
+_:node1gnuf2bqtx650 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 skos:Concept sh:nodeKind sh:IRI;
@@ -1638,9 +1662,9 @@ rdafrtl:Langue a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.0.1";
   sh:closed true;
-  sh:ignoredProperties _:node1gnuf2bqtx440 .
+  sh:ignoredProperties _:node1gnuf2bqtx651 .
 
-_:node1gnuf2bqtx440 rdf:first rdf:type;
+_:node1gnuf2bqtx651 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafrtl:Langue sh:nodeKind sh:IRI;
@@ -1654,9 +1678,9 @@ rdafrtl:Ecriture a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.0.1";
   sh:closed true;
   sh:description "Dans IFLA LRM le nom de l'attribut est tout simplement Ecriture (E9-A8)"@fr;
-  sh:ignoredProperties _:node1gnuf2bqtx441 .
+  sh:ignoredProperties _:node1gnuf2bqtx652 .
 
-_:node1gnuf2bqtx441 rdf:first rdf:type;
+_:node1gnuf2bqtx652 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafrtl:Ecriture sh:nodeKind sh:IRI;
@@ -1676,9 +1700,9 @@ d’encodage des dates, etc.)."""@fr;
   owl:versionInfo "0.0.1";
   sh:closed true;
   sh:description "Définition inspiré de différentes sources sur internet. Complété par les éléments de la définition issue de IFLA LRM (dans la propriété de nomen)."@fr;
-  sh:ignoredProperties _:node1gnuf2bqtx442 .
+  sh:ignoredProperties _:node1gnuf2bqtx653 .
 
-_:node1gnuf2bqtx442 rdf:first rdf:type;
+_:node1gnuf2bqtx653 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafrtl:SchemaEncodage sh:nodeKind sh:IRI;
@@ -1697,9 +1721,9 @@ Les nomens peuvent être catégorisés selon :
 − le type de chose qui est nommée (nom de personne, titre d’œuvre, etc.) ;
 − la source où le nomen est attesté (titre de dos, titre courant, etc.) ;
 − la fonction du nomen (identifiant, point d’accès contrôlé, indice de classification, etc.)."""@fr;
-  sh:ignoredProperties _:node1gnuf2bqtx443 .
+  sh:ignoredProperties _:node1gnuf2bqtx654 .
 
-_:node1gnuf2bqtx443 rdf:first rdf:type;
+_:node1gnuf2bqtx654 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafrtl:CategorieNomen sh:nodeKind sh:IRI;
@@ -1719,9 +1743,9 @@ Une valeur de l’attribut conversion d’écriture peut renvoyer à :
 − des translittérations ;
 − des conversions d’écriture qui ne sont pas réversibles ;
 − etc."""@fr;
-  sh:ignoredProperties _:node1gnuf2bqtx444 .
+  sh:ignoredProperties _:node1gnuf2bqtx655 .
 
-_:node1gnuf2bqtx444 rdf:first rdf:type;
+_:node1gnuf2bqtx655 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafrtl:SystemeConversion sh:nodeKind sh:IRI;
@@ -1735,9 +1759,9 @@ rdafrtl:Genre a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.0.1";
   sh:closed true;
   sh:description "Source : Chapitre 9 de RDA-FR"@fr;
-  sh:ignoredProperties _:node1gnuf2bqtx445 .
+  sh:ignoredProperties _:node1gnuf2bqtx656 .
 
-_:node1gnuf2bqtx445 rdf:first rdf:type;
+_:node1gnuf2bqtx656 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafrtl:Genre sh:nodeKind sh:IRI;
@@ -1750,9 +1774,9 @@ rdafrtl:NiveauFiabilite a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.0.1";
   sh:closed true;
-  sh:ignoredProperties _:node1gnuf2bqtx446 .
+  sh:ignoredProperties _:node1gnuf2bqtx657 .
 
-_:node1gnuf2bqtx446 rdf:first rdf:type;
+_:node1gnuf2bqtx657 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafrtl:NiveauFiabilite sh:nodeKind sh:IRI;
@@ -1765,9 +1789,9 @@ rdafrtl:Calendrier a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.0.1";
   sh:closed true;
-  sh:ignoredProperties _:node1gnuf2bqtx447 .
+  sh:ignoredProperties _:node1gnuf2bqtx658 .
 
-_:node1gnuf2bqtx447 rdf:first rdf:type;
+_:node1gnuf2bqtx658 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafrtl:Calendrier sh:nodeKind sh:IRI;
@@ -1781,9 +1805,9 @@ rdafrtl:CategorieIdentitePublique a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.0.1";
   sh:closed true;
   sh:description "Source : Chapitre 9 de RDA-FR"@fr;
-  sh:ignoredProperties _:node1gnuf2bqtx448 .
+  sh:ignoredProperties _:node1gnuf2bqtx659 .
 
-_:node1gnuf2bqtx448 rdf:first rdf:type;
+_:node1gnuf2bqtx659 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafrtl:CategorieIdentitePublique sh:nodeKind sh:IRI;
@@ -1797,9 +1821,9 @@ rdafrtl:IndicateurRelation a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.0.1";
   sh:closed true;
   sh:description "Source : Chapitre 23.4 de RDA-FR"@fr;
-  sh:ignoredProperties _:node1gnuf2bqtx449 .
+  sh:ignoredProperties _:node1gnuf2bqtx660 .
 
-_:node1gnuf2bqtx449 rdf:first rdf:type;
+_:node1gnuf2bqtx660 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafrtl:IndicateurRelation sh:nodeKind sh:IRI;
