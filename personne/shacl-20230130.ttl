@@ -355,7 +355,7 @@ rdafrc:C100002 sh:property rdafrru:P204 .
 rdafrru:P454 rdfs:domain rdafrc:C100025;
   rdfs:range rdafrc:C100015;
   owl:versionInfo "0.0.1";
-  sh:description "Un groupe informel est connu sous une identité publique qui se présente sous forme d'un pseudonyme collectif (nom se présentant formellement comme un nom de personne)"@fr;
+  sh:description "Un groupe informel est connu sous une identité publique qui se présente sous forme d'un nom de personne alors qu'il s'agit d'un pseudonyme collectif"@fr;
   sh:maxCount 1;
   sh:minCount 1;
   sh:name "a pour identité publique du groupe informel"@fr;
