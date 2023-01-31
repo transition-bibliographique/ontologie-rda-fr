@@ -32,7 +32,7 @@ RUN pandoc --standalone --toc \
 # l'outil https://shacl-play.sparna.fr/play/doc
 RUN DEBIAN_FRONTEND=noninteractive apt install -y curl
 COPY ./personne/ /usr/share/nginx/html/personne/
-RUN curl -F inputShapeFile=@personne/shacl-20221212.ttl \
+RUN curl -F inputShapeFile=@personne/shacl-20230130.ttl \
          -F shapesSource=file \
          -F language=fr \
          -H 'Accept-Language: fr-FR,fr' \
