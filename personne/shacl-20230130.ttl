@@ -35,7 +35,7 @@
 
 rdafrru:P105 rdfs:domain rdafrc:C100013;
   rdfs:range rdafrc:C100010;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:name "a pour laps de temps"@fr;
   sh:node rdafrc:C100010;
   sh:nodeKind sh:IRI;
@@ -46,7 +46,7 @@ rdafrc:C100013 sh:property rdafrru:P105, rdafrru:P106, rdafrru:P107, rdafrru:P10
 
 rdafrru:P106 rdfs:domain rdafrc:C100013;
   rdfs:range rdafrc:C100013;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:name "a pour source [uri]"@fr;
   sh:node rdafrc:C100013;
   sh:nodeKind sh:IRI;
@@ -54,7 +54,7 @@ rdafrru:P106 rdfs:domain rdafrc:C100013;
 
 rdafrru:P107 rdfs:domain rdafrc:C100013;
   rdfs:range rdf:langString;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:class rdf:langString;
   sh:datatype rdf:langString;
   sh:name "a pour source [texte]"@fr;
@@ -63,7 +63,7 @@ rdafrru:P107 rdfs:domain rdafrc:C100013;
 
 rdafrru:P108 rdfs:domain rdafrc:C100013;
   rdfs:range rdafrtl:NiveauFiabilite;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:name "a pour niveau de fiabilité"@fr;
   sh:node rdafrtl:NiveauFiabilite;
   sh:nodeKind sh:IRI;
@@ -71,7 +71,7 @@ rdafrru:P108 rdfs:domain rdafrc:C100013;
 
 rdafrru:P109 rdfs:domain rdafrc:C100013;
   rdfs:range xsd:boolean;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:class xsd:boolean;
   sh:datatype xsd:boolean;
   sh:name "a un caractère confidentiel"@fr;
@@ -80,7 +80,7 @@ rdafrru:P109 rdfs:domain rdafrc:C100013;
 
 rdafrru:P111 rdfs:domain rdafrc:C100013;
   rdfs:range rdafrc:C100012;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:name "a pour appellation"@fr;
   sh:node rdafrc:C100012;
   sh:nodeKind sh:IRI;
@@ -88,7 +88,7 @@ rdafrru:P111 rdfs:domain rdafrc:C100013;
 
 rdafrru:P112 rdfs:domain rdafrc:C100013;
   rdfs:range rdafrx:P100001r;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:name "a une relation avec [dans la relation]"@fr;
   sh:node rdafrx:P100001r;
   sh:nodeKind sh:IRI;
@@ -96,7 +96,7 @@ rdafrru:P112 rdfs:domain rdafrc:C100013;
 
 rdafrru:P113 rdfs:domain rdafrc:C100013;
   rdfs:range rdafrx:P100008;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:name "a une propriété réifiée"@fr;
   sh:node rdafrx:P100008;
   sh:nodeKind sh:IRI;
@@ -104,7 +104,7 @@ rdafrru:P113 rdfs:domain rdafrc:C100013;
 
 rdafrru:P114 rdfs:domain rdafrc:C100013;
   rdfs:range rdafrc:C100013;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:name "a pour valeur [uri]"@fr;
   sh:node rdafrc:C100013;
   sh:nodeKind sh:IRI;
@@ -112,7 +112,7 @@ rdafrru:P114 rdfs:domain rdafrc:C100013;
 
 rdafrru:P115 rdfs:domain rdafrc:C100013;
   rdfs:range rdfs:Literal;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:class rdfs:Literal;
   sh:datatype rdfs:Literal;
   sh:name "a pour valeur [texte]"@fr;
@@ -121,7 +121,7 @@ rdafrru:P115 rdfs:domain rdafrc:C100013;
 
 rdafrru:P1005 rdfs:domain rdafrx:P100001r;
   rdfs:range rdafrc:C100013;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:name "a pour source [uri]"@fr;
   sh:node rdafrc:C100013;
   sh:nodeKind sh:IRI;
@@ -132,7 +132,7 @@ rdafrx:P100001r sh:property rdafrru:P1005, rdafrru:P1006, rdafrru:P1007, rdafrru
 
 rdafrru:P1006 rdfs:domain rdafrx:P100001r;
   rdfs:range rdf:langString;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:class rdf:langString;
   sh:datatype rdf:langString;
   sh:name "a pour source [texte]"@fr;
@@ -141,7 +141,7 @@ rdafrru:P1006 rdfs:domain rdafrx:P100001r;
 
 rdafrru:P1007 rdfs:domain rdafrx:P100001r;
   rdfs:range rdafrc:C100010;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:name "a pour laps de temps"@fr;
   sh:node rdafrc:C100010;
   sh:nodeKind sh:IRI;
@@ -149,7 +149,7 @@ rdafrru:P1007 rdfs:domain rdafrx:P100001r;
 
 rdafrru:P1008 rdfs:domain rdafrx:P100001r;
   rdfs:range rdafrtl:NiveauFiabilite;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:maxCount 1;
   sh:name "a pour niveau de fiabilité"@fr;
   sh:node rdafrtl:NiveauFiabilite;
@@ -158,7 +158,7 @@ rdafrru:P1008 rdfs:domain rdafrx:P100001r;
 
 rdafrru:P1009 rdfs:domain rdafrx:P100001r;
   rdfs:range xsd:boolean;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:class xsd:boolean;
   sh:datatype xsd:boolean;
   sh:maxCount 1;
@@ -168,7 +168,7 @@ rdafrru:P1009 rdfs:domain rdafrx:P100001r;
 
 rdafrru:P1010 rdfs:domain rdafrx:P100001r;
   rdfs:range rdfs:Literal;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:class rdfs:Literal;
   sh:datatype rdfs:Literal;
   sh:name "a pour valeur [texte]"@fr;
@@ -177,7 +177,7 @@ rdafrru:P1010 rdfs:domain rdafrx:P100001r;
 
 rdafrru:P1011 rdfs:domain rdafrx:P100001r;
   rdfs:range rdafrtl:IndicateurRelationrdfs:Literal;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:class rdfs:Literal;
   sh:datatype rdfs:Literal;
   sh:name "a pour indicateur de relation [uri]"@fr;
@@ -187,7 +187,7 @@ rdafrru:P1011 rdfs:domain rdafrx:P100001r;
 
 rdafrru:P1012 rdfs:domain rdafrx:P100001r;
   rdfs:range rdafrc:C100011;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:name "a pour affiliation [uri]"@fr;
   sh:node rdafrc:C100011;
   sh:nodeKind sh:IRI;
@@ -195,7 +195,7 @@ rdafrru:P1012 rdfs:domain rdafrx:P100001r;
 
 rdafrru:P1013 rdfs:domain rdafrx:P100001r;
   rdfs:range rdfs:Literal;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:class rdfs:Literal;
   sh:datatype rdfs:Literal;
   sh:name "a pour affiliation [texte]"@fr;
@@ -204,7 +204,7 @@ rdafrru:P1013 rdfs:domain rdafrx:P100001r;
 
 rdafrru:P1015 rdfs:domain rdafrx:P100008;
   rdfs:range rdafrc:C100013;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:name "a pour source [uri]"@fr;
   sh:node rdafrc:C100013;
   sh:nodeKind sh:IRI;
@@ -215,7 +215,7 @@ rdafrx:P100008 sh:property rdafrru:P1015, rdafrru:P1016, rdafrru:P1017, rdafrru:
 
 rdafrru:P1016 rdfs:domain rdafrx:P100008;
   rdfs:range rdf:langString;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:class rdf:langString;
   sh:datatype rdf:langString;
   sh:name "a pour source [texte]"@fr;
@@ -224,7 +224,7 @@ rdafrru:P1016 rdfs:domain rdafrx:P100008;
 
 rdafrru:P1017 rdfs:domain rdafrx:P100008;
   rdfs:range rdafrc:C100010;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:name "a pour laps de temps"@fr;
   sh:node rdafrc:C100010;
   sh:nodeKind sh:IRI;
@@ -232,7 +232,7 @@ rdafrru:P1017 rdfs:domain rdafrx:P100008;
 
 rdafrru:P1018 rdfs:domain rdafrx:P100008;
   rdfs:range rdafrtl:NiveauFiabilite;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:maxCount 1;
   sh:name "a pour niveau de fiabilité"@fr;
   sh:node rdafrtl:NiveauFiabilite;
@@ -241,7 +241,7 @@ rdafrru:P1018 rdfs:domain rdafrx:P100008;
 
 rdafrru:P1019 rdfs:domain rdafrx:P100008;
   rdfs:range xsd:boolean;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:class xsd:boolean;
   sh:datatype xsd:boolean;
   sh:maxCount 1;
@@ -251,7 +251,7 @@ rdafrru:P1019 rdfs:domain rdafrx:P100008;
 
 rdafrru:P1020 rdfs:domain rdafrx:P100008;
   rdfs:range rdafrc:C100013;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:name "a pour valeur [uri]"@fr;
   sh:node rdafrc:C100013;
   sh:nodeKind sh:IRI;
@@ -259,7 +259,7 @@ rdafrru:P1020 rdfs:domain rdafrx:P100008;
 
 rdafrru:P1021 rdfs:domain rdafrx:P100008;
   rdfs:range rdfs:Literal;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:class rdfs:Literal;
   sh:datatype rdfs:Literal;
   sh:name "a pour valeur [texte]"@fr;
@@ -268,7 +268,7 @@ rdafrru:P1021 rdfs:domain rdafrx:P100008;
 
 rdafrru:P904 rdfs:domain rdafrc:C100010;
   rdfs:range rdfs:Literal;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:class rdfs:Literal;
   sh:datatype rdfs:Literal;
   sh:maxCount 1;
@@ -280,7 +280,7 @@ rdafrc:C100010 sh:property rdafrru:P904, rdafrru:P905, rdafrru:P906 .
 
 rdafrru:P905 rdfs:domain rdafrc:C100010;
   rdfs:range rdfs:Literal;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:class rdfs:Literal;
   sh:datatype rdfs:Literal;
   sh:maxCount 1;
@@ -290,7 +290,7 @@ rdafrru:P905 rdfs:domain rdafrc:C100010;
 
 rdafrru:P906 rdfs:domain rdafrc:C100010;
   rdfs:range rdafrtl:Calendrier;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:maxCount 1;
   sh:minCount 1;
   sh:name "a calendrier de référence"@fr;
@@ -300,7 +300,7 @@ rdafrru:P906 rdfs:domain rdafrc:C100010;
 
 rdafrru:P907 rdfs:domain rdafrc:C100021;
   rdfs:range rdafrc:C100022;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:maxCount 1;
   sh:minCount 1;
   sh:name "a une date de début"@fr;
@@ -312,7 +312,7 @@ rdafrc:C100021 sh:property rdafrru:P907, rdafrru:P908 .
 
 rdafrru:P908 rdfs:domain rdafrc:C100021;
   rdfs:range rdafrc:C100022;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:maxCount 1;
   sh:minCount 1;
   sh:name "a une date de fin"@fr;
@@ -322,7 +322,7 @@ rdafrru:P908 rdfs:domain rdafrc:C100021;
 
 rdafrru:P909 rdfs:domain rdafrc:C100023;
   rdfs:range rdafrc:C100022;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:minCount 1;
   sh:name "est constitué d'une date unique"@fr;
   sh:node rdafrc:C100022;
@@ -333,7 +333,7 @@ rdafrc:C100023 sh:property rdafrru:P909, rdafrru:P910 .
 
 rdafrru:P910 rdfs:domain rdafrc:C100023;
   rdfs:range rdafrc:C100021;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:minCount 1;
   sh:name "est constitué d'une période"@fr;
   sh:node rdafrc:C100021;
@@ -343,7 +343,7 @@ rdafrru:P910 rdfs:domain rdafrc:C100023;
 rdafrru:P204 rdfs:domain rdafrc:C100002;
   rdfs:range rdafrc:C100002;
   rdfs:subPropertyOf rdafrx:P100001r;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:description "Catégorie de relation regroupant des relations"@en;
   sh:name "a une relation sociale, économique ou culturelle avec [dans la relation]"@fr;
   sh:node rdafrc:C100002;
@@ -356,7 +356,7 @@ rdafrru:P304 rdfs:domain rdafrc:C100004;
   rdfs:range rdafrc:C100010;
   rdfs:seeAlso "9.3.1";
   rdfs:subPropertyOf rdafrx:P100008;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:description "Une date associée à la personne est une date importante associée à l’histoire de la personne (par exemple, date de naissance, date de décès, et dans certains cas dates d’activité)"@en;
   sh:name "a pour date associée à la personne"@fr;
   sh:node rdafrc:C100010;
@@ -375,7 +375,7 @@ rdafrru:P305 rdfs:domain rdafrc:C100004;
   rdfs:range rdafrc:C100010;
   rdfs:seeAlso "9.3.1.4";
   rdfs:subPropertyOf rdafra:P500001;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:description "Représente l’année, le mois et le jour de naissance d’une personne."@en;
   sh:maxCount 1;
   sh:name "a pour date de naissance de la personne"@fr;
@@ -387,7 +387,7 @@ rdafrru:P306 rdfs:domain rdafrc:C100004;
   rdfs:range rdafrc:C100010;
   rdfs:seeAlso "9.3.1.5";
   rdfs:subPropertyOf rdafra:P500001;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:description "L'année, le mois et le jour de mort d’une personne."@en;
   sh:maxCount 1;
   sh:name "a pour date de décès de la personne"@fr;
@@ -399,7 +399,7 @@ rdafrru:P307 rdfs:domain rdafrc:C100004;
   rdfs:range rdafrc:C100010;
   rdfs:seeAlso "9.3.1.6";
   rdfs:subPropertyOf rdafra:P500001;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:description "Date ou une fourchette de dates indicative de la période pendant laquelle une personne a été active dans son principal domaine d’activité"@en;
   sh:name "a pour période d'activité de la personne"@fr;
   sh:node rdafrc:C100010;
@@ -410,7 +410,7 @@ rdafrru:P308 rdfs:domain rdafrc:C100004;
   rdfs:range rdf:langString;
   rdfs:seeAlso "9.3.2";
   rdfs:subPropertyOf rdafrx:P100008;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:class rdf:langString;
   sh:datatype rdf:langString;
   sh:description """Le titre de la personne est un mot ou une expression indiquant un titre royal, un titre nobiliaire, un rang ou une fonction ecclésiastique, ou un titre de courtoisie pour un religieux.
@@ -424,7 +424,7 @@ rdafrru:P309 rdfs:domain rdafrc:C100004;
   rdfs:range rdafrtl:Genre;
   rdfs:seeAlso "9.3.3";
   rdfs:subPropertyOf rdafrx:P100008;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:description "Genre auquel une personne s’identifie"@en;
   sh:name "a pour genre de la personne"@fr;
   sh:node rdafrtl:Genre;
@@ -434,7 +434,7 @@ rdafrru:P309 rdfs:domain rdafrc:C100004;
 rdafrru:P310 rdfs:domain rdafrc:C100004;
   rdfs:range rdafrc:C100009;
   rdfs:subPropertyOf rdafrx:P100008;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   skos:editorialNote "Vincent s'assure de l'introduction de cette propriété dans le glossaire RDA-FR (2022-11-24). Pas d'attribut correspondant dans le chapitre 9."@fr;
   sh:description "Un lieu associé à la personne est un lieu significatif pour l'identification de la personne (par exemple, lieu de naissance, lieu de décès, pays associé à la personne, adresse...)"@en;
   sh:name "a pour lieu associé à la personne"@fr;
@@ -446,7 +446,7 @@ rdafrru:P311 rdfs:domain rdafrc:C100004;
   rdfs:range rdafrc:C100009;
   rdfs:seeAlso "9.3.4";
   rdfs:subPropertyOf rdafra:P500007;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:description "La municipalité, la ville, la province, l’État et/ou le pays où une personne est déclarée être née."@en;
   sh:name "a pour lieu de naissance de la personne"@fr;
   sh:node rdafrc:C100009;
@@ -457,7 +457,7 @@ rdafrru:P312 rdfs:domain rdafrc:C100004;
   rdfs:range rdafrc:C100009;
   rdfs:seeAlso "9.3.5";
   rdfs:subPropertyOf rdafra:P500007;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:description "La municipalité, la ville, la province, l’État et/ou le pays où une personne est déclarée être décédée"@en;
   sh:name "a pour lieu de décès de la personne"@fr;
   sh:node rdafrc:C100009;
@@ -468,7 +468,7 @@ rdafrru:P313 rdfs:domain rdafrc:C100004;
   rdfs:range rdafrc:C100009;
   rdfs:seeAlso "9.3.6";
   rdfs:subPropertyOf rdafra:P500007;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:description "Pays dont les règles nationales sont suivies pour construire le point d’accès autorisé identifiant la personne."@en;
   sh:name "a pour pays associé à la personne"@fr;
   sh:node rdafrc:C100009;
@@ -479,7 +479,7 @@ rdafrru:P314 rdfs:domain rdafrc:C100004;
   rdfs:range rdafrc:C100009;
   rdfs:seeAlso "9.3.7";
   rdfs:subPropertyOf rdafra:P500007;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:description "Le lieu de résidence est une municipalité, une ville, une province, un État et/ou un pays où une personne réside ou a résidé"@en;
   sh:name "a pour lieu de résidence"@fr;
   sh:node rdafrc:C100009;
@@ -490,7 +490,7 @@ rdafrru:P315 rdfs:domain rdafrc:C100004;
   rdfs:range rdafrc:C100009;
   rdfs:seeAlso "9.3.8";
   rdfs:subPropertyOf rdafra:P500007;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:description "L’adresse du lieu de résidence, de travail, l’adresse de l’employeur d’une personne et/ou son adresse électronique ou son adresse de site Web."@en;
   sh:name "a pour adresse de la personne"@fr;
   sh:node rdafrc:C100009;
@@ -501,7 +501,7 @@ rdafrru:P316 rdfs:domain rdafrc:C100004;
   rdfs:range rdafrtl:Langue;
   rdfs:seeAlso "9.3.9";
   rdfs:subPropertyOf rdafrx:P100008;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:description "La langue (ou les langues) d’expression qu’elle utilise pour produire les ressources associées à la personne"@en;
   sh:name "a pour langue de la personne"@fr;
   sh:node rdafrtl:Langue;
@@ -512,7 +512,7 @@ rdafrru:P317 rdfs:domain rdafrc:C100004;
   rdfs:range rdf:langString;
   rdfs:seeAlso "9.3.10";
   rdfs:subPropertyOf rdafrx:P100008;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   skos:editorialNote "A terme on peut avoir un référentiel associé, soit dédié, soit pointer vers une instance d'un référentiel plus global, Rameau par exemple"@fr;
   sh:class rdf:langString;
   sh:datatype rdf:langString;
@@ -525,7 +525,7 @@ rdafrru:P318 rdfs:domain rdafrc:C100004;
   rdfs:range rdf:langString;
   rdfs:seeAlso "9.3.11";
   rdfs:subPropertyOf rdafrx:P100008;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   skos:editorialNote "A terme on peut avoir un référentiel associé, soit dédié, soit pointer ver une instance d'un référentiel plus global, Rameau par exemple"@fr;
   sh:class rdf:langString;
   sh:datatype rdf:langString;
@@ -538,7 +538,7 @@ rdafrru:P319 rdfs:domain rdafrc:C100004;
   rdfs:range rdf:langString;
   rdfs:seeAlso "9.3.12";
   rdfs:subPropertyOf rdafrx:P100008;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   skos:editorialNote "Si l'affiliation est exprimée sous forme de relation voir les classes de relation concernées"@fr;
   sh:class rdf:langString;
   sh:datatype rdf:langString;
@@ -551,7 +551,7 @@ rdafrru:P320 rdfs:domain rdafrc:C100004;
   rdfs:range rdf:langString;
   rdfs:seeAlso "9.3.13";
   rdfs:subPropertyOf rdafrx:P100008;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:class rdf:langString;
   sh:datatype rdf:langString;
   sh:description "Information sur la vie ou l’histoire d’une personne sous forme textuelle."@en;
@@ -562,7 +562,7 @@ rdafrru:P320 rdfs:domain rdafrc:C100004;
 rdafrru:P321 rdfs:domain rdafrc:C100004;
   rdfs:range rdafrc:C100012;
   rdfs:seeAlso "9.3.14";
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   skos:editorialNote """Identifiant sous forme d'URI (ex. ORCID)
 A distinguer de l'Identifiant associé à l'Identité publique de personne"""@fr;
   sh:description """Un identifiant associé à la personne est une chaîne de caractères ou de symboles qui lui est associée (par exemple un identifiant ORCID- Open Researcher and Contributor ID ):
@@ -575,7 +575,7 @@ L’identifiant sert à distinguer une personne d’autres personnes. Il doit ê
 rdafrru:P322 rdfs:domain rdafrc:C100004;
   rdfs:range rdafrc:C100015;
   owl:inverseOf rdafru:P600001;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:description "Toute personne a au moins une identité publique, et aucune identité publique ne peut exister sans être associée à une personne ou à un agent. Une personne peut être connue sous une seule identité publique, ou sous plusieurs. Ces identités publiques sont désignées en tant que telles."@en;
   sh:minCount 1;
   sh:name "a pour identité publique de la personne"@fr;
@@ -585,7 +585,7 @@ rdafrru:P322 rdfs:domain rdafrc:C100004;
 
 rdafrru:P323 rdfs:range rdafrc:C100002;
   rdfs:subPropertyOf rdafrx:P100001r;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:description "Catégorie de relation regroupant les relations spécifiques de nature sociale, économique ou culturelle"@en;
   sh:name "a une relation sociale, économique ou culturelle avec [dans la relation]"@fr;
   sh:node rdafrc:C100002;
@@ -595,7 +595,7 @@ rdafrru:P324 rdfs:domain rdafrc:C100004;
   rdfs:range rdafrc:C100002;
   rdfs:subPropertyOf rdafra:P500028r;
   owl:inverseOf rdafra:P500029r;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:description "Personne qui donne un enseignement à une autre personne."@en;
   sh:name "est enseignant de [dans la relation]"@fr;
   sh:node rdafrc:C100002;
@@ -606,7 +606,7 @@ rdafrru:P325 rdfs:domain rdafrc:C100004;
   rdfs:range rdafrc:C100002;
   rdfs:subPropertyOf rdafra:P500028r;
   owl:inverseOf rdafra:P500029ri;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:description "Personne qui reçoit l’enseignement d’une autre personne. S’applique dans tous les domaines, y compris les domaines artistiques."@en;
   sh:name "est élève de [dans la relation]"@fr;
   sh:node rdafrc:C100002;
@@ -617,7 +617,7 @@ rdafrru:P326 rdfs:domain rdafrc:C100004;
   rdfs:range rdafrc:C100002;
   rdfs:subPropertyOf rdafra:P500028r;
   owl:inverseOf rdafra:P500034ri;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:description "Relation établie en dehors du périmètre de la relation d’enseignement. S’applique dans les domaines intellectuels et artistiques."@en;
   sh:name "influence [dans la relation]"@fr;
   sh:node rdafrc:C100002;
@@ -628,7 +628,7 @@ rdafrru:P327 rdfs:domain rdafrc:C100004;
   rdfs:range rdafrc:C100002;
   rdfs:subPropertyOf rdafra:P500028r;
   owl:inverseOf rdafra:P500034r;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:description "Relation établie en dehors du périmètre de la relation d’enseignement. S’applique dans les domaines intellectuels et artistiques."@en;
   sh:name "est influencé ou influencée par [dans la relation]"@fr;
   sh:node rdafrc:C100002;
@@ -639,7 +639,7 @@ rdafrru:P328 rdfs:domain rdafrc:C100004;
   rdfs:range rdafrc:C100002;
   rdfs:subPropertyOf rdafra:P500028r;
   owl:inverseOf rdafra:P500038ri;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:description "Personne ou autorité qui enjoint à un artiste de réaliser une œuvre ou l’y encourage."@en;
   sh:name "commande des œuvres à [dans la relation]"@fr;
   sh:node rdafrc:C100002;
@@ -650,7 +650,7 @@ rdafrru:P329 rdfs:domain rdafrc:C100004;
   rdfs:range rdafrc:C100002;
   rdfs:subPropertyOf rdafra:P500028r;
   owl:inverseOf rdafra:P500038r;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:description "Artiste à qui il est enjoint par une personne ou une autorité de réaliser une œuvre ou qui y est encouragé."@en;
   sh:name "reçoit des commandes de [dans la relation]"@fr;
   sh:node rdafrc:C100002;
@@ -661,7 +661,7 @@ rdafrru:P330 rdfs:domain rdafrc:C100004;
   rdfs:range rdafrc:C100002;
   rdfs:subPropertyOf rdafra:P500028r;
   owl:inverseOf rdafra:P500042ri;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   skos:editorialNote "Pour les sous-groupes TB : Revoir la définition de \"mécénat\" avec le sous-groupe Collectivités"@fr;
   sh:description "Personne qui rétribue un artiste pour réaliser une ou plusieurs œuvres."@en;
   sh:name "est mécène de [dans la relation]"@fr;
@@ -673,7 +673,7 @@ rdafrru:P331 rdfs:domain rdafrc:C100004;
   rdfs:range rdafrc:C100002;
   rdfs:subPropertyOf rdafra:P500028r;
   owl:inverseOf rdafra:P500042r;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   skos:editorialNote "Pour les sous-groupes TB : Revoir la définition de \"mécénat\" avec le sous-groupe Collectivités"@fr;
   sh:description "Artiste qui est rétribué par une personne ou une autorité pour réaliser une ou plusieurs œuvres."@en;
   sh:name "a pour mécène [dans la relation]"@fr;
@@ -684,7 +684,7 @@ rdafrru:P331 rdfs:domain rdafrc:C100004;
 rdafrru:P332 rdfs:domain rdafrc:C100004;
   rdfs:range rdafrc:C100002;
   rdfs:subPropertyOf rdafra:P500028r;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:description "Personne travaillant avec une autre personne à un projet commun, dans la sphère professionnelle ou commerciale."@en;
   sh:name "a pour associé ou associée [dans la relation]"@fr;
   sh:node rdafrc:C100002;
@@ -693,7 +693,7 @@ rdafrru:P332 rdfs:domain rdafrc:C100004;
 
 rdafrru:P333 rdfs:range rdafrc:C100004;
   rdfs:subPropertyOf rdafrx:P100001r;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:description "Catégorie de relation regroupant des relations entre membres de la même famille"@en;
   sh:name "a une relation familiale avec [dans la relation]"@fr;
   sh:node rdafrc:C100004;
@@ -703,7 +703,7 @@ rdafrru:P334 rdfs:domain rdafrc:C100004;
   rdfs:range rdafrc:C100004;
   rdfs:subPropertyOf rdafra:P500047r;
   owl:inverseOf rdafra:P500048ri;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:description "Personne qui descend familialement d’une autre personne."@en;
   sh:name "descend de [dans la relation]"@fr;
   sh:node rdafrc:C100004;
@@ -714,7 +714,7 @@ rdafrru:P335 rdfs:domain rdafrc:C100004;
   rdfs:range rdafrc:C100004;
   rdfs:subPropertyOf rdafra:P500047r;
   owl:inverseOf rdafra:P500048r;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:description "Personne qui est l’ancêtre d’une autre personne."@en;
   sh:name "a pour descendant ou descendante [dans la relation]"@fr;
   sh:node rdafrc:C100004;
@@ -725,7 +725,7 @@ rdafrru:P336 rdfs:domain rdafrc:C100004;
   rdfs:range rdafrc:C100004;
   rdfs:subPropertyOf rdafra:P500047r;
   owl:inverseOf rdafra:P500052ri;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:description "Relation entre une personne et son enfant, à l’exclusion de toute autre relation de parenté."@en;
   sh:name "est le parent de [dans la relation]"@fr;
   sh:node rdafrc:C100004;
@@ -736,7 +736,7 @@ rdafrru:P337 rdfs:domain rdafrc:C100004;
   rdfs:range rdafrc:C100004;
   rdfs:subPropertyOf rdafra:P500047r;
   owl:inverseOf rdafra:P500052r;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:description "Personne qui est le fils ou la fille d’une autre personne."@en;
   sh:name "est l’enfant de [dans la relation]"@fr;
   sh:node rdafrc:C100004;
@@ -747,7 +747,7 @@ rdafrru:P338 rdfs:domain rdafrc:C100004;
   rdfs:range rdafrc:C100004;
   rdfs:subPropertyOf rdafra:P500047r;
   owl:inverseOf rdafra:P500056ri;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:description "Personne qui a des parents ou un des parents communs avec une autre personne."@en;
   sh:name "est la sœur ou le frère de [dans la relation]"@fr;
   sh:node rdafrc:C100004;
@@ -758,7 +758,7 @@ rdafrru:P339 rdfs:domain rdafrc:C100004;
   rdfs:range rdafrc:C100004;
   rdfs:subPropertyOf rdafra:P500047r;
   owl:inverseOf rdafra:P500056r;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:description "Relation qui s’entend dans une acception large (mariage, concubinage, union civile…)."@en;
   sh:name "est la conjointe ou le conjoint de [dans la relation]"@fr;
   sh:node rdafrc:C100004;
@@ -768,7 +768,7 @@ rdafrru:P339 rdfs:domain rdafrc:C100004;
 rdafrru:P340 rdfs:domain rdafrc:C100004;
   rdfs:range rdafrc:C100004;
   rdfs:subPropertyOf rdafrx:P100001r;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:description "Relation de non équivalence alertant sur les risques de confusion existant avec des personnes homonymes."@en;
   sh:name "est à distinguer de personne [dans la relation]"@fr;
   sh:node rdafrc:C100004;
@@ -777,7 +777,7 @@ rdafrru:P340 rdfs:domain rdafrc:C100004;
 
 rdafrru:P704 rdfs:domain rdafrc:C100015;
   rdfs:range rdafrc:C100013;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:maxCount 1;
   sh:name "a pour source [uri]"@fr;
   sh:node rdafrc:C100013;
@@ -791,7 +791,7 @@ rdafrc:C100015 sh:property rdafrru:P704, rdafrru:P705, rdafrru:P706, rdafrru:P70
 
 rdafrru:P705 rdfs:domain rdafrc:C100015;
   rdfs:range rdf:langString;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:class rdf:langString;
   sh:datatype rdf:langString;
   sh:maxCount 1;
@@ -801,14 +801,14 @@ rdafrru:P705 rdfs:domain rdafrc:C100015;
 
 rdafrru:P706 rdfs:domain rdafrc:C100015;
   rdfs:range rdafrtl:NiveauFiabilite;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:name "a pour niveau de fiabilité"@fr;
   sh:node rdafrtl:NiveauFiabilite;
   sh:nodeKind sh:IRI;
   sh:path rdafrx:P100005 .
 
 rdafrru:P707 rdfs:range xsd:boolean;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:class xsd:boolean;
   sh:datatype xsd:boolean;
   sh:name "a un caractère confidentiel"@fr;
@@ -817,7 +817,7 @@ rdafrru:P707 rdfs:range xsd:boolean;
 
 rdafrru:P708 rdfs:domain rdafrc:C100015;
   rdfs:range rdafrc:C100010;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:name "a pour laps de temps"@fr;
   sh:node rdafrc:C100010;
   sh:nodeKind sh:IRI;
@@ -826,7 +826,7 @@ rdafrru:P708 rdfs:domain rdafrc:C100015;
 rdafrru:P709 rdfs:domain rdafrc:C100015;
   rdfs:range rdafrc:C100004;
   owl:inverseOf rdafra:P500027;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   skos:editorialNote "Pour sous-groupe TB Personnes : Attention à la compatibilité entre les définitions retenues ici pour l'ontologie et celles du code (pour la future publication du code sous forme de site web,où les définitions du glossaire, conformes aux définitions dans l'ontologie, feront référence)."@fr;
   sh:description "Personne utilisant cette identité publique"@en;
   sh:maxCount 1;
@@ -839,7 +839,7 @@ rdafrru:P709 rdfs:domain rdafrc:C100015;
 rdafrru:P710 rdfs:domain rdafrc:C100015;
   rdfs:range rdafrtl:CategorieIdentitePublique;
   rdfs:seeAlso "9.1.1";
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   skos:editorialNote "oui / fait : Pour Jean : Vérifier si le référentiel qu'on a proposé dans le tableau des Vocabulaires contrôlés est déclaré, avec les URIs, etc., dans l'ontologie"@fr;
   sh:description "Précision de la nature du nom sur lequel est fondée l'identité publique de la personne."@en;
   sh:maxCount 1;
@@ -853,7 +853,7 @@ rdafrru:P711 rdfs:domain rdafrc:C100015;
   rdfs:range rdafrc:C100012;
   rdfs:seeAlso "9.2.1";
   owl:inverseOf "est un nom de l'identité publique de personne";
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:description "Un nom utilisé pour désigner l'identité publique de la personne"@en;
   sh:minCount 1;
   sh:name "a pour nom de l'identité publique de personne"@fr;
@@ -866,7 +866,7 @@ rdafrru:P712 rdfs:domain rdafrc:C100015;
   rdfs:seeAlso "9.2.1.1";
   rdfs:subPropertyOf rdafru:P600003;
   owl:inverseOf "est le nom privilégié de l'identité publique de personne";
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:description "Le nom privilégié de l’identité publique est le nom ou la forme de nom choisie pour servir d’élément de base du point d’accès autorisé représentant cette personne."@en;
   sh:maxCount 1;
   sh:minCount 1;
@@ -879,7 +879,7 @@ rdafrru:P713 rdfs:domain rdafrc:C100015;
   rdfs:range rdafrc:C100012;
   rdfs:subPropertyOf rdafru:P600003;
   owl:inverseOf "est un nom privilégié supplémentaire de l'identité publique de personne";
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   skos:editorialNote """Pour le sous-groupe TB Personnes : Relire et valider la définition ci-contre et l'intégrer dans le code. 
 (Pour information et inspiration, définition dans chapitre 5 : \"Autre forme du titre privilégié dans une langue ou une écriture différente et qui peut se substituer à celui-ci selon le contexte ou les utilisateurs visés. Un titre privilégié supplémentaire peut être retenu en point d’accès autorisé dans un catalogue.\"
 
@@ -895,7 +895,7 @@ rdafrru:P714 rdfs:domain rdafrc:C100015;
   rdfs:seeAlso "9.2.1.2";
   rdfs:subPropertyOf rdafru:P600003;
   owl:inverseOf "est une variante de nom de l'identité publique de personne";
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:description "Une variante de nom de l’identité publique de la personne désigne un nom ou une forme de nom sous lequel cette identité publique est connue et qui diffère du nom ou de la forme de nom choisie comme nom privilégié ou comme nom privilégié supplémentaire."@en;
   sh:name "a pour variante de nom de l'identité publique de personne"@fr;
   sh:node rdafrc:C100012;
@@ -905,6 +905,7 @@ rdafrru:P714 rdfs:domain rdafrc:C100015;
 rdafrru:P715 rdfs:range rdafrc:C100012;
   rdfs:subPropertyOf rdafru:P600003;
   owl:inverseOf "est un point d'accès représentant la personne";
+  owl:versionInfo "0.0.1";
   skos:editorialNote """Pour Jean : pour les noms (y compris les points d'accès) faut-il créer une propriété générique au niveau de Res \"a pour nomen\" et aussi, éventuellement, au niveau de l'IPP \"a pour nomen\" et les déclarer par la suite comme super-propriété des tous les spécifiques qui sont déclarés, notamment dans ce tableau : a pour nom, a pour point d'accès, a pour identifiant ? Pour Anila et Francoise : avant de décider pouvez vous me dire quelles classes utilisent Nomen ?
 Réponse : TOUTES les classes (il s'agit des appellations, voir le schéma générique de LRM), sauf pour les Personnes et Groupes informels, pour lesquels les appellations sont portées par l'Identité publique."""@fr;
   sh:description "Un point d'accès représentant l'identité publique de la personne"@en;
@@ -917,7 +918,7 @@ rdafrru:P716 rdfs:domain rdafrc:C100015;
   rdfs:seeAlso "9.4.2";
   rdfs:subPropertyOf rdafru:P600003;
   owl:inverseOf "est le point d'accès autorisé de l'identité publique de personne";
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:description "Le point d’accès autorisé représentant une identité publique, construit à partir du nom privilégié de l’identité publique utilisé comme élément de base"@en;
   sh:maxCount 1;
   sh:minCount 1;
@@ -931,7 +932,7 @@ rdafrru:P717 rdfs:domain rdafrc:C100015;
   rdfs:seeAlso "9.4.3";
   rdfs:subPropertyOf rdafru:P600003;
   owl:inverseOf "est un point d'accès autorisé supplémentaire de l'identité publique de personne";
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:description "Un point d’accès représentant une identité publique, construit à partir d'un nom privilégié supplémentaire."@en;
   sh:name "a pour point d'accès autorisé supplémentaire de l'identité publique de personne"@fr;
   sh:node rdafrc:C100012;
@@ -943,7 +944,7 @@ rdafrru:P718 rdfs:domain rdafrc:C100015;
   rdfs:seeAlso "9.4.4";
   rdfs:subPropertyOf rdafru:P600003;
   owl:inverseOf "est une variante de point d'accès de l'identité publique de personne";
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:description "Tout point d’accès représentant une identité publique, autre que le point d’accès autorisé ou le point d'accès autorisé supplémentaire."@en;
   sh:name "a pour variante de point d'accès de l'identité publique de personne"@fr;
   sh:node rdafrc:C100012;
@@ -954,7 +955,7 @@ rdafrru:P719 rdfs:domain rdafrc:C100015;
   rdfs:range rdafrc:C100012;
   rdfs:seeAlso "9.2.2";
   rdfs:subPropertyOf rdafru:P600003;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   skos:editorialNote "Un autre terme associé à une identité publique de personne est un élément fondamental pour les saints, les esprits, les personnes citées dans les écritures sacrées et les textes apocryphes, les personnages mythologiques, fictifs ou légendaires et les entités non humaines"@fr;
   sh:description "Un autre terme associé à l’identité publique de la personne est un mot ou expression qui lui est associé, autre qu’un titre."@en;
   sh:maxCount 1;
@@ -966,7 +967,7 @@ rdafrru:P719 rdfs:domain rdafrc:C100015;
 rdafrru:P720 rdfs:domain rdafrc:C100015;
   rdfs:range rdf:langString;
   rdfs:seeAlso "9.2.3";
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   skos:editorialNote "Il est possible/probable qu'une personne puisse utiliser une identité publique dans plusieurs contextes (plusieurs domaines d'activité, par exemple) et une autre identité publique dans un(plusieurs) autre(s) contexte(s)."@fr;
   sh:class rdf:langString;
   sh:datatype rdf:langString;
@@ -980,7 +981,7 @@ rdafrru:P721 rdfs:domain rdafrc:C100015;
   rdfs:seeAlso "9.2.4";
   rdfs:subPropertyOf rdafrx:P100008;
   owl:inverseOf "est la date ou la fourchette de dates associée à l'utilisation de l'identité publique";
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:description "Une date ou une fourchette de dates associée à l’utilisation d’une identité publique."@en;
   sh:maxCount 1;
   sh:name "a pour date d'utilisation de l'identité publique de personne"@fr;
@@ -993,7 +994,7 @@ rdafrru:P722 rdfs:domain rdafrc:C100015;
   rdfs:seeAlso "9.2.5";
   rdfs:subPropertyOf rdafru:P600003;
   owl:inverseOf "est l'identifiant associée à l'identité publique de personne";
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   skos:editorialNote """A distinguer de l'Identifiant associé à la personne
 Propriété prioritairemenet utilisé pour identifiant ISNI
 
@@ -1008,7 +1009,7 @@ Dans le cas des personnes ayant plus d’une identité, chaque identité publiqu
 
 rdafrru:P804 rdfs:domain rdafrc:C100012;
   rdfs:range rdfs:Literal;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:class rdfs:Literal;
   sh:datatype rdfs:Literal;
   sh:maxCount 1;
@@ -1022,7 +1023,7 @@ rdafrc:C100012 sh:property rdafrru:P804, rdafrru:P805, rdafrru:P806, rdafrru:P80
 
 rdafrru:P805 rdfs:domain rdafrc:C100012;
   rdfs:range rdafrtl:SchemaEncodage;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   skos:editorialNote """L’attribut schéma d’encodage recouvre :
 - des schémas d’encodage de valeurs (listes de vedettes matière, thésaurus, classifications systématiques, listes d’autorité de noms, etc.) ;
 - et des schémas d’encodage syntaxiques (normes d’encodage des dates, etc.)."""@fr;
@@ -1036,7 +1037,7 @@ rdafrru:P805 rdfs:domain rdafrc:C100012;
 
 rdafrru:P806 rdfs:domain rdafrc:C100012;
   rdfs:range rdafrtl:Langue;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:description "Langue dans laquelle le nomen est attesté"@en;
   sh:maxCount 1;
   sh:name "a pour langue"@fr;
@@ -1046,7 +1047,7 @@ rdafrru:P806 rdfs:domain rdafrc:C100012;
 
 rdafrru:P807 rdfs:domain rdafrc:C100012;
   rdfs:range rdafrtl:Ecriture;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:description "Écriture dans laquelle la chaîne du nomen est notée"@en;
   sh:maxCount 1;
   sh:name "a pour écriture"@fr;
@@ -1056,7 +1057,7 @@ rdafrru:P807 rdfs:domain rdafrc:C100012;
 
 rdafrru:P808 rdfs:domain rdafrc:C100012;
   rdfs:range rdafrtl:SystemeConversion;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   sh:description "La règle, le système ou la norme utilisée pour créer la chaîne du nomen d’un nomen dérivé à partir de la chaîne du nomen d’un autre nomen distinct quand celle-ci est notée dans une écriture différente"@en;
   sh:maxCount 1;
   sh:name "a pour système de conversion des écritures"@fr;
@@ -1067,7 +1068,7 @@ rdafrru:P808 rdfs:domain rdafrc:C100012;
 rdafrru:P809 rdfs:domain rdafrc:C100012;
   rdfs:range rdafrc:C100010;
   rdfs:subPropertyOf rdafrx:P100002;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   skos:editorialNote "S'applique notamment aux lieux. Jean> voir stockage interval dans DateTime, faire réunion sur la gestion des dates"@fr;
   sh:description "Date ou une fourchette de dates associée à l’utilisation d'un nomen."@en;
   sh:maxCount 1;
@@ -1080,7 +1081,7 @@ rdafrru:P809 rdfs:domain rdafrc:C100012;
 rdafrru:P810 rdfs:domain rdafrc:C100012;
   rdfs:range rdafrc:C100010;
   rdfs:subPropertyOf rdafrx:P100002;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   skos:editorialNote """S'applique notamment aux lieux.
 Les dates d’attestation permettent de retracer l’évolution du nom et de sa graphie jusqu’à ce que celle-ci soit stabilisée et enregistrée dans des sources de référence."""@fr;
   sh:description "Date d’une ressource mentionnant l'instance d'une entité sous une forme particulière de son nom. Elle est associée à la forme du nom trouvée dans cette source."@en;
@@ -1092,7 +1093,7 @@ Les dates d’attestation permettent de retracer l’évolution du nom et de sa 
 
 rdafrru:P811 rdfs:domain rdafrc:C100012;
   rdfs:range rdafrtl:CategorieNomen;
-  owl:versionInfo "v0.1";
+  owl:versionInfo "0.0.1";
   skos:editorialNote "S'applique notamment aux identifiants (identifiant de l'instance décrite / identifiant des métadonnées décrivant l'instance) Jean : porté par la propriété"@fr;
   sh:description "Type auquel le nomen appartient"@en;
   sh:maxCount 1;
@@ -1122,12 +1123,13 @@ rdafrc:C100001 a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:label "oeuvre"@fr;
   rdfs:subClassOf rdafrc:C100013;
   owl:sameAs "rdac:C10001";
+  owl:versionInfo "0.0.1";
   skos:notation "w";
   sh:closed true;
   sh:description "Source : Glossaire de RDA-FR, 2020"@fr;
-  sh:ignoredProperties _:node1gnuf2bqtx128 .
+  sh:ignoredProperties _:node1gnuf2bqtx415 .
 
-_:node1gnuf2bqtx128 rdf:first rdf:type;
+_:node1gnuf2bqtx415 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafrc:C100001 sh:nodeKind sh:IRI;
@@ -1141,6 +1143,7 @@ documentaire. Cela inclut les personnes ou les groupes."""@fr;
   rdfs:label "agent"@fr;
   rdfs:subClassOf rdafrc:C100013;
   owl:sameAs "rdac:C10002";
+  owl:versionInfo "0.0.1";
   skos:notation "a";
   sh:closed true;
   sh:description """Source : définition dans le chapitre 8 (version publiée en 2017, figurant aussi dans le Glossaire de RDA-FR de 2020).
@@ -1149,9 +1152,9 @@ Attention : à la fin de cette définition il y avait une parenthèse de précis
 
 Pour information, la définition de IFLA LRM est la suivante :
 Une entité à même d'agir de son propre chef, de se voir accorder des droits et d’être tenue pour responsable de ses actions"""@fr;
-  sh:ignoredProperties _:node1gnuf2bqtx129 .
+  sh:ignoredProperties _:node1gnuf2bqtx416 .
 
-_:node1gnuf2bqtx129 rdf:first rdf:type;
+_:node1gnuf2bqtx416 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafrc:C100002 sh:nodeKind sh:IRI;
@@ -1165,6 +1168,7 @@ Un item exemplifie une manifestation et en reflète en principe toutes les carac
   rdfs:label "item"@fr;
   rdfs:subClassOf rdafrc:C100013;
   owl:sameAs "rdac:C10003";
+  owl:versionInfo "0.0.1";
   skos:notation "i";
   sh:closed true;
   sh:description """Source : RDA-FR Section 1 chp1 (reprend et complète la définition de IFLA LRM)
@@ -1173,9 +1177,9 @@ Pas de définition dans le Glossaire RDA-FR de 2020
 Item (RDA-FR section 1 chp1) : un ou plusieurs objets portant des signes chargés de véhiculer un contenu intellectuel ou
 artistique. En termes de contenu intellectuel ou artistique et de présentation matérielle, un item exemplifie une manifestation et en reflète en principe toutes les caractéristiques. Il peut avoir en outre des caractéristiques singulières en fonction de son histoire.
 En pratique, un item correspond à un exemplaire."""@fr;
-  sh:ignoredProperties _:node1gnuf2bqtx130 .
+  sh:ignoredProperties _:node1gnuf2bqtx417 .
 
-_:node1gnuf2bqtx130 rdf:first rdf:type;
+_:node1gnuf2bqtx417 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafrc:C100003 sh:nodeKind sh:IRI;
@@ -1188,6 +1192,7 @@ rdafrc:C100004 a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:label "personne"@fr;
   rdfs:subClassOf rdafrc:C100002;
   owl:sameAs "rdac:C10004";
+  owl:versionInfo "0.0.1";
   skos:editorialNote """Res ou Définir \"Entité RDA-FR\" comme l'a fait RDA de son côté ?
 Voir aussi s'il faut créer la classe Agent dans l'ontologie RDA-FR."""@en;
   sh:closed true;
@@ -1212,9 +1217,9 @@ Commentaire : dans cette version de l'ontologie on pourrait supprimer la parenth
 Pour information, la définition de IFLA LRM est la suivante :
 Un être humain en particulier 
 Note d'application : L’entité personne est restreinte aux personnes réelles, existant ou étant présumées avoir existé. Il n’est pas nécessaire d’avoir des preuves formelles de l’existence d’une personne, du moment que sa véracité historique est globalement acceptée. En revanche, les figures généralement considérées comme fictives (par exemple, Kermit la grenouille), les personnages littéraires (par exemple, Miss Marple) ou purement légendaires (par exemple, Merlin l’enchanteur) ne sont pas des instances de l’entité personne."""@fr;
-  sh:ignoredProperties _:node1gnuf2bqtx131 .
+  sh:ignoredProperties _:node1gnuf2bqtx418 .
 
-_:node1gnuf2bqtx131 rdf:first rdf:type;
+_:node1gnuf2bqtx418 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafrc:C100004 sh:nodeKind sh:IRI;
@@ -1227,6 +1232,7 @@ rdafrc:C100005 a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:label "collectivité"@fr;
   rdfs:subClassOf rdafrc:C100011;
   owl:sameAs "rdac:C10005";
+  owl:versionInfo "0.0.1";
   sh:closed true;
   sh:description """Définition issue du chapitre 11 - publié. Elle remplace la définition de collectivité dans le chapitre 8 et dans le Glossaire RDA-FR (transmise à Mélanie Roche)
 
@@ -1240,9 +1246,9 @@ Comprend :
 - les groupes constitués dans le cadre d’un projet, d’une mission ou d’un programme, 
 -les équipages de navires, véhicules spatiaux…, 
 - les groupes occasionnels et les groupes constitués à l’occasion d’événements ponctuels, tels que rencontres, conférences, congrès, expéditions, compétitions sportives, groupes projets, expositions, festivals, foires, etc. (voir la définition de Groupe occasionnel)"""@fr;
-  sh:ignoredProperties _:node1gnuf2bqtx132 .
+  sh:ignoredProperties _:node1gnuf2bqtx419 .
 
-_:node1gnuf2bqtx132 rdf:first rdf:type;
+_:node1gnuf2bqtx419 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafrc:C100005 sh:nodeKind sh:IRI;
@@ -1255,12 +1261,13 @@ rdafrc:C100006 a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:label "expression"@fr;
   rdfs:subClassOf rdafrc:C100013;
   owl:sameAs "rdac:C10006";
+  owl:versionInfo "0.0.1";
   skos:notation "e";
   sh:closed true;
   sh:description "Source: Glossaire RDA-FR"@fr;
-  sh:ignoredProperties _:node1gnuf2bqtx133 .
+  sh:ignoredProperties _:node1gnuf2bqtx420 .
 
-_:node1gnuf2bqtx133 rdf:first rdf:type;
+_:node1gnuf2bqtx420 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafrc:C100006 sh:nodeKind sh:IRI;
@@ -1273,14 +1280,15 @@ rdafrc:C100007 a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:label "manifestation"@fr;
   rdfs:subClassOf rdafrc:C100013;
   owl:sameAs "rdac:C10007";
+  owl:versionInfo "0.0.1";
   skos:notation "m";
   sh:closed true;
   sh:description """Source : RDA-FR, section 1 chp1, conforme à IFLA LRM
 
 Pas de définition dans le Glossaire de RDA-FR, 2020"""@fr;
-  sh:ignoredProperties _:node1gnuf2bqtx134 .
+  sh:ignoredProperties _:node1gnuf2bqtx421 .
 
-_:node1gnuf2bqtx134 rdf:first rdf:type;
+_:node1gnuf2bqtx421 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafrc:C100007 sh:nodeKind sh:IRI;
@@ -1295,6 +1303,7 @@ personnes qui se présentent elles-mêmes comme une famille."""@fr;
   rdfs:label "famille"@fr;
   rdfs:subClassOf rdafrc:C100011;
   owl:sameAs "rdac:C10008";
+  owl:versionInfo "0.0.1";
   sh:closed true;
   sh:description """Source Glossaire RDA-FR, 2020
 Correspond à la définition dans le chapitre 8 (version publiée en 2017). C'est la partie concise de la définition. Elle est étendue par :
@@ -1305,9 +1314,9 @@ Cela comprend :
 - les unités familiales (parents, enfants, etc.) ;
 - les maisons nobiliaires ;
 - l'ensemble des détenteurs successifs d'un titre dans une maison nobiliaire."""@fr;
-  sh:ignoredProperties _:node1gnuf2bqtx135 .
+  sh:ignoredProperties _:node1gnuf2bqtx422 .
 
-_:node1gnuf2bqtx135 rdf:first rdf:type;
+_:node1gnuf2bqtx422 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafrc:C100008 sh:nodeKind sh:IRI;
@@ -1320,12 +1329,13 @@ rdafrc:C100009 a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:label "lieu"@fr;
   rdfs:subClassOf rdafrc:C100013;
   owl:sameAs "rdac:C10009";
+  owl:versionInfo "0.0.1";
   skos:notation "p";
   sh:closed true;
   sh:description "Source : définition issue du chapitre 12, en cours de finalisation"@fr;
-  sh:ignoredProperties _:node1gnuf2bqtx136 .
+  sh:ignoredProperties _:node1gnuf2bqtx423 .
 
-_:node1gnuf2bqtx136 rdf:first rdf:type;
+_:node1gnuf2bqtx423 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafrc:C100009 sh:nodeKind sh:IRI;
@@ -1338,13 +1348,14 @@ rdafrc:C100010 a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:label "laps de temps"@fr;
   rdfs:subClassOf rdafrc:C100013;
   owl:sameAs "rdac:C10010";
+  owl:versionInfo "0.0.1";
   skos:notation "t";
   sh:closed true;
   sh:description """Pas de définition dans le Glossaire RDA-FR de 2020 (partie non élaborée)
 Source : IFLA LRM"""@fr;
-  sh:ignoredProperties _:node1gnuf2bqtx137 .
+  sh:ignoredProperties _:node1gnuf2bqtx424 .
 
-_:node1gnuf2bqtx137 rdf:first rdf:type;
+_:node1gnuf2bqtx424 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafrc:C100010 sh:nodeKind sh:IRI;
@@ -1357,12 +1368,13 @@ rdafrc:C100011 a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:label "agent collectif"@fr;
   rdfs:subClassOf rdafrc:C100002;
   owl:sameAs "rdac:C10011";
+  owl:versionInfo "0.0.1";
   sh:closed true;
   sh:description """Pas de définition dans le Glossaire RDA-FR de 2020 (entité non retenue par le code jusqu'à présent)
 Source : IFLA LRM"""@fr;
-  sh:ignoredProperties _:node1gnuf2bqtx138 .
+  sh:ignoredProperties _:node1gnuf2bqtx425 .
 
-_:node1gnuf2bqtx138 rdf:first rdf:type;
+_:node1gnuf2bqtx425 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafrc:C100011 sh:nodeKind sh:IRI;
@@ -1375,13 +1387,14 @@ rdafrc:C100012 a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:label "nomen"@fr;
   rdfs:subClassOf rdafrc:C100013;
   owl:sameAs "rdac:C10012";
+  owl:versionInfo "0.0.1";
   skos:notation "n";
   sh:closed true;
   sh:description """Pas de défintion dans le Glossaire RDA-FR de 2020
 Source : IFLA LRM"""@fr;
-  sh:ignoredProperties _:node1gnuf2bqtx139 .
+  sh:ignoredProperties _:node1gnuf2bqtx426 .
 
-_:node1gnuf2bqtx139 rdf:first rdf:type;
+_:node1gnuf2bqtx426 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafrc:C100012 sh:nodeKind sh:IRI;
@@ -1394,6 +1407,7 @@ rdafrc:C100013 a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:label "entité rdafr"@fr;
   rdfs:subClassOf owl:Thing;
   owl:sameAs "rdac:C10013";
+  owl:versionInfo "0.0.1";
   sh:closed true;
   sh:description """Source : Définition de Res dans IFLA LRM :
 Res (« chose » en latin) est l'entité de niveau supérieur du modèle. Res comprend aussi bien des choses matérielles ou physiques que des concepts. Est inclus tout ce qui est considéré comme pertinent dans l'univers bibliographique, qui est en l’occurrence l'univers du discours. Res est la superclasse de toutes les autres entités : celles qui sont explicitement définies ici comme celles qui ne sont pas
@@ -1401,9 +1415,9 @@ spécifiquement nommées.
 
 Définition de RDA Entity dans RDA Toolkit :
 An abstract class of key conceptual objects in the universe of human discourse that are a focus of interest to users of RDA metadata in a system for resource discovery. An RDA entity includes an agent, collective agent, corporate body, expression, family, item, manifestation, nomen, person, place, timespan, and work."""@fr;
-  sh:ignoredProperties _:node1gnuf2bqtx140 .
+  sh:ignoredProperties _:node1gnuf2bqtx427 .
 
-_:node1gnuf2bqtx140 rdf:first rdf:type;
+_:node1gnuf2bqtx427 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafrc:C100013 sh:nodeKind sh:IRI;
@@ -1415,6 +1429,7 @@ rdafrc:C100015 a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:comment "Identité d’un agent qui est connue ou a été rendue publique."@fr;
   rdfs:label "identité publique"@fr;
   rdfs:subClassOf rdafrc:C100013;
+  owl:versionInfo "0.0.1";
   skos:editorialNote """Intitulé de la classe à revoir, car une identité publique peut être associé :
 - à des Agents (pour les personnes à proprement parler et les pseudonnymes collectifs) et 
 - à des sous-classes de Res (pour les personnages fictifs, les animaux, les logiciels, etc.)
@@ -1435,9 +1450,9 @@ Les noms présentés comme des noms de personnes réelles constituent également
 
 Dans le chapitre 9 on trouve aussi :
 Toute personne a au moins une identité publique, et aucune identité publique ne peut exister sans être associée à une personne ou à un agent. Une personne peut être connue sous une seule identité publique, ou sous plusieurs. Ces identités publiques sont désignées en tant que telles. Les propriétés relatives à la personne et celles relatives à l’identité publique sont clairement distinguées."""@fr;
-  sh:ignoredProperties _:node1gnuf2bqtx141 .
+  sh:ignoredProperties _:node1gnuf2bqtx428 .
 
-_:node1gnuf2bqtx141 rdf:first rdf:type;
+_:node1gnuf2bqtx428 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafrc:C100015 sh:nodeKind sh:IRI;
@@ -1448,11 +1463,12 @@ rdafrc:C100017 a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:comment "en attente de traitement dans l'ontologie RDA-FR"@fr;
   rdfs:label "objet"@fr;
   rdfs:subClassOf rdafrc:C100013;
+  owl:versionInfo "0.0.1";
   skos:notation "b";
   sh:closed true;
-  sh:ignoredProperties _:node1gnuf2bqtx142 .
+  sh:ignoredProperties _:node1gnuf2bqtx429 .
 
-_:node1gnuf2bqtx142 rdf:first rdf:type;
+_:node1gnuf2bqtx429 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafrc:C100017 sh:nodeKind sh:IRI;
@@ -1463,11 +1479,12 @@ rdafrc:C100018 a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:comment "en attente de traitement dans l'ontologie RDA-FR"@fr;
   rdfs:label "événement"@fr;
   rdfs:subClassOf rdafrc:C100013;
+  owl:versionInfo "0.0.1";
   skos:notation "v";
   sh:closed true;
-  sh:ignoredProperties _:node1gnuf2bqtx143 .
+  sh:ignoredProperties _:node1gnuf2bqtx430 .
 
-_:node1gnuf2bqtx143 rdf:first rdf:type;
+_:node1gnuf2bqtx430 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafrc:C100018 sh:nodeKind sh:IRI;
@@ -1478,10 +1495,11 @@ rdafrc:C100019 a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:comment "en attente de traitement dans l'ontologie RDA-FR"@fr;
   rdfs:label "événement culturel"@fr;
   rdfs:subClassOf rdafrc:C100018;
+  owl:versionInfo "0.0.1";
   sh:closed true;
-  sh:ignoredProperties _:node1gnuf2bqtx144 .
+  sh:ignoredProperties _:node1gnuf2bqtx431 .
 
-_:node1gnuf2bqtx144 rdf:first rdf:type;
+_:node1gnuf2bqtx431 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafrc:C100019 sh:nodeKind sh:IRI;
@@ -1492,11 +1510,12 @@ rdafrc:C100020 a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:comment "en attente de traitement dans l'ontologie RDA-FR"@fr;
   rdfs:label "concept"@fr;
   rdfs:subClassOf rdafrc:C100013;
+  owl:versionInfo "0.0.1";
   skos:notation "?";
   sh:closed true;
-  sh:ignoredProperties _:node1gnuf2bqtx145 .
+  sh:ignoredProperties _:node1gnuf2bqtx432 .
 
-_:node1gnuf2bqtx145 rdf:first rdf:type;
+_:node1gnuf2bqtx432 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafrc:C100020 sh:nodeKind sh:IRI;
@@ -1507,11 +1526,12 @@ rdafrc:C100021 a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:comment "en attente de traitement dans l'ontologie RDA-FR"@fr;
   rdfs:label "période"@fr;
   rdfs:subClassOf rdafrc:C100010;
+  owl:versionInfo "0.0.1";
   skos:notation "t";
   sh:closed true;
-  sh:ignoredProperties _:node1gnuf2bqtx146 .
+  sh:ignoredProperties _:node1gnuf2bqtx433 .
 
-_:node1gnuf2bqtx146 rdf:first rdf:type;
+_:node1gnuf2bqtx433 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafrc:C100021 sh:nodeKind sh:IRI;
@@ -1522,11 +1542,12 @@ rdafrc:C100022 a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:comment "en attente de traitement dans l'ontologie RDA-FR"@fr;
   rdfs:label "date unique"@fr;
   rdfs:subClassOf rdafrc:C100010;
+  owl:versionInfo "0.0.1";
   skos:notation "t";
   sh:closed true;
-  sh:ignoredProperties _:node1gnuf2bqtx147 .
+  sh:ignoredProperties _:node1gnuf2bqtx434 .
 
-_:node1gnuf2bqtx147 rdf:first rdf:type;
+_:node1gnuf2bqtx434 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafrc:C100022 sh:nodeKind sh:IRI;
@@ -1537,11 +1558,12 @@ rdafrc:C100023 a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:comment "en attente de traitement dans l'ontologie RDA-FR"@fr;
   rdfs:label "série de date ou de laps de temps"@fr;
   rdfs:subClassOf rdafrc:C100010;
+  owl:versionInfo "0.0.1";
   skos:notation "t";
   sh:closed true;
-  sh:ignoredProperties _:node1gnuf2bqtx148 .
+  sh:ignoredProperties _:node1gnuf2bqtx435 .
 
-_:node1gnuf2bqtx148 rdf:first rdf:type;
+_:node1gnuf2bqtx435 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafrc:C100023 sh:nodeKind sh:IRI;
@@ -1552,12 +1574,13 @@ rdafrc:C100025 a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:comment "Agent étant identifié comme un groupe de personnes qui ne sont ni des familles ni des collectivités et dont le nom se présente formellement comme un nom de personne (nom traditionnellement désigné par le terme \"psudonyme collectif\")."@fr;
   rdfs:label "groupe informel"@fr;
   rdfs:subClassOf rdafrc:C100011;
+  owl:versionInfo "0.0.1";
   skos:notation "t";
   sh:closed true;
   sh:description "AA : c'est dans la partie \"comprend\" de la définition de collectivité du chp11, qu'est indiqué expressément que les groupes artistiques, etc., font partie de l'entité Collectivité. Donc, pas besoin de mentionner ici l'exclusion de ces groupes de la classe Groupe informel"@fr;
-  sh:ignoredProperties _:node1gnuf2bqtx149 .
+  sh:ignoredProperties _:node1gnuf2bqtx436 .
 
-_:node1gnuf2bqtx149 rdf:first rdf:type;
+_:node1gnuf2bqtx436 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafrc:C100025 sh:nodeKind sh:IRI;
@@ -1568,10 +1591,11 @@ rdafrx:P100001r a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:comment "La classe ‘relation réifiée’ permet d’ajouter des assertions sur toutes les propriétés qui expriment une relation entre des instances de deux classes de l’ontologie (et qui, de fait, correspondent aux relations entre instances d’entités du code RDA-FR)."@fr;
   rdfs:label "a une relation avec [dans la relation]"@fr;
   rdfs:subClassOf rdafrc:C100013;
+  owl:versionInfo "0.0.1";
   sh:closed true;
-  sh:ignoredProperties _:node1gnuf2bqtx150 .
+  sh:ignoredProperties _:node1gnuf2bqtx437 .
 
-_:node1gnuf2bqtx150 rdf:first rdf:type;
+_:node1gnuf2bqtx437 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafrx:P100001r sh:nodeKind sh:IRI;
@@ -1582,10 +1606,11 @@ rdafrx:P100008 a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:comment "La classe ‘propriété réifiée’ permet d'ajouter des assertions sur toutes les propriétés de l’ontologie qui correspondent aux attributs des entités du code RDA-FR."@fr;
   rdfs:label "a une propriété réifiée"@fr;
   rdfs:subClassOf rdafrc:C100013;
+  owl:versionInfo "0.0.1";
   sh:closed true;
-  sh:ignoredProperties _:node1gnuf2bqtx151 .
+  sh:ignoredProperties _:node1gnuf2bqtx438 .
 
-_:node1gnuf2bqtx151 rdf:first rdf:type;
+_:node1gnuf2bqtx438 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafrx:P100008 sh:nodeKind sh:IRI;
@@ -1596,10 +1621,11 @@ skos:Concept a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:comment "Un concept SKOS peut être vu comme une idée ou une notion; une unité de pensée."@fr;
   rdfs:label "concept (skos)"@fr;
   rdfs:subClassOf owl:Thing;
+  owl:versionInfo "0.0.1";
   sh:closed true;
-  sh:ignoredProperties _:node1gnuf2bqtx152 .
+  sh:ignoredProperties _:node1gnuf2bqtx439 .
 
-_:node1gnuf2bqtx152 rdf:first rdf:type;
+_:node1gnuf2bqtx439 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 skos:Concept sh:nodeKind sh:IRI;
@@ -1610,10 +1636,11 @@ rdafrtl:Langue a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:comment "Langue d'une chaîne de caractères"@fr;
   rdfs:label "langue"@fr;
   rdfs:subClassOf skos:Concept;
+  owl:versionInfo "0.0.1";
   sh:closed true;
-  sh:ignoredProperties _:node1gnuf2bqtx153 .
+  sh:ignoredProperties _:node1gnuf2bqtx440 .
 
-_:node1gnuf2bqtx153 rdf:first rdf:type;
+_:node1gnuf2bqtx440 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafrtl:Langue sh:nodeKind sh:IRI;
@@ -1624,11 +1651,12 @@ rdafrtl:Ecriture a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:comment "Système d'écriture de la chaîne de caractères"@fr;
   rdfs:label "écriture"@fr;
   rdfs:subClassOf skos:Concept;
+  owl:versionInfo "0.0.1";
   sh:closed true;
   sh:description "Dans IFLA LRM le nom de l'attribut est tout simplement Ecriture (E9-A8)"@fr;
-  sh:ignoredProperties _:node1gnuf2bqtx154 .
+  sh:ignoredProperties _:node1gnuf2bqtx441 .
 
-_:node1gnuf2bqtx154 rdf:first rdf:type;
+_:node1gnuf2bqtx441 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafrtl:Ecriture sh:nodeKind sh:IRI;
@@ -1645,11 +1673,12 @@ d’autorité de noms, etc.) ;
 d’encodage des dates, etc.)."""@fr;
   rdfs:label "schéma d'encodage"@fr;
   rdfs:subClassOf skos:Concept;
+  owl:versionInfo "0.0.1";
   sh:closed true;
   sh:description "Définition inspiré de différentes sources sur internet. Complété par les éléments de la définition issue de IFLA LRM (dans la propriété de nomen)."@fr;
-  sh:ignoredProperties _:node1gnuf2bqtx155 .
+  sh:ignoredProperties _:node1gnuf2bqtx442 .
 
-_:node1gnuf2bqtx155 rdf:first rdf:type;
+_:node1gnuf2bqtx442 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafrtl:SchemaEncodage sh:nodeKind sh:IRI;
@@ -1660,6 +1689,7 @@ rdafrtl:CategorieNomen a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:comment "Type auquel le nomen appartient (ex. : point d'accès, identifiant, titre, etc.)"@fr;
   rdfs:label "catégorie de nomen"@fr;
   rdfs:subClassOf skos:Concept;
+  owl:versionInfo "0.0.1";
   sh:closed true;
   sh:description """Définition issue de IFLA LRM
 Note d'application : 
@@ -1667,9 +1697,9 @@ Les nomens peuvent être catégorisés selon :
 − le type de chose qui est nommée (nom de personne, titre d’œuvre, etc.) ;
 − la source où le nomen est attesté (titre de dos, titre courant, etc.) ;
 − la fonction du nomen (identifiant, point d’accès contrôlé, indice de classification, etc.)."""@fr;
-  sh:ignoredProperties _:node1gnuf2bqtx156 .
+  sh:ignoredProperties _:node1gnuf2bqtx443 .
 
-_:node1gnuf2bqtx156 rdf:first rdf:type;
+_:node1gnuf2bqtx443 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafrtl:CategorieNomen sh:nodeKind sh:IRI;
@@ -1680,6 +1710,7 @@ rdafrtl:SystemeConversion a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:comment "Règle, système ou norme utilisée pour créer la chaîne d’un nomen à partir de la chaîne d’un autre nomen notée dans une écriture différente (par exemple, un système de translittération)."@fr;
   rdfs:label "conversion d'écriture"@fr;
   rdfs:subClassOf skos:Concept;
+  owl:versionInfo "0.0.1";
   sh:closed true;
   sh:description """Attention : le nom de l'attribut dans IFLA LRM est Conversion d'écriture. Je l'ai changé dans la colonne C Il va falloir changer l'URI aussi, dans la colonne A. 
 Définition issue de IFLA LRM
@@ -1688,9 +1719,9 @@ Une valeur de l’attribut conversion d’écriture peut renvoyer à :
 − des translittérations ;
 − des conversions d’écriture qui ne sont pas réversibles ;
 − etc."""@fr;
-  sh:ignoredProperties _:node1gnuf2bqtx157 .
+  sh:ignoredProperties _:node1gnuf2bqtx444 .
 
-_:node1gnuf2bqtx157 rdf:first rdf:type;
+_:node1gnuf2bqtx444 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafrtl:SystemeConversion sh:nodeKind sh:IRI;
@@ -1701,11 +1732,12 @@ rdafrtl:Genre a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:comment "Le genre auquel une personne s'identifie"@fr;
   rdfs:label "genre"@fr;
   rdfs:subClassOf skos:Concept;
+  owl:versionInfo "0.0.1";
   sh:closed true;
   sh:description "Source : Chapitre 9 de RDA-FR"@fr;
-  sh:ignoredProperties _:node1gnuf2bqtx158 .
+  sh:ignoredProperties _:node1gnuf2bqtx445 .
 
-_:node1gnuf2bqtx158 rdf:first rdf:type;
+_:node1gnuf2bqtx445 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafrtl:Genre sh:nodeKind sh:IRI;
@@ -1716,10 +1748,11 @@ rdafrtl:NiveauFiabilite a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:comment "Indication sur le niveau de fiabilité de l'information"@fr;
   rdfs:label "niveau de fiabilité"@fr;
   rdfs:subClassOf skos:Concept;
+  owl:versionInfo "0.0.1";
   sh:closed true;
-  sh:ignoredProperties _:node1gnuf2bqtx159 .
+  sh:ignoredProperties _:node1gnuf2bqtx446 .
 
-_:node1gnuf2bqtx159 rdf:first rdf:type;
+_:node1gnuf2bqtx446 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafrtl:NiveauFiabilite sh:nodeKind sh:IRI;
@@ -1730,10 +1763,11 @@ rdafrtl:Calendrier a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:comment "Type de calendrier utilisé pour exprimer un laps de temps (julien, grégorien, hégire...)"@fr;
   rdfs:label "calendrier"@fr;
   rdfs:subClassOf skos:Concept;
+  owl:versionInfo "0.0.1";
   sh:closed true;
-  sh:ignoredProperties _:node1gnuf2bqtx160 .
+  sh:ignoredProperties _:node1gnuf2bqtx447 .
 
-_:node1gnuf2bqtx160 rdf:first rdf:type;
+_:node1gnuf2bqtx447 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafrtl:Calendrier sh:nodeKind sh:IRI;
@@ -1744,11 +1778,12 @@ rdafrtl:CategorieIdentitePublique a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:comment "Précision sur la nature du nom sur lequel est fondée l'identité publique (par exemple : nom réel, pseudonyme...)"@fr;
   rdfs:label "catégorie d'identité publique"@fr;
   rdfs:subClassOf skos:Concept;
+  owl:versionInfo "0.0.1";
   sh:closed true;
   sh:description "Source : Chapitre 9 de RDA-FR"@fr;
-  sh:ignoredProperties _:node1gnuf2bqtx161 .
+  sh:ignoredProperties _:node1gnuf2bqtx448 .
 
-_:node1gnuf2bqtx161 rdf:first rdf:type;
+_:node1gnuf2bqtx448 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafrtl:CategorieIdentitePublique sh:nodeKind sh:IRI;
@@ -1759,11 +1794,12 @@ rdafrtl:IndicateurRelation a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:comment "Précision sur la nature de la relation entre deux instances d'entités"@fr;
   rdfs:label "indicateur de relation"@fr;
   rdfs:subClassOf skos:Concept;
+  owl:versionInfo "0.0.1";
   sh:closed true;
   sh:description "Source : Chapitre 23.4 de RDA-FR"@fr;
-  sh:ignoredProperties _:node1gnuf2bqtx162 .
+  sh:ignoredProperties _:node1gnuf2bqtx449 .
 
-_:node1gnuf2bqtx162 rdf:first rdf:type;
+_:node1gnuf2bqtx449 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafrtl:IndicateurRelation sh:nodeKind sh:IRI;
