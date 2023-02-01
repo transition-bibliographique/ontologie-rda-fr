@@ -68,6 +68,7 @@ img {
     max-width: 100%;
 }
 
+h1 { text-align: center; margin-bottom: 2em; }
 h1,
 h2,
 h3,
@@ -170,7 +171,7 @@ header {
 #TOC {
     border: 2px solid #EEE;
     border-radius: 0.5rem;
-    padding-left: 14px;
+    margin: 1.3em 0 1.3em 0;
 }
 #TOC li {
     list-style: none;
@@ -181,13 +182,19 @@ header {
 }
 
 #TOC>ul {
-    padding-left: 0;
+    padding-left: 14px;
 }
 
 #TOC a:not(:hover) {
     text-decoration: none;
 }
-
+#TOC p#toc-title {
+    font-weight: 600;
+    border-bottom: 2px solid #EEE;
+    background-color: #EEE;
+    padding: 5px 5px 5px 15px;
+    margin: 0px
+}
 
 code {
     white-space: pre-wrap;
