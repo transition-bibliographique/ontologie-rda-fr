@@ -82,7 +82,7 @@ Ces règles et contraintes sont exprimées et gérées séparément de l’ontol
 ### Modalités techniques de publication de l’ontologie RDA-FR
 
 La version HTML de l’ontologie est publiée ci-dessous.
-La version SHACL est accessible sur le GitHub du programme Transition bibliographique : https://github.com/transition-bibliographique/ontologie-rda-fr. Une version OWL sera publiée ultérieurement.
+La version SHACL est accessible sur le GitHub du programme Transition bibliographique : [https://github.com/transition-bibliographique/ontologie-rda-fr](https://github.com/transition-bibliographique/ontologie-rda-fr). Une version OWL sera publiée ultérieurement.
 
 ### Contributeurs associés à ce projet
 
