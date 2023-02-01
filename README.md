@@ -82,10 +82,8 @@ La version SHACL est accessible sur le GitHub du programme Transition bibliograp
 
 ## Contributeurs associés à ce projet
 
-BnF : Anila Angjeli, Vincent Boulet, Etienne Cavalié, Françoise Leresche
-
-Abes : Benjamin Bober, Mathis Eon, Stéphane Gully, Laure Jestaz, Héloïse Lecomte
-
-La conception de cette ontologie a bénéficié de l’expertise et des compétences de Jean Delahousse.
+- BnF : Anila Angjeli, Vincent Boulet, Etienne Cavalié, Françoise Leresche
+- Abes : Benjamin Bober, Mathis Eon, Stéphane Gully, Laure Jestaz, Héloïse Lecomte
+- La conception de cette ontologie a bénéficié de l’expertise et des compétences de Jean Delahousse.
 
 Pour toute question sur cette publication merci d’écrire à (adresse à définir)
