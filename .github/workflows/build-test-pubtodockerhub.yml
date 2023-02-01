@@ -1,7 +1,7 @@
 # Ce workflow a pour but de construire et publier l'image docker qui sera utilisée
 # pour le site https://rdafr.fr qui hébergera l'ontologie donc les sources
 # sont présentes sur ce dépôt
-name: "build-pub-rdafr.fr-docker-image"
+name: "build-test-pubtodockerhub"
 
 env:
   DOCKERHUB_IMAGE_PREFIX: transitionbibliographique/ontologie-rda-fr
@@ -13,7 +13,7 @@ on:
 
 
 jobs:
-  build-pub-rdafr-docker-image:
+  build-test-pubtodockerhub:
     runs-on: ubuntu-latest
     steps:
 
