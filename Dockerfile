@@ -11,25 +11,24 @@ ENV LANGUAGE fr_FR:fr
 ENV LC_ALL fr_FR.UTF-8
 
 
-# Compilation du README.md en page d'acceuil
-# de https://rdafr.fr avec l'outil pandoc https://pandoc.org/
+# Compilation du siteweb en partant des markdown
+# 01_INTRO.md et 02_CONTENT.md
+# pour générer la page HTML de https://rdafr.fr
+# en utilisant l'outil pandoc https://pandoc.org/
 RUN DEBIAN_FRONTEND=noninteractive apt install -y pandoc
-COPY ./README.md   /usr/share/nginx/html/
-COPY ./HEADER.md   /usr/share/nginx/html/
-COPY ./.docker/template.html   /usr/share/nginx/html/
-COPY ./.docker/footer.html /usr/share/nginx/html/
+COPY ./siteweb/*   /usr/share/nginx/html/
+COPY ./siteweb/.docker/*   /usr/share/nginx/html/
 RUN sed -i "s#LAST_MODIFICATION_DATE_PLACEHOLDER#$(date +'%e %B %Y')#g" /usr/share/nginx/html/footer.html
-COPY ./.docker/style.css   /usr/share/nginx/html/
 WORKDIR /usr/share/nginx/html/
-RUN pandoc HEADER.md -o header.html
+RUN pandoc 01_INTRO.md -o intro.html
 RUN pandoc --standalone \
       --toc \
       --shift-heading-level-by=-1 \
 	  --template template.html \
       -c style.css \
-      -B header.html \
+      -B intro.html \
       -A footer.html \
-      README.md -o ./index.html
+      02_CONTENT.md -o ./index.html
 
 
 # Compilation des SHACL .ttl en HTML en utilisant
