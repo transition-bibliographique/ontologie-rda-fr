@@ -1,5 +1,5 @@
-./dist/
-./build/
-./test.html
-./build.sh
+dist/
+build/
+test.html
+build.sh
 
