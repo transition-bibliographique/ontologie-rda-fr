@@ -6,11 +6,11 @@ name: "build-pub-rdafr.fr-docker-image"
 env:
   DOCKERHUB_IMAGE_PREFIX: transitionbibliographique/ontologie-rda-fr
 
+
 on:
   push:
-    branches:    
-      - 'develop'
-      # plus tard quand on aura des release de l'ontologie, on pourra ajouter main et les tags/releases
+    paths-ignore:
+      - '.github/**'
   workflow_dispatch:
 
 
