@@ -12,9 +12,9 @@ Sa première utilisation nationale se fera dans le cadre du [Fichier national d'
 
 Les deux agences bibliographiques, la BnF et l’Abes, ont fait le choix de publier l’ontologie RDA-FR progressivement, par blocs de classes cohérents, au fur et à mesure de son élaboration.
 
-# Première publication de l’ontologie RDA-FR : version 0.0.1 beta, partielle
+## Première publication de l’ontologie RDA-FR : version 0.0.1 beta, partielle
 
-## Introduction
+### Introduction
 L’ontologie RDA-FR, en cours d’élaboration, est une représentation formelle du code RDA-FR, sous forme d'une ontologie OWL.
 
 Cette première publication est une version beta, partielle. Elle concerne la partie de l’ontologie RDA-FR relative aux classes : Agent, Agent collectif, Groupe informel, Personne, Identité publique.
@@ -25,13 +25,16 @@ Le schéma suivant donne une vue globale de la hiérarchie des classes de l’on
 
 ![OntologieRDA-FR_HierarchieClasses_V0 0 1](https://user-images.githubusercontent.com/51800062/215845393-ead4cc13-63bf-4763-a791-d5f714f5579b.jpg)
 
-## Architecture et choix de conception
-### Domaine de l’ontologie RDA-FR et espaces de noms
+### Architecture et choix de conception
+
+#### Domaine de l’ontologie RDA-FR et espaces de noms
+
 Pour des besoins de clarté, toutes les classes, propriétés et vocabulaires de l’ontologie RDA-FR sont déclarées dans l’espace de nom https://rdafr.fr, avec des URIs qui leurs sont propres, sans reprise directe ni réutilisation des URIs des classes ou des propriétés d’une autre ontologie existante. 
 
 Il est, pourtant, prévu d’établir des alignements avec les autres ontologies pour pouvoir dialoguer avec d’autres acteurs du secteur des bibliothèques et ceux d’autres secteurs. En premier lieu, des alignements seront déclarés avec l’[ontologie IFLA LRM](https://www.iflastandards.info/lrm), avec laquelle l’ontologie RDA-FR est en cohérence, comme l’est l’[ontologie RDA](https://www.rdaregistry.info/).
 
-### Le code RDA-FR, le modèle IFLA LRM et l’ontologie RDA-FR - classes et propriétés de l’univers bibliographique
+#### Le code RDA-FR, le modèle IFLA LRM et l’ontologie RDA-FR - classes et propriétés de l’univers bibliographique
+
 Dans le système des classes et propriétés :
 - Pour chacune des entités du code RDA-FR on trouve la classe correspondante dans l’ontologie RDA-FR (classes Œuvre, Personne, etc.). Ces classes sont organisées selon la même hiérarchie que dans le code RDA-FR, en conformité avec l’ontologie IFLA LRM. A contrario, certaines classes présentes dans l’ontologie RDA-FR sont créées pour les besoins propres de celle-ci et ne se retrouvent pas dans le code RDA-FR (voir plus bas les explications sur, par exemple, la classe Groupe informel).
 - Les attributs des entités du code RDA-FR, ainsi que les relations entre entités du code constituent des propriétés dans l'ontologie RDA-FR  (« a pour langue de la personne », « est membre de » pour une relation entre une Personne et une Collectivité, etc.).
@@ -55,7 +58,8 @@ La liste des relations entre les entités concernées par cette publication n’
   
 - Les classes ***Lieu*** et ***Laps de temps*** (entités du modèle IFLA LRM), les classes ***Concept***, ***Objet***, ***Événement***, ainsi que les sous-classes de Lieu et de Laps de temps, sont d’ores et déjà créées dans l’ontologie RDA-FR pour leur réserver la place qui convient dans l’architecture globale. Elles seront abordées en détail, ou modifiées, lorsque les chapitres correspondants ou les orientations normatives du code RDA-FR seront publiés, sous réserve de l’avancée des travaux des groupes nationaux de la Transition Bibliographique.
 
-### Mécanismes fonctionnels de l’ontologie RDA-FR
+#### Mécanismes fonctionnels de l’ontologie RDA-FR
+
 - Pour rappel, toute classe de l’ontologie RDA-FR est déclarée comme sous-classe de la classe racine ***Entité RDA-FR***. Les propriétés de cette classe, en vertu du principe d’héritage, s’appliquent à toutes les sous-classes de l’ontologie, qu’il s’agisse des classes correspondant aux entités bibliographiques, que de celles ajoutées pour les besoins fonctionnels de l’ontologie RDA-FR, ou encore des classes ajoutées pour permettre une structuration fine et précise des données.
 - Les vocabulaires contrôlés dans l’ontologie RDA-FR relèvent de la classe [***skos:ConceptScheme***](http://www.w3.org/2004/02/skos/core#ConceptScheme). Ils correspondent aux référentiels associés aux attributs des entités du code RDA-FR.
 
@@ -71,16 +75,16 @@ Font exception de cette règle les relations dites fondamentales du modèle IFLA
 
 ![OntologieRDA-FR_RelationReif_V0 0 1](https://user-images.githubusercontent.com/51800062/215851006-1a5e66c8-ec3c-4ac5-ac69-75c8c73b1955.jpg)
 
-### Gestion des règles et des contraintes
+#### Gestion des règles et des contraintes
 A l’ontologie RDA-FR sont associés des règles et des contraintes d’utilisation de ses classes et propriétés dans la pratique, permettant ainsi d’assurer l’implémentation de l’ontologie conforme au code RDA-FR. Il est à noter que plusieurs de ces règles et contraintes s’ajoutent aux instructions déjà incluses dans le code RDA-FR. Elles relèvent des instructions pour l’implémentation du code dans la gestion informatisée des données. En font partie des règles relatives au champ d’application d’une propriété, à la répétabilité, au caractère obligatoire ou non, au caractère confidentiel ou non, au type d’information attendu, etc. 
 Ces règles et contraintes sont exprimées et gérées séparément de l’ontologie RDA-FR, en langage SHACL (Shapes Constraint Language). Il s’agit d’un standard du W3C spécialement conçu pour la validation des graphes RDF de données, créées, dans notre cas, avec l’ontologie RDA-FR, dans le respect des règles et contraintes fixées pour cette ontologie. 
 
-## Modalités techniques de publication de l’ontologie RDA-FR
+### Modalités techniques de publication de l’ontologie RDA-FR
 
 La version HTML de l’ontologie est publiée ci-dessous.
 La version SHACL est accessible sur le GitHub du programme Transition bibliographique : https://github.com/transition-bibliographique/ontologie-rda-fr. Une version OWL sera publiée ultérieurement.
 
-## Contributeurs associés à ce projet
+### Contributeurs associés à ce projet
 
 - BnF : Anila Angjeli, Vincent Boulet, Etienne Cavalié, Françoise Leresche
 - Abes : Benjamin Bober, Mathis Eon, Stéphane Gully, Laure Jestaz, Héloïse Lecomte
