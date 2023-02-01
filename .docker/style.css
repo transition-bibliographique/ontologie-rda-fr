@@ -167,6 +167,11 @@ header {
     text-align: center;
 }
 
+#TOC {
+    border: 2px solid #EEE;
+    border-radius: 0.5rem;
+    padding-left: 14px;
+}
 #TOC li {
     list-style: none;
 }
@@ -182,6 +187,7 @@ header {
 #TOC a:not(:hover) {
     text-decoration: none;
 }
+
 
 code {
     white-space: pre-wrap;
