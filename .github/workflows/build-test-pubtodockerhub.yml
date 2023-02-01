@@ -8,8 +8,6 @@ env:
 
 
 on:
-  tags:
-    - *.*.*
   push:
     paths-ignore:
       - '.github/**'
