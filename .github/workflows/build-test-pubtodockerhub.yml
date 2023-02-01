@@ -9,8 +9,6 @@ env:
 
 on:
   push:
-    paths-ignore:
-      - '.github/**'
   workflow_dispatch:
 
 
