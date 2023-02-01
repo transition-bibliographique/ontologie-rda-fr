@@ -1,3 +1,7 @@
+---
+pagetitle: Ontologie RDA-FR
+toc-title: Table des matières
+---
 
 ### Première publication de l’ontologie RDA-FR : version 0.0.1 beta, partielle
 

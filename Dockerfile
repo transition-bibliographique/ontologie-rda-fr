@@ -23,7 +23,7 @@ COPY ./.docker/style.css   /usr/share/nginx/html/
 WORKDIR /usr/share/nginx/html/
 RUN pandoc HEADER.md -o header.html
 RUN pandoc --standalone \
-      --toc -V toc-title:"Table des matières" \
+      --toc \
       --shift-heading-level-by=-1 \
 	  --template template.html \
       -c style.css \
