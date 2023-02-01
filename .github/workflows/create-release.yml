@@ -18,7 +18,7 @@ jobs:
         with:
           fetch-depth: '0' # to get all the tags locally
           # https://stackoverflow.com/questions/67550727/push-event-doesnt-trigger-workflow-on-push-paths-github-actions
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.TOKEN_GITHUB_FOR_GITHUB_ACTION }}
 
 
       - name: 'Verify release is created only on "main" git branch'
@@ -62,4 +62,4 @@ jobs:
         with:
           tag_name: ${{ github.event.inputs.releaseVersion }}
           generate_release_notes: true
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.TOKEN_GITHUB_FOR_GITHUB_ACTION }}
