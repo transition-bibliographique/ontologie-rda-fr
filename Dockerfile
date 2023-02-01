@@ -1,5 +1,5 @@
 FROM nginx:1.20.2
-ENV ONTOLOGIE_RDAFR_VERSION 0.0.2
+ENV ONTOLOGIE_RDAFR_VERSION 0.0.1
 
 # Installation et configuration de la locale FR
 # pour avoir les dates auto-générées du footer.html en français
