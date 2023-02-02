@@ -11,3 +11,5 @@ L’ontologie RDA-FR permettra aux agences bibliographiques nationales et aux é
 Sa première utilisation nationale se fera dans le cadre du [Fichier national d'entités (FNE)](https://www.transition-bibliographique.fr/fne/fichier-national-entites/).
 
 Les deux agences bibliographiques, la BnF et l’Abes, ont fait le choix de publier l’ontologie RDA-FR progressivement, par blocs de classes cohérents, au fur et à mesure de son élaboration.
+
+Aussi vous trouverez ci-dessous la publication de la v0.0.1 de cette ontologie.
