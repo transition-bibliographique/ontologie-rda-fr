@@ -67,13 +67,17 @@ Font exception de cette règle les relations dites fondamentales du modèle IFLA
 ![OntologieRDA-FR_RelationReif_V0 0 1](https://user-images.githubusercontent.com/51800062/215851006-1a5e66c8-ec3c-4ac5-ac69-75c8c73b1955.jpg)
 
 ##### Gestion des règles et des contraintes
+
 A l’ontologie RDA-FR sont associés des règles et des contraintes d’utilisation de ses classes et propriétés dans la pratique, permettant ainsi d’assurer l’implémentation de l’ontologie conforme au code RDA-FR. Il est à noter que plusieurs de ces règles et contraintes s’ajoutent aux instructions déjà incluses dans le code RDA-FR. Elles relèvent des instructions pour l’implémentation du code dans la gestion informatisée des données. En font partie des règles relatives au champ d’application d’une propriété, à la répétabilité, au caractère obligatoire ou non, au caractère confidentiel ou non, au type d’information attendu, etc. 
 Ces règles et contraintes sont exprimées et gérées séparément de l’ontologie RDA-FR, en langage SHACL (Shapes Constraint Language). Il s’agit d’un standard du W3C spécialement conçu pour la validation des graphes RDF de données, créées, dans notre cas, avec l’ontologie RDA-FR, dans le respect des règles et contraintes fixées pour cette ontologie. 
 
 #### Modalités techniques de publication de l’ontologie RDA-FR
 
-La version HTML de l’ontologie est publiée ci-dessous.
-La version SHACL est accessible sur le GitHub du programme Transition bibliographique : [https://github.com/transition-bibliographique/ontologie-rda-fr](https://github.com/transition-bibliographique/ontologie-rda-fr). Une version OWL sera publiée ultérieurement.
+La version HTML de l’ontologie est publiée ici : [https://rdafr.fr/ontologie/](https://rdafr.fr/ontologie/)  
+La version SHACL (au format turtle) est publiée ici : [https://rdafr.fr/ontologie/shacl.ttl](https://rdafr.fr/ontologie/shacl.ttl)  
+Une version OWL sera publiée ultérieurement.  
+
+L'ensemble de l'ontologie est géré depuis le GitHub du programme Transition bibliographique : [https://github.com/transition-bibliographique/ontologie-rda-fr](https://github.com/transition-bibliographique/ontologie-rda-fr). 
 
 #### Contributeurs associés à ce projet
 
