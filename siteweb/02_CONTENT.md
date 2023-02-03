@@ -57,27 +57,32 @@ La liste des relations entre les entités concernées par cette publication n’
   **Principe de réification**
   
   Pour permettre l’ajout d’assertions sur les propriétés, le mécanisme de la réification systématique des propriétés en utilisant le même URI pour la propriété et sa réification a été implémenté dans l’ontologie RDA-FR. Ce mécanisme est basé sur le standard [ETSI GS CIM 006 V1.1.1 (2019 07)](https://drive.google.com/open?id=1EH-WjUL-2vwkze3JAM9xtc_l4czbSpIN). Pour cela deux classes sont créées : 
-- la classe ***‘propriété réifiée’*** a été introduite pour permettre d'ajouter des assertions sur toutes les propriétés de l’ontologie qui correspondent aux attributs des entités du code RDA-FR. Par exemple, il est possible d’indiquer un niveau de fiabilité, ou une source pour la date de naissance d’une personne. Elle permet aussi de donner, à la propriété en question, une valeur textuelle ou une URI. Chaque propriété de cette nature, dans l’ontologie RDA-FR, est automatiquement déclarée comme une sous-classe de la classe *‘propriété réifiée’* ;
 
-![](https://user-images.githubusercontent.com/51800062/215849996-0a586184-0635-4a11-bee0-5fc292bd8ab9.jpg)
+- la classe P100008 ***‘a une propriété réifiée’*** a été introduite pour permettre d'ajouter des assertions sur toutes les propriétés de l’ontologie qui correspondent aux attributs des entités du code RDA-FR. Par exemple, il est possible d’indiquer un niveau de fiabilité, ou une source pour un lieu de naissance d’une personne. Elle permet aussi de donner, à la propriété en question, une valeur textuelle ou une URI. Chaque propriété de ce type est systématiquement réifiée par une classe dont l’URI est la même que celle de la propriété. Cette classe est déclarée comme une sous classe de la classe P100008 *‘a une propriété réifiée’* :
 
-- la classe ***‘relation réifiée’*** a été introduite pour permettre d’ajouter des assertions sur toutes les propriétés qui expriment une relation entre des instances de deux classes de l’ontologie (et qui, de fait, correspondent aux relations entre instances d’entités du code RDA-FR). Elle permet par exemple de donner des précisions (source, période, etc.) sur une relation de type “est membre de” entre une personne et une collectivité. Il est à souligner que toute relation entre deux instances d’entités du code RDA-FR est réifiée dans l’ontologie RDA-FR. Ces relations sont réciproques. Par exemple : “est membre de / a pour membre”. Dans l’ontologie RDA-FR, chaque propriété de cette nature est automatiquement déclarée comme une sous-classe de la classe *‘relation réifiée’*. 
-Font exception de cette règle les relations dites fondamentales du modèle IFLA LRM entre les classes Oeuvre, Expression, Manifestation et Item.
+  Exemple de réification de l’attribut *“a pour lieu de naissance de la personne”*
+![](https://user-images.githubusercontent.com/51800062/215849996-0a586184-0635-4a11-bee0-5fc292bd8ab9.jpg "Exemple de réification de l’attribut “a pour lieu de naissance de la personne”")
 
-![](https://user-images.githubusercontent.com/51800062/215851006-1a5e66c8-ec3c-4ac5-ac69-75c8c73b1955.jpg)
+- la classe P100001r ***'a une relation avec [dans la relation]’*** a été introduite pour permettre d’ajouter des assertions sur toutes les propriétés qui expriment une relation entre des instances de deux classes de l’ontologie (et qui, de fait, correspondent aux relations entre instances d’entités du code RDA-FR). Elle permet par exemple de donner des précisions (source, période, etc.) sur une relation de type *“a pour créateur / créateur de”* entre une oeuvre et une personne.
+Chaque propriété de ce type est systématiquement réifiée par une classe dont l’URI est la même que celle de la propriété. Cette classe est déclarée comme une sous classe de la classe P100001r *'a une relation avec [dans la relation]’*.
+
+  Font exception de cette règle les relations dites fondamentales du modèle IFLA LRM entre les classes Oeuvre, Expression, Manifestation et Item.
+
+  Exemple de réification de la relation *“a pour créateur / créateur de”*
+![](https://user-images.githubusercontent.com/51800062/215851006-1a5e66c8-ec3c-4ac5-ac69-75c8c73b1955.jpg "Exemple de réification de la relation “a pour créateur / créateur de”")
 
 ##### Gestion des règles et des contraintes
 
 A l’ontologie RDA-FR sont associés des règles et des contraintes d’utilisation de ses classes et propriétés dans la pratique, permettant ainsi d’assurer l’implémentation de l’ontologie conforme au code RDA-FR. Il est à noter que plusieurs de ces règles et contraintes s’ajoutent aux instructions déjà incluses dans le code RDA-FR. Elles relèvent des instructions pour l’implémentation du code dans la gestion informatisée des données. En font partie des règles relatives au champ d’application d’une propriété, à la répétabilité, au caractère obligatoire ou non, au caractère confidentiel ou non, au type d’information attendu, etc. 
-Ces règles et contraintes sont exprimées et gérées séparément de l’ontologie RDA-FR, en langage SHACL (Shapes Constraint Language). Il s’agit d’un standard du W3C spécialement conçu pour la validation des graphes RDF de données, créées, dans notre cas, avec l’ontologie RDA-FR, dans le respect des règles et contraintes fixées pour cette ontologie. 
+Ces règles et contraintes sont exprimées et gérées séparément de l’ontologie RDA-FR, en langage SHACL [(Shapes Constraint Language)](https://www.w3.org/TR/shacl/). Il s’agit d’un standard du W3C spécialement conçu pour la validation des graphes RDF de données, créées, dans notre cas, avec l’ontologie RDA-FR, dans le respect des règles et contraintes fixées pour cette ontologie. 
 
 #### Modalités techniques de publication de l’ontologie RDA-FR
 
-- La version HTML de l’ontologie est publiée ici : [https://rdafr.fr/ontologie/](/ontologie/)
+- La version HTML du profil d’application RDA-FR est publiée ici : [https://rdafr.fr/ontologie/](/ontologie/)
 - La version SHACL (au format turtle) est publiée ici : [https://rdafr.fr/ontologie/shacl.ttl](/ontologie/shacl.ttl)
-- Une version OWL sera publiée ultérieurement
+- Une version HTML et OWL de l’ontologie seront publiées ultérieurement.
 
-L'ensemble de l'ontologie est géré depuis le GitHub du programme Transition bibliographique : [https://github.com/transition-bibliographique/ontologie-rda-fr](https://github.com/transition-bibliographique/ontologie-rda-fr). 
+L'ensemble de l'ontologie est géré depuis le compte GitHub du programme Transition bibliographique : [https://github.com/transition-bibliographique/ontologie-rda-fr](https://github.com/transition-bibliographique/ontologie-rda-fr). 
 
 #### Contributeurs associés à ce projet
 
@@ -85,4 +90,4 @@ L'ensemble de l'ontologie est géré depuis le GitHub du programme Transition bi
 - Abes : Benjamin Bober, Mathis Eon, Stéphane Gully, Laure Jestaz, Héloïse Lecomte
 - La conception de cette ontologie a bénéficié de l’expertise et des compétences de Jean Delahousse.
 
-Pour toute question sur cette publication merci d’écrire à ontologie-rdafr@abes.fr 
+Pour toute question sur cette publication merci d’écrire à [ontologie-rdafr@abes.fr](ontologie-rdafr@abes.fr) 
