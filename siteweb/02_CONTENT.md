@@ -14,7 +14,7 @@ Cette première publication est une version beta, partielle. Elle concerne la pa
 
 Le schéma suivant donne une vue globale de la hiérarchie des classes de l’ontologie RDA-FR. Seules sont traitées dans cette version bêta les classes non grisées ci-dessous.
 
-![OntologieRDA-FR_HierarchieClasses_V0 0 1](https://user-images.githubusercontent.com/51800062/215845393-ead4cc13-63bf-4763-a791-d5f714f5579b.jpg)
+![](https://user-images.githubusercontent.com/51800062/215845393-ead4cc13-63bf-4763-a791-d5f714f5579b.jpg)
 
 #### Architecture et choix de conception
 
@@ -45,7 +45,7 @@ La liste des relations entre les entités concernées par cette publication n’
 
   Pour les relations entre la classe Identité publique et les classes Personne ou Groupe informel, ainsi que les relations de ces dernières avec la classe Oeuvre, voir le schéma ci-dessous :
   
-  ![OntologieRDA-FR_IdentitePubliquesV 0 0 1](https://user-images.githubusercontent.com/51800062/215847616-c2702b44-4875-408b-bcbf-ff37b82464a9.jpg)
+  ![](https://user-images.githubusercontent.com/51800062/215847616-c2702b44-4875-408b-bcbf-ff37b82464a9.jpg)
   
 - Les classes ***Lieu*** et ***Laps de temps*** (entités du modèle IFLA LRM), les classes ***Concept***, ***Objet***, ***Événement***, ainsi que les sous-classes de Lieu et de Laps de temps, sont d’ores et déjà créées dans l’ontologie RDA-FR pour leur réserver la place qui convient dans l’architecture globale. Elles seront abordées en détail, ou modifiées, lorsque les chapitres correspondants ou les orientations normatives du code RDA-FR seront publiés, sous réserve de l’avancée des travaux des groupes nationaux de la Transition Bibliographique.
 
@@ -59,12 +59,12 @@ La liste des relations entre les entités concernées par cette publication n’
   Pour permettre l’ajout d’assertions sur les propriétés, le mécanisme de la réification systématique des propriétés en utilisant le même URI pour la propriété et sa réification a été implémenté dans l’ontologie RDA-FR. Ce mécanisme est basé sur le standard [ETSI GS CIM 006 V1.1.1 (2019 07)](https://drive.google.com/open?id=1EH-WjUL-2vwkze3JAM9xtc_l4czbSpIN). Pour cela deux classes sont créées : 
 - la classe ***‘propriété réifiée’*** a été introduite pour permettre d'ajouter des assertions sur toutes les propriétés de l’ontologie qui correspondent aux attributs des entités du code RDA-FR. Par exemple, il est possible d’indiquer un niveau de fiabilité, ou une source pour la date de naissance d’une personne. Elle permet aussi de donner, à la propriété en question, une valeur textuelle ou une URI. Chaque propriété de cette nature, dans l’ontologie RDA-FR, est automatiquement déclarée comme une sous-classe de la classe *‘propriété réifiée’* ;
 
-![OntologieRDA-FR_propriete_reifie_V0 0 1](https://user-images.githubusercontent.com/51800062/215849996-0a586184-0635-4a11-bee0-5fc292bd8ab9.jpg)
+![](https://user-images.githubusercontent.com/51800062/215849996-0a586184-0635-4a11-bee0-5fc292bd8ab9.jpg)
 
 - la classe ***‘relation réifiée’*** a été introduite pour permettre d’ajouter des assertions sur toutes les propriétés qui expriment une relation entre des instances de deux classes de l’ontologie (et qui, de fait, correspondent aux relations entre instances d’entités du code RDA-FR). Elle permet par exemple de donner des précisions (source, période, etc.) sur une relation de type “est membre de” entre une personne et une collectivité. Il est à souligner que toute relation entre deux instances d’entités du code RDA-FR est réifiée dans l’ontologie RDA-FR. Ces relations sont réciproques. Par exemple : “est membre de / a pour membre”. Dans l’ontologie RDA-FR, chaque propriété de cette nature est automatiquement déclarée comme une sous-classe de la classe *‘relation réifiée’*. 
 Font exception de cette règle les relations dites fondamentales du modèle IFLA LRM entre les classes Oeuvre, Expression, Manifestation et Item.
 
-![OntologieRDA-FR_RelationReif_V0 0 1](https://user-images.githubusercontent.com/51800062/215851006-1a5e66c8-ec3c-4ac5-ac69-75c8c73b1955.jpg)
+![](https://user-images.githubusercontent.com/51800062/215851006-1a5e66c8-ec3c-4ac5-ac69-75c8c73b1955.jpg)
 
 ##### Gestion des règles et des contraintes
 
