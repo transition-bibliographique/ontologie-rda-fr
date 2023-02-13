@@ -34,14 +34,17 @@ RUN pandoc --standalone \
 # Compilation des SHACL .ttl en HTML en utilisant
 # l'outil https://shacl-play.sparna.fr/play/doc
 RUN DEBIAN_FRONTEND=noninteractive apt install -y curl
-COPY ./ontologie/ /usr/share/nginx/html/ontologie/
-RUN curl -F inputShapeFile=@ontologie/shacl.ttl \
+COPY ./profil-application/ /usr/share/nginx/html/profil-application/
+RUN curl -F inputShapeFile=@profil-application/rdafr.ttl \
          -F shapesSource=file \
          -F language=fr \
          -H 'Accept-Language: fr-FR,fr' \
          https://shacl-play.sparna.fr/play/doc \
-         > /usr/share/nginx/html/ontologie/index.html
+         > /usr/share/nginx/html/profil-application/index.html
+#COPY ./ontologie/ /usr/share/nginx/html/ontologie/
+# todo : ajouter ici la convertion en HTML du OWL
 COPY ./vocabulaire/ /usr/share/nginx/html/vocabulaire/
+# todo : ajouter la convertion en HTML des vocabulaires
 
 
 # Lance le serveur web
