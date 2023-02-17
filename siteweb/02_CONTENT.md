@@ -79,7 +79,7 @@ Ces règles et contraintes sont exprimées et gérées séparément de l’ontol
 #### Modalités techniques de publication de l’ontologie RDA-FR
 
 - La version HTML du profil d’application RDA-FR est publiée ici : [https://rdafr.fr/profil-application/](/profil-application/)
-- La version SHACL du profil d’application (au format turtle) est publiée ici : [https://rdafr.fr/profil-application/rdafr.ttl](/profil-application/rdafr.ttl)
+- La version SHACL du profil d’application (au format turtle) est publiée ici : [https://rdafr.fr/profil-application/rdafr-shacl.ttl](/profil-application/rdafr-schacl.ttl)
 - Une version HTML et OWL de l’ontologie seront publiées ultérieurement.
 
 L'ensemble de l'ontologie est géré depuis le compte GitHub du programme Transition bibliographique : [https://github.com/transition-bibliographique/ontologie-rda-fr](https://github.com/transition-bibliographique/ontologie-rda-fr). 

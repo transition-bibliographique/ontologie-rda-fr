@@ -35,7 +35,7 @@ RUN pandoc --standalone \
 # l'outil https://shacl-play.sparna.fr/play/doc
 RUN DEBIAN_FRONTEND=noninteractive apt install -y curl
 COPY ./profil-application/ /usr/share/nginx/html/profil-application/
-RUN curl -F inputShapeFile=@profil-application/rdafr.ttl \
+RUN curl -F inputShapeFile=@profil-application/rdafr-schacl.ttl \
          -F shapesSource=file \
          -F language=fr \
          -H 'Accept-Language: fr-FR,fr' \
