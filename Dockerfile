@@ -41,6 +41,10 @@ RUN curl -F inputShapeFile=@profil-application/rdafr-shacl.ttl \
          -H 'Accept-Language: fr-FR,fr' \
          https://shacl-play.sparna.fr/play/doc \
          > /usr/share/nginx/html/profil-application/index.html
+
+# Suppression des URLs non déréférençables
+RUN sed -i -E 's/<a href="(https:\/\/rdafr\.fr\/Elements\/.*?\/)" target="_blank">.*?<\/a>/\1/;s/<a href="https:\/\/rdafr\.fr\/(Elements|termList)\/.*?>(.*?)<\/a>/\2/' /usr/share/nginx/html/profil-application/index.html
+
 #COPY ./ontologie/ /usr/share/nginx/html/ontologie/
 # todo : ajouter ici la convertion en HTML du OWL
 COPY ./vocabulaire/ /usr/share/nginx/html/vocabulaire/
