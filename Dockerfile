@@ -43,7 +43,9 @@ RUN curl -F inputShapeFile=@profil-application/rdafr-shacl.ttl \
          > /usr/share/nginx/html/profil-application/index.html
 
 # Suppression des URLs non déréférençables
-RUN sed -i -E 's/<a href="(https:\/\/rdafr\.fr\/Elements\/.*?\/)" target="_blank">.*?<\/a>/\1/;s/<a href="https:\/\/rdafr\.fr\/(Elements|termList)\/.*?>(.*?)<\/a>/\2/' /usr/share/nginx/html/profil-application/index.html
+RUN sed -E -i /usr/share/nginx/html/profil-application/index.html \
+    -e 's#<a href="(https://rdafr\.fr/Elements/.*?/)" target="_blank">.*?</a>#\1#' \
+    -e 's#<a href="https://rdafr\.fr/(Elements|termList)/.*?>(.*?)</a>#\2#'
 
 #COPY ./ontologie/ /usr/share/nginx/html/ontologie/
 # todo : ajouter ici la convertion en HTML du OWL
