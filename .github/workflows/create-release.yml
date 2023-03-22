@@ -62,5 +62,5 @@ jobs:
         uses: softprops/action-gh-release@v1
         with:
           tag_name: ${{ github.event.inputs.releaseVersion }}
-          generate_release_notes: true
+          generate_release_notes: false
           token: ${{ secrets.TOKEN_GITHUB_FOR_GITHUB_ACTION }}
