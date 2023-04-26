@@ -1,0 +1,125 @@
+# Prépare la release de l'ontologie sur le site rdafr.fr
+name: "Prepare Release"
+on:
+  workflow_call:
+
+jobs:
+  prepare-release:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      # Le répertoire de sortie a l'arborescence suivante :
+      #
+      # release/
+      #  ├─ ontologie/             -->  /usr/share/nginx/html/ontologie/
+      #  │  ├─ index.html
+      #  |  └─ ..
+      #  ├─ profil-application/    --> /usr/share/nginx/html/profil-application/
+      #  |  └─ index.html
+      #  └─ siteweb/               --> /usr/share/nginx/html/
+      #     ├─ index.html
+      #     ├─ style.css
+      #     └─ ...
+      - name: "Création des répertoires de sortie"
+        run: |
+          mkdir build
+          mkdir build/siteweb
+          mkdir build/ontologie
+          mkdir build/profil-application
+
+      - name: "Installation des locales FR"
+        run: |
+          apt update && apt -y install locales
+          sed -i '/fr_FR.UTF-8/s/^# //g' /etc/locale.gen && locale-gen
+          export LANG=fr_FR.UTF-8
+          export LANGUAGE=fr_FR:fr
+          export LC_ALL=fr_FR.UTF-8
+
+
+      # Site web
+      - name: "Installation de Pandoc"
+        # On utilise le tarball de pandoc plutôt qu'apt pour avoir une version 3.x qui supporte l'option shift-heading-level-by
+        run: |
+          curl -L https://github.com/jgm/pandoc/releases/download/3.1.2/pandoc-3.1.2-1-amd64.deb -o pandoc.deb
+          sudo dpkg -i pandoc.deb
+
+      - name: "Génération du site Web"
+        run: |
+          cp ./siteweb/.docker/* ./build/siteweb/
+          sed -i "s#LAST_MODIFICATION_DATE_PLACEHOLDER#$(date +'%e %B %Y')#g" ./build/siteweb/footer.html
+          pandoc ./siteweb/01_INTRO.md -o ./build/siteweb/intro.html
+          pandoc --standalone \
+            --toc \
+            --shift-heading-level-by=-1 \
+            --template ./build/siteweb/template.html \
+            -c style.css \
+            -B ./build/siteweb/intro.html \
+            -A ./build/siteweb/footer.html \
+            ./siteweb/02_CONTENT.md -o ./build/siteweb/index.html
+
+      - name: "Génération des release notes"
+        run: |
+          pandoc --standalone \
+            --toc \
+            --shift-heading-level-by=-1 \
+            --template ./build/siteweb/template.html \
+            -c style.css \
+            ./siteweb/release-notes.md -o ./build/siteweb/release-notes.html
+
+
+      # Ontologie
+      - name: "Installation de java"
+        uses: actions/setup-java@v1
+        with:
+          java-version: "17"
+
+      - name: "Installation de Widoco"
+        run: |
+          curl -L https://github.com/dgarijo/Widoco/releases/download/v1.4.17/java-17-widoco-1.4.17-jar-with-dependencies.jar -o widoco.jar
+      
+      # On récupère l'ontologie au format nt plutôt que ttl pour faciliter les modifications avec SED
+      - name: "Récupération de l'ontologie au format nt"
+        run : |
+          curl -L --request GET 'https://xls2rdf.sparna.fr/rest/convert?noPostProcessings=true' \
+            -H "Connection: keep-alive" \
+            -F url='https://docs.google.com/spreadsheets/d/1CZIf3bxuuH3aghFn7B7P89DrLqp_jzv4moI_BpI9PzY/export?format=xlsx' \
+            -F format=text/plain \
+            -o ./build/rdafr.nt
+
+      # Enlève les noeuds vides et les éléments shacl qui sont problématiques pour Widoco
+      - name: "Pré traitement de l'ontologie"
+        run: |
+          sed -e "#http://www.w3.org/ns/shacl#d" -e "/_:node/d" -i ./build/rdafr.nt  
+
+      - name: "Génération de la documentation"
+        run: |
+          java -jar widoco.jar -ontFile ./build/rdafr.nt -outFolder ./build/ontologie -rewriteAll -lang fr -excludeIntroduction -includeAnnotationProperties -noPlaceHolderText -webVowl
+          mv ./build/ontologie/index-fr.html ./build/ontologie/index.html
+          rm build/rdafr.nt
+
+
+      # Profil d'application
+      - name: "Génération du profil d'application"
+        run: |
+          curl -F inputShapeFile=@profil-application/rdafr-shacl.ttl \
+            -F shapesSource=file \
+            -F language=fr \
+            -H 'Accept-Language: fr-FR,fr' \
+            https://shacl-play.sparna.fr/play/doc \
+            > ./build/profil-application/index.html
+
+      # Retire les URLs 404
+      - name: "Post traitement du profil d'application"
+        run: |
+          sed -E -i ./build/profil-application/index.html \
+            -e 's#<a href="(https://rdafr\.fr/Elements/.*?/)" target="_blank">.*?</a>#\1#' \
+            -e 's#<a href="https://rdafr\.fr/(Elements|termList)/.*?>(.*?)</a>#\2#'
+
+            
+      - name: "Sauvergarde du build"
+        uses: actions/upload-artifact@v3
+        with:
+          name: build
+          path: build
+          retention-days: 1
