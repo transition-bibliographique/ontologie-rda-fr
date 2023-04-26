@@ -1,6 +1,6 @@
 # Ontologie RDA-FR - Historique des versions
 
-## v.0.1.0, mai 2023 
+## v.0.1.0, mai 2023 {#v0.1.0}
 
 Version, toujours qualifiée comme beta, reste partielle, et le caractère évolutif de l’ontologie d’une version à l’autre toujours valable. Apports de cette version : 
 
@@ -28,7 +28,7 @@ l’explication sur le choix de dissocier l’ontologie RDA-FR (en OWL) de son p
     * cette page portera aussi la mention du numéro de la dernière version de publication de l’ontologie, le numéro de cette version étant V 0.1.0. 
     * les nouveautés d’une version à l’autre sont retracées dans la page distincte Historique des versions https://rdafr.fr/release-notes à laquelle on accède aussi depuis la section Historique des versions de la page https://rdafr.fr.
 
-## v.0.0.1, janvier 2023 - première publication
+## v.0.0.1, janvier 2023 - première publication {#v0.0.1}
 
 La première publication de l’ontologie RDA-FR comprend :
 
@@ -38,5 +38,3 @@ La première publication de l’ontologie RDA-FR comprend :
   * le texte explicatif sur les choix architecturaux et les mécanismes fonctionnels de gestion de cette ontologie et de son profil d’application (texte évolutif au fil des versions) ;
 * la publication du profil d’application de l’ontologie RDA-FR, relatif aux classes : Agent, Agent collectif, Groupe informel, Personne, Identité publique ;
 * l’information sur les modalités techniques de publication de l’ontologie RDA-FR, avec accès aux pages html concernées et le compte GitHub où l’ensemble de l’ontologie est géré.
-
-
