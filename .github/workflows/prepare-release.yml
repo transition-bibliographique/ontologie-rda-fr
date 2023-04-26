@@ -117,7 +117,7 @@ jobs:
             -e 's#<a href="https://rdafr\.fr/(Elements|termList)/.*?>(.*?)</a>#\2#'
 
             
-      - name: "Sauvergarde du build"
+      - name: "Sauvegarde du build"
         uses: actions/upload-artifact@v3
         with:
           name: build
