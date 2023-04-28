@@ -13,7 +13,7 @@ jobs:
           -H "Connection: keep-alive" \
           -F url='https://docs.google.com/spreadsheets/d/1CZIf3bxuuH3aghFn7B7P89DrLqp_jzv4moI_BpI9PzY/export?format=xlsx' \
           -F format=ttl \
-          -o ./profil-application/rdafr-schacl.ttl
+          -o ./profil-application/rdafr-shacl.ttl
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: "Feat : Mise à jour de l'ontologie"
