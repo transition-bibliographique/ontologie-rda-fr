@@ -1,0 +1,1508 @@
+<https://rdafr.fr/Rules/P105> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P105> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/x/P100002> .
+<https://rdafr.fr/Rules/P105> <http://www.w3.org/ns/shacl#name> "a pour laps de temps"@fr .
+<https://rdafr.fr/Rules/P105> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements/c/C100010> .
+<https://rdafr.fr/Rules/P105> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules/P105> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100013> .
+<https://rdafr.fr/Rules/P105> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements/c/C100010> .
+<https://rdafr.fr/Elements/c/C100013> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P105> .
+<https://rdafr.fr/Elements/c/C100013> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P106> .
+<https://rdafr.fr/Elements/c/C100013> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P107> .
+<https://rdafr.fr/Elements/c/C100013> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P108> .
+<https://rdafr.fr/Elements/c/C100013> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P109> .
+<https://rdafr.fr/Elements/c/C100013> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P111> .
+<https://rdafr.fr/Elements/c/C100013> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P112> .
+<https://rdafr.fr/Elements/c/C100013> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P113> .
+<https://rdafr.fr/Elements/c/C100013> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P114> .
+<https://rdafr.fr/Elements/c/C100013> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P115> .
+<https://rdafr.fr/Rules/P106> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P106> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/x/P100003u> .
+<https://rdafr.fr/Rules/P106> <http://www.w3.org/ns/shacl#name> "a pour source [uri]"@fr .
+<https://rdafr.fr/Rules/P106> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements/c/C100013> .
+<https://rdafr.fr/Rules/P106> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules/P106> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100013> .
+<https://rdafr.fr/Rules/P106> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements/c/C100013> .
+<https://rdafr.fr/Rules/P107> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P107> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/x/P100003t> .
+<https://rdafr.fr/Rules/P107> <http://www.w3.org/ns/shacl#name> "a pour source [texte]"@fr .
+<https://rdafr.fr/Rules/P107> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<https://rdafr.fr/Rules/P107> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://rdafr.fr/Rules/P107> <http://www.w3.org/ns/shacl#class> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<https://rdafr.fr/Rules/P107> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100013> .
+<https://rdafr.fr/Rules/P107> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<https://rdafr.fr/Rules/P108> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P108> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/x/P100005> .
+<https://rdafr.fr/Rules/P108> <http://www.w3.org/ns/shacl#name> "a pour niveau de fiabilité"@fr .
+<https://rdafr.fr/Rules/P108> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/termList/NiveauFiabilite> .
+<https://rdafr.fr/Rules/P108> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules/P108> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100013> .
+<https://rdafr.fr/Rules/P108> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/termList/NiveauFiabilite> .
+<https://rdafr.fr/Rules/P109> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P109> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/x/P100006> .
+<https://rdafr.fr/Rules/P109> <http://www.w3.org/ns/shacl#name> "a un caractère confidentiel"@fr .
+<https://rdafr.fr/Rules/P109> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://rdafr.fr/Rules/P109> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://rdafr.fr/Rules/P109> <http://www.w3.org/ns/shacl#class> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://rdafr.fr/Rules/P109> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100013> .
+<https://rdafr.fr/Rules/P109> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://rdafr.fr/Rules/P111> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P111> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/x/P100007> .
+<https://rdafr.fr/Rules/P111> <http://www.w3.org/ns/shacl#name> "a pour appellation"@fr .
+<https://rdafr.fr/Rules/P111> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements/c/C100012> .
+<https://rdafr.fr/Rules/P111> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules/P111> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100013> .
+<https://rdafr.fr/Rules/P111> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements/c/C100012> .
+<https://rdafr.fr/Rules/P112> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P112> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/x/P100001r> .
+<https://rdafr.fr/Rules/P112> <http://www.w3.org/ns/shacl#name> "a une relation avec [dans la relation]"@fr .
+<https://rdafr.fr/Rules/P112> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements/x/P100001r> .
+<https://rdafr.fr/Rules/P112> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules/P112> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100013> .
+<https://rdafr.fr/Rules/P112> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements/x/P100001r> .
+<https://rdafr.fr/Rules/P113> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P113> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/x/P100008> .
+<https://rdafr.fr/Rules/P113> <http://www.w3.org/ns/shacl#name> "a une propriété réifiée"@fr .
+<https://rdafr.fr/Rules/P113> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements/x/P100008> .
+<https://rdafr.fr/Rules/P113> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules/P113> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100013> .
+<https://rdafr.fr/Rules/P113> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements/x/P100008> .
+<https://rdafr.fr/Rules/P114> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P114> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/x/P100009u> .
+<https://rdafr.fr/Rules/P114> <http://www.w3.org/ns/shacl#name> "a pour valeur [uri]"@fr .
+<https://rdafr.fr/Rules/P114> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements/c/C100013> .
+<https://rdafr.fr/Rules/P114> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules/P114> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100013> .
+<https://rdafr.fr/Rules/P114> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements/c/C100013> .
+<https://rdafr.fr/Rules/P115> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P115> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/x/P100009t> .
+<https://rdafr.fr/Rules/P115> <http://www.w3.org/ns/shacl#name> "a pour valeur [texte]"@fr .
+<https://rdafr.fr/Rules/P115> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://rdafr.fr/Rules/P115> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://rdafr.fr/Rules/P115> <http://www.w3.org/ns/shacl#class> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://rdafr.fr/Rules/P115> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100013> .
+<https://rdafr.fr/Rules/P115> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://rdafr.fr/Rules/P1005> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P1005> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/x/P100003u> .
+<https://rdafr.fr/Rules/P1005> <http://www.w3.org/ns/shacl#name> "a pour source [uri]"@fr .
+<https://rdafr.fr/Rules/P1005> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements/c/C100013> .
+<https://rdafr.fr/Rules/P1005> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules/P1005> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/x/P100001r> .
+<https://rdafr.fr/Rules/P1005> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements/c/C100013> .
+<https://rdafr.fr/Elements/x/P100001r> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P1005> .
+<https://rdafr.fr/Elements/x/P100001r> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P1006> .
+<https://rdafr.fr/Elements/x/P100001r> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P1007> .
+<https://rdafr.fr/Elements/x/P100001r> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P1008> .
+<https://rdafr.fr/Elements/x/P100001r> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P1009> .
+<https://rdafr.fr/Elements/x/P100001r> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P1010> .
+<https://rdafr.fr/Elements/x/P100001r> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P1011> .
+<https://rdafr.fr/Elements/x/P100001r> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P1012> .
+<https://rdafr.fr/Elements/x/P100001r> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P1013> .
+<https://rdafr.fr/Rules/P1006> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P1006> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/x/P100003t> .
+<https://rdafr.fr/Rules/P1006> <http://www.w3.org/ns/shacl#name> "a pour source [texte]"@fr .
+<https://rdafr.fr/Rules/P1006> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<https://rdafr.fr/Rules/P1006> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://rdafr.fr/Rules/P1006> <http://www.w3.org/ns/shacl#class> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<https://rdafr.fr/Rules/P1006> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/x/P100001r> .
+<https://rdafr.fr/Rules/P1006> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<https://rdafr.fr/Rules/P1007> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P1007> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/x/P100002> .
+<https://rdafr.fr/Rules/P1007> <http://www.w3.org/ns/shacl#name> "a pour laps de temps"@fr .
+<https://rdafr.fr/Rules/P1007> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements/c/C100010> .
+<https://rdafr.fr/Rules/P1007> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules/P1007> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/x/P100001r> .
+<https://rdafr.fr/Rules/P1007> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements/c/C100010> .
+<https://rdafr.fr/Rules/P1008> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P1008> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/x/P100005> .
+<https://rdafr.fr/Rules/P1008> <http://www.w3.org/ns/shacl#name> "a pour niveau de fiabilité"@fr .
+<https://rdafr.fr/Rules/P1008> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/termList/NiveauFiabilite> .
+<https://rdafr.fr/Rules/P1008> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/Rules/P1008> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules/P1008> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/x/P100001r> .
+<https://rdafr.fr/Rules/P1008> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/termList/NiveauFiabilite> .
+<https://rdafr.fr/Rules/P1009> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P1009> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/x/P100006> .
+<https://rdafr.fr/Rules/P1009> <http://www.w3.org/ns/shacl#name> "a un caractère confidentiel"@fr .
+<https://rdafr.fr/Rules/P1009> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://rdafr.fr/Rules/P1009> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/Rules/P1009> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://rdafr.fr/Rules/P1009> <http://www.w3.org/ns/shacl#class> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://rdafr.fr/Rules/P1009> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/x/P100001r> .
+<https://rdafr.fr/Rules/P1009> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://rdafr.fr/Rules/P1010> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P1010> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/x/P100009t> .
+<https://rdafr.fr/Rules/P1010> <http://www.w3.org/ns/shacl#name> "a pour valeur [texte]"@fr .
+<https://rdafr.fr/Rules/P1010> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://rdafr.fr/Rules/P1010> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://rdafr.fr/Rules/P1010> <http://www.w3.org/ns/shacl#class> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://rdafr.fr/Rules/P1010> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/x/P100001r> .
+<https://rdafr.fr/Rules/P1010> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://rdafr.fr/Rules/P1011> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P1011> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/x/P100010> .
+<https://rdafr.fr/Rules/P1011> <http://www.w3.org/ns/shacl#name> "a pour indicateur de relation [uri]"@fr .
+<https://rdafr.fr/Rules/P1011> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/termList/IndicateurRelation> .
+<https://rdafr.fr/Rules/P1011> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://rdafr.fr/Rules/P1011> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://rdafr.fr/Rules/P1011> <http://www.w3.org/ns/shacl#class> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://rdafr.fr/Rules/P1011> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/x/P100001r> .
+<https://rdafr.fr/Rules/P1011> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/termList/IndicateurRelationrdfs:Literal> .
+<https://rdafr.fr/Rules/P1012> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P1012> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/x/P100011u> .
+<https://rdafr.fr/Rules/P1012> <http://www.w3.org/ns/shacl#name> "a pour affiliation [uri]"@fr .
+<https://rdafr.fr/Rules/P1012> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements/c/C100011> .
+<https://rdafr.fr/Rules/P1012> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules/P1012> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/x/P100001r> .
+<https://rdafr.fr/Rules/P1012> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements/c/C100011> .
+<https://rdafr.fr/Rules/P1013> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P1013> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/x/P100009t> .
+<https://rdafr.fr/Rules/P1013> <http://www.w3.org/ns/shacl#name> "a pour affiliation [texte]"@fr .
+<https://rdafr.fr/Rules/P1013> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://rdafr.fr/Rules/P1013> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://rdafr.fr/Rules/P1013> <http://www.w3.org/ns/shacl#class> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://rdafr.fr/Rules/P1013> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/x/P100001r> .
+<https://rdafr.fr/Rules/P1013> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://rdafr.fr/Rules/P1015> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P1015> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/x/P100003u> .
+<https://rdafr.fr/Rules/P1015> <http://www.w3.org/ns/shacl#name> "a pour source [uri]"@fr .
+<https://rdafr.fr/Rules/P1015> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements/c/C100013> .
+<https://rdafr.fr/Rules/P1015> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules/P1015> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/x/P100008> .
+<https://rdafr.fr/Rules/P1015> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements/c/C100013> .
+<https://rdafr.fr/Elements/x/P100008> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P1015> .
+<https://rdafr.fr/Elements/x/P100008> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P1016> .
+<https://rdafr.fr/Elements/x/P100008> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P1017> .
+<https://rdafr.fr/Elements/x/P100008> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P1018> .
+<https://rdafr.fr/Elements/x/P100008> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P1019> .
+<https://rdafr.fr/Elements/x/P100008> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P1020> .
+<https://rdafr.fr/Elements/x/P100008> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P1021> .
+<https://rdafr.fr/Rules/P1016> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P1016> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/x/P100003t> .
+<https://rdafr.fr/Rules/P1016> <http://www.w3.org/ns/shacl#name> "a pour source [texte]"@fr .
+<https://rdafr.fr/Rules/P1016> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<https://rdafr.fr/Rules/P1016> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://rdafr.fr/Rules/P1016> <http://www.w3.org/ns/shacl#class> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<https://rdafr.fr/Rules/P1016> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/x/P100008> .
+<https://rdafr.fr/Rules/P1016> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<https://rdafr.fr/Rules/P1017> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P1017> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/x/P100002> .
+<https://rdafr.fr/Rules/P1017> <http://www.w3.org/ns/shacl#name> "a pour laps de temps"@fr .
+<https://rdafr.fr/Rules/P1017> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements/c/C100010> .
+<https://rdafr.fr/Rules/P1017> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules/P1017> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/x/P100008> .
+<https://rdafr.fr/Rules/P1017> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements/c/C100010> .
+<https://rdafr.fr/Rules/P1018> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P1018> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/x/P100005> .
+<https://rdafr.fr/Rules/P1018> <http://www.w3.org/ns/shacl#name> "a pour niveau de fiabilité"@fr .
+<https://rdafr.fr/Rules/P1018> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/termList/NiveauFiabilite> .
+<https://rdafr.fr/Rules/P1018> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/Rules/P1018> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules/P1018> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/x/P100008> .
+<https://rdafr.fr/Rules/P1018> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/termList/NiveauFiabilite> .
+<https://rdafr.fr/Rules/P1019> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P1019> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/x/P100006> .
+<https://rdafr.fr/Rules/P1019> <http://www.w3.org/ns/shacl#name> "a un caractère confidentiel"@fr .
+<https://rdafr.fr/Rules/P1019> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://rdafr.fr/Rules/P1019> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/Rules/P1019> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://rdafr.fr/Rules/P1019> <http://www.w3.org/ns/shacl#class> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://rdafr.fr/Rules/P1019> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/x/P100008> .
+<https://rdafr.fr/Rules/P1019> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://rdafr.fr/Rules/P1020> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P1020> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/x/P100009u> .
+<https://rdafr.fr/Rules/P1020> <http://www.w3.org/ns/shacl#name> "a pour valeur [uri]"@fr .
+<https://rdafr.fr/Rules/P1020> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements/c/C100013> .
+<https://rdafr.fr/Rules/P1020> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules/P1020> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/x/P100008> .
+<https://rdafr.fr/Rules/P1020> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements/c/C100013> .
+<https://rdafr.fr/Rules/P1021> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P1021> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/x/P100009t> .
+<https://rdafr.fr/Rules/P1021> <http://www.w3.org/ns/shacl#name> "a pour valeur [texte]"@fr .
+<https://rdafr.fr/Rules/P1021> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://rdafr.fr/Rules/P1021> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://rdafr.fr/Rules/P1021> <http://www.w3.org/ns/shacl#class> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://rdafr.fr/Rules/P1021> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/x/P100008> .
+<https://rdafr.fr/Rules/P1021> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://rdafr.fr/Rules/P904> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P904> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/t/P300004> .
+<https://rdafr.fr/Rules/P904> <http://www.w3.org/ns/shacl#name> "date [texte]"@fr .
+<https://rdafr.fr/Rules/P904> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://rdafr.fr/Rules/P904> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/Rules/P904> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://rdafr.fr/Rules/P904> <http://www.w3.org/ns/shacl#class> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://rdafr.fr/Rules/P904> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100010> .
+<https://rdafr.fr/Rules/P904> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://rdafr.fr/Elements/c/C100010> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P904> .
+<https://rdafr.fr/Elements/c/C100010> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P905> .
+<https://rdafr.fr/Elements/c/C100010> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P906> .
+<https://rdafr.fr/Rules/P905> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P905> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/t/P300005> .
+<https://rdafr.fr/Rules/P905> <http://www.w3.org/ns/shacl#name> "date standardisée"@fr .
+<https://rdafr.fr/Rules/P905> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://rdafr.fr/Rules/P905> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/Rules/P905> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://rdafr.fr/Rules/P905> <http://www.w3.org/ns/shacl#class> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://rdafr.fr/Rules/P905> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100010> .
+<https://rdafr.fr/Rules/P905> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://rdafr.fr/Rules/P906> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P906> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/t/P300024> .
+<https://rdafr.fr/Rules/P906> <http://www.w3.org/ns/shacl#name> "a calendrier de référence"@fr .
+<https://rdafr.fr/Rules/P906> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/termList/Calendrier> .
+<https://rdafr.fr/Rules/P906> <http://www.w3.org/ns/shacl#minCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/Rules/P906> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/Rules/P906> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules/P906> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100010> .
+<https://rdafr.fr/Rules/P906> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/termList/Calendrier> .
+<https://rdafr.fr/Rules/P907> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P907> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/t/P300020> .
+<https://rdafr.fr/Rules/P907> <http://www.w3.org/ns/shacl#name> "a une date de début"@fr .
+<https://rdafr.fr/Rules/P907> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements/c/C100022> .
+<https://rdafr.fr/Rules/P907> <http://www.w3.org/ns/shacl#minCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/Rules/P907> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/Rules/P907> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules/P907> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100021> .
+<https://rdafr.fr/Rules/P907> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements/c/C100022> .
+<https://rdafr.fr/Elements/c/C100021> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P907> .
+<https://rdafr.fr/Elements/c/C100021> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P908> .
+<https://rdafr.fr/Rules/P908> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P908> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/t/P300021> .
+<https://rdafr.fr/Rules/P908> <http://www.w3.org/ns/shacl#name> "a une date de fin"@fr .
+<https://rdafr.fr/Rules/P908> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements/c/C100022> .
+<https://rdafr.fr/Rules/P908> <http://www.w3.org/ns/shacl#minCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/Rules/P908> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/Rules/P908> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules/P908> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100021> .
+<https://rdafr.fr/Rules/P908> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements/c/C100022> .
+<https://rdafr.fr/Rules/P909> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P909> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/t/P300022> .
+<https://rdafr.fr/Rules/P909> <http://www.w3.org/ns/shacl#name> "est constitué d'une date unique"@fr .
+<https://rdafr.fr/Rules/P909> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements/c/C100022> .
+<https://rdafr.fr/Rules/P909> <http://www.w3.org/ns/shacl#minCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/Rules/P909> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules/P909> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100023> .
+<https://rdafr.fr/Rules/P909> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements/c/C100022> .
+<https://rdafr.fr/Elements/c/C100023> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P909> .
+<https://rdafr.fr/Elements/c/C100023> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P910> .
+<https://rdafr.fr/Rules/P910> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P910> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/t/P300023> .
+<https://rdafr.fr/Rules/P910> <http://www.w3.org/ns/shacl#name> "est constitué d'une période"@fr .
+<https://rdafr.fr/Rules/P910> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements/c/C100021> .
+<https://rdafr.fr/Rules/P910> <http://www.w3.org/ns/shacl#minCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/Rules/P910> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules/P910> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100023> .
+<https://rdafr.fr/Rules/P910> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements/c/C100021> .
+<https://rdafr.fr/Rules/P204> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P204> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/a/P500028r> .
+<https://rdafr.fr/Rules/P204> <http://www.w3.org/ns/shacl#name> "a une relation sociale, économique ou culturelle avec [dans la relation]"@fr .
+<https://rdafr.fr/Rules/P204> <http://www.w3.org/ns/shacl#description> "Catégorie de relation regroupant des relations"@fr .
+<https://rdafr.fr/Rules/P204> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements/c/C100002> .
+<https://rdafr.fr/Rules/P204> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements/x/P100001r> .
+<https://rdafr.fr/Rules/P204> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules/P204> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100002> .
+<https://rdafr.fr/Rules/P204> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements/c/C100002> .
+<https://rdafr.fr/Elements/c/C100002> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P204> .
+<https://rdafr.fr/Rules/P454> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P454> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/a/P500300> .
+<https://rdafr.fr/Rules/P454> <http://www.w3.org/ns/shacl#name> "a pour identité publique du groupe informel"@fr .
+<https://rdafr.fr/Rules/P454> <http://www.w3.org/ns/shacl#description> "Un groupe informel est connu sous une identité publique qui se présente sous forme d'un pseudonyme collectif (nom se présentant formellement comme un nom de personne)"@fr .
+<https://rdafr.fr/Rules/P454> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements/c/C100015> .
+<https://rdafr.fr/Rules/P454> <http://www.w3.org/ns/shacl#minCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/Rules/P454> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/Rules/P454> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules/P454> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100025> .
+<https://rdafr.fr/Rules/P454> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements/c/C100015> .
+<https://rdafr.fr/Elements/c/C100025> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P454> .
+<https://rdafr.fr/Elements/c/C100025> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P455> .
+<https://rdafr.fr/Rules/P455> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P455> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/a/P500301> .
+<https://rdafr.fr/Rules/P455> <http://www.w3.org/ns/shacl#name> "a pour information sur le groupe informel"@fr .
+<https://rdafr.fr/Rules/P455> <http://www.w3.org/ns/shacl#description> "Information générale sur le groupe informel"@fr .
+<https://rdafr.fr/Rules/P455> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<https://rdafr.fr/Rules/P455> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements/x/P100008> .
+<https://rdafr.fr/Rules/P455> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://rdafr.fr/Rules/P455> <http://www.w3.org/ns/shacl#class> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<https://rdafr.fr/Rules/P455> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100025> .
+<https://rdafr.fr/Rules/P455> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<https://rdafr.fr/Rules/P304> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P304> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/a/P500001> .
+<https://rdafr.fr/Rules/P304> <http://www.w3.org/ns/shacl#name> "a pour date associée à la personne"@fr .
+<https://rdafr.fr/Rules/P304> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "9.3.1" .
+<https://rdafr.fr/Rules/P304> <http://www.w3.org/ns/shacl#description> "Une date associée à la personne est une date importante associée à l’histoire de la personne (par exemple, date de naissance, date de décès, et dans certains cas dates d’activité)"@fr .
+<https://rdafr.fr/Rules/P304> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements/c/C100010> .
+<https://rdafr.fr/Rules/P304> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements/x/P100008> .
+<https://rdafr.fr/Rules/P304> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules/P304> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100004> .
+<https://rdafr.fr/Rules/P304> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements/c/C100010> .
+<https://rdafr.fr/Elements/c/C100004> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P304> .
+<https://rdafr.fr/Elements/c/C100004> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P305> .
+<https://rdafr.fr/Elements/c/C100004> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P306> .
+<https://rdafr.fr/Elements/c/C100004> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P307> .
+<https://rdafr.fr/Elements/c/C100004> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P308> .
+<https://rdafr.fr/Elements/c/C100004> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P309> .
+<https://rdafr.fr/Elements/c/C100004> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P310> .
+<https://rdafr.fr/Elements/c/C100004> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P311> .
+<https://rdafr.fr/Elements/c/C100004> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P312> .
+<https://rdafr.fr/Elements/c/C100004> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P313> .
+<https://rdafr.fr/Elements/c/C100004> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P314> .
+<https://rdafr.fr/Elements/c/C100004> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P315> .
+<https://rdafr.fr/Elements/c/C100004> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P316> .
+<https://rdafr.fr/Elements/c/C100004> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P317> .
+<https://rdafr.fr/Elements/c/C100004> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P318> .
+<https://rdafr.fr/Elements/c/C100004> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P319> .
+<https://rdafr.fr/Elements/c/C100004> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P320> .
+<https://rdafr.fr/Elements/c/C100004> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P321> .
+<https://rdafr.fr/Elements/c/C100004> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P322> .
+<https://rdafr.fr/Elements/c/C100004> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P323> .
+<https://rdafr.fr/Elements/c/C100004> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P324> .
+<https://rdafr.fr/Elements/c/C100004> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P325> .
+<https://rdafr.fr/Elements/c/C100004> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P326> .
+<https://rdafr.fr/Elements/c/C100004> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P327> .
+<https://rdafr.fr/Elements/c/C100004> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P328> .
+<https://rdafr.fr/Elements/c/C100004> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P329> .
+<https://rdafr.fr/Elements/c/C100004> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P330> .
+<https://rdafr.fr/Elements/c/C100004> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P331> .
+<https://rdafr.fr/Elements/c/C100004> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P332> .
+<https://rdafr.fr/Elements/c/C100004> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P333> .
+<https://rdafr.fr/Elements/c/C100004> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P334> .
+<https://rdafr.fr/Elements/c/C100004> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P335> .
+<https://rdafr.fr/Elements/c/C100004> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P336> .
+<https://rdafr.fr/Elements/c/C100004> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P337> .
+<https://rdafr.fr/Elements/c/C100004> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P338> .
+<https://rdafr.fr/Elements/c/C100004> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P339> .
+<https://rdafr.fr/Elements/c/C100004> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P340> .
+<https://rdafr.fr/Rules/P305> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P305> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/a/P500002> .
+<https://rdafr.fr/Rules/P305> <http://www.w3.org/ns/shacl#name> "a pour date de naissance de la personne"@fr .
+<https://rdafr.fr/Rules/P305> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "9.3.1.4" .
+<https://rdafr.fr/Rules/P305> <http://www.w3.org/ns/shacl#description> "Représente l’année, le mois et le jour de naissance d’une personne."@fr .
+<https://rdafr.fr/Rules/P305> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements/c/C100010> .
+<https://rdafr.fr/Rules/P305> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements/a/P500001> .
+<https://rdafr.fr/Rules/P305> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/Rules/P305> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules/P305> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100004> .
+<https://rdafr.fr/Rules/P305> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements/c/C100010> .
+<https://rdafr.fr/Rules/P306> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P306> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/a/P500003> .
+<https://rdafr.fr/Rules/P306> <http://www.w3.org/ns/shacl#name> "a pour date de décès de la personne"@fr .
+<https://rdafr.fr/Rules/P306> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "9.3.1.5" .
+<https://rdafr.fr/Rules/P306> <http://www.w3.org/ns/shacl#description> "L'année, le mois et le jour de mort d’une personne."@fr .
+<https://rdafr.fr/Rules/P306> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements/c/C100010> .
+<https://rdafr.fr/Rules/P306> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements/a/P500001> .
+<https://rdafr.fr/Rules/P306> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/Rules/P306> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules/P306> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100004> .
+<https://rdafr.fr/Rules/P306> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements/c/C100010> .
+<https://rdafr.fr/Rules/P307> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P307> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/a/P500004> .
+<https://rdafr.fr/Rules/P307> <http://www.w3.org/ns/shacl#name> "a pour période d'activité de la personne"@fr .
+<https://rdafr.fr/Rules/P307> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "9.3.1.6" .
+<https://rdafr.fr/Rules/P307> <http://www.w3.org/ns/shacl#description> "Date ou une fourchette de dates indicative de la période pendant laquelle une personne a été active dans son principal domaine d’activité"@fr .
+<https://rdafr.fr/Rules/P307> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements/c/C100010> .
+<https://rdafr.fr/Rules/P307> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements/a/P500001> .
+<https://rdafr.fr/Rules/P307> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules/P307> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100004> .
+<https://rdafr.fr/Rules/P307> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements/c/C100010> .
+<https://rdafr.fr/Rules/P308> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P308> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/a/P500005> .
+<https://rdafr.fr/Rules/P308> <http://www.w3.org/ns/shacl#name> "a pour titre de la personne"@fr .
+<https://rdafr.fr/Rules/P308> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "9.3.2" .
+<https://rdafr.fr/Rules/P308> <http://www.w3.org/ns/shacl#description> "Le titre de la personne est un mot ou une expression indiquant un titre royal, un titre nobiliaire, un rang ou une fonction ecclésiastique, ou un titre de courtoisie pour un religieux.\nLe titre de la personne inclut d’autres termes indiquant un rang ou une fonction, y compris les initiales de titre universitaire, ou l’appartenance à un groupe.\nLe titre de la personne exclut les termes d’adresse qui indiquent uniquement le genre ou le statut marital (M., Mme,…)"@fr .
+<https://rdafr.fr/Rules/P308> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<https://rdafr.fr/Rules/P308> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements/x/P100008> .
+<https://rdafr.fr/Rules/P308> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://rdafr.fr/Rules/P308> <http://www.w3.org/ns/shacl#class> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<https://rdafr.fr/Rules/P308> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100004> .
+<https://rdafr.fr/Rules/P308> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<https://rdafr.fr/Rules/P309> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P309> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/a/P500006> .
+<https://rdafr.fr/Rules/P309> <http://www.w3.org/ns/shacl#name> "a pour genre de la personne"@fr .
+<https://rdafr.fr/Rules/P309> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "9.3.3" .
+<https://rdafr.fr/Rules/P309> <http://www.w3.org/ns/shacl#description> "Genre auquel une personne s’identifie"@fr .
+<https://rdafr.fr/Rules/P309> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/termList/Genre> .
+<https://rdafr.fr/Rules/P309> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements/x/P100008> .
+<https://rdafr.fr/Rules/P309> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules/P309> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100004> .
+<https://rdafr.fr/Rules/P309> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/termList/Genre> .
+<https://rdafr.fr/Rules/P310> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P310> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/a/P500007> .
+<https://rdafr.fr/Rules/P310> <http://www.w3.org/ns/shacl#name> "a pour lieu associé à la personne"@fr .
+<https://rdafr.fr/Rules/P310> <http://www.w3.org/ns/shacl#description> "Un lieu associé à la personne est un lieu significatif pour l'identification de la personne (par exemple, lieu de naissance, lieu de décès, pays associé à la personne, adresse...)"@fr .
+<https://rdafr.fr/Rules/P310> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements/c/C100009> .
+<https://rdafr.fr/Rules/P310> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements/x/P100008> .
+<https://rdafr.fr/Rules/P310> <http://www.w3.org/2004/02/skos/core#editorialNote> "Vincent s'assure de l'introduction de cette propriété dans le glossaire RDA-FR (2022-11-24). Pas d'attribut correspondant dans le chapitre 9."@fr .
+<https://rdafr.fr/Rules/P310> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules/P310> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100004> .
+<https://rdafr.fr/Rules/P310> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements/c/C100009> .
+<https://rdafr.fr/Rules/P311> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P311> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/a/P500009> .
+<https://rdafr.fr/Rules/P311> <http://www.w3.org/ns/shacl#name> "a pour lieu de naissance de la personne"@fr .
+<https://rdafr.fr/Rules/P311> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "9.3.4" .
+<https://rdafr.fr/Rules/P311> <http://www.w3.org/ns/shacl#description> "La municipalité, la ville, la province, l’État et/ou le pays où une personne est déclarée être née."@fr .
+<https://rdafr.fr/Rules/P311> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements/c/C100009> .
+<https://rdafr.fr/Rules/P311> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements/a/P500007> .
+<https://rdafr.fr/Rules/P311> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules/P311> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100004> .
+<https://rdafr.fr/Rules/P311> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements/c/C100009> .
+<https://rdafr.fr/Rules/P312> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P312> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/a/P500013> .
+<https://rdafr.fr/Rules/P312> <http://www.w3.org/ns/shacl#name> "a pour lieu de décès de la personne"@fr .
+<https://rdafr.fr/Rules/P312> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "9.3.5" .
+<https://rdafr.fr/Rules/P312> <http://www.w3.org/ns/shacl#description> "La municipalité, la ville, la province, l’État et/ou le pays où une personne est déclarée être décédée"@fr .
+<https://rdafr.fr/Rules/P312> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements/c/C100009> .
+<https://rdafr.fr/Rules/P312> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements/a/P500007> .
+<https://rdafr.fr/Rules/P312> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules/P312> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100004> .
+<https://rdafr.fr/Rules/P312> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements/c/C100009> .
+<https://rdafr.fr/Rules/P313> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P313> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/a/P500015> .
+<https://rdafr.fr/Rules/P313> <http://www.w3.org/ns/shacl#name> "a pour pays associé à la personne"@fr .
+<https://rdafr.fr/Rules/P313> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "9.3.6" .
+<https://rdafr.fr/Rules/P313> <http://www.w3.org/ns/shacl#description> "Pays dont les règles nationales sont suivies pour construire le point d’accès autorisé identifiant la personne."@fr .
+<https://rdafr.fr/Rules/P313> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements/c/C100009> .
+<https://rdafr.fr/Rules/P313> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements/a/P500007> .
+<https://rdafr.fr/Rules/P313> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules/P313> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100004> .
+<https://rdafr.fr/Rules/P313> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements/c/C100009> .
+<https://rdafr.fr/Rules/P314> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P314> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/a/P500017> .
+<https://rdafr.fr/Rules/P314> <http://www.w3.org/ns/shacl#name> "a pour lieu de résidence"@fr .
+<https://rdafr.fr/Rules/P314> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "9.3.7" .
+<https://rdafr.fr/Rules/P314> <http://www.w3.org/ns/shacl#description> "Le lieu de résidence est une municipalité, une ville, une province, un État et/ou un pays où une personne réside ou a résidé"@fr .
+<https://rdafr.fr/Rules/P314> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements/c/C100009> .
+<https://rdafr.fr/Rules/P314> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements/a/P500007> .
+<https://rdafr.fr/Rules/P314> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules/P314> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100004> .
+<https://rdafr.fr/Rules/P314> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements/c/C100009> .
+<https://rdafr.fr/Rules/P315> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P315> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/a/P500019> .
+<https://rdafr.fr/Rules/P315> <http://www.w3.org/ns/shacl#name> "a pour adresse de la personne"@fr .
+<https://rdafr.fr/Rules/P315> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "9.3.8" .
+<https://rdafr.fr/Rules/P315> <http://www.w3.org/ns/shacl#description> "L’adresse du lieu de résidence, de travail, l’adresse de l’employeur d’une personne et/ou son adresse électronique ou son adresse de site Web."@fr .
+<https://rdafr.fr/Rules/P315> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements/c/C100009> .
+<https://rdafr.fr/Rules/P315> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements/a/P500007> .
+<https://rdafr.fr/Rules/P315> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules/P315> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100004> .
+<https://rdafr.fr/Rules/P315> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements/c/C100009> .
+<https://rdafr.fr/Rules/P316> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P316> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/a/P500020> .
+<https://rdafr.fr/Rules/P316> <http://www.w3.org/ns/shacl#name> "a pour langue de la personne"@fr .
+<https://rdafr.fr/Rules/P316> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "9.3.9" .
+<https://rdafr.fr/Rules/P316> <http://www.w3.org/ns/shacl#description> "La langue (ou les langues) d’expression qu’elle utilise pour produire les ressources associées à la personne"@fr .
+<https://rdafr.fr/Rules/P316> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/termList/Langue> .
+<https://rdafr.fr/Rules/P316> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements/x/P100008> .
+<https://rdafr.fr/Rules/P316> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules/P316> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100004> .
+<https://rdafr.fr/Rules/P316> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/termList/Langue> .
+<https://rdafr.fr/Rules/P317> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P317> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/a/P500021> .
+<https://rdafr.fr/Rules/P317> <http://www.w3.org/ns/shacl#name> "a pour domaine d'activité de la personne"@fr .
+<https://rdafr.fr/Rules/P317> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "9.3.10" .
+<https://rdafr.fr/Rules/P317> <http://www.w3.org/ns/shacl#description> "Champ d’action, domaine du savoir, etc. dans lequel s’investit ou s’est investie la personne"@fr .
+<https://rdafr.fr/Rules/P317> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<https://rdafr.fr/Rules/P317> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements/x/P100008> .
+<https://rdafr.fr/Rules/P317> <http://www.w3.org/2004/02/skos/core#editorialNote> "A terme on peut avoir un référentiel associé, soit dédié, soit pointer vers une instance d'un référentiel plus global, Rameau par exemple"@fr .
+<https://rdafr.fr/Rules/P317> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://rdafr.fr/Rules/P317> <http://www.w3.org/ns/shacl#class> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<https://rdafr.fr/Rules/P317> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100004> .
+<https://rdafr.fr/Rules/P317> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<https://rdafr.fr/Rules/P318> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P318> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/a/P500023> .
+<https://rdafr.fr/Rules/P318> <http://www.w3.org/ns/shacl#name> "a pour profession ou occupation de la personne"@fr .
+<https://rdafr.fr/Rules/P318> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "9.3.11" .
+<https://rdafr.fr/Rules/P318> <http://www.w3.org/ns/shacl#description> "Profession ou l’occupation qu’une personne exerce ou a exercée"@fr .
+<https://rdafr.fr/Rules/P318> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<https://rdafr.fr/Rules/P318> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements/x/P100008> .
+<https://rdafr.fr/Rules/P318> <http://www.w3.org/2004/02/skos/core#editorialNote> "A terme on peut avoir un référentiel associé, soit dédié, soit pointer ver une instance d'un référentiel plus global, Rameau par exemple"@fr .
+<https://rdafr.fr/Rules/P318> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://rdafr.fr/Rules/P318> <http://www.w3.org/ns/shacl#class> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<https://rdafr.fr/Rules/P318> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100004> .
+<https://rdafr.fr/Rules/P318> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<https://rdafr.fr/Rules/P319> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P319> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/a/P500024> .
+<https://rdafr.fr/Rules/P319> <http://www.w3.org/ns/shacl#name> "a pour affiliation de la personne"@fr .
+<https://rdafr.fr/Rules/P319> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "9.3.12" .
+<https://rdafr.fr/Rules/P319> <http://www.w3.org/ns/shacl#description> "Une appartenance à un groupe obtenue par recrutement, acquisition de la qualité de membre, etc"@fr .
+<https://rdafr.fr/Rules/P319> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<https://rdafr.fr/Rules/P319> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements/x/P100008> .
+<https://rdafr.fr/Rules/P319> <http://www.w3.org/2004/02/skos/core#editorialNote> "Si l'affiliation est exprimée sous forme de relation voir les classes de relation concernées"@fr .
+<https://rdafr.fr/Rules/P319> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://rdafr.fr/Rules/P319> <http://www.w3.org/ns/shacl#class> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<https://rdafr.fr/Rules/P319> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100004> .
+<https://rdafr.fr/Rules/P319> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<https://rdafr.fr/Rules/P320> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P320> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/a/P500025> .
+<https://rdafr.fr/Rules/P320> <http://www.w3.org/ns/shacl#name> "a pour information biographique et historique"@fr .
+<https://rdafr.fr/Rules/P320> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "9.3.13" .
+<https://rdafr.fr/Rules/P320> <http://www.w3.org/ns/shacl#description> "Information sur la vie ou l’histoire d’une personne sous forme textuelle."@fr .
+<https://rdafr.fr/Rules/P320> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<https://rdafr.fr/Rules/P320> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements/x/P100008> .
+<https://rdafr.fr/Rules/P320> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://rdafr.fr/Rules/P320> <http://www.w3.org/ns/shacl#class> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<https://rdafr.fr/Rules/P320> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100004> .
+<https://rdafr.fr/Rules/P320> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<https://rdafr.fr/Rules/P321> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P321> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/a/P500026> .
+<https://rdafr.fr/Rules/P321> <http://www.w3.org/ns/shacl#name> "a pour identifiant associé à la personne"@fr .
+<https://rdafr.fr/Rules/P321> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "9.3.14" .
+<https://rdafr.fr/Rules/P321> <http://www.w3.org/ns/shacl#description> "Un identifiant associé à la personne est une chaîne de caractères ou de symboles qui lui est associée (par exemple un identifiant ORCID- Open Researcher and Contributor ID ):\nL’identifiant sert à distinguer une personne d’autres personnes. Il doit être unique et univoque pour un référentiel donné."@fr .
+<https://rdafr.fr/Rules/P321> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements/c/C100012> .
+<https://rdafr.fr/Rules/P321> <http://www.w3.org/2004/02/skos/core#editorialNote> "Identifiant sous forme d'URI (ex. ORCID)\nA distinguer de l'Identifiant associé à l'Identité publique de personne"@fr .
+<https://rdafr.fr/Rules/P321> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules/P321> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100004> .
+<https://rdafr.fr/Rules/P321> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements/c/C100012> .
+<https://rdafr.fr/Rules/P322> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P322> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/a/P500027> .
+<https://rdafr.fr/Rules/P322> <http://www.w3.org/ns/shacl#name> "a pour identité publique de la personne"@fr .
+<https://rdafr.fr/Rules/P322> <http://www.w3.org/ns/shacl#description> "Toute personne a au moins une identité publique, et aucune identité publique ne peut exister sans être associée à une personne ou à un agent. Une personne peut être connue sous une seule identité publique, ou sous plusieurs. Ces identités publiques sont désignées en tant que telles."@fr .
+<https://rdafr.fr/Rules/P322> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements/c/C100015> .
+<https://rdafr.fr/Rules/P322> <http://www.w3.org/2002/07/owl#inverseOf> <https://rdafr.fr/Elements/u/P600001> .
+<https://rdafr.fr/Rules/P322> <http://www.w3.org/ns/shacl#minCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/Rules/P322> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules/P322> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100004> .
+<https://rdafr.fr/Rules/P322> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements/c/C100015> .
+<https://rdafr.fr/Rules/P323> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P323> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/a/P500028r> .
+<https://rdafr.fr/Rules/P323> <http://www.w3.org/ns/shacl#name> "a une relation sociale, économique ou culturelle avec [dans la relation]"@fr .
+<https://rdafr.fr/Rules/P323> <http://www.w3.org/ns/shacl#description> "Catégorie de relation regroupant les relations spécifiques de nature sociale, économique ou culturelle"@fr .
+<https://rdafr.fr/Rules/P323> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements/c/C100002> .
+<https://rdafr.fr/Rules/P323> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements/x/P100001r> .
+<https://rdafr.fr/Rules/P323> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements/c/C100002> .
+<https://rdafr.fr/Rules/P324> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P324> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/a/P500029ri> .
+<https://rdafr.fr/Rules/P324> <http://www.w3.org/ns/shacl#name> "est enseignant de [dans la relation]"@fr .
+<https://rdafr.fr/Rules/P324> <http://www.w3.org/ns/shacl#description> "Personne qui donne un enseignement à une autre personne."@fr .
+<https://rdafr.fr/Rules/P324> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements/c/C100002> .
+<https://rdafr.fr/Rules/P324> <http://www.w3.org/2002/07/owl#inverseOf> <https://rdafr.fr/Elements/a/P500029r> .
+<https://rdafr.fr/Rules/P324> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements/a/P500028r> .
+<https://rdafr.fr/Rules/P324> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules/P324> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100004> .
+<https://rdafr.fr/Rules/P324> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements/c/C100002> .
+<https://rdafr.fr/Rules/P325> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P325> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/a/P500029r> .
+<https://rdafr.fr/Rules/P325> <http://www.w3.org/ns/shacl#name> "est élève de [dans la relation]"@fr .
+<https://rdafr.fr/Rules/P325> <http://www.w3.org/ns/shacl#description> "Personne qui reçoit l’enseignement d’une autre personne. S’applique dans tous les domaines, y compris les domaines artistiques."@fr .
+<https://rdafr.fr/Rules/P325> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements/c/C100002> .
+<https://rdafr.fr/Rules/P325> <http://www.w3.org/2002/07/owl#inverseOf> <https://rdafr.fr/Elements/a/P500029ri> .
+<https://rdafr.fr/Rules/P325> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements/a/P500028r> .
+<https://rdafr.fr/Rules/P325> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules/P325> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100004> .
+<https://rdafr.fr/Rules/P325> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements/c/C100002> .
+<https://rdafr.fr/Rules/P326> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P326> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/a/P500034r> .
+<https://rdafr.fr/Rules/P326> <http://www.w3.org/ns/shacl#name> "influence [dans la relation]"@fr .
+<https://rdafr.fr/Rules/P326> <http://www.w3.org/ns/shacl#description> "Relation établie en dehors du périmètre de la relation d’enseignement. S’applique dans les domaines intellectuels et artistiques."@fr .
+<https://rdafr.fr/Rules/P326> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements/c/C100002> .
+<https://rdafr.fr/Rules/P326> <http://www.w3.org/2002/07/owl#inverseOf> <https://rdafr.fr/Elements/a/P500034ri> .
+<https://rdafr.fr/Rules/P326> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements/a/P500028r> .
+<https://rdafr.fr/Rules/P326> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules/P326> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100004> .
+<https://rdafr.fr/Rules/P326> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements/c/C100002> .
+<https://rdafr.fr/Rules/P327> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P327> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/a/P500034ri> .
+<https://rdafr.fr/Rules/P327> <http://www.w3.org/ns/shacl#name> "est influencé ou influencée par [dans la relation]"@fr .
+<https://rdafr.fr/Rules/P327> <http://www.w3.org/ns/shacl#description> "Relation établie en dehors du périmètre de la relation d’enseignement. S’applique dans les domaines intellectuels et artistiques."@fr .
+<https://rdafr.fr/Rules/P327> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements/c/C100002> .
+<https://rdafr.fr/Rules/P327> <http://www.w3.org/2002/07/owl#inverseOf> <https://rdafr.fr/Elements/a/P500034r> .
+<https://rdafr.fr/Rules/P327> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements/a/P500028r> .
+<https://rdafr.fr/Rules/P327> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules/P327> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100004> .
+<https://rdafr.fr/Rules/P327> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements/c/C100002> .
+<https://rdafr.fr/Rules/P328> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P328> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/a/P500038r> .
+<https://rdafr.fr/Rules/P328> <http://www.w3.org/ns/shacl#name> "commande des œuvres à [dans la relation]"@fr .
+<https://rdafr.fr/Rules/P328> <http://www.w3.org/ns/shacl#description> "Personne ou autorité qui enjoint à un artiste de réaliser une œuvre ou l’y encourage."@fr .
+<https://rdafr.fr/Rules/P328> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements/c/C100002> .
+<https://rdafr.fr/Rules/P328> <http://www.w3.org/2002/07/owl#inverseOf> <https://rdafr.fr/Elements/a/P500038ri> .
+<https://rdafr.fr/Rules/P328> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements/a/P500028r> .
+<https://rdafr.fr/Rules/P328> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules/P328> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100004> .
+<https://rdafr.fr/Rules/P328> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements/c/C100002> .
+<https://rdafr.fr/Rules/P329> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P329> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/a/P500038ri> .
+<https://rdafr.fr/Rules/P329> <http://www.w3.org/ns/shacl#name> "reçoit des commandes de [dans la relation]"@fr .
+<https://rdafr.fr/Rules/P329> <http://www.w3.org/ns/shacl#description> "Artiste à qui il est enjoint par une personne ou une autorité de réaliser une œuvre ou qui y est encouragé."@fr .
+<https://rdafr.fr/Rules/P329> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements/c/C100002> .
+<https://rdafr.fr/Rules/P329> <http://www.w3.org/2002/07/owl#inverseOf> <https://rdafr.fr/Elements/a/P500038r> .
+<https://rdafr.fr/Rules/P329> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements/a/P500028r> .
+<https://rdafr.fr/Rules/P329> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules/P329> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100004> .
+<https://rdafr.fr/Rules/P329> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements/c/C100002> .
+<https://rdafr.fr/Rules/P330> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P330> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/a/P500042r> .
+<https://rdafr.fr/Rules/P330> <http://www.w3.org/ns/shacl#name> "est mécène de [dans la relation]"@fr .
+<https://rdafr.fr/Rules/P330> <http://www.w3.org/ns/shacl#description> "Personne qui rétribue un artiste pour réaliser une ou plusieurs œuvres."@fr .
+<https://rdafr.fr/Rules/P330> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements/c/C100002> .
+<https://rdafr.fr/Rules/P330> <http://www.w3.org/2002/07/owl#inverseOf> <https://rdafr.fr/Elements/a/P500042ri> .
+<https://rdafr.fr/Rules/P330> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements/a/P500028r> .
+<https://rdafr.fr/Rules/P330> <http://www.w3.org/2004/02/skos/core#editorialNote> "Pour les sous-groupes TB : Revoir la définition de \"mécénat\" avec le sous-groupe Collectivités"@fr .
+<https://rdafr.fr/Rules/P330> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules/P330> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100004> .
+<https://rdafr.fr/Rules/P330> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements/c/C100002> .
+<https://rdafr.fr/Rules/P331> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P331> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/a/P500042ri> .
+<https://rdafr.fr/Rules/P331> <http://www.w3.org/ns/shacl#name> "a pour mécène [dans la relation]"@fr .
+<https://rdafr.fr/Rules/P331> <http://www.w3.org/ns/shacl#description> "Artiste qui est rétribué par une personne ou une autorité pour réaliser une ou plusieurs œuvres."@fr .
+<https://rdafr.fr/Rules/P331> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements/c/C100002> .
+<https://rdafr.fr/Rules/P331> <http://www.w3.org/2002/07/owl#inverseOf> <https://rdafr.fr/Elements/a/P500042r> .
+<https://rdafr.fr/Rules/P331> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements/a/P500028r> .
+<https://rdafr.fr/Rules/P331> <http://www.w3.org/2004/02/skos/core#editorialNote> "Pour les sous-groupes TB : Revoir la définition de \"mécénat\" avec le sous-groupe Collectivités"@fr .
+<https://rdafr.fr/Rules/P331> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules/P331> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100004> .
+<https://rdafr.fr/Rules/P331> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements/c/C100002> .
+<https://rdafr.fr/Rules/P332> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P332> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/a/P500046r> .
+<https://rdafr.fr/Rules/P332> <http://www.w3.org/ns/shacl#name> "a pour associé ou associée [dans la relation]"@fr .
+<https://rdafr.fr/Rules/P332> <http://www.w3.org/ns/shacl#description> "Personne travaillant avec une autre personne à un projet commun, dans la sphère professionnelle ou commerciale."@fr .
+<https://rdafr.fr/Rules/P332> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements/c/C100002> .
+<https://rdafr.fr/Rules/P332> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements/a/P500028r> .
+<https://rdafr.fr/Rules/P332> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules/P332> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100004> .
+<https://rdafr.fr/Rules/P332> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements/c/C100002> .
+<https://rdafr.fr/Rules/P333> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P333> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/a/P500047r> .
+<https://rdafr.fr/Rules/P333> <http://www.w3.org/ns/shacl#name> "a une relation familiale avec [dans la relation]"@fr .
+<https://rdafr.fr/Rules/P333> <http://www.w3.org/ns/shacl#description> "Catégorie de relation regroupant des relations entre membres de la même famille"@fr .
+<https://rdafr.fr/Rules/P333> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements/c/C100004> .
+<https://rdafr.fr/Rules/P333> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements/x/P100001r> .
+<https://rdafr.fr/Rules/P333> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements/c/C100004> .
+<https://rdafr.fr/Rules/P334> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P334> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/a/P500048r> .
+<https://rdafr.fr/Rules/P334> <http://www.w3.org/ns/shacl#name> "descend de [dans la relation]"@fr .
+<https://rdafr.fr/Rules/P334> <http://www.w3.org/ns/shacl#description> "Personne qui descend familialement d’une autre personne."@fr .
+<https://rdafr.fr/Rules/P334> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements/c/C100004> .
+<https://rdafr.fr/Rules/P334> <http://www.w3.org/2002/07/owl#inverseOf> <https://rdafr.fr/Elements/a/P500048ri> .
+<https://rdafr.fr/Rules/P334> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements/a/P500047r> .
+<https://rdafr.fr/Rules/P334> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules/P334> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100004> .
+<https://rdafr.fr/Rules/P334> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements/c/C100004> .
+<https://rdafr.fr/Rules/P335> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P335> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/a/P500048ri> .
+<https://rdafr.fr/Rules/P335> <http://www.w3.org/ns/shacl#name> "a pour descendant ou descendante [dans la relation]"@fr .
+<https://rdafr.fr/Rules/P335> <http://www.w3.org/ns/shacl#description> "Personne qui est l’ancêtre d’une autre personne."@fr .
+<https://rdafr.fr/Rules/P335> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements/c/C100004> .
+<https://rdafr.fr/Rules/P335> <http://www.w3.org/2002/07/owl#inverseOf> <https://rdafr.fr/Elements/a/P500048r> .
+<https://rdafr.fr/Rules/P335> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements/a/P500047r> .
+<https://rdafr.fr/Rules/P335> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules/P335> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100004> .
+<https://rdafr.fr/Rules/P335> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements/c/C100004> .
+<https://rdafr.fr/Rules/P336> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P336> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/a/P500052r> .
+<https://rdafr.fr/Rules/P336> <http://www.w3.org/ns/shacl#name> "est le parent de [dans la relation]"@fr .
+<https://rdafr.fr/Rules/P336> <http://www.w3.org/ns/shacl#description> "Relation entre une personne et son enfant, à l’exclusion de toute autre relation de parenté."@fr .
+<https://rdafr.fr/Rules/P336> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements/c/C100004> .
+<https://rdafr.fr/Rules/P336> <http://www.w3.org/2002/07/owl#inverseOf> <https://rdafr.fr/Elements/a/P500052ri> .
+<https://rdafr.fr/Rules/P336> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements/a/P500047r> .
+<https://rdafr.fr/Rules/P336> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules/P336> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100004> .
+<https://rdafr.fr/Rules/P336> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements/c/C100004> .
+<https://rdafr.fr/Rules/P337> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P337> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/a/P500052ri> .
+<https://rdafr.fr/Rules/P337> <http://www.w3.org/ns/shacl#name> "est l’enfant de [dans la relation]"@fr .
+<https://rdafr.fr/Rules/P337> <http://www.w3.org/ns/shacl#description> "Personne qui est le fils ou la fille d’une autre personne."@fr .
+<https://rdafr.fr/Rules/P337> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements/c/C100004> .
+<https://rdafr.fr/Rules/P337> <http://www.w3.org/2002/07/owl#inverseOf> <https://rdafr.fr/Elements/a/P500052r> .
+<https://rdafr.fr/Rules/P337> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements/a/P500047r> .
+<https://rdafr.fr/Rules/P337> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules/P337> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100004> .
+<https://rdafr.fr/Rules/P337> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements/c/C100004> .
+<https://rdafr.fr/Rules/P338> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P338> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/a/P500056r> .
+<https://rdafr.fr/Rules/P338> <http://www.w3.org/ns/shacl#name> "est la sœur ou le frère de [dans la relation]"@fr .
+<https://rdafr.fr/Rules/P338> <http://www.w3.org/ns/shacl#description> "Personne qui a des parents ou un des parents communs avec une autre personne."@fr .
+<https://rdafr.fr/Rules/P338> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements/c/C100004> .
+<https://rdafr.fr/Rules/P338> <http://www.w3.org/2002/07/owl#inverseOf> <https://rdafr.fr/Elements/a/P500056ri> .
+<https://rdafr.fr/Rules/P338> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements/a/P500047r> .
+<https://rdafr.fr/Rules/P338> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules/P338> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100004> .
+<https://rdafr.fr/Rules/P338> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements/c/C100004> .
+<https://rdafr.fr/Rules/P339> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P339> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/a/P500056ri> .
+<https://rdafr.fr/Rules/P339> <http://www.w3.org/ns/shacl#name> "est la conjointe ou le conjoint de [dans la relation]"@fr .
+<https://rdafr.fr/Rules/P339> <http://www.w3.org/ns/shacl#description> "Relation qui s’entend dans une acception large (mariage, concubinage, union civile…)."@fr .
+<https://rdafr.fr/Rules/P339> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements/c/C100004> .
+<https://rdafr.fr/Rules/P339> <http://www.w3.org/2002/07/owl#inverseOf> <https://rdafr.fr/Elements/a/P500056r> .
+<https://rdafr.fr/Rules/P339> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements/a/P500047r> .
+<https://rdafr.fr/Rules/P339> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules/P339> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100004> .
+<https://rdafr.fr/Rules/P339> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements/c/C100004> .
+<https://rdafr.fr/Rules/P340> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P340> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/a/P500060r> .
+<https://rdafr.fr/Rules/P340> <http://www.w3.org/ns/shacl#name> "est à distinguer de personne [dans la relation]"@fr .
+<https://rdafr.fr/Rules/P340> <http://www.w3.org/ns/shacl#description> "Relation de non équivalence alertant sur les risques de confusion existant avec des personnes homonymes."@fr .
+<https://rdafr.fr/Rules/P340> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements/c/C100004> .
+<https://rdafr.fr/Rules/P340> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements/x/P100001r> .
+<https://rdafr.fr/Rules/P340> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules/P340> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100004> .
+<https://rdafr.fr/Rules/P340> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements/c/C100004> .
+<https://rdafr.fr/Rules/P704> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P704> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/x/P100003u> .
+<https://rdafr.fr/Rules/P704> <http://www.w3.org/ns/shacl#name> "a pour source [uri]"@fr .
+<https://rdafr.fr/Rules/P704> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements/c/C100013> .
+<https://rdafr.fr/Rules/P704> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/Rules/P704> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules/P704> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100015> .
+<https://rdafr.fr/Rules/P704> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements/c/C100013> .
+<https://rdafr.fr/Elements/c/C100015> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P704> .
+<https://rdafr.fr/Elements/c/C100015> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P705> .
+<https://rdafr.fr/Elements/c/C100015> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P706> .
+<https://rdafr.fr/Elements/c/C100015> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P707> .
+<https://rdafr.fr/Elements/c/C100015> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P708> .
+<https://rdafr.fr/Elements/c/C100015> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P709> .
+<https://rdafr.fr/Elements/c/C100015> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P710> .
+<https://rdafr.fr/Elements/c/C100015> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P711> .
+<https://rdafr.fr/Elements/c/C100015> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P712> .
+<https://rdafr.fr/Elements/c/C100015> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P713> .
+<https://rdafr.fr/Elements/c/C100015> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P714> .
+<https://rdafr.fr/Elements/c/C100015> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P715> .
+<https://rdafr.fr/Elements/c/C100015> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P716> .
+<https://rdafr.fr/Elements/c/C100015> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P717> .
+<https://rdafr.fr/Elements/c/C100015> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P718> .
+<https://rdafr.fr/Elements/c/C100015> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P719> .
+<https://rdafr.fr/Elements/c/C100015> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P720> .
+<https://rdafr.fr/Elements/c/C100015> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P721> .
+<https://rdafr.fr/Elements/c/C100015> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P722> .
+<https://rdafr.fr/Rules/P705> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P705> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/x/P100003t> .
+<https://rdafr.fr/Rules/P705> <http://www.w3.org/ns/shacl#name> "a pour source [texte]"@fr .
+<https://rdafr.fr/Rules/P705> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<https://rdafr.fr/Rules/P705> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/Rules/P705> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://rdafr.fr/Rules/P705> <http://www.w3.org/ns/shacl#class> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<https://rdafr.fr/Rules/P705> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100015> .
+<https://rdafr.fr/Rules/P705> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<https://rdafr.fr/Rules/P706> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P706> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/x/P100005> .
+<https://rdafr.fr/Rules/P706> <http://www.w3.org/ns/shacl#name> "a pour niveau de fiabilité"@fr .
+<https://rdafr.fr/Rules/P706> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/termList/NiveauFiabilite> .
+<https://rdafr.fr/Rules/P706> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules/P706> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100015> .
+<https://rdafr.fr/Rules/P706> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/termList/NiveauFiabilite> .
+<https://rdafr.fr/Rules/P707> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P707> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/x/P100006> .
+<https://rdafr.fr/Rules/P707> <http://www.w3.org/ns/shacl#name> "a un caractère confidentiel"@fr .
+<https://rdafr.fr/Rules/P707> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://rdafr.fr/Rules/P707> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://rdafr.fr/Rules/P707> <http://www.w3.org/ns/shacl#class> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://rdafr.fr/Rules/P707> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2001/XMLSchema#boolean> .
+<https://rdafr.fr/Rules/P708> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P708> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/x/P100002> .
+<https://rdafr.fr/Rules/P708> <http://www.w3.org/ns/shacl#name> "a pour laps de temps"@fr .
+<https://rdafr.fr/Rules/P708> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements/c/C100010> .
+<https://rdafr.fr/Rules/P708> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules/P708> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100015> .
+<https://rdafr.fr/Rules/P708> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements/c/C100010> .
+<https://rdafr.fr/Rules/P709> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P709> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/u/P600001> .
+<https://rdafr.fr/Rules/P709> <http://www.w3.org/ns/shacl#name> "est l'identité publique de personne de"@fr .
+<https://rdafr.fr/Rules/P709> <http://www.w3.org/ns/shacl#description> "Personne utilisant cette identité publique"@en .
+<https://rdafr.fr/Rules/P709> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements/c/C100004> .
+<https://rdafr.fr/Rules/P709> <http://www.w3.org/2002/07/owl#inverseOf> <https://rdafr.fr/Elements/a/P500027> .
+<https://rdafr.fr/Rules/P709> <http://www.w3.org/2004/02/skos/core#editorialNote> "Pour sous-groupe TB Personnes : Attention à la compatibilité entre les définitions retenues ici pour l'ontologie et celles du code (pour la future publication du code sous forme de site web,où les définitions du glossaire, conformes aux définitions dans l'ontologie, feront référence)."@fr .
+<https://rdafr.fr/Rules/P709> <http://www.w3.org/ns/shacl#minCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/Rules/P709> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/Rules/P709> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules/P709> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100015> .
+<https://rdafr.fr/Rules/P709> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements/c/C100004> .
+<https://rdafr.fr/Rules/P710> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P710> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/u/P600002> .
+<https://rdafr.fr/Rules/P710> <http://www.w3.org/ns/shacl#name> "a pour catégorie d'identité publique de personne"@fr .
+<https://rdafr.fr/Rules/P710> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "9.1.1" .
+<https://rdafr.fr/Rules/P710> <http://www.w3.org/ns/shacl#description> "Précision de la nature du nom sur lequel est fondée l'identité publique de la personne."@en .
+<https://rdafr.fr/Rules/P710> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/termList/CategorieIdentitePublique> .
+<https://rdafr.fr/Rules/P710> <http://www.w3.org/2004/02/skos/core#editorialNote> "oui / fait : Pour Jean : Vérifier si le référentiel qu'on a proposé dans le tableau des Vocabulaires contrôlés est déclaré, avec les URIs, etc., dans l'ontologie"@fr .
+<https://rdafr.fr/Rules/P710> <http://www.w3.org/ns/shacl#minCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/Rules/P710> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/Rules/P710> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules/P710> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100015> .
+<https://rdafr.fr/Rules/P710> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/termList/CategorieIdentitePublique> .
+<https://rdafr.fr/Rules/P711> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P711> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/u/P600003> .
+<https://rdafr.fr/Rules/P711> <http://www.w3.org/ns/shacl#name> "a pour nom de l'identité publique de personne"@fr .
+<https://rdafr.fr/Rules/P711> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "9.2.1" .
+<https://rdafr.fr/Rules/P711> <http://www.w3.org/ns/shacl#description> "Un nom utilisé pour désigner l'identité publique de la personne"@en .
+<https://rdafr.fr/Rules/P711> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements/c/C100012> .
+<https://rdafr.fr/Rules/P711> <http://www.w3.org/2002/07/owl#inverseOf> "est un nom de l'identité publique de personne" .
+<https://rdafr.fr/Rules/P711> <http://www.w3.org/ns/shacl#minCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/Rules/P711> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules/P711> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100015> .
+<https://rdafr.fr/Rules/P711> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements/c/C100012> .
+<https://rdafr.fr/Rules/P712> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P712> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/u/P600004> .
+<https://rdafr.fr/Rules/P712> <http://www.w3.org/ns/shacl#name> "a pour nom privilégié de l'identité publique de personne"@fr .
+<https://rdafr.fr/Rules/P712> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "9.2.1.1" .
+<https://rdafr.fr/Rules/P712> <http://www.w3.org/ns/shacl#description> "Le nom privilégié de l’identité publique est le nom ou la forme de nom choisie pour servir d’élément de base du point d’accès autorisé représentant cette personne."@en .
+<https://rdafr.fr/Rules/P712> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements/c/C100012> .
+<https://rdafr.fr/Rules/P712> <http://www.w3.org/2002/07/owl#inverseOf> "est le nom privilégié de l'identité publique de personne" .
+<https://rdafr.fr/Rules/P712> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements/u/P600003> .
+<https://rdafr.fr/Rules/P712> <http://www.w3.org/ns/shacl#minCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/Rules/P712> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/Rules/P712> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules/P712> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100015> .
+<https://rdafr.fr/Rules/P712> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements/c/C100012> .
+<https://rdafr.fr/Rules/P713> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P713> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/u/P600005> .
+<https://rdafr.fr/Rules/P713> <http://www.w3.org/ns/shacl#name> "a pour nom privilégié supplémentaire de l'identité publique de personne"@fr .
+<https://rdafr.fr/Rules/P713> <http://www.w3.org/ns/shacl#description> "Le nom privilégié supplémentaire est une forme du nom privilégié dans une autre langue et/ou écriture également choisi pour représenter une identité publique."@en .
+<https://rdafr.fr/Rules/P713> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements/c/C100012> .
+<https://rdafr.fr/Rules/P713> <http://www.w3.org/2002/07/owl#inverseOf> "est un nom privilégié supplémentaire de l'identité publique de personne" .
+<https://rdafr.fr/Rules/P713> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements/u/P600003> .
+<https://rdafr.fr/Rules/P713> <http://www.w3.org/2004/02/skos/core#editorialNote> "Pour le sous-groupe TB Personnes : Relire et valider la définition ci-contre et l'intégrer dans le code. \n(Pour information et inspiration, définition dans chapitre 5 : \"Autre forme du titre privilégié dans une langue ou une écriture différente et qui peut se substituer à celui-ci selon le contexte ou les utilisateurs visés. Un titre privilégié supplémentaire peut être retenu en point d’accès autorisé dans un catalogue.\"\n\nPour info, définition dans chp11 : Le nom privilégié supplémentaire d'une collectivité est une forme du nom privilégié de celle-ci dans une autre langue et/ou écriture également choisie pour représenter la collectivité, voir RDA-FR 8.1.3. Les noms privilégiés supplémentaires de collectivité servent de base pour l'établissement des points d'accès autorisés supplémentaires, voir RDA-FR 11.15.3 Point d'accès supplémentaire représentent une collectivité.)"@fr .
+<https://rdafr.fr/Rules/P713> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules/P713> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100015> .
+<https://rdafr.fr/Rules/P713> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements/c/C100012> .
+<https://rdafr.fr/Rules/P714> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P714> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/u/P600006> .
+<https://rdafr.fr/Rules/P714> <http://www.w3.org/ns/shacl#name> "a pour variante de nom de l'identité publique de personne"@fr .
+<https://rdafr.fr/Rules/P714> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "9.2.1.2" .
+<https://rdafr.fr/Rules/P714> <http://www.w3.org/ns/shacl#description> "Une variante de nom de l’identité publique de la personne désigne un nom ou une forme de nom sous lequel cette identité publique est connue et qui diffère du nom ou de la forme de nom choisie comme nom privilégié ou comme nom privilégié supplémentaire."@en .
+<https://rdafr.fr/Rules/P714> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements/c/C100012> .
+<https://rdafr.fr/Rules/P714> <http://www.w3.org/2002/07/owl#inverseOf> "est une variante de nom de l'identité publique de personne" .
+<https://rdafr.fr/Rules/P714> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements/u/P600003> .
+<https://rdafr.fr/Rules/P714> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules/P714> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100015> .
+<https://rdafr.fr/Rules/P714> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements/c/C100012> .
+<https://rdafr.fr/Rules/P715> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P715> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/u/P600019> .
+<https://rdafr.fr/Rules/P715> <http://www.w3.org/ns/shacl#name> "a pour point d'accès représentant l'identité publique de personne"@fr .
+<https://rdafr.fr/Rules/P715> <http://www.w3.org/ns/shacl#description> "Un point d'accès représentant l'identité publique de la personne"@en .
+<https://rdafr.fr/Rules/P715> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements/c/C100012> .
+<https://rdafr.fr/Rules/P715> <http://www.w3.org/2002/07/owl#inverseOf> "est un point d'accès représentant la personne" .
+<https://rdafr.fr/Rules/P715> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements/u/P600003> .
+<https://rdafr.fr/Rules/P715> <http://www.w3.org/2004/02/skos/core#editorialNote> "Pour Jean : pour les noms (y compris les points d'accès) faut-il créer une propriété générique au niveau de Res \"a pour nomen\" et aussi, éventuellement, au niveau de l'IPP \"a pour nomen\" et les déclarer par la suite comme super-propriété des tous les spécifiques qui sont déclarés, notamment dans ce tableau : a pour nom, a pour point d'accès, a pour identifiant ? Pour Anila et Francoise : avant de décider pouvez vous me dire quelles classes utilisent Nomen ?\nRéponse : TOUTES les classes (il s'agit des appellations, voir le schéma générique de LRM), sauf pour les Personnes et Groupes informels, pour lesquels les appellations sont portées par l'Identité publique."@fr .
+<https://rdafr.fr/Rules/P715> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements/c/C100012> .
+<https://rdafr.fr/Rules/P716> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P716> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/u/P600007> .
+<https://rdafr.fr/Rules/P716> <http://www.w3.org/ns/shacl#name> "a pour point d'accès autorisé de l'identité publique de personne"@fr .
+<https://rdafr.fr/Rules/P716> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "9.4.2" .
+<https://rdafr.fr/Rules/P716> <http://www.w3.org/ns/shacl#description> "Le point d’accès autorisé représentant une identité publique, construit à partir du nom privilégié de l’identité publique utilisé comme élément de base"@en .
+<https://rdafr.fr/Rules/P716> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements/c/C100012> .
+<https://rdafr.fr/Rules/P716> <http://www.w3.org/2002/07/owl#inverseOf> "est le point d'accès autorisé de l'identité publique de personne" .
+<https://rdafr.fr/Rules/P716> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements/u/P600003> .
+<https://rdafr.fr/Rules/P716> <http://www.w3.org/ns/shacl#minCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/Rules/P716> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/Rules/P716> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules/P716> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100015> .
+<https://rdafr.fr/Rules/P716> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements/c/C100012> .
+<https://rdafr.fr/Rules/P717> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P717> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/u/P600008> .
+<https://rdafr.fr/Rules/P717> <http://www.w3.org/ns/shacl#name> "a pour point d'accès autorisé supplémentaire de l'identité publique de personne"@fr .
+<https://rdafr.fr/Rules/P717> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "9.4.3" .
+<https://rdafr.fr/Rules/P717> <http://www.w3.org/ns/shacl#description> "Un point d’accès représentant une identité publique, construit à partir d'un nom privilégié supplémentaire."@en .
+<https://rdafr.fr/Rules/P717> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements/c/C100012> .
+<https://rdafr.fr/Rules/P717> <http://www.w3.org/2002/07/owl#inverseOf> "est un point d'accès autorisé supplémentaire de l'identité publique de personne" .
+<https://rdafr.fr/Rules/P717> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements/u/P600003> .
+<https://rdafr.fr/Rules/P717> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules/P717> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100015> .
+<https://rdafr.fr/Rules/P717> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements/c/C100012> .
+<https://rdafr.fr/Rules/P718> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P718> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/u/P600009> .
+<https://rdafr.fr/Rules/P718> <http://www.w3.org/ns/shacl#name> "a pour variante de point d'accès de l'identité publique de personne"@fr .
+<https://rdafr.fr/Rules/P718> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "9.4.4" .
+<https://rdafr.fr/Rules/P718> <http://www.w3.org/ns/shacl#description> "Tout point d’accès représentant une identité publique, autre que le point d’accès autorisé ou le point d'accès autorisé supplémentaire."@en .
+<https://rdafr.fr/Rules/P718> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements/c/C100012> .
+<https://rdafr.fr/Rules/P718> <http://www.w3.org/2002/07/owl#inverseOf> "est une variante de point d'accès de l'identité publique de personne" .
+<https://rdafr.fr/Rules/P718> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements/u/P600003> .
+<https://rdafr.fr/Rules/P718> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules/P718> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100015> .
+<https://rdafr.fr/Rules/P718> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements/c/C100012> .
+<https://rdafr.fr/Rules/P719> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P719> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/u/P600010> .
+<https://rdafr.fr/Rules/P719> <http://www.w3.org/ns/shacl#name> "a pour autre terme associé à l'identité publique de personne"@fr .
+<https://rdafr.fr/Rules/P719> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "9.2.2" .
+<https://rdafr.fr/Rules/P719> <http://www.w3.org/ns/shacl#description> "Un autre terme associé à l’identité publique de la personne est un mot ou expression qui lui est associé, autre qu’un titre."@en .
+<https://rdafr.fr/Rules/P719> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements/c/C100012> .
+<https://rdafr.fr/Rules/P719> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements/u/P600003> .
+<https://rdafr.fr/Rules/P719> <http://www.w3.org/2004/02/skos/core#editorialNote> "Un autre terme associé à une identité publique de personne est un élément fondamental pour les saints, les esprits, les personnes citées dans les écritures sacrées et les textes apocryphes, les personnages mythologiques, fictifs ou légendaires et les entités non humaines"@fr .
+<https://rdafr.fr/Rules/P719> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/Rules/P719> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules/P719> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100015> .
+<https://rdafr.fr/Rules/P719> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements/c/C100012> .
+<https://rdafr.fr/Rules/P720> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P720> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/u/P600011> .
+<https://rdafr.fr/Rules/P720> <http://www.w3.org/ns/shacl#name> "a pour contexte d'utilisation de l'identité publique de personne"@fr .
+<https://rdafr.fr/Rules/P720> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "9.2.3" .
+<https://rdafr.fr/Rules/P720> <http://www.w3.org/ns/shacl#description> "Le contexte d’utilisation spécifie la forme ou le type d’oeuvre, le domaine d’activité, la fonction, etc., associés au nom choisi comme nom privilégié d’une identité publique."@en .
+<https://rdafr.fr/Rules/P720> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<https://rdafr.fr/Rules/P720> <http://www.w3.org/2004/02/skos/core#editorialNote> "Il est possible/probable qu'une personne puisse utiliser une identité publique dans plusieurs contextes (plusieurs domaines d'activité, par exemple) et une autre identité publique dans un(plusieurs) autre(s) contexte(s)."@fr .
+<https://rdafr.fr/Rules/P720> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://rdafr.fr/Rules/P720> <http://www.w3.org/ns/shacl#class> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<https://rdafr.fr/Rules/P720> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100015> .
+<https://rdafr.fr/Rules/P720> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/1999/02/22-rdf-syntax-ns#langString> .
+<https://rdafr.fr/Rules/P721> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P721> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/u/P600012> .
+<https://rdafr.fr/Rules/P721> <http://www.w3.org/ns/shacl#name> "a pour date d'utilisation de l'identité publique de personne"@fr .
+<https://rdafr.fr/Rules/P721> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "9.2.4" .
+<https://rdafr.fr/Rules/P721> <http://www.w3.org/ns/shacl#description> "Une date ou une fourchette de dates associée à l’utilisation d’une identité publique."@en .
+<https://rdafr.fr/Rules/P721> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements/c/C100010> .
+<https://rdafr.fr/Rules/P721> <http://www.w3.org/2002/07/owl#inverseOf> "est la date ou la fourchette de dates associée à l'utilisation de l'identité publique" .
+<https://rdafr.fr/Rules/P721> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements/x/P100008> .
+<https://rdafr.fr/Rules/P721> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/Rules/P721> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules/P721> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100015> .
+<https://rdafr.fr/Rules/P721> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements/c/C100010> .
+<https://rdafr.fr/Rules/P722> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P722> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/u/P600013> .
+<https://rdafr.fr/Rules/P722> <http://www.w3.org/ns/shacl#name> "a pour identifiant associé à l’identité publique de personne"@fr .
+<https://rdafr.fr/Rules/P722> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "9.2.5" .
+<https://rdafr.fr/Rules/P722> <http://www.w3.org/ns/shacl#description> "Un identifiant associé à l’identité publique est une chaîne de caractères ou de symboles qui lui est associée (par exemple un identifiant ISNI - International standard name identifier ).\nL’identifiant sert à distinguer une identité publique d’une autre. Il doit être unique et univoque pour un référentiel donné.\nDans le cas des personnes ayant plus d’une identité, chaque identité publique a son propre identifiant."@en .
+<https://rdafr.fr/Rules/P722> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements/c/C100012> .
+<https://rdafr.fr/Rules/P722> <http://www.w3.org/2002/07/owl#inverseOf> "est l'identifiant associée à l'identité publique de personne" .
+<https://rdafr.fr/Rules/P722> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements/u/P600003> .
+<https://rdafr.fr/Rules/P722> <http://www.w3.org/2004/02/skos/core#editorialNote> "A distinguer de l'Identifiant associé à la personne\nPropriété prioritairemenet utilisé pour identifiant ISNI\n\nPour Jean et le sous-groupe Personnes : voir cette propriété en lien avec la discussion sur l'intitulé de la classe Identité publique et son champ d'application. Voir les commentaires sur la classe Identité publique de personne (onglet Classes)+ le référentiel Catégorie d'identité publique (tableau des Vocabulaires contrôlés)"@fr .
+<https://rdafr.fr/Rules/P722> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules/P722> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100015> .
+<https://rdafr.fr/Rules/P722> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements/c/C100012> .
+<https://rdafr.fr/Rules/P804> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P804> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/n/P800002> .
+<https://rdafr.fr/Rules/P804> <http://www.w3.org/ns/shacl#name> "a pour chaîne du nomen"@fr .
+<https://rdafr.fr/Rules/P804> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://rdafr.fr/Rules/P804> <http://www.w3.org/ns/shacl#minCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/Rules/P804> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/Rules/P804> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
+<https://rdafr.fr/Rules/P804> <http://www.w3.org/ns/shacl#class> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://rdafr.fr/Rules/P804> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100012> .
+<https://rdafr.fr/Rules/P804> <http://www.w3.org/2000/01/rdf-schema#range> <http://www.w3.org/2000/01/rdf-schema#Literal> .
+<https://rdafr.fr/Elements/c/C100012> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P804> .
+<https://rdafr.fr/Elements/c/C100012> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P805> .
+<https://rdafr.fr/Elements/c/C100012> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P806> .
+<https://rdafr.fr/Elements/c/C100012> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P807> .
+<https://rdafr.fr/Elements/c/C100012> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P808> .
+<https://rdafr.fr/Elements/c/C100012> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P809> .
+<https://rdafr.fr/Elements/c/C100012> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P810> .
+<https://rdafr.fr/Elements/c/C100012> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules/P811> .
+<https://rdafr.fr/Rules/P805> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P805> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/n/P800003> .
+<https://rdafr.fr/Rules/P805> <http://www.w3.org/ns/shacl#name> "a pour schéma d'encodage"@fr .
+<https://rdafr.fr/Rules/P805> <http://www.w3.org/ns/shacl#description> "Le schéma d’encodage utilisé pour établir le nomen"@fr .
+<https://rdafr.fr/Rules/P805> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/termList/SchemaEncodage> .
+<https://rdafr.fr/Rules/P805> <http://www.w3.org/2004/02/skos/core#editorialNote> "L’attribut schéma d’encodage recouvre :\n- des schémas d’encodage de valeurs (listes de vedettes matière, thésaurus, classifications systématiques, listes d’autorité de noms, etc.) ;\n- et des schémas d’encodage syntaxiques (normes d’encodage des dates, etc.)."@fr .
+<https://rdafr.fr/Rules/P805> <http://www.w3.org/ns/shacl#minCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/Rules/P805> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/Rules/P805> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules/P805> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100012> .
+<https://rdafr.fr/Rules/P805> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/termList/SchemaEncodage> .
+<https://rdafr.fr/Rules/P806> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P806> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/n/P800004> .
+<https://rdafr.fr/Rules/P806> <http://www.w3.org/ns/shacl#name> "a pour langue"@fr .
+<https://rdafr.fr/Rules/P806> <http://www.w3.org/ns/shacl#description> "Langue dans laquelle le nomen est attesté"@fr .
+<https://rdafr.fr/Rules/P806> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/termList/Langue> .
+<https://rdafr.fr/Rules/P806> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/Rules/P806> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules/P806> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100012> .
+<https://rdafr.fr/Rules/P806> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/termList/Langue> .
+<https://rdafr.fr/Rules/P807> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P807> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/n/P800005> .
+<https://rdafr.fr/Rules/P807> <http://www.w3.org/ns/shacl#name> "a pour écriture"@fr .
+<https://rdafr.fr/Rules/P807> <http://www.w3.org/ns/shacl#description> "Écriture dans laquelle la chaîne du nomen est notée"@fr .
+<https://rdafr.fr/Rules/P807> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/termList/Ecriture> .
+<https://rdafr.fr/Rules/P807> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/Rules/P807> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules/P807> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100012> .
+<https://rdafr.fr/Rules/P807> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/termList/Ecriture> .
+<https://rdafr.fr/Rules/P808> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P808> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/n/P800006> .
+<https://rdafr.fr/Rules/P808> <http://www.w3.org/ns/shacl#name> "a pour système de conversion des écritures"@fr .
+<https://rdafr.fr/Rules/P808> <http://www.w3.org/ns/shacl#description> "La règle, le système ou la norme utilisée pour créer la chaîne du nomen d’un nomen dérivé à partir de la chaîne du nomen d’un autre nomen distinct quand celle-ci est notée dans une écriture différente"@fr .
+<https://rdafr.fr/Rules/P808> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/termList/SystemeConversion> .
+<https://rdafr.fr/Rules/P808> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/Rules/P808> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules/P808> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100012> .
+<https://rdafr.fr/Rules/P808> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/termList/SystemeConversion> .
+<https://rdafr.fr/Rules/P809> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P809> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/n/P800009> .
+<https://rdafr.fr/Rules/P809> <http://www.w3.org/ns/shacl#name> "a pour dates d'utilisation"@fr .
+<https://rdafr.fr/Rules/P809> <http://www.w3.org/ns/shacl#description> "Date ou une fourchette de dates associée à l’utilisation d'un nomen."@fr .
+<https://rdafr.fr/Rules/P809> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements/c/C100010> .
+<https://rdafr.fr/Rules/P809> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements/x/P100002> .
+<https://rdafr.fr/Rules/P809> <http://www.w3.org/2004/02/skos/core#editorialNote> "S'applique notamment aux lieux. Jean> voir stockage interval dans DateTime, faire réunion sur la gestion des dates"@fr .
+<https://rdafr.fr/Rules/P809> <http://www.w3.org/ns/shacl#minCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/Rules/P809> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/Rules/P809> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules/P809> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100012> .
+<https://rdafr.fr/Rules/P809> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements/c/C100010> .
+<https://rdafr.fr/Rules/P810> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P810> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/n/P800010> .
+<https://rdafr.fr/Rules/P810> <http://www.w3.org/ns/shacl#name> "a pour date d'attestation"@fr .
+<https://rdafr.fr/Rules/P810> <http://www.w3.org/ns/shacl#description> "Date d’une ressource mentionnant l'instance d'une entité sous une forme particulière de son nom. Elle est associée à la forme du nom trouvée dans cette source."@fr .
+<https://rdafr.fr/Rules/P810> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements/c/C100010> .
+<https://rdafr.fr/Rules/P810> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements/x/P100002> .
+<https://rdafr.fr/Rules/P810> <http://www.w3.org/2004/02/skos/core#editorialNote> "S'applique notamment aux lieux.\nLes dates d’attestation permettent de retracer l’évolution du nom et de sa graphie jusqu’à ce que celle-ci soit stabilisée et enregistrée dans des sources de référence."@fr .
+<https://rdafr.fr/Rules/P810> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/Rules/P810> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules/P810> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100012> .
+<https://rdafr.fr/Rules/P810> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements/c/C100010> .
+<https://rdafr.fr/Rules/P811> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Rules/P811> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements/n/P800010> .
+<https://rdafr.fr/Rules/P811> <http://www.w3.org/ns/shacl#name> "a pour catégorie"@fr .
+<https://rdafr.fr/Rules/P811> <http://www.w3.org/ns/shacl#description> "Type auquel le nomen appartient"@fr .
+<https://rdafr.fr/Rules/P811> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/termList/CategorieNomen> .
+<https://rdafr.fr/Rules/P811> <http://www.w3.org/2004/02/skos/core#editorialNote> "S'applique notamment aux identifiants (identifiant de l'instance décrite / identifiant des métadonnées décrivant l'instance) Jean : porté par la propriété"@fr .
+<https://rdafr.fr/Rules/P811> <http://www.w3.org/ns/shacl#minCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/Rules/P811> <http://www.w3.org/ns/shacl#maxCount> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/Rules/P811> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules/P811> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements/c/C100012> .
+<https://rdafr.fr/Rules/P811> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/termList/CategorieNomen> .
+<https://rdafr.fr/Regles#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://rdafr.fr/Regles#> <http://www.w3.org/2000/01/rdf-schema#label> "Profil d’application de l’ontologie RDA-FR"@fr .
+<https://rdafr.fr/Regles#> <http://purl.org/dc/terms/description> "Profil d’application de l’ontologie RDA-FR pour le code de catalogage RDA-FR"@fr .
+<https://rdafr.fr/Regles#> <http://www.w3.org/2000/01/rdf-schema#comment> "Version beta, partielle. Couvre la partie de l’ontologie RDA-FR relative aux classes : Agent, Agent collectif, Groupe informel, Personne, Identité publique."@fr .
+<https://rdafr.fr/Regles#> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1"@fr .
+<https://rdafr.fr/Regles#> <http://www.w3.org/2002/07/owl#versionIRI> <https://rdafr.fr/Rules#> .
+<https://rdafr.fr/Regles#> <http://purl.org/dc/terms/conformsTo> <https://www.w3.org/TR/shacl> .
+<https://rdafr.fr/Regles#> <http://purl.org/dc/terms/created> "2022-09-11"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://rdafr.fr/Regles#> <http://purl.org/dc/terms/issued> "2023-01-30"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://rdafr.fr/Regles#> <http://purl.org/dc/terms/modified> "2023-01-30T00:00:00.000Z"^^<http://www.w3.org/2001/XMLSchema#dateTime> .
+<https://rdafr.fr/Regles#> <http://purl.org/dc/terms/license> <https://www.etalab.gouv.fr/licence-ouverte-open-licence> .
+<https://rdafr.fr/Regles#> <http://purl.org/dc/terms/creator> "BnF, Abes" .
+<https://rdafr.fr/Regles#> <http://purl.org/dc/terms/publisher> "BnF, Abes" .
+<https://rdafr.fr/Regles#> <http://purl.org/dc/terms/rigthsHolder> "Bnf, Abes" .
+<https://rdafr.fr/Elements/c/C100001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://rdafr.fr/Elements/c/C100001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://rdafr.fr/Elements/c/C100001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://rdafr.fr/Elements/c/C100001> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Elements/c/C100001> <http://www.w3.org/2000/01/rdf-schema#label> "oeuvre"@fr .
+<https://rdafr.fr/Elements/c/C100001> <http://www.w3.org/2000/01/rdf-schema#comment> "Toute création intellectuelle ou artistique distincte, susceptible d’être identifiée et nommée de manière univoque dans un contexte bibliographique."@fr .
+<https://rdafr.fr/Elements/c/C100001> <http://www.w3.org/ns/shacl#description> "Source : Glossaire de RDA-FR, 2020"@fr .
+<https://rdafr.fr/Elements/c/C100001> <http://www.w3.org/2004/02/skos/core#notation> "w" .
+<https://rdafr.fr/Elements/c/C100001> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements/c/C100013> .
+<https://rdafr.fr/Elements/c/C100001> <http://www.w3.org/2002/07/owl#sameAs> "rdac:C10001" .
+<https://rdafr.fr/Elements/c/C100001> <https://rdafr.fr/AnnotationProperty/rdaRegistryUrl> <http://www.rdaregistry.info/Elements/c/#C10001> .
+<https://rdafr.fr/Elements/c/C100001> <http://www.w3.org/ns/shacl#order> "5"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/Elements/c/C100001> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Elements/c/C100001> <http://www.w3.org/ns/shacl#closed> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://rdafr.fr/Elements/c/C100001> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements/c/C100001> .
+<https://rdafr.fr/Elements/c/C100002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://rdafr.fr/Elements/c/C100002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://rdafr.fr/Elements/c/C100002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://rdafr.fr/Elements/c/C100002> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Elements/c/C100002> <http://www.w3.org/2000/01/rdf-schema#label> "agent"@fr .
+<https://rdafr.fr/Elements/c/C100002> <http://www.w3.org/2000/01/rdf-schema#comment> "Entité ayant la capacité d’agir et ayant un rapport avec des ressources qui font l’objet d’une description\ndocumentaire. Cela inclut les personnes ou les groupes."@fr .
+<https://rdafr.fr/Elements/c/C100002> <http://www.w3.org/ns/shacl#description> "Source : définition dans le chapitre 8 (version publiée en 2017, figurant aussi dans le Glossaire de RDA-FR de 2020).\n \nAttention : à la fin de cette définition il y avait une parenthèse de précision \"(familles, collectivités\"), supprimée ici.\n\nPour information, la définition de IFLA LRM est la suivante :\nUne entité à même d'agir de son propre chef, de se voir accorder des droits et d’être tenue pour responsable de ses actions"@fr .
+<https://rdafr.fr/Elements/c/C100002> <http://www.w3.org/2004/02/skos/core#notation> "a" .
+<https://rdafr.fr/Elements/c/C100002> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements/c/C100013> .
+<https://rdafr.fr/Elements/c/C100002> <http://www.w3.org/2002/07/owl#sameAs> "rdac:C10002" .
+<https://rdafr.fr/Elements/c/C100002> <https://rdafr.fr/AnnotationProperty/rdaRegistryUrl> <http://www.rdaregistry.info/Elements/c/#C10002> .
+<https://rdafr.fr/Elements/c/C100002> <http://www.w3.org/ns/shacl#order> "25"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/Elements/c/C100002> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Elements/c/C100002> <http://www.w3.org/ns/shacl#closed> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://rdafr.fr/Elements/c/C100002> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements/c/C100002> .
+<https://rdafr.fr/Elements/c/C100003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://rdafr.fr/Elements/c/C100003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://rdafr.fr/Elements/c/C100003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://rdafr.fr/Elements/c/C100003> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Elements/c/C100003> <http://www.w3.org/2000/01/rdf-schema#label> "item"@fr .
+<https://rdafr.fr/Elements/c/C100003> <http://www.w3.org/2000/01/rdf-schema#comment> "Un ou plusieurs objets portant des signes chargés de véhiculer un contenu intellectuel ou artistique.\nUn item exemplifie une manifestation et en reflète en principe toutes les caractéristiques."@fr .
+<https://rdafr.fr/Elements/c/C100003> <http://www.w3.org/ns/shacl#description> "Source : RDA-FR Section 1 chp1 (reprend et complète la définition de IFLA LRM)\nPas de définition dans le Glossaire RDA-FR de 2020\n\nItem (RDA-FR section 1 chp1) : un ou plusieurs objets portant des signes chargés de véhiculer un contenu intellectuel ou\nartistique. En termes de contenu intellectuel ou artistique et de présentation matérielle, un item exemplifie une manifestation et en reflète en principe toutes les caractéristiques. Il peut avoir en outre des caractéristiques singulières en fonction de son histoire.\nEn pratique, un item correspond à un exemplaire."@fr .
+<https://rdafr.fr/Elements/c/C100003> <http://www.w3.org/2004/02/skos/core#notation> "i" .
+<https://rdafr.fr/Elements/c/C100003> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements/c/C100013> .
+<https://rdafr.fr/Elements/c/C100003> <http://www.w3.org/2002/07/owl#sameAs> "rdac:C10003" .
+<https://rdafr.fr/Elements/c/C100003> <https://rdafr.fr/AnnotationProperty/rdaRegistryUrl> <http://www.rdaregistry.info/Elements/c/#C10003> .
+<https://rdafr.fr/Elements/c/C100003> <http://www.w3.org/ns/shacl#order> "20"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/Elements/c/C100003> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Elements/c/C100003> <http://www.w3.org/ns/shacl#closed> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://rdafr.fr/Elements/c/C100003> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements/c/C100003> .
+<https://rdafr.fr/Elements/c/C100004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://rdafr.fr/Elements/c/C100004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://rdafr.fr/Elements/c/C100004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://rdafr.fr/Elements/c/C100004> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Elements/c/C100004> <http://www.w3.org/2000/01/rdf-schema#label> "personne"@fr .
+<https://rdafr.fr/Elements/c/C100004> <http://www.w3.org/2000/01/rdf-schema#comment> "Agent identifié comme étant un individu existant ou ayant existé"@fr .
+<https://rdafr.fr/Elements/c/C100004> <http://www.w3.org/ns/shacl#description> "Définition remaniée par GT Ontologie\n\nPas de définition de Personne, à proprement parler, dans le chapitre 9\n\nIl y a une définition dans le chapitre 8 (version publiée en 2017). \nAttention, cette définition mélange les Personnes et leurs identités publiques :\nAgent identifié comme étant : \n- un individu existant ou ayant existé ; \n- une entité supposée avoir une responsabilité intellectuelle sur une ressource (par exemple : un esprit, un animal, etc.). Selon les besoins ou les pratiques de l’agence créant les données, pourront relever aussi de la catégorie personne les identités d'emprunt ou autres identités publiques adoptées par un individu, ainsi que les identités prises conjointement par plusieurs individus se faisant connaître comme un seul individu.\n\nDans le Glossaire RDA-FR de 2020 on trouve : \nEst considéré comme relevant de la catégorie personne un agent identifié comme étant un individu existant ou ayant existé.\nSelon les besoins ou les pratiques de l’agence créant les données, pourront relever aussi de la catégorie personne les identités d'emprunt ou autres identités publiques adoptées par un individu, ainsi que les identités prises conjointement par plusieurs individus se faisant connaître comme un seul individu. \n\n\n\nCommentaire : dans cette version de l'ontologie on pourrait supprimer la parenthèse tant qu'on n'est pas encore fixés sur le traitement des entités fictives, les animaux etc. \n\nPour information, la définition de IFLA LRM est la suivante :\nUn être humain en particulier \nNote d'application : L’entité personne est restreinte aux personnes réelles, existant ou étant présumées avoir existé. Il n’est pas nécessaire d’avoir des preuves formelles de l’existence d’une personne, du moment que sa véracité historique est globalement acceptée. En revanche, les figures généralement considérées comme fictives (par exemple, Kermit la grenouille), les personnages littéraires (par exemple, Miss Marple) ou purement légendaires (par exemple, Merlin l’enchanteur) ne sont pas des instances de l’entité personne."@fr .
+<https://rdafr.fr/Elements/c/C100004> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements/c/C100002> .
+<https://rdafr.fr/Elements/c/C100004> <http://www.w3.org/2002/07/owl#sameAs> "rdac:C10004" .
+<https://rdafr.fr/Elements/c/C100004> <https://rdafr.fr/AnnotationProperty/rdaRegistryUrl> <http://www.rdaregistry.info/Elements/c/#C10004> .
+<https://rdafr.fr/Elements/c/C100004> <http://www.w3.org/ns/shacl#order> "30"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/Elements/c/C100004> <http://www.w3.org/2004/02/skos/core#editorialNote> "Res ou Définir \"Entité RDA-FR\" comme l'a fait RDA de son côté ?\nVoir aussi s'il faut créer la classe Agent dans l'ontologie RDA-FR."@en .
+<https://rdafr.fr/Elements/c/C100004> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Elements/c/C100004> <http://www.w3.org/ns/shacl#closed> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://rdafr.fr/Elements/c/C100004> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements/c/C100004> .
+<https://rdafr.fr/Elements/c/C100005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://rdafr.fr/Elements/c/C100005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://rdafr.fr/Elements/c/C100005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://rdafr.fr/Elements/c/C100005> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Elements/c/C100005> <http://www.w3.org/2000/01/rdf-schema#label> "collectivité"@fr .
+<https://rdafr.fr/Elements/c/C100005> <http://www.w3.org/2000/01/rdf-schema#comment> "Agent identifié comme étant une organisation ou une partie d'organisation, ou un groupe de personnes et/ou d'organisations. Une collectivité n’est considérée comme telle que si elle est identifiée par un nom particulier et si elle agit, ou peut agir, comme une unité."@fr .
+<https://rdafr.fr/Elements/c/C100005> <http://www.w3.org/ns/shacl#description> "Définition issue du chapitre 11 - publié. Elle remplace la définition de collectivité dans le chapitre 8 et dans le Glossaire RDA-FR (transmise à Mélanie Roche)\n\nLa définition concise est étendue par :\nComprend :\n- les organisations ou les groupes qui sont actifs comme ceux dont l’activité a cessé, tels que les associations, les institutions, les entreprises, les sociétés sans but lucratif, les collectivités religieuses, les groupes confessionnels locaux identifiés par le nom d’une église, etc.\n- les entreprises unipersonnelles dont le nom se présente sous forme de nom de personne, par exemple les entreprises unipersonnelles à responsabilité limitée (EURL) et Société par Actions Simplifiée à associé Unique (SASU)\n- les groupes d’interprètes (musicaux…)\n- les groupes d’artistes visuels et les compagnies de danse produisant une œuvre collective, \n- les collectivités qui ont ou revendiquent une autorité sur un territoire déterminé, telles qu’une fédération, un état, un gouvernement (voir la définition de Collectivité territoriale,\n- les groupes constitués dans le cadre d’un projet, d’une mission ou d’un programme, \n-les équipages de navires, véhicules spatiaux…, \n- les groupes occasionnels et les groupes constitués à l’occasion d’événements ponctuels, tels que rencontres, conférences, congrès, expéditions, compétitions sportives, groupes projets, expositions, festivals, foires, etc. (voir la définition de Groupe occasionnel)"@fr .
+<https://rdafr.fr/Elements/c/C100005> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements/c/C100011> .
+<https://rdafr.fr/Elements/c/C100005> <http://www.w3.org/2002/07/owl#sameAs> "rdac:C10005" .
+<https://rdafr.fr/Elements/c/C100005> <https://rdafr.fr/AnnotationProperty/rdaRegistryUrl> <http://www.rdaregistry.info/Elements/c/#C10005> .
+<https://rdafr.fr/Elements/c/C100005> <http://www.w3.org/ns/shacl#order> "45"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/Elements/c/C100005> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Elements/c/C100005> <http://www.w3.org/ns/shacl#closed> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://rdafr.fr/Elements/c/C100005> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements/c/C100005> .
+<https://rdafr.fr/Elements/c/C100006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://rdafr.fr/Elements/c/C100006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://rdafr.fr/Elements/c/C100006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://rdafr.fr/Elements/c/C100006> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Elements/c/C100006> <http://www.w3.org/2000/01/rdf-schema#label> "expression"@fr .
+<https://rdafr.fr/Elements/c/C100006> <http://www.w3.org/2000/01/rdf-schema#comment> "Réalisation d’une œuvre sous la forme d’une notation (alphanumérique, musicale ou chorégraphique), de son, d’image, d’objet, de mouvement, etc. ou de toute combinaison de ces formes."@fr .
+<https://rdafr.fr/Elements/c/C100006> <http://www.w3.org/ns/shacl#description> "Source: Glossaire RDA-FR"@fr .
+<https://rdafr.fr/Elements/c/C100006> <http://www.w3.org/2004/02/skos/core#notation> "e" .
+<https://rdafr.fr/Elements/c/C100006> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements/c/C100013> .
+<https://rdafr.fr/Elements/c/C100006> <http://www.w3.org/2002/07/owl#sameAs> "rdac:C10006" .
+<https://rdafr.fr/Elements/c/C100006> <https://rdafr.fr/AnnotationProperty/rdaRegistryUrl> <http://www.rdaregistry.info/Elements/c/#C10006> .
+<https://rdafr.fr/Elements/c/C100006> <http://www.w3.org/ns/shacl#order> "10"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/Elements/c/C100006> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Elements/c/C100006> <http://www.w3.org/ns/shacl#closed> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://rdafr.fr/Elements/c/C100006> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements/c/C100006> .
+<https://rdafr.fr/Elements/c/C100007> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://rdafr.fr/Elements/c/C100007> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://rdafr.fr/Elements/c/C100007> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://rdafr.fr/Elements/c/C100007> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Elements/c/C100007> <http://www.w3.org/2000/01/rdf-schema#label> "manifestation"@fr .
+<https://rdafr.fr/Elements/c/C100007> <http://www.w3.org/2000/01/rdf-schema#comment> "L’ensemble de tous les supports qui sont présumés partager les mêmes caractéristiques relatives tant au contenu intellectuel ou artistique qu’aux aspects de présentation matérielle. Cet ensemble est défini à la fois par son contenu global et par le plan de production pour son (ou ses) support(s)."@fr .
+<https://rdafr.fr/Elements/c/C100007> <http://www.w3.org/ns/shacl#description> "Source : RDA-FR, section 1 chp1, conforme à IFLA LRM\n\nPas de définition dans le Glossaire de RDA-FR, 2020"@fr .
+<https://rdafr.fr/Elements/c/C100007> <http://www.w3.org/2004/02/skos/core#notation> "m" .
+<https://rdafr.fr/Elements/c/C100007> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements/c/C100013> .
+<https://rdafr.fr/Elements/c/C100007> <http://www.w3.org/2002/07/owl#sameAs> "rdac:C10007" .
+<https://rdafr.fr/Elements/c/C100007> <https://rdafr.fr/AnnotationProperty/rdaRegistryUrl> <http://www.rdaregistry.info/Elements/c/#C10007> .
+<https://rdafr.fr/Elements/c/C100007> <http://www.w3.org/ns/shacl#order> "15"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/Elements/c/C100007> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Elements/c/C100007> <http://www.w3.org/ns/shacl#closed> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://rdafr.fr/Elements/c/C100007> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements/c/C100007> .
+<https://rdafr.fr/Elements/c/C100008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://rdafr.fr/Elements/c/C100008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://rdafr.fr/Elements/c/C100008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://rdafr.fr/Elements/c/C100008> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Elements/c/C100008> <http://www.w3.org/2000/01/rdf-schema#label> "famille"@fr .
+<https://rdafr.fr/Elements/c/C100008> <http://www.w3.org/2000/01/rdf-schema#comment> "Est considéré comme relevant de la catégorie famille un ensemble de personnes liées par la naissance,\nle mariage, l'adoption, l'union civile ou tout autre statut légal du même ordre, ou un ensemble de\npersonnes qui se présentent elles-mêmes comme une famille."@fr .
+<https://rdafr.fr/Elements/c/C100008> <http://www.w3.org/ns/shacl#description> "Source Glossaire RDA-FR, 2020\nCorrespond à la définition dans le chapitre 8 (version publiée en 2017). C'est la partie concise de la définition. Elle est étendue par :\n\nCela comprend :\n les groupes d'individus issus du même lignage (notamment les familles royales, les dynasties) ;\n- les lignées patriarcales et/ou matriarcales ;\n- les unités familiales (parents, enfants, etc.) ;\n- les maisons nobiliaires ;\n- l'ensemble des détenteurs successifs d'un titre dans une maison nobiliaire."@fr .
+<https://rdafr.fr/Elements/c/C100008> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements/c/C100011> .
+<https://rdafr.fr/Elements/c/C100008> <http://www.w3.org/2002/07/owl#sameAs> "rdac:C10008" .
+<https://rdafr.fr/Elements/c/C100008> <https://rdafr.fr/AnnotationProperty/rdaRegistryUrl> <http://www.rdaregistry.info/Elements/c/#C10008> .
+<https://rdafr.fr/Elements/c/C100008> <http://www.w3.org/ns/shacl#order> "50"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/Elements/c/C100008> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Elements/c/C100008> <http://www.w3.org/ns/shacl#closed> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://rdafr.fr/Elements/c/C100008> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements/c/C100008> .
+<https://rdafr.fr/Elements/c/C100009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://rdafr.fr/Elements/c/C100009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://rdafr.fr/Elements/c/C100009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://rdafr.fr/Elements/c/C100009> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Elements/c/C100009> <http://www.w3.org/2000/01/rdf-schema#label> "lieu"@fr .
+<https://rdafr.fr/Elements/c/C100009> <http://www.w3.org/2000/01/rdf-schema#comment> "Portion d’espace réel. Un lieu est déterminé par des coordonnées géographiques et pourvu d’un nom"@fr .
+<https://rdafr.fr/Elements/c/C100009> <http://www.w3.org/ns/shacl#description> "Source : définition issue du chapitre 12, en cours de finalisation"@fr .
+<https://rdafr.fr/Elements/c/C100009> <http://www.w3.org/2004/02/skos/core#notation> "p" .
+<https://rdafr.fr/Elements/c/C100009> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements/c/C100013> .
+<https://rdafr.fr/Elements/c/C100009> <http://www.w3.org/2002/07/owl#sameAs> "rdac:C10009" .
+<https://rdafr.fr/Elements/c/C100009> <https://rdafr.fr/AnnotationProperty/rdaRegistryUrl> <http://www.rdaregistry.info/Elements/c/#C10009> .
+<https://rdafr.fr/Elements/c/C100009> <http://www.w3.org/ns/shacl#order> "60"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/Elements/c/C100009> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Elements/c/C100009> <http://www.w3.org/ns/shacl#closed> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://rdafr.fr/Elements/c/C100009> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements/c/C100009> .
+<https://rdafr.fr/Elements/c/C100010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://rdafr.fr/Elements/c/C100010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://rdafr.fr/Elements/c/C100010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://rdafr.fr/Elements/c/C100010> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Elements/c/C100010> <http://www.w3.org/2000/01/rdf-schema#label> "laps de temps"@fr .
+<https://rdafr.fr/Elements/c/C100010> <http://www.w3.org/2000/01/rdf-schema#comment> "Plage temporelle ayant un début, une fin et une durée"@fr .
+<https://rdafr.fr/Elements/c/C100010> <http://www.w3.org/ns/shacl#description> "Pas de définition dans le Glossaire RDA-FR de 2020 (partie non élaborée)\nSource : IFLA LRM"@fr .
+<https://rdafr.fr/Elements/c/C100010> <http://www.w3.org/2004/02/skos/core#notation> "t" .
+<https://rdafr.fr/Elements/c/C100010> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements/c/C100013> .
+<https://rdafr.fr/Elements/c/C100010> <http://www.w3.org/2002/07/owl#sameAs> "rdac:C10010" .
+<https://rdafr.fr/Elements/c/C100010> <https://rdafr.fr/AnnotationProperty/rdaRegistryUrl> <http://www.rdaregistry.info/Elements/c/#C10010> .
+<https://rdafr.fr/Elements/c/C100010> <http://www.w3.org/ns/shacl#order> "70"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/Elements/c/C100010> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Elements/c/C100010> <http://www.w3.org/ns/shacl#closed> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://rdafr.fr/Elements/c/C100010> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements/c/C100010> .
+<https://rdafr.fr/Elements/c/C100011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://rdafr.fr/Elements/c/C100011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://rdafr.fr/Elements/c/C100011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://rdafr.fr/Elements/c/C100011> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Elements/c/C100011> <http://www.w3.org/2000/01/rdf-schema#label> "agent collectif"@fr .
+<https://rdafr.fr/Elements/c/C100011> <http://www.w3.org/2000/01/rdf-schema#comment> "Groupement ou association de personnes portant un nom particulier et disposant de la faculté d'agir collectivement"@fr .
+<https://rdafr.fr/Elements/c/C100011> <http://www.w3.org/ns/shacl#description> "Pas de définition dans le Glossaire RDA-FR de 2020 (entité non retenue par le code jusqu'à présent)\nSource : IFLA LRM"@fr .
+<https://rdafr.fr/Elements/c/C100011> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements/c/C100002> .
+<https://rdafr.fr/Elements/c/C100011> <http://www.w3.org/2002/07/owl#sameAs> "rdac:C10011" .
+<https://rdafr.fr/Elements/c/C100011> <https://rdafr.fr/AnnotationProperty/rdaRegistryUrl> <http://www.rdaregistry.info/Elements/c/#C10011> .
+<https://rdafr.fr/Elements/c/C100011> <http://www.w3.org/ns/shacl#order> "35"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/Elements/c/C100011> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Elements/c/C100011> <http://www.w3.org/ns/shacl#closed> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://rdafr.fr/Elements/c/C100011> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements/c/C100011> .
+<https://rdafr.fr/Elements/c/C100012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://rdafr.fr/Elements/c/C100012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://rdafr.fr/Elements/c/C100012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://rdafr.fr/Elements/c/C100012> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Elements/c/C100012> <http://www.w3.org/2000/01/rdf-schema#label> "nomen"@fr .
+<https://rdafr.fr/Elements/c/C100012> <http://www.w3.org/2000/01/rdf-schema#comment> "Une association entre une entité et une désignation qui y réfère"@fr .
+<https://rdafr.fr/Elements/c/C100012> <http://www.w3.org/ns/shacl#description> "Pas de défintion dans le Glossaire RDA-FR de 2020\nSource : IFLA LRM"@fr .
+<https://rdafr.fr/Elements/c/C100012> <http://www.w3.org/2004/02/skos/core#notation> "n" .
+<https://rdafr.fr/Elements/c/C100012> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements/c/C100013> .
+<https://rdafr.fr/Elements/c/C100012> <http://www.w3.org/2002/07/owl#sameAs> "rdac:C10012" .
+<https://rdafr.fr/Elements/c/C100012> <https://rdafr.fr/AnnotationProperty/rdaRegistryUrl> <http://www.rdaregistry.info/Elements/c/#C10012> .
+<https://rdafr.fr/Elements/c/C100012> <http://www.w3.org/ns/shacl#order> "3"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/Elements/c/C100012> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Elements/c/C100012> <http://www.w3.org/ns/shacl#closed> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://rdafr.fr/Elements/c/C100012> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements/c/C100012> .
+<https://rdafr.fr/Elements/c/C100013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://rdafr.fr/Elements/c/C100013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://rdafr.fr/Elements/c/C100013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://rdafr.fr/Elements/c/C100013> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Elements/c/C100013> <http://www.w3.org/2000/01/rdf-schema#label> "entité rdafr"@fr .
+<https://rdafr.fr/Elements/c/C100013> <http://www.w3.org/2000/01/rdf-schema#comment> "Classe abstraite de plus haut niveau de l'univers de discours couvert par l'ontologie RDA-FR. Elle comprend toutes les entités qui sont définies dans le code RDA-FR. Toutes les classes définies pour les besoins de fonctionnement de l'ontologie RDA-FR sont également des sous-classes de celle ci."@fr .
+<https://rdafr.fr/Elements/c/C100013> <http://www.w3.org/ns/shacl#description> "Source : Définition de Res dans IFLA LRM :\nRes (« chose » en latin) est l'entité de niveau supérieur du modèle. Res comprend aussi bien des choses matérielles ou physiques que des concepts. Est inclus tout ce qui est considéré comme pertinent dans l'univers bibliographique, qui est en l’occurrence l'univers du discours. Res est la superclasse de toutes les autres entités : celles qui sont explicitement définies ici comme celles qui ne sont pas\nspécifiquement nommées.\n\nDéfinition de RDA Entity dans RDA Toolkit :\nAn abstract class of key conceptual objects in the universe of human discourse that are a focus of interest to users of RDA metadata in a system for resource discovery. An RDA entity includes an agent, collective agent, corporate body, expression, family, item, manifestation, nomen, person, place, timespan, and work."@fr .
+<https://rdafr.fr/Elements/c/C100013> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+<https://rdafr.fr/Elements/c/C100013> <http://www.w3.org/2002/07/owl#sameAs> "rdac:C10013" .
+<https://rdafr.fr/Elements/c/C100013> <https://rdafr.fr/AnnotationProperty/rdaRegistryUrl> <http://www.rdaregistry.info/Elements/c/#C10013> .
+<https://rdafr.fr/Elements/c/C100013> <http://www.w3.org/ns/shacl#order> "1"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/Elements/c/C100013> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Elements/c/C100013> <http://www.w3.org/ns/shacl#closed> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://rdafr.fr/Elements/c/C100013> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements/c/C100013> .
+<https://rdafr.fr/Elements/c/C100015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://rdafr.fr/Elements/c/C100015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://rdafr.fr/Elements/c/C100015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://rdafr.fr/Elements/c/C100015> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Elements/c/C100015> <http://www.w3.org/2000/01/rdf-schema#label> "identité publique"@fr .
+<https://rdafr.fr/Elements/c/C100015> <http://www.w3.org/2000/01/rdf-schema#comment> "Identité d’un agent qui est connue ou a été rendue publique."@fr .
+<https://rdafr.fr/Elements/c/C100015> <http://www.w3.org/ns/shacl#description> "Pas de définition dans le Glossaire RDA-FR de 2020\n\nSource : Le chapitre 8 (version publiée en 2017) donne la définition d'Identité publique d'un agent (et non spécifiquement celle d'Identité pulique de personne) comme suit :\n\nIdentité d’un agent qui est connue ou a été rendue publique.\n\nRemarque : si, dans l'ontologie, on définit la classe C100015 comme Identité publique, il faut relire ses propriétés dans l'onglet Identité publique pour voir si les libellés sont corrects (relatifs à l'identité publique de personne, ou d'agent) --> bien sûr, en lien avec les décisions qu'on va prendre. \n\nPuisqu'on publiera la version beta seulement sur les Personnes et leurs Identités publiques, dans la définition on pourrait inclure, par extension, les deux phrases suivantes issues du chapitre 9 version pour enquête AFNOR :\nLes personnes sont identifiées à travers leurs identités publiques. \nLes noms présentés comme des noms de personnes réelles constituent également des identités publiques distinctes. \n\nDans le chapitre 9 on trouve aussi :\nToute personne a au moins une identité publique, et aucune identité publique ne peut exister sans être associée à une personne ou à un agent. Une personne peut être connue sous une seule identité publique, ou sous plusieurs. Ces identités publiques sont désignées en tant que telles. Les propriétés relatives à la personne et celles relatives à l’identité publique sont clairement distinguées."@fr .
+<https://rdafr.fr/Elements/c/C100015> <http://www.w3.org/2004/02/skos/core#notation> "u" .
+<https://rdafr.fr/Elements/c/C100015> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements/c/C100013> .
+<https://rdafr.fr/Elements/c/C100015> <http://www.w3.org/ns/shacl#order> "55"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/Elements/c/C100015> <http://www.w3.org/2004/02/skos/core#editorialNote> "Intitulé de la classe à revoir, car une identité publique peut être associé :\n- à des Agents (pour les personnes à proprement parler et les pseudonnymes collectifs) et \n- à des sous-classes de Res (pour les personnages fictifs, les animaux, les logiciels, etc.)\nImpact sur les définitions et sur l'intitulé des relations"@en .
+<https://rdafr.fr/Elements/c/C100015> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Elements/c/C100015> <http://www.w3.org/ns/shacl#closed> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://rdafr.fr/Elements/c/C100015> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements/c/C100015> .
+<https://rdafr.fr/Elements/c/C100017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://rdafr.fr/Elements/c/C100017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://rdafr.fr/Elements/c/C100017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://rdafr.fr/Elements/c/C100017> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Elements/c/C100017> <http://www.w3.org/2000/01/rdf-schema#label> "objet"@fr .
+<https://rdafr.fr/Elements/c/C100017> <http://www.w3.org/2000/01/rdf-schema#comment> "en attente de traitement dans l'ontologie RDA-FR"@fr .
+<https://rdafr.fr/Elements/c/C100017> <http://www.w3.org/2004/02/skos/core#notation> "b" .
+<https://rdafr.fr/Elements/c/C100017> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements/c/C100013> .
+<https://rdafr.fr/Elements/c/C100017> <http://www.w3.org/ns/shacl#order> "65"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/Elements/c/C100017> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Elements/c/C100017> <http://www.w3.org/ns/shacl#closed> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://rdafr.fr/Elements/c/C100017> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements/c/C100017> .
+<https://rdafr.fr/Elements/c/C100018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://rdafr.fr/Elements/c/C100018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://rdafr.fr/Elements/c/C100018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://rdafr.fr/Elements/c/C100018> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Elements/c/C100018> <http://www.w3.org/2000/01/rdf-schema#label> "événement"@fr .
+<https://rdafr.fr/Elements/c/C100018> <http://www.w3.org/2000/01/rdf-schema#comment> "en attente de traitement dans l'ontologie RDA-FR"@fr .
+<https://rdafr.fr/Elements/c/C100018> <http://www.w3.org/2004/02/skos/core#notation> "v" .
+<https://rdafr.fr/Elements/c/C100018> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements/c/C100013> .
+<https://rdafr.fr/Elements/c/C100018> <http://www.w3.org/ns/shacl#order> "90"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/Elements/c/C100018> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Elements/c/C100018> <http://www.w3.org/ns/shacl#closed> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://rdafr.fr/Elements/c/C100018> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements/c/C100018> .
+<https://rdafr.fr/Elements/c/C100019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://rdafr.fr/Elements/c/C100019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://rdafr.fr/Elements/c/C100019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://rdafr.fr/Elements/c/C100019> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Elements/c/C100019> <http://www.w3.org/2000/01/rdf-schema#label> "événement culturel"@fr .
+<https://rdafr.fr/Elements/c/C100019> <http://www.w3.org/2000/01/rdf-schema#comment> "en attente de traitement dans l'ontologie RDA-FR"@fr .
+<https://rdafr.fr/Elements/c/C100019> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements/c/C100018> .
+<https://rdafr.fr/Elements/c/C100019> <http://www.w3.org/ns/shacl#order> "95"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/Elements/c/C100019> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Elements/c/C100019> <http://www.w3.org/ns/shacl#closed> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://rdafr.fr/Elements/c/C100019> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements/c/C100019> .
+<https://rdafr.fr/Elements/c/C100020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://rdafr.fr/Elements/c/C100020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://rdafr.fr/Elements/c/C100020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://rdafr.fr/Elements/c/C100020> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Elements/c/C100020> <http://www.w3.org/2000/01/rdf-schema#label> "concept"@fr .
+<https://rdafr.fr/Elements/c/C100020> <http://www.w3.org/2000/01/rdf-schema#comment> "en attente de traitement dans l'ontologie RDA-FR"@fr .
+<https://rdafr.fr/Elements/c/C100020> <http://www.w3.org/2004/02/skos/core#notation> "?" .
+<https://rdafr.fr/Elements/c/C100020> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements/c/C100013> .
+<https://rdafr.fr/Elements/c/C100020> <http://www.w3.org/ns/shacl#order> "100"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/Elements/c/C100020> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Elements/c/C100020> <http://www.w3.org/ns/shacl#closed> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://rdafr.fr/Elements/c/C100020> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements/c/C100020> .
+<https://rdafr.fr/Elements/c/C100021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://rdafr.fr/Elements/c/C100021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://rdafr.fr/Elements/c/C100021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://rdafr.fr/Elements/c/C100021> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Elements/c/C100021> <http://www.w3.org/2000/01/rdf-schema#label> "période"@fr .
+<https://rdafr.fr/Elements/c/C100021> <http://www.w3.org/2000/01/rdf-schema#comment> "en attente de traitement dans l'ontologie RDA-FR"@fr .
+<https://rdafr.fr/Elements/c/C100021> <http://www.w3.org/2004/02/skos/core#notation> "t" .
+<https://rdafr.fr/Elements/c/C100021> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements/c/C100010> .
+<https://rdafr.fr/Elements/c/C100021> <http://www.w3.org/ns/shacl#order> "75"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/Elements/c/C100021> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Elements/c/C100021> <http://www.w3.org/ns/shacl#closed> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://rdafr.fr/Elements/c/C100021> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements/c/C100021> .
+<https://rdafr.fr/Elements/c/C100022> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://rdafr.fr/Elements/c/C100022> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://rdafr.fr/Elements/c/C100022> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://rdafr.fr/Elements/c/C100022> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Elements/c/C100022> <http://www.w3.org/2000/01/rdf-schema#label> "date unique"@fr .
+<https://rdafr.fr/Elements/c/C100022> <http://www.w3.org/2000/01/rdf-schema#comment> "en attente de traitement dans l'ontologie RDA-FR"@fr .
+<https://rdafr.fr/Elements/c/C100022> <http://www.w3.org/2004/02/skos/core#notation> "t" .
+<https://rdafr.fr/Elements/c/C100022> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements/c/C100010> .
+<https://rdafr.fr/Elements/c/C100022> <http://www.w3.org/ns/shacl#order> "80"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/Elements/c/C100022> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Elements/c/C100022> <http://www.w3.org/ns/shacl#closed> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://rdafr.fr/Elements/c/C100022> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements/c/C100022> .
+<https://rdafr.fr/Elements/c/C100023> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://rdafr.fr/Elements/c/C100023> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://rdafr.fr/Elements/c/C100023> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://rdafr.fr/Elements/c/C100023> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Elements/c/C100023> <http://www.w3.org/2000/01/rdf-schema#label> "série de date ou de laps de temps"@fr .
+<https://rdafr.fr/Elements/c/C100023> <http://www.w3.org/2000/01/rdf-schema#comment> "en attente de traitement dans l'ontologie RDA-FR"@fr .
+<https://rdafr.fr/Elements/c/C100023> <http://www.w3.org/2004/02/skos/core#notation> "t" .
+<https://rdafr.fr/Elements/c/C100023> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements/c/C100010> .
+<https://rdafr.fr/Elements/c/C100023> <http://www.w3.org/ns/shacl#order> "85"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/Elements/c/C100023> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Elements/c/C100023> <http://www.w3.org/ns/shacl#closed> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://rdafr.fr/Elements/c/C100023> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements/c/C100023> .
+<https://rdafr.fr/Elements/c/C100025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://rdafr.fr/Elements/c/C100025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://rdafr.fr/Elements/c/C100025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://rdafr.fr/Elements/c/C100025> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Elements/c/C100025> <http://www.w3.org/2000/01/rdf-schema#label> "groupe informel"@fr .
+<https://rdafr.fr/Elements/c/C100025> <http://www.w3.org/2000/01/rdf-schema#comment> "Agent étant identifié comme un groupe de personnes qui ne sont ni des familles ni des collectivités et dont le nom se présente formellement comme un nom de personne (nom traditionnellement désigné par le terme \"psudonyme collectif\")."@fr .
+<https://rdafr.fr/Elements/c/C100025> <http://www.w3.org/ns/shacl#description> "AA : c'est dans la partie \"comprend\" de la définition de collectivité du chp11, qu'est indiqué expressément que les groupes artistiques, etc., font partie de l'entité Collectivité. Donc, pas besoin de mentionner ici l'exclusion de ces groupes de la classe Groupe informel"@fr .
+<https://rdafr.fr/Elements/c/C100025> <http://www.w3.org/2004/02/skos/core#notation> "t" .
+<https://rdafr.fr/Elements/c/C100025> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements/c/C100011> .
+<https://rdafr.fr/Elements/c/C100025> <http://www.w3.org/ns/shacl#order> "40"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/Elements/c/C100025> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Elements/c/C100025> <http://www.w3.org/ns/shacl#closed> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://rdafr.fr/Elements/c/C100025> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements/c/C100025> .
+<https://rdafr.fr/Elements/x/P100001r> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://rdafr.fr/Elements/x/P100001r> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://rdafr.fr/Elements/x/P100001r> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://rdafr.fr/Elements/x/P100001r> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Elements/x/P100001r> <http://www.w3.org/2000/01/rdf-schema#label> "a une relation avec [dans la relation]"@fr .
+<https://rdafr.fr/Elements/x/P100001r> <http://www.w3.org/2000/01/rdf-schema#comment> "La classe ‘relation réifiée’ permet d’ajouter des assertions sur toutes les propriétés qui expriment une relation entre des instances de deux classes de l’ontologie (et qui, de fait, correspondent aux relations entre instances d’entités du code RDA-FR)."@fr .
+<https://rdafr.fr/Elements/x/P100001r> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements/c/C100013> .
+<https://rdafr.fr/Elements/x/P100001r> <http://www.w3.org/ns/shacl#order> "120"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/Elements/x/P100001r> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Elements/x/P100001r> <http://www.w3.org/ns/shacl#closed> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://rdafr.fr/Elements/x/P100001r> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements/x/P100001r> .
+<https://rdafr.fr/Elements/x/P100008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://rdafr.fr/Elements/x/P100008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://rdafr.fr/Elements/x/P100008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://rdafr.fr/Elements/x/P100008> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/Elements/x/P100008> <http://www.w3.org/2000/01/rdf-schema#label> "a une propriété réifiée"@fr .
+<https://rdafr.fr/Elements/x/P100008> <http://www.w3.org/2000/01/rdf-schema#comment> "La classe ‘propriété réifiée’ permet d'ajouter des assertions sur toutes les propriétés de l’ontologie qui correspondent aux attributs des entités du code RDA-FR."@fr .
+<https://rdafr.fr/Elements/x/P100008> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements/c/C100013> .
+<https://rdafr.fr/Elements/x/P100008> <http://www.w3.org/ns/shacl#order> "122"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/Elements/x/P100008> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Elements/x/P100008> <http://www.w3.org/ns/shacl#closed> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://rdafr.fr/Elements/x/P100008> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements/x/P100008> .
+<http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/2000/01/rdf-schema#label> "concept (skos)"@fr .
+<http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/2000/01/rdf-schema#comment> "Un concept SKOS peut être vu comme une idée ou une notion; une unité de pensée."@fr .
+<http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2002/07/owl#Thing> .
+<http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/ns/shacl#order> "200"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/ns/shacl#closed> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/ns/shacl#targetClass> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://rdafr.fr/termList/Langue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://rdafr.fr/termList/Langue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://rdafr.fr/termList/Langue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://rdafr.fr/termList/Langue> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/termList/Langue> <http://www.w3.org/2000/01/rdf-schema#label> "langue"@fr .
+<https://rdafr.fr/termList/Langue> <http://www.w3.org/2000/01/rdf-schema#comment> "Langue d'une chaîne de caractères"@fr .
+<https://rdafr.fr/termList/Langue> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://rdafr.fr/termList/Langue> <http://www.w3.org/ns/shacl#order> "201"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/termList/Langue> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/termList/Langue> <http://www.w3.org/ns/shacl#closed> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://rdafr.fr/termList/Langue> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/termList/Langue> .
+<https://rdafr.fr/termList/Ecriture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://rdafr.fr/termList/Ecriture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://rdafr.fr/termList/Ecriture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://rdafr.fr/termList/Ecriture> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/termList/Ecriture> <http://www.w3.org/2000/01/rdf-schema#label> "écriture"@fr .
+<https://rdafr.fr/termList/Ecriture> <http://www.w3.org/2000/01/rdf-schema#comment> "Système d'écriture de la chaîne de caractères"@fr .
+<https://rdafr.fr/termList/Ecriture> <http://www.w3.org/ns/shacl#description> "Dans IFLA LRM le nom de l'attribut est tout simplement Ecriture (E9-A8)"@fr .
+<https://rdafr.fr/termList/Ecriture> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://rdafr.fr/termList/Ecriture> <http://www.w3.org/ns/shacl#order> "202"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/termList/Ecriture> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/termList/Ecriture> <http://www.w3.org/ns/shacl#closed> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://rdafr.fr/termList/Ecriture> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/termList/Ecriture> .
+<https://rdafr.fr/termList/SchemaEncodage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://rdafr.fr/termList/SchemaEncodage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://rdafr.fr/termList/SchemaEncodage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://rdafr.fr/termList/SchemaEncodage> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/termList/SchemaEncodage> <http://www.w3.org/2000/01/rdf-schema#label> "schéma d'encodage"@fr .
+<https://rdafr.fr/termList/SchemaEncodage> <http://www.w3.org/2000/01/rdf-schema#comment> "Système de transcription et/ou de conversion de données selon un protocole déterminé\nCela recouvre :\n- des schémas d’encodage de valeurs (listes de vedettes\nmatière, thésaurus, classifications systématiques, listes\nd’autorité de noms, etc.) ;\n− et des schémas d’encodage syntaxiques (normes\nd’encodage des dates, etc.)."@fr .
+<https://rdafr.fr/termList/SchemaEncodage> <http://www.w3.org/ns/shacl#description> "Définition inspiré de différentes sources sur internet. Complété par les éléments de la définition issue de IFLA LRM (dans la propriété de nomen)."@fr .
+<https://rdafr.fr/termList/SchemaEncodage> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://rdafr.fr/termList/SchemaEncodage> <http://www.w3.org/ns/shacl#order> "203"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/termList/SchemaEncodage> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/termList/SchemaEncodage> <http://www.w3.org/ns/shacl#closed> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://rdafr.fr/termList/SchemaEncodage> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/termList/SchemaEncodage> .
+<https://rdafr.fr/termList/CategorieNomen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://rdafr.fr/termList/CategorieNomen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://rdafr.fr/termList/CategorieNomen> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://rdafr.fr/termList/CategorieNomen> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/termList/CategorieNomen> <http://www.w3.org/2000/01/rdf-schema#label> "catégorie de nomen"@fr .
+<https://rdafr.fr/termList/CategorieNomen> <http://www.w3.org/2000/01/rdf-schema#comment> "Type auquel le nomen appartient (ex. : point d'accès, identifiant, titre, etc.)"@fr .
+<https://rdafr.fr/termList/CategorieNomen> <http://www.w3.org/ns/shacl#description> "Définition issue de IFLA LRM\nNote d'application : \nLes nomens peuvent être catégorisés selon :\n− le type de chose qui est nommée (nom de personne, titre d’œuvre, etc.) ;\n− la source où le nomen est attesté (titre de dos, titre courant, etc.) ;\n− la fonction du nomen (identifiant, point d’accès contrôlé, indice de classification, etc.)."@fr .
+<https://rdafr.fr/termList/CategorieNomen> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://rdafr.fr/termList/CategorieNomen> <http://www.w3.org/ns/shacl#order> "204"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/termList/CategorieNomen> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/termList/CategorieNomen> <http://www.w3.org/ns/shacl#closed> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://rdafr.fr/termList/CategorieNomen> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/termList/CategorieNomen> .
+<https://rdafr.fr/termList/SystemeConversion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://rdafr.fr/termList/SystemeConversion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://rdafr.fr/termList/SystemeConversion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://rdafr.fr/termList/SystemeConversion> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/termList/SystemeConversion> <http://www.w3.org/2000/01/rdf-schema#label> "conversion d'écriture"@fr .
+<https://rdafr.fr/termList/SystemeConversion> <http://www.w3.org/2000/01/rdf-schema#comment> "Règle, système ou norme utilisée pour créer la chaîne d’un nomen à partir de la chaîne d’un autre nomen notée dans une écriture différente (par exemple, un système de translittération)."@fr .
+<https://rdafr.fr/termList/SystemeConversion> <http://www.w3.org/ns/shacl#description> "Attention : le nom de l'attribut dans IFLA LRM est Conversion d'écriture. Je l'ai changé dans la colonne C Il va falloir changer l'URI aussi, dans la colonne A. \nDéfinition issue de IFLA LRM\nNote d'application : \nUne valeur de l’attribut conversion d’écriture peut renvoyer à :\n− des translittérations ;\n− des conversions d’écriture qui ne sont pas réversibles ;\n− etc."@fr .
+<https://rdafr.fr/termList/SystemeConversion> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://rdafr.fr/termList/SystemeConversion> <http://www.w3.org/ns/shacl#order> "205"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/termList/SystemeConversion> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/termList/SystemeConversion> <http://www.w3.org/ns/shacl#closed> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://rdafr.fr/termList/SystemeConversion> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/termList/SystemeConversion> .
+<https://rdafr.fr/termList/Genre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://rdafr.fr/termList/Genre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://rdafr.fr/termList/Genre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://rdafr.fr/termList/Genre> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/termList/Genre> <http://www.w3.org/2000/01/rdf-schema#label> "genre"@fr .
+<https://rdafr.fr/termList/Genre> <http://www.w3.org/2000/01/rdf-schema#comment> "Le genre auquel une personne s'identifie"@fr .
+<https://rdafr.fr/termList/Genre> <http://www.w3.org/ns/shacl#description> "Source : Chapitre 9 de RDA-FR"@fr .
+<https://rdafr.fr/termList/Genre> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://rdafr.fr/termList/Genre> <http://www.w3.org/ns/shacl#order> "206"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/termList/Genre> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/termList/Genre> <http://www.w3.org/ns/shacl#closed> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://rdafr.fr/termList/Genre> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/termList/Genre> .
+<https://rdafr.fr/termList/NiveauFiabilite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://rdafr.fr/termList/NiveauFiabilite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://rdafr.fr/termList/NiveauFiabilite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://rdafr.fr/termList/NiveauFiabilite> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/termList/NiveauFiabilite> <http://www.w3.org/2000/01/rdf-schema#label> "niveau de fiabilité"@fr .
+<https://rdafr.fr/termList/NiveauFiabilite> <http://www.w3.org/2000/01/rdf-schema#comment> "Indication sur le niveau de fiabilité de l'information"@fr .
+<https://rdafr.fr/termList/NiveauFiabilite> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://rdafr.fr/termList/NiveauFiabilite> <http://www.w3.org/ns/shacl#order> "207"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/termList/NiveauFiabilite> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/termList/NiveauFiabilite> <http://www.w3.org/ns/shacl#closed> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://rdafr.fr/termList/NiveauFiabilite> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/termList/NiveauFiabilite> .
+<https://rdafr.fr/termList/Calendrier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://rdafr.fr/termList/Calendrier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://rdafr.fr/termList/Calendrier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://rdafr.fr/termList/Calendrier> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/termList/Calendrier> <http://www.w3.org/2000/01/rdf-schema#label> "calendrier"@fr .
+<https://rdafr.fr/termList/Calendrier> <http://www.w3.org/2000/01/rdf-schema#comment> "Type de calendrier utilisé pour exprimer un laps de temps (julien, grégorien, hégire...)"@fr .
+<https://rdafr.fr/termList/Calendrier> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://rdafr.fr/termList/Calendrier> <http://www.w3.org/ns/shacl#order> "208"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/termList/Calendrier> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/termList/Calendrier> <http://www.w3.org/ns/shacl#closed> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://rdafr.fr/termList/Calendrier> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/termList/Calendrier> .
+<https://rdafr.fr/termList/CategorieIdentitePublique> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://rdafr.fr/termList/CategorieIdentitePublique> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://rdafr.fr/termList/CategorieIdentitePublique> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://rdafr.fr/termList/CategorieIdentitePublique> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/termList/CategorieIdentitePublique> <http://www.w3.org/2000/01/rdf-schema#label> "catégorie d'identité publique"@fr .
+<https://rdafr.fr/termList/CategorieIdentitePublique> <http://www.w3.org/2000/01/rdf-schema#comment> "Précision sur la nature du nom sur lequel est fondée l'identité publique (par exemple : nom réel, pseudonyme...)"@fr .
+<https://rdafr.fr/termList/CategorieIdentitePublique> <http://www.w3.org/ns/shacl#description> "Source : Chapitre 9 de RDA-FR"@fr .
+<https://rdafr.fr/termList/CategorieIdentitePublique> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://rdafr.fr/termList/CategorieIdentitePublique> <http://www.w3.org/ns/shacl#order> "209"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/termList/CategorieIdentitePublique> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/termList/CategorieIdentitePublique> <http://www.w3.org/ns/shacl#closed> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://rdafr.fr/termList/CategorieIdentitePublique> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/termList/CategorieIdentitePublique> .
+<https://rdafr.fr/termList/IndicateurRelation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/ns/shacl#NodeShape> .
+<https://rdafr.fr/termList/IndicateurRelation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2000/01/rdf-schema#Class> .
+<https://rdafr.fr/termList/IndicateurRelation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
+<https://rdafr.fr/termList/IndicateurRelation> <http://www.w3.org/2002/07/owl#versionInfo> "0.0.1" .
+<https://rdafr.fr/termList/IndicateurRelation> <http://www.w3.org/2000/01/rdf-schema#label> "indicateur de relation"@fr .
+<https://rdafr.fr/termList/IndicateurRelation> <http://www.w3.org/2000/01/rdf-schema#comment> "Précision sur la nature de la relation entre deux instances d'entités"@fr .
+<https://rdafr.fr/termList/IndicateurRelation> <http://www.w3.org/ns/shacl#description> "Source : Chapitre 23.4 de RDA-FR"@fr .
+<https://rdafr.fr/termList/IndicateurRelation> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <http://www.w3.org/2004/02/skos/core#Concept> .
+<https://rdafr.fr/termList/IndicateurRelation> <http://www.w3.org/ns/shacl#order> "210"^^<http://www.w3.org/2001/XMLSchema#integer> .
+<https://rdafr.fr/termList/IndicateurRelation> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/termList/IndicateurRelation> <http://www.w3.org/ns/shacl#closed> "true"^^<http://www.w3.org/2001/XMLSchema#boolean> .
+<https://rdafr.fr/termList/IndicateurRelation> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/termList/IndicateurRelation> .
