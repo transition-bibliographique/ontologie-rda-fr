@@ -11,8 +11,7 @@ L’ontologie RDA-FR, en cours d’élaboration, est une représentation formell
 
 Le schéma suivant donne une vue globale de la hiérarchie des classes de l’ontologie RDA-FR. Seules sont traitées dans cette version bêta les classes non grisées ci-dessous.
 
-
-![alt_text](images/image1.jpg "image_tooltip")
+![image](https://user-images.githubusercontent.com/60341438/235084770-494c5256-ef7a-4de4-a707-0b3a934e6b4d.png)
 
 ## Domaine de l’ontologie RDA-FR et espaces de noms
 
@@ -38,7 +37,7 @@ Dans le système des classes et propriétés :
 * La classe **_Identité publique_**, spécifique à l’ontologie RDA-FR, reflète l’approche du chapitre 9 du code RDA-FR Identification des personnes et de leurs identités publiques, où la distinction claire entre les personnes et leurs identités publiques est actée. Une personne ou un groupe informel a toujours au moins une identité publique. Le modèle IFLA LRM appréhende l’Identité publique comme une grappe de Nomen (voir [IFLA LRM, 2017, traduction française](https://repository.ifla.org/bitstream/123456789/1703/1/IFLA-LRM-traduction-francaise.pdf), paragraphe 5.5 Modélisation des identités bibliographiques). Dans l’ontologie RDA-FR, la classe Identité publique est déclarée comme une sous-classe de la classe racine ‘Entité RDA-FR’. \
 Pour les relations entre la classe Identité publique et les classes Personne ou Groupe informel, ainsi que les relations de ces dernières avec la classe Oeuvre, voir le schéma ci-dessous :
 
-![alt_text](images/image2.jpg "image_tooltip")
+![image](https://user-images.githubusercontent.com/60341438/235084868-330a960e-a311-445d-89f8-8263fce722ba.png)
 
 * Les classes **_Lieu_** et **_Laps de temps_** (entités du modèle IFLA LRM), les classes **_Concept_**, **_Objet_**, **_Événement_**, ainsi que les sous-classes de Lieu et de Laps de temps, sont d’ores et déjà créées dans l’ontologie RDA-FR pour leur réserver la place qui convient dans l’architecture globale. Elles seront abordées en détail, ou modifiées, lorsque les chapitres correspondants ou les orientations normatives du code RDA-FR seront publiés, sous réserve de l’avancée des travaux des groupes nationaux de la Transition Bibliographique.
 
@@ -57,13 +56,13 @@ Pour les relations entre la classe Identité publique et les classes Personne ou
 * la classe P100008 **_‘a une propriété réifiée’_** a été introduite pour permettre d’ajouter des assertions sur toutes les propriétés de l’ontologie qui correspondent aux attributs des entités du code RDA-FR. Par exemple, il est possible d’indiquer un niveau de fiabilité, ou une source pour un lieu de naissance d’une personne. Elle permet aussi de donner, à la propriété en question, une valeur textuelle ou une URI. Chaque propriété de ce type est systématiquement réifiée par une classe dont l’URI est la même que celle de la propriété. Cette classe est déclarée comme une sous classe de la classe P100008 _‘a une propriété réifiée’_ :
 
 Exemple de réification de l’attribut _“a pour lieu de naissance de la personne”_ 
-![alt_text](images/image3.jpg "image_tooltip")
+![image](https://user-images.githubusercontent.com/60341438/235085011-71a40ad8-f8e6-4b86-8387-995b06a51a2b.png)
 
 * la classe P100001r **_‘a une relation avec [dans la relation]’_** a été introduite pour permettre d’ajouter des assertions sur toutes les propriétés qui expriment une relation entre des instances de deux classes de l’ontologie (et qui, de fait, correspondent aux relations entre instances d’entités du code RDA-FR). Elle permet par exemple de donner des précisions (source, période, etc.) sur une relation de type _“a pour créateur / créateur de”_ entre une oeuvre et une personne. Chaque propriété de ce type est systématiquement réifiée par une classe dont l’URI est la même que celle de la propriété. Cette classe est déclarée comme une sous classe de la classe P100001r _‘a une relation avec [dans la relation]’_. \
 Font exception de cette règle les relations dites fondamentales du modèle IFLA LRM entre les classes Oeuvre, Expression, Manifestation et Item.
 
 Exemple de réification de la relation _“a pour créateur / créateur de”_ 
-![alt_text](images/image4.jpg "image_tooltip")
+![image](https://user-images.githubusercontent.com/60341438/235085174-d8869b2c-9245-4265-bd72-09793a4b83de.png)
 
 **Principe de déclaration des propriétés, dites génériques, applicables à plusieurs entités**
 
