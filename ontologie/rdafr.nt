@@ -260,6 +260,8 @@
 <https://rdafr.fr/Elements#C100002> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules#R416> .
 <https://rdafr.fr/Elements#C100002> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules#R417> .
 <https://rdafr.fr/Elements#C100002> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules#R418> .
+<https://rdafr.fr/Elements#C100002> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules#R419> .
+<https://rdafr.fr/Elements#C100002> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules#R420> .
 <https://rdafr.fr/Elements#P500001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://rdafr.fr/Elements#P500001> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements#C100002> .
 <https://rdafr.fr/Elements#P500001> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements#C100012> .
@@ -402,12 +404,43 @@
 <https://rdafr.fr/Elements#P500046r> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation générique de collaboration entre une collectivité et un autre agent (personne, collectivité ou famille) en vue de réaliser un projet commun dans la sphère professionnelle ou commerciale. Comprend les différents types de collaboration comme le partenariat, la relation contractuelle, la relation de financement, etc. Peut être utilisée comme une relation à part entière lorsqu'on n'a pas d'information sur le type précis de collaboration."@fr .
 <https://rdafr.fr/Elements#P500046r> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation de collaboration entre une famille et tout autre agent en vue de réaliser un projet commun dans la sphère professionnelle ou commerciale."@fr .
 <https://rdafr.fr/Elements#P500046r> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation de collaboration entre un groupe informel et une collectivité."@fr .
-<https://rdafr.fr/Rules#R415> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
-<https://rdafr.fr/Rules#R415> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P500051r> .
-<https://rdafr.fr/Rules#R415> <http://www.w3.org/ns/shacl#name> "a des relations contractuelles avec [dans la relation]"@fr .
-<https://rdafr.fr/Rules#R415> <http://www.w3.org/ns/shacl#description> "Catégorie de relations entre agents comprenant les relations d'emploi, de prestation, de franchise ou d'associé de."@fr .
+<https://rdafr.fr/Rules#R415> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.1" .
+<https://rdafr.fr/Rules#R415> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P500053r> .
+<https://rdafr.fr/Rules#R415> <http://www.w3.org/ns/shacl#name> "finance [dans la relation]"@fr .
+<https://rdafr.fr/Rules#R415> <http://www.w3.org/ns/shacl#description> "Relation de financement d'un agent envers un autre agent. Il s'agit d'une relation générique comprenant les différents types de financement comme la subvention, le parrainage ou le mécénat. Peut être utilisée comme relation distincte lorsqu'on ne connaît pas la nature précise du financement."@fr .
 <https://rdafr.fr/Rules#R415> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements#C100002> .
 <https://rdafr.fr/Rules#R415> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Elements#P500053r> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://rdafr.fr/Elements#P500053r> <http://www.w3.org/2002/07/owl#inverseOf> <https://rdafr.fr/Elements#P500053ri> .
+<https://rdafr.fr/Elements#P500053r> <http://www.w3.org/2002/07/owl#inverseOf> <https://rdafr.fr/Elements#P502353ri> .
+<https://rdafr.fr/Elements#P500053r> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements#C100004> .
+<https://rdafr.fr/Elements#P500053r> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements#P500053r> .
+<https://rdafr.fr/Elements#P500053r> <http://www.w3.org/2000/01/rdf-schema#label> "finance [dans la relation]"@fr .
+<https://rdafr.fr/Elements#P500053r> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P500046r> .
+<https://rdafr.fr/Elements#P500053r> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements#P500046r> .
+<https://rdafr.fr/Elements#P500053r> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation de financement d'un agent envers un autre agent. Il s'agit d'une relation générique comprenant les différents types de financement comme la subvention, le parrainage ou le mécénat. Peut être utilisée comme relation distincte lorsqu'on ne connaît pas la nature précise du financement."@fr .
+<https://rdafr.fr/Rules#R416> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.2" .
+<https://rdafr.fr/Rules#R416> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P500053ri> .
+<https://rdafr.fr/Rules#R416> <http://www.w3.org/ns/shacl#name> "est financé par [dans la relation]"@fr .
+<https://rdafr.fr/Rules#R416> <http://www.w3.org/ns/shacl#description> "Relation de financement entre un agent et l'agent qui la finance. Il s'agit d'une relation générique comprenant les différents types de financement comme la subvention, le parrainage ou le mécénat. Peut être utilisée comme relation distincte lorsqu'on ne connaît pas la nature précise du financement."@fr .
+<https://rdafr.fr/Rules#R416> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements#C100002> .
+<https://rdafr.fr/Rules#R416> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Elements#P500053ri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://rdafr.fr/Elements#P500053ri> <http://www.w3.org/2002/07/owl#inverseOf> <https://rdafr.fr/Elements#P500053r> .
+<https://rdafr.fr/Elements#P500053ri> <http://www.w3.org/2002/07/owl#inverseOf> <https://rdafr.fr/Elements#P502353r> .
+<https://rdafr.fr/Elements#P500053ri> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements#C100004> .
+<https://rdafr.fr/Elements#P500053ri> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements#P500053r> .
+<https://rdafr.fr/Elements#P500053ri> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements#P502353r> .
+<https://rdafr.fr/Elements#P500053ri> <http://www.w3.org/2000/01/rdf-schema#label> "est financé par [dans la relation]"@fr .
+<https://rdafr.fr/Elements#P500053ri> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P500046r> .
+<https://rdafr.fr/Elements#P500053ri> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements#P500046r> .
+<https://rdafr.fr/Elements#P500053ri> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation de financement entre un agent et l'agent qui la finance. Il s'agit d'une relation générique comprenant les différents types de financement comme la subvention, le parrainage ou le mécénat. Peut être utilisée comme relation distincte lorsqu'on ne connaît pas la nature précise du financement."@fr .
+<https://rdafr.fr/Rules#R417> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
+<https://rdafr.fr/Rules#R417> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P500051r> .
+<https://rdafr.fr/Rules#R417> <http://www.w3.org/ns/shacl#name> "a des relations contractuelles avec [dans la relation]"@fr .
+<https://rdafr.fr/Rules#R417> <http://www.w3.org/ns/shacl#description> "Catégorie de relations entre agents comprenant les relations d'emploi, de prestation, de franchise ou d'associé de."@fr .
+<https://rdafr.fr/Rules#R417> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements#C100002> .
+<https://rdafr.fr/Rules#R417> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Elements#P500051r> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://rdafr.fr/Elements#P500051r> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements#C100002> .
 <https://rdafr.fr/Elements#P500051r> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements#P500051r> .
@@ -416,12 +449,12 @@
 <https://rdafr.fr/Elements#P500051r> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements#P500046r> .
 <https://rdafr.fr/Elements#P500051r> <http://www.w3.org/2000/01/rdf-schema#comment> "Catégorie de relations entre agents comprenant les relations d'emploi, de prestation, de franchise ou d'associé de."@fr .
 <https://rdafr.fr/Elements#P500051r> <http://www.w3.org/2000/01/rdf-schema#comment> "Catégorie de relations entre entre une personne et un autre agent comprenant les relations d'emploi, de prestation, de franchise ou d'associé de."@fr .
-<https://rdafr.fr/Rules#R416> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
-<https://rdafr.fr/Rules#R416> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P500052r> .
-<https://rdafr.fr/Rules#R416> <http://www.w3.org/ns/shacl#name> "a des relations de financement avec [dans la relation]"@fr .
-<https://rdafr.fr/Rules#R416> <http://www.w3.org/ns/shacl#description> "Catégorie de relations entre agents comprenant les différents types de financement comme la subvention, le parrainage ou le mécénat. Peut être utilisée comme relation distincte lorsqu'on ne connaît pas la nature précise du financement."@fr .
-<https://rdafr.fr/Rules#R416> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements#C100002> .
-<https://rdafr.fr/Rules#R416> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules#R418> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
+<https://rdafr.fr/Rules#R418> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P500052r> .
+<https://rdafr.fr/Rules#R418> <http://www.w3.org/ns/shacl#name> "a des relations de financement avec [dans la relation]"@fr .
+<https://rdafr.fr/Rules#R418> <http://www.w3.org/ns/shacl#description> "Catégorie de relations entre agents comprenant les différents types de financement comme la subvention, le parrainage ou le mécénat. Peut être utilisée comme relation distincte lorsqu'on ne connaît pas la nature précise du financement."@fr .
+<https://rdafr.fr/Rules#R418> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements#C100002> .
+<https://rdafr.fr/Rules#R418> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Elements#P500052r> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://rdafr.fr/Elements#P500052r> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements#C100002> .
 <https://rdafr.fr/Elements#P500052r> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements#P500052r> .
@@ -429,12 +462,12 @@
 <https://rdafr.fr/Elements#P500052r> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P500046r> .
 <https://rdafr.fr/Elements#P500052r> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements#P500046r> .
 <https://rdafr.fr/Elements#P500052r> <http://www.w3.org/2000/01/rdf-schema#comment> "Catégorie de relations entre agents comprenant les différents types de financement comme la subvention, le parrainage ou le mécénat. Peut être utilisée comme relation distincte lorsqu'on ne connaît pas la nature précise du financement."@fr .
-<https://rdafr.fr/Rules#R417> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
-<https://rdafr.fr/Rules#R417> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P500049r> .
-<https://rdafr.fr/Rules#R417> <http://www.w3.org/ns/shacl#name> "a une relation relative à la formation avec [dans la relation]"@fr .
-<https://rdafr.fr/Rules#R417> <http://www.w3.org/ns/shacl#description> "Catégorie de relation regroupant les relations spécifiques relatives à la formation entre agents."@fr .
-<https://rdafr.fr/Rules#R417> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements#C100002> .
-<https://rdafr.fr/Rules#R417> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules#R419> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
+<https://rdafr.fr/Rules#R419> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P500049r> .
+<https://rdafr.fr/Rules#R419> <http://www.w3.org/ns/shacl#name> "a une relation relative à la formation avec [dans la relation]"@fr .
+<https://rdafr.fr/Rules#R419> <http://www.w3.org/ns/shacl#description> "Catégorie de relation regroupant les relations spécifiques relatives à la formation entre agents."@fr .
+<https://rdafr.fr/Rules#R419> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements#C100002> .
+<https://rdafr.fr/Rules#R419> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Elements#P500049r> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://rdafr.fr/Elements#P500049r> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements#C100002> .
 <https://rdafr.fr/Elements#P500049r> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements#P500049r> .
@@ -443,12 +476,12 @@
 <https://rdafr.fr/Elements#P500049r> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements#P100001r> .
 <https://rdafr.fr/Elements#P500049r> <http://www.w3.org/2000/01/rdf-schema#comment> "Catégorie de relation regroupant les relations spécifiques relatives à la formation entre agents."@fr .
 <https://rdafr.fr/Elements#P500049r> <http://www.w3.org/2000/01/rdf-schema#comment> "Catégorie de relations entre une personne et tout autre agent, regroupant les relations spécifiques relatives à la formation."@fr .
-<https://rdafr.fr/Rules#R418> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
-<https://rdafr.fr/Rules#R418> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P500050r> .
-<https://rdafr.fr/Rules#R418> <http://www.w3.org/ns/shacl#name> "a des relations d'appartenance ou d'adhésion avec [dans la relation]"@fr .
-<https://rdafr.fr/Rules#R418> <http://www.w3.org/ns/shacl#description> "Catégorie de relations entre agents, regroupant les relations de membre, d'affiliation ou de propriété."@fr .
-<https://rdafr.fr/Rules#R418> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements#C100002> .
-<https://rdafr.fr/Rules#R418> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules#R420> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
+<https://rdafr.fr/Rules#R420> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P500050r> .
+<https://rdafr.fr/Rules#R420> <http://www.w3.org/ns/shacl#name> "a des relations d'appartenance ou d'adhésion avec [dans la relation]"@fr .
+<https://rdafr.fr/Rules#R420> <http://www.w3.org/ns/shacl#description> "Catégorie de relations entre agents, regroupant les relations de membre, d'affiliation ou de propriété."@fr .
+<https://rdafr.fr/Rules#R420> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements#C100002> .
+<https://rdafr.fr/Rules#R420> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Elements#P500050r> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://rdafr.fr/Elements#P500050r> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements#C100002> .
 <https://rdafr.fr/Elements#P500050r> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements#P500050r> .
@@ -595,7 +628,7 @@
 <https://rdafr.fr/Elements#P501004> <http://www.w3.org/2000/01/rdf-schema#comment> "Date ou une fourchette de dates indicative de la période pendant laquelle une personne a été active dans son principal domaine d’activité. [code RDA-FR, 9.3.1.6]"@fr .
 <https://rdafr.fr/Rules#R509> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
 <https://rdafr.fr/Rules#R509> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P501005r> .
-<https://rdafr.fr/Rules#R509> <http://www.w3.org/ns/shacl#name> "Le titre de la personne est un mot ou une expression indiquant un titre royal, un titre nobiliaire, un rang ou une fonction ecclésiastique, ou un titre de courtoisie pour un religieux.\nLe titre de la personne inclut d’autres termes indiquant un rang ou une fonction, y compris les initiales de titre universitaire, ou l’appartenance à un groupe.\nLe titre de la personne exclut les termes d’adresse qui indiquent uniquement le genre ou le statut marital (M., Mme,…)."@fr .
+<https://rdafr.fr/Rules#R509> <http://www.w3.org/ns/shacl#name> "Titre de la personne"@fr .
 <https://rdafr.fr/Rules#R509> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "9.3.2" .
 <https://rdafr.fr/Rules#R509> <http://www.w3.org/ns/shacl#datatype> <http://www.w3.org/2000/01/rdf-schema#Literal> .
 <https://rdafr.fr/Rules#R509> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#Literal> .
@@ -604,7 +637,7 @@
 <https://rdafr.fr/Elements#P501005r> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#DatatypeProperty> .
 <https://rdafr.fr/Elements#P501005r> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements#C100004> .
 <https://rdafr.fr/Elements#P501005r> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements#P501005r> .
-<https://rdafr.fr/Elements#P501005r> <http://www.w3.org/2000/01/rdf-schema#label> "Le titre de la personne est un mot ou une expression indiquant un titre royal, un titre nobiliaire, un rang ou une fonction ecclésiastique, ou un titre de courtoisie pour un religieux.\nLe titre de la personne inclut d’autres termes indiquant un rang ou une fonction, y compris les initiales de titre universitaire, ou l’appartenance à un groupe.\nLe titre de la personne exclut les termes d’adresse qui indiquent uniquement le genre ou le statut marital (M., Mme,…)."@fr .
+<https://rdafr.fr/Elements#P501005r> <http://www.w3.org/2000/01/rdf-schema#label> "Titre de la personne"@fr .
 <https://rdafr.fr/Elements#P501005r> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements#P100008r> .
 <https://rdafr.fr/Elements#P501005r> <http://www.w3.org/2000/01/rdf-schema#comment> "Le titre de la personne est un mot ou une expression indiquant un titre royal, un titre nobiliaire, un rang ou une fonction ecclésiastique, ou un titre de courtoisie pour un religieux.\nLe titre de la personne inclut d’autres termes indiquant un rang ou une fonction, y compris les initiales de titre universitaire, ou l’appartenance à un groupe.\nLe titre de la personne exclut les termes d’adresse qui indiquent uniquement le genre ou le statut marital (M., Mme,…) [code RDA-FR, 9.3.2]"@fr .
 <https://rdafr.fr/Rules#R510> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
@@ -1093,38 +1126,18 @@
 <https://rdafr.fr/Rules#R546> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements#C100002> .
 <https://rdafr.fr/Rules#R546> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Rules#R546> <http://www.w3.org/ns/shacl#description> "Relation générique de collaboration entre une personne et un autre agent (personne, collectivité, famille) en vue de réaliser un projet commun dans la sphère professionnelle ou commerciale. Comprend les différents types de collaboration comme le partenariat, la relation contractuelle, la relation de financement, etc. Peut être utilisée comme une relation à part entière lorsqu'on n'a pas d'information sur le type précis de collaboration."@fr .
-<https://rdafr.fr/Rules#R547> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
-<https://rdafr.fr/Rules#R547> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P502353r> .
+<https://rdafr.fr/Rules#R547> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.1" .
+<https://rdafr.fr/Rules#R547> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P500053r> .
 <https://rdafr.fr/Rules#R547> <http://www.w3.org/ns/shacl#name> "finance [dans la relation]"@fr .
 <https://rdafr.fr/Rules#R547> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements#C100002> .
 <https://rdafr.fr/Rules#R547> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
-<https://rdafr.fr/Rules#R547> <http://www.w3.org/ns/shacl#description> "Relation de financement d'une personne envers un autre agent (personne, famille ou collectivité). Il s'agit d'une relation générique comprenant les différents types de financement comme la subvention, le parrainage ou le mécénat. Peut être utilisée comme relation distincte lorsqu'on ne connaît pas la nature précise du financement."@fr .
-<https://rdafr.fr/Elements#P502353r> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://rdafr.fr/Elements#P502353r> <http://www.w3.org/2002/07/owl#inverseOf> <https://rdafr.fr/Elements#P502353ri> .
-<https://rdafr.fr/Elements#P502353r> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements#C100004> .
-<https://rdafr.fr/Elements#P502353r> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements#C100005> .
-<https://rdafr.fr/Elements#P502353r> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements#P502353r> .
-<https://rdafr.fr/Elements#P502353r> <http://www.w3.org/2000/01/rdf-schema#label> "finance [dans la relation]"@fr .
-<https://rdafr.fr/Elements#P502353r> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P500046r> .
-<https://rdafr.fr/Elements#P502353r> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements#P500046r> .
-<https://rdafr.fr/Elements#P502353r> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation de financement d'une personne envers un autre agent (personne, famille ou collectivité). Il s'agit d'une relation générique comprenant les différents types de financement comme la subvention, le parrainage ou le mécénat. Peut être utilisée comme relation distincte lorsqu'on ne connaît pas la nature précise du financement."@fr .
-<https://rdafr.fr/Elements#P502353r> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation de financement d'une collectivité envers un agent (personne, famille ou collectivité). Il s'agit d'une relation générique comprenant les différents types de financement comme la subvention, le parrainage ou le mécénat. Peut être utilisée comme relation distincte lorsqu'on ne connaît pas la nature précise du financement."@fr .
-<https://rdafr.fr/Rules#R548> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
-<https://rdafr.fr/Rules#R548> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P502353ri> .
+<https://rdafr.fr/Rules#R547> <http://www.w3.org/ns/shacl#description> "Relation de financement d'un agent envers un autre agent. Il s'agit d'une relation générique comprenant les différents types de financement comme la subvention, le parrainage ou le mécénat. Peut être utilisée comme relation distincte lorsqu'on ne connaît pas la nature précise du financement."@fr .
+<https://rdafr.fr/Rules#R548> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.2" .
+<https://rdafr.fr/Rules#R548> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P500053ri> .
 <https://rdafr.fr/Rules#R548> <http://www.w3.org/ns/shacl#name> "est financé par [dans la relation]"@fr .
 <https://rdafr.fr/Rules#R548> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements#C100002> .
 <https://rdafr.fr/Rules#R548> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
-<https://rdafr.fr/Rules#R548> <http://www.w3.org/ns/shacl#description> "Relation de financement entre une personne et l'agent qui la finance. Il s'agit d'une relation générique comprenant les différents types de financement comme la subvention, le parrainage ou le mécénat. Peut être utilisée comme relation distincte lorsqu'on ne connaît pas la nature précise du financement."@fr .
-<https://rdafr.fr/Elements#P502353ri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://rdafr.fr/Elements#P502353ri> <http://www.w3.org/2002/07/owl#inverseOf> <https://rdafr.fr/Elements#P502353r> .
-<https://rdafr.fr/Elements#P502353ri> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements#C100004> .
-<https://rdafr.fr/Elements#P502353ri> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements#C100005> .
-<https://rdafr.fr/Elements#P502353ri> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements#P502353r> .
-<https://rdafr.fr/Elements#P502353ri> <http://www.w3.org/2000/01/rdf-schema#label> "est financé par [dans la relation]"@fr .
-<https://rdafr.fr/Elements#P502353ri> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P500046r> .
-<https://rdafr.fr/Elements#P502353ri> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements#P500046r> .
-<https://rdafr.fr/Elements#P502353ri> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation de financement entre une personne et l'agent qui la finance. Il s'agit d'une relation générique comprenant les différents types de financement comme la subvention, le parrainage ou le mécénat. Peut être utilisée comme relation distincte lorsqu'on ne connaît pas la nature précise du financement."@fr .
-<https://rdafr.fr/Elements#P502353ri> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation de financement entre une collectivité et l'agent (personne, famille ou collectivité) qui la finance. Il s'agit d'une relation générique comprenant les différents types de financement comme la subvention, le parrainage ou le mécénat. Peut être utilisée comme relation distincte lorsqu'on ne connaît pas la nature précise du financement."@fr .
+<https://rdafr.fr/Rules#R548> <http://www.w3.org/ns/shacl#description> "Relation de financement entre un agent et l'agent qui la finance. Il s'agit d'une relation générique comprenant les différents types de financement comme la subvention, le parrainage ou le mécénat. Peut être utilisée comme relation distincte lorsqu'on ne connaît pas la nature précise du financement."@fr .
 <https://rdafr.fr/Rules#R549> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
 <https://rdafr.fr/Rules#R549> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P501031r> .
 <https://rdafr.fr/Rules#R549> <http://www.w3.org/ns/shacl#name> "personne finance la personne [dans la relation]"@fr .
@@ -1136,8 +1149,8 @@
 <https://rdafr.fr/Elements#P501031r> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements#C100004> .
 <https://rdafr.fr/Elements#P501031r> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements#P501031r> .
 <https://rdafr.fr/Elements#P501031r> <http://www.w3.org/2000/01/rdf-schema#label> "personne finance la personne [dans la relation]"@fr .
-<https://rdafr.fr/Elements#P501031r> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P502353r> .
-<https://rdafr.fr/Elements#P501031r> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements#P502353r> .
+<https://rdafr.fr/Elements#P501031r> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P500053r> .
+<https://rdafr.fr/Elements#P501031r> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements#P500053r> .
 <https://rdafr.fr/Elements#P501031r> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation de financement d'une personne envers une autre personne."@fr .
 <https://rdafr.fr/Rules#R550> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
 <https://rdafr.fr/Rules#R550> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P501031ri> .
@@ -1150,7 +1163,7 @@
 <https://rdafr.fr/Elements#P501031ri> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements#C100004> .
 <https://rdafr.fr/Elements#P501031ri> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements#P501031r> .
 <https://rdafr.fr/Elements#P501031ri> <http://www.w3.org/2000/01/rdf-schema#label> "personne est financée par la personne [dans la relation]"@fr .
-<https://rdafr.fr/Elements#P501031ri> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P502353ri> .
+<https://rdafr.fr/Elements#P501031ri> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P500053ri> .
 <https://rdafr.fr/Elements#P501031ri> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation de financement entre une personne et la personne qui la finance."@fr .
 <https://rdafr.fr/Rules#R551> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
 <https://rdafr.fr/Rules#R551> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P501032r> .
@@ -1163,62 +1176,67 @@
 <https://rdafr.fr/Elements#P501032r> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements#C100004> .
 <https://rdafr.fr/Elements#P501032r> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements#P501032r> .
 <https://rdafr.fr/Elements#P501032r> <http://www.w3.org/2000/01/rdf-schema#label> "personne finance la collectivité [dans la relation]"@fr .
-<https://rdafr.fr/Elements#P501032r> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P502353r> .
-<https://rdafr.fr/Elements#P501032r> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements#P502353r> .
+<https://rdafr.fr/Elements#P501032r> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P500053r> .
+<https://rdafr.fr/Elements#P501032r> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements#P500053r> .
 <https://rdafr.fr/Elements#P501032r> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation de financement d'une personne envers une collectivité."@fr .
 <https://rdafr.fr/Rules#R552> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
-<https://rdafr.fr/Rules#R552> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P501035r> .
+<https://rdafr.fr/Rules#R552> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P502377ri> .
 <https://rdafr.fr/Rules#R552> <http://www.w3.org/ns/shacl#name> "personne est financée par la collectivité [dans la relation]"@fr .
 <https://rdafr.fr/Rules#R552> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements#C100005> .
 <https://rdafr.fr/Rules#R552> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Rules#R552> <http://www.w3.org/ns/shacl#description> "Relation de financement entre une personne et la collectivité qui la finance."@fr .
-<https://rdafr.fr/Elements#P501035r> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://rdafr.fr/Elements#P501035r> <http://www.w3.org/2002/07/owl#inverseOf> <https://rdafr.fr/Elements#P501035ri> .
-<https://rdafr.fr/Elements#P501035r> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements#C100004> .
-<https://rdafr.fr/Elements#P501035r> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements#P501035r> .
-<https://rdafr.fr/Elements#P501035r> <http://www.w3.org/2000/01/rdf-schema#label> "personne est financée par la collectivité [dans la relation]"@fr .
-<https://rdafr.fr/Elements#P501035r> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P502353ri> .
-<https://rdafr.fr/Elements#P501035r> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation de financement entre une personne et la collectivité qui la finance."@fr .
+<https://rdafr.fr/Elements#P502377ri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://rdafr.fr/Elements#P502377ri> <http://www.w3.org/2002/07/owl#inverseOf> <https://rdafr.fr/Elements#P502377r> .
+<https://rdafr.fr/Elements#P502377ri> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements#C100004> .
+<https://rdafr.fr/Elements#P502377ri> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements#C100005> .
+<https://rdafr.fr/Elements#P502377ri> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements#P502377r> .
+<https://rdafr.fr/Elements#P502377ri> <http://www.w3.org/2000/01/rdf-schema#label> "personne est financée par la collectivité [dans la relation]"@fr .
+<https://rdafr.fr/Elements#P502377ri> <http://www.w3.org/2000/01/rdf-schema#label> "est résultat de la scision de [dans la relation]"@fr .
+<https://rdafr.fr/Elements#P502377ri> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P500053ri> .
+<https://rdafr.fr/Elements#P502377ri> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P502370r> .
+<https://rdafr.fr/Elements#P502377ri> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation de financement entre une personne et la collectivité qui la finance."@fr .
+<https://rdafr.fr/Elements#P502377ri> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation entre une des collectivités résultant de la scission d'une collectivité et la collectivité qui a été scindée."@fr .
+<https://rdafr.fr/Elements#P502377ri> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements#P502370r> .
 <https://rdafr.fr/Rules#R553> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
-<https://rdafr.fr/Rules#R553> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P505004ri> .
+<https://rdafr.fr/Rules#R553> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P501088r> .
 <https://rdafr.fr/Rules#R553> <http://www.w3.org/ns/shacl#name> "personne finance la famille [dans la relation]"@fr .
 <https://rdafr.fr/Rules#R553> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements#C100008> .
 <https://rdafr.fr/Rules#R553> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Rules#R553> <http://www.w3.org/ns/shacl#description> "Relation de financement d'une personne envers une famille."@fr .
-<https://rdafr.fr/Elements#P505004ri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://rdafr.fr/Elements#P505004ri> <http://www.w3.org/2002/07/owl#inverseOf> <https://rdafr.fr/Elements#P505004r> .
-<https://rdafr.fr/Elements#P505004ri> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements#C100004> .
-<https://rdafr.fr/Elements#P505004ri> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements#P505004r> .
-<https://rdafr.fr/Elements#P505004ri> <http://www.w3.org/2000/01/rdf-schema#label> "personne finance la famille [dans la relation]"@fr .
-<https://rdafr.fr/Elements#P505004ri> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P502353r> .
-<https://rdafr.fr/Elements#P505004ri> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements#P502353r> .
-<https://rdafr.fr/Elements#P505004ri> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation de financement d'une personne envers une famille."@fr .
+<https://rdafr.fr/Elements#P501088r> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://rdafr.fr/Elements#P501088r> <http://www.w3.org/2002/07/owl#inverseOf> <https://rdafr.fr/Elements#P501088ri> .
+<https://rdafr.fr/Elements#P501088r> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements#C100004> .
+<https://rdafr.fr/Elements#P501088r> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements#P501088r> .
+<https://rdafr.fr/Elements#P501088r> <http://www.w3.org/2000/01/rdf-schema#label> "personne finance la famille [dans la relation]"@fr .
+<https://rdafr.fr/Elements#P501088r> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P500053r> .
+<https://rdafr.fr/Elements#P501088r> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements#P500053r> .
+<https://rdafr.fr/Elements#P501088r> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation de financement d'une personne envers une famille."@fr .
 <https://rdafr.fr/Rules#R554> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
-<https://rdafr.fr/Rules#R554> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P501036r> .
+<https://rdafr.fr/Rules#R554> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P505013ri> .
 <https://rdafr.fr/Rules#R554> <http://www.w3.org/ns/shacl#name> "personne est financée par la famille [dans la relation]"@fr .
 <https://rdafr.fr/Rules#R554> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements#C100008> .
 <https://rdafr.fr/Rules#R554> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Rules#R554> <http://www.w3.org/ns/shacl#description> "Relation de financement entre une personne et la famille qui la finance."@fr .
-<https://rdafr.fr/Elements#P501036r> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://rdafr.fr/Elements#P501036r> <http://www.w3.org/2002/07/owl#inverseOf> <https://rdafr.fr/Elements#P501036ri> .
-<https://rdafr.fr/Elements#P501036r> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements#C100004> .
-<https://rdafr.fr/Elements#P501036r> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements#P501036r> .
-<https://rdafr.fr/Elements#P501036r> <http://www.w3.org/2000/01/rdf-schema#label> "personne est financée par la famille [dans la relation]"@fr .
-<https://rdafr.fr/Elements#P501036r> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P502353ri> .
-<https://rdafr.fr/Elements#P501036r> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation de financement entre une personne et la famille qui la finance."@fr .
+<https://rdafr.fr/Elements#P505013ri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://rdafr.fr/Elements#P505013ri> <http://www.w3.org/2002/07/owl#inverseOf> <https://rdafr.fr/Elements#P505013r> .
+<https://rdafr.fr/Elements#P505013ri> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements#C100004> .
+<https://rdafr.fr/Elements#P505013ri> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements#P505013r> .
+<https://rdafr.fr/Elements#P505013ri> <http://www.w3.org/2000/01/rdf-schema#label> "personne est financée par la famille [dans la relation]"@fr .
+<https://rdafr.fr/Elements#P505013ri> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P500053ri> .
+<https://rdafr.fr/Elements#P505013ri> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation de financement entre une personne et la famille qui la finance."@fr .
 <https://rdafr.fr/Rules#R555> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
-<https://rdafr.fr/Rules#R555> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P501037r> .
+<https://rdafr.fr/Rules#R555> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P502379ri> .
 <https://rdafr.fr/Rules#R555> <http://www.w3.org/ns/shacl#name> "personne est subventionnée par la collectivité [dans la relation]"@fr .
 <https://rdafr.fr/Rules#R555> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements#C100005> .
 <https://rdafr.fr/Rules#R555> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Rules#R555> <http://www.w3.org/ns/shacl#description> "Relation entre une personne et la collectivité qui la subventionne. Il s'agit de soutien financier du secteur public."@fr .
-<https://rdafr.fr/Elements#P501037r> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://rdafr.fr/Elements#P501037r> <http://www.w3.org/2002/07/owl#inverseOf> <https://rdafr.fr/Elements#P501037ri> .
-<https://rdafr.fr/Elements#P501037r> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements#C100004> .
-<https://rdafr.fr/Elements#P501037r> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements#P501037r> .
-<https://rdafr.fr/Elements#P501037r> <http://www.w3.org/2000/01/rdf-schema#label> "personne est subventionnée par la collectivité [dans la relation]"@fr .
-<https://rdafr.fr/Elements#P501037r> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P502353ri> .
-<https://rdafr.fr/Elements#P501037r> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation entre une personne et la collectivité qui la subventionne. Il s'agit de soutien financier du secteur public."@fr .
+<https://rdafr.fr/Elements#P502379ri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://rdafr.fr/Elements#P502379ri> <http://www.w3.org/2002/07/owl#inverseOf> <https://rdafr.fr/Elements#P502379r> .
+<https://rdafr.fr/Elements#P502379ri> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements#C100004> .
+<https://rdafr.fr/Elements#P502379ri> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements#P502379r> .
+<https://rdafr.fr/Elements#P502379ri> <http://www.w3.org/2000/01/rdf-schema#label> "personne est subventionnée par la collectivité [dans la relation]"@fr .
+<https://rdafr.fr/Elements#P502379ri> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P500053ri> .
+<https://rdafr.fr/Elements#P502379ri> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation entre une personne et la collectivité qui la subventionne. Il s'agit de soutien financier du secteur public."@fr .
 <https://rdafr.fr/Rules#R556> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
 <https://rdafr.fr/Rules#R556> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P501042r> .
 <https://rdafr.fr/Rules#R556> <http://www.w3.org/ns/shacl#name> "est mécène de [dans la relation]"@fr .
@@ -1254,9 +1272,11 @@
 <https://rdafr.fr/Rules#R558> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Rules#R558> <http://www.w3.org/ns/shacl#description> "Relation entre une personne qui apporte un soutien matériel pour l'exercice d'activités présentant un intérêt général et la collectivité bénficiaire de ce soutien. Le parraineur retire un bénéfice direct du soutien qu'il apporte."@fr .
 <https://rdafr.fr/Elements#P501043r> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://rdafr.fr/Elements#P501043r> <http://www.w3.org/2002/07/owl#inverseOf> <https://rdafr.fr/Elements#P501043ri> .
 <https://rdafr.fr/Elements#P501043r> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements#C100004> .
 <https://rdafr.fr/Elements#P501043r> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements#P501043r> .
 <https://rdafr.fr/Elements#P501043r> <http://www.w3.org/2000/01/rdf-schema#label> "est parraineur de [dans la relation]"@fr .
+<https://rdafr.fr/Elements#P501043r> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements#P100001r> .
 <https://rdafr.fr/Elements#P501043r> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation entre une personne qui apporte un soutien matériel pour l'exercice d'activités présentant un intérêt général et la collectivité bénficiaire de ce soutien. Le parraineur retire un bénéfice direct du soutien qu'il apporte."@fr .
 <https://rdafr.fr/Rules#R559> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
 <https://rdafr.fr/Rules#R559> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P501043ri> .
@@ -1265,8 +1285,11 @@
 <https://rdafr.fr/Rules#R559> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Rules#R559> <http://www.w3.org/ns/shacl#description> "Relation entre une personne bénéficiaire d'un soutien matériel pour l'exercice d'activités présentant un intérêt général et la collectivité qui lui apporte ce soutien. Le parraineur retire un bénéfice direct du soutien qu'il apporte."@fr .
 <https://rdafr.fr/Elements#P501043ri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://rdafr.fr/Elements#P501043ri> <http://www.w3.org/2002/07/owl#inverseOf> <https://rdafr.fr/Elements#P501043r> .
 <https://rdafr.fr/Elements#P501043ri> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements#C100004> .
+<https://rdafr.fr/Elements#P501043ri> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements#P501043r> .
 <https://rdafr.fr/Elements#P501043ri> <http://www.w3.org/2000/01/rdf-schema#label> "a pour parraineur [dans la relation]"@fr .
+<https://rdafr.fr/Elements#P501043ri> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements#P100001r> .
 <https://rdafr.fr/Elements#P501043ri> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation entre une personne bénéficiaire d'un soutien matériel pour l'exercice d'activités présentant un intérêt général et la collectivité qui lui apporte ce soutien. Le parraineur retire un bénéfice direct du soutien qu'il apporte."@fr .
 <https://rdafr.fr/Rules#R560> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
 <https://rdafr.fr/Rules#R560> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P500050r> .
@@ -2148,12 +2171,17 @@
 <https://rdafr.fr/Rules#P751> <http://www.w3.org/ns/shacl#description> "Relation entre une collectivité et la famille qui la dirige."@fr .
 <https://rdafr.fr/Elements#P505012ri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://rdafr.fr/Elements#P505012ri> <http://www.w3.org/2002/07/owl#inverseOf> <https://rdafr.fr/Elements#P505012r> .
+<https://rdafr.fr/Elements#P505012ri> <http://www.w3.org/2002/07/owl#inverseOf> <https://rdafr.fr/Elements#P505012ri> .
 <https://rdafr.fr/Elements#P505012ri> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements#C100005> .
 <https://rdafr.fr/Elements#P505012ri> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements#P505012r> .
+<https://rdafr.fr/Elements#P505012ri> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements#P505012ri> .
 <https://rdafr.fr/Elements#P505012ri> <http://www.w3.org/2000/01/rdf-schema#label> "collectivité est dirigée par la famille [dans la relation]"@fr .
+<https://rdafr.fr/Elements#P505012ri> <http://www.w3.org/2000/01/rdf-schema#label> "collectivité est financée par la famille [dans la relation]"@fr .
 <https://rdafr.fr/Elements#P505012ri> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P502336r> .
+<https://rdafr.fr/Elements#P505012ri> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P500053ri> .
 <https://rdafr.fr/Elements#P505012ri> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements#P502336r> .
 <https://rdafr.fr/Elements#P505012ri> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation entre une collectivité et la famille qui la dirige."@fr .
+<https://rdafr.fr/Elements#P505012ri> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation de financement entre une collectivité et la famille qui la finance. Il s'agit d'une relation générique comprenant les différents types de financement comme la subvention, le parrainage ou le mécénat. Peut être utilisée comme relation distincte lorsqu'on ne connaît pas la nature précise du financement."@fr .
 <https://rdafr.fr/Rules#P752> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
 <https://rdafr.fr/Rules#P752> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P502337r> .
 <https://rdafr.fr/Rules#P752> <http://www.w3.org/ns/shacl#name> "a pour subordonnée [dans la relation]"@fr .
@@ -2221,6 +2249,7 @@
 <https://rdafr.fr/Elements#P502341r> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements#P502341r> .
 <https://rdafr.fr/Elements#P502341r> <http://www.w3.org/2000/01/rdf-schema#label> "contrôle [dans la relation]"@fr .
 <https://rdafr.fr/Elements#P502341r> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P502339r> .
+<https://rdafr.fr/Elements#P502341r> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements#P502339r> .
 <https://rdafr.fr/Elements#P502341r> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation entre une collectivité et la collectivité qu'elle contrôle."@fr .
 <https://rdafr.fr/Rules#P757> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
 <https://rdafr.fr/Rules#P757> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P502341ri> .
@@ -2247,6 +2276,7 @@
 <https://rdafr.fr/Elements#P502343r> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements#P502343r> .
 <https://rdafr.fr/Elements#P502343r> <http://www.w3.org/2000/01/rdf-schema#label> "est la tutelle de [dans la relation]"@fr .
 <https://rdafr.fr/Elements#P502343r> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P502339r> .
+<https://rdafr.fr/Elements#P502343r> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements#P502339r> .
 <https://rdafr.fr/Elements#P502343r> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation entre une collectivité et la collectivité qui est sous sa tutelle."@fr .
 <https://rdafr.fr/Rules#P759> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
 <https://rdafr.fr/Rules#P759> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P502343ri> .
@@ -2442,31 +2472,35 @@
 <https://rdafr.fr/Rules#P773> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Rules#P773> <http://www.w3.org/ns/shacl#description> "Relation générique de collaboration entre une collectivité et un autre agent (personne, collectivité ou famille) en vue de réaliser un projet commun dans la sphère professionnelle ou commerciale. Comprend les différents types de collaboration comme le partenariat, la relation contractuelle, la relation de financement, etc. Peut être utilisée comme une relation à part entière lorsqu'on n'a pas d'information sur le type précis de collaboration."@fr .
 <https://rdafr.fr/Rules#P774> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
-<https://rdafr.fr/Rules#P774> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P502353r> .
+<https://rdafr.fr/Rules#P774> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P500053r> .
 <https://rdafr.fr/Rules#P774> <http://www.w3.org/ns/shacl#name> "finance [dans la relation]"@fr .
 <https://rdafr.fr/Rules#P774> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements#C100002> .
 <https://rdafr.fr/Rules#P774> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
-<https://rdafr.fr/Rules#P774> <http://www.w3.org/ns/shacl#description> "Relation de financement d'une collectivité envers un agent (personne, famille ou collectivité). Il s'agit d'une relation générique comprenant les différents types de financement comme la subvention, le parrainage ou le mécénat. Peut être utilisée comme relation distincte lorsqu'on ne connaît pas la nature précise du financement."@fr .
+<https://rdafr.fr/Rules#P774> <http://www.w3.org/ns/shacl#description> "Relation de financement d'un agent envers un autre agent. Il s'agit d'une relation générique comprenant les différents types de financement comme la subvention, le parrainage ou le mécénat. Peut être utilisée comme relation distincte lorsqu'on ne connaît pas la nature précise du financement."@fr .
 <https://rdafr.fr/Rules#P775> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
-<https://rdafr.fr/Rules#P775> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P502353ri> .
+<https://rdafr.fr/Rules#P775> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P500053ri> .
 <https://rdafr.fr/Rules#P775> <http://www.w3.org/ns/shacl#name> "est financé par [dans la relation]"@fr .
 <https://rdafr.fr/Rules#P775> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements#C100002> .
 <https://rdafr.fr/Rules#P775> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
-<https://rdafr.fr/Rules#P775> <http://www.w3.org/ns/shacl#description> "Relation de financement entre une collectivité et l'agent (personne, famille ou collectivité) qui la finance. Il s'agit d'une relation générique comprenant les différents types de financement comme la subvention, le parrainage ou le mécénat. Peut être utilisée comme relation distincte lorsqu'on ne connaît pas la nature précise du financement."@fr .
+<https://rdafr.fr/Rules#P775> <http://www.w3.org/ns/shacl#description> "Relation de financement entre un agent et l'agent qui la finance. Il s'agit d'une relation générique comprenant les différents types de financement comme la subvention, le parrainage ou le mécénat. Peut être utilisée comme relation distincte lorsqu'on ne connaît pas la nature précise du financement."@fr .
 <https://rdafr.fr/Rules#P776> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
-<https://rdafr.fr/Rules#P776> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P501035ri> .
+<https://rdafr.fr/Rules#P776> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P502377r> .
 <https://rdafr.fr/Rules#P776> <http://www.w3.org/ns/shacl#name> "collectivité finance la personne [dans la relation]"@fr .
 <https://rdafr.fr/Rules#P776> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements#C100004> .
 <https://rdafr.fr/Rules#P776> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Rules#P776> <http://www.w3.org/ns/shacl#description> "Relation de financement d'une collectivité envers une personne. Il s'agit d'une relation générique comprenant les différents types de financement comme la subvention, le parrainage ou le mécénat. Peut être utilisée comme relation distincte lorsqu'on ne connaît pas la nature précise du financement."@fr .
-<https://rdafr.fr/Elements#P501035ri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://rdafr.fr/Elements#P501035ri> <http://www.w3.org/2002/07/owl#inverseOf> <https://rdafr.fr/Elements#P501035r> .
-<https://rdafr.fr/Elements#P501035ri> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements#C100005> .
-<https://rdafr.fr/Elements#P501035ri> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements#P501035r> .
-<https://rdafr.fr/Elements#P501035ri> <http://www.w3.org/2000/01/rdf-schema#label> "collectivité finance la personne [dans la relation]"@fr .
-<https://rdafr.fr/Elements#P501035ri> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P502353r> .
-<https://rdafr.fr/Elements#P501035ri> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements#P502353r> .
-<https://rdafr.fr/Elements#P501035ri> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation de financement d'une collectivité envers une personne. Il s'agit d'une relation générique comprenant les différents types de financement comme la subvention, le parrainage ou le mécénat. Peut être utilisée comme relation distincte lorsqu'on ne connaît pas la nature précise du financement."@fr .
+<https://rdafr.fr/Elements#P502377r> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://rdafr.fr/Elements#P502377r> <http://www.w3.org/2002/07/owl#inverseOf> <https://rdafr.fr/Elements#P502377ri> .
+<https://rdafr.fr/Elements#P502377r> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements#C100005> .
+<https://rdafr.fr/Elements#P502377r> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements#P502377r> .
+<https://rdafr.fr/Elements#P502377r> <http://www.w3.org/2000/01/rdf-schema#label> "collectivité finance la personne [dans la relation]"@fr .
+<https://rdafr.fr/Elements#P502377r> <http://www.w3.org/2000/01/rdf-schema#label> "est scindé en [dans la relation]"@fr .
+<https://rdafr.fr/Elements#P502377r> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P500053r> .
+<https://rdafr.fr/Elements#P502377r> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P502370r> .
+<https://rdafr.fr/Elements#P502377r> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements#P500053r> .
+<https://rdafr.fr/Elements#P502377r> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements#P502370r> .
+<https://rdafr.fr/Elements#P502377r> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation de financement d'une collectivité envers une personne. Il s'agit d'une relation générique comprenant les différents types de financement comme la subvention, le parrainage ou le mécénat. Peut être utilisée comme relation distincte lorsqu'on ne connaît pas la nature précise du financement."@fr .
+<https://rdafr.fr/Elements#P502377r> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation entre une collectivité qui a été scindée et une des collectivités qui ont résultées de cette scission."@fr .
 <https://rdafr.fr/Rules#P777> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
 <https://rdafr.fr/Rules#P777> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P501032ri> .
 <https://rdafr.fr/Rules#P777> <http://www.w3.org/ns/shacl#name> "collectivité est financée par la personne [dans la relation]"@fr .
@@ -2478,7 +2512,7 @@
 <https://rdafr.fr/Elements#P501032ri> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements#C100005> .
 <https://rdafr.fr/Elements#P501032ri> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements#P501032r> .
 <https://rdafr.fr/Elements#P501032ri> <http://www.w3.org/2000/01/rdf-schema#label> "collectivité est financée par la personne [dans la relation]"@fr .
-<https://rdafr.fr/Elements#P501032ri> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P502353ri> .
+<https://rdafr.fr/Elements#P501032ri> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P500053ri> .
 <https://rdafr.fr/Elements#P501032ri> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation de financement entre une collectivité et la personne qui la finance. Il s'agit d'une relation générique comprenant les différents types de financement comme la subvention, le parrainage ou le mécénat. Peut être utilisée comme relation distincte lorsqu'on ne connaît pas la nature précise du financement."@fr .
 <https://rdafr.fr/Rules#P778> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
 <https://rdafr.fr/Rules#P778> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P502354r> .
@@ -2491,8 +2525,8 @@
 <https://rdafr.fr/Elements#P502354r> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements#C100005> .
 <https://rdafr.fr/Elements#P502354r> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements#P502354r> .
 <https://rdafr.fr/Elements#P502354r> <http://www.w3.org/2000/01/rdf-schema#label> "collectivité finance la collectivité [dans la relation]"@fr .
-<https://rdafr.fr/Elements#P502354r> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P502353r> .
-<https://rdafr.fr/Elements#P502354r> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements#P502353r> .
+<https://rdafr.fr/Elements#P502354r> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P500053r> .
+<https://rdafr.fr/Elements#P502354r> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements#P500053r> .
 <https://rdafr.fr/Elements#P502354r> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation de financement d'une collectivité envers une autre collectivité. Il s'agit d'une relation générique comprenant les différents types de financement comme la subvention, le parrainage ou le mécénat. Peut être utilisée comme relation distincte lorsqu'on ne connaît pas la nature précise du financement."@fr .
 <https://rdafr.fr/Rules#P779> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
 <https://rdafr.fr/Rules#P779> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P502354ri> .
@@ -2505,35 +2539,28 @@
 <https://rdafr.fr/Elements#P502354ri> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements#C100005> .
 <https://rdafr.fr/Elements#P502354ri> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements#P502354r> .
 <https://rdafr.fr/Elements#P502354ri> <http://www.w3.org/2000/01/rdf-schema#label> "collectivité est financée par la collectivité [dans la relation]"@fr .
-<https://rdafr.fr/Elements#P502354ri> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P502353ri> .
+<https://rdafr.fr/Elements#P502354ri> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P500053ri> .
 <https://rdafr.fr/Elements#P502354ri> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation de financement entre une collectivité et la collectivité qui la finance. Il s'agit d'une relation générique comprenant les différents types de financement comme la subvention, le parrainage ou le mécénat. Peut être utilisée comme relation distincte lorsqu'on ne connaît pas la nature précise du financement."@fr .
 <https://rdafr.fr/Rules#P780> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
-<https://rdafr.fr/Rules#P780> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P505005ri> .
+<https://rdafr.fr/Rules#P780> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P505005r> .
 <https://rdafr.fr/Rules#P780> <http://www.w3.org/ns/shacl#name> "collectivité finance la famille [dans la relation]"@fr .
 <https://rdafr.fr/Rules#P780> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements#C100008> .
 <https://rdafr.fr/Rules#P780> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Rules#P780> <http://www.w3.org/ns/shacl#description> "Relation de financement d'une collectivité envers une famille. Il s'agit d'une relation générique comprenant les différents types de financement comme la subvention, le parrainage ou le mécénat. Peut être utilisée comme relation distincte lorsqu'on ne connaît pas la nature précise du financement."@fr .
-<https://rdafr.fr/Elements#P505005ri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://rdafr.fr/Elements#P505005ri> <http://www.w3.org/2002/07/owl#inverseOf> <https://rdafr.fr/Elements#P505005r> .
-<https://rdafr.fr/Elements#P505005ri> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements#C100005> .
-<https://rdafr.fr/Elements#P505005ri> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements#P505005r> .
-<https://rdafr.fr/Elements#P505005ri> <http://www.w3.org/2000/01/rdf-schema#label> "collectivité finance la famille [dans la relation]"@fr .
-<https://rdafr.fr/Elements#P505005ri> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P502353r> .
-<https://rdafr.fr/Elements#P505005ri> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements#P502353r> .
-<https://rdafr.fr/Elements#P505005ri> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation de financement d'une collectivité envers une famille. Il s'agit d'une relation générique comprenant les différents types de financement comme la subvention, le parrainage ou le mécénat. Peut être utilisée comme relation distincte lorsqu'on ne connaît pas la nature précise du financement."@fr .
+<https://rdafr.fr/Elements#P505005r> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://rdafr.fr/Elements#P505005r> <http://www.w3.org/2002/07/owl#inverseOf> <https://rdafr.fr/Elements#P505005ri> .
+<https://rdafr.fr/Elements#P505005r> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements#C100005> .
+<https://rdafr.fr/Elements#P505005r> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements#P505005r> .
+<https://rdafr.fr/Elements#P505005r> <http://www.w3.org/2000/01/rdf-schema#label> "collectivité finance la famille [dans la relation]"@fr .
+<https://rdafr.fr/Elements#P505005r> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P500053r> .
+<https://rdafr.fr/Elements#P505005r> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements#P500053r> .
+<https://rdafr.fr/Elements#P505005r> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation de financement d'une collectivité envers une famille. Il s'agit d'une relation générique comprenant les différents types de financement comme la subvention, le parrainage ou le mécénat. Peut être utilisée comme relation distincte lorsqu'on ne connaît pas la nature précise du financement."@fr .
 <https://rdafr.fr/Rules#P781> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
-<https://rdafr.fr/Rules#P781> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P502356r> .
+<https://rdafr.fr/Rules#P781> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P505012ri> .
 <https://rdafr.fr/Rules#P781> <http://www.w3.org/ns/shacl#name> "collectivité est financée par la famille [dans la relation]"@fr .
 <https://rdafr.fr/Rules#P781> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements#C100008> .
 <https://rdafr.fr/Rules#P781> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Rules#P781> <http://www.w3.org/ns/shacl#description> "Relation de financement entre une collectivité et la famille qui la finance. Il s'agit d'une relation générique comprenant les différents types de financement comme la subvention, le parrainage ou le mécénat. Peut être utilisée comme relation distincte lorsqu'on ne connaît pas la nature précise du financement."@fr .
-<https://rdafr.fr/Elements#P502356r> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://rdafr.fr/Elements#P502356r> <http://www.w3.org/2002/07/owl#inverseOf> <https://rdafr.fr/Elements#P502356ri> .
-<https://rdafr.fr/Elements#P502356r> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements#C100005> .
-<https://rdafr.fr/Elements#P502356r> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements#P502356r> .
-<https://rdafr.fr/Elements#P502356r> <http://www.w3.org/2000/01/rdf-schema#label> "collectivité est financée par la famille [dans la relation]"@fr .
-<https://rdafr.fr/Elements#P502356r> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P502353ri> .
-<https://rdafr.fr/Elements#P502356r> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation de financement entre une collectivité et la famille qui la finance. Il s'agit d'une relation générique comprenant les différents types de financement comme la subvention, le parrainage ou le mécénat. Peut être utilisée comme relation distincte lorsqu'on ne connaît pas la nature précise du financement."@fr .
 <https://rdafr.fr/Rules#P782> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
 <https://rdafr.fr/Rules#P782> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P502355r> .
 <https://rdafr.fr/Rules#P782> <http://www.w3.org/ns/shacl#name> "collectivité subventionne la collectivité [dans la relation]"@fr .
@@ -2545,8 +2572,8 @@
 <https://rdafr.fr/Elements#P502355r> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements#C100005> .
 <https://rdafr.fr/Elements#P502355r> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements#P502355r> .
 <https://rdafr.fr/Elements#P502355r> <http://www.w3.org/2000/01/rdf-schema#label> "collectivité subventionne la collectivité [dans la relation]"@fr .
-<https://rdafr.fr/Elements#P502355r> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P502353r> .
-<https://rdafr.fr/Elements#P502355r> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements#P502353r> .
+<https://rdafr.fr/Elements#P502355r> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P500053r> .
+<https://rdafr.fr/Elements#P502355r> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements#P500053r> .
 <https://rdafr.fr/Elements#P502355r> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation entre une collectivité et la collectivité qu'elle subventionne. Il s'agit de soutien financier du secteur public aux acteurs du secteur public ou privé."@fr .
 <https://rdafr.fr/Rules#P783> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
 <https://rdafr.fr/Rules#P783> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P502355ri> .
@@ -2559,22 +2586,22 @@
 <https://rdafr.fr/Elements#P502355ri> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements#C100005> .
 <https://rdafr.fr/Elements#P502355ri> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements#P502355r> .
 <https://rdafr.fr/Elements#P502355ri> <http://www.w3.org/2000/01/rdf-schema#label> "collectivité est subventionné par la collectivité [dans la relation]"@fr .
-<https://rdafr.fr/Elements#P502355ri> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P502353ri> .
+<https://rdafr.fr/Elements#P502355ri> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P500053ri> .
 <https://rdafr.fr/Elements#P502355ri> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation entre une collectivité et la collectivité qui la subventionne. Il s’agit de soutien du secteur public aux acteurs du secteur public ou privé."@fr .
 <https://rdafr.fr/Rules#P784> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
-<https://rdafr.fr/Rules#P784> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P501037ri> .
+<https://rdafr.fr/Rules#P784> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P502379r> .
 <https://rdafr.fr/Rules#P784> <http://www.w3.org/ns/shacl#name> "collectivité subventionne la personne[dans la relation]"@fr .
 <https://rdafr.fr/Rules#P784> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements#C100004> .
 <https://rdafr.fr/Rules#P784> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Rules#P784> <http://www.w3.org/ns/shacl#description> "Relation entre une collectivité et la personne qu'elle subventionne. Il s'agit de soutien financier du secteur public."@fr .
-<https://rdafr.fr/Elements#P501037ri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://rdafr.fr/Elements#P501037ri> <http://www.w3.org/2002/07/owl#inverseOf> <https://rdafr.fr/Elements#P501037r> .
-<https://rdafr.fr/Elements#P501037ri> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements#C100005> .
-<https://rdafr.fr/Elements#P501037ri> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements#P501037r> .
-<https://rdafr.fr/Elements#P501037ri> <http://www.w3.org/2000/01/rdf-schema#label> "collectivité subventionne la personne[dans la relation]"@fr .
-<https://rdafr.fr/Elements#P501037ri> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P502353r> .
-<https://rdafr.fr/Elements#P501037ri> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements#P502353r> .
-<https://rdafr.fr/Elements#P501037ri> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation entre une collectivité et la personne qu'elle subventionne. Il s'agit de soutien financier du secteur public."@fr .
+<https://rdafr.fr/Elements#P502379r> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://rdafr.fr/Elements#P502379r> <http://www.w3.org/2002/07/owl#inverseOf> <https://rdafr.fr/Elements#P502379ri> .
+<https://rdafr.fr/Elements#P502379r> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements#C100005> .
+<https://rdafr.fr/Elements#P502379r> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements#P502379r> .
+<https://rdafr.fr/Elements#P502379r> <http://www.w3.org/2000/01/rdf-schema#label> "collectivité subventionne la personne[dans la relation]"@fr .
+<https://rdafr.fr/Elements#P502379r> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P500053r> .
+<https://rdafr.fr/Elements#P502379r> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements#P500053r> .
+<https://rdafr.fr/Elements#P502379r> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation entre une collectivité et la personne qu'elle subventionne. Il s'agit de soutien financier du secteur public."@fr .
 <https://rdafr.fr/Rules#P785> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
 <https://rdafr.fr/Rules#P785> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P502366r> .
 <https://rdafr.fr/Rules#P785> <http://www.w3.org/ns/shacl#name> "agrée [dans la relation]"@fr .
@@ -2897,28 +2924,12 @@
 <https://rdafr.fr/Rules#R808> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements#C100005> .
 <https://rdafr.fr/Rules#R808> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Rules#R808> <http://www.w3.org/ns/shacl#description> "Relation entre une collectivité qui a été scindée et une des collectivités qui ont résultées de cette scission."@fr .
-<https://rdafr.fr/Elements#P502377r> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://rdafr.fr/Elements#P502377r> <http://www.w3.org/2002/07/owl#inverseOf> <https://rdafr.fr/Elements#P502377ri> .
-<https://rdafr.fr/Elements#P502377r> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements#C100005> .
-<https://rdafr.fr/Elements#P502377r> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements#P502377r> .
-<https://rdafr.fr/Elements#P502377r> <http://www.w3.org/2000/01/rdf-schema#label> "est scindé en [dans la relation]"@fr .
-<https://rdafr.fr/Elements#P502377r> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P502370r> .
-<https://rdafr.fr/Elements#P502377r> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements#P502370r> .
-<https://rdafr.fr/Elements#P502377r> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation entre une collectivité qui a été scindée et une des collectivités qui ont résultées de cette scission."@fr .
 <https://rdafr.fr/Rules#R809> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
 <https://rdafr.fr/Rules#R809> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P502377ri> .
 <https://rdafr.fr/Rules#R809> <http://www.w3.org/ns/shacl#name> "est résultat de la scision de [dans la relation]"@fr .
 <https://rdafr.fr/Rules#R809> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements#C100005> .
 <https://rdafr.fr/Rules#R809> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Rules#R809> <http://www.w3.org/ns/shacl#description> "Relation entre une des collectivités résultant de la scission d'une collectivité et la collectivité qui a été scindée."@fr .
-<https://rdafr.fr/Elements#P502377ri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://rdafr.fr/Elements#P502377ri> <http://www.w3.org/2002/07/owl#inverseOf> <https://rdafr.fr/Elements#P502377r> .
-<https://rdafr.fr/Elements#P502377ri> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements#C100005> .
-<https://rdafr.fr/Elements#P502377ri> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements#P502377r> .
-<https://rdafr.fr/Elements#P502377ri> <http://www.w3.org/2000/01/rdf-schema#label> "est résultat de la scision de [dans la relation]"@fr .
-<https://rdafr.fr/Elements#P502377ri> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P502370r> .
-<https://rdafr.fr/Elements#P502377ri> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements#P502370r> .
-<https://rdafr.fr/Elements#P502377ri> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation entre une des collectivités résultant de la scission d'une collectivité et la collectivité qui a été scindée."@fr .
 <https://rdafr.fr/Rules#R810> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
 <https://rdafr.fr/Rules#R810> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P100010r> .
 <https://rdafr.fr/Rules#R810> <http://www.w3.org/ns/shacl#name> "est à distinguer de [dans la relation]"@fr .
@@ -2970,6 +2981,8 @@
 <https://rdafr.fr/Elements#C100008> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules#R938> .
 <https://rdafr.fr/Elements#C100008> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules#R939> .
 <https://rdafr.fr/Elements#C100008> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules#R940> .
+<https://rdafr.fr/Elements#C100008> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules#R941> .
+<https://rdafr.fr/Elements#C100008> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules#R942> .
 <https://rdafr.fr/Elements#P505001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://rdafr.fr/Elements#P505001> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements#C100008> .
 <https://rdafr.fr/Elements#P505001> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements#C100012> .
@@ -3316,9 +3329,13 @@
 <https://rdafr.fr/Elements#P505012r> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements#C100008> .
 <https://rdafr.fr/Elements#P505012r> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements#P505012r> .
 <https://rdafr.fr/Elements#P505012r> <http://www.w3.org/2000/01/rdf-schema#label> "famille dirige la collectivité [dans la relation]"@fr .
+<https://rdafr.fr/Elements#P505012r> <http://www.w3.org/2000/01/rdf-schema#label> "famille finance la collectivité [dans la relation]"@fr .
 <https://rdafr.fr/Elements#P505012r> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P500028r> .
+<https://rdafr.fr/Elements#P505012r> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P500053r> .
 <https://rdafr.fr/Elements#P505012r> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements#P500028r> .
+<https://rdafr.fr/Elements#P505012r> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements#P500053r> .
 <https://rdafr.fr/Elements#P505012r> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation entre une famille et la collectivité qu'elle dirge."@fr .
+<https://rdafr.fr/Elements#P505012r> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation de financement d'une famille envers une agent collectivité."@fr .
 <https://rdafr.fr/Rules#R931> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
 <https://rdafr.fr/Rules#R931> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P505011r> .
 <https://rdafr.fr/Rules#R931> <http://www.w3.org/ns/shacl#name> "famille est propriétaire de la collectivité [dans la relation]"@fr .
@@ -3373,66 +3390,70 @@
 <https://rdafr.fr/Rules#R935> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements#C100002> .
 <https://rdafr.fr/Rules#R935> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Rules#R935> <http://www.w3.org/ns/shacl#description> "Relation de collaboration entre une famille et tout autre agent en vue de réaliser un projet commun dans la sphère professionnelle ou commerciale."@fr .
-<https://rdafr.fr/Rules#R936> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
-<https://rdafr.fr/Rules#R936> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P501036ri> .
-<https://rdafr.fr/Rules#R936> <http://www.w3.org/ns/shacl#name> "famille finance la personne [dans la relation]"@fr .
-<https://rdafr.fr/Rules#R936> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements#C100004> .
+<https://rdafr.fr/Rules#R936> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.1" .
+<https://rdafr.fr/Rules#R936> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P500053r> .
+<https://rdafr.fr/Rules#R936> <http://www.w3.org/ns/shacl#name> "finance [dans la relation]"@fr .
+<https://rdafr.fr/Rules#R936> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements#C100002> .
 <https://rdafr.fr/Rules#R936> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
-<https://rdafr.fr/Rules#R936> <http://www.w3.org/ns/shacl#description> "Relation de financement d'une famille envers un agent (personne, famille ou collectivité)."@fr .
-<https://rdafr.fr/Elements#P501036ri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://rdafr.fr/Elements#P501036ri> <http://www.w3.org/2002/07/owl#inverseOf> <https://rdafr.fr/Elements#P501036r> .
-<https://rdafr.fr/Elements#P501036ri> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements#C100008> .
-<https://rdafr.fr/Elements#P501036ri> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements#P501036r> .
-<https://rdafr.fr/Elements#P501036ri> <http://www.w3.org/2000/01/rdf-schema#label> "famille finance la personne [dans la relation]"@fr .
-<https://rdafr.fr/Elements#P501036ri> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P502353r> .
-<https://rdafr.fr/Elements#P501036ri> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements#P502353r> .
-<https://rdafr.fr/Elements#P501036ri> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation de financement d'une famille envers un agent (personne, famille ou collectivité)."@fr .
-<https://rdafr.fr/Rules#R937> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
-<https://rdafr.fr/Rules#R937> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P505004r> .
-<https://rdafr.fr/Rules#R937> <http://www.w3.org/ns/shacl#name> "famille est financée par la personne [dans la relation]"@fr .
-<https://rdafr.fr/Rules#R937> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements#C100004> .
+<https://rdafr.fr/Rules#R936> <http://www.w3.org/ns/shacl#description> "Relation de financement d'un agent envers un autre agent. Il s'agit d'une relation générique comprenant les différents types de financement comme la subvention, le parrainage ou le mécénat. Peut être utilisée comme relation distincte lorsqu'on ne connaît pas la nature précise du financement."@fr .
+<https://rdafr.fr/Rules#R937> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.2" .
+<https://rdafr.fr/Rules#R937> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P500053ri> .
+<https://rdafr.fr/Rules#R937> <http://www.w3.org/ns/shacl#name> "est financé par [dans la relation]"@fr .
+<https://rdafr.fr/Rules#R937> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements#C100002> .
 <https://rdafr.fr/Rules#R937> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
-<https://rdafr.fr/Rules#R937> <http://www.w3.org/ns/shacl#description> "Relation de financement entre une famille et la personne qui la finance."@fr .
-<https://rdafr.fr/Elements#P505004r> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://rdafr.fr/Elements#P505004r> <http://www.w3.org/2002/07/owl#inverseOf> <https://rdafr.fr/Elements#P505004ri> .
-<https://rdafr.fr/Elements#P505004r> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements#C100008> .
-<https://rdafr.fr/Elements#P505004r> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements#P505004r> .
-<https://rdafr.fr/Elements#P505004r> <http://www.w3.org/2000/01/rdf-schema#label> "famille est financée par la personne [dans la relation]"@fr .
-<https://rdafr.fr/Elements#P505004r> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P502353ri> .
-<https://rdafr.fr/Elements#P505004r> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation de financement entre une famille et la personne qui la finance."@fr .
+<https://rdafr.fr/Rules#R937> <http://www.w3.org/ns/shacl#description> "Relation de financement entre un agent et l'agent qui la finance. Il s'agit d'une relation générique comprenant les différents types de financement comme la subvention, le parrainage ou le mécénat. Peut être utilisée comme relation distincte lorsqu'on ne connaît pas la nature précise du financement."@fr .
 <https://rdafr.fr/Rules#R938> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
-<https://rdafr.fr/Rules#R938> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P502356ri> .
-<https://rdafr.fr/Rules#R938> <http://www.w3.org/ns/shacl#name> "famille finance la collectivité [dans la relation]"@fr .
-<https://rdafr.fr/Rules#R938> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements#C100005> .
+<https://rdafr.fr/Rules#R938> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P505013r> .
+<https://rdafr.fr/Rules#R938> <http://www.w3.org/ns/shacl#name> "famille finance la personne [dans la relation]"@fr .
+<https://rdafr.fr/Rules#R938> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements#C100004> .
 <https://rdafr.fr/Rules#R938> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
-<https://rdafr.fr/Rules#R938> <http://www.w3.org/ns/shacl#description> "Relation de financement d'une famille envers une agent collectivité."@fr .
-<https://rdafr.fr/Elements#P502356ri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://rdafr.fr/Elements#P502356ri> <http://www.w3.org/2002/07/owl#inverseOf> <https://rdafr.fr/Elements#P502356r> .
-<https://rdafr.fr/Elements#P502356ri> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements#C100008> .
-<https://rdafr.fr/Elements#P502356ri> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements#P502356r> .
-<https://rdafr.fr/Elements#P502356ri> <http://www.w3.org/2000/01/rdf-schema#label> "famille finance la collectivité [dans la relation]"@fr .
-<https://rdafr.fr/Elements#P502356ri> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P502353r> .
-<https://rdafr.fr/Elements#P502356ri> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements#P502353r> .
-<https://rdafr.fr/Elements#P502356ri> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation de financement d'une famille envers une agent collectivité."@fr .
+<https://rdafr.fr/Rules#R938> <http://www.w3.org/ns/shacl#description> "Relation de financement d'une famille envers un agent (personne, famille ou collectivité)."@fr .
+<https://rdafr.fr/Elements#P505013r> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://rdafr.fr/Elements#P505013r> <http://www.w3.org/2002/07/owl#inverseOf> <https://rdafr.fr/Elements#P505012ri> .
+<https://rdafr.fr/Elements#P505013r> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements#C100008> .
+<https://rdafr.fr/Elements#P505013r> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements#P505013r> .
+<https://rdafr.fr/Elements#P505013r> <http://www.w3.org/2000/01/rdf-schema#label> "famille finance la personne [dans la relation]"@fr .
+<https://rdafr.fr/Elements#P505013r> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P500053r> .
+<https://rdafr.fr/Elements#P505013r> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements#P500053r> .
+<https://rdafr.fr/Elements#P505013r> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation de financement d'une famille envers un agent (personne, famille ou collectivité)."@fr .
 <https://rdafr.fr/Rules#R939> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
-<https://rdafr.fr/Rules#R939> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P505005r> .
-<https://rdafr.fr/Rules#R939> <http://www.w3.org/ns/shacl#name> "famille est financée par la collectivité [dans la relation]"@fr .
-<https://rdafr.fr/Rules#R939> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements#C100005> .
+<https://rdafr.fr/Rules#R939> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P501088ri> .
+<https://rdafr.fr/Rules#R939> <http://www.w3.org/ns/shacl#name> "famille est financée par la personne [dans la relation]"@fr .
+<https://rdafr.fr/Rules#R939> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements#C100004> .
 <https://rdafr.fr/Rules#R939> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
-<https://rdafr.fr/Rules#R939> <http://www.w3.org/ns/shacl#description> "Relation de financement entre une famille et la collectivité qui la finance."@fr .
-<https://rdafr.fr/Elements#P505005r> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
-<https://rdafr.fr/Elements#P505005r> <http://www.w3.org/2002/07/owl#inverseOf> <https://rdafr.fr/Elements#P505005ri> .
-<https://rdafr.fr/Elements#P505005r> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements#C100008> .
-<https://rdafr.fr/Elements#P505005r> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements#P505005r> .
-<https://rdafr.fr/Elements#P505005r> <http://www.w3.org/2000/01/rdf-schema#label> "famille est financée par la collectivité [dans la relation]"@fr .
-<https://rdafr.fr/Elements#P505005r> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P502353ri> .
-<https://rdafr.fr/Elements#P505005r> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation de financement entre une famille et la collectivité qui la finance."@fr .
+<https://rdafr.fr/Rules#R939> <http://www.w3.org/ns/shacl#description> "Relation de financement entre une famille et la personne qui la finance."@fr .
+<https://rdafr.fr/Elements#P501088ri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://rdafr.fr/Elements#P501088ri> <http://www.w3.org/2002/07/owl#inverseOf> <https://rdafr.fr/Elements#P501088r> .
+<https://rdafr.fr/Elements#P501088ri> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements#C100008> .
+<https://rdafr.fr/Elements#P501088ri> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements#P501088r> .
+<https://rdafr.fr/Elements#P501088ri> <http://www.w3.org/2000/01/rdf-schema#label> "famille est financée par la personne [dans la relation]"@fr .
+<https://rdafr.fr/Elements#P501088ri> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P500053ri> .
+<https://rdafr.fr/Elements#P501088ri> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation de financement entre une famille et la personne qui la finance."@fr .
 <https://rdafr.fr/Rules#R940> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
-<https://rdafr.fr/Rules#R940> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P100010r> .
-<https://rdafr.fr/Rules#R940> <http://www.w3.org/ns/shacl#name> "est à distinguer de [dans la relation]"@fr .
-<https://rdafr.fr/Rules#R940> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements#C100002> .
+<https://rdafr.fr/Rules#R940> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P505012r> .
+<https://rdafr.fr/Rules#R940> <http://www.w3.org/ns/shacl#name> "famille finance la collectivité [dans la relation]"@fr .
+<https://rdafr.fr/Rules#R940> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements#C100005> .
 <https://rdafr.fr/Rules#R940> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
-<https://rdafr.fr/Rules#R940> <http://www.w3.org/ns/shacl#description> "Relation de non équivalence alertant sur les risques de confusion existant avec d'autres agents homonymes."@fr .
+<https://rdafr.fr/Rules#R940> <http://www.w3.org/ns/shacl#description> "Relation de financement d'une famille envers une agent collectivité."@fr .
+<https://rdafr.fr/Rules#R941> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
+<https://rdafr.fr/Rules#R941> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P505005ri> .
+<https://rdafr.fr/Rules#R941> <http://www.w3.org/ns/shacl#name> "famille est financée par la collectivité [dans la relation]"@fr .
+<https://rdafr.fr/Rules#R941> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements#C100005> .
+<https://rdafr.fr/Rules#R941> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules#R941> <http://www.w3.org/ns/shacl#description> "Relation de financement entre une famille et la collectivité qui la finance."@fr .
+<https://rdafr.fr/Elements#P505005ri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://rdafr.fr/Elements#P505005ri> <http://www.w3.org/2002/07/owl#inverseOf> <https://rdafr.fr/Elements#P505005r> .
+<https://rdafr.fr/Elements#P505005ri> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements#C100008> .
+<https://rdafr.fr/Elements#P505005ri> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements#P505005r> .
+<https://rdafr.fr/Elements#P505005ri> <http://www.w3.org/2000/01/rdf-schema#label> "famille est financée par la collectivité [dans la relation]"@fr .
+<https://rdafr.fr/Elements#P505005ri> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P500053ri> .
+<https://rdafr.fr/Elements#P505005ri> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation de financement entre une famille et la collectivité qui la finance."@fr .
+<https://rdafr.fr/Rules#R942> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
+<https://rdafr.fr/Rules#R942> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P100010r> .
+<https://rdafr.fr/Rules#R942> <http://www.w3.org/ns/shacl#name> "est à distinguer de [dans la relation]"@fr .
+<https://rdafr.fr/Rules#R942> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements#C100002> .
+<https://rdafr.fr/Rules#R942> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules#R942> <http://www.w3.org/ns/shacl#description> "Relation de non équivalence alertant sur les risques de confusion existant avec d'autres agents homonymes."@fr .
 <https://rdafr.fr/Rules#R1104> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
 <https://rdafr.fr/Rules#R1104> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P506001> .
 <https://rdafr.fr/Rules#R1104> <http://www.w3.org/ns/shacl#name> "a pour identité publique du groupe informel"@fr .
