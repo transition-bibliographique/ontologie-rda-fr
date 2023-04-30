@@ -987,8 +987,8 @@ rdafr:P501076r a owl:ObjectProperty;
   rdfs:domain rdafr:C100004;
   rdfs:label "personne fonde la collectivité [dans la relation]"@fr;
   rdfs:range rdafr:P501076r;
-  rdfs:subClassOf rdafr:P100028r;
-  rdfs:subPropertyOf rdafr:P100028r;
+  rdfs:subClassOf rdafr:P500028r;
+  rdfs:subPropertyOf rdafr:P500028r;
   owl:inverseOf rdafr:P501076ri .
 
 rdafrru:R531 owl:versionInfo "0.1.0";
@@ -1003,8 +1003,8 @@ rdafr:P501077r a owl:ObjectProperty;
   rdfs:domain rdafr:C100004;
   rdfs:label "personne fonde le groupe informel [dans la relation]"@fr;
   rdfs:range rdafr:P501077r;
-  rdfs:subClassOf rdafr:P100028r;
-  rdfs:subPropertyOf rdafr:P100028r;
+  rdfs:subClassOf rdafr:P500028r;
+  rdfs:subPropertyOf rdafr:P500028r;
   owl:inverseOf rdafr:P501077ri .
 
 rdafrru:R532 owl:versionInfo "0.1.0";
@@ -2161,8 +2161,8 @@ rdafr:P502048r a owl:ObjectProperty;
   rdfs:domain rdafr:C100005;
   rdfs:label "collectivité fonde la collectivité [dans la relation]"@fr;
   rdfs:range rdafr:P502048r;
-  rdfs:subClassOf rdafr:P100028r;
-  rdfs:subPropertyOf rdafr:P100028r;
+  rdfs:subClassOf rdafr:P500028r;
+  rdfs:subPropertyOf rdafr:P500028r;
   owl:inverseOf rdafr:P502048ri .
 
 rdafrru:P746 owl:versionInfo "0.1.0";
@@ -2177,7 +2177,7 @@ rdafr:P502048ri a owl:ObjectProperty;
   rdfs:domain rdafr:C100005;
   rdfs:label "collectivité est fondée par la collectivité [dans la relation]"@fr;
   rdfs:range rdafr:P502048r;
-  rdfs:subPropertyOf rdafr:P100028r;
+  rdfs:subPropertyOf rdafr:P500028r;
   owl:inverseOf rdafr:P502048r .
 
 rdafrru:P747 owl:versionInfo "0.1.0";
@@ -2192,7 +2192,7 @@ rdafr:P505010ri a owl:ObjectProperty;
   rdfs:domain rdafr:C100005;
   rdfs:label "collectivité est fondée par la famille [dans la relation]"@fr;
   rdfs:range rdafr:P505010r;
-  rdfs:subPropertyOf rdafr:P100028r;
+  rdfs:subPropertyOf rdafr:P500028r;
   owl:inverseOf rdafr:P505010r .
 
 rdafrru:P748 owl:versionInfo "0.1.0";
@@ -2207,7 +2207,7 @@ rdafr:P501076ri a owl:ObjectProperty;
   rdfs:domain rdafr:C100005;
   rdfs:label "collectivité est fondée par la personne [dans la relation]"@fr;
   rdfs:range rdafr:P501076r;
-  rdfs:subPropertyOf rdafr:P100028r;
+  rdfs:subPropertyOf rdafr:P500028r;
   owl:inverseOf rdafr:P501076r .
 
 rdafrru:P749 owl:versionInfo "0.1.0";
@@ -4344,9 +4344,9 @@ rdafr:C100001 a rdfs:Class, owl:Class, sh:NodeShape;
   skos:notation "w";
   sh:closed false;
   sh:description "Toute création intellectuelle ou artistique distincte, susceptible d’être identifiée et nommée de manière univoque dans un contexte bibliographique. [code RDA-FR, 5.1.2]"@fr;
-  sh:ignoredProperties _:node1gv13f9f9x3042 .
+  sh:ignoredProperties _:node1gv13f9f9x3166 .
 
-_:node1gv13f9f9x3042 rdf:first rdf:type;
+_:node1gv13f9f9x3166 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100001 sh:nodeKind sh:IRI;
@@ -4364,9 +4364,9 @@ rdafr:C100002 a rdfs:Class, owl:Class, sh:NodeShape;
   skos:notation "a";
   sh:closed false;
   sh:description "Entité ayant la capacité d’agir et ayant un rapport avec des ressources qui font l’objet d’une description documentaire. Cela inclut les personnes ou les groupes. [code RDA-FR, 8.1.2]"@fr;
-  sh:ignoredProperties _:node1gv13f9f9x3043 .
+  sh:ignoredProperties _:node1gv13f9f9x3167 .
 
-_:node1gv13f9f9x3043 rdf:first rdf:type;
+_:node1gv13f9f9x3167 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100002 sh:nodeKind sh:IRI;
@@ -4384,9 +4384,9 @@ rdafr:C100003 a rdfs:Class, owl:Class, sh:NodeShape;
   skos:notation "i";
   sh:closed false;
   sh:description "Un ou plusieurs objets portant des signes chargés de véhiculer un contenu intellectuel ou artistique. Un item exemplifie une manifestation et en reflète en principe toutes les caractéristiques. [code RDA-FR, 1.1.2]"@fr;
-  sh:ignoredProperties _:node1gv13f9f9x3044 .
+  sh:ignoredProperties _:node1gv13f9f9x3168 .
 
-_:node1gv13f9f9x3044 rdf:first rdf:type;
+_:node1gv13f9f9x3168 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100003 sh:nodeKind sh:IRI;
@@ -4403,9 +4403,9 @@ rdafr:C100004 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0";
   sh:closed false;
   sh:description "Agent identifié comme étant un individu existant ou ayant existé. [code RDA-FR, 8.1.2 et 9]"@fr;
-  sh:ignoredProperties _:node1gv13f9f9x3045 .
+  sh:ignoredProperties _:node1gv13f9f9x3169 .
 
-_:node1gv13f9f9x3045 rdf:first rdf:type;
+_:node1gv13f9f9x3169 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100004 sh:nodeKind sh:IRI;
@@ -4422,9 +4422,9 @@ rdafr:C100005 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0";
   sh:closed false;
   sh:description "Agent identifié comme étant une organisation ou une partie d'organisation, ou un groupe de personnes et/ou d'organisations. Une collectivité n’est considérée comme telle que si elle est identifiée par un nom particulier et si elle agit, ou peut agir, comme une unité. [code RDA-FR, 11]"@fr;
-  sh:ignoredProperties _:node1gv13f9f9x3046 .
+  sh:ignoredProperties _:node1gv13f9f9x3170 .
 
-_:node1gv13f9f9x3046 rdf:first rdf:type;
+_:node1gv13f9f9x3170 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100005 sh:nodeKind sh:IRI;
@@ -4443,9 +4443,9 @@ rdafr:C100006 a rdfs:Class, owl:Class, sh:NodeShape;
   sh:closed false;
   sh:description "Réalisation d’une œuvre sous la forme d’une notation (alphanumérique, musicale ou chorégraphique), de son, d’image, d’objet, de mouvement, etc. ou de toute combinaison de ces formes. [code RDA-FR, 5.1.2]"@fr,
     "Source: Glossaire RDA-FR"@fr;
-  sh:ignoredProperties _:node1gv13f9f9x3047 .
+  sh:ignoredProperties _:node1gv13f9f9x3171 .
 
-_:node1gv13f9f9x3047 rdf:first rdf:type;
+_:node1gv13f9f9x3171 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100006 sh:nodeKind sh:IRI;
@@ -4463,9 +4463,9 @@ rdafr:C100007 a rdfs:Class, owl:Class, sh:NodeShape;
   skos:notation "m";
   sh:closed false;
   sh:description "L’ensemble de tous les supports qui sont présumés partager les mêmes caractéristiques relatives tant au contenu intellectuel ou artistique qu’aux aspects de présentation matérielle. Cet ensemble est défini à la fois par son contenu global et par le plan de production pour son (ou ses) support(s). [code RDA-FR, 1.1.2]"@fr;
-  sh:ignoredProperties _:node1gv13f9f9x3048 .
+  sh:ignoredProperties _:node1gv13f9f9x3172 .
 
-_:node1gv13f9f9x3048 rdf:first rdf:type;
+_:node1gv13f9f9x3172 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100007 sh:nodeKind sh:IRI;
@@ -4482,9 +4482,9 @@ rdafr:C100008 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0";
   sh:closed false;
   sh:description "Est considéré comme relevant de la catégorie famille un ensemble de personnes liées par la naissance, le mariage, l'adoption, l'union civile ou tout autre statut légal du même ordre, ou un ensemble de personnes qui se présentent elles-mêmes comme une famille. [code RDA-FR, 10]"@fr;
-  sh:ignoredProperties _:node1gv13f9f9x3049 .
+  sh:ignoredProperties _:node1gv13f9f9x3173 .
 
-_:node1gv13f9f9x3049 rdf:first rdf:type;
+_:node1gv13f9f9x3173 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100008 sh:nodeKind sh:IRI;
@@ -4502,9 +4502,9 @@ rdafr:C100009 a rdfs:Class, owl:Class, sh:NodeShape;
   skos:notation "p";
   sh:closed false;
   sh:description "Portion d’espace réel. Un lieu est déterminé par des coordonnées géographiques et pourvu d’un nom. [code RDA-FR, 16]"@fr;
-  sh:ignoredProperties _:node1gv13f9f9x3050 .
+  sh:ignoredProperties _:node1gv13f9f9x3174 .
 
-_:node1gv13f9f9x3050 rdf:first rdf:type;
+_:node1gv13f9f9x3174 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100009 sh:nodeKind sh:IRI;
@@ -4521,9 +4521,9 @@ rdafr:C100010 a rdfs:Class, owl:Class, sh:NodeShape;
   skos:notation "t";
   sh:closed false;
   sh:description "Plage temporelle ayant un début, une fin et une durée."@fr;
-  sh:ignoredProperties _:node1gv13f9f9x3051 .
+  sh:ignoredProperties _:node1gv13f9f9x3175 .
 
-_:node1gv13f9f9x3051 rdf:first rdf:type;
+_:node1gv13f9f9x3175 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100010 sh:nodeKind sh:IRI;
@@ -4539,9 +4539,9 @@ rdafr:C100011 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0";
   sh:closed false;
   sh:description "Groupement ou association de personnes portant un nom particulier et disposant de la faculté d'agir collectivement."@fr;
-  sh:ignoredProperties _:node1gv13f9f9x3052 .
+  sh:ignoredProperties _:node1gv13f9f9x3176 .
 
-_:node1gv13f9f9x3052 rdf:first rdf:type;
+_:node1gv13f9f9x3176 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100011 sh:nodeKind sh:IRI;
@@ -4558,9 +4558,9 @@ rdafr:C100012 a rdfs:Class, owl:Class, sh:NodeShape;
   skos:notation "n";
   sh:closed false;
   sh:description "Une association entre une entité et une désignation qui y réfère ."@fr;
-  sh:ignoredProperties _:node1gv13f9f9x3053 .
+  sh:ignoredProperties _:node1gv13f9f9x3177 .
 
-_:node1gv13f9f9x3053 rdf:first rdf:type;
+_:node1gv13f9f9x3177 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100012 sh:nodeKind sh:IRI;
@@ -4576,9 +4576,9 @@ rdafr:C100013 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0";
   sh:closed false;
   sh:description "Classe abstraite de plus haut niveau de l'univers de discours couvert par l'ontologie RDA-FR. Elle comprend toutes les entités qui sont définies dans le code RDA-FR. Toutes les classes définies pour les besoins de fonctionnement de l'ontologie RDA-FR sont également des sous-classes de celle ci."@fr;
-  sh:ignoredProperties _:node1gv13f9f9x3054 .
+  sh:ignoredProperties _:node1gv13f9f9x3178 .
 
-_:node1gv13f9f9x3054 rdf:first rdf:type;
+_:node1gv13f9f9x3178 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100013 sh:nodeKind sh:IRI;
@@ -4595,9 +4595,9 @@ rdafr:C100015 a rdfs:Class, owl:Class, sh:NodeShape;
   skos:notation "u";
   sh:closed false;
   sh:description "Identité d’un agent qui est connue ou a été rendue publique. [code RDA-FR, 8.1.2 et 9]"@fr;
-  sh:ignoredProperties _:node1gv13f9f9x3055 .
+  sh:ignoredProperties _:node1gv13f9f9x3179 .
 
-_:node1gv13f9f9x3055 rdf:first rdf:type;
+_:node1gv13f9f9x3179 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100015 sh:nodeKind sh:IRI;
@@ -4612,9 +4612,9 @@ rdafr:C100017 a rdfs:Class, owl:Class, sh:NodeShape;
   skos:notation "b";
   sh:closed false;
   sh:description "En attente de traitement dans l'ontologie RDA-FR"@fr;
-  sh:ignoredProperties _:node1gv13f9f9x3056 .
+  sh:ignoredProperties _:node1gv13f9f9x3180 .
 
-_:node1gv13f9f9x3056 rdf:first rdf:type;
+_:node1gv13f9f9x3180 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100017 sh:nodeKind sh:IRI;
@@ -4629,9 +4629,9 @@ rdafr:C100018 a rdfs:Class, owl:Class, sh:NodeShape;
   skos:notation "v";
   sh:closed false;
   sh:description "En attente de traitement dans l'ontologie RDA-FR"@fr;
-  sh:ignoredProperties _:node1gv13f9f9x3057 .
+  sh:ignoredProperties _:node1gv13f9f9x3181 .
 
-_:node1gv13f9f9x3057 rdf:first rdf:type;
+_:node1gv13f9f9x3181 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100018 sh:nodeKind sh:IRI;
@@ -4645,9 +4645,9 @@ rdafr:C100019 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0";
   sh:closed false;
   sh:description "En attente de traitement dans l'ontologie RDA-FR"@fr;
-  sh:ignoredProperties _:node1gv13f9f9x3058 .
+  sh:ignoredProperties _:node1gv13f9f9x3182 .
 
-_:node1gv13f9f9x3058 rdf:first rdf:type;
+_:node1gv13f9f9x3182 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100019 sh:nodeKind sh:IRI;
@@ -4662,9 +4662,9 @@ rdafr:C100020 a rdfs:Class, owl:Class, sh:NodeShape;
   skos:notation "?";
   sh:closed false;
   sh:description "En attente de traitement dans l'ontologie RDA-FR"@fr;
-  sh:ignoredProperties _:node1gv13f9f9x3059 .
+  sh:ignoredProperties _:node1gv13f9f9x3183 .
 
-_:node1gv13f9f9x3059 rdf:first rdf:type;
+_:node1gv13f9f9x3183 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100020 sh:nodeKind sh:IRI;
@@ -4679,9 +4679,9 @@ rdafr:C100021 a rdfs:Class, owl:Class, sh:NodeShape;
   skos:notation "t";
   sh:closed false;
   sh:description "En attente de traitement dans l'ontologie RDA-FR"@fr;
-  sh:ignoredProperties _:node1gv13f9f9x3060 .
+  sh:ignoredProperties _:node1gv13f9f9x3184 .
 
-_:node1gv13f9f9x3060 rdf:first rdf:type;
+_:node1gv13f9f9x3184 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100021 sh:nodeKind sh:IRI;
@@ -4696,9 +4696,9 @@ rdafr:C100022 a rdfs:Class, owl:Class, sh:NodeShape;
   skos:notation "t";
   sh:closed false;
   sh:description "En attente de traitement dans l'ontologie RDA-FR"@fr;
-  sh:ignoredProperties _:node1gv13f9f9x3061 .
+  sh:ignoredProperties _:node1gv13f9f9x3185 .
 
-_:node1gv13f9f9x3061 rdf:first rdf:type;
+_:node1gv13f9f9x3185 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100022 sh:nodeKind sh:IRI;
@@ -4713,9 +4713,9 @@ rdafr:C100023 a rdfs:Class, owl:Class, sh:NodeShape;
   skos:notation "t";
   sh:closed false;
   sh:description "En attente de traitement dans l'ontologie RDA-FR"@fr;
-  sh:ignoredProperties _:node1gv13f9f9x3062 .
+  sh:ignoredProperties _:node1gv13f9f9x3186 .
 
-_:node1gv13f9f9x3062 rdf:first rdf:type;
+_:node1gv13f9f9x3186 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100023 sh:nodeKind sh:IRI;
@@ -4730,9 +4730,9 @@ rdafr:C100025 a rdfs:Class, owl:Class, sh:NodeShape;
   skos:notation "t";
   sh:closed false;
   sh:description "Agent étant identifié comme un groupe de personnes qui n'est ni une famille ni une collectivité et dont le nom se présente formellement comme un nom de personne (nom traditionnellement désigné par le terme \"pseudonyme collectif\")."@fr;
-  sh:ignoredProperties _:node1gv13f9f9x3063 .
+  sh:ignoredProperties _:node1gv13f9f9x3187 .
 
-_:node1gv13f9f9x3063 rdf:first rdf:type;
+_:node1gv13f9f9x3187 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100025 sh:nodeKind sh:IRI;
@@ -4745,9 +4745,9 @@ rdafr:P100001r a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0";
   sh:closed false;
   sh:description "La classe ‘relation réifiée’ permet d’ajouter des assertions sur toutes les propriétés qui expriment une relation entre des instances de deux classes de l’ontologie (et qui, de fait, correspondent aux relations entre instances d’entités du code RDA-FR)."@fr;
-  sh:ignoredProperties _:node1gv13f9f9x3064 .
+  sh:ignoredProperties _:node1gv13f9f9x3188 .
 
-_:node1gv13f9f9x3064 rdf:first rdf:type;
+_:node1gv13f9f9x3188 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:P100001r sh:nodeKind sh:IRI;
@@ -4760,9 +4760,9 @@ rdafr:P100008r a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0";
   sh:closed false;
   sh:description "La classe ‘propriété réifiée’ permet d'ajouter des assertions sur toutes les propriétés de l’ontologie qui correspondent aux attributs des entités du code RDA-FR."@fr;
-  sh:ignoredProperties _:node1gv13f9f9x3065 .
+  sh:ignoredProperties _:node1gv13f9f9x3189 .
 
-_:node1gv13f9f9x3065 rdf:first rdf:type;
+_:node1gv13f9f9x3189 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:P100008r sh:nodeKind sh:IRI;
@@ -4776,9 +4776,9 @@ skos:Concept a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0";
   sh:closed false;
   sh:description "Un concept SKOS peut être vu comme une idée ou une notion; une unité de pensée."@fr;
-  sh:ignoredProperties _:node1gv13f9f9x3066 .
+  sh:ignoredProperties _:node1gv13f9f9x3190 .
 
-_:node1gv13f9f9x3066 rdf:first rdf:type;
+_:node1gv13f9f9x3190 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 skos:Concept sh:nodeKind sh:IRI;
@@ -4792,9 +4792,9 @@ rdafr:Langue a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0";
   sh:closed false;
   sh:description "Langue d'une chaîne de caractères."@fr;
-  sh:ignoredProperties _:node1gv13f9f9x3067 .
+  sh:ignoredProperties _:node1gv13f9f9x3191 .
 
-_:node1gv13f9f9x3067 rdf:first rdf:type;
+_:node1gv13f9f9x3191 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:Langue sh:nodeKind sh:IRI;
@@ -4808,9 +4808,9 @@ rdafr:Ecriture a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0";
   sh:closed false;
   sh:description "Système d'écriture de la chaîne de caractères."@fr;
-  sh:ignoredProperties _:node1gv13f9f9x3068 .
+  sh:ignoredProperties _:node1gv13f9f9x3192 .
 
-_:node1gv13f9f9x3068 rdf:first rdf:type;
+_:node1gv13f9f9x3192 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:Ecriture sh:nodeKind sh:IRI;
@@ -4830,9 +4830,9 @@ d’autorité de noms, etc.) ;
 - des schémas d’encodage de valeurs (listes de vedettes matière, thésaurus, classifications systématiques, listes
 d’autorité de noms, etc.) ;
 − et des schémas d’encodage syntaxiques (normes d’encodage des dates, etc.)."""@fr;
-  sh:ignoredProperties _:node1gv13f9f9x3069 .
+  sh:ignoredProperties _:node1gv13f9f9x3193 .
 
-_:node1gv13f9f9x3069 rdf:first rdf:type;
+_:node1gv13f9f9x3193 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:SchemaEncodage sh:nodeKind sh:IRI;
@@ -4846,9 +4846,9 @@ rdafr:CategorieNomen a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0";
   sh:closed false;
   sh:description "Type auquel le nomen appartient (ex. : point d'accès, identifiant, titre, etc.)"@fr;
-  sh:ignoredProperties _:node1gv13f9f9x3070 .
+  sh:ignoredProperties _:node1gv13f9f9x3194 .
 
-_:node1gv13f9f9x3070 rdf:first rdf:type;
+_:node1gv13f9f9x3194 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:CategorieNomen sh:nodeKind sh:IRI;
@@ -4862,9 +4862,9 @@ rdafr:SystemeConversion a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0";
   sh:closed false;
   sh:description "Règle, système ou norme utilisée pour créer la chaîne d’un nomen à partir de la chaîne d’un autre nomen notée dans une écriture différente (par exemple, un système de translittération)."@fr;
-  sh:ignoredProperties _:node1gv13f9f9x3071 .
+  sh:ignoredProperties _:node1gv13f9f9x3195 .
 
-_:node1gv13f9f9x3071 rdf:first rdf:type;
+_:node1gv13f9f9x3195 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:SystemeConversion sh:nodeKind sh:IRI;
@@ -4879,9 +4879,9 @@ rdafr:Genre a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0";
   sh:closed false;
   sh:description "Le genre auquel une personne s'identifie. [code RDA-FR, 9.3.3]"@fr;
-  sh:ignoredProperties _:node1gv13f9f9x3072 .
+  sh:ignoredProperties _:node1gv13f9f9x3196 .
 
-_:node1gv13f9f9x3072 rdf:first rdf:type;
+_:node1gv13f9f9x3196 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:Genre sh:nodeKind sh:IRI;
@@ -4895,9 +4895,9 @@ rdafr:NiveauFiabilite a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0";
   sh:closed false;
   sh:description "Indication sur le niveau de fiabilité de l'information."@fr;
-  sh:ignoredProperties _:node1gv13f9f9x3073 .
+  sh:ignoredProperties _:node1gv13f9f9x3197 .
 
-_:node1gv13f9f9x3073 rdf:first rdf:type;
+_:node1gv13f9f9x3197 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:NiveauFiabilite sh:nodeKind sh:IRI;
@@ -4911,9 +4911,9 @@ rdafr:Calendrier a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0";
   sh:closed false;
   sh:description "Type de calendrier utilisé pour exprimer un laps de temps (julien, grégorien, hégire...)."@fr;
-  sh:ignoredProperties _:node1gv13f9f9x3074 .
+  sh:ignoredProperties _:node1gv13f9f9x3198 .
 
-_:node1gv13f9f9x3074 rdf:first rdf:type;
+_:node1gv13f9f9x3198 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:Calendrier sh:nodeKind sh:IRI;
@@ -4928,9 +4928,9 @@ rdafr:CategorieIdentitePublique a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0";
   sh:closed false;
   sh:description "Précision sur la nature du nom sur lequel est fondée l'identité publique (par exemple : nom réel, pseudonyme...) [code RDA-FR, 9.1.1]"@fr;
-  sh:ignoredProperties _:node1gv13f9f9x3075 .
+  sh:ignoredProperties _:node1gv13f9f9x3199 .
 
-_:node1gv13f9f9x3075 rdf:first rdf:type;
+_:node1gv13f9f9x3199 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:CategorieIdentitePublique sh:nodeKind sh:IRI;

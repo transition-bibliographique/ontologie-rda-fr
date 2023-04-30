@@ -920,8 +920,8 @@
 <https://rdafr.fr/Elements#P501076r> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements#C100004> .
 <https://rdafr.fr/Elements#P501076r> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements#P501076r> .
 <https://rdafr.fr/Elements#P501076r> <http://www.w3.org/2000/01/rdf-schema#label> "personne fonde la collectivité [dans la relation]"@fr .
-<https://rdafr.fr/Elements#P501076r> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P100028r> .
-<https://rdafr.fr/Elements#P501076r> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements#P100028r> .
+<https://rdafr.fr/Elements#P501076r> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P500028r> .
+<https://rdafr.fr/Elements#P501076r> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements#P500028r> .
 <https://rdafr.fr/Elements#P501076r> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation entre une personne et la collectivité qu'elle a fondée."@fr .
 <https://rdafr.fr/Rules#R531> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
 <https://rdafr.fr/Rules#R531> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P501077r> .
@@ -934,8 +934,8 @@
 <https://rdafr.fr/Elements#P501077r> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements#C100004> .
 <https://rdafr.fr/Elements#P501077r> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements#P501077r> .
 <https://rdafr.fr/Elements#P501077r> <http://www.w3.org/2000/01/rdf-schema#label> "personne fonde le groupe informel [dans la relation]"@fr .
-<https://rdafr.fr/Elements#P501077r> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P100028r> .
-<https://rdafr.fr/Elements#P501077r> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements#P100028r> .
+<https://rdafr.fr/Elements#P501077r> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P500028r> .
+<https://rdafr.fr/Elements#P501077r> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements#P500028r> .
 <https://rdafr.fr/Elements#P501077r> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation entre une personne et le groupe informel dont elle est à l'origine."@fr .
 <https://rdafr.fr/Rules#R532> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
 <https://rdafr.fr/Rules#R532> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P500049r> .
@@ -2027,8 +2027,8 @@
 <https://rdafr.fr/Elements#P502048r> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements#C100005> .
 <https://rdafr.fr/Elements#P502048r> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements#P502048r> .
 <https://rdafr.fr/Elements#P502048r> <http://www.w3.org/2000/01/rdf-schema#label> "collectivité fonde la collectivité [dans la relation]"@fr .
-<https://rdafr.fr/Elements#P502048r> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P100028r> .
-<https://rdafr.fr/Elements#P502048r> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements#P100028r> .
+<https://rdafr.fr/Elements#P502048r> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P500028r> .
+<https://rdafr.fr/Elements#P502048r> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements#P500028r> .
 <https://rdafr.fr/Elements#P502048r> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation entre une collectivité fondatrice et la collectivité qu'elle a fondée."@fr .
 <https://rdafr.fr/Rules#P746> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
 <https://rdafr.fr/Rules#P746> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P502048ri> .
@@ -2041,7 +2041,7 @@
 <https://rdafr.fr/Elements#P502048ri> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements#C100005> .
 <https://rdafr.fr/Elements#P502048ri> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements#P502048r> .
 <https://rdafr.fr/Elements#P502048ri> <http://www.w3.org/2000/01/rdf-schema#label> "collectivité est fondée par la collectivité [dans la relation]"@fr .
-<https://rdafr.fr/Elements#P502048ri> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P100028r> .
+<https://rdafr.fr/Elements#P502048ri> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P500028r> .
 <https://rdafr.fr/Elements#P502048ri> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation entre une collectivité et la collectivité qui l'a fondée."@fr .
 <https://rdafr.fr/Rules#P747> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
 <https://rdafr.fr/Rules#P747> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P505010ri> .
@@ -2054,7 +2054,7 @@
 <https://rdafr.fr/Elements#P505010ri> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements#C100005> .
 <https://rdafr.fr/Elements#P505010ri> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements#P505010r> .
 <https://rdafr.fr/Elements#P505010ri> <http://www.w3.org/2000/01/rdf-schema#label> "collectivité est fondée par la famille [dans la relation]"@fr .
-<https://rdafr.fr/Elements#P505010ri> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P100028r> .
+<https://rdafr.fr/Elements#P505010ri> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P500028r> .
 <https://rdafr.fr/Elements#P505010ri> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation entre une collectivité et la famille qui l'a fondée."@fr .
 <https://rdafr.fr/Rules#P748> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
 <https://rdafr.fr/Rules#P748> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P501076ri> .
@@ -2067,7 +2067,7 @@
 <https://rdafr.fr/Elements#P501076ri> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements#C100005> .
 <https://rdafr.fr/Elements#P501076ri> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements#P501076r> .
 <https://rdafr.fr/Elements#P501076ri> <http://www.w3.org/2000/01/rdf-schema#label> "collectivité est fondée par la personne [dans la relation]"@fr .
-<https://rdafr.fr/Elements#P501076ri> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P100028r> .
+<https://rdafr.fr/Elements#P501076ri> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P500028r> .
 <https://rdafr.fr/Elements#P501076ri> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation entre une collectivité et la personne qui l'a fondée."@fr .
 <https://rdafr.fr/Rules#P749> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
 <https://rdafr.fr/Rules#P749> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P502336r> .
