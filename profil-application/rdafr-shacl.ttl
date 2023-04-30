@@ -292,7 +292,7 @@ rdafrru:R404 rdfs:seeAlso "8.1.2";
 rdafr:C100002 sh:property rdafrru:R404, rdafrru:R405, rdafrru:R406, rdafrru:R407,
     rdafrru:R408, rdafrru:R409, rdafrru:R410, rdafrru:R411, rdafrru:R412, rdafrru:R413,
     rdafrru:R414, rdafrru:R415, rdafrru:R416, rdafrru:R417, rdafrru:R418, rdafrru:R419,
-    rdafrru:R420 .
+    rdafrru:R420, rdafrru:R421 .
 
 rdafr:P500001 a owl:ObjectProperty;
   rdfs:comment "Un nom désigne un mot, un caractère ou un groupe de mots et/ou de caractères sous lequel agent est connu. [code RDA-FR, 8.1.2]"@fr;
@@ -455,7 +455,22 @@ rdafr:P500046r a owl:ObjectProperty;
   rdfs:subClassOf rdafr:P500028r;
   rdfs:subPropertyOf rdafr:P500028r .
 
-rdafrru:R415 owl:versionInfo "0.1.1";
+rdafrru:R415 owl:versionInfo "0.1.0";
+  sh:description "Catégorie de relations entre agents comprenant les différents types de financement comme la subvention, le parrainage ou le mécénat. Peut être utilisée comme relation distincte lorsqu'on ne connaît pas la nature précise du financement."@fr;
+  sh:name "a des relations de financement avec [dans la relation]"@fr;
+  sh:node rdafr:C100002;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P500052r .
+
+rdafr:P500052r a owl:ObjectProperty;
+  rdfs:comment "Catégorie de relations entre agents comprenant les différents types de financement comme la subvention, le parrainage ou le mécénat. Peut être utilisée comme relation distincte lorsqu'on ne connaît pas la nature précise du financement."@fr;
+  rdfs:domain rdafr:C100002;
+  rdfs:label "a des relations de financement avec [dans la relation]"@fr;
+  rdfs:range rdafr:P500052r;
+  rdfs:subClassOf rdafr:P500046r;
+  rdfs:subPropertyOf rdafr:P500046r .
+
+rdafrru:R416 owl:versionInfo "0.1.1";
   sh:description "Relation de financement d'un agent envers un autre agent. Il s'agit d'une relation générique comprenant les différents types de financement comme la subvention, le parrainage ou le mécénat. Peut être utilisée comme relation distincte lorsqu'on ne connaît pas la nature précise du financement."@fr;
   sh:name "finance [dans la relation]"@fr;
   sh:node rdafr:C100002;
@@ -464,14 +479,14 @@ rdafrru:R415 owl:versionInfo "0.1.1";
 
 rdafr:P500053r a owl:ObjectProperty;
   rdfs:comment "Relation de financement d'un agent envers un autre agent. Il s'agit d'une relation générique comprenant les différents types de financement comme la subvention, le parrainage ou le mécénat. Peut être utilisée comme relation distincte lorsqu'on ne connaît pas la nature précise du financement."@fr;
-  rdfs:domain rdafr:C100004;
+  rdfs:domain rdafr:C100002;
   rdfs:label "finance [dans la relation]"@fr;
   rdfs:range rdafr:P500053r;
-  rdfs:subClassOf rdafr:P500046r;
-  rdfs:subPropertyOf rdafr:P500046r;
-  owl:inverseOf rdafr:P500053ri, rdafr:P502353ri .
+  rdfs:subClassOf rdafr:P500052r;
+  rdfs:subPropertyOf rdafr:P500052r;
+  owl:inverseOf rdafr:P500053ri .
 
-rdafrru:R416 owl:versionInfo "0.1.2";
+rdafrru:R417 owl:versionInfo "0.1.2";
   sh:description "Relation de financement entre un agent et l'agent qui la finance. Il s'agit d'une relation générique comprenant les différents types de financement comme la subvention, le parrainage ou le mécénat. Peut être utilisée comme relation distincte lorsqu'on ne connaît pas la nature précise du financement."@fr;
   sh:name "est financé par [dans la relation]"@fr;
   sh:node rdafr:C100002;
@@ -480,14 +495,13 @@ rdafrru:R416 owl:versionInfo "0.1.2";
 
 rdafr:P500053ri a owl:ObjectProperty;
   rdfs:comment "Relation de financement entre un agent et l'agent qui la finance. Il s'agit d'une relation générique comprenant les différents types de financement comme la subvention, le parrainage ou le mécénat. Peut être utilisée comme relation distincte lorsqu'on ne connaît pas la nature précise du financement."@fr;
-  rdfs:domain rdafr:C100004;
+  rdfs:domain rdafr:C100002;
   rdfs:label "est financé par [dans la relation]"@fr;
-  rdfs:range rdafr:P500053r, rdafr:P502353r;
-  rdfs:subClassOf rdafr:P500046r;
-  rdfs:subPropertyOf rdafr:P500046r;
-  owl:inverseOf rdafr:P500053r, rdafr:P502353r .
+  rdfs:range rdafr:P500053r;
+  rdfs:subPropertyOf rdafr:P500052r;
+  owl:inverseOf rdafr:P500053r .
 
-rdafrru:R417 owl:versionInfo "0.1.0";
+rdafrru:R418 owl:versionInfo "0.1.0";
   sh:description "Catégorie de relations entre agents comprenant les relations d'emploi, de prestation, de franchise ou d'associé de."@fr;
   sh:name "a des relations contractuelles avec [dans la relation]"@fr;
   sh:node rdafr:C100002;
@@ -503,21 +517,6 @@ rdafr:P500051r a owl:ObjectProperty;
   rdfs:subClassOf rdafr:P500046r;
   rdfs:subPropertyOf rdafr:P500046r .
 
-rdafrru:R418 owl:versionInfo "0.1.0";
-  sh:description "Catégorie de relations entre agents comprenant les différents types de financement comme la subvention, le parrainage ou le mécénat. Peut être utilisée comme relation distincte lorsqu'on ne connaît pas la nature précise du financement."@fr;
-  sh:name "a des relations de financement avec [dans la relation]"@fr;
-  sh:node rdafr:C100002;
-  sh:nodeKind sh:IRI;
-  sh:path rdafr:P500052r .
-
-rdafr:P500052r a owl:ObjectProperty;
-  rdfs:comment "Catégorie de relations entre agents comprenant les différents types de financement comme la subvention, le parrainage ou le mécénat. Peut être utilisée comme relation distincte lorsqu'on ne connaît pas la nature précise du financement."@fr;
-  rdfs:domain rdafr:C100002;
-  rdfs:label "a des relations de financement avec [dans la relation]"@fr;
-  rdfs:range rdafr:P500052r;
-  rdfs:subClassOf rdafr:P500046r;
-  rdfs:subPropertyOf rdafr:P500046r .
-
 rdafrru:R419 owl:versionInfo "0.1.0";
   sh:description "Catégorie de relation regroupant les relations spécifiques relatives à la formation entre agents."@fr;
   sh:name "a une relation relative à la formation avec [dans la relation]"@fr;
@@ -527,7 +526,8 @@ rdafrru:R419 owl:versionInfo "0.1.0";
 
 rdafr:P500049r a owl:ObjectProperty;
   rdfs:comment "Catégorie de relation regroupant les relations spécifiques relatives à la formation entre agents."@fr,
-    "Catégorie de relations entre une personne et tout autre agent, regroupant les relations spécifiques relatives à la formation."@fr;
+    "Catégorie de relations entre une personne et tout autre agent, regroupant les relations spécifiques relatives à la formation."@fr,
+    "Catégorie de relations regroupant les relations spécifiques relatives à la formation entre agents."@fr;
   rdfs:domain rdafr:C100002;
   rdfs:label "a une relation relative à la formation avec [dans la formation]"@fr, "a une relation relative à la formation avec [dans la relation]"@fr;
   rdfs:range rdafr:P500049r;
@@ -549,6 +549,21 @@ rdafr:P500050r a owl:ObjectProperty;
   rdfs:range rdafr:P500050r;
   rdfs:subClassOf rdafr:P100001r .
 
+rdafrru:R421 owl:versionInfo "0.1.0";
+  sh:description "Catégorie de relations entre agents regroupant des relations de subordination ou d'autorité (contrôle, tutelle)"@fr;
+  sh:name "a des relations hiérarchiques avec [dans la relation]"@fr;
+  sh:node rdafr:C100002;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P502336r .
+
+rdafr:P502336r a owl:ObjectProperty;
+  rdfs:comment "Catégorie de relations entre agents regroupant des relations de subordination ou d'autorité (contrôle, tutelle)"@fr,
+    "Catégorie de relations entre agents regroupant des relations de subordination ou d'autorité (contrôle, tutelle)."@fr;
+  rdfs:domain rdafr:C100002;
+  rdfs:label "a des relations hiérarchiques avec [dans la relation]"@fr;
+  rdfs:range rdafr:P502336r;
+  rdfs:subClassOf rdafr:P100001r .
+
 rdafrru:R504 rdfs:seeAlso "9.1";
   owl:versionInfo "0.1.0";
   sh:description "Toute personne a au moins une identité publique, et aucune identité publique ne peut exister sans être associée à une personne ou à un agent. Une personne peut être connue sous une seule identité publique, ou sous plusieurs. Ces identités publiques sont désignées en tant que telles. [code RDA-FR, 9.1]"@fr;
@@ -568,8 +583,7 @@ rdafr:C100004 sh:property rdafrru:R504, rdafrru:R505, rdafrru:R506, rdafrru:R507
     rdafrru:R544, rdafrru:R545, rdafrru:R546, rdafrru:R547, rdafrru:R548, rdafrru:R549,
     rdafrru:R550, rdafrru:R551, rdafrru:R552, rdafrru:R553, rdafrru:R554, rdafrru:R555,
     rdafrru:R556, rdafrru:R557, rdafrru:R558, rdafrru:R559, rdafrru:R560, rdafrru:R561,
-    rdafrru:R562, rdafrru:R563, rdafrru:R564, rdafrru:R565, rdafrru:R566, rdafrru:R567,
-    rdafrru:R568, rdafrru:R569, rdafrru:R570, rdafrru:R571 .
+    rdafrru:R562, rdafrru:R563, rdafrru:R564, rdafrru:R565, rdafrru:R566, rdafrru:R567 .
 
 rdafr:P501027 a owl:ObjectProperty;
   rdfs:comment "Toute personne a au moins une identité publique, et aucune identité publique ne peut exister sans être associée à une personne ou à un agent. Une personne peut être connue sous une seule identité publique, ou sous plusieurs. Ces identités publiques sont désignées en tant que telles. [code RDA-FR, 9.1]"@fr;
@@ -590,8 +604,7 @@ rdafr:P501001 a owl:ObjectProperty;
   rdfs:comment "Une date associée à la personne est une date importante associée à l’histoire de la personne (par exemple, date de naissance, date de décès, et dans certains cas dates d’activité). [code RDA-FR, 9.3.1]"@fr;
   rdfs:domain rdafr:C100004;
   rdfs:label "a pour date associée à la personne"@fr;
-  rdfs:range rdafr:C100010;
-  rdfs:subClassOf rdafr:P100008r .
+  rdfs:range rdafr:C100010 .
 
 rdafrru:R506 rdfs:seeAlso "9.3.1.4";
   owl:versionInfo "0.1.0";
@@ -647,16 +660,16 @@ rdafrru:R509 rdfs:seeAlso "9.3.2";
   sh:description """Le titre de la personne est un mot ou une expression indiquant un titre royal, un titre nobiliaire, un rang ou une fonction ecclésiastique, ou un titre de courtoisie pour un religieux.
 Le titre de la personne inclut d’autres termes indiquant un rang ou une fonction, y compris les initiales de titre universitaire, ou l’appartenance à un groupe.
 Le titre de la personne exclut les termes d’adresse qui indiquent uniquement le genre ou le statut marital (M., Mme,…) [code RDA-FR, 9.3.2]"""@fr;
-  sh:name "Titre de la personne"@fr;
+  sh:name "titre de la personne"@fr;
   sh:nodeKind sh:Literal;
   sh:path rdafr:P501005r .
 
-rdafr:P501005r a owl:DatatypeProperty;
+rdafr:P501005r a owl:ObjectProperty;
   rdfs:comment """Le titre de la personne est un mot ou une expression indiquant un titre royal, un titre nobiliaire, un rang ou une fonction ecclésiastique, ou un titre de courtoisie pour un religieux.
 Le titre de la personne inclut d’autres termes indiquant un rang ou une fonction, y compris les initiales de titre universitaire, ou l’appartenance à un groupe.
 Le titre de la personne exclut les termes d’adresse qui indiquent uniquement le genre ou le statut marital (M., Mme,…) [code RDA-FR, 9.3.2]"""@fr;
   rdfs:domain rdafr:C100004;
-  rdfs:label "Titre de la personne"@fr;
+  rdfs:label "titre de la personne"@fr;
   rdfs:range rdafr:P501005r;
   rdfs:subClassOf rdafr:P100008r .
 
@@ -794,7 +807,7 @@ rdafrru:R518 rdfs:seeAlso "9.3.10";
   sh:nodeKind sh:Literal;
   sh:path rdafr:P501021r .
 
-rdafr:P501021r a owl:DatatypeProperty;
+rdafr:P501021r a owl:ObjectProperty;
   rdfs:comment "Champ d’action, domaine du savoir, etc. dans lequel s’investit ou s’est investie la personne. [code RDA-FR, 9.3.10]"@fr;
   rdfs:domain rdafr:C100004;
   rdfs:label "a pour domaine d'activité de la personne"@fr;
@@ -810,7 +823,7 @@ rdafrru:R519 rdfs:seeAlso "9.3.11";
   sh:nodeKind sh:Literal;
   sh:path rdafr:P501023r .
 
-rdafr:P501023r a owl:DatatypeProperty;
+rdafr:P501023r a owl:ObjectProperty;
   rdfs:comment "Profession ou l’occupation qu’une personne exerce ou a exercée. [code RDA-FR, 9.3.11]"@fr;
   rdfs:domain rdafr:C100004;
   rdfs:label "a pour profession ou occupation de la personne"@fr;
@@ -826,7 +839,7 @@ rdafrru:R520 rdfs:seeAlso "9.3.13";
   sh:nodeKind sh:Literal;
   sh:path rdafr:P501025r .
 
-rdafr:P501025r a owl:DatatypeProperty;
+rdafr:P501025r a owl:ObjectProperty;
   rdfs:comment "Information sur la vie ou l’histoire d’une personne sous forme textuelle. [code RDA-FR, 9.3.13]"@fr;
   rdfs:domain rdafr:C100004;
   rdfs:label "a pour information biographique et historique de la personne"@fr;
@@ -882,7 +895,6 @@ rdafr:P501034ri a owl:ObjectProperty;
   rdfs:domain rdafr:C100004;
   rdfs:label "est influencé ou influencée par [dans la relation]"@fr;
   rdfs:range rdafr:P501034r;
-  rdfs:subClassOf rdafr:P500028r;
   rdfs:subPropertyOf rdafr:P500028r;
   owl:inverseOf rdafr:P501034r .
 
@@ -914,7 +926,6 @@ rdafr:P501038ri a owl:ObjectProperty;
   rdfs:domain rdafr:C100004;
   rdfs:label "personne reçoit des commandes de la personne [dans la relation]"@fr;
   rdfs:range rdafr:P501038r;
-  rdfs:subClassOf rdafr:P500028r;
   rdfs:subPropertyOf rdafr:P500028r;
   owl:inverseOf rdafr:P501038r .
 
@@ -930,7 +941,6 @@ rdafr:P502039ri a owl:ObjectProperty;
   rdfs:domain rdafr:C100004;
   rdfs:label "personne commande des œuvres à la collectivité [dans la relation]"@fr;
   rdfs:range rdafr:P502039r;
-  rdfs:subClassOf rdafr:P500028r;
   rdfs:subPropertyOf rdafr:P500028r;
   owl:inverseOf rdafr:P502039r .
 
@@ -946,7 +956,6 @@ rdafr:P502040ri a owl:ObjectProperty;
   rdfs:domain rdafr:C100004;
   rdfs:label "personne reçoit des commandes de la collectivité [dans la relation]"@fr;
   rdfs:range rdafr:P502040r;
-  rdfs:subClassOf rdafr:P500028r;
   rdfs:subPropertyOf rdafr:P500028r;
   owl:inverseOf rdafr:P502040r .
 
@@ -1031,7 +1040,6 @@ rdafr:P501029ri a owl:ObjectProperty;
   rdfs:domain rdafr:C100004;
   rdfs:label "est enseignant de [dans la relation]"@fr;
   rdfs:range rdafr:P501029r;
-  rdfs:subClassOf rdafr:P500049r;
   rdfs:subPropertyOf rdafr:P500049r;
   owl:inverseOf rdafr:P501029r .
 
@@ -1084,7 +1092,7 @@ rdafr:P501047r a owl:ObjectProperty;
 
 rdafrru:R538 owl:versionInfo "0.1.0";
   sh:description "Relation entre une personne et son ancêtre."@fr;
-  sh:name "descend de[dans la relation]"@fr;
+  sh:name "descend de [dans la relation]"@fr;
   sh:node rdafr:C100004;
   sh:nodeKind sh:IRI;
   sh:path rdafr:P501048r .
@@ -1092,7 +1100,7 @@ rdafrru:R538 owl:versionInfo "0.1.0";
 rdafr:P501048r a owl:ObjectProperty;
   rdfs:comment "Relation entre une personne et son ancêtre."@fr;
   rdfs:domain rdafr:C100004;
-  rdfs:label "descend de[dans la relation]"@fr;
+  rdfs:label "descend de [dans la relation]"@fr;
   rdfs:range rdafr:P501048r;
   rdfs:subClassOf rdafr:P501047r;
   rdfs:subPropertyOf rdafr:P501047r;
@@ -1110,7 +1118,6 @@ rdafr:P501048ri a owl:ObjectProperty;
   rdfs:domain rdafr:C100004;
   rdfs:label "a pour descendant [dans la relation]"@fr;
   rdfs:range rdafr:P501048r;
-  rdfs:subClassOf rdafr:P501047r;
   rdfs:subPropertyOf rdafr:P501047r;
   owl:inverseOf rdafr:P501048r .
 
@@ -1142,7 +1149,6 @@ rdafr:P501052ri a owl:ObjectProperty;
   rdfs:domain rdafr:C100004;
   rdfs:label "est l’enfant de [dans la relation]"@fr;
   rdfs:range rdafr:P501052r;
-  rdfs:subClassOf rdafr:P501047r;
   rdfs:subPropertyOf rdafr:P501047r;
   owl:inverseOf rdafr:P501052r .
 
@@ -1284,13 +1290,11 @@ rdafrru:R552 owl:versionInfo "0.1.0";
   sh:path rdafr:P502377ri .
 
 rdafr:P502377ri a owl:ObjectProperty;
-  rdfs:comment "Relation de financement entre une personne et la collectivité qui la finance."@fr,
-    "Relation entre une des collectivités résultant de la scission d'une collectivité et la collectivité qui a été scindée."@fr;
-  rdfs:domain rdafr:C100004, rdafr:C100005;
-  rdfs:label "est résultat de la scision de [dans la relation]"@fr, "personne est financée par la collectivité [dans la relation]"@fr;
+  rdfs:comment "Relation de financement entre une personne et la collectivité qui la finance."@fr;
+  rdfs:domain rdafr:C100004;
+  rdfs:label "personne est financée par la collectivité [dans la relation]"@fr;
   rdfs:range rdafr:P502377r;
-  rdfs:subClassOf rdafr:P502370r;
-  rdfs:subPropertyOf rdafr:P500053ri, rdafr:P502370r;
+  rdfs:subPropertyOf rdafr:P500053ri;
   owl:inverseOf rdafr:P502377r .
 
 rdafrru:R553 owl:versionInfo "0.1.0";
@@ -1340,75 +1344,13 @@ rdafr:P502379ri a owl:ObjectProperty;
   owl:inverseOf rdafr:P502379r .
 
 rdafrru:R556 owl:versionInfo "0.1.0";
-  sh:description "Relation entre une personne qui apporte un soutien matériel pour l'exercice d'activités présentant un intérêt général et la collectivité bénéficiaire de ce soutien. L'apport du soutien est sans contrepartie directe de la part du bénéficiaire."@fr;
-  sh:name "est mécène de [dans la relation]"@fr;
-  sh:node rdafr:C100005;
-  sh:nodeKind sh:IRI;
-  sh:path rdafr:P501042r .
-
-rdafr:P501042r a owl:ObjectProperty;
-  rdfs:comment "Relation entre une personne qui apporte un soutien matériel pour l'exercice d'activités présentant un intérêt général et la collectivité bénéficiaire de ce soutien. L'apport du soutien est sans contrepartie directe de la part du bénéficiaire."@fr;
-  rdfs:domain rdafr:C100004;
-  rdfs:label "est mécène de [dans la relation]"@fr;
-  rdfs:range rdafr:P501042r;
-  rdfs:subClassOf rdafr:P500028r;
-  rdfs:subPropertyOf rdafr:P500028r;
-  owl:inverseOf rdafr:P501042ri .
-
-rdafrru:R557 owl:versionInfo "0.1.0";
-  sh:description "Relation entre une personne bénéficiaire d'un soutien matériel pour l'exercice d'activités présentant un intérêt général et la collectivité qui lui apporte ce soutien. L'apport du soutien est sans contrepartie directe de la part du bénéficiaire."@fr;
-  sh:name "a pour mécène [dans la relation]"@fr;
-  sh:node rdafr:C100005;
-  sh:nodeKind sh:IRI;
-  sh:path rdafr:P501042ri .
-
-rdafr:P501042ri a owl:ObjectProperty;
-  rdfs:comment "Relation entre une personne bénéficiaire d'un soutien matériel pour l'exercice d'activités présentant un intérêt général et la collectivité qui lui apporte ce soutien. L'apport du soutien est sans contrepartie directe de la part du bénéficiaire."@fr;
-  rdfs:domain rdafr:C100004;
-  rdfs:label "a pour mécène [dans la relation]"@fr;
-  rdfs:range rdafr:P501042r;
-  rdfs:subClassOf rdafr:P500028r;
-  rdfs:subPropertyOf rdafr:P500028r;
-  owl:inverseOf rdafr:P501042r .
-
-rdafrru:R558 owl:versionInfo "0.1.0";
-  sh:description "Relation entre une personne qui apporte un soutien matériel pour l'exercice d'activités présentant un intérêt général et la collectivité bénficiaire de ce soutien. Le parraineur retire un bénéfice direct du soutien qu'il apporte."@fr;
-  sh:name "est parraineur de [dans la relation]"@fr;
-  sh:node rdafr:C100005;
-  sh:nodeKind sh:IRI;
-  sh:path rdafr:P501043r .
-
-rdafr:P501043r a owl:ObjectProperty;
-  rdfs:comment "Relation entre une personne qui apporte un soutien matériel pour l'exercice d'activités présentant un intérêt général et la collectivité bénficiaire de ce soutien. Le parraineur retire un bénéfice direct du soutien qu'il apporte."@fr;
-  rdfs:domain rdafr:C100004;
-  rdfs:label "est parraineur de [dans la relation]"@fr;
-  rdfs:range rdafr:P501043r;
-  rdfs:subClassOf rdafr:P100001r;
-  owl:inverseOf rdafr:P501043ri .
-
-rdafrru:R559 owl:versionInfo "0.1.0";
-  sh:description "Relation entre une personne bénéficiaire d'un soutien matériel pour l'exercice d'activités présentant un intérêt général et la collectivité qui lui apporte ce soutien. Le parraineur retire un bénéfice direct du soutien qu'il apporte."@fr;
-  sh:name "a pour parraineur [dans la relation]"@fr;
-  sh:node rdafr:C100004;
-  sh:nodeKind sh:IRI;
-  sh:path rdafr:P501043ri .
-
-rdafr:P501043ri a owl:ObjectProperty;
-  rdfs:comment "Relation entre une personne bénéficiaire d'un soutien matériel pour l'exercice d'activités présentant un intérêt général et la collectivité qui lui apporte ce soutien. Le parraineur retire un bénéfice direct du soutien qu'il apporte."@fr;
-  rdfs:domain rdafr:C100004;
-  rdfs:label "a pour parraineur [dans la relation]"@fr;
-  rdfs:range rdafr:P501043r;
-  rdfs:subClassOf rdafr:P100001r;
-  owl:inverseOf rdafr:P501043r .
-
-rdafrru:R560 owl:versionInfo "0.1.0";
   sh:description "Catégorie de relations entre entre une personne et un autre agent, regroupant les relations de membre, d'affiliation ou de propriété. Utiliser les relations précises de cette catégorie."@fr;
   sh:name "a des relations d'appartenance ou d'adhésion avec [dans la relation]"@fr;
   sh:node rdafr:C100002;
   sh:nodeKind sh:IRI;
   sh:path rdafr:P500050r .
 
-rdafrru:R561 owl:versionInfo "0.1.0";
+rdafrru:R557 owl:versionInfo "0.1.0";
   sh:description "Relation entre une personne et la collectivité dont elle est membre."@fr;
   sh:name "personne est membre de la collectivité [dans la relation]"@fr;
   sh:node rdafr:C100005;
@@ -1419,12 +1361,12 @@ rdafr:P501068r a owl:ObjectProperty;
   rdfs:comment "Relation entre une personne et la collectivité dont elle est membre."@fr;
   rdfs:domain rdafr:C100004;
   rdfs:label "personne est membre de la collectivité [dans la relation]"@fr;
-  rdfs:range rdafr:C100005;
+  rdfs:range rdafr:P501068r;
   rdfs:subClassOf rdafr:P500050r;
   rdfs:subPropertyOf rdafr:P500050r;
   owl:inverseOf rdafr:P501068ri .
 
-rdafrru:R562 owl:versionInfo "0.1.0";
+rdafrru:R558 owl:versionInfo "0.1.0";
   sh:description "Relation entre une personne et le groupe informel dont elle fait partie."@fr;
   sh:name "personne est membre du groupe informel [dans la relation]"@fr;
   sh:node rdafr:C100025;
@@ -1435,12 +1377,12 @@ rdafr:P501079r a owl:ObjectProperty;
   rdfs:comment "Relation entre une personne et le groupe informel dont elle fait partie."@fr;
   rdfs:domain rdafr:C100004;
   rdfs:label "personne est membre du groupe informel [dans la relation]"@fr;
-  rdfs:range rdafr:C100025;
+  rdfs:range rdafr:P501079r;
   rdfs:subClassOf rdafr:P500050r;
   rdfs:subPropertyOf rdafr:P500050r;
-  owl:inverseOf rdafr:P501079r .
+  owl:inverseOf rdafr:P501079ri .
 
-rdafrru:R563 rdfs:seeAlso "9.3.12";
+rdafrru:R559 rdfs:seeAlso "9.3.12";
   owl:versionInfo "0.1.0";
   sh:description """Relation entre une personne et la collectivité à laquelle elle est affiliée. Il s'agit d'un cas particulier de la relation \"est membre de\", principalement en usage dans le contexte de l'enseignement supérieur et de la recherche.
 Relation entre une personne et le groupe auquel elle est affiliée. Cette relation signale une appartenance à un groupe obtenue par recrutement, acquisition de la qualité de membre, etc [code RDA-FR, 9.3.12]"""@fr;
@@ -1454,12 +1396,12 @@ rdafr:P501024r a owl:ObjectProperty;
 Relation entre une personne et le groupe auquel elle est affiliée. Cette relation signale une appartenance à un groupe obtenue par recrutement, acquisition de la qualité de membre, etc [code RDA-FR, 9.3.12]"""@fr;
   rdfs:domain rdafr:C100004;
   rdfs:label "personne est affiliée à la collectivité [dans la relation]"@fr;
-  rdfs:range rdafr:C100005;
+  rdfs:range rdafr:P501024r;
   rdfs:subClassOf rdafr:P500050r;
   rdfs:subPropertyOf rdafr:P500050r;
   owl:inverseOf rdafr:P501024ri .
 
-rdafrru:R564 owl:versionInfo "0.1.0";
+rdafrru:R560 owl:versionInfo "0.1.0";
   sh:description "Relation entre une personne et la collectivité qu'elle possède."@fr;
   sh:name "personne est propriétaire de la collectivité [dans la relation]"@fr;
   sh:node rdafr:C100005;
@@ -1475,14 +1417,14 @@ rdafr:P501078r a owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P500050r;
   owl:inverseOf rdafr:P501078ri .
 
-rdafrru:R565 owl:versionInfo "0.1.0";
+rdafrru:R561 owl:versionInfo "0.1.0";
   sh:description "Catégorie de relations entre entre une personne et un autre agent comprenant les relations d'emploi, de prestation, de franchise ou d'associé de."@fr;
   sh:name "a des relations contractuelles avec [dans la relation]"@fr;
   sh:node rdafr:C100002;
   sh:nodeKind sh:IRI;
   sh:path rdafr:P500051r .
 
-rdafrru:R566 owl:versionInfo "0.1.0";
+rdafrru:R562 owl:versionInfo "0.1.0";
   sh:description "Relation contractuelle entre une personne et une entreprise où la personne, en vertu de son statut d'associée, partage les bénéfices de l'entreprise avec d'autres associés."@fr;
   sh:name "personne est l'associée de la collectivité [dans la relation]"@fr;
   sh:node rdafr:C100005;
@@ -1498,7 +1440,7 @@ rdafr:P501075r a owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P500051r;
   owl:inverseOf rdafr:P501075ri .
 
-rdafrru:R567 owl:versionInfo "0.1.0";
+rdafrru:R563 owl:versionInfo "0.1.0";
   sh:description "Relation contractuelle entre une personne et son organisme employeur (par exemple, lorsque la personne est employée avec le statut de salarié, d’agent de la fonction publique, etc.). Cette relation implique aussi un rapport de hiérarchie entre la personne employée et l'organisme employeur. A ne pas confondre avec la relation “Est prestataire de service / Est client de” qui est une relation contractuelle sans hiérarchie entre les parties."@fr;
   sh:name "est employé par [dans la relation]"@fr;
   sh:node rdafr:C100005;
@@ -1514,21 +1456,14 @@ rdafr:P501074r a owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P500051r;
   owl:inverseOf rdafr:P501074ri .
 
-rdafrru:R568 owl:versionInfo "0.1.0";
+rdafrru:R564 owl:versionInfo "0.1.0";
   sh:description "Catégorie de relations entre agents regroupant des relations de subordination ou d'autorité (contrôle, tutelle)"@fr;
   sh:name "a des relations hiérarchiques avec [dans la relation]"@fr;
   sh:node rdafr:C100002;
   sh:nodeKind sh:IRI;
   sh:path rdafr:P502336r .
 
-rdafr:P502336r a owl:ObjectProperty;
-  rdfs:comment "Catégorie de relations entre agents regroupant des relations de subordination ou d'autorité (contrôle, tutelle)"@fr,
-    "Catégorie de relations entre agents regroupant des relations de subordination ou d'autorité (contrôle, tutelle)."@fr;
-  rdfs:label "a des relations hiérarchiques avec [dans la relation]"@fr;
-  rdfs:range rdafr:P502336r;
-  rdfs:subClassOf rdafr:P100001r .
-
-rdafrru:R569 owl:versionInfo "0.1.0";
+rdafrru:R565 owl:versionInfo "0.1.0";
   sh:description "Relation entre une personne et la collectivité qu'elle dirge ou au sein de laquelle elle exerce une fonction de responsabilité."@fr;
   sh:name "dirige [dans la relation]"@fr;
   sh:node rdafr:C100005;
@@ -1544,14 +1479,14 @@ rdafr:P501080r a owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P502336r;
   owl:inverseOf rdafr:P501080ri .
 
-rdafrru:R570 owl:versionInfo "0.1.0";
+rdafrru:R566 owl:versionInfo "0.1.0";
   sh:description "Relation de non équivalence entre la personne décrite et une autre personne, collectivité ou famille homonyme, alertant sur les risques de confusion entre les deux."@fr;
   sh:name "est à distinguer de [dans la relation]"@fr;
   sh:node rdafr:C100002;
   sh:nodeKind sh:IRI;
   sh:path rdafr:P100010r .
 
-rdafrru:R571 owl:versionInfo "0.1.0";
+rdafrru:R567 owl:versionInfo "0.1.0";
   sh:description "Personne qui partage une même identité publique avec une autre personne, dans le cas de pseudonymes collectifs."@fr;
   sh:name "partage l'identité publique avec [dans la relation]"@fr;
   sh:node rdafr:C100004;
@@ -1588,10 +1523,9 @@ rdafr:C100005 sh:property rdafrru:P704, rdafrru:P705, rdafrru:P706, rdafrru:P707
     rdafrru:P774, rdafrru:P775, rdafrru:P776, rdafrru:P777, rdafrru:P778, rdafrru:P779,
     rdafrru:P780, rdafrru:P781, rdafrru:P782, rdafrru:P783, rdafrru:P784, rdafrru:P785,
     rdafrru:P786, rdafrru:P787, rdafrru:P788, rdafrru:P789, rdafrru:P790, rdafrru:P791,
-    rdafrru:P792, rdafrru:P793, rdafrru:P794, rdafrru:P795, rdafrru:P796, rdafrru:P797,
-    rdafrru:P798, rdafrru:P799, rdafrru:R800, rdafrru:R801, rdafrru:R802, rdafrru:R803,
-    rdafrru:R804, rdafrru:R805, rdafrru:R806, rdafrru:R807, rdafrru:R808, rdafrru:R809,
-    rdafrru:R810 .
+    rdafrru:P792, rdafrru:P793, rdafrru:P794, rdafrru:P795, rdafrru:R796, rdafrru:R797,
+    rdafrru:R798, rdafrru:R799, rdafrru:R800, rdafrru:R801, rdafrru:R802, rdafrru:R803,
+    rdafrru:R804, rdafrru:R805, rdafrru:R806 .
 
 rdafr:P502301 a owl:ObjectProperty;
   rdfs:comment "Le terme nom de collectivité désigne un mot, un caractère ou un groupe de mots et/ou de caractères sous lequel une collectivité est connue. Un même nom de collectivité se trouve parfois décliné sous plusieurs formes de nom (dans des langues ou écritures différentes notamment). [code RDA-FR, 11.2]"@fr;
@@ -1719,7 +1653,7 @@ rdafrru:P712 rdfs:seeAlso "11.3";
   sh:nodeKind sh:Literal;
   sh:path rdafr:P502305r .
 
-rdafr:P502305r a owl:DatatypeProperty;
+rdafr:P502305r a owl:ObjectProperty;
   rdfs:comment "Catégorisation pour un type de collectivité [code RDA-FR, 11.3]"@fr;
   rdfs:domain rdafr:C100005;
   rdfs:label "a pour type de collectivité"@fr;
@@ -1735,7 +1669,7 @@ rdafrru:P713 rdfs:seeAlso "11.4";
   sh:nodeKind sh:Literal;
   sh:path rdafr:P502306r .
 
-rdafr:P502306r a owl:DatatypeProperty;
+rdafr:P502306r a owl:ObjectProperty;
   rdfs:comment "Catégorisation pour un type de division administrative ou juridictionnelle [code RDA-FR, 11.4]"@fr;
   rdfs:domain rdafr:C100005;
   rdfs:label "a pour type de division administrative ou juridictionnelle"@fr;
@@ -1822,7 +1756,7 @@ rdafrru:P718 rdfs:seeAlso "11.6";
   sh:nodeKind sh:Literal;
   sh:path rdafr:P502311r .
 
-rdafr:P502311r a owl:DatatypeProperty;
+rdafr:P502311r a owl:ObjectProperty;
   rdfs:comment "Nombre associé à une collectivité, considéré comme important pour celle-ci (numéro d’une unité militaire, numéro d’une équipe de recherche, numéro d’arrondissement d’une commune). [code RDA-FR, 11.6]"@fr;
   rdfs:domain rdafr:C100005;
   rdfs:label "a pour nombre associé à la collectivité"@fr;
@@ -1839,7 +1773,7 @@ rdafrru:P719 rdfs:seeAlso "11.6.2";
   sh:nodeKind sh:Literal;
   sh:path rdafr:P502312r .
 
-rdafr:P502312r a owl:DatatypeProperty;
+rdafr:P502312r a owl:ObjectProperty;
   rdfs:comment "Désignation du numéro d’ordre d’un événement particulier, à l’intérieur d’une série d'événements, lors duquel un groupe occasionnel s’est réuni. [code RDA-FR, 11.6.2]"@fr;
   rdfs:domain rdafr:C100005;
   rdfs:label "a pour numéro d'ordre de l'événement où un groupe occasionnel s'est réuni"@fr;
@@ -1858,8 +1792,7 @@ rdafr:P502313 a owl:ObjectProperty;
   rdfs:comment "Dates importantes associées à l’histoire d’une collectivité [code RDA-FR, 11.7]"@fr;
   rdfs:domain rdafr:C100005;
   rdfs:label "a pour dates associées à la collectivité"@fr;
-  rdfs:range rdafr:C100010;
-  rdfs:subClassOf rdafr:P100008r .
+  rdfs:range rdafr:C100010 .
 
 rdafrru:P721 rdfs:seeAlso "11.7.2";
   owl:versionInfo "0.1.0";
@@ -1935,7 +1868,8 @@ rdafr:P502319 a owl:ObjectProperty;
   rdfs:comment "Mot, expression, abréviation ou tout terme qui permet de différencier une collectivité d’autres collectivités, ou de toute autre entité (personnes, lieux, oeuvres, etc.) [code RDA-FR, 11.8]"@fr;
   rdfs:domain rdafr:C100005;
   rdfs:label "a pour autre désignation associée à la collectivité"@fr;
-  rdfs:range rdafr:C100012 .
+  rdfs:range rdafr:C100012;
+  rdfs:subPropertyOf rdafr:P502301 .
 
 rdafrru:P726 rdfs:seeAlso "11.9";
   owl:versionInfo "0.1.0";
@@ -1976,7 +1910,7 @@ rdafrru:P728 rdfs:seeAlso "11.11";
   sh:nodeKind sh:Literal;
   sh:path rdafr:P502322r .
 
-rdafr:P502322r a owl:DatatypeProperty;
+rdafr:P502322r a owl:ObjectProperty;
   rdfs:comment "Adresse d’une collectivité. Il peut s’agir d’une adresse du siège de la collectivité, une adresse postale, une adresse de lieu d’activité, d’une adresse électronique, l’adresse du site Web de la collectivité, etc. [code RDA-FR, 11.11]"@fr;
   rdfs:domain rdafr:C100005;
   rdfs:label "a pour adresse de la collectivité"@fr;
@@ -1992,7 +1926,7 @@ rdafrru:P729 rdfs:seeAlso "11.12";
   sh:nodeKind sh:Literal;
   sh:path rdafr:P502323r .
 
-rdafr:P502323r a owl:DatatypeProperty;
+rdafr:P502323r a owl:ObjectProperty;
   rdfs:comment "Champ d'activité dans lequel évolue une collectivité ou une zone de compétence ou de responsabilité d'une collectivité, etc. [code RDA-FR, 11.12]"@fr;
   rdfs:domain rdafr:C100005;
   rdfs:label "a pour domaine d'activité de la collectivité"@fr;
@@ -2008,7 +1942,7 @@ rdafrru:P730 rdfs:seeAlso "11.13";
   sh:nodeKind sh:Literal;
   sh:path rdafr:P502324r .
 
-rdafr:P502324r a owl:DatatypeProperty;
+rdafr:P502324r a owl:ObjectProperty;
   rdfs:comment "Résumé d'informations historiques sur une collectivité [code RDA-FR, 11.13]"@fr;
   rdfs:domain rdafr:C100005;
   rdfs:label "a pour historique de la collectivité"@fr;
@@ -2028,8 +1962,7 @@ rdafr:P502325 a owl:ObjectProperty;
   rdfs:comment "Un identifiant associé à une collectivité est une chaîne de caractères ou de symboles, généralement indépendant des règles et conventions linguistiques, associée à la collectivité. L'identifiant sert à distinguer une collectivité d'autres collectivités. Il doit être unique au sein d'un référentiel donné. Dans le contexte d'une applicaation donnée, le numéro d'une notice d'autorité dans un catalogue de bibliothèque ou autre référentiel documentaire peut être utilisé comme identifiant. [code RDA-FR, 11.14]"@fr;
   rdfs:domain rdafr:C100005;
   rdfs:label "a pour identifiant de la collectivité"@fr;
-  rdfs:range rdafr:C100012;
-  rdfs:subClassOf rdafr:P100008r .
+  rdfs:range rdafr:C100012 .
 
 rdafrru:P732 owl:versionInfo "0.1.0";
   sh:description "Catégorie de relations entre une collectivité et tout autre agent, regroupant les relations spécifiques de nature sociale, économique ou culturelle. Ne pas l'utiliser comme type de relation à part entière. Privilégier les relations précises."@fr;
@@ -2050,7 +1983,6 @@ rdafr:P502338ri a owl:ObjectProperty;
   rdfs:domain rdafr:C100005;
   rdfs:label "collectivité commande des œuvres à la collectivité [dans la relation]"@fr;
   rdfs:range rdafr:P502338r;
-  rdfs:subClassOf rdafr:P500028r;
   rdfs:subPropertyOf rdafr:P500028r;
   owl:inverseOf rdafr:P502338r .
 
@@ -2123,13 +2055,7 @@ rdafrru:P738 owl:versionInfo "0.1.0";
   sh:name "a une relation relative à la formation avec [dans la relation]"@fr;
   sh:node rdafr:C100002;
   sh:nodeKind sh:IRI;
-  sh:path rdafr:P502049r .
-
-rdafr:P502049r a owl:ObjectProperty;
-  rdfs:comment "Catégorie de relations regroupant les relations spécifiques relatives à la formation entre agents."@fr;
-  rdfs:label "a une relation relative à la formation avec [dans la relation]"@fr;
-  rdfs:range rdafr:P502049r;
-  rdfs:subClassOf rdafr:P100001r .
+  sh:path rdafr:P500049r .
 
 rdafrru:P739 owl:versionInfo "0.1.0";
   sh:description "Relation entre un organisme de formation et une collectivité."@fr;
@@ -2143,8 +2069,8 @@ rdafr:P502050r a owl:ObjectProperty;
   rdfs:domain rdafr:C100005;
   rdfs:label "dispense des formations à la collectivité [dans la relation]"@fr;
   rdfs:range rdafr:P502050r;
-  rdfs:subClassOf rdafr:P502049r;
-  rdfs:subPropertyOf rdafr:P502049r;
+  rdfs:subClassOf rdafr:P500049r;
+  rdfs:subPropertyOf rdafr:P500049r;
   owl:inverseOf rdafr:P502050ri .
 
 rdafrru:P740 owl:versionInfo "0.1.0";
@@ -2159,8 +2085,7 @@ rdafr:P502050ri a owl:ObjectProperty;
   rdfs:domain rdafr:C100005;
   rdfs:label "reçoit des formations de la collectivité [dans la relation]"@fr;
   rdfs:range rdafr:P502050r;
-  rdfs:subClassOf rdafr:P502049r;
-  rdfs:subPropertyOf rdafr:P502049r;
+  rdfs:subPropertyOf rdafr:P500049r;
   owl:inverseOf rdafr:P502050r .
 
 rdafrru:P741 owl:versionInfo "0.1.0";
@@ -2175,8 +2100,8 @@ rdafr:P502051r a owl:ObjectProperty;
   rdfs:domain rdafr:C100005;
   rdfs:label "reçoit des formations de [dans la relation]"@fr;
   rdfs:range rdafr:P502051r;
-  rdfs:subClassOf rdafr:P502049r;
-  rdfs:subPropertyOf rdafr:P502049r .
+  rdfs:subClassOf rdafr:P500049r;
+  rdfs:subPropertyOf rdafr:P500049r .
 
 rdafrru:P742 owl:versionInfo "0.1.0";
   sh:description "Relation entre un organisme de formation et une personne."@fr;
@@ -2189,8 +2114,7 @@ rdafr:P502051ri a owl:ObjectProperty;
   rdfs:comment "Relation entre un organisme de formation et une personne."@fr;
   rdfs:domain rdafr:C100005;
   rdfs:label "dispense des formations à [dans la relation]"@fr;
-  rdfs:subClassOf rdafr:P502049r;
-  rdfs:subPropertyOf rdafr:P502049r .
+  rdfs:subPropertyOf rdafr:P500049r .
 
 rdafrru:P743 owl:versionInfo "0.1.0";
   sh:description "Relation entre un établissement d'enseignement et la personne à laquelle il confère un diplôme."@fr;
@@ -2204,8 +2128,7 @@ rdafr:P501072ri a owl:ObjectProperty;
   rdfs:domain rdafr:C100005;
   rdfs:label "confère un diplôme à la personne [dans la relation]"@fr;
   rdfs:range rdafr:P501072r;
-  rdfs:subClassOf rdafr:P502049r;
-  rdfs:subPropertyOf rdafr:P502049r;
+  rdfs:subPropertyOf rdafr:P500049r;
   owl:inverseOf rdafr:P501072r .
 
 rdafrru:P744 owl:versionInfo "0.1.0";
@@ -2220,8 +2143,7 @@ rdafr:P501030ri a owl:ObjectProperty;
   rdfs:domain rdafr:C100005;
   rdfs:label "compte parmi ses élèves [dans la relation]"@fr;
   rdfs:range rdafr:P501030r;
-  rdfs:subClassOf rdafr:P502049r;
-  rdfs:subPropertyOf rdafr:P502049r;
+  rdfs:subPropertyOf rdafr:P500049r;
   owl:inverseOf rdafr:P501030r .
 
 rdafrru:P745 owl:versionInfo "0.1.0";
@@ -2251,7 +2173,6 @@ rdafr:P502048ri a owl:ObjectProperty;
   rdfs:domain rdafr:C100005;
   rdfs:label "collectivité est fondée par la collectivité [dans la relation]"@fr;
   rdfs:range rdafr:P502048r;
-  rdfs:subClassOf rdafr:P100001r;
   owl:inverseOf rdafr:P502048r .
 
 rdafrru:P747 owl:versionInfo "0.1.0";
@@ -2266,7 +2187,6 @@ rdafr:P505010ri a owl:ObjectProperty;
   rdfs:domain rdafr:C100005;
   rdfs:label "collectivité est fondée par la famille [dans la relation]"@fr;
   rdfs:range rdafr:P505010r;
-  rdfs:subClassOf rdafr:P100001r;
   owl:inverseOf rdafr:P505010r .
 
 rdafrru:P748 owl:versionInfo "0.1.0";
@@ -2281,7 +2201,6 @@ rdafr:P501076ri a owl:ObjectProperty;
   rdfs:domain rdafr:C100005;
   rdfs:label "collectivité est fondée par la personne [dans la relation]"@fr;
   rdfs:range rdafr:P501076r;
-  rdfs:subClassOf rdafr:P100001r;
   owl:inverseOf rdafr:P501076r .
 
 rdafrru:P749 owl:versionInfo "0.1.0";
@@ -2303,7 +2222,6 @@ rdafr:P501080ri a owl:ObjectProperty;
   rdfs:domain rdafr:C100005;
   rdfs:label "collectivité est dirigée par la personne [dans la relation]"@fr;
   rdfs:range rdafr:P501080r;
-  rdfs:subClassOf rdafr:P502336r;
   rdfs:subPropertyOf rdafr:P502336r;
   owl:inverseOf rdafr:P501080r .
 
@@ -2315,14 +2233,12 @@ rdafrru:P751 owl:versionInfo "0.1.0";
   sh:path rdafr:P505012ri .
 
 rdafr:P505012ri a owl:ObjectProperty;
-  rdfs:comment "Relation de financement entre une collectivité et la famille qui la finance. Il s'agit d'une relation générique comprenant les différents types de financement comme la subvention, le parrainage ou le mécénat. Peut être utilisée comme relation distincte lorsqu'on ne connaît pas la nature précise du financement."@fr,
-    "Relation entre une collectivité et la famille qui la dirige."@fr;
+  rdfs:comment "Relation entre une collectivité et la famille qui la dirige."@fr;
   rdfs:domain rdafr:C100005;
-  rdfs:label "collectivité est dirigée par la famille [dans la relation]"@fr, "collectivité est financée par la famille [dans la relation]"@fr;
-  rdfs:range rdafr:P505012r, rdafr:P505012ri;
-  rdfs:subClassOf rdafr:P502336r;
-  rdfs:subPropertyOf rdafr:P500053ri, rdafr:P502336r;
-  owl:inverseOf rdafr:P505012r, rdafr:P505012ri .
+  rdfs:label "collectivité est dirigée par la famille [dans la relation]"@fr;
+  rdfs:range rdafr:P505012r;
+  rdfs:subPropertyOf rdafr:P502336r;
+  owl:inverseOf rdafr:P505012r .
 
 rdafrru:P752 owl:versionInfo "0.1.0";
   sh:description "Relation entre une collectivité et la collectivité qui lui est subordonnée."@fr;
@@ -2352,7 +2268,6 @@ rdafr:P502337ri a owl:ObjectProperty;
   rdfs:domain rdafr:C100005;
   rdfs:label "est subordonné à [dans la relation]"@fr;
   rdfs:range rdafr:P502337r;
-  rdfs:subClassOf rdafr:P502336r;
   rdfs:subPropertyOf rdafr:P502336r;
   owl:inverseOf rdafr:P502337r .
 
@@ -2484,7 +2399,6 @@ rdafr:P502346ri a owl:ObjectProperty;
   rdfs:domain rdafr:C100005;
   rdfs:label "collectivité a pour membre la collectivité [dans la relation]"@fr;
   rdfs:range rdafr:P502346r;
-  rdfs:subClassOf rdafr:P500050r;
   rdfs:subPropertyOf rdafr:P500050r;
   owl:inverseOf rdafr:P502346r .
 
@@ -2500,7 +2414,6 @@ rdafr:P501068ri a owl:ObjectProperty;
   rdfs:domain rdafr:C100005;
   rdfs:label "collectivité a pour membre la personne [dans la relation]"@fr;
   rdfs:range rdafr:P501068r;
-  rdfs:subClassOf rdafr:P500050r;
   rdfs:subPropertyOf rdafr:P500050r;
   owl:inverseOf rdafr:P501068r .
 
@@ -2532,7 +2445,6 @@ rdafr:P502348ri a owl:ObjectProperty;
   rdfs:domain rdafr:C100005;
   rdfs:label "collectivité a pour affilié la collectivité[dans la relation]"@fr;
   rdfs:range rdafr:P502348r;
-  rdfs:subClassOf rdafr:P500050r;
   rdfs:subPropertyOf rdafr:P500050r;
   owl:inverseOf rdafr:P502348r .
 
@@ -2548,7 +2460,6 @@ rdafr:P501024ri a owl:ObjectProperty;
   rdfs:domain rdafr:C100005;
   rdfs:label "collectivité a pour affilié la personne [dans la relation]"@fr;
   rdfs:range rdafr:P501024r;
-  rdfs:subClassOf rdafr:P500050r;
   rdfs:subPropertyOf rdafr:P500050r;
   owl:inverseOf rdafr:P501024r .
 
@@ -2580,7 +2491,6 @@ rdafr:P502349ri a owl:ObjectProperty;
   rdfs:domain rdafr:C100005;
   rdfs:label "collectivité est la propriété de la collectivité [dans la relation]"@fr;
   rdfs:range rdafr:P502349r;
-  rdfs:subClassOf rdafr:P500050r;
   rdfs:subPropertyOf rdafr:P500050r;
   owl:inverseOf rdafr:P502349r .
 
@@ -2596,7 +2506,6 @@ rdafr:P501078ri a owl:ObjectProperty;
   rdfs:domain rdafr:C100005;
   rdfs:label "collectivité est la propriété de la personne [dans la relation]"@fr;
   rdfs:range rdafr:P501078r;
-  rdfs:subClassOf rdafr:P500050r;
   rdfs:subPropertyOf rdafr:P500050r;
   owl:inverseOf rdafr:P501078r .
 
@@ -2612,7 +2521,6 @@ rdafr:P505011ri a owl:ObjectProperty;
   rdfs:domain rdafr:C100005;
   rdfs:label "collectivité est la propriété de la famille [dans la relation]"@fr;
   rdfs:range rdafr:P505011r;
-  rdfs:subClassOf rdafr:P500050r;
   rdfs:subPropertyOf rdafr:P500050r;
   owl:inverseOf rdafr:P505011r .
 
@@ -2628,7 +2536,6 @@ rdafr:P502350ri a owl:ObjectProperty;
   rdfs:domain rdafr:C100005;
   rdfs:label "a pour filiale [dans la relation]"@fr;
   rdfs:range rdafr:P502350r;
-  rdfs:subClassOf rdafr:P500050r;
   rdfs:subPropertyOf rdafr:P500050r;
   owl:inverseOf rdafr:P502350r .
 
@@ -2677,13 +2584,12 @@ rdafrru:P776 owl:versionInfo "0.1.0";
   sh:path rdafr:P502377r .
 
 rdafr:P502377r a owl:ObjectProperty;
-  rdfs:comment "Relation de financement d'une collectivité envers une personne. Il s'agit d'une relation générique comprenant les différents types de financement comme la subvention, le parrainage ou le mécénat. Peut être utilisée comme relation distincte lorsqu'on ne connaît pas la nature précise du financement."@fr,
-    "Relation entre une collectivité qui a été scindée et une des collectivités qui ont résultées de cette scission."@fr;
+  rdfs:comment "Relation de financement d'une collectivité envers une personne. Il s'agit d'une relation générique comprenant les différents types de financement comme la subvention, le parrainage ou le mécénat. Peut être utilisée comme relation distincte lorsqu'on ne connaît pas la nature précise du financement."@fr;
   rdfs:domain rdafr:C100005;
-  rdfs:label "collectivité finance la personne [dans la relation]"@fr, "est scindé en [dans la relation]"@fr;
+  rdfs:label "collectivité finance la personne [dans la relation]"@fr;
   rdfs:range rdafr:P502377r;
-  rdfs:subClassOf rdafr:P500053r, rdafr:P502370r;
-  rdfs:subPropertyOf rdafr:P500053r, rdafr:P502370r;
+  rdfs:subClassOf rdafr:P500053r;
+  rdfs:subPropertyOf rdafr:P500053r;
   owl:inverseOf rdafr:P502377ri .
 
 rdafrru:P777 owl:versionInfo "0.1.0";
@@ -2753,7 +2659,15 @@ rdafrru:P781 owl:versionInfo "0.1.0";
   sh:name "collectivité est financée par la famille [dans la relation]"@fr;
   sh:node rdafr:C100008;
   sh:nodeKind sh:IRI;
-  sh:path rdafr:P505012ri .
+  sh:path rdafr:P505014ri .
+
+rdafr:P505014ri a owl:ObjectProperty;
+  rdfs:comment "Relation de financement entre une collectivité et la famille qui la finance. Il s'agit d'une relation générique comprenant les différents types de financement comme la subvention, le parrainage ou le mécénat. Peut être utilisée comme relation distincte lorsqu'on ne connaît pas la nature précise du financement."@fr;
+  rdfs:domain rdafr:C100005;
+  rdfs:label "collectivité est financée par la famille [dans la relation]"@fr;
+  rdfs:range rdafr:P505014r;
+  rdfs:subPropertyOf rdafr:P500053ri;
+  owl:inverseOf rdafr:P505014r .
 
 rdafrru:P782 owl:versionInfo "0.1.0";
   sh:description "Relation entre une collectivité et la collectivité qu'elle subventionne. Il s'agit de soutien financier du secteur public aux acteurs du secteur public ou privé."@fr;
@@ -2830,73 +2744,10 @@ rdafr:P502366ri a owl:ObjectProperty;
   rdfs:domain rdafr:C100005;
   rdfs:label "est agréé par [dans la relation]"@fr;
   rdfs:range rdafr:P502366r;
-  rdfs:subClassOf rdafr:P500046r;
   rdfs:subPropertyOf rdafr:P500046r;
   owl:inverseOf rdafr:P502366r .
 
 rdafrru:P787 owl:versionInfo "0.1.0";
-  sh:description "Relation entre une collectivité bénéficiaire d'un soutien matériel et la collectivité qui lui apporte ce soutien en vue d'en retirer un bénéfice direct de ce soutien."@fr;
-  sh:name "est parraineur de [dans la relation]"@fr;
-  sh:node rdafr:C100005;
-  sh:nodeKind sh:IRI;
-  sh:path rdafr:P502357r .
-
-rdafr:P502357r a owl:ObjectProperty;
-  rdfs:comment "Relation entre une collectivité bénéficiaire d'un soutien matériel et la collectivité qui lui apporte ce soutien en vue d'en retirer un bénéfice direct de ce soutien."@fr;
-  rdfs:domain rdafr:C100005;
-  rdfs:label "est parraineur de [dans la relation]"@fr;
-  rdfs:range rdafr:P502357r;
-  rdfs:subClassOf rdafr:P502353r;
-  rdfs:subPropertyOf rdafr:P502353r;
-  owl:inverseOf rdafr:P502357ri .
-
-rdafrru:P788 owl:versionInfo "0.1.0";
-  sh:description "Relation entre une collactivité qui apporte un soutien matériel pour l'exercice d'activités présentant un intérêt général à une autre collectivité en vue d'en retirer un bénéfice direct et la collectivité bénéficiaire de ce soutien."@fr;
-  sh:name "a pour parraineur [dans la relation]"@fr;
-  sh:node rdafr:C100005;
-  sh:nodeKind sh:IRI;
-  sh:path rdafr:P502357ri .
-
-rdafr:P502357ri a owl:ObjectProperty;
-  rdfs:comment "Relation entre une collactivité qui apporte un soutien matériel pour l'exercice d'activités présentant un intérêt général à une autre collectivité en vue d'en retirer un bénéfice direct et la collectivité bénéficiaire de ce soutien."@fr;
-  rdfs:domain rdafr:C100005;
-  rdfs:label "a pour parraineur [dans la relation]"@fr;
-  rdfs:range rdafr:P502357r;
-  rdfs:subPropertyOf rdafr:P502353ri;
-  owl:inverseOf rdafr:P502357r .
-
-rdafrru:P789 owl:versionInfo "0.1.0";
-  sh:description "Relation entre une collectivité bénéficiaire d'un soutien matériel pour l'exercice d'activités présentant un intérêt général et la collectivité qui lui apporte ce soutien. L'apport du soutien est sans contrepartie directe de la part du bénéficiaire."@fr;
-  sh:name "est mécène de [dans la relation]"@fr;
-  sh:node rdafr:C100005;
-  sh:nodeKind sh:IRI;
-  sh:path rdafr:P502359r .
-
-rdafr:P502359r a owl:ObjectProperty;
-  rdfs:comment "Relation entre une collectivité bénéficiaire d'un soutien matériel pour l'exercice d'activités présentant un intérêt général et la collectivité qui lui apporte ce soutien. L'apport du soutien est sans contrepartie directe de la part du bénéficiaire."@fr;
-  rdfs:domain rdafr:C100005;
-  rdfs:label "est mécène de [dans la relation]"@fr;
-  rdfs:range rdafr:P502359r;
-  rdfs:subClassOf rdafr:P502353r;
-  rdfs:subPropertyOf rdafr:P502353r;
-  owl:inverseOf rdafr:P502359ri .
-
-rdafrru:P790 owl:versionInfo "0.1.0";
-  sh:description "Relation entre une collectivité qui apport un soutien matériel à une autre collectivité pour l'exercice d'activités présentant un intérêt général et la collectivité bénéficiaire de ce soutien. L'apport du soutien est sans contrepartie directe de la part du bénéficiaire."@fr;
-  sh:name "a pour mécène [dans la relation]"@fr;
-  sh:node rdafr:C100005;
-  sh:nodeKind sh:IRI;
-  sh:path rdafr:P502359ri .
-
-rdafr:P502359ri a owl:ObjectProperty;
-  rdfs:comment "Relation entre une collectivité qui apport un soutien matériel à une autre collectivité pour l'exercice d'activités présentant un intérêt général et la collectivité bénéficiaire de ce soutien. L'apport du soutien est sans contrepartie directe de la part du bénéficiaire."@fr;
-  rdfs:domain rdafr:C100005;
-  rdfs:label "a pour mécène [dans la relation]"@fr;
-  rdfs:range rdafr:P502359r;
-  rdfs:subPropertyOf rdafr:P502353ri;
-  owl:inverseOf rdafr:P502359r .
-
-rdafrru:P791 owl:versionInfo "0.1.0";
   sh:description "Catégorie de relations entre une collectivité et une collectivité ou personne comprenant les relations d'emploi, de prestation, de franchise ou d'associé de. Peut être utilisée comme une relation distincte lorsqu'on ne connaît pas la nature précise du type de contrat qui relie les parties."@fr;
   sh:name "a des relations contractuelles avec [dans la relation]"@fr;
   sh:node rdafr:C100004, rdafr:C100005;
@@ -2907,10 +2758,10 @@ rdafr:P502361r a owl:ObjectProperty;
   rdfs:comment "Catégorie de relations entre une collectivité et une collectivité ou personne comprenant les relations d'emploi, de prestation, de franchise ou d'associé de. Peut être utilisée comme une relation distincte lorsqu'on ne connaît pas la nature précise du type de contrat qui relie les parties."@fr;
   rdfs:label "a des relations contractuelles avec [dans la relation]"@fr;
   rdfs:range rdafr:P502361r;
-  rdfs:subClassOf rdafr:P500046r;
-  rdfs:subPropertyOf rdafr:P500046r .
+  rdfs:subClassOf rdafr:P500051r;
+  rdfs:subPropertyOf rdafr:P500051r .
 
-rdafrru:P792 owl:versionInfo "0.1.0";
+rdafrru:P788 owl:versionInfo "0.1.0";
   sh:description "Relation contractuelle entre un organisme franchisé et l'organisme franchiseur. Relation sans implication de hiérarchie."@fr;
   sh:name "est franchiseur de [dans la relation]"@fr;
   sh:node rdafr:C100005;
@@ -2926,7 +2777,7 @@ rdafr:P502362r a owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P502361r;
   owl:inverseOf rdafr:P502362ri .
 
-rdafrru:P793 owl:versionInfo "0.1.0";
+rdafrru:P789 owl:versionInfo "0.1.0";
   sh:description "Relation contractuelle entre un organisme franchiseur et l'organismé franchisé. Relation sans implication de hiérarchie."@fr;
   sh:name "est franchisé de [dans la relation]"@fr;
   sh:node rdafr:C100005;
@@ -2938,11 +2789,10 @@ rdafr:P502362ri a owl:ObjectProperty;
   rdfs:domain rdafr:C100005;
   rdfs:label "est franchisé de [dans la relation]"@fr;
   rdfs:range rdafr:P502362r;
-  rdfs:subClassOf rdafr:P502361r;
   rdfs:subPropertyOf rdafr:P502361r;
   owl:inverseOf rdafr:P502362r .
 
-rdafrru:P794 owl:versionInfo "0.1.0";
+rdafrru:P790 owl:versionInfo "0.1.0";
   sh:description "Relation contractuelle entre un organisme employeur et la personne employée (par exemple, lorsque la personne est employée avec le statut de salarié, d’agent de la fonction publique, etc.). Cette relation implique aussi un rapport de hiérarchie entre l'organisme employeur et la personne employée. A ne pas confondre avec la relation “Est prestataire de service / Est client de” qui est une relation contractuelle sans hiérarchie entre les parties."@fr;
   sh:name "emploie [dans la relation]"@fr;
   sh:node rdafr:C100004;
@@ -2954,11 +2804,10 @@ rdafr:P501074ri a owl:ObjectProperty;
   rdfs:domain rdafr:C100005;
   rdfs:label "emploie [dans la relation]"@fr;
   rdfs:range rdafr:P501074r;
-  rdfs:subClassOf rdafr:P502361r;
   rdfs:subPropertyOf rdafr:P502361r;
   owl:inverseOf rdafr:P501074r .
 
-rdafrru:P795 owl:versionInfo "0.1.0";
+rdafrru:P791 owl:versionInfo "0.1.0";
   sh:description "Relation entre un prestataire de service et un organisme. Par un contrat de service, le prestataire s’engage à fournir un service contre rémunération. Relation sans implication de hiérarchie."@fr;
   sh:name "est prestataire de [dans la relation]"@fr;
   sh:node rdafr:C100005;
@@ -2974,7 +2823,7 @@ rdafr:P502363r a owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P502361r;
   owl:inverseOf rdafr:P502363ri .
 
-rdafrru:P796 owl:versionInfo "0.1.0";
+rdafrru:P792 owl:versionInfo "0.1.0";
   sh:description "Relation entre un organisme et un prestataire de service. Par un contrat de service, le prestataire s’engage à fournir un service contre rémunération. Relation sans implication de hiérarchie."@fr;
   sh:name "est client de [dans la relation]"@fr;
   sh:node rdafr:C100005;
@@ -2986,11 +2835,10 @@ rdafr:P502363ri a owl:ObjectProperty;
   rdfs:domain rdafr:C100005;
   rdfs:label "est client de [dans la relation]"@fr;
   rdfs:range rdafr:P502363r;
-  rdfs:subClassOf rdafr:P502361r;
   rdfs:subPropertyOf rdafr:P502361r;
   owl:inverseOf rdafr:P502363r .
 
-rdafrru:P797 owl:versionInfo "0.1.0";
+rdafrru:P793 owl:versionInfo "0.1.0";
   sh:description "Relation contractuelle entre une collectivité et une entreprise, où la collectivité, en vertu de son statut d'associée, partage les bénéfices de l'entreprise avec d'autres associés."@fr;
   sh:name "collectivité est l'associée de la collectivité [dans la relation]"@fr;
   sh:node rdafr:C100005;
@@ -3006,7 +2854,7 @@ rdafr:P502364r a owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P502361r;
   owl:inverseOf rdafr:P502364ri .
 
-rdafrru:P798 owl:versionInfo "0.1.0";
+rdafrru:P794 owl:versionInfo "0.1.0";
   sh:description "Relation contractuelle entre une entreprise et une collectivité, où la collectivité s'associé à l'entreprise en vue d'en partager les bénéfices avec d'autres associés."@fr;
   sh:name "collectivité a pour associée la collectivité[dans la relation]"@fr;
   sh:node rdafr:C100005;
@@ -3018,11 +2866,10 @@ rdafr:P502364ri a owl:ObjectProperty;
   rdfs:domain rdafr:C100005;
   rdfs:label "collectivité a pour associée la collectivité[dans la relation]"@fr;
   rdfs:range rdafr:P502364r;
-  rdfs:subClassOf rdafr:P502361r;
   rdfs:subPropertyOf rdafr:P502361r;
   owl:inverseOf rdafr:P502364r .
 
-rdafrru:P799 owl:versionInfo "0.1.0";
+rdafrru:P795 owl:versionInfo "0.1.0";
   sh:description "Relation contractuelle entre une entreprise et une personne, où la personne s'associé à l'entreprise en vue d'en partager les bénéfices avec d'autres associés."@fr;
   sh:name "collectivité a pour associé la personne [dans la relation]"@fr;
   sh:node rdafr:C100004;
@@ -3034,11 +2881,10 @@ rdafr:P501075ri a owl:ObjectProperty;
   rdfs:domain rdafr:C100005;
   rdfs:label "collectivité a pour associé la personne [dans la relation]"@fr;
   rdfs:range rdafr:P501075r;
-  rdfs:subClassOf rdafr:P502361r;
   rdfs:subPropertyOf rdafr:P502361r;
   owl:inverseOf rdafr:P501075r .
 
-rdafrru:R800 owl:versionInfo "0.1.0";
+rdafrru:R796 owl:versionInfo "0.1.0";
   sh:description "Catégorie de relations entre deux collectivités, comprenant les relations de succession (voir avant / voir après), d'absorption, de scission ou de fusion."@fr;
   sh:name "a une relation chronologique, séquentielle ou de transformation avec [dans la relation]"@fr;
   sh:node rdafr:C100005;
@@ -3052,7 +2898,7 @@ rdafr:P502370r a owl:ObjectProperty;
   rdfs:range rdafr:P502370r;
   rdfs:subClassOf rdafr:P100001r .
 
-rdafrru:R801 owl:versionInfo "0.1.0";
+rdafrru:R797 owl:versionInfo "0.1.0";
   sh:description "Relation entre une collectivité et la collectivité qui la succède."@fr;
   sh:name "précède [dans la relation]"@fr;
   sh:node rdafr:C100005;
@@ -3068,7 +2914,7 @@ rdafr:P502371r a owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P502370r;
   owl:inverseOf rdafr:P502371ri .
 
-rdafrru:R802 owl:versionInfo "0.1.0";
+rdafrru:R798 owl:versionInfo "0.1.0";
   sh:description "Relation entre une collectivité et la collectivité qui la précède."@fr;
   sh:name "succède [dans la relation]"@fr;
   sh:node rdafr:C100005;
@@ -3080,11 +2926,10 @@ rdafr:P502371ri a owl:ObjectProperty;
   rdfs:domain rdafr:C100005;
   rdfs:label "succède [dans la relation]"@fr;
   rdfs:range rdafr:P502371r;
-  rdfs:subClassOf rdafr:P502370r;
   rdfs:subPropertyOf rdafr:P502370r;
   owl:inverseOf rdafr:P502371r .
 
-rdafrru:R803 owl:versionInfo "0.1.0";
+rdafrru:R799 owl:versionInfo "0.1.0";
   sh:description "Relation entre une collectivité et la collectivité avec laquelle elle fusionne pour former une troisième collectivité."@fr;
   sh:name "fusionne avec [dans la relation]"@fr;
   sh:node rdafr:C100005;
@@ -3099,7 +2944,7 @@ rdafr:P502373r a owl:ObjectProperty;
   rdfs:subClassOf rdafr:P502370r;
   rdfs:subPropertyOf rdafr:P502370r .
 
-rdafrru:R804 owl:versionInfo "0.1.0";
+rdafrru:R800 owl:versionInfo "0.1.0";
   sh:description "Relation entre une collectivité issue de la fusion de plusieurs collectivités et une des collectivités composantes de la fusion."@fr;
   sh:name "est la fusion de [dans la relation]"@fr;
   sh:node rdafr:C100005;
@@ -3115,7 +2960,7 @@ rdafr:P502374r a owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P502370r;
   owl:inverseOf rdafr:P502374ri .
 
-rdafrru:R805 owl:versionInfo "0.1.0";
+rdafrru:R801 owl:versionInfo "0.1.0";
   sh:description "Relation entre une collectivité, composante d'une fusion de collectivités, et la collectivité issue de cette fusion."@fr;
   sh:name "est composante de la fusion de [dans la relation]"@fr;
   sh:node rdafr:C100005;
@@ -3127,11 +2972,10 @@ rdafr:P502374ri a owl:ObjectProperty;
   rdfs:domain rdafr:C100005;
   rdfs:label "est composante de la fusion de [dans la relation]"@fr;
   rdfs:range rdafr:P502374r;
-  rdfs:subClassOf rdafr:P502370r;
   rdfs:subPropertyOf rdafr:P502370r;
   owl:inverseOf rdafr:P502374r .
 
-rdafrru:R806 owl:versionInfo "0.1.0";
+rdafrru:R802 owl:versionInfo "0.1.0";
   sh:description "Relation entre une collectivité et la collectivité qu'elle a absorbée."@fr;
   sh:name "absorbe [dans la relation]"@fr;
   sh:node rdafr:C100005;
@@ -3147,7 +2991,7 @@ rdafr:P502375r a owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P502370r;
   owl:inverseOf rdafr:P502375ri .
 
-rdafrru:R807 owl:versionInfo "0.1.0";
+rdafrru:R803 owl:versionInfo "0.1.0";
   sh:description "Relation entre une collectivité et la collectivité qui l'a absorbée."@fr;
   sh:name "est absorbé par [dans la relation]"@fr;
   sh:node rdafr:C100005;
@@ -3159,25 +3003,41 @@ rdafr:P502375ri a owl:ObjectProperty;
   rdfs:domain rdafr:C100005;
   rdfs:label "est absorbé par [dans la relation]"@fr;
   rdfs:range rdafr:P502375r;
-  rdfs:subClassOf rdafr:P502370r;
   rdfs:subPropertyOf rdafr:P502370r;
   owl:inverseOf rdafr:P502375r .
 
-rdafrru:R808 owl:versionInfo "0.1.0";
+rdafrru:R804 owl:versionInfo "0.1.0";
   sh:description "Relation entre une collectivité qui a été scindée et une des collectivités qui ont résultées de cette scission."@fr;
   sh:name "est scindé en [dans la relation]"@fr;
   sh:node rdafr:C100005;
   sh:nodeKind sh:IRI;
-  sh:path rdafr:P502377r .
+  sh:path rdafr:P502378r .
 
-rdafrru:R809 owl:versionInfo "0.1.0";
+rdafr:P502378r a owl:ObjectProperty;
+  rdfs:comment "Relation entre une collectivité qui a été scindée et une des collectivités qui ont résultées de cette scission."@fr;
+  rdfs:domain rdafr:C100005;
+  rdfs:label "est scindé en [dans la relation]"@fr;
+  rdfs:range rdafr:P502378r;
+  rdfs:subClassOf rdafr:P502370r;
+  rdfs:subPropertyOf rdafr:P502370r;
+  owl:inverseOf rdafr:P502378ri .
+
+rdafrru:R805 owl:versionInfo "0.1.0";
   sh:description "Relation entre une des collectivités résultant de la scission d'une collectivité et la collectivité qui a été scindée."@fr;
   sh:name "est résultat de la scision de [dans la relation]"@fr;
   sh:node rdafr:C100005;
   sh:nodeKind sh:IRI;
-  sh:path rdafr:P502377ri .
+  sh:path rdafr:P502378ri .
 
-rdafrru:R810 owl:versionInfo "0.1.0";
+rdafr:P502378ri a owl:ObjectProperty;
+  rdfs:comment "Relation entre une des collectivités résultant de la scission d'une collectivité et la collectivité qui a été scindée."@fr;
+  rdfs:domain rdafr:C100005;
+  rdfs:label "est résultat de la scision de [dans la relation]"@fr;
+  rdfs:range rdafr:P502378r;
+  rdfs:subPropertyOf rdafr:P502370r;
+  owl:inverseOf rdafr:P502378r .
+
+rdafrru:R806 owl:versionInfo "0.1.0";
   sh:description "Relation de non équivalence alertant sur les risques de confusion existant avec d'autres agents homonymes."@fr;
   sh:name "est à distinguer de [dans la relation]"@fr;
   sh:node rdafr:C100002;
@@ -3207,7 +3067,7 @@ rdafr:P505001 a owl:ObjectProperty;
   rdfs:domain rdafr:C100008;
   rdfs:label "a pour nom de la famille"@fr, "a pour nom privilégié de la famille"@fr;
   rdfs:range rdafr:C100012;
-  rdfs:subPropertyOf rdafr:P500001, rdafr:P505001 .
+  rdfs:subPropertyOf rdafr:P500001 .
 
 rdafrru:R905 rdfs:seeAlso "10.2.2";
   owl:versionInfo "0.1.0";
@@ -3325,8 +3185,7 @@ rdafr:P505012 a owl:DatatypeProperty;
   rdfs:comment "Le type de famille est une catégorie ou un descripteur générique pour le type de famille. [code RDA-FR, 10.3]"@fr;
   rdfs:domain rdafr:C100008;
   rdfs:label "a pour type de la famille"@fr;
-  rdfs:range rdfs:Literal;
-  rdfs:subClassOf rdafr:P100008r .
+  rdfs:range rdfs:Literal .
 
 rdafrru:R913 rdfs:seeAlso "10.4";
   owl:versionInfo "0.1.0";
@@ -3340,8 +3199,7 @@ rdafr:P505013 a owl:ObjectProperty;
   rdfs:comment "Les dates associées à la famille sont les dates extrêmes de la famille et les dates extrêmes d’activité de la famille. Considérer que les dates extrêmes d’une famille correspondent au périmètre chronologique de cette dernière dans les ressources qui lui sont associées. [code RDA-FR, 10.4]"@fr;
   rdfs:domain rdafr:C100008;
   rdfs:label "a pour dates associées à la famille"@fr;
-  rdfs:range rdafr:C100010;
-  rdfs:subClassOf rdafr:P100008r .
+  rdfs:range rdafr:C100010 .
 
 rdafrru:R914 rdfs:seeAlso "10.4.2";
   owl:versionInfo "0.1.0";
@@ -3387,8 +3245,7 @@ rdafr:P505016 a owl:ObjectProperty;
   rdfs:comment "Le lieu associé à la famille est le lieu (par exemple une localité, une région, un pays…) où une famille réside ou a résidé, ou a exercé une activité, en lui associant, au besoin, des dates. Est considéré comme pays associé à la famille, le pays dont les règles nationales sont suivies pour construire le point d’accès autorisé identifiant la famille. [code RDA-FR, 10.5]"@fr;
   rdfs:domain rdafr:C100008;
   rdfs:label "a pour lieu associé à la famille"@fr;
-  rdfs:range rdafr:C100009;
-  rdfs:subClassOf rdafr:P100008r .
+  rdfs:range rdafr:C100009 .
 
 rdafrru:R917 rdfs:seeAlso "10.6";
   owl:versionInfo "0.1.0";
@@ -3403,8 +3260,7 @@ rdafr:P505017 a owl:DatatypeProperty;
   rdfs:comment "Le domaine d’activité de la famille est un champ d’action, domaine du savoir, etc. dans lequel s’investit ou s’est investie la famille. [code RDA-FR, 10.6]"@fr;
   rdfs:domain rdafr:C100008;
   rdfs:label "a pour domaine d'activité de la famille"@fr;
-  rdfs:range rdfs:Literal;
-  rdfs:subClassOf rdafr:P100008r .
+  rdfs:range rdfs:Literal .
 
 rdafrru:R918 rdfs:seeAlso "10.7";
   owl:versionInfo "0.1.0";
@@ -3419,8 +3275,7 @@ rdafr:P505018 a owl:DatatypeProperty;
   rdfs:comment "La profession ou occupation associée à la famille est la profession ou une occupation exercée par les membres de la famille. [code RDA-FR, 10.7]"@fr;
   rdfs:domain rdafr:C100008;
   rdfs:label "a pour profession ou occupation associée à la famille"@fr;
-  rdfs:range rdfs:Literal;
-  rdfs:subClassOf rdafr:P100008r .
+  rdfs:range rdfs:Literal .
 
 rdafrru:R919 rdfs:seeAlso "10.9";
   owl:versionInfo "0.1.0";
@@ -3435,8 +3290,7 @@ rdafr:P505019 a owl:DatatypeProperty;
   rdfs:comment "Le titre héréditaire est le titre de noblesse, etc. associé à une famille. [code RDA-FR, 10.9]"@fr;
   rdfs:domain rdafr:C100008;
   rdfs:label "a pour titre héréditaire de la famille"@fr;
-  rdfs:range rdfs:Literal;
-  rdfs:subClassOf rdafr:P100008r .
+  rdfs:range rdfs:Literal .
 
 rdafrru:R920 rdfs:seeAlso "10.10";
   owl:versionInfo "0.1.0";
@@ -3450,8 +3304,7 @@ rdafr:P505020 a owl:ObjectProperty;
   rdfs:comment "La langue de la famille est la langue (ou les langues) d’expression qu’elle utilise pour produire les ressources qui lui sont associées. [code RDA-FR, 10.10]"@fr;
   rdfs:domain rdafr:C100008;
   rdfs:label "a pour langue de la famille"@fr;
-  rdfs:range rdafr:Langue;
-  rdfs:subClassOf rdafr:P100008r .
+  rdfs:range rdafr:Langue .
 
 rdafrru:R921 rdfs:seeAlso "10.11";
   owl:versionInfo "0.1.0";
@@ -3466,8 +3319,7 @@ rdafr:P505021 a owl:DatatypeProperty;
   rdfs:comment "L’information biographique et historique est une information sur la vie ou l’histoire d’une famille. [code RDA-FR, 10.11]"@fr;
   rdfs:domain rdafr:C100008;
   rdfs:label "a pour information biographique ou historique sur la famille"@fr;
-  rdfs:range rdfs:Literal;
-  rdfs:subClassOf rdafr:P100008r .
+  rdfs:range rdfs:Literal .
 
 rdafrru:R922 owl:versionInfo "0.1.0";
   sh:description "Catégorie de relations regroupant des relations entre membres de la même famille"@fr;
@@ -3489,7 +3341,6 @@ rdafr:P501066ri a owl:ObjectProperty;
   rdfs:domain rdafr:C100008;
   rdfs:label "famille est fondée par la personne [dans la relation]"@fr;
   rdfs:range rdafr:P501066r;
-  rdfs:subClassOf rdafr:P501047r;
   rdfs:subPropertyOf rdafr:P501047r;
   owl:inverseOf rdafr:P501066r .
 
@@ -3544,7 +3395,6 @@ rdafr:P505007ri a owl:ObjectProperty;
   rdfs:domain rdafr:C100008;
   rdfs:label "comprend [dans la relation]"@fr;
   rdfs:range rdafr:P505007r;
-  rdfs:subClassOf rdafr:P501047r;
   rdfs:subPropertyOf rdafr:P501047r;
   owl:inverseOf rdafr:P505007r .
 
@@ -3560,7 +3410,6 @@ rdafr:P501064ri a owl:ObjectProperty;
   rdfs:domain rdafr:C100008;
   rdfs:label "famille a pour membre la personne [dans la relation]"@fr;
   rdfs:range rdafr:P501064r;
-  rdfs:subClassOf rdafr:P501047r;
   rdfs:subPropertyOf rdafr:P501047r;
   owl:inverseOf rdafr:P501064r .
 
@@ -3587,13 +3436,12 @@ rdafrru:R930 owl:versionInfo "0.1.0";
   sh:path rdafr:P505012r .
 
 rdafr:P505012r a owl:ObjectProperty;
-  rdfs:comment "Relation de financement d'une famille envers une agent collectivité."@fr,
-    "Relation entre une famille et la collectivité qu'elle dirge."@fr;
+  rdfs:comment "Relation entre une famille et la collectivité qu'elle dirge."@fr;
   rdfs:domain rdafr:C100008;
-  rdfs:label "famille dirige la collectivité [dans la relation]"@fr, "famille finance la collectivité [dans la relation]"@fr;
+  rdfs:label "famille dirige la collectivité [dans la relation]"@fr;
   rdfs:range rdafr:P505012r;
-  rdfs:subClassOf rdafr:P500028r, rdafr:P500053r;
-  rdfs:subPropertyOf rdafr:P500028r, rdafr:P500053r;
+  rdfs:subClassOf rdafr:P500028r;
+  rdfs:subPropertyOf rdafr:P500028r;
   owl:inverseOf rdafr:P505012ri .
 
 rdafrru:R931 owl:versionInfo "0.1.0";
@@ -3631,7 +3479,6 @@ rdafr:P501041ri a owl:ObjectProperty;
   rdfs:domain rdafr:C100008;
   rdfs:label "famille commande des oeuvres à la personne [dans la relation]"@fr;
   rdfs:range rdafr:P501041r;
-  rdfs:subClassOf rdafr:P500028r;
   rdfs:subPropertyOf rdafr:P500028r;
   owl:inverseOf rdafr:P501041r .
 
@@ -3647,7 +3494,6 @@ rdafr:P502041ri a owl:ObjectProperty;
   rdfs:domain rdafr:C100008;
   rdfs:label "famille commande des oeuvres à la collectivité [dans la relation]"@fr;
   rdfs:range rdafr:P502041r;
-  rdfs:subClassOf rdafr:P500028r;
   rdfs:subPropertyOf rdafr:P500028r;
   owl:inverseOf rdafr:P502041r .
 
@@ -3686,7 +3532,7 @@ rdafr:P505013r a owl:ObjectProperty;
   rdfs:range rdafr:P505013r;
   rdfs:subClassOf rdafr:P500053r;
   rdfs:subPropertyOf rdafr:P500053r;
-  owl:inverseOf rdafr:P505012ri .
+  owl:inverseOf rdafr:P505013ri .
 
 rdafrru:R939 owl:versionInfo "0.1.0";
   sh:description "Relation de financement entre une famille et la personne qui la finance."@fr;
@@ -3708,7 +3554,16 @@ rdafrru:R940 owl:versionInfo "0.1.0";
   sh:name "famille finance la collectivité [dans la relation]"@fr;
   sh:node rdafr:C100005;
   sh:nodeKind sh:IRI;
-  sh:path rdafr:P505012r .
+  sh:path rdafr:P505014r .
+
+rdafr:P505014r a owl:ObjectProperty;
+  rdfs:comment "Relation de financement d'une famille envers une agent collectivité."@fr;
+  rdfs:domain rdafr:C100008;
+  rdfs:label "famille finance la collectivité [dans la relation]"@fr;
+  rdfs:range rdafr:P505014r;
+  rdfs:subClassOf rdafr:P500053r;
+  rdfs:subPropertyOf rdafr:P500053r;
+  owl:inverseOf rdafr:P505014ri .
 
 rdafrru:R941 owl:versionInfo "0.1.0";
   sh:description "Relation de financement entre une famille et la collectivité qui la finance."@fr;
@@ -3787,7 +3642,7 @@ rdafrru:R1107 owl:versionInfo "0.1.0";
   sh:nodeKind sh:Literal;
   sh:path rdafr:P506004r .
 
-rdafr:P506004r a owl:DatatypeProperty;
+rdafr:P506004r a owl:ObjectProperty;
   rdfs:comment "Information générale sur le groupe informel."@fr;
   rdfs:domain rdafr:C100025;
   rdfs:label "a pour information sur le groupe informel"@fr;
@@ -3802,7 +3657,7 @@ rdafrru:R1108 owl:versionInfo "0.1.0";
   sh:nodeKind sh:Literal;
   sh:path rdafr:P506005r .
 
-rdafr:P506005r a owl:DatatypeProperty;
+rdafr:P506005r a owl:ObjectProperty;
   rdfs:comment "Champ d'activité, domaine du savoir, etc. du groupe informel."@fr;
   rdfs:domain rdafr:C100025;
   rdfs:label "a pour domaine d'activité du groupe informel"@fr;
@@ -3828,7 +3683,6 @@ rdafr:P501079ri a owl:ObjectProperty;
   rdfs:domain rdafr:C100025;
   rdfs:label "groupe informel a pour membre la personne [dans la relation]"@fr;
   rdfs:range rdafr:P501079r;
-  rdfs:subClassOf rdafr:P500050r;
   rdfs:subPropertyOf rdafr:P500050r;
   owl:inverseOf rdafr:P501079r .
 
@@ -3844,7 +3698,6 @@ rdafr:P501077ri a owl:ObjectProperty;
   rdfs:domain rdafr:C100025;
   rdfs:label "groupe informel est fondé par la personne [dans la relation]"@fr;
   rdfs:range rdafr:P501077r;
-  rdfs:subClassOf rdafr:P100001r;
   owl:inverseOf rdafr:P501077r .
 
 rdafrru:R1112 owl:versionInfo "0.1.0";
@@ -4421,9 +4274,9 @@ rdafr:C100001 a rdfs:Class, owl:Class, sh:NodeShape;
   skos:notation "w";
   sh:closed false;
   sh:description "Toute création intellectuelle ou artistique distincte, susceptible d’être identifiée et nommée de manière univoque dans un contexte bibliographique. [code RDA-FR, 5.1.2]"@fr;
-  sh:ignoredProperties _:node1gv13f9f9x2782 .
+  sh:ignoredProperties _:node1gv13f9f9x2918 .
 
-_:node1gv13f9f9x2782 rdf:first rdf:type;
+_:node1gv13f9f9x2918 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100001 sh:nodeKind sh:IRI;
@@ -4441,9 +4294,9 @@ rdafr:C100002 a rdfs:Class, owl:Class, sh:NodeShape;
   skos:notation "a";
   sh:closed false;
   sh:description "Entité ayant la capacité d’agir et ayant un rapport avec des ressources qui font l’objet d’une description documentaire. Cela inclut les personnes ou les groupes. [code RDA-FR, 8.1.2]"@fr;
-  sh:ignoredProperties _:node1gv13f9f9x2783 .
+  sh:ignoredProperties _:node1gv13f9f9x2919 .
 
-_:node1gv13f9f9x2783 rdf:first rdf:type;
+_:node1gv13f9f9x2919 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100002 sh:nodeKind sh:IRI;
@@ -4461,9 +4314,9 @@ rdafr:C100003 a rdfs:Class, owl:Class, sh:NodeShape;
   skos:notation "i";
   sh:closed false;
   sh:description "Un ou plusieurs objets portant des signes chargés de véhiculer un contenu intellectuel ou artistique. Un item exemplifie une manifestation et en reflète en principe toutes les caractéristiques. [code RDA-FR, 1.1.2]"@fr;
-  sh:ignoredProperties _:node1gv13f9f9x2784 .
+  sh:ignoredProperties _:node1gv13f9f9x2920 .
 
-_:node1gv13f9f9x2784 rdf:first rdf:type;
+_:node1gv13f9f9x2920 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100003 sh:nodeKind sh:IRI;
@@ -4480,9 +4333,9 @@ rdafr:C100004 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0";
   sh:closed false;
   sh:description "Agent identifié comme étant un individu existant ou ayant existé. [code RDA-FR, 8.1.2 et 9]"@fr;
-  sh:ignoredProperties _:node1gv13f9f9x2785 .
+  sh:ignoredProperties _:node1gv13f9f9x2921 .
 
-_:node1gv13f9f9x2785 rdf:first rdf:type;
+_:node1gv13f9f9x2921 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100004 sh:nodeKind sh:IRI;
@@ -4499,9 +4352,9 @@ rdafr:C100005 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0";
   sh:closed false;
   sh:description "Agent identifié comme étant une organisation ou une partie d'organisation, ou un groupe de personnes et/ou d'organisations. Une collectivité n’est considérée comme telle que si elle est identifiée par un nom particulier et si elle agit, ou peut agir, comme une unité. [code RDA-FR, 11]"@fr;
-  sh:ignoredProperties _:node1gv13f9f9x2786 .
+  sh:ignoredProperties _:node1gv13f9f9x2922 .
 
-_:node1gv13f9f9x2786 rdf:first rdf:type;
+_:node1gv13f9f9x2922 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100005 sh:nodeKind sh:IRI;
@@ -4520,9 +4373,9 @@ rdafr:C100006 a rdfs:Class, owl:Class, sh:NodeShape;
   sh:closed false;
   sh:description "Réalisation d’une œuvre sous la forme d’une notation (alphanumérique, musicale ou chorégraphique), de son, d’image, d’objet, de mouvement, etc. ou de toute combinaison de ces formes. [code RDA-FR, 5.1.2]"@fr,
     "Source: Glossaire RDA-FR"@fr;
-  sh:ignoredProperties _:node1gv13f9f9x2787 .
+  sh:ignoredProperties _:node1gv13f9f9x2923 .
 
-_:node1gv13f9f9x2787 rdf:first rdf:type;
+_:node1gv13f9f9x2923 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100006 sh:nodeKind sh:IRI;
@@ -4540,9 +4393,9 @@ rdafr:C100007 a rdfs:Class, owl:Class, sh:NodeShape;
   skos:notation "m";
   sh:closed false;
   sh:description "L’ensemble de tous les supports qui sont présumés partager les mêmes caractéristiques relatives tant au contenu intellectuel ou artistique qu’aux aspects de présentation matérielle. Cet ensemble est défini à la fois par son contenu global et par le plan de production pour son (ou ses) support(s). [code RDA-FR, 1.1.2]"@fr;
-  sh:ignoredProperties _:node1gv13f9f9x2788 .
+  sh:ignoredProperties _:node1gv13f9f9x2924 .
 
-_:node1gv13f9f9x2788 rdf:first rdf:type;
+_:node1gv13f9f9x2924 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100007 sh:nodeKind sh:IRI;
@@ -4559,9 +4412,9 @@ rdafr:C100008 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0";
   sh:closed false;
   sh:description "Est considéré comme relevant de la catégorie famille un ensemble de personnes liées par la naissance, le mariage, l'adoption, l'union civile ou tout autre statut légal du même ordre, ou un ensemble de personnes qui se présentent elles-mêmes comme une famille. [code RDA-FR, 10]"@fr;
-  sh:ignoredProperties _:node1gv13f9f9x2789 .
+  sh:ignoredProperties _:node1gv13f9f9x2925 .
 
-_:node1gv13f9f9x2789 rdf:first rdf:type;
+_:node1gv13f9f9x2925 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100008 sh:nodeKind sh:IRI;
@@ -4579,9 +4432,9 @@ rdafr:C100009 a rdfs:Class, owl:Class, sh:NodeShape;
   skos:notation "p";
   sh:closed false;
   sh:description "Portion d’espace réel. Un lieu est déterminé par des coordonnées géographiques et pourvu d’un nom. [code RDA-FR, 16]"@fr;
-  sh:ignoredProperties _:node1gv13f9f9x2790 .
+  sh:ignoredProperties _:node1gv13f9f9x2926 .
 
-_:node1gv13f9f9x2790 rdf:first rdf:type;
+_:node1gv13f9f9x2926 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100009 sh:nodeKind sh:IRI;
@@ -4598,9 +4451,9 @@ rdafr:C100010 a rdfs:Class, owl:Class, sh:NodeShape;
   skos:notation "t";
   sh:closed false;
   sh:description "Plage temporelle ayant un début, une fin et une durée."@fr;
-  sh:ignoredProperties _:node1gv13f9f9x2791 .
+  sh:ignoredProperties _:node1gv13f9f9x2927 .
 
-_:node1gv13f9f9x2791 rdf:first rdf:type;
+_:node1gv13f9f9x2927 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100010 sh:nodeKind sh:IRI;
@@ -4616,9 +4469,9 @@ rdafr:C100011 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0";
   sh:closed false;
   sh:description "Groupement ou association de personnes portant un nom particulier et disposant de la faculté d'agir collectivement."@fr;
-  sh:ignoredProperties _:node1gv13f9f9x2792 .
+  sh:ignoredProperties _:node1gv13f9f9x2928 .
 
-_:node1gv13f9f9x2792 rdf:first rdf:type;
+_:node1gv13f9f9x2928 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100011 sh:nodeKind sh:IRI;
@@ -4635,9 +4488,9 @@ rdafr:C100012 a rdfs:Class, owl:Class, sh:NodeShape;
   skos:notation "n";
   sh:closed false;
   sh:description "Une association entre une entité et une désignation qui y réfère ."@fr;
-  sh:ignoredProperties _:node1gv13f9f9x2793 .
+  sh:ignoredProperties _:node1gv13f9f9x2929 .
 
-_:node1gv13f9f9x2793 rdf:first rdf:type;
+_:node1gv13f9f9x2929 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100012 sh:nodeKind sh:IRI;
@@ -4653,9 +4506,9 @@ rdafr:C100013 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0";
   sh:closed false;
   sh:description "Classe abstraite de plus haut niveau de l'univers de discours couvert par l'ontologie RDA-FR. Elle comprend toutes les entités qui sont définies dans le code RDA-FR. Toutes les classes définies pour les besoins de fonctionnement de l'ontologie RDA-FR sont également des sous-classes de celle ci."@fr;
-  sh:ignoredProperties _:node1gv13f9f9x2794 .
+  sh:ignoredProperties _:node1gv13f9f9x2930 .
 
-_:node1gv13f9f9x2794 rdf:first rdf:type;
+_:node1gv13f9f9x2930 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100013 sh:nodeKind sh:IRI;
@@ -4672,9 +4525,9 @@ rdafr:C100015 a rdfs:Class, owl:Class, sh:NodeShape;
   skos:notation "u";
   sh:closed false;
   sh:description "Identité d’un agent qui est connue ou a été rendue publique. [code RDA-FR, 8.1.2 et 9]"@fr;
-  sh:ignoredProperties _:node1gv13f9f9x2795 .
+  sh:ignoredProperties _:node1gv13f9f9x2931 .
 
-_:node1gv13f9f9x2795 rdf:first rdf:type;
+_:node1gv13f9f9x2931 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100015 sh:nodeKind sh:IRI;
@@ -4689,9 +4542,9 @@ rdafr:C100017 a rdfs:Class, owl:Class, sh:NodeShape;
   skos:notation "b";
   sh:closed false;
   sh:description "En attente de traitement dans l'ontologie RDA-FR"@fr;
-  sh:ignoredProperties _:node1gv13f9f9x2796 .
+  sh:ignoredProperties _:node1gv13f9f9x2932 .
 
-_:node1gv13f9f9x2796 rdf:first rdf:type;
+_:node1gv13f9f9x2932 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100017 sh:nodeKind sh:IRI;
@@ -4706,9 +4559,9 @@ rdafr:C100018 a rdfs:Class, owl:Class, sh:NodeShape;
   skos:notation "v";
   sh:closed false;
   sh:description "En attente de traitement dans l'ontologie RDA-FR"@fr;
-  sh:ignoredProperties _:node1gv13f9f9x2797 .
+  sh:ignoredProperties _:node1gv13f9f9x2933 .
 
-_:node1gv13f9f9x2797 rdf:first rdf:type;
+_:node1gv13f9f9x2933 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100018 sh:nodeKind sh:IRI;
@@ -4722,9 +4575,9 @@ rdafr:C100019 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0";
   sh:closed false;
   sh:description "En attente de traitement dans l'ontologie RDA-FR"@fr;
-  sh:ignoredProperties _:node1gv13f9f9x2798 .
+  sh:ignoredProperties _:node1gv13f9f9x2934 .
 
-_:node1gv13f9f9x2798 rdf:first rdf:type;
+_:node1gv13f9f9x2934 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100019 sh:nodeKind sh:IRI;
@@ -4739,9 +4592,9 @@ rdafr:C100020 a rdfs:Class, owl:Class, sh:NodeShape;
   skos:notation "?";
   sh:closed false;
   sh:description "En attente de traitement dans l'ontologie RDA-FR"@fr;
-  sh:ignoredProperties _:node1gv13f9f9x2799 .
+  sh:ignoredProperties _:node1gv13f9f9x2935 .
 
-_:node1gv13f9f9x2799 rdf:first rdf:type;
+_:node1gv13f9f9x2935 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100020 sh:nodeKind sh:IRI;
@@ -4756,9 +4609,9 @@ rdafr:C100021 a rdfs:Class, owl:Class, sh:NodeShape;
   skos:notation "t";
   sh:closed false;
   sh:description "En attente de traitement dans l'ontologie RDA-FR"@fr;
-  sh:ignoredProperties _:node1gv13f9f9x2800 .
+  sh:ignoredProperties _:node1gv13f9f9x2936 .
 
-_:node1gv13f9f9x2800 rdf:first rdf:type;
+_:node1gv13f9f9x2936 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100021 sh:nodeKind sh:IRI;
@@ -4773,9 +4626,9 @@ rdafr:C100022 a rdfs:Class, owl:Class, sh:NodeShape;
   skos:notation "t";
   sh:closed false;
   sh:description "En attente de traitement dans l'ontologie RDA-FR"@fr;
-  sh:ignoredProperties _:node1gv13f9f9x2801 .
+  sh:ignoredProperties _:node1gv13f9f9x2937 .
 
-_:node1gv13f9f9x2801 rdf:first rdf:type;
+_:node1gv13f9f9x2937 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100022 sh:nodeKind sh:IRI;
@@ -4790,9 +4643,9 @@ rdafr:C100023 a rdfs:Class, owl:Class, sh:NodeShape;
   skos:notation "t";
   sh:closed false;
   sh:description "En attente de traitement dans l'ontologie RDA-FR"@fr;
-  sh:ignoredProperties _:node1gv13f9f9x2802 .
+  sh:ignoredProperties _:node1gv13f9f9x2938 .
 
-_:node1gv13f9f9x2802 rdf:first rdf:type;
+_:node1gv13f9f9x2938 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100023 sh:nodeKind sh:IRI;
@@ -4807,9 +4660,9 @@ rdafr:C100025 a rdfs:Class, owl:Class, sh:NodeShape;
   skos:notation "t";
   sh:closed false;
   sh:description "Agent étant identifié comme un groupe de personnes qui n'est ni une famille ni une collectivité et dont le nom se présente formellement comme un nom de personne (nom traditionnellement désigné par le terme \"pseudonyme collectif\")."@fr;
-  sh:ignoredProperties _:node1gv13f9f9x2803 .
+  sh:ignoredProperties _:node1gv13f9f9x2939 .
 
-_:node1gv13f9f9x2803 rdf:first rdf:type;
+_:node1gv13f9f9x2939 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100025 sh:nodeKind sh:IRI;
@@ -4822,9 +4675,9 @@ rdafr:P100001r a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0";
   sh:closed false;
   sh:description "La classe ‘relation réifiée’ permet d’ajouter des assertions sur toutes les propriétés qui expriment une relation entre des instances de deux classes de l’ontologie (et qui, de fait, correspondent aux relations entre instances d’entités du code RDA-FR)."@fr;
-  sh:ignoredProperties _:node1gv13f9f9x2804 .
+  sh:ignoredProperties _:node1gv13f9f9x2940 .
 
-_:node1gv13f9f9x2804 rdf:first rdf:type;
+_:node1gv13f9f9x2940 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:P100001r sh:nodeKind sh:IRI;
@@ -4837,9 +4690,9 @@ rdafr:P100008r a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0";
   sh:closed false;
   sh:description "La classe ‘propriété réifiée’ permet d'ajouter des assertions sur toutes les propriétés de l’ontologie qui correspondent aux attributs des entités du code RDA-FR."@fr;
-  sh:ignoredProperties _:node1gv13f9f9x2805 .
+  sh:ignoredProperties _:node1gv13f9f9x2941 .
 
-_:node1gv13f9f9x2805 rdf:first rdf:type;
+_:node1gv13f9f9x2941 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:P100008r sh:nodeKind sh:IRI;
@@ -4853,9 +4706,9 @@ skos:Concept a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0";
   sh:closed false;
   sh:description "Un concept SKOS peut être vu comme une idée ou une notion; une unité de pensée."@fr;
-  sh:ignoredProperties _:node1gv13f9f9x2806 .
+  sh:ignoredProperties _:node1gv13f9f9x2942 .
 
-_:node1gv13f9f9x2806 rdf:first rdf:type;
+_:node1gv13f9f9x2942 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 skos:Concept sh:nodeKind sh:IRI;
@@ -4869,9 +4722,9 @@ rdafr:Langue a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0";
   sh:closed false;
   sh:description "Langue d'une chaîne de caractères."@fr;
-  sh:ignoredProperties _:node1gv13f9f9x2807 .
+  sh:ignoredProperties _:node1gv13f9f9x2943 .
 
-_:node1gv13f9f9x2807 rdf:first rdf:type;
+_:node1gv13f9f9x2943 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:Langue sh:nodeKind sh:IRI;
@@ -4885,9 +4738,9 @@ rdafr:Ecriture a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0";
   sh:closed false;
   sh:description "Système d'écriture de la chaîne de caractères."@fr;
-  sh:ignoredProperties _:node1gv13f9f9x2808 .
+  sh:ignoredProperties _:node1gv13f9f9x2944 .
 
-_:node1gv13f9f9x2808 rdf:first rdf:type;
+_:node1gv13f9f9x2944 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:Ecriture sh:nodeKind sh:IRI;
@@ -4907,9 +4760,9 @@ d’autorité de noms, etc.) ;
 - des schémas d’encodage de valeurs (listes de vedettes matière, thésaurus, classifications systématiques, listes
 d’autorité de noms, etc.) ;
 − et des schémas d’encodage syntaxiques (normes d’encodage des dates, etc.)."""@fr;
-  sh:ignoredProperties _:node1gv13f9f9x2809 .
+  sh:ignoredProperties _:node1gv13f9f9x2945 .
 
-_:node1gv13f9f9x2809 rdf:first rdf:type;
+_:node1gv13f9f9x2945 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:SchemaEncodage sh:nodeKind sh:IRI;
@@ -4923,9 +4776,9 @@ rdafr:CategorieNomen a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0";
   sh:closed false;
   sh:description "Type auquel le nomen appartient (ex. : point d'accès, identifiant, titre, etc.)"@fr;
-  sh:ignoredProperties _:node1gv13f9f9x2810 .
+  sh:ignoredProperties _:node1gv13f9f9x2946 .
 
-_:node1gv13f9f9x2810 rdf:first rdf:type;
+_:node1gv13f9f9x2946 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:CategorieNomen sh:nodeKind sh:IRI;
@@ -4939,9 +4792,9 @@ rdafr:SystemeConversion a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0";
   sh:closed false;
   sh:description "Règle, système ou norme utilisée pour créer la chaîne d’un nomen à partir de la chaîne d’un autre nomen notée dans une écriture différente (par exemple, un système de translittération)."@fr;
-  sh:ignoredProperties _:node1gv13f9f9x2811 .
+  sh:ignoredProperties _:node1gv13f9f9x2947 .
 
-_:node1gv13f9f9x2811 rdf:first rdf:type;
+_:node1gv13f9f9x2947 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:SystemeConversion sh:nodeKind sh:IRI;
@@ -4956,9 +4809,9 @@ rdafr:Genre a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0";
   sh:closed false;
   sh:description "Le genre auquel une personne s'identifie. [code RDA-FR, 9.3.3]"@fr;
-  sh:ignoredProperties _:node1gv13f9f9x2812 .
+  sh:ignoredProperties _:node1gv13f9f9x2948 .
 
-_:node1gv13f9f9x2812 rdf:first rdf:type;
+_:node1gv13f9f9x2948 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:Genre sh:nodeKind sh:IRI;
@@ -4972,9 +4825,9 @@ rdafr:NiveauFiabilite a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0";
   sh:closed false;
   sh:description "Indication sur le niveau de fiabilité de l'information."@fr;
-  sh:ignoredProperties _:node1gv13f9f9x2813 .
+  sh:ignoredProperties _:node1gv13f9f9x2949 .
 
-_:node1gv13f9f9x2813 rdf:first rdf:type;
+_:node1gv13f9f9x2949 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:NiveauFiabilite sh:nodeKind sh:IRI;
@@ -4988,9 +4841,9 @@ rdafr:Calendrier a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0";
   sh:closed false;
   sh:description "Type de calendrier utilisé pour exprimer un laps de temps (julien, grégorien, hégire...)."@fr;
-  sh:ignoredProperties _:node1gv13f9f9x2814 .
+  sh:ignoredProperties _:node1gv13f9f9x2950 .
 
-_:node1gv13f9f9x2814 rdf:first rdf:type;
+_:node1gv13f9f9x2950 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:Calendrier sh:nodeKind sh:IRI;
@@ -5005,9 +4858,9 @@ rdafr:CategorieIdentitePublique a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0";
   sh:closed false;
   sh:description "Précision sur la nature du nom sur lequel est fondée l'identité publique (par exemple : nom réel, pseudonyme...) [code RDA-FR, 9.1.1]"@fr;
-  sh:ignoredProperties _:node1gv13f9f9x2815 .
+  sh:ignoredProperties _:node1gv13f9f9x2951 .
 
-_:node1gv13f9f9x2815 rdf:first rdf:type;
+_:node1gv13f9f9x2951 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:CategorieIdentitePublique sh:nodeKind sh:IRI;
