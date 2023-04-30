@@ -573,6 +573,10 @@
 <https://rdafr.fr/Elements#C100004> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules#R565> .
 <https://rdafr.fr/Elements#C100004> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules#R566> .
 <https://rdafr.fr/Elements#C100004> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules#R567> .
+<https://rdafr.fr/Elements#C100004> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules#R568> .
+<https://rdafr.fr/Elements#C100004> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules#R569> .
+<https://rdafr.fr/Elements#C100004> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules#R570> .
+<https://rdafr.fr/Elements#C100004> <http://www.w3.org/ns/shacl#property> <https://rdafr.fr/Rules#R571> .
 <https://rdafr.fr/Elements#P501027> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://rdafr.fr/Elements#P501027> <http://www.w3.org/2002/07/owl#inverseOf> <https://rdafr.fr/Elements#P501027i> .
 <https://rdafr.fr/Elements#P501027> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements#C100004> .
@@ -1234,17 +1238,69 @@
 <https://rdafr.fr/Elements#P502379ri> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P500053ri> .
 <https://rdafr.fr/Elements#P502379ri> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation entre une personne et la collectivité qui la subventionne. Il s'agit de soutien financier du secteur public."@fr .
 <https://rdafr.fr/Rules#R556> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
-<https://rdafr.fr/Rules#R556> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P500050r> .
-<https://rdafr.fr/Rules#R556> <http://www.w3.org/ns/shacl#name> "a des relations d'appartenance ou d'adhésion avec [dans la relation]"@fr .
-<https://rdafr.fr/Rules#R556> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements#C100002> .
+<https://rdafr.fr/Rules#R556> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P501042r> .
+<https://rdafr.fr/Rules#R556> <http://www.w3.org/ns/shacl#name> "est mécène de [dans la relation]"@fr .
+<https://rdafr.fr/Rules#R556> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements#C100005> .
 <https://rdafr.fr/Rules#R556> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
-<https://rdafr.fr/Rules#R556> <http://www.w3.org/ns/shacl#description> "Catégorie de relations entre entre une personne et un autre agent, regroupant les relations de membre, d'affiliation ou de propriété. Utiliser les relations précises de cette catégorie."@fr .
+<https://rdafr.fr/Rules#R556> <http://www.w3.org/ns/shacl#description> "Relation entre une personne qui apporte un soutien matériel pour l'exercice d'activités présentant un intérêt général et la collectivité bénéficiaire de ce soutien. L'apport du soutien est sans contrepartie directe de la part du bénéficiaire."@fr .
+<https://rdafr.fr/Elements#P501042r> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://rdafr.fr/Elements#P501042r> <http://www.w3.org/2002/07/owl#inverseOf> <https://rdafr.fr/Elements#P501042ri> .
+<https://rdafr.fr/Elements#P501042r> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements#C100004> .
+<https://rdafr.fr/Elements#P501042r> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements#P501042r> .
+<https://rdafr.fr/Elements#P501042r> <http://www.w3.org/2000/01/rdf-schema#label> "est mécène de [dans la relation]"@fr .
+<https://rdafr.fr/Elements#P501042r> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P500028r> .
+<https://rdafr.fr/Elements#P501042r> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements#P500028r> .
+<https://rdafr.fr/Elements#P501042r> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation entre une personne qui apporte un soutien matériel pour l'exercice d'activités présentant un intérêt général et la collectivité bénéficiaire de ce soutien. L'apport du soutien est sans contrepartie directe de la part du bénéficiaire."@fr .
 <https://rdafr.fr/Rules#R557> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
-<https://rdafr.fr/Rules#R557> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P501068r> .
-<https://rdafr.fr/Rules#R557> <http://www.w3.org/ns/shacl#name> "personne est membre de la collectivité [dans la relation]"@fr .
+<https://rdafr.fr/Rules#R557> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P501042ri> .
+<https://rdafr.fr/Rules#R557> <http://www.w3.org/ns/shacl#name> "a pour mécène [dans la relation]"@fr .
 <https://rdafr.fr/Rules#R557> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements#C100005> .
 <https://rdafr.fr/Rules#R557> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
-<https://rdafr.fr/Rules#R557> <http://www.w3.org/ns/shacl#description> "Relation entre une personne et la collectivité dont elle est membre."@fr .
+<https://rdafr.fr/Rules#R557> <http://www.w3.org/ns/shacl#description> "Relation entre une personne bénéficiaire d'un soutien matériel pour l'exercice d'activités présentant un intérêt général et la collectivité qui lui apporte ce soutien. L'apport du soutien est sans contrepartie directe de la part du bénéficiaire."@fr .
+<https://rdafr.fr/Elements#P501042ri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://rdafr.fr/Elements#P501042ri> <http://www.w3.org/2002/07/owl#inverseOf> <https://rdafr.fr/Elements#P501042r> .
+<https://rdafr.fr/Elements#P501042ri> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements#C100004> .
+<https://rdafr.fr/Elements#P501042ri> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements#P501042r> .
+<https://rdafr.fr/Elements#P501042ri> <http://www.w3.org/2000/01/rdf-schema#label> "a pour mécène [dans la relation]"@fr .
+<https://rdafr.fr/Elements#P501042ri> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P500028r> .
+<https://rdafr.fr/Elements#P501042ri> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation entre une personne bénéficiaire d'un soutien matériel pour l'exercice d'activités présentant un intérêt général et la collectivité qui lui apporte ce soutien. L'apport du soutien est sans contrepartie directe de la part du bénéficiaire."@fr .
+<https://rdafr.fr/Rules#R558> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
+<https://rdafr.fr/Rules#R558> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P501043r> .
+<https://rdafr.fr/Rules#R558> <http://www.w3.org/ns/shacl#name> "est parraineur de [dans la relation]"@fr .
+<https://rdafr.fr/Rules#R558> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements#C100005> .
+<https://rdafr.fr/Rules#R558> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules#R558> <http://www.w3.org/ns/shacl#description> "Relation entre une personne qui apporte un soutien matériel pour l'exercice d'activités présentant un intérêt général et la collectivité bénficiaire de ce soutien. Le parraineur retire un bénéfice direct du soutien qu'il apporte."@fr .
+<https://rdafr.fr/Elements#P501043r> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://rdafr.fr/Elements#P501043r> <http://www.w3.org/2002/07/owl#inverseOf> <https://rdafr.fr/Elements#P501043ri> .
+<https://rdafr.fr/Elements#P501043r> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements#C100004> .
+<https://rdafr.fr/Elements#P501043r> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements#P501043r> .
+<https://rdafr.fr/Elements#P501043r> <http://www.w3.org/2000/01/rdf-schema#label> "est parraineur de [dans la relation]"@fr .
+<https://rdafr.fr/Elements#P501043r> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements#P100001r> .
+<https://rdafr.fr/Elements#P501043r> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation entre une personne qui apporte un soutien matériel pour l'exercice d'activités présentant un intérêt général et la collectivité bénficiaire de ce soutien. Le parraineur retire un bénéfice direct du soutien qu'il apporte."@fr .
+<https://rdafr.fr/Rules#R559> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
+<https://rdafr.fr/Rules#R559> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P501043ri> .
+<https://rdafr.fr/Rules#R559> <http://www.w3.org/ns/shacl#name> "a pour parraineur [dans la relation]"@fr .
+<https://rdafr.fr/Rules#R559> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements#C100004> .
+<https://rdafr.fr/Rules#R559> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules#R559> <http://www.w3.org/ns/shacl#description> "Relation entre une personne bénéficiaire d'un soutien matériel pour l'exercice d'activités présentant un intérêt général et la collectivité qui lui apporte ce soutien. Le parraineur retire un bénéfice direct du soutien qu'il apporte."@fr .
+<https://rdafr.fr/Elements#P501043ri> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
+<https://rdafr.fr/Elements#P501043ri> <http://www.w3.org/2002/07/owl#inverseOf> <https://rdafr.fr/Elements#P501043r> .
+<https://rdafr.fr/Elements#P501043ri> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements#C100004> .
+<https://rdafr.fr/Elements#P501043ri> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements#P501043r> .
+<https://rdafr.fr/Elements#P501043ri> <http://www.w3.org/2000/01/rdf-schema#label> "a pour parraineur [dans la relation]"@fr .
+<https://rdafr.fr/Elements#P501043ri> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation entre une personne bénéficiaire d'un soutien matériel pour l'exercice d'activités présentant un intérêt général et la collectivité qui lui apporte ce soutien. Le parraineur retire un bénéfice direct du soutien qu'il apporte."@fr .
+<https://rdafr.fr/Rules#R560> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
+<https://rdafr.fr/Rules#R560> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P500050r> .
+<https://rdafr.fr/Rules#R560> <http://www.w3.org/ns/shacl#name> "a des relations d'appartenance ou d'adhésion avec [dans la relation]"@fr .
+<https://rdafr.fr/Rules#R560> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements#C100002> .
+<https://rdafr.fr/Rules#R560> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules#R560> <http://www.w3.org/ns/shacl#description> "Catégorie de relations entre entre une personne et un autre agent, regroupant les relations de membre, d'affiliation ou de propriété. Utiliser les relations précises de cette catégorie."@fr .
+<https://rdafr.fr/Rules#R561> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
+<https://rdafr.fr/Rules#R561> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P501068r> .
+<https://rdafr.fr/Rules#R561> <http://www.w3.org/ns/shacl#name> "personne est membre de la collectivité [dans la relation]"@fr .
+<https://rdafr.fr/Rules#R561> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements#C100005> .
+<https://rdafr.fr/Rules#R561> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules#R561> <http://www.w3.org/ns/shacl#description> "Relation entre une personne et la collectivité dont elle est membre."@fr .
 <https://rdafr.fr/Elements#P501068r> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://rdafr.fr/Elements#P501068r> <http://www.w3.org/2002/07/owl#inverseOf> <https://rdafr.fr/Elements#P501068ri> .
 <https://rdafr.fr/Elements#P501068r> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements#C100004> .
@@ -1253,12 +1309,12 @@
 <https://rdafr.fr/Elements#P501068r> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P500050r> .
 <https://rdafr.fr/Elements#P501068r> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements#P500050r> .
 <https://rdafr.fr/Elements#P501068r> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation entre une personne et la collectivité dont elle est membre."@fr .
-<https://rdafr.fr/Rules#R558> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
-<https://rdafr.fr/Rules#R558> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P501079r> .
-<https://rdafr.fr/Rules#R558> <http://www.w3.org/ns/shacl#name> "personne est membre du groupe informel [dans la relation]"@fr .
-<https://rdafr.fr/Rules#R558> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements#C100025> .
-<https://rdafr.fr/Rules#R558> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
-<https://rdafr.fr/Rules#R558> <http://www.w3.org/ns/shacl#description> "Relation entre une personne et le groupe informel dont elle fait partie."@fr .
+<https://rdafr.fr/Rules#R562> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
+<https://rdafr.fr/Rules#R562> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P501079r> .
+<https://rdafr.fr/Rules#R562> <http://www.w3.org/ns/shacl#name> "personne est membre du groupe informel [dans la relation]"@fr .
+<https://rdafr.fr/Rules#R562> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements#C100025> .
+<https://rdafr.fr/Rules#R562> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules#R562> <http://www.w3.org/ns/shacl#description> "Relation entre une personne et le groupe informel dont elle fait partie."@fr .
 <https://rdafr.fr/Elements#P501079r> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://rdafr.fr/Elements#P501079r> <http://www.w3.org/2002/07/owl#inverseOf> <https://rdafr.fr/Elements#P501079ri> .
 <https://rdafr.fr/Elements#P501079r> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements#C100004> .
@@ -1267,13 +1323,13 @@
 <https://rdafr.fr/Elements#P501079r> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P500050r> .
 <https://rdafr.fr/Elements#P501079r> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements#P500050r> .
 <https://rdafr.fr/Elements#P501079r> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation entre une personne et le groupe informel dont elle fait partie."@fr .
-<https://rdafr.fr/Rules#R559> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
-<https://rdafr.fr/Rules#R559> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P501024r> .
-<https://rdafr.fr/Rules#R559> <http://www.w3.org/ns/shacl#name> "personne est affiliée à la collectivité [dans la relation]"@fr .
-<https://rdafr.fr/Rules#R559> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "9.3.12" .
-<https://rdafr.fr/Rules#R559> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements#C100005> .
-<https://rdafr.fr/Rules#R559> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
-<https://rdafr.fr/Rules#R559> <http://www.w3.org/ns/shacl#description> "Relation entre une personne et la collectivité à laquelle elle est affiliée. Il s'agit d'un cas particulier de la relation \"est membre de\", principalement en usage dans le contexte de l'enseignement supérieur et de la recherche.\nRelation entre une personne et le groupe auquel elle est affiliée. Cette relation signale une appartenance à un groupe obtenue par recrutement, acquisition de la qualité de membre, etc [code RDA-FR, 9.3.12]"@fr .
+<https://rdafr.fr/Rules#R563> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
+<https://rdafr.fr/Rules#R563> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P501024r> .
+<https://rdafr.fr/Rules#R563> <http://www.w3.org/ns/shacl#name> "personne est affiliée à la collectivité [dans la relation]"@fr .
+<https://rdafr.fr/Rules#R563> <http://www.w3.org/2000/01/rdf-schema#seeAlso> "9.3.12" .
+<https://rdafr.fr/Rules#R563> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements#C100005> .
+<https://rdafr.fr/Rules#R563> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules#R563> <http://www.w3.org/ns/shacl#description> "Relation entre une personne et la collectivité à laquelle elle est affiliée. Il s'agit d'un cas particulier de la relation \"est membre de\", principalement en usage dans le contexte de l'enseignement supérieur et de la recherche.\nRelation entre une personne et le groupe auquel elle est affiliée. Cette relation signale une appartenance à un groupe obtenue par recrutement, acquisition de la qualité de membre, etc [code RDA-FR, 9.3.12]"@fr .
 <https://rdafr.fr/Elements#P501024r> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://rdafr.fr/Elements#P501024r> <http://www.w3.org/2002/07/owl#inverseOf> <https://rdafr.fr/Elements#P501024ri> .
 <https://rdafr.fr/Elements#P501024r> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements#C100004> .
@@ -1282,12 +1338,12 @@
 <https://rdafr.fr/Elements#P501024r> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P500050r> .
 <https://rdafr.fr/Elements#P501024r> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements#P500050r> .
 <https://rdafr.fr/Elements#P501024r> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation entre une personne et la collectivité à laquelle elle est affiliée. Il s'agit d'un cas particulier de la relation \"est membre de\", principalement en usage dans le contexte de l'enseignement supérieur et de la recherche.\nRelation entre une personne et le groupe auquel elle est affiliée. Cette relation signale une appartenance à un groupe obtenue par recrutement, acquisition de la qualité de membre, etc [code RDA-FR, 9.3.12]"@fr .
-<https://rdafr.fr/Rules#R560> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
-<https://rdafr.fr/Rules#R560> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P501078r> .
-<https://rdafr.fr/Rules#R560> <http://www.w3.org/ns/shacl#name> "personne est propriétaire de la collectivité [dans la relation]"@fr .
-<https://rdafr.fr/Rules#R560> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements#C100005> .
-<https://rdafr.fr/Rules#R560> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
-<https://rdafr.fr/Rules#R560> <http://www.w3.org/ns/shacl#description> "Relation entre une personne et la collectivité qu'elle possède."@fr .
+<https://rdafr.fr/Rules#R564> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
+<https://rdafr.fr/Rules#R564> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P501078r> .
+<https://rdafr.fr/Rules#R564> <http://www.w3.org/ns/shacl#name> "personne est propriétaire de la collectivité [dans la relation]"@fr .
+<https://rdafr.fr/Rules#R564> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements#C100005> .
+<https://rdafr.fr/Rules#R564> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules#R564> <http://www.w3.org/ns/shacl#description> "Relation entre une personne et la collectivité qu'elle possède."@fr .
 <https://rdafr.fr/Elements#P501078r> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://rdafr.fr/Elements#P501078r> <http://www.w3.org/2002/07/owl#inverseOf> <https://rdafr.fr/Elements#P501078ri> .
 <https://rdafr.fr/Elements#P501078r> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements#C100004> .
@@ -1296,18 +1352,18 @@
 <https://rdafr.fr/Elements#P501078r> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P500050r> .
 <https://rdafr.fr/Elements#P501078r> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements#P500050r> .
 <https://rdafr.fr/Elements#P501078r> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation entre une personne et la collectivité qu'elle possède."@fr .
-<https://rdafr.fr/Rules#R561> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
-<https://rdafr.fr/Rules#R561> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P500051r> .
-<https://rdafr.fr/Rules#R561> <http://www.w3.org/ns/shacl#name> "a des relations contractuelles avec [dans la relation]"@fr .
-<https://rdafr.fr/Rules#R561> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements#C100002> .
-<https://rdafr.fr/Rules#R561> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
-<https://rdafr.fr/Rules#R561> <http://www.w3.org/ns/shacl#description> "Catégorie de relations entre entre une personne et un autre agent comprenant les relations d'emploi, de prestation, de franchise ou d'associé de."@fr .
-<https://rdafr.fr/Rules#R562> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
-<https://rdafr.fr/Rules#R562> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P501075r> .
-<https://rdafr.fr/Rules#R562> <http://www.w3.org/ns/shacl#name> "personne est l'associée de la collectivité [dans la relation]"@fr .
-<https://rdafr.fr/Rules#R562> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements#C100005> .
-<https://rdafr.fr/Rules#R562> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
-<https://rdafr.fr/Rules#R562> <http://www.w3.org/ns/shacl#description> "Relation contractuelle entre une personne et une entreprise où la personne, en vertu de son statut d'associée, partage les bénéfices de l'entreprise avec d'autres associés."@fr .
+<https://rdafr.fr/Rules#R565> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
+<https://rdafr.fr/Rules#R565> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P500051r> .
+<https://rdafr.fr/Rules#R565> <http://www.w3.org/ns/shacl#name> "a des relations contractuelles avec [dans la relation]"@fr .
+<https://rdafr.fr/Rules#R565> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements#C100002> .
+<https://rdafr.fr/Rules#R565> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules#R565> <http://www.w3.org/ns/shacl#description> "Catégorie de relations entre entre une personne et un autre agent comprenant les relations d'emploi, de prestation, de franchise ou d'associé de."@fr .
+<https://rdafr.fr/Rules#R566> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
+<https://rdafr.fr/Rules#R566> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P501075r> .
+<https://rdafr.fr/Rules#R566> <http://www.w3.org/ns/shacl#name> "personne est l'associée de la collectivité [dans la relation]"@fr .
+<https://rdafr.fr/Rules#R566> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements#C100005> .
+<https://rdafr.fr/Rules#R566> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules#R566> <http://www.w3.org/ns/shacl#description> "Relation contractuelle entre une personne et une entreprise où la personne, en vertu de son statut d'associée, partage les bénéfices de l'entreprise avec d'autres associés."@fr .
 <https://rdafr.fr/Elements#P501075r> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://rdafr.fr/Elements#P501075r> <http://www.w3.org/2002/07/owl#inverseOf> <https://rdafr.fr/Elements#P501075ri> .
 <https://rdafr.fr/Elements#P501075r> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements#C100004> .
@@ -1316,12 +1372,12 @@
 <https://rdafr.fr/Elements#P501075r> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P500051r> .
 <https://rdafr.fr/Elements#P501075r> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements#P500051r> .
 <https://rdafr.fr/Elements#P501075r> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation contractuelle entre une personne et une entreprise où la personne, en vertu de son statut d'associée, partage les bénéfices de l'entreprise avec d'autres associés."@fr .
-<https://rdafr.fr/Rules#R563> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
-<https://rdafr.fr/Rules#R563> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P501074r> .
-<https://rdafr.fr/Rules#R563> <http://www.w3.org/ns/shacl#name> "est employé par [dans la relation]"@fr .
-<https://rdafr.fr/Rules#R563> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements#C100005> .
-<https://rdafr.fr/Rules#R563> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
-<https://rdafr.fr/Rules#R563> <http://www.w3.org/ns/shacl#description> "Relation contractuelle entre une personne et son organisme employeur (par exemple, lorsque la personne est employée avec le statut de salarié, d’agent de la fonction publique, etc.). Cette relation implique aussi un rapport de hiérarchie entre la personne employée et l'organisme employeur. A ne pas confondre avec la relation “Est prestataire de service / Est client de” qui est une relation contractuelle sans hiérarchie entre les parties."@fr .
+<https://rdafr.fr/Rules#R567> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
+<https://rdafr.fr/Rules#R567> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P501074r> .
+<https://rdafr.fr/Rules#R567> <http://www.w3.org/ns/shacl#name> "est employé par [dans la relation]"@fr .
+<https://rdafr.fr/Rules#R567> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements#C100005> .
+<https://rdafr.fr/Rules#R567> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules#R567> <http://www.w3.org/ns/shacl#description> "Relation contractuelle entre une personne et son organisme employeur (par exemple, lorsque la personne est employée avec le statut de salarié, d’agent de la fonction publique, etc.). Cette relation implique aussi un rapport de hiérarchie entre la personne employée et l'organisme employeur. A ne pas confondre avec la relation “Est prestataire de service / Est client de” qui est une relation contractuelle sans hiérarchie entre les parties."@fr .
 <https://rdafr.fr/Elements#P501074r> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://rdafr.fr/Elements#P501074r> <http://www.w3.org/2002/07/owl#inverseOf> <https://rdafr.fr/Elements#P501074ri> .
 <https://rdafr.fr/Elements#P501074r> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements#C100004> .
@@ -1330,18 +1386,18 @@
 <https://rdafr.fr/Elements#P501074r> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P500051r> .
 <https://rdafr.fr/Elements#P501074r> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements#P500051r> .
 <https://rdafr.fr/Elements#P501074r> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation contractuelle entre une personne et son organisme employeur (par exemple, lorsque la personne est employée avec le statut de salarié, d’agent de la fonction publique, etc.). Cette relation implique aussi un rapport de hiérarchie entre la personne employée et l'organisme employeur. A ne pas confondre avec la relation “Est prestataire de service / Est client de” qui est une relation contractuelle sans hiérarchie entre les parties."@fr .
-<https://rdafr.fr/Rules#R564> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
-<https://rdafr.fr/Rules#R564> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P502336r> .
-<https://rdafr.fr/Rules#R564> <http://www.w3.org/ns/shacl#name> "a des relations hiérarchiques avec [dans la relation]"@fr .
-<https://rdafr.fr/Rules#R564> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements#C100002> .
-<https://rdafr.fr/Rules#R564> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
-<https://rdafr.fr/Rules#R564> <http://www.w3.org/ns/shacl#description> "Catégorie de relations entre agents regroupant des relations de subordination ou d'autorité (contrôle, tutelle)"@fr .
-<https://rdafr.fr/Rules#R565> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
-<https://rdafr.fr/Rules#R565> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P501080r> .
-<https://rdafr.fr/Rules#R565> <http://www.w3.org/ns/shacl#name> "dirige [dans la relation]"@fr .
-<https://rdafr.fr/Rules#R565> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements#C100005> .
-<https://rdafr.fr/Rules#R565> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
-<https://rdafr.fr/Rules#R565> <http://www.w3.org/ns/shacl#description> "Relation entre une personne et la collectivité qu'elle dirge ou au sein de laquelle elle exerce une fonction de responsabilité."@fr .
+<https://rdafr.fr/Rules#R568> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
+<https://rdafr.fr/Rules#R568> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P502336r> .
+<https://rdafr.fr/Rules#R568> <http://www.w3.org/ns/shacl#name> "a des relations hiérarchiques avec [dans la relation]"@fr .
+<https://rdafr.fr/Rules#R568> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements#C100002> .
+<https://rdafr.fr/Rules#R568> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules#R568> <http://www.w3.org/ns/shacl#description> "Catégorie de relations entre agents regroupant des relations de subordination ou d'autorité (contrôle, tutelle)"@fr .
+<https://rdafr.fr/Rules#R569> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
+<https://rdafr.fr/Rules#R569> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P501080r> .
+<https://rdafr.fr/Rules#R569> <http://www.w3.org/ns/shacl#name> "dirige [dans la relation]"@fr .
+<https://rdafr.fr/Rules#R569> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements#C100005> .
+<https://rdafr.fr/Rules#R569> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules#R569> <http://www.w3.org/ns/shacl#description> "Relation entre une personne et la collectivité qu'elle dirge ou au sein de laquelle elle exerce une fonction de responsabilité."@fr .
 <https://rdafr.fr/Elements#P501080r> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://rdafr.fr/Elements#P501080r> <http://www.w3.org/2002/07/owl#inverseOf> <https://rdafr.fr/Elements#P501080ri> .
 <https://rdafr.fr/Elements#P501080r> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements#C100004> .
@@ -1350,18 +1406,18 @@
 <https://rdafr.fr/Elements#P501080r> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P502336r> .
 <https://rdafr.fr/Elements#P501080r> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements#P502336r> .
 <https://rdafr.fr/Elements#P501080r> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation entre une personne et la collectivité qu'elle dirge ou au sein de laquelle elle exerce une fonction de responsabilité."@fr .
-<https://rdafr.fr/Rules#R566> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
-<https://rdafr.fr/Rules#R566> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P100010r> .
-<https://rdafr.fr/Rules#R566> <http://www.w3.org/ns/shacl#name> "est à distinguer de [dans la relation]"@fr .
-<https://rdafr.fr/Rules#R566> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements#C100002> .
-<https://rdafr.fr/Rules#R566> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
-<https://rdafr.fr/Rules#R566> <http://www.w3.org/ns/shacl#description> "Relation de non équivalence entre la personne décrite et une autre personne, collectivité ou famille homonyme, alertant sur les risques de confusion entre les deux."@fr .
-<https://rdafr.fr/Rules#R567> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
-<https://rdafr.fr/Rules#R567> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P501087> .
-<https://rdafr.fr/Rules#R567> <http://www.w3.org/ns/shacl#name> "partage l'identité publique avec [dans la relation]"@fr .
-<https://rdafr.fr/Rules#R567> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements#C100004> .
-<https://rdafr.fr/Rules#R567> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
-<https://rdafr.fr/Rules#R567> <http://www.w3.org/ns/shacl#description> "Personne qui partage une même identité publique avec une autre personne, dans le cas de pseudonymes collectifs."@fr .
+<https://rdafr.fr/Rules#R570> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
+<https://rdafr.fr/Rules#R570> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P100010r> .
+<https://rdafr.fr/Rules#R570> <http://www.w3.org/ns/shacl#name> "est à distinguer de [dans la relation]"@fr .
+<https://rdafr.fr/Rules#R570> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements#C100002> .
+<https://rdafr.fr/Rules#R570> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules#R570> <http://www.w3.org/ns/shacl#description> "Relation de non équivalence entre la personne décrite et une autre personne, collectivité ou famille homonyme, alertant sur les risques de confusion entre les deux."@fr .
+<https://rdafr.fr/Rules#R571> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
+<https://rdafr.fr/Rules#R571> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P501087> .
+<https://rdafr.fr/Rules#R571> <http://www.w3.org/ns/shacl#name> "partage l'identité publique avec [dans la relation]"@fr .
+<https://rdafr.fr/Rules#R571> <http://www.w3.org/ns/shacl#node> <https://rdafr.fr/Elements#C100004> .
+<https://rdafr.fr/Rules#R571> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
+<https://rdafr.fr/Rules#R571> <http://www.w3.org/ns/shacl#description> "Personne qui partage une même identité publique avec une autre personne, dans le cas de pseudonymes collectifs."@fr .
 <https://rdafr.fr/Elements#P501087> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#ObjectProperty> .
 <https://rdafr.fr/Elements#P501087> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements#C100004> .
 <https://rdafr.fr/Elements#P501087> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements#C100004> .
@@ -3223,8 +3279,8 @@
 <https://rdafr.fr/Elements#P505010r> <http://www.w3.org/2000/01/rdf-schema#domain> <https://rdafr.fr/Elements#C100008> .
 <https://rdafr.fr/Elements#P505010r> <http://www.w3.org/2000/01/rdf-schema#range> <https://rdafr.fr/Elements#P505010r> .
 <https://rdafr.fr/Elements#P505010r> <http://www.w3.org/2000/01/rdf-schema#label> "famille a fondé la collectivité [dans la relation]"@fr .
-<https://rdafr.fr/Elements#P505010r> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P100028r> .
-<https://rdafr.fr/Elements#P505010r> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements#P100028r> .
+<https://rdafr.fr/Elements#P505010r> <http://www.w3.org/2000/01/rdf-schema#subPropertyOf> <https://rdafr.fr/Elements#P500028r> .
+<https://rdafr.fr/Elements#P505010r> <http://www.w3.org/2000/01/rdf-schema#subClassOf> <https://rdafr.fr/Elements#P500028r> .
 <https://rdafr.fr/Elements#P505010r> <http://www.w3.org/2000/01/rdf-schema#comment> "Relation entre une famille et la collectivité qu'elle a fondée."@fr .
 <https://rdafr.fr/Rules#R930> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0" .
 <https://rdafr.fr/Rules#R930> <http://www.w3.org/ns/shacl#path> <https://rdafr.fr/Elements#P505012r> .
