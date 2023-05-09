@@ -1,15 +1,16 @@
-FROM nginx:1.20.2
-ENV ONTOLOGIE_RDAFR_VERSION 0.3.5
+FROM debian:stable-20230502 AS builder
 
-COPY ./siteweb/*   /usr/share/nginx/html/
-COPY ./siteweb/.docker/*   /usr/share/nginx/html/
+RUN mkdir /build/
+COPY ./siteweb/*   /build/
+COPY ./siteweb/.docker/*   /build/
 
 # Installation des dépendances
 # locales : pour avoir les dates en français auto-générées par l'outil pandoc dans footer.html
 # pandoc : l'outil pour générer les contenus html du site web à partir des fichiers markdown
 # default-jdk : pour pouvoir utiliser l'outil widoco (qui est un outil en java) utilisé pour générer l'ontologie en HTML 
+# curl : pour faire des appels aux webservices de Sparna (génération des fichiers TTL et NT) et l'installation de Widoco
 
-RUN apt update && DEBIAN_FRONTEND=noninteractive apt -y install locales pandoc default-jdk
+RUN apt update && DEBIAN_FRONTEND=noninteractive apt -y install locales pandoc default-jdk curl
 
 # Configuration des locales en français
 
@@ -19,7 +20,7 @@ ENV LANG fr_FR.UTF-8
 ENV LANGUAGE fr_FR:fr
 ENV LC_ALL fr_FR.UTF-8
 
-WORKDIR /usr/share/nginx/html/
+WORKDIR /build/
 
 # Génération du site web
 
@@ -93,6 +94,12 @@ RUN curl -F inputShapeFile=@profil-application/rdafr-shacl.ttl \
 RUN sed -E -i ./profil-application/index.html \
     -e 's#<a href="(https://rdafr\.fr/Elements.*?/)" target="_blank">.*?</a>#\1#' \
     -e 's#<a href="https://rdafr\.fr/(Elements|termList).*?>(.*?)</a>#\2#'
+
+
+FROM nginx:1.20.2
+ENV ONTOLOGIE_RDAFR_VERSION 0.3.5
+
+COPY --from=builder /build ./usr/share/nginx/html/
 
 # Lance le serveur web
 CMD ["nginx", "-g", "daemon off;"]
