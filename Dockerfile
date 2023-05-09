@@ -5,6 +5,9 @@ COPY ./siteweb/*   /usr/share/nginx/html/
 COPY ./siteweb/.docker/*   /usr/share/nginx/html/
 
 # Installation des dépendances
+# locales : pour avoir les dates en français auto-générées par l'outil pandoc dans footer.html
+# pandoc : l'outil pour générer les contenus html du site web à partir des fichiers markdown
+# default-jdk : pour pouvoir utiliser l'outil widoco (qui est un outil en java) utilisé pour générer l'ontologie en HTML 
 
 RUN apt update && DEBIAN_FRONTEND=noninteractive apt -y install locales pandoc default-jdk
 
