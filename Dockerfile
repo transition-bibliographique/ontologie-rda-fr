@@ -1,22 +1,26 @@
 FROM nginx:1.20.2
 ENV ONTOLOGIE_RDAFR_VERSION 0.3.5
 
-RUN apt update && DEBIAN_FRONTEND=noninteractive apt -y install locales 
+COPY ./siteweb/*   /usr/share/nginx/html/
+COPY ./siteweb/.docker/*   /usr/share/nginx/html/
+
+# Installation des dépendances
+
+RUN apt update && DEBIAN_FRONTEND=noninteractive apt -y install locales pandoc default-jdk
+
+# Configuration des locales en français
+
 RUN sed -i '/fr_FR.UTF-8/s/^# //g' /etc/locale.gen && \
     locale-gen
 ENV LANG fr_FR.UTF-8
 ENV LANGUAGE fr_FR:fr
 ENV LC_ALL fr_FR.UTF-8
 
-RUN apt update && DEBIAN_FRONTEND=noninteractive apt install -y pandoc default-jdk
-
-COPY ./siteweb/*   /usr/share/nginx/html/
-COPY ./siteweb/.docker/*   /usr/share/nginx/html/
-RUN sed -i "s#LAST_MODIFICATION_DATE_PLACEHOLDER#$(date +'%e %B %Y')#g" /usr/share/nginx/html/footer.html
-
 WORKDIR /usr/share/nginx/html/
 
-# Génération du site web 
+# Génération du site web
+
+RUN sed -i "s#LAST_MODIFICATION_DATE_PLACEHOLDER#$(date +'%e %B %Y')#g" ./footer.html
 
 RUN pandoc ./01_INTRO.md -o ./intro.html
 RUN pandoc --standalone \
@@ -28,8 +32,6 @@ RUN pandoc --standalone \
       -A ./footer.html \
       02_CONTENT.md -o ./index.html
 
-# Génération des releases notes
-
 RUN pandoc --standalone \
       --toc \
       --shift-heading-level-by=-1 \
@@ -38,7 +40,7 @@ RUN pandoc --standalone \
       -A ./footer.html \
       ./release-notes.md -o ./release-notes.html
 
-# Installation de widoco
+# Installation de Widoco
 
 RUN curl -L https://github.com/dgarijo/Widoco/releases/download/v1.4.17/java-17-widoco-1.4.17-jar-with-dependencies.jar -o widoco.jar
 
@@ -52,12 +54,19 @@ RUN curl -L --request GET 'https://xls2rdf.sparna.fr/rest/convert?noPostProcessi
 
 # Pré traitement de l'ontologie
 
-RUN sed -e "#http://www.w3.org/ns/shacl#d" -e "/_:node/d" -i ./rdafr.nt  
+RUN sed -e "#http://www.w3.org/ns/shacl#d" -e "/_:node/d" -i ./rdafr.nt
 
 # Génération de la documentation de l'ontologie
 
-RUN java -jar widoco.jar -ontFile ./rdafr.nt -outFolder ./ontologie/ -rewriteAll -lang fr -excludeIntroduction -includeAnnotationProperties -noPlaceHolderText -webVowl
-RUN mv ./ontologie/index-fr.html ./ontologie/index.html
+RUN java -jar widoco.jar \
+      -ontFile ./rdafr.nt \
+      -outFolder ./ontologie/ \
+      -rewriteAll \
+      -lang en\
+      -excludeIntroduction \
+      -noPlaceHolderText \
+      -webVowl
+RUN mv ./ontologie/index-en.html ./ontologie/index.html
 
 # Génération du profil d'application
 
@@ -79,8 +88,8 @@ RUN curl -F inputShapeFile=@profil-application/rdafr-shacl.ttl \
 # Post traitement du profil d'application
 
 RUN sed -E -i ./profil-application/index.html \
-    -e 's#<a href="(https://rdafr\.fr/Elements/.*?/)" target="_blank">.*?</a>#\1#' \
-    -e 's#<a href="https://rdafr\.fr/(Elements|termList)/.*?>(.*?)</a>#\2#'
+    -e 's#<a href="(https://rdafr\.fr/Elements.*?/)" target="_blank">.*?</a>#\1#' \
+    -e 's#<a href="https://rdafr\.fr/(Elements|termList).*?>(.*?)</a>#\2#'
 
 # Lance le serveur web
 CMD ["nginx", "-g", "daemon off;"]
