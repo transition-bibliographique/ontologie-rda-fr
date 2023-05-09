@@ -25,7 +25,7 @@ WORKDIR /usr/share/nginx/html/
 
 RUN sed -i "s#LAST_MODIFICATION_DATE_PLACEHOLDER#$(date +'%e %B %Y')#g" ./footer.html
 
-RUN pandoc ./01_INTRO.md -o ./intro.html
+RUN pandoc ./index-intro.md -o ./intro.html
 RUN pandoc --standalone \
       --toc \
       --shift-heading-level-by=-1 \
@@ -33,7 +33,7 @@ RUN pandoc --standalone \
       -c style.css \
       -B ./intro.html \
       -A ./footer.html \
-      02_CONTENT.md -o ./index.html
+      index-content.md -o ./index.html
 
 RUN pandoc --standalone \
       --toc \
