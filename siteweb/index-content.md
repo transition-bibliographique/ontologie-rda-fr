@@ -105,7 +105,7 @@ Le choix a été fait de publier le modèle de données RDA-FR sous la forme d�
 
 Cette dissociation a pour avantages :
 
-* de disposer de** l’ontologie RDA-FR en OWL [mettre lien]**, porteuse de la structure de base qui exprime l’univers du discours couvert par le code RDA-FR ;
+* de disposer de **[l’ontologie RDA-FR en OWL](/ontologie/ontology.ttl)**, porteuse de la structure de base qui exprime l’univers du discours couvert par le code RDA-FR ;
 * de mettre à disposition **[le profil d’application de l’ontologie RDA-FR](/profil-application/)**, qui intègre les règles et les contraintes des données, gérées en langage SHACL, plus riches que celles contenues dans l’ontologie car elles permettent d’indiquer l’utilisation ou non d’une propriété dans une sous classe, et des règles spécifiques d’utilisation ;
 * de pouvoir adapter et enrichir ces règles sans modifier l’ontologie de base;
 * d’exécuter les règles SHACL sur les instances du graphe de connaissance pour vérifier que les données sont cohérentes et conformes à l'ontologie.
@@ -122,7 +122,7 @@ Il est à souligner que la section 9 du code RDA-FR, qui traite des relations en
 
 * La version HTML du profil d’application RDA-FR est publiée ici : [https://rdafr.fr/profil-application/](/profil-application/)
 * La version SHACL du profil d’application (au format turtle) est publiée ici : [https://rdafr.fr/profil-application/rdafr-shacl.ttl](/profil-application/rdafr-shacl.ttl)
-* La version HTML et OWL de l’ontologie [lien à venir].
+* La version HTML et OWL de l’ontologie [https://rdafr.fr/ontologie/ontology.ttl](/ontologie/ontology.ttl).
 
 L’ensemble de l’ontologie est géré depuis le compte GitHub du programme Transition bibliographique : [https://github.com/transition-bibliographique/ontologie-rda-fr](https://github.com/transition-bibliographique/ontologie-rda-fr).
 
