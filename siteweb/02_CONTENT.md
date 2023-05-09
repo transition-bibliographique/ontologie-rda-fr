@@ -27,10 +27,9 @@ Il est, pourtant, prévu d’établir des alignements avec les autres ontologies
 ##### Le code RDA-FR, le modèle IFLA LRM et l’ontologie RDA-FR - classes et propriétés de l’univers bibliographique
 
 Dans le système des classes et propriétés :
-- Pour chacune des entités du code RDA-FR on trouve la classe correspondante dans l’ontologie RDA-FR (classes Œuvre, Personne, etc.). Ces classes sont organisées selon la même hiérarchie que dans le code RDA-FR, en conformité avec l’ontologie IFLA LRM. A contrario, certaines classes présentes dans l’ontologie RDA-FR sont créées pour les besoins propres de celle-ci et ne se retrouvent pas dans le code RDA-FR (voir plus bas les explications sur, par exemple, la classe Groupe informel).
-- Les attributs des entités du code RDA-FR, ainsi que les relations entre entités du code constituent des propriétés dans l'ontologie RDA-FR  (« a pour langue de la personne », « est membre de » pour une relation entre une Personne et une Collectivité, etc.).
 
-**Point d’attention sur la version 0.0.1**
+* Pour chacune des entités du code RDA-FR, on trouve la classe correspondante dans l’ontologie RDA-FR (classes Œuvre, Personne, etc.). Ces classes sont organisées selon la même hiérarchie que dans le code RDA-FR, en conformité avec l’ontologie IFLA LRM. A contrario, certaines classes présentes dans l’ontologie RDA-FR sont créées pour les besoins propres de celle-ci et ne se retrouvent pas dans le code RDA-FR (voir plus bas les explications sur, par exemple, la classe Groupe informel).
+* Les attributs des entités du code RDA-FR, ainsi que les relations entre entités du code constituent des propriétés dans l’ontologie RDA-FR (« a pour langue de la personne », « est membre de » pour une relation entre une Personne et une Collectivité, etc.).
 
 La liste des relations entre les entités concernées par cette publication n’est pas exhaustive. Elle sera enrichie au fil des versions. Les relations présentes dans cette version permettent de montrer le mécanisme mis en œuvre pour leur expression. 
 
@@ -91,3 +90,44 @@ L'ensemble de l'ontologie est géré depuis le compte GitHub du programme Transi
 - La conception de cette ontologie a bénéficié de l’expertise et des compétences de Jean Delahousse.
 
 Pour toute question sur cette publication merci d’écrire à [ontologie-rdafr@abes.fr](ontologie-rdafr@abes.fr) 
+
+Le choix a été fait de publier le modèle de données RDA-FR sous la forme d’une ontologie (OWL) et d’un profil d’application (SHACL). 
+
+* **L’ontologie RDA-FR** modélise en classes et propriétés l’univers du discours couvert  par le code RDA-FR, elle est exprimée en langage [OWL](https://www.w3.org/OWL/) (Web Ontology Language).
+* **Le profil d’application RDA-FR** définit les règles et contraintes pour produire et valider les données RDF du graphe des données. Le profil d’application est exprimé en langage [SHACL](https://www.w3.org/TR/shacl/) (Shapes Constraint Language). Il s’agit d’un standard du W3C spécialement conçu pour la validation des graphes RDF de données, créées, dans notre cas, avec l’ontologie RDA-FR, dans le respect des règles et contraintes fixées pour cette ontologie. Dans le cadre de cette publication les règles SHACL expriment explicitement et de manière systématique les règles et contraintes génériques inhérentes au code RDA-FR, qu’elles soient explicitement ou implicitement formulées dans le code. Ces règles peuvent être des contraintes sur les cardinalités des propriétés, sur l’utilisation d’un vocabulaire contrôlé spécifique pour une propriété, etc.
+
+Cette dissociation a pour avantages : 
+
+* de disposer de** l’ontologie RDA-FR en OWL [mettre lien]**, porteuse de la structure de base qui exprime l’univers du discours couvert par le code RDA-FR ;
+* de mettre à disposition **[le profil d’application de l’ontologie RDA-FR](https://rdafr.fr/profil-application/)**, qui intègre les règles et les contraintes des données, gérées en langage SHACL, plus riches que celles contenues dans l’ontologie car elles permettent d’indiquer l’utilisation ou non d’une propriété dans une sous classe, et des règles spécifiques d’utilisation ;
+* de pouvoir adapter et enrichir ces règles sans modifier l’ontologie de base;
+* d’exécuter les règles SHACL sur les instances du graphe de connaissance pour vérifier que les données sont cohérentes et conformes à l'ontologie.
+
+### Gestion des règles et des contraintes
+
+A l’ontologie RDA-FR sont associés des règles et des contraintes d’utilisation de ses classes et propriétés dans la pratique, permettant ainsi d’assurer l’implémentation de l’ontologie conforme au code RDA-FR. Il est à noter que plusieurs de ces règles et contraintes s’ajoutent aux instructions déjà incluses dans le code RDA-FR. Elles relèvent des instructions pour l’implémentation du code dans la gestion informatisée des données. En font partie des règles relatives au champ d’application d’une propriété, à la répétabilité, au caractère obligatoire ou non, au caractère confidentiel ou non, au type d’information attendu, etc. Ces règles et contraintes sont exprimées et gérées séparément de l’ontologie RDA-FR, en langage SHACL [(Shapes Constraint Language)](https://www.w3.org/TR/shacl/). Il s’agit d’un standard du W3C spécialement conçu pour la validation des graphes RDF de données, créées, dans notre cas, avec l’ontologie RDA-FR, dans le respect des règles et contraintes fixées pour cette ontologie.
+
+## Déclaration de propriétés relevant des chapitres non publiés du code RDA-FR
+
+Il est à souligner que la section 9 du code RDA-FR, qui traite des relations entre agents, est toujours en cours de rédaction et non diffusée. Cependant, l’état d’avancement des travaux permet d’ores et déjà de disposer des listes fournies de relations entre agents. Une mise en cohérence de l’ontologie RDA-FR avec la section 9 sera effectuée au moment de la publication de cette dernière.
+
+## Modalités techniques de publication de l’ontologie RDA-FR
+
+* La version HTML du profil d’application RDA-FR est publiée ici : [https://rdafr.fr/profil-application/](https://rdafr.fr/profil-application/)
+* La version SHACL du profil d’application (au format turtle) est publiée ici : [https://rdafr.fr/profil-application/rdafr-shacl.ttl](https://rdafr.fr/profil-application/rdafr-shacl.ttl)
+* La version HTML et OWL de l’ontologie [lien à venir].
+
+L’ensemble de l’ontologie est géré depuis le compte GitHub du programme Transition bibliographique : [https://github.com/transition-bibliographique/ontologie-rda-fr](https://github.com/transition-bibliographique/ontologie-rda-fr).
+
+## Historique des versions
+
+*  [v.0.0.1 (janvier 2023) - première publication](https://rdafr.fr/release-notes.html#v.0.0.1)
+*  [v.0.1.0 (mai 2023)](https://rdafr.fr/release-notes.html#v.0.1.0)
+
+## Contributeurs associés à ce projet
+
+* BnF : Anila Angjeli, Vincent Boulet, Etienne Cavalié, Françoise Leresche
+* Abes : Benjamin Bober, Mathis Eon, Stéphane Gully, Laure Jestaz, Héloïse Lecomte
+* La conception de cette ontologie a bénéficié de l’expertise et des compétences de Jean Delahousse.
+
+Pour toute question sur cette publication merci d’écrire à [ontologie-rdafr@abes.fr](mailto:ontologie-rdafr@abes.fr)
