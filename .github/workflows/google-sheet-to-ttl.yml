@@ -14,20 +14,6 @@ jobs:
           -F url='https://docs.google.com/spreadsheets/d/1CZIf3bxuuH3aghFn7B7P89DrLqp_jzv4moI_BpI9PzY/export?format=xlsx' \
           -F format=ttl \
           -o ./profil-application/rdafr-shacl.ttl
-          
-      # On récupère l'ontologie au format nt plutôt que ttl pour faciliter les modifications avec SED
-      - name: "Récupération de l'ontologie au format nt"
-        run : |
-          curl -L --request GET 'https://xls2rdf.sparna.fr/rest/convert?noPostProcessings=true' \
-            -H "Connection: keep-alive" \
-            -F url='https://docs.google.com/spreadsheets/d/1CZIf3bxuuH3aghFn7B7P89DrLqp_jzv4moI_BpI9PzY/export?format=xlsx' \
-            -F format=text/plain \
-            -o  ontologie/rdafr.nt
-            
-      # Enlève les noeuds vides et les éléments shacl qui sont problématiques pour Widoco
-      - name: "Pré traitement de l'ontologie"
-        run: |
-          sed -e "#http://www.w3.org/ns/shacl#d" -e "/_:node/d" -i ontologie/rdafr.nt
 
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
