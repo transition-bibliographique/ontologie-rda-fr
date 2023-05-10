@@ -69,8 +69,8 @@ RUN java -jar widoco.jar \
       -lang en\
       -excludeIntroduction \
       -noPlaceHolderText \
-      -ignoreIndividuals \
-      -webVowl
+      -ignoreIndividuals
+
 RUN mv ./ontologie/index-en.html ./ontologie/index.html
 
 # Génération du profil d'application
