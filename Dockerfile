@@ -69,6 +69,7 @@ RUN java -jar widoco.jar \
       -lang en\
       -excludeIntroduction \
       -noPlaceHolderText \
+      -ignoreIndividuals \
       -webVowl
 RUN mv ./ontologie/index-en.html ./ontologie/index.html
 
