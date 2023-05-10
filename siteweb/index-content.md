@@ -2,7 +2,7 @@
 pagetitle: Ontologie RDA-FR
 toc-title: Table des matières
 ---
-# Introduction : architecture et choix de conception
+## Introduction : architecture et choix de conception
 
 L’ontologie RDA-FR, en cours d’élaboration, est une représentation formelle du code RDA-FR, sous forme d’une ontologie OWL.
 
@@ -12,20 +12,20 @@ Le schéma suivant donne une vue globale de la hiérarchie des classes de l’on
 
 ![](https://user-images.githubusercontent.com/51800062/215845393-ead4cc13-63bf-4763-a791-d5f714f5579b.jpg)
 
-## Domaine de l’ontologie RDA-FR et espaces de noms
+### Domaine de l’ontologie RDA-FR et espaces de noms
 
 Pour des besoins de clarté, toutes les classes, propriétés et vocabulaires de l’ontologie RDA-FR sont déclarées dans l’espace de nom <https://rdafr.fr>, avec des URIs qui leurs sont propres, sans reprise directe ni réutilisation des URIs des classes ou des propriétés d’une autre ontologie existante.
 
 Il est pourtant prévu d’établir des alignements avec les autres ontologies pour pouvoir dialoguer avec d’autres acteurs du secteur des bibliothèques et ceux d’autres secteurs. En premier lieu, des alignements seront déclarés avec l’[ontologie IFLA LRM](https://www.iflastandards.info/lrm), avec laquelle l’ontologie RDA-FR est en cohérence, comme l’est l’[ontologie RDA](https://www.rdaregistry.info/).
 
-## Le code RDA-FR, le modèle IFLA LRM et l’ontologie RDA-FR - classes et propriétés de l’univers bibliographique
+### Le code RDA-FR, le modèle IFLA LRM et l’ontologie RDA-FR - classes et propriétés de l’univers bibliographique
 
 Dans le système des classes et propriétés :
 
 * Pour chacune des entités du code RDA-FR, on trouve la classe correspondante dans l’ontologie RDA-FR (classes Œuvre, Personne, etc.). Ces classes sont organisées selon la même hiérarchie que dans le code RDA-FR, en conformité avec l’ontologie IFLA LRM. A contrario, certaines classes présentes dans l’ontologie RDA-FR sont créées pour les besoins propres de celle-ci et ne se retrouvent pas dans le code RDA-FR (voir plus bas les explications sur, par exemple, la classe Groupe informel).
 * Les attributs des entités du code RDA-FR, ainsi que les relations entre entités du code constituent des propriétés dans l’ontologie RDA-FR (« a pour langue de la personne », « est membre de » pour une relation entre une Personne et une Collectivité, etc.).
 
-### Remarques générales sur les classes de l’ontologie RDA-FR
+#### Remarques générales sur les classes de l’ontologie RDA-FR
 
 * **_Entité RDA-FR_** est la classe de niveau supérieur à la racine de l’ontologie RDA-FR ; elle est déclarée comme sous-classe de la classe _Res_ du modèle IFLA LRM. Toute classe de l’ontologie RDA-FR est déclarée comme sous-classe de celle-ci. Les propriétés de cette classe, en vertu du principe d’héritage, s’appliquent à toutes les sous-classes de l’ontologie.
 * La classe **_Nomen_** (entité du modèle IFLA LRM) a été déclarée comme une classe distincte dans l’ontologie RDA-FR. Dans le code RDA-FR, il n’y a pas d’entité propre Nomen : les noms, titres d’œuvre etc., points d’accès et identifiants sont traités comme des attributs des entités qu’ils servent à identifier ou représenter. Il n’en reste pas moins que ces noms, titres, points d’accès et identifiants, du point de vue du modèle IFLA LRM, relèvent de l’entité Nomen. Ainsi, dans l’ontologie RDA-FR, toutes les propriétés qui représentent des noms, des titres, des points d’accès et des identifiants ont pour co-domaine la classe Nomen.
@@ -39,12 +39,12 @@ Pour les relations entre la classe Identité publique et les classes Personne ou
 
 * Les classes **_Lieu_** et **_Laps de temps_** (entités du modèle IFLA LRM), les classes **_Concept_**, **_Objet_**, **_Événement_**, ainsi que les sous-classes de Lieu et de Laps de temps, sont d’ores et déjà créées dans l’ontologie RDA-FR pour leur réserver la place qui convient dans l’architecture globale. Elles seront abordées en détail, ou modifiées, lorsque les chapitres correspondants ou les orientations normatives du code RDA-FR seront publiés, sous réserve de l’avancée des travaux des groupes nationaux de la Transition Bibliographique.
 
-## Mécanismes fonctionnels de l’ontologie RDA-FR
+### Mécanismes fonctionnels de l’ontologie RDA-FR
 
 * Pour rappel, toute classe de l’ontologie RDA-FR est déclarée comme sous-classe de la classe racine **_Entité RDA-FR_**. Les propriétés de cette classe, en vertu du principe d’héritage, s’appliquent à toutes les sous-classes de l’ontologie, qu’il s’agisse des classes correspondant aux entités bibliographiques, que de celles ajoutées pour les besoins fonctionnels de l’ontologie RDA-FR, ou encore des classes ajoutées pour permettre une structuration fine et précise des données.
 * Les vocabulaires contrôlés dans l’ontologie RDA-FR relèvent de la classe **_[skos:ConceptScheme](http://www.w3.org/2004/02/skos/core#ConceptScheme)_**. Ils correspondent aux référentiels associés aux attributs des entités du code RDA-FR.
 
-### Principe de réification
+#### Principe de réification
 
 Pour permettre l’ajout d’assertions sur les propriétés, le mécanisme de la réification systématique des propriétés en utilisant le même URI pour la propriété et sa réification a été implémenté dans l’ontologie RDA-FR. Ce mécanisme est basé sur le standard [ETSI GS CIM 006 V1.1.1 (2019 07)](https://drive.google.com/open?id=1EH-WjUL-2vwkze3JAM9xtc_l4czbSpIN). Pour cela deux classes sont créées :
 
@@ -61,7 +61,7 @@ Exemple de réification de la relation _“a pour créateur / créateur de”_
 
 ![](https://user-images.githubusercontent.com/51800062/215851006-1a5e66c8-ec3c-4ac5-ac69-75c8c73b1955.jpg "Exemple de réification de la relation “a pour créateur / créateur de”")
 
-### Principe de déclaration des propriétés, dites génériques, applicables à plusieurs entités
+#### Principe de déclaration des propriétés, dites génériques, applicables à plusieurs entités
 
 Dans le code RDA-FR il existe des propriétés (relations ou attributs du code RDA-FR) qui peuvent être établies entre plusieurs entités.
 
@@ -73,7 +73,7 @@ Dans le code RDA-FR il existe des propriétés (relations ou attributs du code R
 
 Dans l’exemple de la propriété _“collabore avec”_, celle-ci est déclarée comme propriété de la classe Agent. Elle est ensuite reprise, dans le profil d’application (avec le même URI et libellé), au niveau des sous-classes Personne, Collectivité, Famille partout où elle est pertinente avec, si besoin, des précisions d’application contextuelles.
 
-## L’ontologie RDA-FR en OWL et son profil d’application
+### L’ontologie RDA-FR en OWL et son profil d’application
 
 Le choix a été fait de publier le modèle de données RDA-FR sous la forme d’une ontologie (OWL) et d’un profil d’application (SHACL).
 
@@ -87,11 +87,11 @@ Cette dissociation a pour avantages :
 * de pouvoir adapter et enrichir ces règles sans modifier l’ontologie de base;
 * d’exécuter les règles SHACL sur les instances du graphe de connaissance pour vérifier que les données sont cohérentes et conformes à l'ontologie.
 
-## Déclaration de propriétés relevant des chapitres non publiés du code RDA-FR
+### Déclaration de propriétés relevant des chapitres non publiés du code RDA-FR
 
 Il est à souligner que la section 9 du code RDA-FR, qui traite des relations entre agents, est toujours en cours de rédaction et non diffusée. Cependant, l’état d’avancement des travaux permet d’ores et déjà de disposer des listes fournies de relations entre agents. Une mise en cohérence de l’ontologie RDA-FR avec la section 9 sera effectuée au moment de la publication de cette dernière.
 
-## Modalités techniques de publication de l’ontologie RDA-FR
+### Modalités techniques de publication de l’ontologie RDA-FR
 
 * La version HTML du profil d’application RDA-FR est publiée ici : [https://rdafr.fr/profil-application/](/profil-application/)
 * La version SHACL du profil d’application (au format turtle) est publiée ici : [https://rdafr.fr/profil-application/rdafr-shacl.ttl](/profil-application/rdafr-shacl.ttl)
@@ -99,12 +99,12 @@ Il est à souligner que la section 9 du code RDA-FR, qui traite des relations en
 
 L’ensemble de l’ontologie est géré depuis le compte GitHub du programme Transition bibliographique : [https://github.com/transition-bibliographique/ontologie-rda-fr](https://github.com/transition-bibliographique/ontologie-rda-fr).
 
-## Historique des versions
+### Historique des versions
 
 * v.0.1.0 (mai 2023)
 * v.0.0.1 (janvier 2023) - première publication
 
-## Contributeurs associés à ce projet
+### Contributeurs associés à ce projet
 
 * BnF : Anila Angjeli, Vincent Boulet, Etienne Cavalié, Françoise Leresche
 * Abes : Benjamin Bober, Mathis Eon, Stéphane Gully, Laure Jestaz, Héloïse Lecomte
