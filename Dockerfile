@@ -46,7 +46,7 @@ RUN pandoc --standalone \
 
 # Installation de Widoco
 
-RUN curl -L https://github.com/dgarijo/Widoco/releases/download/v1.4.17/java-17-widoco-1.4.17-jar-with-dependencies.jar -o widoco.jar
+RUN curl -L https://github.com/dgarijo/Widoco/releases/download/v1.4.17/java-17-widoco-1.4.17-jar-with-dependencies.jar -o /tmp/widoco.jar
 
 # Récupération de l'ontologie au format nt
 
@@ -62,7 +62,7 @@ RUN sed -e "#http://www.w3.org/ns/shacl#d" -e "/_:node/d" -i ./rdafr.nt
 
 # Génération de la documentation de l'ontologie
 
-RUN java -jar widoco.jar \
+RUN java -jar /tmp/widoco.jar \
       -ontFile ./rdafr.nt \
       -outFolder ./ontologie/ \
       -rewriteAll \
