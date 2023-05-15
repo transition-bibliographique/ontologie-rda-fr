@@ -1,4 +1,4 @@
-FROM debian:stable-20230502 AS builder
+FROM debian:stable-20230502-slim AS builder
 
 RUN mkdir /build/
 COPY ./siteweb/*   /build/
