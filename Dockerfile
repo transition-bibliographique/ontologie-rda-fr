@@ -3,6 +3,7 @@ FROM debian:stable-20230502-slim AS builder
 RUN mkdir /build/
 COPY ./siteweb/*   /build/
 COPY ./siteweb/.docker/*   /build/
+COPY ./ontologie /ontologie
 
 # Installation des dépendances
 # locales : pour avoir les dates en français auto-générées par l'outil pandoc dans footer.html
@@ -48,42 +49,29 @@ RUN pandoc --standalone \
 
 RUN curl -L https://github.com/dgarijo/Widoco/releases/download/v1.4.17/java-17-widoco-1.4.17-jar-with-dependencies.jar -o /tmp/widoco.jar
 
-# Récupération de l'ontologie au format nt
-
-RUN curl -L --request GET 'https://xls2rdf.sparna.fr/rest/convert?noPostProcessings=true' \
-      -H "Connection: keep-alive" \
-      -F url='https://docs.google.com/spreadsheets/d/1CZIf3bxuuH3aghFn7B7P89DrLqp_jzv4moI_BpI9PzY/export?format=xlsx' \
-      -F format=text/plain \
-      -o ./rdafr.nt
-
-# Pré traitement de l'ontologie
-
-RUN sed -e "#http://www.w3.org/ns/shacl#d" -e "/_:node/d" -i ./rdafr.nt
+# Enlève les noeuds vides et les éléments shacl qui sont problématiques pour Widoco
+RUN sed -e "#http://www.w3.org/ns/shacl#d" -e "/_:node/d" -i /ontologie/rdafr.nt
 
 # Génération de la documentation de l'ontologie
 
 RUN java -jar /tmp/widoco.jar \
-      -ontFile ./rdafr.nt \
-      -outFolder ./ontologie/ \
+      -ontFile /ontologie/rdafr.nt \
+      -outFolder ./ \
+      -confFile /ontologie/config.properties \
       -rewriteAll \
-      -lang en\
+      -lang en \
       -excludeIntroduction \
       -noPlaceHolderText \
       -ignoreIndividuals
 
+RUN mv ./doc ./ontologie
 RUN mv ./ontologie/index-en.html ./ontologie/index.html
 
 # Génération du profil d'application
 
 RUN mkdir -p profil-application
 
-RUN curl -L --request GET 'https://xls2rdf.sparna.fr/rest/convert?noPostProcessings=true' \
-      -H "Connection: keep-alive" \
-      -F url='https://docs.google.com/spreadsheets/d/1CZIf3bxuuH3aghFn7B7P89DrLqp_jzv4moI_BpI9PzY/export?format=xlsx' \
-      -F format=ttl \
-      -o ./profil-application/rdafr-shacl.ttl
-
-RUN curl -F inputShapeFile=@profil-application/rdafr-shacl.ttl \
+RUN curl -F inputShapeFile=@/ontologie/rdafr.ttl \
       -F shapesSource=file \
       -F language=fr \
       -H 'Accept-Language: fr-FR,fr' \
