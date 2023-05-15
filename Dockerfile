@@ -11,7 +11,10 @@ RUN apt update && DEBIAN_FRONTEND=noninteractive apt -y install locales pandoc d
 RUN mkdir /build/
 COPY ./siteweb/*   /build/
 COPY ./siteweb/.docker/*   /build/
-COPY ./ontologie /ontologie
+
+# Les données de l'ontologie ne sont nécessaire que pour la documentation du profil d'application et de l'ontologie
+
+COPY ./ontologie /tmp/ontologie
 
 # Configuration des locales en français
 
@@ -50,14 +53,14 @@ RUN pandoc --standalone \
 RUN curl -L https://github.com/dgarijo/Widoco/releases/download/v1.4.17/java-17-widoco-1.4.17-jar-with-dependencies.jar -o /tmp/widoco.jar
 
 # Enlève les noeuds vides et les éléments shacl qui sont problématiques pour Widoco
-RUN sed -e "#http://www.w3.org/ns/shacl#d" -e "/_:node/d" -i /ontologie/rdafr.nt
+RUN sed -e "#http://www.w3.org/ns/shacl#d" -e "/_:node/d" -i /tmp/ontologie/rdafr.nt
 
 # Génération de la documentation de l'ontologie
 
 RUN java -jar /tmp/widoco.jar \
-      -ontFile /ontologie/rdafr.nt \
+      -ontFile /tmp/ontologie/rdafr.nt \
       -outFolder ./ \
-      -confFile /ontologie/config.properties \
+      -confFile /tmp/ontologie/config.properties \
       -rewriteAll \
       -lang en \
       -excludeIntroduction \
