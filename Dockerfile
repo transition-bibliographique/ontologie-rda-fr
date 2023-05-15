@@ -1,10 +1,5 @@
 FROM debian:stable-20230502-slim AS builder
 
-RUN mkdir /build/
-COPY ./siteweb/*   /build/
-COPY ./siteweb/.docker/*   /build/
-COPY ./ontologie /ontologie
-
 # Installation des dépendances
 # locales : pour avoir les dates en français auto-générées par l'outil pandoc dans footer.html
 # pandoc : l'outil pour générer les contenus html du site web à partir des fichiers markdown
@@ -12,6 +7,11 @@ COPY ./ontologie /ontologie
 # curl : pour faire des appels aux webservices de Sparna (génération des fichiers TTL et NT) et l'installation de Widoco
 
 RUN apt update && DEBIAN_FRONTEND=noninteractive apt -y install locales pandoc default-jdk curl
+
+RUN mkdir /build/
+COPY ./siteweb/*   /build/
+COPY ./siteweb/.docker/*   /build/
+COPY ./ontologie /ontologie
 
 # Configuration des locales en français
 
