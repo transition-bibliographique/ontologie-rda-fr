@@ -4,7 +4,7 @@ on: workflow_dispatch
 jobs:
   
   google-sheet-to-ttl:
-    # On créer une matrice de l'ensemble couple format/mime pour sauvegarder l'ensemble des format dans le dépôt GitHub
+    # On créer une matrice de l'ensemble couple format/mime pour sauvegarder l'ensemble des formats dans le dépôt GitHub
     strategy:
       matrix:
         formats: [{extension: ttl, mime: ttl}, {extension: nt, mime: text/plain}, {extension: rdf, mime: application/rdf+xml}]
