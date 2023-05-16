@@ -66,7 +66,7 @@ Exemple de réification de la relation _“a pour créateur / créateur de”_
 Dans le code RDA-FR il existe des propriétés (relations ou attributs du code RDA-FR) qui peuvent être établies entre plusieurs entités.
 
 * Dans **le code RDA-FR**, elles sont déclarées expressément au niveau précis de chacune des entités auxquelles elles s’appliquent. Par exemple, on trouvera la relation _“collabore avec”_ déclarée à la fois, entre deux personnes, entre deux collectivités, entre une personne et une collectivité, etc.
-* Dans **l’ontologie RDA-FR** (en OWL) [https://rdafr.fr/ontologie/ontology.ttl](https://rdafr.fr/ontologie/ontology.ttl), pour ces types de propriété, le choix a été fait de déclarer seulement une propriété générique au niveau de la classe parente de ces classes (niveau le plus haut pertinent), en appliquant le principe d'héritage.
+* Dans **l’ontologie RDA-FR** (en OWL) [https://rdafr.fr/ontologie/ontology.ttl](/ontologie/ontology.ttl), pour ces types de propriété, le choix a été fait de déclarer seulement une propriété générique au niveau de la classe parente de ces classes (niveau le plus haut pertinent), en appliquant le principe d'héritage.
 * Dans **[le profil d’application de l’ontologie RDA-FR](/profil-application/)**, ces propriétés sont déclarées non seulement au niveau générique, mais aussi au niveau précis de chacune des sous-classes auxquelles elles s’appliquent. A noter qu’à ce niveau spécifique la propriété conserve le même URI et le même libellé que cette même propriété déclarée au niveau générique. Le profil d’application (SHACL) offre la possibilité de décrire les règles métier du code RDA-FR, avec, notamment les possibilités suivantes au niveau de chaque classe :
 * lorsque, **dans l’ontologie RDA-FR**, une propriété est déclarée  au niveau générique d’une super-classe (ex.: Agent), mais que son application n’est pas pertinente pour une de ses sous-classes (ex.: Famille), dans le profil d’application de l’ontologie RDA-FR, cette propriété n’est simplement pas reprise au niveau de la sous-classe en question (la sous-classe Famille, le cas échéant).
 * **dans le profil d’application de l’ontologie RDA-FR**, pour toutes ces propriétés génériques, il est possible de donner leur contexte d’application précis dans le cadre de la sous-classe précise, en donnant une définition contextuelle et en y associant des règles spécifiques lorsqu’il y a lieu, etc.
@@ -101,8 +101,8 @@ L’ensemble de l’ontologie est géré depuis le compte GitHub du programme Tr
 
 ### Historique des versions
 
-* [v 0.1.0 (mai 2023)](/release-notes#v0.1.0)
-* [v 0.0.1 (janvier 2023) - première publication](/release-notes#v0.0.1)
+* [v 0.1.0 (mai 2023)](/release-notes.html#v0.1.0)
+* [v 0.0.1 (janvier 2023) - première publication](/release-notes.html#v0.0.1)
 
 ### Contributeurs associés à ce projet
 
