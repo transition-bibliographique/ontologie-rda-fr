@@ -77,10 +77,10 @@ RUN mv /build/ontologie/index-en.html /build/ontologie/index.html
 
 RUN mkdir -p profil-application
 
-# Ajout des métadonnées au profil d'application
-RUN cat /tmp/ontologie/profil-application-metadata.nt /tmp/ontologie/rdafr.nt > /tmp/ontologie/profil-application-avec-meta.nt
+# Ajout des métadonnées au profil d'application. On copie les métadonnées au format NT dans le fichier TTL, pour faire apparaître les préfix dans le profil d'application
+RUN cat /tmp/ontologie/profil-application-metadata.nt /tmp/ontologie/rdafr.ttl > /tmp/ontologie/profil-application-avec-meta.ttl
 
-RUN curl -F inputShapeFile=@/tmp/ontologie/profil-application-avec-meta.nt \
+RUN curl -F inputShapeFile=@/tmp/ontologie/profil-application-avec-meta.ttl \
       -F shapesSource=file \
       -F language=fr \
       -H 'Accept-Language: fr-FR,fr' \
