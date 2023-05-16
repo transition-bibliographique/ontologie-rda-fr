@@ -1,19 +1,45 @@
-# Récupère les données de l'ontologie au format xlsx depuis google drive pour les transformer au format turtle.
+# Cette action GitHub récupère les données de l'ontologie et du profil d'application depuis Google sheet pour les sauvegarder dans GitHub
 name: Google Sheet to TTL
-on: workflow_dispatch     
+on: workflow_dispatch
 jobs:
+  
   google-sheet-to-ttl:
+    # On créer une matrice de l'ensemble couple format/mime pour sauvegarder l'ensemble des formats dans le dépôt GitHub
+    strategy:
+      matrix:
+        formats: [{extension: ttl, mime: ttl}, {extension: nt, mime: text/plain}, {extension: rdf, mime: application/rdf+xml}]
+
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - name: "Récupération de l'ontologie"
+        run : |
+          curl -L --request GET 'https://xls2rdf.sparna.fr/rest/convert?noPostProcessings=true' \
+          -H "Connection: keep-alive" \
+          -F url='https://docs.google.com/spreadsheets/d/1CZIf3bxuuH3aghFn7B7P89DrLqp_jzv4moI_BpI9PzY/export?format=xlsx' \
+          -F format=${{ matrix.formats.mime }} \
+          -o ./ontologie/rdafr.${{ matrix.formats.extension }} 
+      - name: "Sauvergarde de l'ontologie"
+        uses: actions/upload-artifact@v3
+        with:
+          name: ontologie
+          path: ontologie
+          retention-days: 1
+
+  save:
+    needs: google-sheet-to-ttl
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
-      - uses: actions/checkout@v3
-      - run : |
-          curl -L --request GET 'https://xls2rdf.sparna.fr/rest/convert?noPostProcessings=true' \
-          -H "Connection: keep-alive" \
-          -F url='https://docs.google.com/spreadsheets/d/1CZIf3bxuuH3aghFn7B7P89DrLqp_jzv4moI_BpI9PzY/export?format=xlsx' \
-          -F format=ttl \
-          -o ./profil-application/rdafr-shacl.ttl
+      - name: "Build: checkout source code"
+        uses: actions/checkout@v3
+
+      - name: "Récupération de l'ontologie"
+        uses: actions/download-artifact@v3
+        with:
+          name: ontologie
+          path: ontologie
 
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
