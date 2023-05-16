@@ -8,6 +8,10 @@ FROM debian:stable-20230502-slim AS builder
 
 RUN apt update && DEBIAN_FRONTEND=noninteractive apt -y install locales pandoc default-jdk curl
 
+# Installation de Widoco
+
+RUN curl -L https://github.com/dgarijo/Widoco/releases/download/v1.4.17/java-17-widoco-1.4.17-jar-with-dependencies.jar -o /tmp/widoco.jar
+
 RUN mkdir /build/
 COPY ./siteweb/*   /build/
 COPY ./siteweb/.docker/*   /build/
