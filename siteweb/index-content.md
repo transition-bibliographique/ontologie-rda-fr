@@ -10,7 +10,7 @@ L’ontologie RDA-FR, en cours d’élaboration, est une représentation formell
 
 Le schéma suivant donne une vue globale de la hiérarchie des classes de l’ontologie RDA-FR. Seules sont traitées dans cette version bêta les classes non grisées ci-dessous.
 
-![](https://user-images.githubusercontent.com/51800062/215845393-ead4cc13-63bf-4763-a791-d5f714f5579b.jpg)
+![image](https://github.com/transition-bibliographique/ontologie-rda-fr/assets/60341438/dbfda58b-eaec-4ee1-a217-470b5d2eaa04)
 
 ### Domaine de l’ontologie RDA-FR et espaces de noms
 
@@ -52,14 +52,14 @@ Pour permettre l’ajout d’assertions sur les propriétés, le mécanisme de l
 
 Exemple de réification de l’attribut _“a pour lieu de naissance de la personne”_
 
-![](https://user-images.githubusercontent.com/51800062/215849996-0a586184-0635-4a11-bee0-5fc292bd8ab9.jpg "Exemple de réification de l’attribut “a pour lieu de naissance de la personne”")
+![image](https://github.com/transition-bibliographique/ontologie-rda-fr/assets/60341438/0e30ff17-5a34-4c47-aeef-195d92db5293)
 
-* la classe P100001r **_‘a une relation avec [dans la relation]’_** a été introduite pour permettre d’ajouter des assertions sur toutes les propriétés qui expriment une relation entre des instances de deux classes de l’ontologie (et qui, de fait, correspondent aux relations entre instances d’entités du code RDA-FR). Elle permet par exemple de donner des précisions (source, période, etc.) sur une relation de type _“a pour créateur / créateur de”_ entre une oeuvre et une personne. Chaque propriété de ce type est systématiquement réifiée par une classe dont l’URI est la même que celle de la propriété. Cette classe est déclarée comme une sous classe de la classe P100001r _‘a une relation avec [dans la relation]’_. \
+* la classe P100001r **_‘a une relation réifiée’_** a été introduite pour permettre d’ajouter des assertions sur toutes les propriétés qui expriment une relation entre des instances de deux classes de l’ontologie (et qui, de fait, correspondent aux relations entre instances d’entités du code RDA-FR). Elle permet par exemple de donner des précisions (source, période, etc.) sur une relation de type _“est élève de / a pour élève”_ entre une œuvre et une personne. Chaque propriété de ce type est systématiquement réifiée par une classe dont l’URI est la même que celle de la propriété. Cette classe est déclarée comme une sous classe de la classe P100001r _‘a une relation réifiée’_. \
 Font exception de cette règle les relations dites fondamentales du modèle IFLA LRM entre les classes Oeuvre, Expression, Manifestation et Item.
 
-Exemple de réification de la relation _“a pour créateur / créateur de”_
+Exemple de réification de la relation _“a pour élève / est élève de”_ 
 
-![](https://user-images.githubusercontent.com/51800062/215851006-1a5e66c8-ec3c-4ac5-ac69-75c8c73b1955.jpg "Exemple de réification de la relation “a pour créateur / créateur de”")
+![image](https://github.com/transition-bibliographique/ontologie-rda-fr/assets/60341438/21ede814-0523-4ddc-9001-a84aab5f545e)
 
 #### Principe de déclaration des propriétés, dites génériques, applicables à plusieurs entités
 
