@@ -32,25 +32,25 @@ WORKDIR /build/
 
 # Génération du site web
 
-RUN sed -i "s#LAST_MODIFICATION_DATE_PLACEHOLDER#$(date +'%e %B %Y')#g" ./footer.html
+RUN sed -i "s#LAST_MODIFICATION_DATE_PLACEHOLDER#$(date +'%e %B %Y')#g" /build/footer.html
 
-RUN pandoc ./index-intro.md -o ./intro.html
+RUN pandoc /build/index-intro.md -o /build/intro.html
 RUN pandoc --standalone \
       --toc \
       --shift-heading-level-by=-1 \
-      --template ./template.html \
+      --template template.html \
       -c style.css \
-      -B ./intro.html \
-      -A ./footer.html \
-      index-content.md -o ./index.html
+      -B /build/intro.html \
+      -A /build/footer.html \
+      /build/index-content.md -o /build/index.html
 
 RUN pandoc --standalone \
       --toc \
       --shift-heading-level-by=-1 \
-      --template ./template.html \
+      --template template.html \
       -c style.css \
-      -A ./footer.html \
-      ./release-notes.md -o ./release-notes.html
+      -A /build/footer.html \
+      /build/release-notes.md -o /build/release-notes.html
 
 # Génération de la documentation de l'ontologie
 
@@ -72,7 +72,7 @@ RUN java -jar /tmp/widoco.jar \
       -ignoreIndividuals
 
 # Renomme index-en.html, qui est généré automatiquement par Widoco, en index.html
-RUN mv ./ontologie/index-en.html ./ontologie/index.html
+RUN mv /build/ontologie/index-en.html /build/ontologie/index.html
 
 # Génération du profil d'application
 
@@ -86,11 +86,11 @@ RUN curl -F inputShapeFile=@/tmp/ontologie/profil-application-avec-meta.nt \
       -F language=fr \
       -H 'Accept-Language: fr-FR,fr' \
       https://shacl-play.sparna.fr/play/doc \
-      > ./profil-application/index.html
+      > /build/profil-application/index.html
 
 # Post traitement du profil d'application
 
-RUN sed -E -i ./profil-application/index.html \
+RUN sed -E -i /build/profil-application/index.html \
     -e 's#<a href="(https://rdafr\.fr/Elements.*?/)" target="_blank">.*?</a>#\1#' \
     -e 's#<a href="https://rdafr\.fr/(Elements|termList).*?>(.*?)</a>#\2#'
 
