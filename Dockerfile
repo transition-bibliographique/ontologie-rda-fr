@@ -67,7 +67,6 @@ RUN java -jar /tmp/widoco.jar \
       -outFolder ontologie \
       -rewriteAll \
       -lang en \
-      -excludeIntroduction \
       -noPlaceHolderText \
       -ignoreIndividuals
 
