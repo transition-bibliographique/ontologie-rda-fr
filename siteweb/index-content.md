@@ -101,8 +101,8 @@ L’ensemble de l’ontologie est géré depuis le compte GitHub du programme Tr
 
 ### Historique des versions
 
-* v.0.1.0 (mai 2023)
-* v.0.0.1 (janvier 2023) - première publication
+* [v 0.1.0 (mai 2023)](/release-notes#v0.1.0)
+* [v 0.0.1 (janvier 2023) - première publication](/release-notes#v0.0.1)
 
 ### Contributeurs associés à ce projet
 
