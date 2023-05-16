@@ -3,7 +3,7 @@ FROM debian:stable-20230502-slim AS builder
 # Installation des dépendances
 # locales : pour avoir les dates en français auto-générées par l'outil pandoc dans footer.html
 # pandoc : l'outil pour générer les contenus html du site web à partir des fichiers markdown
-# default-jdk : pour pouvoir utiliser l'outil widoco (qui est un outil en java) utilisé pour générer l'ontologie en HTML 
+# default-jdk : pour pouvoir utiliser l'outil widoco (qui est un outil en java) utilisé pour générer l'ontologie en HTML
 # curl : pour faire des appels aux webservices de Sparna (génération des fichiers TTL et NT) et l'installation de Widoco
 
 RUN apt update && DEBIAN_FRONTEND=noninteractive apt -y install locales pandoc default-jdk curl
@@ -16,11 +16,11 @@ RUN mkdir /build/
 COPY ./siteweb/* /build/
 COPY ./siteweb/.docker/* /build/
 
-# Les données de l'ontologie ne sont nécessaire que pour la documentation du profil d'application et de l'ontologie
+# Les données de l'ontologie ne sont nécessaires que pour la documentation du profil d'application et de l'ontologie
 
 COPY ./ontologie /tmp/ontologie
 
-# Configuration des locales en français
+# Configuration des locales en français pour avoir une génération de date en français
 
 RUN sed -i '/fr_FR.UTF-8/s/^# //g' /etc/locale.gen && \
     locale-gen
@@ -52,7 +52,8 @@ RUN pandoc --standalone \
       -A ./footer.html \
       ./release-notes.md -o ./release-notes.html
 
-# Installation de Widoco
+# Génération de la documentation de l'ontologie
+
 RUN mkdir -p ontologie
 
 # Ajout des métadonnées à l'ontologie. On rajoute les métadonnées à la fin. Widoco prend les dernières en cas de répétition
@@ -60,8 +61,6 @@ RUN cat /tmp/ontologie/rdafr.nt /tmp/ontologie/ontologie-metadata.nt > /tmp/onto
 
 # Enlève les noeuds vides et les éléments shacl qui sont problématiques pour Widoco
 RUN sed -e "#http://www.w3.org/ns/shacl#d" -e "/_:node/d" -i /tmp/ontologie/ontologie-avec-meta.nt
-
-# Génération de la documentation de l'ontologie
 
 RUN java -jar /tmp/widoco.jar \
       -ontFile /tmp/ontologie/ontologie-avec-meta.nt \
@@ -72,7 +71,7 @@ RUN java -jar /tmp/widoco.jar \
       -noPlaceHolderText \
       -ignoreIndividuals
 
-RUN mv ./doc ./ontologie
+# Renomme index-en.html, qui est généré automatiquement par Widoco, en index.html
 RUN mv ./ontologie/index-en.html ./ontologie/index.html
 
 # Génération du profil d'application
