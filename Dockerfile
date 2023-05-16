@@ -13,8 +13,8 @@ RUN apt update && DEBIAN_FRONTEND=noninteractive apt -y install locales pandoc d
 RUN curl -L https://github.com/dgarijo/Widoco/releases/download/v1.4.17/java-17-widoco-1.4.17-jar-with-dependencies.jar -o /tmp/widoco.jar
 
 RUN mkdir /build/
-COPY ./siteweb/*   /build/
-COPY ./siteweb/.docker/*   /build/
+COPY ./siteweb/* /build/
+COPY ./siteweb/.docker/* /build/
 
 # Les données de l'ontologie ne sont nécessaire que pour la documentation du profil d'application et de l'ontologie
 
@@ -53,6 +53,7 @@ RUN pandoc --standalone \
       ./release-notes.md -o ./release-notes.html
 
 # Installation de Widoco
+RUN mkdir -p ontologie
 
 # Ajout des métadonnées à l'ontologie. On rajoute les métadonnées à la fin. Widoco prend les dernières en cas de répétition
 RUN cat /tmp/ontologie/rdafr.nt /tmp/ontologie/ontologie-metadata.nt > /tmp/ontologie/ontologie-avec-meta.nt
@@ -64,7 +65,7 @@ RUN sed -e "#http://www.w3.org/ns/shacl#d" -e "/_:node/d" -i /tmp/ontologie/onto
 
 RUN java -jar /tmp/widoco.jar \
       -ontFile /tmp/ontologie/ontologie-avec-meta.nt \
-      -outFolder ./ \
+      -outFolder ontologie \
       -rewriteAll \
       -lang en \
       -excludeIntroduction \
