@@ -39,3 +39,7 @@ l’explication sur le choix de dissocier l’ontologie RDA-FR (en OWL) de son p
     * cette page portera aussi la mention du numéro de la dernière version de publication de l’ontologie, le numéro de cette version étant V 0.1.0. 
     * les nouveautés d’une version à l’autre sont retracées dans la page distincte Historique des versions https://rdafr.fr/release-notes à laquelle on accède aussi depuis la section Historique des versions de la page https://rdafr.fr.
 
+* Sur l’historicisation des versions : 
+  * la page https://rdafr.fr porte la mention du numéro de la dernière version de publication de l’ontologie, le numéro de cette version étant V 0.1.0. 
+  * Elle comporte également une section Historique des versions, qui renvoie vers la présente page [https://rdafr.fr/release-notes](/release-notes)  où sont présentes les nouveautés de l’ontologie RDA-FR d’une version à l’autre.
+
