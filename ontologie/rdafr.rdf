@@ -135,6 +135,7 @@
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P100001r"/>
 	<sh:name xml:lang="fr">a une relation réifiée</sh:name>
+	<sh:description xml:lang="fr">Super propriété de toutes les propriétés qui expriment une relation entre deux instances des classes. La valeur de cette propriété est une instance de la classe identifiée par la même URI . Cette instance porte toutes les métadonnées de cette relation.</sh:description>
 	<sh:node rdf:resource="https://rdafr.fr/Elements#P100001r"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 </rdf:Description>
@@ -144,6 +145,7 @@
 	<rdfs:domain rdf:resource="https://rdafr.fr/Elements#C100013"/>
 	<rdfs:range rdf:resource="https://rdafr.fr/Elements#P100001r"/>
 	<rdfs:label xml:lang="fr">a une relation réifiée</rdfs:label>
+	<rdfs:comment xml:lang="fr">Super propriété de toutes les propriétés qui expriment une relation entre deux instances des classes. La valeur de cette propriété est une instance de la classe identifiée par la même URI . Cette instance porte toutes les métadonnées de cette relation.</rdfs:comment>
 	<sh:property rdf:resource="https://rdafr.fr/Rules#r205"/>
 	<sh:property rdf:resource="https://rdafr.fr/Rules#r206"/>
 	<sh:property rdf:resource="https://rdafr.fr/Rules#r207"/>
@@ -152,13 +154,13 @@
 	<sh:property rdf:resource="https://rdafr.fr/Rules#r210"/>
 	<sh:property rdf:resource="https://rdafr.fr/Rules#r211"/>
 	<sh:property rdf:resource="https://rdafr.fr/Rules#r212"/>
-	<sh:property rdf:resource="https://rdafr.fr/Rules#r213"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://rdafr.fr/Rules#R113">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P100008r"/>
 	<sh:name xml:lang="fr">a une propriété réifiée</sh:name>
+	<sh:description xml:lang="fr">Super propriété de toutes les propriétés qui expriment une assertion. La valeur de cette propriété est une instance de la classe identifiée par la même URI . Cette instance porte toutes les métadonnées de cette assertion.</sh:description>
 	<sh:node rdf:resource="https://rdafr.fr/Elements#P100008r"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 </rdf:Description>
@@ -168,6 +170,7 @@
 	<rdfs:domain rdf:resource="https://rdafr.fr/Elements#C100013"/>
 	<rdfs:range rdf:resource="https://rdafr.fr/Elements#P100008r"/>
 	<rdfs:label xml:lang="fr">a une propriété réifiée</rdfs:label>
+	<rdfs:comment xml:lang="fr">Super propriété de toutes les propriétés qui expriment une assertion. La valeur de cette propriété est une instance de la classe identifiée par la même URI . Cette instance porte toutes les métadonnées de cette assertion.</rdfs:comment>
 	<sh:property rdf:resource="https://rdafr.fr/Rules#R305"/>
 	<sh:property rdf:resource="https://rdafr.fr/Rules#R306"/>
 	<sh:property rdf:resource="https://rdafr.fr/Rules#R307"/>
@@ -286,15 +289,6 @@
 
 <rdf:Description rdf:about="https://rdafr.fr/Rules#r211">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
-	<sh:path rdf:resource="https://rdafr.fr/Elements#P100009u"/>
-	<sh:name xml:lang="fr">a pour valeur [uri]</sh:name>
-	<sh:node rdf:resource="https://rdafr.fr/Elements#C100013"/>
-	<sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#r212">
-	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P100011u"/>
 	<sh:name xml:lang="fr">a pour affiliation [uri]</sh:name>
 	<sh:node rdf:resource="https://rdafr.fr/Elements#C100011"/>
@@ -308,7 +302,7 @@
 	<rdfs:label xml:lang="fr">a pour affiliation [uri]</rdfs:label>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#r213">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#r212">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P100011t"/>
 	<sh:name xml:lang="fr">a pour affiliation [texte]</sh:name>
@@ -735,7 +729,7 @@
 	<rdfs:subClassOf rdf:resource="https://rdafr.fr/Elements#P100001r"/>
 	<rdfs:comment xml:lang="fr">Catégorie de relations entre agents, regroupant les relations de membre, d'affiliation ou de propriété.</rdfs:comment>
 	<rdfs:comment xml:lang="fr">Catégorie de relations entre entre une personne et un autre agent, regroupant les relations de membre, d'affiliation ou de propriété. Utiliser les relations précises de cette catégorie.</rdfs:comment>
-	<rdfs:comment xml:lang="fr">Catégorie de relations entre une collectivité et tout autre agent, regroupant les relations de membre, d'affiliation ou de propriété. Utiliser les relatins spécifiques de cette nature.</rdfs:comment>
+	<rdfs:comment xml:lang="fr">Catégorie de relations entre une collectivité et tout autre agent, regroupant les relations de membre, d'affiliation ou de propriété. Utiliser les relations spécifiques de cette nature.</rdfs:comment>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://rdafr.fr/Rules#R421">
@@ -2095,8 +2089,8 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<sh:property rdf:resource="https://rdafr.fr/Rules#P795"/>
 	<sh:property rdf:resource="https://rdafr.fr/Rules#P796"/>
 	<sh:property rdf:resource="https://rdafr.fr/Rules#P797"/>
-	<sh:property rdf:resource="https://rdafr.fr/Rules#P798"/>
-	<sh:property rdf:resource="https://rdafr.fr/Rules#P799"/>
+	<sh:property rdf:resource="https://rdafr.fr/Rules#R798"/>
+	<sh:property rdf:resource="https://rdafr.fr/Rules#R799"/>
 	<sh:property rdf:resource="https://rdafr.fr/Rules#R800"/>
 	<sh:property rdf:resource="https://rdafr.fr/Rules#R801"/>
 	<sh:property rdf:resource="https://rdafr.fr/Rules#R802"/>
@@ -2106,8 +2100,6 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<sh:property rdf:resource="https://rdafr.fr/Rules#R806"/>
 	<sh:property rdf:resource="https://rdafr.fr/Rules#R807"/>
 	<sh:property rdf:resource="https://rdafr.fr/Rules#R808"/>
-	<sh:property rdf:resource="https://rdafr.fr/Rules#R809"/>
-	<sh:property rdf:resource="https://rdafr.fr/Rules#R810"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://rdafr.fr/Elements#P502301">
@@ -2181,7 +2173,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 <rdf:Description rdf:about="https://rdafr.fr/Rules#P708">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P502327"/>
-	<sh:name xml:lang="fr">a pour point d'accès</sh:name>
+	<sh:name xml:lang="fr">a pour point d'accès de la collectivité</sh:name>
 	<rdfs:seeAlso>11.15</rdfs:seeAlso>
 	<sh:node rdf:resource="https://rdafr.fr/Elements#C100012"/>
 	<sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
@@ -2193,7 +2185,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
 	<rdfs:domain rdf:resource="https://rdafr.fr/Elements#C100005"/>
 	<rdfs:range rdf:resource="https://rdafr.fr/Elements#C100012"/>
-	<rdfs:label xml:lang="fr">a pour point d'accès</rdfs:label>
+	<rdfs:label xml:lang="fr">a pour point d'accès de la collectivité</rdfs:label>
 	<rdfs:subPropertyOf rdf:resource="https://rdafr.fr/Elements#P100007"/>
 	<rdfs:comment xml:lang="fr">Chaîne de caractères structurée, fondée sur un nom et servant à représenter une collectivité particulière. [code RDA-FR, 11.15]</rdfs:comment>
 </rdf:Description>
@@ -2201,7 +2193,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 <rdf:Description rdf:about="https://rdafr.fr/Rules#P709">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P502328"/>
-	<sh:name xml:lang="fr">a pour point d'accès autorisé</sh:name>
+	<sh:name xml:lang="fr">a pour point d'accès autorisé de la collectivité</sh:name>
 	<rdfs:seeAlso>11.15.1</rdfs:seeAlso>
 	<sh:node rdf:resource="https://rdafr.fr/Elements#C100012"/>
 	<sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
@@ -2214,7 +2206,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
 	<rdfs:domain rdf:resource="https://rdafr.fr/Elements#C100005"/>
 	<rdfs:range rdf:resource="https://rdafr.fr/Elements#C100012"/>
-	<rdfs:label xml:lang="fr">a pour point d'accès autorisé</rdfs:label>
+	<rdfs:label xml:lang="fr">a pour point d'accès autorisé de la collectivité</rdfs:label>
 	<rdfs:subPropertyOf rdf:resource="https://rdafr.fr/Elements#P502327"/>
 	<rdfs:comment xml:lang="fr">Point d’accès fondé sur le nom privilégié et construit selon les recommandations du code RDA-FR pour représenter de manière univoque une collectivité particulière. [code RDA-FR, 11.15.1]</rdfs:comment>
 </rdf:Description>
@@ -2222,7 +2214,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 <rdf:Description rdf:about="https://rdafr.fr/Rules#P710">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P502329"/>
-	<sh:name xml:lang="fr">a pour point d'accès autorisé supplémentaire</sh:name>
+	<sh:name xml:lang="fr">a pour point d'accès autorisé supplémentaire de la collectivité</sh:name>
 	<rdfs:seeAlso>11.15.3</rdfs:seeAlso>
 	<sh:node rdf:resource="https://rdafr.fr/Elements#C100012"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
@@ -2233,7 +2225,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
 	<rdfs:domain rdf:resource="https://rdafr.fr/Elements#C100005"/>
 	<rdfs:range rdf:resource="https://rdafr.fr/Elements#C100012"/>
-	<rdfs:label xml:lang="fr">a pour point d'accès autorisé supplémentaire</rdfs:label>
+	<rdfs:label xml:lang="fr">a pour point d'accès autorisé supplémentaire de la collectivité</rdfs:label>
 	<rdfs:subPropertyOf rdf:resource="https://rdafr.fr/Elements#P502328"/>
 	<rdfs:comment xml:lang="fr">Point d’accès fondé sur un nom privilégié supplémentaire. [code RDA-FR, 11.15.3]</rdfs:comment>
 </rdf:Description>
@@ -2241,7 +2233,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 <rdf:Description rdf:about="https://rdafr.fr/Rules#P711">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P502330"/>
-	<sh:name xml:lang="fr">a pour variante de point d'accès</sh:name>
+	<sh:name xml:lang="fr">a pour variante de point d'accès de la collectivité</sh:name>
 	<rdfs:seeAlso>11.15.4</rdfs:seeAlso>
 	<sh:node rdf:resource="https://rdafr.fr/Elements#C100012"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
@@ -2252,7 +2244,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
 	<rdfs:domain rdf:resource="https://rdafr.fr/Elements#C100005"/>
 	<rdfs:range rdf:resource="https://rdafr.fr/Elements#C100012"/>
-	<rdfs:label xml:lang="fr">a pour variante de point d'accès</rdfs:label>
+	<rdfs:label xml:lang="fr">a pour variante de point d'accès de la collectivité</rdfs:label>
 	<rdfs:subPropertyOf rdf:resource="https://rdafr.fr/Elements#P502327"/>
 	<rdfs:comment xml:lang="fr">Tout autre point d’accès que le point d’accès autorisé ou le point d'accès autorisé supplémentaire, [code RDA-FR, 11.15.4]</rdfs:comment>
 </rdf:Description>
@@ -2815,42 +2807,6 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 
 <rdf:Description rdf:about="https://rdafr.fr/Rules#P741">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
-	<sh:path rdf:resource="https://rdafr.fr/Elements#P502051r"/>
-	<sh:name xml:lang="fr">reçoit des formations de [dans la relation]</sh:name>
-	<sh:node rdf:resource="https://rdafr.fr/Elements#C100004"/>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-	<sh:description xml:lang="fr">Relation entre une collectivité et une personne formatrice</sh:description>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P502051r">
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-	<rdfs:domain rdf:resource="https://rdafr.fr/Elements#C100005"/>
-	<rdfs:range rdf:resource="https://rdafr.fr/Elements#P502051r"/>
-	<rdfs:label xml:lang="fr">reçoit des formations de [dans la relation]</rdfs:label>
-	<rdfs:subPropertyOf rdf:resource="https://rdafr.fr/Elements#P500049r"/>
-	<rdfs:subClassOf rdf:resource="https://rdafr.fr/Elements#P500049r"/>
-	<rdfs:comment xml:lang="fr">Relation entre une collectivité et une personne formatrice</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#P742">
-	<owl:versionInfo>0.1.0</owl:versionInfo>
-	<sh:path rdf:resource="https://rdafr.fr/Elements#P502051ri"/>
-	<sh:name xml:lang="fr">dispense des formations à [dans la relation]</sh:name>
-	<sh:node rdf:resource="https://rdafr.fr/Elements#C100004"/>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-	<sh:description xml:lang="fr">Relation entre un organisme de formation et une personne.</sh:description>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P502051ri">
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-	<rdfs:domain rdf:resource="https://rdafr.fr/Elements#C100005"/>
-	<rdfs:label xml:lang="fr">dispense des formations à [dans la relation]</rdfs:label>
-	<rdfs:subPropertyOf rdf:resource="https://rdafr.fr/Elements#P500049r"/>
-	<rdfs:comment xml:lang="fr">Relation entre un organisme de formation et une personne.</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#P743">
-	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P501072ri"/>
 	<sh:name xml:lang="fr">confère un diplôme à la personne [dans la relation]</sh:name>
 	<sh:node rdf:resource="https://rdafr.fr/Elements#C100004"/>
@@ -2868,7 +2824,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdfs:comment xml:lang="fr">Relation entre un établissement d'enseignement et la personne à laquelle il confère un diplôme.</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#P744">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P742">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P501030ri"/>
 	<sh:name xml:lang="fr">compte parmi ses élèves [dans la relation]</sh:name>
@@ -2887,7 +2843,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdfs:comment xml:lang="fr">Relation entre un établissement d'enseignement et la personne élève de cet établissement. S'applique à tous les domaines, y compris les domaines artistiques.</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#P745">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P743">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P502048r"/>
 	<sh:name xml:lang="fr">collectivité fonde la collectivité [dans la relation]</sh:name>
@@ -2907,7 +2863,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdfs:comment xml:lang="fr">Relation entre une collectivité fondatrice et la collectivité qu'elle a fondée.</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#P746">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P744">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P502048ri"/>
 	<sh:name xml:lang="fr">collectivité est fondée par la collectivité [dans la relation]</sh:name>
@@ -2926,7 +2882,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdfs:comment xml:lang="fr">Relation entre une collectivité et la collectivité qui l'a fondée.</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#P747">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P745">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P505010ri"/>
 	<sh:name xml:lang="fr">collectivité est fondée par la famille [dans la relation]</sh:name>
@@ -2945,7 +2901,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdfs:comment xml:lang="fr">Relation entre une collectivité et la famille qui l'a fondée.</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#P748">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P746">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P501076ri"/>
 	<sh:name xml:lang="fr">collectivité est fondée par la personne [dans la relation]</sh:name>
@@ -2964,7 +2920,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdfs:comment xml:lang="fr">Relation entre une collectivité et la personne qui l'a fondée.</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#P749">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P747">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P502336r"/>
 	<sh:name xml:lang="fr">a des relations hiérarchiques avec [dans la relation]</sh:name>
@@ -2973,7 +2929,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<sh:description xml:lang="fr">Catégorie de relations entre agents regroupant des relations de subordination ou d'autorité (contrôle, tutelle).</sh:description>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#P750">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P748">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P501080ri"/>
 	<sh:name xml:lang="fr">collectivité est dirigée par la personne [dans la relation]</sh:name>
@@ -2992,7 +2948,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdfs:comment xml:lang="fr">Relation entre une collectivité et la personne qui la dirige où au sein de laquelle elle exerce une fonction de responsabilité.</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#P751">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P749">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P505012ri"/>
 	<sh:name xml:lang="fr">collectivité est dirigée par la famille [dans la relation]</sh:name>
@@ -3011,7 +2967,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdfs:comment xml:lang="fr">Relation entre une collectivité et la famille qui la dirige.</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#P752">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P750">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P502337r"/>
 	<sh:name xml:lang="fr">a pour subordonnée [dans la relation]</sh:name>
@@ -3031,7 +2987,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdfs:comment xml:lang="fr">Relation entre une collectivité et la collectivité qui lui est subordonnée.</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#P753">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P751">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P502337ri"/>
 	<sh:name xml:lang="fr">est subordonné à [dans la relation]</sh:name>
@@ -3050,7 +3006,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdfs:comment xml:lang="fr">Relation entre une collectivité subordonnée et sa collectivité supérieure.</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#P754">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P752">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P502339r"/>
 	<sh:name xml:lang="fr">a l'autorité sur [dans la relation]</sh:name>
@@ -3070,7 +3026,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdfs:comment xml:lang="fr">Relation entre une collectivité et la collectivité qui est sous son autorité. Appartenant à la categorie des relations hiérarchiques, cette sous-catégorie regroupe les relations de contrôle et de tutelle. Peut être employé comme une relation à part entière lorsqu'on n'a pas d'information précise sur la nature de l'autorité exercée.</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#P755">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P753">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P502339ri"/>
 	<sh:name xml:lang="fr">est sous l'autorité de [dans la relation]</sh:name>
@@ -3089,7 +3045,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdfs:comment xml:lang="fr">Relation entre une collectivité et la collectivité exerçant son autorité sur elle. Appartenant à la categorie des relations hiérarchiques, cette sous-catégorie regroupe les relations de contrôle et de tutelle. Peut être employé comme une relation à part entière lorsqu'on n'a pas d'information précise sur la nature de l'autorité exercée.</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#P756">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P754">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P502341r"/>
 	<sh:name xml:lang="fr">contrôle [dans la relation]</sh:name>
@@ -3109,7 +3065,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdfs:comment xml:lang="fr">Relation entre une collectivité et la collectivité qu'elle contrôle.</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#P757">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P755">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P502341ri"/>
 	<sh:name xml:lang="fr">est contrôlé par [dans la relation]</sh:name>
@@ -3128,7 +3084,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdfs:comment xml:lang="fr">Relation entre une collectivité et la collectivité qui la contrôle.</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#P758">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P756">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P502343r"/>
 	<sh:name xml:lang="fr">est la tutelle de [dans la relation]</sh:name>
@@ -3148,7 +3104,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdfs:comment xml:lang="fr">Relation entre une collectivité et la collectivité qui est sous sa tutelle.</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#P759">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P757">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P502343ri"/>
 	<sh:name xml:lang="fr">est sous la tutelle de [dans la relation]</sh:name>
@@ -3167,16 +3123,16 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdfs:comment xml:lang="fr">Relation entre une collectivité et sa collectivité de tutelle.</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#P760">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P758">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P500050r"/>
 	<sh:name xml:lang="fr">a des relations d'appartenance ou d'adhésion avec [dans la relation]</sh:name>
 	<sh:node rdf:resource="https://rdafr.fr/Elements#C100002"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-	<sh:description xml:lang="fr">Catégorie de relations entre une collectivité et tout autre agent, regroupant les relations de membre, d'affiliation ou de propriété. Utiliser les relatins spécifiques de cette nature.</sh:description>
+	<sh:description xml:lang="fr">Catégorie de relations entre une collectivité et tout autre agent, regroupant les relations de membre, d'affiliation ou de propriété. Utiliser les relations spécifiques de cette nature.</sh:description>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#P761">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P759">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P502346r"/>
 	<sh:name xml:lang="fr">collectivité est membre de la collectivité [dans la relation]</sh:name>
@@ -3196,7 +3152,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdfs:comment xml:lang="fr">Relation entre une collectivité et la collectivité dont elle est membre. La relation de membre n’implique pas de subordination hiérarchique entre ces deux collectivités au sens strict du terme. Au sein d'un regroupement de collectivités, la collectivité membre conserve son intégrité et personnalité juridique, même si elle peut déléguer certaines de ses compétences au regroupement.</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#P762">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P760">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P502346ri"/>
 	<sh:name xml:lang="fr">collectivité a pour membre la collectivité [dans la relation]</sh:name>
@@ -3215,7 +3171,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdfs:comment xml:lang="fr">Relation entre une collectivité et la collectivité qui en est membre. La relation de membre n’implique pas de subordination hiérarchique entre ces deux collectivités au sens strict du terme. Au sein d'un regroupement de collectivités, la collectivité membre conserve son intégrité et personnalité juridique, même si elle peut déléguer certaines de ses compétences au regroupement.</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#P763">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P761">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P501068ri"/>
 	<sh:name xml:lang="fr">collectivité a pour membre la personne [dans la relation]</sh:name>
@@ -3234,10 +3190,10 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdfs:comment xml:lang="fr">Relation entre une collectivité et la personne qui en est membre.</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#P764">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P762">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P502348r"/>
-	<sh:name xml:lang="fr">collectivité est affilié à la collectivité[dans la relation]</sh:name>
+	<sh:name xml:lang="fr">collectivité est affilié à la collectivité [dans la relation]</sh:name>
 	<sh:node rdf:resource="https://rdafr.fr/Elements#C100005"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:description xml:lang="fr">Relation entre une collectivité et la collectivité à laquelle elle est affiliée. Il s'agit d'une relation d'adhésion ou d'association plus ou moins formelle permettant à la collectivité affiliée de participer aux activités ou bénéficier des avantages de la collectivité à laquelle elle est affiliée.</sh:description>
@@ -3248,13 +3204,13 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<owl:inverseOf rdf:resource="https://rdafr.fr/Elements#P502348ri"/>
 	<rdfs:domain rdf:resource="https://rdafr.fr/Elements#C100005"/>
 	<rdfs:range rdf:resource="https://rdafr.fr/Elements#P502348r"/>
-	<rdfs:label xml:lang="fr">collectivité est affilié à la collectivité[dans la relation]</rdfs:label>
+	<rdfs:label xml:lang="fr">collectivité est affilié à la collectivité [dans la relation]</rdfs:label>
 	<rdfs:subPropertyOf rdf:resource="https://rdafr.fr/Elements#P500050r"/>
 	<rdfs:subClassOf rdf:resource="https://rdafr.fr/Elements#P500050r"/>
 	<rdfs:comment xml:lang="fr">Relation entre une collectivité et la collectivité à laquelle elle est affiliée. Il s'agit d'une relation d'adhésion ou d'association plus ou moins formelle permettant à la collectivité affiliée de participer aux activités ou bénéficier des avantages de la collectivité à laquelle elle est affiliée.</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#P765">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P763">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P502348ri"/>
 	<sh:name xml:lang="fr">collectivité a pour affilié la collectivité[dans la relation]</sh:name>
@@ -3273,7 +3229,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdfs:comment xml:lang="fr">Relation entre une collectivité et la collectivité qui lui est affiliée. Il s'agit d'une relation d'adhésion ou d'association plus ou moins formelle permettant à la collectivité affiliée de participer aux activités ou bénéficier des avantages de la collectivité à laquelle elle est affiliée.</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#P766">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P764">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P501024ri"/>
 	<sh:name xml:lang="fr">collectivité a pour affilié la personne [dans la relation]</sh:name>
@@ -3292,7 +3248,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdfs:comment xml:lang="fr">Relation entre une collectivité et la personne qui lui est affiliée. Il s'agit d'un cas particulier de la relation "a pour membre", principalement en usage dans le contexte de l'enseignement supérieur et de la recherche.</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#P767">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P765">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P502349r"/>
 	<sh:name xml:lang="fr">collectivité est propriétaire de la collectivité [dans la relation]</sh:name>
@@ -3312,7 +3268,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdfs:comment xml:lang="fr">Relation entre une collectivité et la collectivité qu'elle possède.</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#P768">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P766">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P502349ri"/>
 	<sh:name xml:lang="fr">collectivité est la propriété de la collectivité [dans la relation]</sh:name>
@@ -3331,7 +3287,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdfs:comment xml:lang="fr">Relation entre une collectivité et la collectivité qui la possède.</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#P769">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P767">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P501078ri"/>
 	<sh:name xml:lang="fr">collectivité est la propriété de la personne [dans la relation]</sh:name>
@@ -3350,7 +3306,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdfs:comment xml:lang="fr">Relation entre une collectivité et la personne qui en est propriétaire.</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#P770">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P768">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P505011ri"/>
 	<sh:name xml:lang="fr">collectivité est la propriété de la famille [dans la relation]</sh:name>
@@ -3369,7 +3325,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdfs:comment xml:lang="fr">Relation entre une collectivité et la famille qui en est propriétaire.</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#P771">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P769">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P502350ri"/>
 	<sh:name xml:lang="fr">a pour filiale [dans la relation]</sh:name>
@@ -3388,7 +3344,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdfs:comment xml:lang="fr">Relation entre une collectivité mère et sa collectivité fille (dans le cas où la maison mère détient plus de 50% du capital).</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#P772">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P770">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P502350r"/>
 	<sh:name xml:lang="fr">est une filiale de [dans la relation]</sh:name>
@@ -3408,7 +3364,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdfs:comment xml:lang="fr">Relation entre une collectivité fille et sa collectivité mère (dans le cas où la maison mère détient plus de 50% du capital).</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#P773">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P771">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P500046r"/>
 	<sh:name xml:lang="fr">collabore avec [dans la relation]</sh:name>
@@ -3417,7 +3373,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<sh:description xml:lang="fr">Relation générique de collaboration entre une collectivité et un autre agent (personne, collectivité ou famille) en vue de réaliser un projet commun dans la sphère professionnelle ou commerciale. Comprend les différents types de collaboration comme le partenariat, la relation contractuelle, la relation de financement, etc. Peut être utilisée comme une relation à part entière lorsqu'on n'a pas d'information sur le type précis de collaboration.</sh:description>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#P774">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P772">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P500053r"/>
 	<sh:name xml:lang="fr">finance [dans la relation]</sh:name>
@@ -3426,7 +3382,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<sh:description xml:lang="fr">Relation de financement d'un agent envers un autre agent. Il s'agit d'une relation générique comprenant les différents types de financement comme la subvention, le parrainage ou le mécénat. Peut être utilisée comme relation distincte lorsqu'on ne connaît pas la nature précise du financement.</sh:description>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#P775">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P773">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P500053ri"/>
 	<sh:name xml:lang="fr">est financé par [dans la relation]</sh:name>
@@ -3435,7 +3391,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<sh:description xml:lang="fr">Relation de financement entre un agent et l'agent qui la finance. Il s'agit d'une relation générique comprenant les différents types de financement comme la subvention, le parrainage ou le mécénat. Peut être utilisée comme relation distincte lorsqu'on ne connaît pas la nature précise du financement.</sh:description>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#P776">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P774">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P502377r"/>
 	<sh:name xml:lang="fr">collectivité finance la personne [dans la relation]</sh:name>
@@ -3455,7 +3411,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdfs:comment xml:lang="fr">Relation de financement d'une collectivité envers une personne. Il s'agit d'une relation générique comprenant les différents types de financement comme la subvention, le parrainage ou le mécénat. Peut être utilisée comme relation distincte lorsqu'on ne connaît pas la nature précise du financement.</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#P777">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P775">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P501032ri"/>
 	<sh:name xml:lang="fr">collectivité est financée par la personne [dans la relation]</sh:name>
@@ -3474,7 +3430,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdfs:comment xml:lang="fr">Relation de financement entre une collectivité et la personne qui la finance. Il s'agit d'une relation générique comprenant les différents types de financement comme la subvention, le parrainage ou le mécénat. Peut être utilisée comme relation distincte lorsqu'on ne connaît pas la nature précise du financement.</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#P778">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P776">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P502354r"/>
 	<sh:name xml:lang="fr">collectivité finance la collectivité [dans la relation]</sh:name>
@@ -3494,7 +3450,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdfs:comment xml:lang="fr">Relation de financement d'une collectivité envers une autre collectivité. Il s'agit d'une relation générique comprenant les différents types de financement comme la subvention, le parrainage ou le mécénat. Peut être utilisée comme relation distincte lorsqu'on ne connaît pas la nature précise du financement.</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#P779">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P777">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P502354ri"/>
 	<sh:name xml:lang="fr">collectivité est financée par la collectivité [dans la relation]</sh:name>
@@ -3513,7 +3469,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdfs:comment xml:lang="fr">Relation de financement entre une collectivité et la collectivité qui la finance. Il s'agit d'une relation générique comprenant les différents types de financement comme la subvention, le parrainage ou le mécénat. Peut être utilisée comme relation distincte lorsqu'on ne connaît pas la nature précise du financement.</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#P780">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P778">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P505005r"/>
 	<sh:name xml:lang="fr">collectivité finance la famille [dans la relation]</sh:name>
@@ -3533,7 +3489,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdfs:comment xml:lang="fr">Relation de financement d'une collectivité envers une famille. Il s'agit d'une relation générique comprenant les différents types de financement comme la subvention, le parrainage ou le mécénat. Peut être utilisée comme relation distincte lorsqu'on ne connaît pas la nature précise du financement.</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#P781">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P779">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P505014ri"/>
 	<sh:name xml:lang="fr">collectivité est financée par la famille [dans la relation]</sh:name>
@@ -3552,7 +3508,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdfs:comment xml:lang="fr">Relation de financement entre une collectivité et la famille qui la finance. Il s'agit d'une relation générique comprenant les différents types de financement comme la subvention, le parrainage ou le mécénat. Peut être utilisée comme relation distincte lorsqu'on ne connaît pas la nature précise du financement.</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#P782">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P780">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P502355r"/>
 	<sh:name xml:lang="fr">collectivité subventionne la collectivité [dans la relation]</sh:name>
@@ -3572,7 +3528,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdfs:comment xml:lang="fr">Relation entre une collectivité et la collectivité qu'elle subventionne. Il s'agit de soutien financier du secteur public aux acteurs du secteur public ou privé.</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#P783">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P781">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P502355ri"/>
 	<sh:name xml:lang="fr">collectivité est subventionné par la collectivité [dans la relation]</sh:name>
@@ -3591,7 +3547,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdfs:comment xml:lang="fr">Relation entre une collectivité et la collectivité qui la subventionne. Il s’agit de soutien du secteur public aux acteurs du secteur public ou privé.</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#P784">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P782">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P502379r"/>
 	<sh:name xml:lang="fr">collectivité subventionne la personne[dans la relation]</sh:name>
@@ -3611,7 +3567,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdfs:comment xml:lang="fr">Relation entre une collectivité et la personne qu'elle subventionne. Il s'agit de soutien financier du secteur public.</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#P785">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P783">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P502366r"/>
 	<sh:name xml:lang="fr">agrée [dans la relation]</sh:name>
@@ -3631,7 +3587,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdfs:comment xml:lang="fr">Relation entre l'Etat ou l'un de ses établissements publics accordant un agrément et la collectivité ou recevant cet agrément.</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#P786">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P784">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P502366ri"/>
 	<sh:name xml:lang="fr">est agréé par [dans la relation]</sh:name>
@@ -3650,7 +3606,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdfs:comment xml:lang="fr">Relation entre une collectivité recevant un agrément et l'Etat ou l'un de ses établissements publics qui lui accordecet agrément.</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#P787">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P785">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P502357r"/>
 	<sh:name xml:lang="fr">est parraineur de [dans la relation]</sh:name>
@@ -3670,7 +3626,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdfs:comment xml:lang="fr">Relation entre une collectivité bénéficiaire d'un soutien matériel et la collectivité qui lui apporte ce soutien en vue d'en retirer un bénéfice direct de ce soutien.</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#P788">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P786">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P502357ri"/>
 	<sh:name xml:lang="fr">a pour parraineur [dans la relation]</sh:name>
@@ -3689,7 +3645,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdfs:comment xml:lang="fr">Relation entre une collactivité qui apporte un soutien matériel pour l'exercice d'activités présentant un intérêt général à une autre collectivité en vue d'en retirer un bénéfice direct et la collectivité bénéficiaire de ce soutien.</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#P789">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P787">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P502359r"/>
 	<sh:name xml:lang="fr">est mécène de [dans la relation]</sh:name>
@@ -3709,7 +3665,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdfs:comment xml:lang="fr">Relation entre une collectivité bénéficiaire d'un soutien matériel pour l'exercice d'activités présentant un intérêt général et la collectivité qui lui apporte ce soutien. L'apport du soutien est sans contrepartie directe de la part du bénéficiaire.</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#P790">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P788">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P502359ri"/>
 	<sh:name xml:lang="fr">a pour mécène [dans la relation]</sh:name>
@@ -3728,7 +3684,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdfs:comment xml:lang="fr">Relation entre une collectivité qui apport un soutien matériel à une autre collectivité pour l'exercice d'activités présentant un intérêt général et la collectivité bénéficiaire de ce soutien. L'apport du soutien est sans contrepartie directe de la part du bénéficiaire.</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#P791">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P789">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P502361r"/>
 	<sh:name xml:lang="fr">a des relations contractuelles avec [dans la relation]</sh:name>
@@ -3747,7 +3703,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdfs:comment xml:lang="fr">Catégorie de relations entre une collectivité et une collectivité ou personne comprenant les relations d'emploi, de prestation, de franchise ou d'associé de. Peut être utilisée comme une relation distincte lorsqu'on ne connaît pas la nature précise du type de contrat qui relie les parties.</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#P792">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P790">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P502362r"/>
 	<sh:name xml:lang="fr">est franchiseur de [dans la relation]</sh:name>
@@ -3767,7 +3723,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdfs:comment xml:lang="fr">Relation contractuelle entre un organisme franchisé et l'organisme franchiseur. Relation sans implication de hiérarchie.</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#P793">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P791">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P502362ri"/>
 	<sh:name xml:lang="fr">est franchisé de [dans la relation]</sh:name>
@@ -3786,7 +3742,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdfs:comment xml:lang="fr">Relation contractuelle entre un organisme franchiseur et l'organismé franchisé. Relation sans implication de hiérarchie.</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#P794">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P792">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P501074ri"/>
 	<sh:name xml:lang="fr">emploie [dans la relation]</sh:name>
@@ -3805,7 +3761,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdfs:comment xml:lang="fr">Relation contractuelle entre un organisme employeur et la personne employée (par exemple, lorsque la personne est employée avec le statut de salarié, d’agent de la fonction publique, etc.). Cette relation implique aussi un rapport de hiérarchie entre l'organisme employeur et la personne employée. A ne pas confondre avec la relation “Est prestataire de service / Est client de” qui est une relation contractuelle sans hiérarchie entre les parties.</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#P795">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P793">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P502363r"/>
 	<sh:name xml:lang="fr">est prestataire de [dans la relation]</sh:name>
@@ -3825,7 +3781,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdfs:comment xml:lang="fr">Relation entre un prestataire de service et un organisme. Par un contrat de service, le prestataire s’engage à fournir un service contre rémunération. Relation sans implication de hiérarchie.</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#P796">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P794">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P502363ri"/>
 	<sh:name xml:lang="fr">est client de [dans la relation]</sh:name>
@@ -3844,7 +3800,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdfs:comment xml:lang="fr">Relation entre un organisme et un prestataire de service. Par un contrat de service, le prestataire s’engage à fournir un service contre rémunération. Relation sans implication de hiérarchie.</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#P797">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P795">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P502364r"/>
 	<sh:name xml:lang="fr">collectivité est l'associée de la collectivité [dans la relation]</sh:name>
@@ -3864,7 +3820,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdfs:comment xml:lang="fr">Relation contractuelle entre une collectivité et une entreprise, où la collectivité, en vertu de son statut d'associée, partage les bénéfices de l'entreprise avec d'autres associés.</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#P798">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P796">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P502364ri"/>
 	<sh:name xml:lang="fr">collectivité a pour associée la collectivité[dans la relation]</sh:name>
@@ -3883,7 +3839,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdfs:comment xml:lang="fr">Relation contractuelle entre une entreprise et une collectivité, où la collectivité s'associé à l'entreprise en vue d'en partager les bénéfices avec d'autres associés.</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#P799">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P797">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P501075ri"/>
 	<sh:name xml:lang="fr">collectivité a pour associé la personne [dans la relation]</sh:name>
@@ -3902,7 +3858,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdfs:comment xml:lang="fr">Relation contractuelle entre une entreprise et une personne, où la personne s'associé à l'entreprise en vue d'en partager les bénéfices avec d'autres associés.</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R800">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#R798">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P502370r"/>
 	<sh:name xml:lang="fr">a une relation chronologique, séquentielle ou de transformation avec [dans la relation]</sh:name>
@@ -3920,7 +3876,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdfs:comment xml:lang="fr">Catégorie de relations entre deux collectivités, comprenant les relations de succession (voir avant / voir après), d'absorption, de scission ou de fusion.</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R801">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#R799">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P502371r"/>
 	<sh:name xml:lang="fr">précède [dans la relation]</sh:name>
@@ -3940,7 +3896,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdfs:comment xml:lang="fr">Relation entre une collectivité et la collectivité qui la succède.</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R802">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#R800">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P502371ri"/>
 	<sh:name xml:lang="fr">succède [dans la relation]</sh:name>
@@ -3959,7 +3915,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdfs:comment xml:lang="fr">Relation entre une collectivité et la collectivité qui la précède.</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R803">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#R801">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P502373r"/>
 	<sh:name xml:lang="fr">fusionne avec [dans la relation]</sh:name>
@@ -3978,7 +3934,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdfs:comment xml:lang="fr">Relation entre une collectivité et la collectivité avec laquelle elle fusionne pour former une troisième collectivité.</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R804">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#R802">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P502374r"/>
 	<sh:name xml:lang="fr">est la fusion de [dans la relation]</sh:name>
@@ -3998,7 +3954,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdfs:comment xml:lang="fr">Relation entre une collectivité issue de la fusion de plusieurs collectivités et une des collectivités composantes de la fusion.</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R805">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#R803">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P502374ri"/>
 	<sh:name xml:lang="fr">est composante de la fusion de [dans la relation]</sh:name>
@@ -4017,7 +3973,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdfs:comment xml:lang="fr">Relation entre une collectivité, composante d'une fusion de collectivités, et la collectivité issue de cette fusion.</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R806">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#R804">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P502375r"/>
 	<sh:name xml:lang="fr">absorbe [dans la relation]</sh:name>
@@ -4037,7 +3993,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdfs:comment xml:lang="fr">Relation entre une collectivité et la collectivité qu'elle a absorbée.</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R807">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#R805">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P502375ri"/>
 	<sh:name xml:lang="fr">est absorbé par [dans la relation]</sh:name>
@@ -4056,7 +4012,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdfs:comment xml:lang="fr">Relation entre une collectivité et la collectivité qui l'a absorbée.</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R808">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#R806">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P502378r"/>
 	<sh:name xml:lang="fr">est scindé en [dans la relation]</sh:name>
@@ -4076,7 +4032,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdfs:comment xml:lang="fr">Relation entre une collectivité qui a été scindée et une des collectivités qui ont résultées de cette scission.</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R809">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#R807">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P502378ri"/>
 	<sh:name xml:lang="fr">est résultat de la scision de [dans la relation]</sh:name>
@@ -4095,7 +4051,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdfs:comment xml:lang="fr">Relation entre une des collectivités résultant de la scission d'une collectivité et la collectivité qui a été scindée.</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R810">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#R808">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P100010r"/>
 	<sh:name xml:lang="fr">est à distinguer de [dans la relation]</sh:name>
@@ -4221,7 +4177,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 <rdf:Description rdf:about="https://rdafr.fr/Rules#R908">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P505022"/>
-	<sh:name xml:lang="fr">a pour point d'accès</sh:name>
+	<sh:name xml:lang="fr">a pour point d'accès de la famille</sh:name>
 	<rdfs:seeAlso>10.13</rdfs:seeAlso>
 	<sh:node rdf:resource="https://rdafr.fr/Elements#C100012"/>
 	<sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
@@ -4233,7 +4189,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
 	<rdfs:domain rdf:resource="https://rdafr.fr/Elements#C100008"/>
 	<rdfs:range rdf:resource="https://rdafr.fr/Elements#C100012"/>
-	<rdfs:label xml:lang="fr">a pour point d'accès</rdfs:label>
+	<rdfs:label xml:lang="fr">a pour point d'accès de la famille</rdfs:label>
 	<rdfs:subPropertyOf rdf:resource="https://rdafr.fr/Elements#P100007"/>
 	<rdfs:comment xml:lang="fr">Chaîne de caractères structurée, fondée sur un nom et servant à représenter une famille particulière. [code RDA-FR, 10.13]</rdfs:comment>
 </rdf:Description>
@@ -4241,7 +4197,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 <rdf:Description rdf:about="https://rdafr.fr/Rules#R909">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P505023"/>
-	<sh:name xml:lang="fr">a pour point d'accès autorisé</sh:name>
+	<sh:name xml:lang="fr">a pour point d'accès autorisé de la famille</sh:name>
 	<rdfs:seeAlso>10.13.1</rdfs:seeAlso>
 	<sh:node rdf:resource="https://rdafr.fr/Elements#C100012"/>
 	<sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
@@ -4254,7 +4210,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
 	<rdfs:domain rdf:resource="https://rdafr.fr/Elements#C100008"/>
 	<rdfs:range rdf:resource="https://rdafr.fr/Elements#C100012"/>
-	<rdfs:label xml:lang="fr">a pour point d'accès autorisé</rdfs:label>
+	<rdfs:label xml:lang="fr">a pour point d'accès autorisé de la famille</rdfs:label>
 	<rdfs:subPropertyOf rdf:resource="https://rdafr.fr/Elements#P505022"/>
 	<rdfs:comment xml:lang="fr">Point d’accès fondé sur le nom privilégié et construit selon les recommandations du code RDA-FR pour représenter de manière univoque une famille particulière. [code RDA-FR, 10.13.1]</rdfs:comment>
 </rdf:Description>
@@ -4262,7 +4218,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 <rdf:Description rdf:about="https://rdafr.fr/Rules#R910">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P505024"/>
-	<sh:name xml:lang="fr">a pour point d'accès autorisé supplémentaire</sh:name>
+	<sh:name xml:lang="fr">a pour point d'accès autorisé supplémentaire de la famille</sh:name>
 	<rdfs:seeAlso>10.13.1.7</rdfs:seeAlso>
 	<sh:node rdf:resource="https://rdafr.fr/Elements#C100012"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
@@ -4273,7 +4229,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
 	<rdfs:domain rdf:resource="https://rdafr.fr/Elements#C100008"/>
 	<rdfs:range rdf:resource="https://rdafr.fr/Elements#C100012"/>
-	<rdfs:label xml:lang="fr">a pour point d'accès autorisé supplémentaire</rdfs:label>
+	<rdfs:label xml:lang="fr">a pour point d'accès autorisé supplémentaire de la famille</rdfs:label>
 	<rdfs:subPropertyOf rdf:resource="https://rdafr.fr/Elements#P505023"/>
 	<rdfs:comment xml:lang="fr">Point d’accès fondé sur un nom privilégié supplémentaire. [code RDA-FR, 10.13.1.7]</rdfs:comment>
 </rdf:Description>
@@ -4281,7 +4237,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 <rdf:Description rdf:about="https://rdafr.fr/Rules#R911">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P505025"/>
-	<sh:name xml:lang="fr">a pour variante de point d'accès</sh:name>
+	<sh:name xml:lang="fr">a pour variante de point d'accès de la famille</sh:name>
 	<rdfs:seeAlso>10.13.2</rdfs:seeAlso>
 	<sh:node rdf:resource="https://rdafr.fr/Elements#C100012"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
@@ -4292,7 +4248,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
 	<rdfs:domain rdf:resource="https://rdafr.fr/Elements#C100008"/>
 	<rdfs:range rdf:resource="https://rdafr.fr/Elements#C100012"/>
-	<rdfs:label xml:lang="fr">a pour variante de point d'accès</rdfs:label>
+	<rdfs:label xml:lang="fr">a pour variante de point d'accès de la famille</rdfs:label>
 	<rdfs:subPropertyOf rdf:resource="https://rdafr.fr/Elements#P505022"/>
 	<rdfs:comment xml:lang="fr">Tout autre point d’accès que le point d’accès autorisé ou le point d'accès autorisé supplémentaire. [code RDA-FR, 10.13.2]</rdfs:comment>
 </rdf:Description>
@@ -4527,24 +4483,32 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 
 <rdf:Description rdf:about="https://rdafr.fr/Elements#P505006r">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-	<owl:inverseOf rdf:resource="https://rdafr.fr/Elements#P505006r"/>
+	<owl:inverseOf rdf:resource="https://rdafr.fr/Elements#P505006ri"/>
 	<rdfs:domain rdf:resource="https://rdafr.fr/Elements#C100008"/>
 	<rdfs:range rdf:resource="https://rdafr.fr/Elements#P505006r"/>
 	<rdfs:label xml:lang="fr">descend de [dans la relation]</rdfs:label>
-	<rdfs:label xml:lang="fr">a pour descendant [dans la relation]</rdfs:label>
 	<rdfs:subPropertyOf rdf:resource="https://rdafr.fr/Elements#P501047r"/>
 	<rdfs:subClassOf rdf:resource="https://rdafr.fr/Elements#P501047r"/>
 	<rdfs:comment xml:lang="fr">Relation entre une famille et la famille dont elle descend.</rdfs:comment>
-	<rdfs:comment xml:lang="fr">Relation entre une famille et la famille qu'elle a pour descendante.</rdfs:comment>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://rdafr.fr/Rules#R925">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
-	<sh:path rdf:resource="https://rdafr.fr/Elements#P505006r"/>
+	<sh:path rdf:resource="https://rdafr.fr/Elements#P505006ri"/>
 	<sh:name xml:lang="fr">a pour descendant [dans la relation]</sh:name>
 	<sh:node rdf:resource="https://rdafr.fr/Elements#C100008"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:description xml:lang="fr">Relation entre une famille et la famille qu'elle a pour descendante.</sh:description>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://rdafr.fr/Elements#P505006ri">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<owl:inverseOf rdf:resource="https://rdafr.fr/Elements#P505006r"/>
+	<rdfs:domain rdf:resource="https://rdafr.fr/Elements#C100008"/>
+	<rdfs:range rdf:resource="https://rdafr.fr/Elements#P505006r"/>
+	<rdfs:label xml:lang="fr">a pour descendant [dans la relation]</rdfs:label>
+	<rdfs:subPropertyOf rdf:resource="https://rdafr.fr/Elements#P501047r"/>
+	<rdfs:comment xml:lang="fr">Relation entre une famille et la famille qu'elle a pour descendante.</rdfs:comment>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://rdafr.fr/Rules#R926">
@@ -5013,12 +4977,20 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<sh:property rdf:resource="https://rdafr.fr/Rules#P1217"/>
 	<sh:property rdf:resource="https://rdafr.fr/Rules#P1218"/>
 	<sh:property rdf:resource="https://rdafr.fr/Rules#P1219"/>
-	<sh:property rdf:resource="https://rdafr.fr/Rules#R1220"/>
-	<sh:property rdf:resource="https://rdafr.fr/Rules#R1221"/>
-	<sh:property rdf:resource="https://rdafr.fr/Rules#R1222"/>
-	<sh:property rdf:resource="https://rdafr.fr/Rules#R1223"/>
-	<sh:property rdf:resource="https://rdafr.fr/Rules#R1224"/>
-	<sh:property rdf:resource="https://rdafr.fr/Rules#R1225"/>
+	<sh:property rdf:resource="https://rdafr.fr/Rules#P1220"/>
+	<sh:property rdf:resource="https://rdafr.fr/Rules#P1221"/>
+	<sh:property rdf:resource="https://rdafr.fr/Rules#P1222"/>
+	<sh:property rdf:resource="https://rdafr.fr/Rules#P1223"/>
+	<sh:property rdf:resource="https://rdafr.fr/Rules#P1224"/>
+	<sh:property rdf:resource="https://rdafr.fr/Rules#P1225"/>
+	<sh:property rdf:resource="https://rdafr.fr/Rules#P1226"/>
+	<sh:property rdf:resource="https://rdafr.fr/Rules#P1227"/>
+	<sh:property rdf:resource="https://rdafr.fr/Rules#P1228"/>
+	<sh:property rdf:resource="https://rdafr.fr/Rules#P1229"/>
+	<sh:property rdf:resource="https://rdafr.fr/Rules#P1230"/>
+	<sh:property rdf:resource="https://rdafr.fr/Rules#P1231"/>
+	<sh:property rdf:resource="https://rdafr.fr/Rules#P1232"/>
+	<sh:property rdf:resource="https://rdafr.fr/Rules#P1233"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://rdafr.fr/Rules#P1205">
@@ -5123,7 +5095,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 <rdf:Description rdf:about="https://rdafr.fr/Rules#P1212">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P600002"/>
-	<sh:name xml:lang="fr">a pour catégorie d'identité publique de Personne</sh:name>
+	<sh:name xml:lang="fr">a pour catégorie d'identité publique</sh:name>
 	<rdfs:seeAlso>9.1.1</rdfs:seeAlso>
 	<sh:node rdf:resource="https://rdafr.fr/Elements#CategorieIdentitePublique"/>
 	<sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
@@ -5136,75 +5108,110 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
 	<rdfs:domain rdf:resource="https://rdafr.fr/Elements#C100015"/>
 	<rdfs:range rdf:resource="https://rdafr.fr/Elements#CategorieIdentitePublique"/>
-	<rdfs:label xml:lang="fr">a pour catégorie d'identité publique de Personne</rdfs:label>
+	<rdfs:label xml:lang="fr">a pour catégorie d'identité publique</rdfs:label>
 	<rdfs:comment xml:lang="fr">Précision de la nature du nom sur lequel est fondée l'identité publique. [code RDA-FR, 9.1.1]</rdfs:comment>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://rdafr.fr/Rules#P1213">
-	<owl:versionInfo>0.1.0</owl:versionInfo>
-	<sh:path rdf:resource="https://rdafr.fr/Elements#P600003"/>
-	<sh:name xml:lang="fr">a pour nom de l'identité publique</sh:name>
+	<sh:path rdf:resource="https://rdafr.fr/Elements#P600020"/>
+	<sh:name xml:lang="fr">a pour nom de l'identité publique de la personne</sh:name>
 	<rdfs:seeAlso>9.2.1</rdfs:seeAlso>
-	<sh:node rdf:resource="https://rdafr.fr/Elements#C100012"/>
-	<sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-	<sh:description xml:lang="fr">Un nom utilisé pour désigner l'identité publique. [code RDA-FR, 9.2.1]</sh:description>
+	<sh:node rdf:resource="https://rdafr.fr/Elements#C100004"/>
+	<sh:description xml:lang="fr">Un nom utilisé pour désigner l'identité publique de la personne. [code RDA-FR, 9.2.1]</sh:description>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P600003">
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-	<owl:inverseOf>est un nom de l'identité publique de personne</owl:inverseOf>
-	<rdfs:domain rdf:resource="https://rdafr.fr/Elements#C100015"/>
-	<rdfs:range rdf:resource="https://rdafr.fr/Elements#C100012"/>
-	<rdfs:label xml:lang="fr">a pour nom de l'identité publique</rdfs:label>
-	<rdfs:comment xml:lang="fr">Un nom utilisé pour désigner l'identité publique. [code RDA-FR, 9.2.1]</rdfs:comment>
+<rdf:Description rdf:about="https://rdafr.fr/Elements#P600020">
+	<rdfs:label xml:lang="fr">a pour nom de l'identité publique de la personne</rdfs:label>
+	<rdfs:comment xml:lang="fr">Un nom utilisé pour désigner l'identité publique de la personne. [code RDA-FR, 9.2.1]</rdfs:comment>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://rdafr.fr/Rules#P1214">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
-	<sh:path rdf:resource="https://rdafr.fr/Elements#P600004"/>
-	<sh:name xml:lang="fr">a pour nom privilégié de l'identité publique</sh:name>
-	<rdfs:seeAlso>9.2.1.1</rdfs:seeAlso>
+	<sh:path rdf:resource="https://rdafr.fr/Elements#P600003"/>
+	<sh:name xml:lang="fr">a pour nom de l'identité publique du groupe informel</sh:name>
 	<sh:node rdf:resource="https://rdafr.fr/Elements#C100012"/>
 	<sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-	<sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-	<sh:description xml:lang="fr">Le nom privilégié de l’identité publique est le nom ou la forme de nom choisie pour servir d’élément de base du point d’accès autorisé représentant l'identité publique. [code RDA-FR, 9.2.1.1]</sh:description>
+	<sh:description xml:lang="fr">Un nom utilisé pour désigner l'identité publique du groupe informel.</sh:description>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P600004">
+<rdf:Description rdf:about="https://rdafr.fr/Elements#P600003">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-	<owl:inverseOf>est le nom privilégié de l'identité publique de personne</owl:inverseOf>
 	<rdfs:domain rdf:resource="https://rdafr.fr/Elements#C100015"/>
 	<rdfs:range rdf:resource="https://rdafr.fr/Elements#C100012"/>
-	<rdfs:label xml:lang="fr">a pour nom privilégié de l'identité publique</rdfs:label>
-	<rdfs:subPropertyOf rdf:resource="https://rdafr.fr/Elements#P600003"/>
-	<rdfs:comment xml:lang="fr">Le nom privilégié de l’identité publique est le nom ou la forme de nom choisie pour servir d’élément de base du point d’accès autorisé représentant l'identité publique. [code RDA-FR, 9.2.1.1]</rdfs:comment>
+	<rdfs:label xml:lang="fr">a pour nom de l'identité publique du groupe informel</rdfs:label>
+	<rdfs:subPropertyOf rdf:resource="https://rdafr.fr/Elements#P100007"/>
+	<rdfs:comment xml:lang="fr">Un nom utilisé pour désigner l'identité publique du groupe informel.</rdfs:comment>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://rdafr.fr/Rules#P1215">
-	<owl:versionInfo>0.1.0</owl:versionInfo>
-	<sh:path rdf:resource="https://rdafr.fr/Elements#P600005"/>
-	<sh:name xml:lang="fr">a pour nom privilégié supplémentaire de l'identité publique</sh:name>
+	<sh:path rdf:resource="https://rdafr.fr/Elements#P600021"/>
+	<sh:name xml:lang="fr">a pour nom privilégié de l'identité publique de la personne</sh:name>
+	<rdfs:seeAlso>9.2.1.1</rdfs:seeAlso>
 	<sh:node rdf:resource="https://rdafr.fr/Elements#C100012"/>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-	<sh:description xml:lang="fr">Le nom privilégié supplémentaire est une autre forme du nom privilégié dans une langue et/ou écriture différente également choisi pour représenter une identité publique selon le contexte visé.</sh:description>
+	<sh:description xml:lang="fr">Le nom privilégié de l’identité publique est le nom ou la forme de nom choisie pour servir d’élément de base du point d’accès autorisé représentant l'identité publique de la personne. [code RDA-FR, 9.2.1.1]</sh:description>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P600005">
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-	<owl:inverseOf>est un nom privilégié supplémentaire de l'identité publique de personne</owl:inverseOf>
-	<rdfs:domain rdf:resource="https://rdafr.fr/Elements#C100015"/>
-	<rdfs:range rdf:resource="https://rdafr.fr/Elements#C100012"/>
-	<rdfs:label xml:lang="fr">a pour nom privilégié supplémentaire de l'identité publique</rdfs:label>
-	<rdfs:subPropertyOf rdf:resource="https://rdafr.fr/Elements#P600003"/>
-	<rdfs:comment xml:lang="fr">Le nom privilégié supplémentaire est une autre forme du nom privilégié dans une langue et/ou écriture différente également choisi pour représenter une identité publique selon le contexte visé.</rdfs:comment>
+<rdf:Description rdf:about="https://rdafr.fr/Elements#P600021">
+	<rdfs:label xml:lang="fr">a pour nom privilégié de l'identité publique de la personne</rdfs:label>
+	<rdfs:comment xml:lang="fr">Le nom privilégié de l’identité publique est le nom ou la forme de nom choisie pour servir d’élément de base du point d’accès autorisé représentant l'identité publique de la personne. [code RDA-FR, 9.2.1.1]</rdfs:comment>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://rdafr.fr/Rules#P1216">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
+	<sh:path rdf:resource="https://rdafr.fr/Elements#P600004"/>
+	<sh:name xml:lang="fr">a pour nom privilégié de l'identité publique du groupe informel</sh:name>
+	<sh:node rdf:resource="https://rdafr.fr/Elements#C100012"/>
+	<sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
+	<sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+	<sh:description xml:lang="fr">Le nom privilégié de l’identité publique est le nom ou la forme de nom choisie pour servir d’élément de base du point d’accès autorisé représentant l'identité publique du groupe informel.</sh:description>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://rdafr.fr/Elements#P600004">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<rdfs:domain rdf:resource="https://rdafr.fr/Elements#C100015"/>
+	<rdfs:range rdf:resource="https://rdafr.fr/Elements#C100012"/>
+	<rdfs:label xml:lang="fr">a pour nom privilégié de l'identité publique du groupe informel</rdfs:label>
+	<rdfs:subPropertyOf rdf:resource="https://rdafr.fr/Elements#P100007"/>
+	<rdfs:comment xml:lang="fr">Le nom privilégié de l’identité publique est le nom ou la forme de nom choisie pour servir d’élément de base du point d’accès autorisé représentant l'identité publique du groupe informel.</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P1217">
+	<owl:versionInfo>0.1.0</owl:versionInfo>
+	<sh:path rdf:resource="https://rdafr.fr/Elements#P600005"/>
+	<sh:name xml:lang="fr">a pour nom privilégié supplémentaire de l'identité publique de la personne</sh:name>
+	<sh:node rdf:resource="https://rdafr.fr/Elements#C100012"/>
+	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+	<sh:description xml:lang="fr">Le nom privilégié supplémentaire est une autre forme du nom privilégié dans une langue et/ou écriture différente également choisi pour représenter une identité publique de personne selon le contexte visé.</sh:description>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://rdafr.fr/Elements#P600005">
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<rdfs:domain rdf:resource="https://rdafr.fr/Elements#C100015"/>
+	<rdfs:range rdf:resource="https://rdafr.fr/Elements#C100012"/>
+	<rdfs:label xml:lang="fr">a pour nom privilégié supplémentaire de l'identité publique de la personne</rdfs:label>
+	<rdfs:subPropertyOf rdf:resource="https://rdafr.fr/Elements#P100007"/>
+	<rdfs:comment xml:lang="fr">Le nom privilégié supplémentaire est une autre forme du nom privilégié dans une langue et/ou écriture différente également choisi pour représenter une identité publique de personne selon le contexte visé.</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P1218">
+	<owl:versionInfo>0.1.0</owl:versionInfo>
+	<sh:path rdf:resource="https://rdafr.fr/Elements#P600022"/>
+	<sh:name xml:lang="fr">a pour nom privilégié supplémentaire de l'identité publique du groupe informel</sh:name>
+	<sh:node rdf:resource="https://rdafr.fr/Elements#C100012"/>
+	<sh:description xml:lang="fr">Le nom privilégié supplémentaire est une autre forme du nom privilégié dans une langue et/ou écriture différente également choisi pour représenter une identité publique de groupe informel selon le contexte visé.</sh:description>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://rdafr.fr/Elements#P600022">
+	<rdfs:label xml:lang="fr">a pour nom privilégié supplémentaire de l'identité publique du groupe informel</rdfs:label>
+	<rdfs:comment xml:lang="fr">Le nom privilégié supplémentaire est une autre forme du nom privilégié dans une langue et/ou écriture différente également choisi pour représenter une identité publique de groupe informel selon le contexte visé.</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P1219">
+	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P600006"/>
-	<sh:name xml:lang="fr">a pour variante de nom de l'identité publique de personne</sh:name>
+	<sh:name xml:lang="fr">a pour variante de nom de l'identité publique de la personne</sh:name>
 	<rdfs:seeAlso>9.2.1.2</rdfs:seeAlso>
 	<sh:node rdf:resource="https://rdafr.fr/Elements#C100012"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
@@ -5213,35 +5220,60 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 
 <rdf:Description rdf:about="https://rdafr.fr/Elements#P600006">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-	<owl:inverseOf>est une variante de nom de l'identité publique de personne</owl:inverseOf>
 	<rdfs:domain rdf:resource="https://rdafr.fr/Elements#C100015"/>
 	<rdfs:range rdf:resource="https://rdafr.fr/Elements#C100012"/>
-	<rdfs:label xml:lang="fr">a pour variante de nom de l'identité publique de personne</rdfs:label>
-	<rdfs:subPropertyOf rdf:resource="https://rdafr.fr/Elements#P600003"/>
+	<rdfs:label xml:lang="fr">a pour variante de nom de l'identité publique de la personne</rdfs:label>
+	<rdfs:subPropertyOf rdf:resource="https://rdafr.fr/Elements#P100007"/>
 	<rdfs:comment xml:lang="fr">Une variante de nom de l’identité publique de la personne désigne un nom ou une forme de nom sous lequel cette identité publique est connue et qui diffère du nom ou de la forme de nom choisie comme nom privilégié ou comme nom privilégié supplémentaire. [code RDA-FR, 9.2.1.2]</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#P1217">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P1220">
+	<owl:versionInfo>0.1.0</owl:versionInfo>
+	<sh:path rdf:resource="https://rdafr.fr/Elements#P600023"/>
+	<sh:name xml:lang="fr">a pour variante de nom de l'identité publique du groupe informel</sh:name>
+	<rdfs:seeAlso>9.2.1.2</rdfs:seeAlso>
+	<sh:node rdf:resource="https://rdafr.fr/Elements#C100012"/>
+	<sh:description xml:lang="fr">Une variante de nom de l’identité publique du groupe informel désigne un nom ou une forme de nom sous lequel cette identité publique est connue et qui diffère du nom ou de la forme de nom choisie comme nom privilégié ou comme nom privilégié supplémentaire. [code RDA-FR, 9.2.1.2]</sh:description>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://rdafr.fr/Elements#P600023">
+	<rdfs:label xml:lang="fr">a pour variante de nom de l'identité publique du groupe informel</rdfs:label>
+	<rdfs:comment xml:lang="fr">Une variante de nom de l’identité publique du groupe informel désigne un nom ou une forme de nom sous lequel cette identité publique est connue et qui diffère du nom ou de la forme de nom choisie comme nom privilégié ou comme nom privilégié supplémentaire. [code RDA-FR, 9.2.1.2]</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P1221">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P600019"/>
-	<sh:name xml:lang="fr">a pour point d'accès représentant l'identité publique</sh:name>
+	<sh:name xml:lang="fr">a pour point d'accès représentant l'identité publique de la personne</sh:name>
 	<sh:node rdf:resource="https://rdafr.fr/Elements#C100012"/>
 	<sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-	<sh:description xml:lang="fr">Un point d'accès représentant l'identité publique.</sh:description>
+	<sh:description xml:lang="fr">Un point d'accès représentant l'identité publique de la personne.</sh:description>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://rdafr.fr/Elements#P600019">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-	<owl:inverseOf>est un point d'accès représentant la personne</owl:inverseOf>
 	<rdfs:domain rdf:resource="https://rdafr.fr/Elements#C100015"/>
 	<rdfs:range rdf:resource="https://rdafr.fr/Elements#C100012"/>
-	<rdfs:label xml:lang="fr">a pour point d'accès représentant l'identité publique</rdfs:label>
-	<rdfs:subPropertyOf rdf:resource="https://rdafr.fr/Elements#P600003"/>
-	<rdfs:comment xml:lang="fr">Un point d'accès représentant l'identité publique.</rdfs:comment>
+	<rdfs:label xml:lang="fr">a pour point d'accès représentant l'identité publique de la personne</rdfs:label>
+	<rdfs:subPropertyOf rdf:resource="https://rdafr.fr/Elements#P100007"/>
+	<rdfs:comment xml:lang="fr">Un point d'accès représentant l'identité publique de la personne.</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#P1218">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P1222">
+	<owl:versionInfo>0.1.0</owl:versionInfo>
+	<sh:path rdf:resource="https://rdafr.fr/Elements#P600024"/>
+	<sh:name xml:lang="fr">a pour point d'accès représentant l'identité publique du groupe informel</sh:name>
+	<sh:node rdf:resource="https://rdafr.fr/Elements#C100012"/>
+	<sh:description xml:lang="fr">Un point d'accès représentant l'identité publique du groupe informel.</sh:description>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://rdafr.fr/Elements#P600024">
+	<rdfs:label xml:lang="fr">a pour point d'accès représentant l'identité publique du groupe informel</rdfs:label>
+	<rdfs:comment xml:lang="fr">Un point d'accès représentant l'identité publique du groupe informel.</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P1223">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P600007"/>
 	<sh:name xml:lang="fr">a pour point d'accès autorisé de l'identité publique de personne</sh:name>
@@ -5250,60 +5282,94 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
 	<sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-	<sh:description xml:lang="fr">Le point d’accès autorisé représentant une identité publique, construit en utilisant comme élément de base le nom privilégié de l’identité publique. [code RDA-FR, 9.4.2]</sh:description>
+	<sh:description xml:lang="fr">Le point d’accès autorisé représentant une identité publique, construit en utilisant comme élément de base le nom privilégié de l’identité publique de la personne. [code RDA-FR, 9.4.2]</sh:description>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://rdafr.fr/Elements#P600007">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-	<owl:inverseOf>est le point d'accès autorisé de l'identité publique de personne</owl:inverseOf>
 	<rdfs:domain rdf:resource="https://rdafr.fr/Elements#C100015"/>
 	<rdfs:range rdf:resource="https://rdafr.fr/Elements#C100012"/>
 	<rdfs:label xml:lang="fr">a pour point d'accès autorisé de l'identité publique de personne</rdfs:label>
 	<rdfs:subPropertyOf rdf:resource="https://rdafr.fr/Elements#P600019"/>
-	<rdfs:comment xml:lang="fr">Le point d’accès autorisé représentant une identité publique, construit en utilisant comme élément de base le nom privilégié de l’identité publique. [code RDA-FR, 9.4.2]</rdfs:comment>
+	<rdfs:comment xml:lang="fr">Le point d’accès autorisé représentant une identité publique, construit en utilisant comme élément de base le nom privilégié de l’identité publique de la personne. [code RDA-FR, 9.4.2]</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#P1219">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P1224">
+	<owl:versionInfo>0.1.0</owl:versionInfo>
+	<sh:path rdf:resource="https://rdafr.fr/Elements#P600025"/>
+	<sh:name xml:lang="fr">a pour point d'accès autorisé de l'identité publique du groupe informel</sh:name>
+	<sh:node rdf:resource="https://rdafr.fr/Elements#C100012"/>
+	<sh:description xml:lang="fr">Le point d’accès autorisé représentant une identité publique, construit en utilisant comme élément de base le nom privilégié de l’identité publique du groupe informel.</sh:description>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://rdafr.fr/Elements#P600025">
+	<rdfs:label xml:lang="fr">a pour point d'accès autorisé de l'identité publique du groupe informel</rdfs:label>
+	<rdfs:comment xml:lang="fr">Le point d’accès autorisé représentant une identité publique, construit en utilisant comme élément de base le nom privilégié de l’identité publique du groupe informel.</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P1225">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P600008"/>
 	<sh:name xml:lang="fr">a pour point d'accès autorisé supplémentaire de l'identité publique de personne</sh:name>
 	<rdfs:seeAlso>9.4.3</rdfs:seeAlso>
 	<sh:node rdf:resource="https://rdafr.fr/Elements#C100012"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-	<sh:description xml:lang="fr">Un point d’accès représentant une identité publique, construit à partir d'un nom privilégié supplémentaire. [code RDA-FR, 9.4.3]</sh:description>
+	<sh:description xml:lang="fr">Un point d’accès représentant une identité publique, construit à partir d'un nom privilégié supplémentaire de la personne. [code RDA-FR, 9.4.3]</sh:description>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://rdafr.fr/Elements#P600008">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-	<owl:inverseOf>est un point d'accès autorisé supplémentaire de l'identité publique de personne</owl:inverseOf>
 	<rdfs:domain rdf:resource="https://rdafr.fr/Elements#C100015"/>
 	<rdfs:range rdf:resource="https://rdafr.fr/Elements#C100012"/>
 	<rdfs:label xml:lang="fr">a pour point d'accès autorisé supplémentaire de l'identité publique de personne</rdfs:label>
 	<rdfs:subPropertyOf rdf:resource="https://rdafr.fr/Elements#P600019"/>
-	<rdfs:comment xml:lang="fr">Un point d’accès représentant une identité publique, construit à partir d'un nom privilégié supplémentaire. [code RDA-FR, 9.4.3]</rdfs:comment>
+	<rdfs:comment xml:lang="fr">Un point d’accès représentant une identité publique, construit à partir d'un nom privilégié supplémentaire de la personne. [code RDA-FR, 9.4.3]</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R1220">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P1226">
+	<sh:path rdf:resource="https://rdafr.fr/Elements#P600026"/>
+	<sh:name xml:lang="fr">a pour point d'accès autorisé supplémentaire de l'identité publique du groupe informel</sh:name>
+	<sh:node rdf:resource="https://rdafr.fr/Elements#C100012"/>
+	<sh:description xml:lang="fr">Un point d’accès représentant une identité publique, construit à partir d'un nom privilégié supplémentaire du groupe informel</sh:description>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://rdafr.fr/Elements#P600026">
+	<rdfs:label xml:lang="fr">a pour point d'accès autorisé supplémentaire de l'identité publique du groupe informel</rdfs:label>
+	<rdfs:comment xml:lang="fr">Un point d’accès représentant une identité publique, construit à partir d'un nom privilégié supplémentaire du groupe informel</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P1227">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P600009"/>
 	<sh:name xml:lang="fr">a pour variante de point d'accès de l'identité publique de personne</sh:name>
 	<rdfs:seeAlso>9.4.4</rdfs:seeAlso>
 	<sh:node rdf:resource="https://rdafr.fr/Elements#C100012"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-	<sh:description xml:lang="fr">Un point d’accès représentant une identité publique, autre que le point d’accès autorisé ou le point d'accès autorisé supplémentaire. [code RDA-FR, 9.4.4]</sh:description>
+	<sh:description xml:lang="fr">Un point d’accès représentant une identité publique de la personne autre que le point d’accès autorisé ou le point d'accès autorisé supplémentaire. [code RDA-FR, 9.4.4]</sh:description>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://rdafr.fr/Elements#P600009">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-	<owl:inverseOf>est une variante de point d'accès de l'identité publique de personne</owl:inverseOf>
 	<rdfs:domain rdf:resource="https://rdafr.fr/Elements#C100015"/>
-	<rdfs:range rdf:resource="https://rdafr.fr/Elements#C100012"/>
+	<rdfs:range>#REF!</rdfs:range>
 	<rdfs:label xml:lang="fr">a pour variante de point d'accès de l'identité publique de personne</rdfs:label>
 	<rdfs:subPropertyOf rdf:resource="https://rdafr.fr/Elements#P600019"/>
-	<rdfs:comment xml:lang="fr">Un point d’accès représentant une identité publique, autre que le point d’accès autorisé ou le point d'accès autorisé supplémentaire. [code RDA-FR, 9.4.4]</rdfs:comment>
+	<rdfs:comment xml:lang="fr">Un point d’accès représentant une identité publique de la personne autre que le point d’accès autorisé ou le point d'accès autorisé supplémentaire. [code RDA-FR, 9.4.4]</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R1221">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P1228">
+	<sh:path rdf:resource="https://rdafr.fr/Elements#P600027"/>
+	<sh:name xml:lang="fr">a pour variante de point d'accès de l'identité publique du groupe informel</sh:name>
+	<sh:node rdf:resource="https://rdafr.fr/Elements#C100012"/>
+	<sh:description xml:lang="fr">Un point d’accès représentant une identité publique du groupe informel autre que le point d’accès autorisé ou le point d'accès autorisé supplémentaire.</sh:description>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://rdafr.fr/Elements#P600027">
+	<rdfs:label xml:lang="fr">a pour variante de point d'accès de l'identité publique du groupe informel</rdfs:label>
+	<rdfs:comment xml:lang="fr">Un point d’accès représentant une identité publique du groupe informel autre que le point d’accès autorisé ou le point d'accès autorisé supplémentaire.</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P1229">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P600010"/>
 	<sh:name xml:lang="fr">a pour autre terme associé à l'identité publique</sh:name>
@@ -5323,7 +5389,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdfs:comment xml:lang="fr">Un autre terme associé à l’identité publique de la personne est un mot ou expression qui lui est associé, autre qu’un titre. [code RDA-FR, 9.2.2]</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R1222">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P1230">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P600011"/>
 	<sh:name xml:lang="fr">a pour contexte d'utilisation de l'identité publique</sh:name>
@@ -5342,7 +5408,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdfs:comment xml:lang="fr">Le contexte d’utilisation spécifie la forme ou le type d’oeuvre, le domaine d’activité, la fonction, etc., associés au nom choisi comme nom privilégié d’une identité publique. [code RDA-FR, 9.2.3]</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R1223">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P1231">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P600012"/>
 	<sh:name xml:lang="fr">a pour date d'utilisation de l'identité publique</sh:name>
@@ -5355,7 +5421,6 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 
 <rdf:Description rdf:about="https://rdafr.fr/Elements#P600012">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-	<owl:inverseOf>est la date ou la fourchette de dates associée à l'utilisation de l'identité publique</owl:inverseOf>
 	<rdfs:domain rdf:resource="https://rdafr.fr/Elements#C100015"/>
 	<rdfs:range rdf:resource="https://rdafr.fr/Elements#C100010"/>
 	<rdfs:label xml:lang="fr">a pour date d'utilisation de l'identité publique</rdfs:label>
@@ -5363,7 +5428,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdfs:comment xml:lang="fr">Une date ou une fourchette de dates associée à l’utilisation d’une identité publique. [code RDA-FR, 9.2.4]</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R1224">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P1232">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P600013"/>
 	<sh:name xml:lang="fr">a pour identifiant associé à l’identité publique</sh:name>
@@ -5377,7 +5442,6 @@ Dans le cas des personnes ayant plus d’une identité, chaque identité publiqu
 
 <rdf:Description rdf:about="https://rdafr.fr/Elements#P600013">
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-	<owl:inverseOf>est l'identifiant associée à l'identité publique de personne</owl:inverseOf>
 	<rdfs:domain rdf:resource="https://rdafr.fr/Elements#C100015"/>
 	<rdfs:range rdf:resource="https://rdafr.fr/Elements#C100012"/>
 	<rdfs:label xml:lang="fr">a pour identifiant associé à l’identité publique</rdfs:label>
@@ -5387,7 +5451,7 @@ L’identifiant sert à distinguer une identité publique d’une autre. Il doit
 Dans le cas des personnes ayant plus d’une identité, chaque identité publique a son propre identifiant. [code RDA-FR, 9.2.5]</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R1225">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P1233">
 	<owl:versionInfo>0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P100010r"/>
 	<sh:name xml:lang="fr">est a distinguer de [dans la relation]</sh:name>
@@ -5707,795 +5771,6 @@ Dans le cas des personnes ayant plus d’une identité, chaque identité publiqu
 	<rdfs:domain rdf:resource="https://rdafr.fr/Elements#C100023"/>
 	<rdfs:range rdf:resource="https://rdafr.fr/Elements#C100021"/>
 	<rdfs:label xml:lang="fr">est constitué d'une période</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Regles#">
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
-	<rdfs:label xml:lang="fr">Profil d'application de l'ontologie RDA-FR</rdfs:label>
-	<dct:description xml:lang="fr">Profil d'application de l'ontologie RDA-FR pour le code de catalogage français RDA-FR. Il définit les règles et contraintes pour produire et valider les données RDF du graphe des données en appliquant l'ontologie RDA-FR.</dct:description>
-	<rdfs:comment xml:lang="fr">Version beta, partielle. Couvre la partie de l’ontologie RDA-FR relative aux classes : Agent, Agent collectif, Collectivité, Famille, Groupe informel, Personne, Identité publique.</rdfs:comment>
-	<owl:versionInfo xml:lang="fr">0.1.0</owl:versionInfo>
-	<owl:versionIRI rdf:resource="https://rdafr.fr/Rules#"/>
-	<dct:conformsTo rdf:resource="https://www.w3.org/TR/shacl"/>
-	<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-09-11</dct:created>
-	<dct:issued rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-04-22</dct:issued>
-	<dct:license rdf:resource="https://www.etalab.gouv.fr/licence-ouverte-open-licence"/>
-	<dct:creator>BnF, Abes</dct:creator>
-	<dct:publisher>BnF, Abes</dct:publisher>
-	<dct:rigthsHolder>Bnf, Abes</dct:rigthsHolder>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#C100001">
-	<rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
-	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<owl:versionInfo>0.1.0</owl:versionInfo>
-	<rdfs:label xml:lang="fr">oeuvre</rdfs:label>
-	<rdfs:seeAlso>5.1.2</rdfs:seeAlso>
-	<skos:notation>w</skos:notation>
-	<rdfs:subClassOf rdf:resource="https://rdafr.fr/Elements#C100013"/>
-	<owl:sameAs>rdac:C10001</owl:sameAs>
-	<rdafran:rdaRegistryUrl rdf:resource="http://www.rdaregistry.info/Elements/c/#C10001"/>
-	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</sh:order>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1gv13f9f9x11726"/>
-	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#C100001"/>
-	<sh:description xml:lang="fr">Toute création intellectuelle ou artistique distincte, susceptible d’être identifiée et nommée de manière univoque dans un contexte bibliographique. [code RDA-FR, 5.1.2]</sh:description>
-	<rdfs:comment xml:lang="fr">Toute création intellectuelle ou artistique distincte, susceptible d’être identifiée et nommée de manière univoque dans un contexte bibliographique. [code RDA-FR, 5.1.2]</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="node1gv13f9f9x11726">
-	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
-	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#C100002">
-	<rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
-	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<owl:versionInfo>0.1.0</owl:versionInfo>
-	<rdfs:label xml:lang="fr">agent</rdfs:label>
-	<rdfs:seeAlso>8.1.2</rdfs:seeAlso>
-	<skos:notation>a</skos:notation>
-	<rdfs:subClassOf rdf:resource="https://rdafr.fr/Elements#C100013"/>
-	<owl:sameAs>rdac:C10002</owl:sameAs>
-	<rdafran:rdaRegistryUrl rdf:resource="http://www.rdaregistry.info/Elements/c/#C10002"/>
-	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</sh:order>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1gv13f9f9x11727"/>
-	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#C100002"/>
-	<sh:description xml:lang="fr">Entité ayant la capacité d’agir et ayant un rapport avec des ressources qui font l’objet d’une description documentaire. Cela inclut les personnes ou les groupes. [code RDA-FR, 8.1.2]</sh:description>
-	<rdfs:comment xml:lang="fr">Entité ayant la capacité d’agir et ayant un rapport avec des ressources qui font l’objet d’une description documentaire. Cela inclut les personnes ou les groupes. [code RDA-FR, 8.1.2]</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="node1gv13f9f9x11727">
-	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
-	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#C100003">
-	<rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
-	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<owl:versionInfo>0.1.0</owl:versionInfo>
-	<rdfs:label xml:lang="fr">item</rdfs:label>
-	<rdfs:seeAlso>1.1.2</rdfs:seeAlso>
-	<skos:notation>i</skos:notation>
-	<rdfs:subClassOf rdf:resource="https://rdafr.fr/Elements#C100013"/>
-	<owl:sameAs>rdac:C10003</owl:sameAs>
-	<rdafran:rdaRegistryUrl rdf:resource="http://www.rdaregistry.info/Elements/c/#C10003"/>
-	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</sh:order>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1gv13f9f9x11728"/>
-	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#C100003"/>
-	<sh:description xml:lang="fr">Un ou plusieurs objets portant des signes chargés de véhiculer un contenu intellectuel ou artistique. Un item exemplifie une manifestation et en reflète en principe toutes les caractéristiques. [code RDA-FR, 1.1.2]</sh:description>
-	<rdfs:comment xml:lang="fr">Un ou plusieurs objets portant des signes chargés de véhiculer un contenu intellectuel ou artistique. Un item exemplifie une manifestation et en reflète en principe toutes les caractéristiques. [code RDA-FR, 1.1.2]</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="node1gv13f9f9x11728">
-	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
-	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#C100004">
-	<rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
-	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<owl:versionInfo>0.1.0</owl:versionInfo>
-	<rdfs:label xml:lang="fr">personne</rdfs:label>
-	<rdfs:seeAlso>8.1.2 et 9</rdfs:seeAlso>
-	<rdfs:subClassOf rdf:resource="https://rdafr.fr/Elements#C100002"/>
-	<owl:sameAs>rdac:C10004</owl:sameAs>
-	<rdafran:rdaRegistryUrl rdf:resource="http://www.rdaregistry.info/Elements/c/#C10004"/>
-	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</sh:order>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1gv13f9f9x11729"/>
-	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#C100004"/>
-	<sh:description xml:lang="fr">Agent identifié comme étant un individu existant ou ayant existé. [code RDA-FR, 8.1.2 et 9]</sh:description>
-	<rdfs:comment xml:lang="fr">Agent identifié comme étant un individu existant ou ayant existé. [code RDA-FR, 8.1.2 et 9]</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="node1gv13f9f9x11729">
-	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
-	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#C100005">
-	<rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
-	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<owl:versionInfo>0.1.0</owl:versionInfo>
-	<rdfs:label xml:lang="fr">collectivité</rdfs:label>
-	<rdfs:seeAlso>11</rdfs:seeAlso>
-	<rdfs:subClassOf rdf:resource="https://rdafr.fr/Elements#C100011"/>
-	<owl:sameAs>rdac:C10005</owl:sameAs>
-	<rdafran:rdaRegistryUrl rdf:resource="http://www.rdaregistry.info/Elements/c/#C10005"/>
-	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</sh:order>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1gv13f9f9x11730"/>
-	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#C100005"/>
-	<sh:description xml:lang="fr">Agent identifié comme étant une organisation ou une partie d'organisation, ou un groupe de personnes et/ou d'organisations. Une collectivité n’est considérée comme telle que si elle est identifiée par un nom particulier et si elle agit, ou peut agir, comme une unité. [code RDA-FR, 11]</sh:description>
-	<rdfs:comment xml:lang="fr">Agent identifié comme étant une organisation ou une partie d'organisation, ou un groupe de personnes et/ou d'organisations. Une collectivité n’est considérée comme telle que si elle est identifiée par un nom particulier et si elle agit, ou peut agir, comme une unité. [code RDA-FR, 11]</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="node1gv13f9f9x11730">
-	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
-	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#C100006">
-	<rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
-	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<owl:versionInfo>0.1.0</owl:versionInfo>
-	<rdfs:label xml:lang="fr">expression</rdfs:label>
-	<rdfs:seeAlso>5.1.2</rdfs:seeAlso>
-	<sh:description xml:lang="fr">Source: Glossaire RDA-FR</sh:description>
-	<sh:description xml:lang="fr">Réalisation d’une œuvre sous la forme d’une notation (alphanumérique, musicale ou chorégraphique), de son, d’image, d’objet, de mouvement, etc. ou de toute combinaison de ces formes. [code RDA-FR, 5.1.2]</sh:description>
-	<skos:notation>e</skos:notation>
-	<rdfs:subClassOf rdf:resource="https://rdafr.fr/Elements#C100013"/>
-	<owl:sameAs>rdac:C10006</owl:sameAs>
-	<rdafran:rdaRegistryUrl rdf:resource="http://www.rdaregistry.info/Elements/c/#C10006"/>
-	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</sh:order>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1gv13f9f9x11731"/>
-	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#C100006"/>
-	<rdfs:comment xml:lang="fr">Réalisation d’une œuvre sous la forme d’une notation (alphanumérique, musicale ou chorégraphique), de son, d’image, d’objet, de mouvement, etc. ou de toute combinaison de ces formes. [code RDA-FR, 5.1.2]</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="node1gv13f9f9x11731">
-	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
-	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#C100007">
-	<rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
-	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<owl:versionInfo>0.1.0</owl:versionInfo>
-	<rdfs:label xml:lang="fr">manifestation</rdfs:label>
-	<rdfs:seeAlso>1.1.2</rdfs:seeAlso>
-	<skos:notation>m</skos:notation>
-	<rdfs:subClassOf rdf:resource="https://rdafr.fr/Elements#C100013"/>
-	<owl:sameAs>rdac:C10007</owl:sameAs>
-	<rdafran:rdaRegistryUrl rdf:resource="http://www.rdaregistry.info/Elements/c/#C10007"/>
-	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</sh:order>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1gv13f9f9x11732"/>
-	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#C100007"/>
-	<sh:description xml:lang="fr">L’ensemble de tous les supports qui sont présumés partager les mêmes caractéristiques relatives tant au contenu intellectuel ou artistique qu’aux aspects de présentation matérielle. Cet ensemble est défini à la fois par son contenu global et par le plan de production pour son (ou ses) support(s). [code RDA-FR, 1.1.2]</sh:description>
-	<rdfs:comment xml:lang="fr">L’ensemble de tous les supports qui sont présumés partager les mêmes caractéristiques relatives tant au contenu intellectuel ou artistique qu’aux aspects de présentation matérielle. Cet ensemble est défini à la fois par son contenu global et par le plan de production pour son (ou ses) support(s). [code RDA-FR, 1.1.2]</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="node1gv13f9f9x11732">
-	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
-	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#C100008">
-	<rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
-	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<owl:versionInfo>0.1.0</owl:versionInfo>
-	<rdfs:label xml:lang="fr">famille</rdfs:label>
-	<rdfs:seeAlso>10</rdfs:seeAlso>
-	<rdfs:subClassOf rdf:resource="https://rdafr.fr/Elements#C100011"/>
-	<owl:sameAs>rdac:C10008</owl:sameAs>
-	<rdafran:rdaRegistryUrl rdf:resource="http://www.rdaregistry.info/Elements/c/#C10008"/>
-	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</sh:order>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1gv13f9f9x11733"/>
-	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#C100008"/>
-	<sh:description xml:lang="fr">Est considéré comme relevant de la catégorie famille un ensemble de personnes liées par la naissance, le mariage, l'adoption, l'union civile ou tout autre statut légal du même ordre, ou un ensemble de personnes qui se présentent elles-mêmes comme une famille. [code RDA-FR, 10]</sh:description>
-	<rdfs:comment xml:lang="fr">Est considéré comme relevant de la catégorie famille un ensemble de personnes liées par la naissance, le mariage, l'adoption, l'union civile ou tout autre statut légal du même ordre, ou un ensemble de personnes qui se présentent elles-mêmes comme une famille. [code RDA-FR, 10]</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="node1gv13f9f9x11733">
-	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
-	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#C100009">
-	<rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
-	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<owl:versionInfo>0.1.0</owl:versionInfo>
-	<rdfs:label xml:lang="fr">lieu</rdfs:label>
-	<rdfs:seeAlso>16</rdfs:seeAlso>
-	<skos:notation>p</skos:notation>
-	<rdfs:subClassOf rdf:resource="https://rdafr.fr/Elements#C100013"/>
-	<owl:sameAs>rdac:C10009</owl:sameAs>
-	<rdafran:rdaRegistryUrl rdf:resource="http://www.rdaregistry.info/Elements/c/#C10009"/>
-	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</sh:order>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1gv13f9f9x11734"/>
-	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#C100009"/>
-	<sh:description xml:lang="fr">Portion d’espace réel. Un lieu est déterminé par des coordonnées géographiques et pourvu d’un nom. [code RDA-FR, 16]</sh:description>
-	<rdfs:comment xml:lang="fr">Portion d’espace réel. Un lieu est déterminé par des coordonnées géographiques et pourvu d’un nom. [code RDA-FR, 16]</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="node1gv13f9f9x11734">
-	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
-	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#C100010">
-	<rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
-	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<owl:versionInfo>0.1.0</owl:versionInfo>
-	<rdfs:label xml:lang="fr">laps de temps</rdfs:label>
-	<skos:notation>t</skos:notation>
-	<rdfs:subClassOf rdf:resource="https://rdafr.fr/Elements#C100013"/>
-	<owl:sameAs>rdac:C10010</owl:sameAs>
-	<rdafran:rdaRegistryUrl rdf:resource="http://www.rdaregistry.info/Elements/c/#C10010"/>
-	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70</sh:order>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1gv13f9f9x11735"/>
-	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#C100010"/>
-	<sh:description xml:lang="fr">Plage temporelle ayant un début, une fin et une durée.</sh:description>
-	<rdfs:comment xml:lang="fr">Plage temporelle ayant un début, une fin et une durée.</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="node1gv13f9f9x11735">
-	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
-	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#C100011">
-	<rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
-	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<owl:versionInfo>0.1.0</owl:versionInfo>
-	<rdfs:label xml:lang="fr">agent collectif</rdfs:label>
-	<rdfs:subClassOf rdf:resource="https://rdafr.fr/Elements#C100002"/>
-	<owl:sameAs>rdac:C10011</owl:sameAs>
-	<rdafran:rdaRegistryUrl rdf:resource="http://www.rdaregistry.info/Elements/c/#C10011"/>
-	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</sh:order>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1gv13f9f9x11736"/>
-	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#C100011"/>
-	<sh:description xml:lang="fr">Groupement ou association de personnes portant un nom particulier et disposant de la faculté d'agir collectivement.</sh:description>
-	<rdfs:comment xml:lang="fr">Groupement ou association de personnes portant un nom particulier et disposant de la faculté d'agir collectivement.</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="node1gv13f9f9x11736">
-	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
-	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#C100012">
-	<rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
-	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<owl:versionInfo>0.1.0</owl:versionInfo>
-	<rdfs:label xml:lang="fr">nomen</rdfs:label>
-	<skos:notation>n</skos:notation>
-	<rdfs:subClassOf rdf:resource="https://rdafr.fr/Elements#C100013"/>
-	<owl:sameAs>rdac:C10012</owl:sameAs>
-	<rdafran:rdaRegistryUrl rdf:resource="http://www.rdaregistry.info/Elements/c/#C10012"/>
-	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</sh:order>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1gv13f9f9x11737"/>
-	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#C100012"/>
-	<sh:description xml:lang="fr">Une association entre une entité et une désignation qui y réfère .</sh:description>
-	<rdfs:comment xml:lang="fr">Une association entre une entité et une désignation qui y réfère .</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="node1gv13f9f9x11737">
-	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
-	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#C100013">
-	<rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
-	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<owl:versionInfo>0.1.0</owl:versionInfo>
-	<rdfs:label xml:lang="fr">entité rdafr</rdfs:label>
-	<rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-	<owl:sameAs>rdac:C10013</owl:sameAs>
-	<rdafran:rdaRegistryUrl rdf:resource="http://www.rdaregistry.info/Elements/c/#C10013"/>
-	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:order>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1gv13f9f9x11738"/>
-	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#C100013"/>
-	<sh:description xml:lang="fr">Classe abstraite de plus haut niveau de l'univers de discours couvert par l'ontologie RDA-FR. Elle comprend toutes les entités qui sont définies dans le code RDA-FR. Toutes les classes définies pour les besoins de fonctionnement de l'ontologie RDA-FR sont également des sous-classes de celle ci.</sh:description>
-	<rdfs:comment xml:lang="fr">Classe abstraite de plus haut niveau de l'univers de discours couvert par l'ontologie RDA-FR. Elle comprend toutes les entités qui sont définies dans le code RDA-FR. Toutes les classes définies pour les besoins de fonctionnement de l'ontologie RDA-FR sont également des sous-classes de celle ci.</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="node1gv13f9f9x11738">
-	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
-	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#C100015">
-	<rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
-	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<owl:versionInfo>0.1.0</owl:versionInfo>
-	<rdfs:label xml:lang="fr">identité publique</rdfs:label>
-	<rdfs:seeAlso>8.1.2 et 9</rdfs:seeAlso>
-	<skos:notation>u</skos:notation>
-	<rdfs:subClassOf rdf:resource="https://rdafr.fr/Elements#C100013"/>
-	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55</sh:order>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1gv13f9f9x11739"/>
-	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#C100015"/>
-	<sh:description xml:lang="fr">Identité d’un agent qui est connue ou a été rendue publique. [code RDA-FR, 8.1.2 et 9]</sh:description>
-	<rdfs:comment xml:lang="fr">Identité d’un agent qui est connue ou a été rendue publique. [code RDA-FR, 8.1.2 et 9]</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="node1gv13f9f9x11739">
-	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
-	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#C100017">
-	<rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
-	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<owl:versionInfo>0.1.0</owl:versionInfo>
-	<rdfs:label xml:lang="fr">objet</rdfs:label>
-	<skos:notation>b</skos:notation>
-	<rdfs:subClassOf rdf:resource="https://rdafr.fr/Elements#C100013"/>
-	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65</sh:order>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1gv13f9f9x11740"/>
-	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#C100017"/>
-	<sh:description xml:lang="fr">En attente de traitement dans l'ontologie RDA-FR</sh:description>
-	<rdfs:comment xml:lang="fr">En attente de traitement dans l'ontologie RDA-FR</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="node1gv13f9f9x11740">
-	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
-	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#C100018">
-	<rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
-	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<owl:versionInfo>0.1.0</owl:versionInfo>
-	<rdfs:label xml:lang="fr">événement</rdfs:label>
-	<skos:notation>v</skos:notation>
-	<rdfs:subClassOf rdf:resource="https://rdafr.fr/Elements#C100013"/>
-	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90</sh:order>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1gv13f9f9x11741"/>
-	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#C100018"/>
-	<sh:description xml:lang="fr">En attente de traitement dans l'ontologie RDA-FR</sh:description>
-	<rdfs:comment xml:lang="fr">En attente de traitement dans l'ontologie RDA-FR</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="node1gv13f9f9x11741">
-	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
-	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#C100019">
-	<rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
-	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<owl:versionInfo>0.1.0</owl:versionInfo>
-	<rdfs:label xml:lang="fr">événement culturel</rdfs:label>
-	<rdfs:subClassOf rdf:resource="https://rdafr.fr/Elements#C100018"/>
-	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">95</sh:order>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1gv13f9f9x11742"/>
-	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#C100019"/>
-	<sh:description xml:lang="fr">En attente de traitement dans l'ontologie RDA-FR</sh:description>
-	<rdfs:comment xml:lang="fr">En attente de traitement dans l'ontologie RDA-FR</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="node1gv13f9f9x11742">
-	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
-	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#C100020">
-	<rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
-	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<owl:versionInfo>0.1.0</owl:versionInfo>
-	<rdfs:label xml:lang="fr">concept</rdfs:label>
-	<skos:notation>?</skos:notation>
-	<rdfs:subClassOf rdf:resource="https://rdafr.fr/Elements#C100013"/>
-	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</sh:order>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1gv13f9f9x11743"/>
-	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#C100020"/>
-	<sh:description xml:lang="fr">En attente de traitement dans l'ontologie RDA-FR</sh:description>
-	<rdfs:comment xml:lang="fr">En attente de traitement dans l'ontologie RDA-FR</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="node1gv13f9f9x11743">
-	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
-	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#C100021">
-	<rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
-	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<owl:versionInfo>0.1.0</owl:versionInfo>
-	<rdfs:label xml:lang="fr">période</rdfs:label>
-	<skos:notation>t</skos:notation>
-	<rdfs:subClassOf rdf:resource="https://rdafr.fr/Elements#C100010"/>
-	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">75</sh:order>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1gv13f9f9x11744"/>
-	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#C100021"/>
-	<sh:description xml:lang="fr">En attente de traitement dans l'ontologie RDA-FR</sh:description>
-	<rdfs:comment xml:lang="fr">En attente de traitement dans l'ontologie RDA-FR</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="node1gv13f9f9x11744">
-	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
-	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#C100022">
-	<rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
-	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<owl:versionInfo>0.1.0</owl:versionInfo>
-	<rdfs:label xml:lang="fr">date unique</rdfs:label>
-	<skos:notation>t</skos:notation>
-	<rdfs:subClassOf rdf:resource="https://rdafr.fr/Elements#C100010"/>
-	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</sh:order>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1gv13f9f9x11745"/>
-	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#C100022"/>
-	<sh:description xml:lang="fr">En attente de traitement dans l'ontologie RDA-FR</sh:description>
-	<rdfs:comment xml:lang="fr">En attente de traitement dans l'ontologie RDA-FR</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="node1gv13f9f9x11745">
-	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
-	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#C100023">
-	<rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
-	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<owl:versionInfo>0.1.0</owl:versionInfo>
-	<rdfs:label xml:lang="fr">série de date ou de laps de temps</rdfs:label>
-	<skos:notation>t</skos:notation>
-	<rdfs:subClassOf rdf:resource="https://rdafr.fr/Elements#C100010"/>
-	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85</sh:order>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1gv13f9f9x11746"/>
-	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#C100023"/>
-	<sh:description xml:lang="fr">En attente de traitement dans l'ontologie RDA-FR</sh:description>
-	<rdfs:comment xml:lang="fr">En attente de traitement dans l'ontologie RDA-FR</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="node1gv13f9f9x11746">
-	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
-	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#C100025">
-	<rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
-	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<owl:versionInfo>0.1.0</owl:versionInfo>
-	<rdfs:label xml:lang="fr">groupe informel</rdfs:label>
-	<skos:notation>t</skos:notation>
-	<rdfs:subClassOf rdf:resource="https://rdafr.fr/Elements#C100011"/>
-	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</sh:order>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1gv13f9f9x11747"/>
-	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#C100025"/>
-	<sh:description xml:lang="fr">Agent étant identifié comme un groupe de personnes qui n'est ni une famille ni une collectivité et dont le nom se présente formellement comme un nom de personne (nom traditionnellement désigné par le terme "pseudonyme collectif").</sh:description>
-	<rdfs:comment xml:lang="fr">Agent étant identifié comme un groupe de personnes qui n'est ni une famille ni une collectivité et dont le nom se présente formellement comme un nom de personne (nom traditionnellement désigné par le terme "pseudonyme collectif").</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="node1gv13f9f9x11747">
-	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
-	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P100001r">
-	<rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
-	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<owl:versionInfo>0.1.0</owl:versionInfo>
-	<rdfs:label xml:lang="fr">a une relation réifiée</rdfs:label>
-	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">120</sh:order>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1gv13f9f9x11748"/>
-	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#P100001r"/>
-	<sh:description xml:lang="fr">La classe ‘relation réifiée’ permet d’ajouter des assertions sur toutes les propriétés qui expriment une relation entre des instances de deux classes de l’ontologie (et qui, de fait, correspondent aux relations entre instances d’entités du code RDA-FR).</sh:description>
-	<rdfs:comment xml:lang="fr">La classe ‘relation réifiée’ permet d’ajouter des assertions sur toutes les propriétés qui expriment une relation entre des instances de deux classes de l’ontologie (et qui, de fait, correspondent aux relations entre instances d’entités du code RDA-FR).</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="node1gv13f9f9x11748">
-	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
-	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P100008r">
-	<rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
-	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<owl:versionInfo>0.1.0</owl:versionInfo>
-	<rdfs:label xml:lang="fr">a une propriété réifiée</rdfs:label>
-	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">122</sh:order>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1gv13f9f9x11749"/>
-	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#P100008r"/>
-	<sh:description xml:lang="fr">La classe ‘propriété réifiée’ permet d'ajouter des assertions sur toutes les propriétés de l’ontologie qui correspondent aux attributs des entités du code RDA-FR.</sh:description>
-	<rdfs:comment xml:lang="fr">La classe ‘propriété réifiée’ permet d'ajouter des assertions sur toutes les propriétés de l’ontologie qui correspondent aux attributs des entités du code RDA-FR.</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="node1gv13f9f9x11749">
-	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
-	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="http://www.w3.org/2004/02/skos/core#Concept">
-	<rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
-	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<owl:versionInfo>0.1.0</owl:versionInfo>
-	<rdfs:label xml:lang="fr">Concept (skos)</rdfs:label>
-	<rdfs:subClassOf rdf:resource="http://www.w3.org/2002/07/owl#Thing"/>
-	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</sh:order>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1gv13f9f9x11750"/>
-	<sh:targetClass rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<sh:description xml:lang="fr">Un concept SKOS peut être vu comme une idée ou une notion; une unité de pensée.</sh:description>
-	<rdfs:comment xml:lang="fr">Un concept SKOS peut être vu comme une idée ou une notion; une unité de pensée.</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="node1gv13f9f9x11750">
-	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
-	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#Langue">
-	<rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
-	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<owl:versionInfo>0.1.0</owl:versionInfo>
-	<rdfs:label xml:lang="fr">Langue</rdfs:label>
-	<rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">201</sh:order>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1gv13f9f9x11751"/>
-	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#Langue"/>
-	<sh:description xml:lang="fr">Langue d'une chaîne de caractères.</sh:description>
-	<rdfs:comment xml:lang="fr">Langue d'une chaîne de caractères.</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="node1gv13f9f9x11751">
-	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
-	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#Ecriture">
-	<rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
-	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<owl:versionInfo>0.1.0</owl:versionInfo>
-	<rdfs:label xml:lang="fr">Ecriture</rdfs:label>
-	<rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">202</sh:order>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1gv13f9f9x11752"/>
-	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#Ecriture"/>
-	<sh:description xml:lang="fr">Système d'écriture de la chaîne de caractères.</sh:description>
-	<rdfs:comment xml:lang="fr">Système d'écriture de la chaîne de caractères.</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="node1gv13f9f9x11752">
-	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
-	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#SchemaEncodage">
-	<rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
-	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<owl:versionInfo>0.1.0</owl:versionInfo>
-	<rdfs:label xml:lang="fr">Schéma d'encodage</rdfs:label>
-	<rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">203</sh:order>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1gv13f9f9x11753"/>
-	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#SchemaEncodage"/>
-	<sh:description xml:lang="fr">Système de transcription et/ou de conversion de données selon un protocole déterminé. Cela recouvre :
-- des schémas d’encodage de valeurs (listes de vedettes matière, thésaurus, classifications systématiques, listes
-d’autorité de noms, etc.) ;
-− et des schémas d’encodage syntaxiques (normes d’encodage des dates, etc.).</sh:description>
-	<rdfs:comment xml:lang="fr">Système de transcription et/ou de conversion de données selon un protocole déterminé. Cela recouvre :
-- des schémas d’encodage de valeurs (listes de vedettes matière, thésaurus, classifications systématiques, listes
-d’autorité de noms, etc.) ;
-− et des schémas d’encodage syntaxiques (normes d’encodage des dates, etc.).</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="node1gv13f9f9x11753">
-	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
-	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#CategorieNomen">
-	<rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
-	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<owl:versionInfo>0.1.0</owl:versionInfo>
-	<rdfs:label xml:lang="fr">Catégorie de nomen</rdfs:label>
-	<rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">204</sh:order>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1gv13f9f9x11754"/>
-	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#CategorieNomen"/>
-	<sh:description xml:lang="fr">Type auquel le nomen appartient (ex. : point d'accès, identifiant, titre, etc.)</sh:description>
-	<rdfs:comment xml:lang="fr">Type auquel le nomen appartient (ex. : point d'accès, identifiant, titre, etc.)</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="node1gv13f9f9x11754">
-	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
-	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#SystemeConversion">
-	<rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
-	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<owl:versionInfo>0.1.0</owl:versionInfo>
-	<rdfs:label xml:lang="fr">Conversion d'écriture</rdfs:label>
-	<rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">205</sh:order>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1gv13f9f9x11755"/>
-	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#SystemeConversion"/>
-	<sh:description xml:lang="fr">Règle, système ou norme utilisée pour créer la chaîne d’un nomen à partir de la chaîne d’un autre nomen notée dans une écriture différente (par exemple, un système de translittération).</sh:description>
-	<rdfs:comment xml:lang="fr">Règle, système ou norme utilisée pour créer la chaîne d’un nomen à partir de la chaîne d’un autre nomen notée dans une écriture différente (par exemple, un système de translittération).</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="node1gv13f9f9x11755">
-	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
-	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#Genre">
-	<rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
-	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<owl:versionInfo>0.1.0</owl:versionInfo>
-	<rdfs:label xml:lang="fr">Genre</rdfs:label>
-	<rdfs:seeAlso>9.3.3</rdfs:seeAlso>
-	<rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">206</sh:order>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1gv13f9f9x11756"/>
-	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#Genre"/>
-	<sh:description xml:lang="fr">Le genre auquel une personne s'identifie. [code RDA-FR, 9.3.3]</sh:description>
-	<rdfs:comment xml:lang="fr">Le genre auquel une personne s'identifie. [code RDA-FR, 9.3.3]</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="node1gv13f9f9x11756">
-	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
-	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#NiveauFiabilite">
-	<rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
-	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<owl:versionInfo>0.1.0</owl:versionInfo>
-	<rdfs:label xml:lang="fr">Niveau de fiabilité</rdfs:label>
-	<rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">207</sh:order>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1gv13f9f9x11757"/>
-	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#NiveauFiabilite"/>
-	<sh:description xml:lang="fr">Indication sur le niveau de fiabilité de l'information.</sh:description>
-	<rdfs:comment xml:lang="fr">Indication sur le niveau de fiabilité de l'information.</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="node1gv13f9f9x11757">
-	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
-	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#Calendrier">
-	<rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
-	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<owl:versionInfo>0.1.0</owl:versionInfo>
-	<rdfs:label xml:lang="fr">Calendrier</rdfs:label>
-	<rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">208</sh:order>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1gv13f9f9x11758"/>
-	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#Calendrier"/>
-	<sh:description xml:lang="fr">Type de calendrier utilisé pour exprimer un laps de temps (julien, grégorien, hégire...).</sh:description>
-	<rdfs:comment xml:lang="fr">Type de calendrier utilisé pour exprimer un laps de temps (julien, grégorien, hégire...).</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="node1gv13f9f9x11758">
-	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
-	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#CategorieIdentitePublique">
-	<rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
-	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<owl:versionInfo>0.1.0</owl:versionInfo>
-	<rdfs:label xml:lang="fr">Catégorie d'identité publique</rdfs:label>
-	<rdfs:seeAlso>9.1.1</rdfs:seeAlso>
-	<rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">209</sh:order>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1gv13f9f9x11759"/>
-	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#CategorieIdentitePublique"/>
-	<sh:description xml:lang="fr">Précision sur la nature du nom sur lequel est fondée l'identité publique (par exemple : nom réel, pseudonyme...) [code RDA-FR, 9.1.1]</sh:description>
-	<rdfs:comment xml:lang="fr">Précision sur la nature du nom sur lequel est fondée l'identité publique (par exemple : nom réel, pseudonyme...) [code RDA-FR, 9.1.1]</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="node1gv13f9f9x11759">
-	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
-	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
 
 </rdf:RDF>
