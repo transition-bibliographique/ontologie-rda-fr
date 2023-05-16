@@ -50,17 +50,17 @@ RUN pandoc --standalone \
 
 # Installation de Widoco
 
-RUN curl -L https://github.com/dgarijo/Widoco/releases/download/v1.4.17/java-17-widoco-1.4.17-jar-with-dependencies.jar -o /tmp/widoco.jar
+# Ajout des métadonnées à l'ontologie. On rajoute les métadonnées à la fin. Widoco prend les dernières en cas de répétition
+RUN cat /tmp/ontologie/rdafr.nt /tmp/ontologie/ontologie-metadata.nt > /tmp/ontologie/ontologie-avec-meta.nt
 
 # Enlève les noeuds vides et les éléments shacl qui sont problématiques pour Widoco
-RUN sed -e "#http://www.w3.org/ns/shacl#d" -e "/_:node/d" -i /tmp/ontologie/rdafr.nt
+RUN sed -e "#http://www.w3.org/ns/shacl#d" -e "/_:node/d" -i /tmp/ontologie/ontologie-avec-meta.nt
 
 # Génération de la documentation de l'ontologie
 
 RUN java -jar /tmp/widoco.jar \
-      -ontFile /tmp/ontologie/rdafr.nt \
+      -ontFile /tmp/ontologie/ontologie-avec-meta.nt \
       -outFolder ./ \
-      -confFile /tmp/ontologie/config.properties \
       -rewriteAll \
       -lang en \
       -excludeIntroduction \
@@ -74,7 +74,10 @@ RUN mv ./ontologie/index-en.html ./ontologie/index.html
 
 RUN mkdir -p profil-application
 
-RUN curl -F inputShapeFile=@/ontologie/rdafr.ttl \
+# Ajout des métadonnées au profil d'application
+RUN cat /tmp/ontologie/profil-application-metadata.nt /tmp/ontologie/rdafr.nt > /tmp/ontologie/profil-application-avec-meta.nt
+
+RUN curl -F inputShapeFile=@/tmp/ontologie/profil-application-avec-meta.nt \
       -F shapesSource=file \
       -F language=fr \
       -H 'Accept-Language: fr-FR,fr' \
