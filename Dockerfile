@@ -94,7 +94,7 @@ RUN sed -E -i /build/profil-application/index.html \
     -e 's#<a href="https://rdafr\.fr/(Elements|termList).*?>(.*?)</a>#\2#'
 
 # Copie le profil d'application pour que l'utilisateur puisse le récupérer depuis http://rdafr.fr/profil-application/rdafr-shacl.ttl
-RUN mv /tmp/ontologie/profil-application-avec-meta.nt /build/profil-application/rdafr-shacl.ttl
+RUN mv /tmp/ontologie/profil-application-avec-meta.ttl /build/profil-application/rdafr-shacl.ttl
 
 FROM nginx:1.20.2
 ENV ONTOLOGIE_RDAFR_VERSION 0.3.5
