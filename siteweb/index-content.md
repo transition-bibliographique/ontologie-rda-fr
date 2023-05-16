@@ -75,7 +75,7 @@ Dans l’exemple de la propriété _“collabore avec”_, celle-ci est déclar�
 
 ### L’ontologie RDA-FR en OWL et son profil d’application
 
-Le choix a été fait de publier le modèle de données RDA-FR sous la forme d’une ontologie (OWL) et d’un profil d’application (SHACL).
+Le choix a été fait de publier une ontologie (OWL) et d’un profil d’application (SHACL).
 
 * **L’ontologie RDA-FR** modélise en classes et propriétés l’univers du discours couvert  par le code RDA-FR, elle est exprimée en langage [OWL](https://www.w3.org/OWL/) (Web Ontology Language).
 * **Le profil d’application RDA-FR** définit les règles et contraintes pour produire et valider les données RDF du graphe des données. Le profil d’application est exprimé en langage [SHACL](https://www.w3.org/TR/shacl/) (Shapes Constraint Language). Il s’agit d’un standard du W3C spécialement conçu pour la validation des graphes RDF de données, créées, dans notre cas, avec l’ontologie RDA-FR, dans le respect des règles et contraintes fixées pour cette ontologie. Dans le cadre de cette publication les règles SHACL expriment explicitement et de manière systématique les règles et contraintes génériques inhérentes au code RDA-FR, qu’elles soient explicitement ou implicitement formulées dans le code. Ces règles peuvent être des contraintes sur les cardinalités des propriétés, sur l’utilisation d’un vocabulaire contrôlé spécifique pour une propriété, etc.
