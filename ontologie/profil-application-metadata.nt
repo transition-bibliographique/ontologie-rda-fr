@@ -1,3 +1,4 @@
+<https://rdafr.fr/Regles#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
 <https://rdafr.fr/Regles#> <http://www.w3.org/2000/01/rdf-schema#label> "Profil d'application de l'ontologie RDA-FR"@fr .
 <https://rdafr.fr/Regles#> <http://purl.org/dc/terms/description> "Profil d'application de l'ontologie RDA-FR pour le code de catalogage français RDA-FR. Il définit les règles et contraintes pour produire et valider les données RDF du graphe des données en appliquant l'ontologie RDA-FR."@fr .
 <https://rdafr.fr/Regles#> <http://www.w3.org/2000/01/rdf-schema#comment> "Version beta, partielle. Couvre la partie de l’ontologie RDA-FR relative aux classes : Agent, Agent collectif, Collectivité, Famille, Groupe informel, Personne, Identité publique."@fr .
