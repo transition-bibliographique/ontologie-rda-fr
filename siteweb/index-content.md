@@ -10,7 +10,7 @@ L’ontologie RDA-FR, en cours d’élaboration, est une représentation formell
 
 Le schéma suivant donne une vue globale de la hiérarchie des classes de l’ontologie RDA-FR. Seules sont traitées dans cette version bêta les classes non grisées ci-dessous.
 
-![image](https://github.com/transition-bibliographique/ontologie-rda-fr/assets/60341438/dbfda58b-eaec-4ee1-a217-470b5d2eaa04)
+![image](https://github.com/transition-bibliographique/ontologie-rda-fr/assets/60341438/3686ccd6-374a-4bd2-9192-8d3df1083877)
 
 ### Domaine de l’ontologie RDA-FR et espaces de noms
 
