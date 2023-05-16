@@ -1,3 +1,4 @@
+<https://rdafr.fr/Regles#> a <http://www.w3.org/2002/07/owl#Ontology> .
 <https://rdafr.fr/Regles#> <http://purl.org/dc/terms/title> "RDA-FR ontology"@en .
 <https://rdafr.fr/Regles#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
 <https://rdafr.fr/Regles#> <http://www.w3.org/2000/01/rdf-schema#label> "RDA-FR ontology"@en .
