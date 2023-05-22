@@ -97,7 +97,7 @@ RUN sed -E -i /build/profil-application/index.html \
 RUN mv /tmp/ontologie/profil-application-avec-meta.ttl /build/profil-application/rdafr-shacl.ttl
 
 FROM nginx:1.20.2
-ENV ONTOLOGIE_RDAFR_VERSION 0.3.5
+ENV ONTOLOGIE_RDAFR_VERSION 0.4.0
 
 COPY --from=builder /build ./usr/share/nginx/html/
 
