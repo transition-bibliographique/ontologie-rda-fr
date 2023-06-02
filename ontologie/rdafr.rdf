@@ -5792,13 +5792,13 @@ Dans le cas des personnes ayant plus d’une identité, chaque identité publiqu
 	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">5</sh:order>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1h0i4rul4x2906"/>
+	<sh:ignoredProperties rdf:nodeID="node1h0i4rul4x3145"/>
 	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#C100001"/>
 	<sh:description xml:lang="fr">Toute création intellectuelle ou artistique distincte, susceptible d’être identifiée et nommée de manière univoque dans un contexte bibliographique. [code RDA-FR, 5.1.2]</sh:description>
 	<rdfs:comment xml:lang="fr">Toute création intellectuelle ou artistique distincte, susceptible d’être identifiée et nommée de manière univoque dans un contexte bibliographique. [code RDA-FR, 5.1.2]</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1h0i4rul4x2906">
+<rdf:Description rdf:nodeID="node1h0i4rul4x3145">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -5817,13 +5817,13 @@ Dans le cas des personnes ayant plus d’une identité, chaque identité publiqu
 	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">25</sh:order>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1h0i4rul4x2907"/>
+	<sh:ignoredProperties rdf:nodeID="node1h0i4rul4x3146"/>
 	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#C100002"/>
 	<sh:description xml:lang="fr">Entité ayant la capacité d’agir et ayant un rapport avec des ressources qui font l’objet d’une description documentaire. Cela inclut les personnes ou les groupes. [code RDA-FR, 8.1.2]</sh:description>
 	<rdfs:comment xml:lang="fr">Entité ayant la capacité d’agir et ayant un rapport avec des ressources qui font l’objet d’une description documentaire. Cela inclut les personnes ou les groupes. [code RDA-FR, 8.1.2]</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1h0i4rul4x2907">
+<rdf:Description rdf:nodeID="node1h0i4rul4x3146">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -5842,13 +5842,13 @@ Dans le cas des personnes ayant plus d’une identité, chaque identité publiqu
 	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">20</sh:order>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1h0i4rul4x2908"/>
+	<sh:ignoredProperties rdf:nodeID="node1h0i4rul4x3147"/>
 	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#C100003"/>
 	<sh:description xml:lang="fr">Un ou plusieurs objets portant des signes chargés de véhiculer un contenu intellectuel ou artistique. Un item exemplifie une manifestation et en reflète en principe toutes les caractéristiques. [code RDA-FR, 1.1.2]</sh:description>
 	<rdfs:comment xml:lang="fr">Un ou plusieurs objets portant des signes chargés de véhiculer un contenu intellectuel ou artistique. Un item exemplifie une manifestation et en reflète en principe toutes les caractéristiques. [code RDA-FR, 1.1.2]</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1h0i4rul4x2908">
+<rdf:Description rdf:nodeID="node1h0i4rul4x3147">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -5866,13 +5866,13 @@ Dans le cas des personnes ayant plus d’une identité, chaque identité publiqu
 	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">30</sh:order>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1h0i4rul4x2909"/>
+	<sh:ignoredProperties rdf:nodeID="node1h0i4rul4x3148"/>
 	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#C100004"/>
 	<sh:description xml:lang="fr">Agent identifié comme étant un individu existant ou ayant existé. [code RDA-FR, 8.1.2 et 9]</sh:description>
 	<rdfs:comment xml:lang="fr">Agent identifié comme étant un individu existant ou ayant existé. [code RDA-FR, 8.1.2 et 9]</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1h0i4rul4x2909">
+<rdf:Description rdf:nodeID="node1h0i4rul4x3148">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -5890,13 +5890,13 @@ Dans le cas des personnes ayant plus d’une identité, chaque identité publiqu
 	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">45</sh:order>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1h0i4rul4x2910"/>
+	<sh:ignoredProperties rdf:nodeID="node1h0i4rul4x3149"/>
 	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#C100005"/>
 	<sh:description xml:lang="fr">Agent identifié comme étant une organisation ou une partie d'organisation, ou un groupe de personnes et/ou d'organisations. Une collectivité n’est considérée comme telle que si elle est identifiée par un nom particulier et si elle agit, ou peut agir, comme une unité. [code RDA-FR, 11]</sh:description>
 	<rdfs:comment xml:lang="fr">Agent identifié comme étant une organisation ou une partie d'organisation, ou un groupe de personnes et/ou d'organisations. Une collectivité n’est considérée comme telle que si elle est identifiée par un nom particulier et si elle agit, ou peut agir, comme une unité. [code RDA-FR, 11]</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1h0i4rul4x2910">
+<rdf:Description rdf:nodeID="node1h0i4rul4x3149">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -5917,12 +5917,12 @@ Dans le cas des personnes ayant plus d’une identité, chaque identité publiqu
 	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">10</sh:order>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1h0i4rul4x2911"/>
+	<sh:ignoredProperties rdf:nodeID="node1h0i4rul4x3150"/>
 	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#C100006"/>
 	<rdfs:comment xml:lang="fr">Réalisation d’une œuvre sous la forme d’une notation (alphanumérique, musicale ou chorégraphique), de son, d’image, d’objet, de mouvement, etc. ou de toute combinaison de ces formes. [code RDA-FR, 5.1.2]</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1h0i4rul4x2911">
+<rdf:Description rdf:nodeID="node1h0i4rul4x3150">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -5941,13 +5941,13 @@ Dans le cas des personnes ayant plus d’une identité, chaque identité publiqu
 	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">15</sh:order>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1h0i4rul4x2912"/>
+	<sh:ignoredProperties rdf:nodeID="node1h0i4rul4x3151"/>
 	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#C100007"/>
 	<sh:description xml:lang="fr">L’ensemble de tous les supports qui sont présumés partager les mêmes caractéristiques relatives tant au contenu intellectuel ou artistique qu’aux aspects de présentation matérielle. Cet ensemble est défini à la fois par son contenu global et par le plan de production pour son (ou ses) support(s). [code RDA-FR, 1.1.2]</sh:description>
 	<rdfs:comment xml:lang="fr">L’ensemble de tous les supports qui sont présumés partager les mêmes caractéristiques relatives tant au contenu intellectuel ou artistique qu’aux aspects de présentation matérielle. Cet ensemble est défini à la fois par son contenu global et par le plan de production pour son (ou ses) support(s). [code RDA-FR, 1.1.2]</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1h0i4rul4x2912">
+<rdf:Description rdf:nodeID="node1h0i4rul4x3151">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -5965,13 +5965,13 @@ Dans le cas des personnes ayant plus d’une identité, chaque identité publiqu
 	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">50</sh:order>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1h0i4rul4x2913"/>
+	<sh:ignoredProperties rdf:nodeID="node1h0i4rul4x3152"/>
 	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#C100008"/>
 	<sh:description xml:lang="fr">Est considéré comme relevant de la catégorie famille un ensemble de personnes liées par la naissance, le mariage, l'adoption, l'union civile ou tout autre statut légal du même ordre, ou un ensemble de personnes qui se présentent elles-mêmes comme une famille. [code RDA-FR, 10]</sh:description>
 	<rdfs:comment xml:lang="fr">Est considéré comme relevant de la catégorie famille un ensemble de personnes liées par la naissance, le mariage, l'adoption, l'union civile ou tout autre statut légal du même ordre, ou un ensemble de personnes qui se présentent elles-mêmes comme une famille. [code RDA-FR, 10]</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1h0i4rul4x2913">
+<rdf:Description rdf:nodeID="node1h0i4rul4x3152">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -5990,13 +5990,13 @@ Dans le cas des personnes ayant plus d’une identité, chaque identité publiqu
 	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">60</sh:order>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1h0i4rul4x2914"/>
+	<sh:ignoredProperties rdf:nodeID="node1h0i4rul4x3153"/>
 	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#C100009"/>
 	<sh:description xml:lang="fr">Portion d’espace réel. Un lieu est déterminé par des coordonnées géographiques et pourvu d’un nom. [code RDA-FR, 16]</sh:description>
 	<rdfs:comment xml:lang="fr">Portion d’espace réel. Un lieu est déterminé par des coordonnées géographiques et pourvu d’un nom. [code RDA-FR, 16]</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1h0i4rul4x2914">
+<rdf:Description rdf:nodeID="node1h0i4rul4x3153">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -6014,13 +6014,13 @@ Dans le cas des personnes ayant plus d’une identité, chaque identité publiqu
 	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">70</sh:order>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1h0i4rul4x2915"/>
+	<sh:ignoredProperties rdf:nodeID="node1h0i4rul4x3154"/>
 	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#C100010"/>
 	<sh:description xml:lang="fr">Plage temporelle ayant un début, une fin et une durée.</sh:description>
 	<rdfs:comment xml:lang="fr">Plage temporelle ayant un début, une fin et une durée.</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1h0i4rul4x2915">
+<rdf:Description rdf:nodeID="node1h0i4rul4x3154">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -6037,13 +6037,13 @@ Dans le cas des personnes ayant plus d’une identité, chaque identité publiqu
 	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">35</sh:order>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1h0i4rul4x2916"/>
+	<sh:ignoredProperties rdf:nodeID="node1h0i4rul4x3155"/>
 	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#C100011"/>
 	<sh:description xml:lang="fr">Groupement ou association de personnes portant un nom particulier et disposant de la faculté d'agir collectivement.</sh:description>
 	<rdfs:comment xml:lang="fr">Groupement ou association de personnes portant un nom particulier et disposant de la faculté d'agir collectivement.</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1h0i4rul4x2916">
+<rdf:Description rdf:nodeID="node1h0i4rul4x3155">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -6061,13 +6061,13 @@ Dans le cas des personnes ayant plus d’une identité, chaque identité publiqu
 	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">3</sh:order>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1h0i4rul4x2917"/>
+	<sh:ignoredProperties rdf:nodeID="node1h0i4rul4x3156"/>
 	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#C100012"/>
 	<sh:description xml:lang="fr">Une association entre une entité et une désignation qui y réfère .</sh:description>
 	<rdfs:comment xml:lang="fr">Une association entre une entité et une désignation qui y réfère .</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1h0i4rul4x2917">
+<rdf:Description rdf:nodeID="node1h0i4rul4x3156">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -6084,13 +6084,13 @@ Dans le cas des personnes ayant plus d’une identité, chaque identité publiqu
 	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:order>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1h0i4rul4x2918"/>
+	<sh:ignoredProperties rdf:nodeID="node1h0i4rul4x3157"/>
 	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#C100013"/>
 	<sh:description xml:lang="fr">Classe abstraite de plus haut niveau de l'univers de discours couvert par l'ontologie RDA-FR. Elle comprend toutes les entités qui sont définies dans le code RDA-FR. Toutes les classes définies pour les besoins de fonctionnement de l'ontologie RDA-FR sont également des sous-classes de celle ci.</sh:description>
 	<rdfs:comment xml:lang="fr">Classe abstraite de plus haut niveau de l'univers de discours couvert par l'ontologie RDA-FR. Elle comprend toutes les entités qui sont définies dans le code RDA-FR. Toutes les classes définies pour les besoins de fonctionnement de l'ontologie RDA-FR sont également des sous-classes de celle ci.</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1h0i4rul4x2918">
+<rdf:Description rdf:nodeID="node1h0i4rul4x3157">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -6107,13 +6107,13 @@ Dans le cas des personnes ayant plus d’une identité, chaque identité publiqu
 	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">55</sh:order>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1h0i4rul4x2919"/>
+	<sh:ignoredProperties rdf:nodeID="node1h0i4rul4x3158"/>
 	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#C100015"/>
 	<sh:description xml:lang="fr">Identité d’un agent qui est connue ou a été rendue publique. [code RDA-FR, 8.1.2 et 9]</sh:description>
 	<rdfs:comment xml:lang="fr">Identité d’un agent qui est connue ou a été rendue publique. [code RDA-FR, 8.1.2 et 9]</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1h0i4rul4x2919">
+<rdf:Description rdf:nodeID="node1h0i4rul4x3158">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -6129,13 +6129,13 @@ Dans le cas des personnes ayant plus d’une identité, chaque identité publiqu
 	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">65</sh:order>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1h0i4rul4x2920"/>
+	<sh:ignoredProperties rdf:nodeID="node1h0i4rul4x3159"/>
 	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#C100017"/>
 	<sh:description xml:lang="fr">En attente de traitement dans l'ontologie RDA-FR</sh:description>
 	<rdfs:comment xml:lang="fr">En attente de traitement dans l'ontologie RDA-FR</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1h0i4rul4x2920">
+<rdf:Description rdf:nodeID="node1h0i4rul4x3159">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -6151,13 +6151,13 @@ Dans le cas des personnes ayant plus d’une identité, chaque identité publiqu
 	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">90</sh:order>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1h0i4rul4x2921"/>
+	<sh:ignoredProperties rdf:nodeID="node1h0i4rul4x3160"/>
 	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#C100018"/>
 	<sh:description xml:lang="fr">En attente de traitement dans l'ontologie RDA-FR</sh:description>
 	<rdfs:comment xml:lang="fr">En attente de traitement dans l'ontologie RDA-FR</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1h0i4rul4x2921">
+<rdf:Description rdf:nodeID="node1h0i4rul4x3160">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -6172,13 +6172,13 @@ Dans le cas des personnes ayant plus d’une identité, chaque identité publiqu
 	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">95</sh:order>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1h0i4rul4x2922"/>
+	<sh:ignoredProperties rdf:nodeID="node1h0i4rul4x3161"/>
 	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#C100019"/>
 	<sh:description xml:lang="fr">En attente de traitement dans l'ontologie RDA-FR</sh:description>
 	<rdfs:comment xml:lang="fr">En attente de traitement dans l'ontologie RDA-FR</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1h0i4rul4x2922">
+<rdf:Description rdf:nodeID="node1h0i4rul4x3161">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -6194,13 +6194,13 @@ Dans le cas des personnes ayant plus d’une identité, chaque identité publiqu
 	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">100</sh:order>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1h0i4rul4x2923"/>
+	<sh:ignoredProperties rdf:nodeID="node1h0i4rul4x3162"/>
 	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#C100020"/>
 	<sh:description xml:lang="fr">En attente de traitement dans l'ontologie RDA-FR</sh:description>
 	<rdfs:comment xml:lang="fr">En attente de traitement dans l'ontologie RDA-FR</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1h0i4rul4x2923">
+<rdf:Description rdf:nodeID="node1h0i4rul4x3162">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -6216,13 +6216,13 @@ Dans le cas des personnes ayant plus d’une identité, chaque identité publiqu
 	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">75</sh:order>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1h0i4rul4x2924"/>
+	<sh:ignoredProperties rdf:nodeID="node1h0i4rul4x3163"/>
 	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#C100021"/>
 	<sh:description xml:lang="fr">En attente de traitement dans l'ontologie RDA-FR</sh:description>
 	<rdfs:comment xml:lang="fr">En attente de traitement dans l'ontologie RDA-FR</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1h0i4rul4x2924">
+<rdf:Description rdf:nodeID="node1h0i4rul4x3163">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -6238,13 +6238,13 @@ Dans le cas des personnes ayant plus d’une identité, chaque identité publiqu
 	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">80</sh:order>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1h0i4rul4x2925"/>
+	<sh:ignoredProperties rdf:nodeID="node1h0i4rul4x3164"/>
 	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#C100022"/>
 	<sh:description xml:lang="fr">En attente de traitement dans l'ontologie RDA-FR</sh:description>
 	<rdfs:comment xml:lang="fr">En attente de traitement dans l'ontologie RDA-FR</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1h0i4rul4x2925">
+<rdf:Description rdf:nodeID="node1h0i4rul4x3164">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -6260,13 +6260,13 @@ Dans le cas des personnes ayant plus d’une identité, chaque identité publiqu
 	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">85</sh:order>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1h0i4rul4x2926"/>
+	<sh:ignoredProperties rdf:nodeID="node1h0i4rul4x3165"/>
 	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#C100023"/>
 	<sh:description xml:lang="fr">En attente de traitement dans l'ontologie RDA-FR</sh:description>
 	<rdfs:comment xml:lang="fr">En attente de traitement dans l'ontologie RDA-FR</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1h0i4rul4x2926">
+<rdf:Description rdf:nodeID="node1h0i4rul4x3165">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -6282,13 +6282,13 @@ Dans le cas des personnes ayant plus d’une identité, chaque identité publiqu
 	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">40</sh:order>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1h0i4rul4x2927"/>
+	<sh:ignoredProperties rdf:nodeID="node1h0i4rul4x3166"/>
 	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#C100025"/>
 	<sh:description xml:lang="fr">Agent étant identifié comme un groupe de personnes qui n'est ni une famille ni une collectivité et dont le nom se présente formellement comme un nom de personne (nom traditionnellement désigné par le terme "pseudonyme collectif").</sh:description>
 	<rdfs:comment xml:lang="fr">Agent étant identifié comme un groupe de personnes qui n'est ni une famille ni une collectivité et dont le nom se présente formellement comme un nom de personne (nom traditionnellement désigné par le terme "pseudonyme collectif").</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1h0i4rul4x2927">
+<rdf:Description rdf:nodeID="node1h0i4rul4x3166">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -6303,13 +6303,13 @@ Dans le cas des personnes ayant plus d’une identité, chaque identité publiqu
 	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">120</sh:order>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1h0i4rul4x2928"/>
+	<sh:ignoredProperties rdf:nodeID="node1h0i4rul4x3167"/>
 	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#P100001r"/>
 	<sh:description xml:lang="fr">La classe ‘relation réifiée’ permet d’ajouter des assertions sur toutes les propriétés qui expriment une relation entre des instances de deux classes de l’ontologie (et qui, de fait, correspondent aux relations entre instances d’entités du code RDA-FR).</sh:description>
 	<rdfs:comment xml:lang="fr">La classe ‘relation réifiée’ permet d’ajouter des assertions sur toutes les propriétés qui expriment une relation entre des instances de deux classes de l’ontologie (et qui, de fait, correspondent aux relations entre instances d’entités du code RDA-FR).</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1h0i4rul4x2928">
+<rdf:Description rdf:nodeID="node1h0i4rul4x3167">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -6324,13 +6324,13 @@ Dans le cas des personnes ayant plus d’une identité, chaque identité publiqu
 	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">122</sh:order>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1h0i4rul4x2929"/>
+	<sh:ignoredProperties rdf:nodeID="node1h0i4rul4x3168"/>
 	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#P100008r"/>
 	<sh:description xml:lang="fr">La classe ‘propriété réifiée’ permet d'ajouter des assertions sur toutes les propriétés de l’ontologie qui correspondent aux attributs des entités du code RDA-FR.</sh:description>
 	<rdfs:comment xml:lang="fr">La classe ‘propriété réifiée’ permet d'ajouter des assertions sur toutes les propriétés de l’ontologie qui correspondent aux attributs des entités du code RDA-FR.</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1h0i4rul4x2929">
+<rdf:Description rdf:nodeID="node1h0i4rul4x3168">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -6345,13 +6345,13 @@ Dans le cas des personnes ayant plus d’une identité, chaque identité publiqu
 	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">200</sh:order>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1h0i4rul4x2930"/>
+	<sh:ignoredProperties rdf:nodeID="node1h0i4rul4x3169"/>
 	<sh:targetClass rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<sh:description xml:lang="fr">Un concept SKOS peut être vu comme une idée ou une notion; une unité de pensée.</sh:description>
 	<rdfs:comment xml:lang="fr">Un concept SKOS peut être vu comme une idée ou une notion; une unité de pensée.</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1h0i4rul4x2930">
+<rdf:Description rdf:nodeID="node1h0i4rul4x3169">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -6366,13 +6366,13 @@ Dans le cas des personnes ayant plus d’une identité, chaque identité publiqu
 	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">201</sh:order>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1h0i4rul4x2931"/>
+	<sh:ignoredProperties rdf:nodeID="node1h0i4rul4x3170"/>
 	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#Langue"/>
 	<sh:description xml:lang="fr">Langue d'une chaîne de caractères.</sh:description>
 	<rdfs:comment xml:lang="fr">Langue d'une chaîne de caractères.</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1h0i4rul4x2931">
+<rdf:Description rdf:nodeID="node1h0i4rul4x3170">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -6387,13 +6387,13 @@ Dans le cas des personnes ayant plus d’une identité, chaque identité publiqu
 	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">202</sh:order>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1h0i4rul4x2932"/>
+	<sh:ignoredProperties rdf:nodeID="node1h0i4rul4x3171"/>
 	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#Ecriture"/>
 	<sh:description xml:lang="fr">Système d'écriture de la chaîne de caractères.</sh:description>
 	<rdfs:comment xml:lang="fr">Système d'écriture de la chaîne de caractères.</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1h0i4rul4x2932">
+<rdf:Description rdf:nodeID="node1h0i4rul4x3171">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -6408,7 +6408,7 @@ Dans le cas des personnes ayant plus d’une identité, chaque identité publiqu
 	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">203</sh:order>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1h0i4rul4x2933"/>
+	<sh:ignoredProperties rdf:nodeID="node1h0i4rul4x3172"/>
 	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#SchemaEncodage"/>
 	<sh:description xml:lang="fr">Système de transcription et/ou de conversion de données selon un protocole déterminé. Cela recouvre :
 - des schémas d’encodage de valeurs (listes de vedettes matière, thésaurus, classifications systématiques, listes
@@ -6420,7 +6420,7 @@ d’autorité de noms, etc.) ;
 − et des schémas d’encodage syntaxiques (normes d’encodage des dates, etc.).</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1h0i4rul4x2933">
+<rdf:Description rdf:nodeID="node1h0i4rul4x3172">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -6435,13 +6435,13 @@ d’autorité de noms, etc.) ;
 	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">204</sh:order>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1h0i4rul4x2934"/>
+	<sh:ignoredProperties rdf:nodeID="node1h0i4rul4x3173"/>
 	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#CategorieNomen"/>
 	<sh:description xml:lang="fr">Type auquel le nomen appartient (ex. : point d'accès, identifiant, titre, etc.)</sh:description>
 	<rdfs:comment xml:lang="fr">Type auquel le nomen appartient (ex. : point d'accès, identifiant, titre, etc.)</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1h0i4rul4x2934">
+<rdf:Description rdf:nodeID="node1h0i4rul4x3173">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -6456,13 +6456,13 @@ d’autorité de noms, etc.) ;
 	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">205</sh:order>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1h0i4rul4x2935"/>
+	<sh:ignoredProperties rdf:nodeID="node1h0i4rul4x3174"/>
 	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#SystemeConversion"/>
 	<sh:description xml:lang="fr">Règle, système ou norme utilisée pour créer la chaîne d’un nomen à partir de la chaîne d’un autre nomen notée dans une écriture différente (par exemple, un système de translittération).</sh:description>
 	<rdfs:comment xml:lang="fr">Règle, système ou norme utilisée pour créer la chaîne d’un nomen à partir de la chaîne d’un autre nomen notée dans une écriture différente (par exemple, un système de translittération).</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1h0i4rul4x2935">
+<rdf:Description rdf:nodeID="node1h0i4rul4x3174">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -6478,13 +6478,13 @@ d’autorité de noms, etc.) ;
 	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">206</sh:order>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1h0i4rul4x2936"/>
+	<sh:ignoredProperties rdf:nodeID="node1h0i4rul4x3175"/>
 	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#Genre"/>
 	<sh:description xml:lang="fr">Le genre auquel une personne s'identifie. [code RDA-FR, 9.3.3]</sh:description>
 	<rdfs:comment xml:lang="fr">Le genre auquel une personne s'identifie. [code RDA-FR, 9.3.3]</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1h0i4rul4x2936">
+<rdf:Description rdf:nodeID="node1h0i4rul4x3175">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -6499,13 +6499,13 @@ d’autorité de noms, etc.) ;
 	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">207</sh:order>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1h0i4rul4x2937"/>
+	<sh:ignoredProperties rdf:nodeID="node1h0i4rul4x3176"/>
 	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#NiveauFiabilite"/>
 	<sh:description xml:lang="fr">Indication sur le niveau de fiabilité de l'information.</sh:description>
 	<rdfs:comment xml:lang="fr">Indication sur le niveau de fiabilité de l'information.</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1h0i4rul4x2937">
+<rdf:Description rdf:nodeID="node1h0i4rul4x3176">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -6520,13 +6520,13 @@ d’autorité de noms, etc.) ;
 	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">208</sh:order>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1h0i4rul4x2938"/>
+	<sh:ignoredProperties rdf:nodeID="node1h0i4rul4x3177"/>
 	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#Calendrier"/>
 	<sh:description xml:lang="fr">Type de calendrier utilisé pour exprimer un laps de temps (julien, grégorien, hégire...).</sh:description>
 	<rdfs:comment xml:lang="fr">Type de calendrier utilisé pour exprimer un laps de temps (julien, grégorien, hégire...).</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1h0i4rul4x2938">
+<rdf:Description rdf:nodeID="node1h0i4rul4x3177">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -6542,13 +6542,13 @@ d’autorité de noms, etc.) ;
 	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">209</sh:order>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1h0i4rul4x2939"/>
+	<sh:ignoredProperties rdf:nodeID="node1h0i4rul4x3178"/>
 	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#CategorieIdentitePublique"/>
 	<sh:description xml:lang="fr">Précision sur la nature du nom sur lequel est fondée l'identité publique (par exemple : nom réel, pseudonyme...) [code RDA-FR, 9.1.1]</sh:description>
 	<rdfs:comment xml:lang="fr">Précision sur la nature du nom sur lequel est fondée l'identité publique (par exemple : nom réel, pseudonyme...) [code RDA-FR, 9.1.1]</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1h0i4rul4x2939">
+<rdf:Description rdf:nodeID="node1h0i4rul4x3178">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
