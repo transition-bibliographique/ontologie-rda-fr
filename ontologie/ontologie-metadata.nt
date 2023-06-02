@@ -4,7 +4,6 @@
 <https://rdafr.fr/Regles#> <http://purl.org/dc/terms/description> "RDA-FR ontology is a formal representation, in classes and properties, expressed in OWL, for the univers of discours covered by the RDA-FR cataloguing code."@en .
 <https://rdafr.fr/Regles#> <http://www.w3.org/2000/01/rdf-schema#comment> "Version beta, partielle. Couvre la partie de l’ontologie RDA-FR relative aux classes : Agent, Agent collectif, Collectivité, Famille, Groupe informel, Personne, Identité publique."@fr .
 <https://rdafr.fr/Regles#> <http://www.w3.org/2002/07/owl#versionInfo> "0.1.0"@fr .
-<https://rdafr.fr/Regles#> <http://www.w3.org/2002/07/owl#versionIRI> <https://rdafr.fr/Rules#> .
 <https://rdafr.fr/Regles#> <http://purl.org/dc/terms/conformsTo> <https://www.w3.org/TR/shacl> .
 <https://rdafr.fr/Regles#> <http://purl.org/dc/terms/issued> "2023-04-22"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://rdafr.fr/Regles#> <http://purl.org/dc/terms/license> <https://www.etalab.gouv.fr/licence-ouverte-open-licence> .
