@@ -4440,6 +4440,2267 @@ rdafr:P300023 a owl:ObjectProperty;
   rdfs:label "est constitué d'une période"@fr;
   rdfs:range rdafr:C100021 .
 
+rdafrru:R4004 rdfs:seeAlso "2.3";
+  owl:versionInfo "0.2.0";
+  sh:description "Un titre est un mot, une locution, un caractère, ou un groupe de caractères qui, en général, figure sur une ressource bibliographique et qui nomme cette ressource ou les contenus individuels qui la composent."@fr,
+    "Un titre est un mot, une locution, un caractère, ou un groupe de caractères qui, en général, figure sur une ressource bibliographique et qui nomme cette ressource ou les contenus individuels qui la composent. [code RDA-FR, 2.3]"@fr;
+  sh:name "a pour titre"@fr;
+  sh:node rdafr:C100012;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630000 .
+
+rdafr:C100007 sh:property rdafrru:R4004, rdafrru:R4005, rdafrru:R4006, rdafrru:R4007,
+    rdafrru:R4008, rdafrru:R4009, rdafrru:R4010, rdafrru:R4011, rdafrru:R4012, rdafrru:R4013,
+    rdafrru:R4014, rdafrru:R4015, rdafrru:R4016, rdafrru:R4017, rdafrru:R4018, rdafrru:R4019,
+    rdafrru:R4020, rdafrru:R4021, rdafrru:R4022, rdafrru:R4023, rdafrru:R4024, rdafrru:R4025,
+    rdafrru:R4026, rdafrru:R4027, rdafrru:R4028, rdafrru:R4029, rdafrru:R4030, rdafrru:R4031,
+    rdafrru:R4032, rdafrru:R4033, rdafrru:R4034, rdafrru:R4035, rdafrru:R4036, rdafrru:R4037,
+    rdafrru:R4038, rdafrru:R4039, rdafrru:R4040, rdafrru:R4041, rdafrru:R4042, rdafrru:R4043,
+    rdafrru:R4044, rdafrru:R4045, rdafrru:R4046, rdafrru:R4047, rdafrru:R4048, rdafrru:R4049,
+    rdafrru:R4050, rdafrru:R4051, rdafrru:R4052, rdafrru:R4053, rdafrru:R4054, rdafrru:R4055,
+    rdafrru:R4056, rdafrru:R4057, rdafrru:R4058, rdafrru:R4059, rdafrru:R4060, rdafrru:R4061,
+    rdafrru:R4062, rdafrru:R4063, rdafrru:R4064, rdafrru:R4065, rdafrru:R4066, rdafrru:R4067,
+    rdafrru:R4068, rdafrru:R4069, rdafrru:R4070, rdafrru:R4071, rdafrru:R4072, rdafrru:R4073,
+    rdafrru:R4074, rdafrru:R4075, rdafrru:R4076, rdafrru:R4077, rdafrru:R4078, rdafrru:R4079,
+    rdafrru:R4080, rdafrru:R4081, rdafrru:R4082, rdafrru:R4083, rdafrru:R4084, rdafrru:R4085,
+    rdafrru:R4086, rdafrru:R4087, rdafrru:R4088, rdafrru:R4089, rdafrru:R4090, rdafrru:R4091,
+    rdafrru:R4092, rdafrru:R4093, rdafrru:R4094, rdafrru:R4095, rdafrru:R4096, rdafrru:R4097,
+    rdafrru:R4098, rdafrru:R4099, rdafrru:R4100, rdafrru:R4101, rdafrru:R4102, rdafrru:R4103,
+    rdafrru:R4104, rdafrru:R4105, rdafrru:R4106, rdafrru:R4107, rdafrru:R4108, rdafrru:R4109,
+    rdafrru:R4110, rdafrru:R4111, rdafrru:R4112, rdafrru:R4113, rdafrru:R4114, rdafrru:R4115,
+    rdafrru:R4116, rdafrru:R4117, rdafrru:R4118, rdafrru:R4119, rdafrru:R4120, rdafrru:R4121,
+    rdafrru:R4122, rdafrru:R4123, rdafrru:R4124, rdafrru:R4125, rdafrru:R4126, rdafrru:R4127,
+    rdafrru:R4128, rdafrru:R4129, rdafrru:R4130, rdafrru:R4131, rdafrru:R4132, rdafrru:R4133,
+    rdafrru:R4134, rdafrru:R4135, rdafrru:R4136, rdafrru:R4137, rdafrru:R4138, rdafrru:R4139,
+    rdafrru:R4140, rdafrru:R4141, rdafrru:R4142, rdafrru:R4143, rdafrru:R4144, rdafrru:R4145,
+    rdafrru:R4146, rdafrru:R4147, rdafrru:R4148, rdafrru:R4149, rdafrru:R4150, rdafrru:R4151,
+    rdafrru:R4152, rdafrru:R4153, rdafrru:R4154, rdafrru:R4155, rdafrru:R4156, rdafrru:R4157 .
+
+rdafr:P630000 a owl:ObjectProperty;
+  rdfs:comment "Un titre est un mot, une locution, un caractère, ou un groupe de caractères qui, en général, figure sur une ressource bibliographique et qui nomme cette ressource ou les contenus individuels qui la composent. [code RDA-FR, 2.3]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour titre"@fr;
+  rdfs:range rdafr:C100012;
+  rdafran:commentAboutRDAAlignment """Comment signaler correspondance avec reformulation et modifications diverses ?
+Version du Toolkit officiel obligatoire ?""" .
+
+rdafrru:R4005 rdfs:seeAlso "2.3.2";
+  owl:versionInfo "0.2.0";
+  sh:description "Un titre propre est le titre principal d’une manifestation, tel qu’il figure sur la source d’information privilégiée. Lorsqu’une manifestation réunit plusieurs contenus individuels, le titre propre est le titre collectif, quand il existe."@fr,
+    "Un titre propre est le titre principal d’une manifestation, tel qu’il figure sur la source d’information privilégiée. Lorsqu’une manifestation réunit plusieurs contenus individuels, le titre propre est le titre collectif, quand il existe. [code RDA-FR, 2.3.2]"@fr;
+  sh:maxCount 1;
+  sh:minCount 1;
+  sh:name "a pour titre propre"@fr;
+  sh:node rdafr:C100012;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630001 .
+
+rdafr:P630001 a owl:ObjectProperty;
+  rdfs:comment "Un titre propre est le titre principal d’une manifestation, tel qu’il figure sur la source d’information privilégiée. Lorsqu’une manifestation réunit plusieurs contenus individuels, le titre propre est le titre collectif, quand il existe. [code RDA-FR, 2.3.2]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour titre propre"@fr;
+  rdfs:range rdafr:C100012 .
+
+rdafrru:R4006 rdfs:seeAlso "2.3.3";
+  owl:versionInfo "0.2.0";
+  sh:description "Un titre propre parallèle est le titre propre dans une autre langue et/ou écriture présenté comme un équivalent du titre propre sur la même source que le titre propre."@fr,
+    "Un titre propre parallèle est le titre propre dans une autre langue et/ou écriture présenté comme un équivalent du titre propre sur la même source que le titre propre. [code RDA-FR, 2.3.3]"@fr;
+  sh:name "a pour titre propre parallèle"@fr;
+  sh:node rdafr:C100012;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630002 .
+
+rdafr:P630002 a owl:ObjectProperty;
+  rdfs:comment "Un titre propre parallèle est le titre propre dans une autre langue et/ou écriture présenté comme un équivalent du titre propre sur la même source que le titre propre. [code RDA-FR, 2.3.3]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour titre propre parallèle"@fr;
+  rdfs:range rdafr:C100012 .
+
+rdafrru:R4007 rdfs:seeAlso "2.3.4";
+  owl:versionInfo "0.2.0";
+  sh:class rdfs:Literal;
+  sh:datatype rdfs:Literal;
+  sh:description "Un complément du titre est un mot, une locution, un caractère, ou un groupe de caractères qui figure conjointement avec le titre propre, le(s) titre(s) parallèles ou les titres des œuvres distinctes contenues dans une ressource et qui leur est subordonné."@fr,
+    "Un complément du titre est un mot, une locution, un caractère, ou un groupe de caractères qui figure conjointement avec le titre propre, le(s) titre(s) parallèles ou les titres des œuvres distinctes contenues dans une ressource et qui leur est subordonné. [code RDA-FR, 2.3.4]"@fr;
+  sh:name "a pour complément du titre"@fr;
+  sh:nodeKind sh:Literal;
+  sh:path rdafr:P630003 .
+
+rdafr:P630003 a owl:DatatypeProperty;
+  rdfs:comment "Un complément du titre est un mot, une locution, un caractère, ou un groupe de caractères qui figure conjointement avec le titre propre, le(s) titre(s) parallèles ou les titres des œuvres distinctes contenues dans une ressource et qui leur est subordonné. [code RDA-FR, 2.3.4]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour complément du titre"@fr;
+  rdfs:range rdfs:Literal .
+
+rdafrru:R4008 rdfs:seeAlso "2.3.5";
+  owl:versionInfo "0.2.0";
+  sh:class rdfs:Literal;
+  sh:datatype rdfs:Literal;
+  sh:description "Un complément du titre parallèle est un complément du titre dans une langue et/ou une écriture différentes de celles enregistrées dans l’élément Complément du titre."@fr,
+    "Un complément du titre parallèle est un complément du titre dans une langue et/ou une écriture différentes de celles enregistrées dans l’élément Complément du titre. [code RDA-FR, 2.3.5]"@fr;
+  sh:name "a pour complément du titre parallèle"@fr;
+  sh:nodeKind sh:Literal;
+  sh:path rdafr:P630004 .
+
+rdafr:P630004 a owl:DatatypeProperty;
+  rdfs:comment "Un complément du titre parallèle est un complément du titre dans une langue et/ou une écriture différentes de celles enregistrées dans l’élément Complément du titre. [code RDA-FR, 2.3.5]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour complément du titre parallèle"@fr;
+  rdfs:range rdfs:Literal .
+
+rdafrru:R4009 rdfs:seeAlso "2.3.6";
+  owl:versionInfo "0.2.0";
+  sh:class rdfs:Literal;
+  sh:datatype rdfs:Literal;
+  sh:description "Une variante de titre est un titre associé à une ressource et qui diffère du titre enregistré comme titre propre, titre propre parallèle, complément du titre, complément du titre parallèle, titre propre antérieur, titre propre ultérieur, titre-clé ou titre abrégé."@fr,
+    "Une variante de titre est un titre associé à une ressource et qui diffère du titre enregistré comme titre propre, titre propre parallèle, complément du titre, complément du titre parallèle, titre propre antérieur, titre propre ultérieur, titre-clé ou titre abrégé. [code RDA-FR, 2.3.6]"@fr;
+  sh:name "a pour variante de titre"@fr;
+  sh:nodeKind sh:Literal;
+  sh:path rdafr:P630005 .
+
+rdafr:P630005 a owl:DatatypeProperty;
+  rdfs:comment "Une variante de titre est un titre associé à une ressource et qui diffère du titre enregistré comme titre propre, titre propre parallèle, complément du titre, complément du titre parallèle, titre propre antérieur, titre propre ultérieur, titre-clé ou titre abrégé. [code RDA-FR, 2.3.6]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour variante de titre"@fr;
+  rdfs:range rdfs:Literal .
+
+rdafrru:R4010 rdfs:seeAlso "2.3.7";
+  owl:versionInfo "0.2.0";
+  sh:class rdfs:Literal;
+  sh:datatype rdfs:Literal;
+  sh:description "Un titre propre antérieur est un titre propre figurant sur une itération de ressource intégratrice antérieure à celle qui a servi de base à la description initiale et qui diffère du titre propre choisi lors de cette description initiale."@fr,
+    "Un titre propre antérieur est un titre propre figurant sur une itération de ressource intégratrice antérieure à celle qui a servi de base à la description initiale et qui diffère du titre propre choisi lors de cette description initiale. [code RDA-FR, 2.3.7]"@fr;
+  sh:name "a pour titre propre antérieur"@fr;
+  sh:nodeKind sh:Literal;
+  sh:path rdafr:P630006 .
+
+rdafr:P630006 a owl:DatatypeProperty;
+  rdfs:comment "Un titre propre antérieur est un titre propre figurant sur une itération de ressource intégratrice antérieure à celle qui a servi de base à la description initiale et qui diffère du titre propre choisi lors de cette description initiale. [code RDA-FR, 2.3.7]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour titre propre antérieur"@fr;
+  rdfs:range rdfs:Literal .
+
+rdafrru:R4011 rdfs:seeAlso "2.3.8";
+  owl:versionInfo "0.2.0";
+  sh:class rdfs:Literal;
+  sh:datatype rdfs:Literal;
+  sh:description "Un titre propre ultérieur est un titre propre figurant sur une livraison ou partie ultérieure d’une monographie en plusieurs parties ou d’une publication en série et qui diffère de celui figurant sur la première ou la plus ancienne livraison ou partie."@fr,
+    "Un titre propre ultérieur est un titre propre figurant sur une livraison ou partie ultérieure d’une monographie en plusieurs parties ou d’une publication en série et qui diffère de celui figurant sur la première ou la plus ancienne livraison ou partie. [code RDA-FR, 2.3.8]"@fr;
+  sh:name "a pour titre propre ultérieur"@fr;
+  sh:nodeKind sh:Literal;
+  sh:path rdafr:P630007 .
+
+rdafr:P630007 a owl:DatatypeProperty;
+  rdfs:comment "Un titre propre ultérieur est un titre propre figurant sur une livraison ou partie ultérieure d’une monographie en plusieurs parties ou d’une publication en série et qui diffère de celui figurant sur la première ou la plus ancienne livraison ou partie. [code RDA-FR, 2.3.8]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour titre propre ultérieur"@fr;
+  rdfs:range rdfs:Literal .
+
+rdafrru:R4012 rdfs:seeAlso "2.3.9";
+  owl:versionInfo "0.2.0";
+  sh:class rdfs:Literal;
+  sh:datatype rdfs:Literal;
+  sh:description "Un titre-clé est le nom unique attribué à une ressource par l’autorité d’enregistrement de l’ISSN."@fr,
+    "Un titre-clé est le nom unique attribué à une ressource par l’autorité d’enregistrement de l’ISSN. [code RDA-FR, 2.3.9]"@fr;
+  sh:maxCount 1;
+  sh:name "a pour titre-clé"@fr;
+  sh:nodeKind sh:Literal;
+  sh:path rdafr:P630008 .
+
+rdafr:P630008 a owl:DatatypeProperty;
+  rdfs:comment "Un titre-clé est le nom unique attribué à une ressource par l’autorité d’enregistrement de l’ISSN. [code RDA-FR, 2.3.9]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour titre-clé"@fr;
+  rdfs:range rdfs:Literal .
+
+rdafrru:R4013 rdfs:seeAlso "2.3.10";
+  owl:versionInfo "0.2.0";
+  sh:class rdfs:Literal;
+  sh:datatype rdfs:Literal;
+  sh:description """Un titre abrégé est un titre qui a été abrégé à des fins d’indexation ou d’identification.
+Un titre abrégé est créé soit par l’agence préparant la description, soit par une autre agence (par exemple, l’autorité d’enregistrement de l’ISSN, un service d’analyse ou d’indexation)."""@fr,
+    """Un titre abrégé est un titre qui a été abrégé à des fins d’indexation ou d’identification.
+Un titre abrégé est créé soit par l’agence préparant la description, soit par une autre agence (par exemple, l’autorité d’enregistrement de l’ISSN, un service d’analyse ou d’indexation). [code RDA-FR, 2.3.10]"""@fr;
+  sh:maxCount 1;
+  sh:name "a pour titre abrégé"@fr;
+  sh:nodeKind sh:Literal;
+  sh:path rdafr:P630009 .
+
+rdafr:P630009 a owl:DatatypeProperty;
+  rdfs:comment """Un titre abrégé est un titre qui a été abrégé à des fins d’indexation ou d’identification.
+Un titre abrégé est créé soit par l’agence préparant la description, soit par une autre agence (par exemple, l’autorité d’enregistrement de l’ISSN, un service d’analyse ou d’indexation). [code RDA-FR, 2.3.10]"""@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour titre abrégé"@fr;
+  rdfs:range rdfs:Literal .
+
+rdafrru:R4014 rdfs:seeAlso "2.4";
+  owl:versionInfo "0.2.0";
+  sh:class rdfs:Literal;
+  sh:datatype rdfs:Literal;
+  sh:description "Une mention de responsabilité est une mention figurant sur la ressource et relative à l’identification et/ou à la fonction de toute personne, famille ou collectivité responsable de la création, ou ayant contribué à la réalisation du contenu intellectuel ou artistique de cette ressource."@fr,
+    "Une mention de responsabilité est une mention figurant sur la ressource et relative à l’identification et/ou à la fonction de toute personne, famille ou collectivité responsable de la création, ou ayant contribué à la réalisation du contenu intellectuel ou artistique de cette ressource. [code RDA-FR, 2.4]"@fr;
+  sh:name "a pour mention de responsabilité"@fr;
+  sh:nodeKind sh:Literal;
+  sh:path rdafr:P630010 .
+
+rdafr:P630010 a owl:DatatypeProperty;
+  rdfs:comment "Une mention de responsabilité est une mention figurant sur la ressource et relative à l’identification et/ou à la fonction de toute personne, famille ou collectivité responsable de la création, ou ayant contribué à la réalisation du contenu intellectuel ou artistique de cette ressource. [code RDA-FR, 2.4]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour mention de responsabilité"@fr;
+  rdfs:range rdfs:Literal .
+
+rdafrru:R4015 rdfs:seeAlso "2.4.2";
+  owl:versionInfo "0.2.0";
+  sh:class rdfs:Literal;
+  sh:datatype rdfs:Literal;
+  sh:description """Une mention de responsabilité relative au titre propre est une mention associée au titre propre d’une ressource et relative à l’identification et/ou à la fonction de toute personne, famille ou collectivité responsable de la création, ou ayant contribué à la réalisation du contenu intellectuel ou artistique d’une ressource.
+Par extension, cette définition inclut les mentions de responsabilité associées aux titres individuels contenus dans une manifestation agrégative sans titre collectif."""@fr,
+    """Une mention de responsabilité relative au titre propre est une mention associée au titre propre d’une ressource et relative à l’identification et/ou à la fonction de toute personne, famille ou collectivité responsable de la création, ou ayant contribué à la réalisation du contenu intellectuel ou artistique d’une ressource.
+Par extension, cette définition inclut les mentions de responsabilité associées aux titres individuels contenus dans une manifestation agrégative sans titre collectif. [code RDA-FR, 2.4.2]"""@fr;
+  sh:minCount 1;
+  sh:name "a pour mention de responsabilité relative au titre propre"@fr;
+  sh:nodeKind sh:Literal;
+  sh:path rdafr:P630011 .
+
+rdafr:P630011 a owl:DatatypeProperty;
+  rdfs:comment """Une mention de responsabilité relative au titre propre est une mention associée au titre propre d’une ressource et relative à l’identification et/ou à la fonction de toute personne, famille ou collectivité responsable de la création, ou ayant contribué à la réalisation du contenu intellectuel ou artistique d’une ressource.
+Par extension, cette définition inclut les mentions de responsabilité associées aux titres individuels contenus dans une manifestation agrégative sans titre collectif. [code RDA-FR, 2.4.2]"""@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour mention de responsabilité relative au titre propre"@fr;
+  rdfs:range rdfs:Literal .
+
+rdafrru:R4016 rdfs:seeAlso "2.4.3";
+  owl:versionInfo "0.2.0";
+  sh:class rdfs:Literal;
+  sh:datatype rdfs:Literal;
+  sh:description "Une mention de responsabilité parallèle relative au titre propre est une mention de responsabilité relative au titre propre dans une langue et/ou une écriture différentes de celles enregistrées dans l’élément Mention de responsabilité relative au titre propre."@fr,
+    "Une mention de responsabilité parallèle relative au titre propre est une mention de responsabilité relative au titre propre dans une langue et/ou une écriture différentes de celles enregistrées dans l’élément Mention de responsabilité relative au titre propre. [code RDA-FR, 2.4.3]"@fr;
+  sh:name "a pour mention de responsabilité parallèle relative au titre propre"@fr;
+  sh:nodeKind sh:Literal;
+  sh:path rdafr:P630012 .
+
+rdafr:P630012 a owl:DatatypeProperty;
+  rdfs:comment "Une mention de responsabilité parallèle relative au titre propre est une mention de responsabilité relative au titre propre dans une langue et/ou une écriture différentes de celles enregistrées dans l’élément Mention de responsabilité relative au titre propre. [code RDA-FR, 2.4.3]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour mention de responsabilité parallèle relative au titre propre"@fr;
+  rdfs:range rdfs:Literal .
+
+rdafrru:R4017 rdfs:seeAlso "2.5";
+  owl:versionInfo "0.2.0";
+  sh:class rdfs:Literal;
+  sh:datatype rdfs:Literal;
+  sh:description """Une mention d’édition est une mention qui identifie une édition à laquelle appartient une manifestation.
+Une édition est un lot d'exemplaires d'une ressource, identifié par une désignation pouvant prendre diverses formes, émis par la même maison d'édition ou de production, et produit sur un même support à partir d'une même matrice."""@fr,
+    """Une mention d’édition est une mention qui identifie une édition à laquelle appartient une manifestation.
+Une édition est un lot d'exemplaires d'une ressource, identifié par une désignation pouvant prendre diverses formes, émis par la même maison d'édition ou de production, et produit sur un même support à partir d'une même matrice. [code RDA-FR, 2.5]"""@fr;
+  sh:name "a pour mention d’édition"@fr;
+  sh:nodeKind sh:Literal;
+  sh:path rdafr:P630013 .
+
+rdafr:P630013 a owl:DatatypeProperty;
+  rdfs:comment """Une mention d’édition est une mention qui identifie une édition à laquelle appartient une manifestation.
+Une édition est un lot d'exemplaires d'une ressource, identifié par une désignation pouvant prendre diverses formes, émis par la même maison d'édition ou de production, et produit sur un même support à partir d'une même matrice. [code RDA-FR, 2.5]"""@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour mention d’édition"@fr;
+  rdfs:range rdfs:Literal .
+
+rdafrru:R4018 rdfs:seeAlso "2.5.2";
+  owl:versionInfo "0.2.0";
+  sh:class rdfs:Literal;
+  sh:datatype rdfs:Literal;
+  sh:description "La désignation de l’édition est un mot, caractère ou groupe de mots ou de caractères qui identifie une édition à laquelle appartient une manifestation."@fr,
+    "La désignation de l’édition est un mot, caractère ou groupe de mots ou de caractères qui identifie une édition à laquelle appartient une manifestation. [code RDA-FR, 2.5.2]"@fr;
+  sh:maxCount 1;
+  sh:minCount 1;
+  sh:name "a pour désignation de l’édition"@fr;
+  sh:nodeKind sh:Literal;
+  sh:path rdafr:P630014 .
+
+rdafr:P630014 a owl:DatatypeProperty;
+  rdfs:comment "La désignation de l’édition est un mot, caractère ou groupe de mots ou de caractères qui identifie une édition à laquelle appartient une manifestation. [code RDA-FR, 2.5.2]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour désignation de l’édition"@fr;
+  rdfs:range rdfs:Literal .
+
+rdafrru:R4019 rdfs:seeAlso "2.5.3";
+  owl:versionInfo "0.2.0";
+  sh:class rdfs:Literal;
+  sh:datatype rdfs:Literal;
+  sh:description "Une désignation parallèle de l’édition est une désignation de l’édition dans une langue ou une écriture différentes de celles enregistrées dans l'élément Désignation de l'édition."@fr,
+    "Une désignation parallèle de l’édition est une désignation de l’édition dans une langue ou une écriture différentes de celles enregistrées dans l'élément Désignation de l'édition. [code RDA-FR, 2.5.3]"@fr;
+  sh:name "a pour désignation parallèle de l’édition"@fr;
+  sh:nodeKind sh:Literal;
+  sh:path rdafr:P630015 .
+
+rdafr:P630015 a owl:DatatypeProperty;
+  rdfs:comment "Une désignation parallèle de l’édition est une désignation de l’édition dans une langue ou une écriture différentes de celles enregistrées dans l'élément Désignation de l'édition. [code RDA-FR, 2.5.3]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour désignation parallèle de l’édition"@fr;
+  rdfs:range rdfs:Literal .
+
+rdafrru:R4020 rdfs:seeAlso "2.5.4";
+  owl:versionInfo "0.2.0";
+  sh:class rdfs:Literal;
+  sh:datatype rdfs:Literal;
+  sh:description "Une mention de responsabilité relative à l’édition est une mention relative à l’identification des agents responsables de la seule édition décrite."@fr,
+    "Une mention de responsabilité relative à l’édition est une mention relative à l’identification des agents responsables de la seule édition décrite. [code RDA-FR, 2.5.4]"@fr;
+  sh:name "a pour mention de responsabilité relative à l’édition"@fr;
+  sh:nodeKind sh:Literal;
+  sh:path rdafr:P630016 .
+
+rdafr:P630016 a owl:DatatypeProperty;
+  rdfs:comment "Une mention de responsabilité relative à l’édition est une mention relative à l’identification des agents responsables de la seule édition décrite. [code RDA-FR, 2.5.4]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour mention de responsabilité relative à l’édition"@fr;
+  rdfs:range rdfs:Literal .
+
+rdafrru:R4021 rdfs:seeAlso "2.5.5";
+  owl:versionInfo "0.2.0";
+  sh:class rdfs:Literal;
+  sh:datatype rdfs:Literal;
+  sh:description "Une mention de responsabilité parallèle relative à l’édition est une mention de responsabilité relative à l’édition dans une langue ou une écriture différentes de celles enregistrées dans l'élément Mention de responsabilité relative à l'édition."@fr,
+    "Une mention de responsabilité parallèle relative à l’édition est une mention de responsabilité relative à l’édition dans une langue ou une écriture différentes de celles enregistrées dans l'élément Mention de responsabilité relative à l'édition. [code RDA-FR, 2.5.5]"@fr;
+  sh:name "a pour mention de responsabilité parallèle relative à l’édition"@fr;
+  sh:nodeKind sh:Literal;
+  sh:path rdafr:P630017 .
+
+rdafr:P630017 a owl:DatatypeProperty;
+  rdfs:comment "Une mention de responsabilité parallèle relative à l’édition est une mention de responsabilité relative à l’édition dans une langue ou une écriture différentes de celles enregistrées dans l'élément Mention de responsabilité relative à l'édition. [code RDA-FR, 2.5.5]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour mention de responsabilité parallèle relative à l’édition"@fr;
+  rdfs:range rdfs:Literal .
+
+rdafrru:R4022 rdfs:seeAlso "2.5.6";
+  owl:versionInfo "0.2.0";
+  sh:class rdfs:Literal;
+  sh:datatype rdfs:Literal;
+  sh:description "Une autre désignation de l’édition est un mot, caractère ou groupe de mots ou de caractères qui identifie une révision particulière d’une édition nommée."@fr,
+    "Une autre désignation de l’édition est un mot, caractère ou groupe de mots ou de caractères qui identifie une révision particulière d’une édition nommée. [code RDA-FR, 2.5.6]"@fr;
+  sh:minCount 1;
+  sh:name "a pour autre désignation de l’édition"@fr;
+  sh:nodeKind sh:Literal;
+  sh:path rdafr:P630018 .
+
+rdafr:P630018 a owl:DatatypeProperty;
+  rdfs:comment "Une autre désignation de l’édition est un mot, caractère ou groupe de mots ou de caractères qui identifie une révision particulière d’une édition nommée. [code RDA-FR, 2.5.6]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour autre désignation de l’édition"@fr;
+  rdfs:range rdfs:Literal .
+
+rdafrru:R4023 rdfs:seeAlso "2.5.7";
+  owl:versionInfo "0.2.0";
+  sh:class rdfs:Literal;
+  sh:datatype rdfs:Literal;
+  sh:description "Une autre désignation parallèle de l’édition est une autre désignation de l’édition dans une langue ou une écriture différentes de celles enregistrées dans l'élément Autre désignation de l'édition."@fr,
+    "Une autre désignation parallèle de l’édition est une autre désignation de l’édition dans une langue ou une écriture différentes de celles enregistrées dans l'élément Autre désignation de l'édition. [code RDA-FR, 2.5.7]"@fr;
+  sh:name "a pour autre désignation parallèle de l’édition"@fr;
+  sh:nodeKind sh:Literal;
+  sh:path rdafr:P630019 .
+
+rdafr:P630019 a owl:DatatypeProperty;
+  rdfs:comment "Une autre désignation parallèle de l’édition est une autre désignation de l’édition dans une langue ou une écriture différentes de celles enregistrées dans l'élément Autre désignation de l'édition. [code RDA-FR, 2.5.7]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour autre désignation parallèle de l’édition"@fr;
+  rdfs:range rdfs:Literal .
+
+rdafrru:R4024 rdfs:seeAlso "2.5.8";
+  owl:versionInfo "0.2.0";
+  sh:class rdfs:Literal;
+  sh:datatype rdfs:Literal;
+  sh:description "Une mention de responsabilité relative à une autre désignation de l’édition est une mention relative à l’identification des agents responsables d’une autre désignation de l’édition."@fr,
+    "Une mention de responsabilité relative à une autre désignation de l’édition est une mention relative à l’identification des agents responsables d’une autre désignation de l’édition. [code RDA-FR, 2.5.8]"@fr;
+  sh:name "a pour mention de responsabilité relative à une autre désignation de l’édition"@fr;
+  sh:nodeKind sh:Literal;
+  sh:path rdafr:P630020 .
+
+rdafr:P630020 a owl:DatatypeProperty;
+  rdfs:comment "Une mention de responsabilité relative à une autre désignation de l’édition est une mention relative à l’identification des agents responsables d’une autre désignation de l’édition. [code RDA-FR, 2.5.8]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour mention de responsabilité relative à une autre désignation de l’édition"@fr;
+  rdfs:range rdfs:Literal .
+
+rdafrru:R4025 rdfs:seeAlso "2.5.9";
+  owl:versionInfo "0.2.0";
+  sh:class rdfs:Literal;
+  sh:datatype rdfs:Literal;
+  sh:description "Une mention de responsabilité parallèle relative à une autre désignation de l’édition est une mention de responsabilité relative à une autre désignation de l’édition dans une langue ou une écriture différentes de celles enregistrées dans l'élément Mention de responsabilité relative à une autre désignation de l'édition."@fr,
+    "Une mention de responsabilité parallèle relative à une autre désignation de l’édition est une mention de responsabilité relative à une autre désignation de l’édition dans une langue ou une écriture différentes de celles enregistrées dans l'élément Mention de responsabilité relative à une autre désignation de l'édition. [code RDA-FR, 2.5.9]"@fr;
+  sh:name "a pour mention de responsabilité parallèle relative à une autre désignation de l’édition"@fr;
+  sh:nodeKind sh:Literal;
+  sh:path rdafr:P630021 .
+
+rdafr:P630021 a owl:DatatypeProperty;
+  rdfs:comment "Une mention de responsabilité parallèle relative à une autre désignation de l’édition est une mention de responsabilité relative à une autre désignation de l’édition dans une langue ou une écriture différentes de celles enregistrées dans l'élément Mention de responsabilité relative à une autre désignation de l'édition. [code RDA-FR, 2.5.9]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour mention de responsabilité parallèle relative à une autre désignation de l’édition"@fr;
+  rdfs:range rdfs:Literal .
+
+rdafrru:R4026 rdfs:seeAlso "2.7";
+  owl:versionInfo "0.2.0";
+  sh:class rdfs:Literal;
+  sh:datatype rdfs:Literal;
+  sh:description "Une mention de production est une mention identifiant le ou les lieux de production, le ou les producteurs et la ou les dates de production d’une ressource sous une forme non publiée (par exemple, un manuscrit, un dessin, un état d’estampe avant publication, un négatif photographique, un enregistrement produit localement, une vidéo institutionnelle, un document de littérature grise)."@fr,
+    "Une mention de production est une mention identifiant le ou les lieux de production, le ou les producteurs et la ou les dates de production d’une ressource sous une forme non publiée (par exemple, un manuscrit, un dessin, un état d’estampe avant publication, un négatif photographique, un enregistrement produit localement, une vidéo institutionnelle, un document de littérature grise). [code RDA-FR, 2.7]"@fr;
+  sh:name "a pour mention de production"@fr;
+  sh:nodeKind sh:Literal;
+  sh:path rdafr:P630022 .
+
+rdafr:P630022 a owl:DatatypeProperty;
+  rdfs:comment "Une mention de production est une mention identifiant le ou les lieux de production, le ou les producteurs et la ou les dates de production d’une ressource sous une forme non publiée (par exemple, un manuscrit, un dessin, un état d’estampe avant publication, un négatif photographique, un enregistrement produit localement, une vidéo institutionnelle, un document de littérature grise). [code RDA-FR, 2.7]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour mention de production"@fr;
+  rdfs:range rdfs:Literal .
+
+rdafrru:R4027 rdfs:seeAlso "2.7.2";
+  owl:versionInfo "0.2.0";
+  sh:class rdfs:Literal;
+  sh:datatype rdfs:Literal;
+  sh:description "Un lieu de production est un lieu associé à l’inscription matérielle, l’enregistrement, la fabrication, la construction, etc. d’une ressource sous une forme non publiée."@fr,
+    "Un lieu de production est un lieu associé à l’inscription matérielle, l’enregistrement, la fabrication, la construction, etc. d’une ressource sous une forme non publiée. [code RDA-FR, 2.7.2]"@fr;
+  sh:name "a pour lieu de production"@fr;
+  sh:nodeKind sh:Literal;
+  sh:path rdafr:P630023 .
+
+rdafr:P630023 a owl:DatatypeProperty;
+  rdfs:comment "Un lieu de production est un lieu associé à l’inscription matérielle, l’enregistrement, la fabrication, la construction, etc. d’une ressource sous une forme non publiée. [code RDA-FR, 2.7.2]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour lieu de production"@fr;
+  rdfs:range rdfs:Literal .
+
+rdafrru:R4028 rdfs:seeAlso "2.7.3";
+  owl:versionInfo "0.2.0";
+  sh:class rdfs:Literal;
+  sh:datatype rdfs:Literal;
+  sh:description "Une forme parallèle du lieu de production est un lieu de production dans une langue et/ou une écriture différentes de celles enregistrées dans l’élément Lieu de production."@fr,
+    "Une forme parallèle du lieu de production est un lieu de production dans une langue et/ou une écriture différentes de celles enregistrées dans l’élément Lieu de production. [code RDA-FR, 2.7.3]"@fr;
+  sh:name "a pour forme parallèle du lieu de production"@fr;
+  sh:nodeKind sh:Literal;
+  sh:path rdafr:P630024 .
+
+rdafr:P630024 a owl:DatatypeProperty;
+  rdfs:comment "Une forme parallèle du lieu de production est un lieu de production dans une langue et/ou une écriture différentes de celles enregistrées dans l’élément Lieu de production. [code RDA-FR, 2.7.3]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour forme parallèle du lieu de production"@fr;
+  rdfs:range rdfs:Literal .
+
+rdafrru:R4029 rdfs:seeAlso "2.7.4";
+  owl:versionInfo "0.2.0";
+  sh:class rdfs:Literal;
+  sh:datatype rdfs:Literal;
+  sh:description "Le nom du producteur est le nom d’une personne, d’une famille ou d’une collectivité responsable de l’inscription matérielle, de l’enregistrement, de la fabrication, de la construction, etc. d’une ressource sous une forme non publiée."@fr,
+    "Le nom du producteur est le nom d’une personne, d’une famille ou d’une collectivité responsable de l’inscription matérielle, de l’enregistrement, de la fabrication, de la construction, etc. d’une ressource sous une forme non publiée. [code RDA-FR, 2.7.4]"@fr;
+  sh:name "a pour nom du producteur"@fr;
+  sh:nodeKind sh:Literal;
+  sh:path rdafr:P630025 .
+
+rdafr:P630025 a owl:DatatypeProperty;
+  rdfs:comment "Le nom du producteur est le nom d’une personne, d’une famille ou d’une collectivité responsable de l’inscription matérielle, de l’enregistrement, de la fabrication, de la construction, etc. d’une ressource sous une forme non publiée. [code RDA-FR, 2.7.4]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour nom du producteur"@fr;
+  rdfs:range rdfs:Literal .
+
+rdafrru:R4030 rdfs:seeAlso "2.7.5";
+  owl:versionInfo "0.2.0";
+  sh:class rdfs:Literal;
+  sh:datatype rdfs:Literal;
+  sh:description "Une forme parallèle du nom du producteur est un nom de producteur (voir 2.7.4.1) dans une langue et/ou une écriture différentes de celles enregistrées dans l’élément Nom du producteur."@fr,
+    "Une forme parallèle du nom du producteur est un nom de producteur (voir 2.7.4.1) dans une langue et/ou une écriture différentes de celles enregistrées dans l’élément Nom du producteur. [code RDA-FR, 2.7.5]"@fr;
+  sh:name "a pour forme parallèle du nom du producteur"@fr;
+  sh:nodeKind sh:Literal;
+  sh:path rdafr:P630026 .
+
+rdafr:P630026 a owl:DatatypeProperty;
+  rdfs:comment "Une forme parallèle du nom du producteur est un nom de producteur (voir 2.7.4.1) dans une langue et/ou une écriture différentes de celles enregistrées dans l’élément Nom du producteur. [code RDA-FR, 2.7.5]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour forme parallèle du nom du producteur"@fr;
+  rdfs:range rdfs:Literal .
+
+rdafrru:R4031 rdfs:seeAlso "2.7.6";
+  owl:versionInfo "0.2.0";
+  sh:class rdfs:Literal;
+  sh:datatype rdfs:Literal;
+  sh:description "Une date de production est une date associée à l’inscription matérielle, l’enregistrement, la fabrication, la construction, etc. d’une ressource sous une forme non publiée."@fr,
+    "Une date de production est une date associée à l’inscription matérielle, l’enregistrement, la fabrication, la construction, etc. d’une ressource sous une forme non publiée. [code RDA-FR, 2.7.6]"@fr;
+  sh:minCount 1;
+  sh:name "a pour date de production"@fr;
+  sh:nodeKind sh:Literal;
+  sh:path rdafr:P630027 .
+
+rdafr:P630027 a owl:DatatypeProperty;
+  rdfs:comment "Une date de production est une date associée à l’inscription matérielle, l’enregistrement, la fabrication, la construction, etc. d’une ressource sous une forme non publiée. [code RDA-FR, 2.7.6]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour date de production"@fr;
+  rdfs:range rdfs:Literal .
+
+rdafrru:R4032 rdfs:seeAlso "2.7.7";
+  owl:versionInfo "0.2.0";
+  sh:description """Une date de production sous forme normalisée est une date associée à l’inscription matérielle, l’enregistrement, la fabrication, la construction, etc. d’une ressource sous une forme non publiée, enregistrée selon la norme ISO 8601 Représentation de la date et de l'heure. 
+Une date de production sous forme normalisée peut être une date plus précise que la date transcrite dans l’élément Date de production, si l’on dispose de l’information à partir d’une source fiable."""@fr,
+    """Une date de production sous forme normalisée est une date associée à l’inscription matérielle, l’enregistrement, la fabrication, la construction, etc. d’une ressource sous une forme non publiée, enregistrée selon la norme ISO 8601 Représentation de la date et de l'heure. 
+Une date de production sous forme normalisée peut être une date plus précise que la date transcrite dans l’élément Date de production, si l’on dispose de l’information à partir d’une source fiable. [code RDA-FR, 2.7.7]"""@fr;
+  sh:name "a pour date de production sous forme normalisée"@fr;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630028 .
+
+rdafr:P630028 a owl:ObjectProperty;
+  rdfs:comment """Une date de production sous forme normalisée est une date associée à l’inscription matérielle, l’enregistrement, la fabrication, la construction, etc. d’une ressource sous une forme non publiée, enregistrée selon la norme ISO 8601 Représentation de la date et de l'heure. 
+Une date de production sous forme normalisée peut être une date plus précise que la date transcrite dans l’élément Date de production, si l’on dispose de l’information à partir d’une source fiable. [code RDA-FR, 2.7.7]"""@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour date de production sous forme normalisée"@fr .
+
+rdafrru:R4033 rdfs:seeAlso "2.8";
+  owl:versionInfo "0.2.0";
+  sh:class rdfs:Literal;
+  sh:datatype rdfs:Literal;
+  sh:description """Une mention de publication est une mention identifiant le ou les lieux de publication, le ou les éditeurs et la ou les dates de publication d’une ressource.
+Les mentions de publication comprennent les mentions relatives à la publication, à la mise à disposition ou à l’émission d’une ressource."""@fr,
+    """Une mention de publication est une mention identifiant le ou les lieux de publication, le ou les éditeurs et la ou les dates de publication d’une ressource.
+Les mentions de publication comprennent les mentions relatives à la publication, à la mise à disposition ou à l’émission d’une ressource. [code RDA-FR, 2.8]"""@fr;
+  sh:name "a pour mention de publication"@fr;
+  sh:nodeKind sh:Literal;
+  sh:path rdafr:P630029 .
+
+rdafr:P630029 a owl:DatatypeProperty;
+  rdfs:comment """Une mention de publication est une mention identifiant le ou les lieux de publication, le ou les éditeurs et la ou les dates de publication d’une ressource.
+Les mentions de publication comprennent les mentions relatives à la publication, à la mise à disposition ou à l’émission d’une ressource. [code RDA-FR, 2.8]"""@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour mention de publication"@fr;
+  rdfs:range rdfs:Literal .
+
+rdafrru:R4034 rdfs:seeAlso "2.8.2";
+  owl:versionInfo "0.2.0";
+  sh:class rdfs:Literal;
+  sh:datatype rdfs:Literal;
+  sh:description "Un lieu de publication est un lieu associé à la publication, la mise à disposition ou l’émission d’une ressource."@fr,
+    "Un lieu de publication est un lieu associé à la publication, la mise à disposition ou l’émission d’une ressource. [code RDA-FR, 2.8.2]"@fr;
+  sh:minCount 1;
+  sh:name "a pour lieu de publication"@fr;
+  sh:nodeKind sh:Literal;
+  sh:path rdafr:P630030 .
+
+rdafr:P630030 a owl:DatatypeProperty;
+  rdfs:comment "Un lieu de publication est un lieu associé à la publication, la mise à disposition ou l’émission d’une ressource. [code RDA-FR, 2.8.2]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour lieu de publication"@fr;
+  rdfs:range rdfs:Literal .
+
+rdafrru:R4035 rdfs:seeAlso "2.8.3";
+  owl:versionInfo "0.2.0";
+  sh:class rdfs:Literal;
+  sh:datatype rdfs:Literal;
+  sh:description "Une forme parallèle du lieu de publication est un lieu de publication dans une langue et/ou une écriture différentes de celles enregistrées dans l’élément Lieu de publication."@fr,
+    "Une forme parallèle du lieu de publication est un lieu de publication dans une langue et/ou une écriture différentes de celles enregistrées dans l’élément Lieu de publication. [code RDA-FR, 2.8.3]"@fr;
+  sh:name "a pour forme parallèle du lieu de publication"@fr;
+  sh:nodeKind sh:Literal;
+  sh:path rdafr:P630031 .
+
+rdafr:P630031 a owl:DatatypeProperty;
+  rdfs:comment "Une forme parallèle du lieu de publication est un lieu de publication dans une langue et/ou une écriture différentes de celles enregistrées dans l’élément Lieu de publication. [code RDA-FR, 2.8.3]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour forme parallèle du lieu de publication"@fr;
+  rdfs:range rdfs:Literal .
+
+rdafrru:R4036 rdfs:seeAlso "2.8.4";
+  sh:class rdfs:Literal;
+  sh:datatype rdfs:Literal;
+  sh:description """Une adresse complète de l’éditeur est une adresse qui précise le lieu de publication.
+Elle inclut le nom de la ville."""@fr,
+    """Une adresse complète de l’éditeur est une adresse qui précise le lieu de publication.
+Elle inclut le nom de la ville. [code RDA-FR, 2.8.4]"""@fr;
+  sh:name "a pour adresse complète de l’éditeur"@fr;
+  sh:nodeKind sh:Literal;
+  sh:path rdafr:P630032 .
+
+rdafr:P630032 a owl:DatatypeProperty;
+  rdfs:comment """Une adresse complète de l’éditeur est une adresse qui précise le lieu de publication.
+Elle inclut le nom de la ville. [code RDA-FR, 2.8.4]"""@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour adresse complète de l’éditeur"@fr;
+  rdfs:range rdfs:Literal .
+
+rdafrru:R4037 rdfs:seeAlso "2.8.5";
+  sh:class rdfs:Literal;
+  sh:datatype rdfs:Literal;
+  sh:description "Un nom d’éditeur est le nom d’une personne, d’une famille ou d’une collectivité responsable de la publication, de la mise à disposition ou de l’émission d’une ressource."@fr,
+    "Un nom d’éditeur est le nom d’une personne, d’une famille ou d’une collectivité responsable de la publication, de la mise à disposition ou de l’émission d’une ressource. [code RDA-FR, 2.8.5]"@fr;
+  sh:minCount 1;
+  sh:name "a pour nom de l’éditeur"@fr;
+  sh:nodeKind sh:Literal;
+  sh:path rdafr:P630033 .
+
+rdafr:P630033 a owl:DatatypeProperty;
+  rdfs:comment "Un nom d’éditeur est le nom d’une personne, d’une famille ou d’une collectivité responsable de la publication, de la mise à disposition ou de l’émission d’une ressource. [code RDA-FR, 2.8.5]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour nom de l’éditeur"@fr;
+  rdfs:range rdfs:Literal .
+
+rdafrru:R4038 rdfs:seeAlso "2.8.6";
+  sh:class rdfs:Literal;
+  sh:datatype rdfs:Literal;
+  sh:description "Une forme parallèle du nom de l’éditeur est un nom de l’éditeur dans une langue et/ou une écriture différentes de celles enregistrées dans l’élément Nom de l’éditeur."@fr,
+    "Une forme parallèle du nom de l’éditeur est un nom de l’éditeur dans une langue et/ou une écriture différentes de celles enregistrées dans l’élément Nom de l’éditeur. [code RDA-FR, 2.8.6]"@fr;
+  sh:name "a pour forme parallèle du nom de l’éditeur"@fr;
+  sh:nodeKind sh:Literal;
+  sh:path rdafr:P630034 .
+
+rdafr:P630034 a owl:DatatypeProperty;
+  rdfs:comment "Une forme parallèle du nom de l’éditeur est un nom de l’éditeur dans une langue et/ou une écriture différentes de celles enregistrées dans l’élément Nom de l’éditeur. [code RDA-FR, 2.8.6]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour forme parallèle du nom de l’éditeur"@fr;
+  rdfs:range rdfs:Literal .
+
+rdafrru:R4039 rdfs:seeAlso "2.8.7";
+  sh:class rdfs:Literal;
+  sh:datatype rdfs:Literal;
+  sh:description "Une date de publication est une date associée à la publication, à la mise à disposition ou à l’émission d’une ressource."@fr,
+    "Une date de publication est une date associée à la publication, à la mise à disposition ou à l’émission d’une ressource. [code RDA-FR, 2.8.7]"@fr;
+  sh:minCount 1;
+  sh:name "a pour date de publication"@fr;
+  sh:nodeKind sh:Literal;
+  sh:path rdafr:P630035 .
+
+rdafr:P630035 a owl:DatatypeProperty;
+  rdfs:comment "Une date de publication est une date associée à la publication, à la mise à disposition ou à l’émission d’une ressource. [code RDA-FR, 2.8.7]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour date de publication"@fr;
+  rdfs:range rdfs:Literal .
+
+rdafrru:R4040 rdfs:seeAlso "2.8.8";
+  sh:description """Une date de publication sous forme normalisée est une date associée à la publication, à la mise à disposition ou à l’émission d’une ressource (voir Date de publication), enregistrée selon la norme ISO 8601 Représentation de la date et de l'heure.
+Une date de publication sous forme normalisée peut être une date plus précise que la date transcrite dans l’élément Date de publication, si l’on dispose de l’information à partir d’une source fiable (par exemple, une date fournie par l’éditeur ou le distributeur de la ressource)."""@fr,
+    """Une date de publication sous forme normalisée est une date associée à la publication, à la mise à disposition ou à l’émission d’une ressource (voir Date de publication), enregistrée selon la norme ISO 8601 Représentation de la date et de l'heure.
+Une date de publication sous forme normalisée peut être une date plus précise que la date transcrite dans l’élément Date de publication, si l’on dispose de l’information à partir d’une source fiable (par exemple, une date fournie par l’éditeur ou le distributeur de la ressource). [code RDA-FR, 2.8.8]"""@fr;
+  sh:name "a pour date de publication sous forme normalisée"@fr;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630036 .
+
+rdafr:P630036 a owl:ObjectProperty;
+  rdfs:comment """Une date de publication sous forme normalisée est une date associée à la publication, à la mise à disposition ou à l’émission d’une ressource (voir Date de publication), enregistrée selon la norme ISO 8601 Représentation de la date et de l'heure.
+Une date de publication sous forme normalisée peut être une date plus précise que la date transcrite dans l’élément Date de publication, si l’on dispose de l’information à partir d’une source fiable (par exemple, une date fournie par l’éditeur ou le distributeur de la ressource). [code RDA-FR, 2.8.8]"""@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour date de publication sous forme normalisée"@fr .
+
+rdafrru:R4041 rdfs:seeAlso "2.9";
+  sh:class rdfs:Literal;
+  sh:datatype rdfs:Literal;
+  sh:description "Une mention de diffusion ou de distribution est une mention identifiant le ou les lieux de diffusion ou de distribution, le ou les diffuseurs ou distributeurs, et la ou les dates de diffusion ou de distribution d’une ressource sous une forme publiée ou mise à disposition du public."@fr,
+    "Une mention de diffusion ou de distribution est une mention identifiant le ou les lieux de diffusion ou de distribution, le ou les diffuseurs ou distributeurs, et la ou les dates de diffusion ou de distribution d’une ressource sous une forme publiée ou mise à disposition du public. [code RDA-FR, 2.9]"@fr;
+  sh:name "a pour mention de diffusion ou de distribution"@fr;
+  sh:nodeKind sh:Literal;
+  sh:path rdafr:P630037 .
+
+rdafr:P630037 a owl:DatatypeProperty;
+  rdfs:comment "Une mention de diffusion ou de distribution est une mention identifiant le ou les lieux de diffusion ou de distribution, le ou les diffuseurs ou distributeurs, et la ou les dates de diffusion ou de distribution d’une ressource sous une forme publiée ou mise à disposition du public. [code RDA-FR, 2.9]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour mention de diffusion ou de distribution"@fr;
+  rdfs:range rdfs:Literal .
+
+rdafrru:R4042 rdfs:seeAlso "2.9.2";
+  sh:class rdfs:Literal;
+  sh:datatype rdfs:Literal;
+  sh:description """Un lieu de diffusion ou de distribution est un lieu associé à la diffusion ou la distribution d’une ressource publiée ou mise à disposition du public.
+C’est généralement le lieu associé sur la source d’information au nom du diffuseur ou du distributeur de la ressource.
+Si des lieux de nature différente sont associés au nom du diffuseur ou du distributeur (siège social, bureau de vente, etc.), privilégier le lieu correspondant au siège social."""@fr,
+    """Un lieu de diffusion ou de distribution est un lieu associé à la diffusion ou la distribution d’une ressource publiée ou mise à disposition du public.
+C’est généralement le lieu associé sur la source d’information au nom du diffuseur ou du distributeur de la ressource.
+Si des lieux de nature différente sont associés au nom du diffuseur ou du distributeur (siège social, bureau de vente, etc.), privilégier le lieu correspondant au siège social. [code RDA-FR, 2.9.2]"""@fr;
+  sh:name "a pour lieu de diffusion ou de distribution"@fr;
+  sh:nodeKind sh:Literal;
+  sh:path rdafr:P630038 .
+
+rdafr:P630038 a owl:DatatypeProperty;
+  rdfs:comment """Un lieu de diffusion ou de distribution est un lieu associé à la diffusion ou la distribution d’une ressource publiée ou mise à disposition du public.
+C’est généralement le lieu associé sur la source d’information au nom du diffuseur ou du distributeur de la ressource.
+Si des lieux de nature différente sont associés au nom du diffuseur ou du distributeur (siège social, bureau de vente, etc.), privilégier le lieu correspondant au siège social. [code RDA-FR, 2.9.2]"""@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour lieu de diffusion ou de distribution"@fr;
+  rdfs:range rdfs:Literal .
+
+rdafrru:R4043 rdfs:seeAlso "2.9.3";
+  sh:class rdfs:Literal;
+  sh:datatype rdfs:Literal;
+  sh:description "Une forme parallèle du lieu de diffusion ou de distribution est un lieu de diffusion ou de distribution (voir 2.9.2.1) dans une langue et/ou une écriture différentes de celles enregistrées dans l’élément Lieu de diffusion ou de distribution."@fr,
+    "Une forme parallèle du lieu de diffusion ou de distribution est un lieu de diffusion ou de distribution (voir 2.9.2.1) dans une langue et/ou une écriture différentes de celles enregistrées dans l’élément Lieu de diffusion ou de distribution. [code RDA-FR, 2.9.3]"@fr;
+  sh:name "a pour forme parallèle du lieu de diffusion ou de distribution"@fr;
+  sh:nodeKind sh:Literal;
+  sh:path rdafr:P630039 .
+
+rdafr:P630039 a owl:DatatypeProperty;
+  rdfs:comment "Une forme parallèle du lieu de diffusion ou de distribution est un lieu de diffusion ou de distribution (voir 2.9.2.1) dans une langue et/ou une écriture différentes de celles enregistrées dans l’élément Lieu de diffusion ou de distribution. [code RDA-FR, 2.9.3]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour forme parallèle du lieu de diffusion ou de distribution"@fr;
+  rdfs:range rdfs:Literal .
+
+rdafrru:R4044 rdfs:seeAlso "2.9.4";
+  sh:class rdfs:Literal;
+  sh:datatype rdfs:Literal;
+  sh:description """Une adresse complète du diffuseur ou du distributeur est une adresse qui précise le lieu de diffusion ou de distribution.
+Elle inclut le nom de la ville."""@fr,
+    """Une adresse complète du diffuseur ou du distributeur est une adresse qui précise le lieu de diffusion ou de distribution.
+Elle inclut le nom de la ville. [code RDA-FR, 2.9.4]"""@fr;
+  sh:name "a pour adresse complète du diffuseur ou du distributeur"@fr;
+  sh:nodeKind sh:Literal;
+  sh:path rdafr:P630040 .
+
+rdafr:P630040 a owl:DatatypeProperty;
+  rdfs:comment """Une adresse complète du diffuseur ou du distributeur est une adresse qui précise le lieu de diffusion ou de distribution.
+Elle inclut le nom de la ville. [code RDA-FR, 2.9.4]"""@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour adresse complète du diffuseur ou du distributeur"@fr;
+  rdfs:range rdfs:Literal .
+
+rdafrru:R4045 rdfs:seeAlso "2.9.5";
+  sh:class rdfs:Literal;
+  sh:datatype rdfs:Literal;
+  sh:description "Un nom de diffuseur ou de distributeur est le nom d’une personne, d’une famille ou d’une collectivité responsable de la diffusion ou de la distribution d’une ressource publiée ou mise à disposition du public."@fr,
+    "Un nom de diffuseur ou de distributeur est le nom d’une personne, d’une famille ou d’une collectivité responsable de la diffusion ou de la distribution d’une ressource publiée ou mise à disposition du public. [code RDA-FR, 2.9.5]"@fr;
+  sh:name "a pour nom du diffuseur ou du distributeur"@fr;
+  sh:nodeKind sh:Literal;
+  sh:path rdafr:P630041 .
+
+rdafr:P630041 a owl:DatatypeProperty;
+  rdfs:comment "Un nom de diffuseur ou de distributeur est le nom d’une personne, d’une famille ou d’une collectivité responsable de la diffusion ou de la distribution d’une ressource publiée ou mise à disposition du public. [code RDA-FR, 2.9.5]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour nom du diffuseur ou du distributeur"@fr;
+  rdfs:range rdfs:Literal .
+
+rdafrru:R4046 rdfs:seeAlso "2.9.6";
+  sh:class rdfs:Literal;
+  sh:datatype rdfs:Literal;
+  sh:description "Une forme parallèle du nom du diffuseur ou du distributeur est un nom de diffuseur ou de distributeur (voir 2.9.5.1) dans une langue et/ou une écriture différentes de celles enregistrées dans l’élément Nom du diffuseur ou du distributeur."@fr,
+    "Une forme parallèle du nom du diffuseur ou du distributeur est un nom de diffuseur ou de distributeur (voir 2.9.5.1) dans une langue et/ou une écriture différentes de celles enregistrées dans l’élément Nom du diffuseur ou du distributeur. [code RDA-FR, 2.9.6]"@fr;
+  sh:name "a pour forme parallèle du nom du diffuseur ou du distributeur"@fr;
+  sh:nodeKind sh:Literal;
+  sh:path rdafr:P630042 .
+
+rdafr:P630042 a owl:DatatypeProperty;
+  rdfs:comment "Une forme parallèle du nom du diffuseur ou du distributeur est un nom de diffuseur ou de distributeur (voir 2.9.5.1) dans une langue et/ou une écriture différentes de celles enregistrées dans l’élément Nom du diffuseur ou du distributeur. [code RDA-FR, 2.9.6]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour forme parallèle du nom du diffuseur ou du distributeur"@fr;
+  rdfs:range rdfs:Literal .
+
+rdafrru:R4047 rdfs:seeAlso "2.9.7";
+  sh:class rdfs:Literal;
+  sh:datatype rdfs:Literal;
+  sh:description "Une date de diffusion ou de distribution est une date associée à la diffusion ou à la distribution d’une ressource publiée ou mise à disposition du public."@fr,
+    "Une date de diffusion ou de distribution est une date associée à la diffusion ou à la distribution d’une ressource publiée ou mise à disposition du public. [code RDA-FR, 2.9.7]"@fr;
+  sh:name "a pour date de diffusion ou de distribution"@fr;
+  sh:nodeKind sh:Literal;
+  sh:path rdafr:P630043 .
+
+rdafr:P630043 a owl:DatatypeProperty;
+  rdfs:comment "Une date de diffusion ou de distribution est une date associée à la diffusion ou à la distribution d’une ressource publiée ou mise à disposition du public. [code RDA-FR, 2.9.7]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour date de diffusion ou de distribution"@fr;
+  rdfs:range rdfs:Literal .
+
+rdafrru:R4048 rdfs:seeAlso "2.9.8";
+  sh:description """Une date de diffusion ou de distribution sous forme normalisée est une date associée à la diffusion ou à la distribution d’une ressource (voir Date de diffusion ou de distribution), enregistrée selon la norme ISO 8601 Représentation de la date et de l'heure.
+Une date de diffusion ou de distribution est une date associée à la diffusion ou à la distribution d’une ressource publiée ou mise à disposition du public."""@fr,
+    """Une date de diffusion ou de distribution sous forme normalisée est une date associée à la diffusion ou à la distribution d’une ressource (voir Date de diffusion ou de distribution), enregistrée selon la norme ISO 8601 Représentation de la date et de l'heure.
+Une date de diffusion ou de distribution est une date associée à la diffusion ou à la distribution d’une ressource publiée ou mise à disposition du public. [code RDA-FR, 2.9.8]"""@fr;
+  sh:name "a pour date de diffusion ou de distribution sous forme normalisée"@fr;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630044 .
+
+rdafr:P630044 a owl:ObjectProperty;
+  rdfs:comment """Une date de diffusion ou de distribution sous forme normalisée est une date associée à la diffusion ou à la distribution d’une ressource (voir Date de diffusion ou de distribution), enregistrée selon la norme ISO 8601 Représentation de la date et de l'heure.
+Une date de diffusion ou de distribution est une date associée à la diffusion ou à la distribution d’une ressource publiée ou mise à disposition du public. [code RDA-FR, 2.9.8]"""@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour date de diffusion ou de distribution sous forme normalisée"@fr .
+
+rdafrru:R4049 rdfs:seeAlso "2.10";
+  sh:class rdfs:Literal;
+  sh:datatype rdfs:Literal;
+  sh:description """Une mention de fabrication est une mention identifiant le ou les lieux de fabrication, le ou les fabricants et la ou les dates de fabrication d’une ressource.
+Les mentions de fabrication comprennent les mentions relatives à l’impression, au moulage, à la gravure, au pressage, au tirage, etc. d’une ressource."""@fr,
+    """Une mention de fabrication est une mention identifiant le ou les lieux de fabrication, le ou les fabricants et la ou les dates de fabrication d’une ressource.
+Les mentions de fabrication comprennent les mentions relatives à l’impression, au moulage, à la gravure, au pressage, au tirage, etc. d’une ressource. [code RDA-FR, 2.10]"""@fr;
+  sh:name "a pour mention de fabrication"@fr;
+  sh:nodeKind sh:Literal;
+  sh:path rdafr:P630045 .
+
+rdafr:P630045 a owl:DatatypeProperty;
+  rdfs:comment """Une mention de fabrication est une mention identifiant le ou les lieux de fabrication, le ou les fabricants et la ou les dates de fabrication d’une ressource.
+Les mentions de fabrication comprennent les mentions relatives à l’impression, au moulage, à la gravure, au pressage, au tirage, etc. d’une ressource. [code RDA-FR, 2.10]"""@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour mention de fabrication"@fr;
+  rdfs:range rdfs:Literal .
+
+rdafrru:R4050 rdfs:seeAlso "2.10.2";
+  sh:class rdfs:Literal;
+  sh:datatype rdfs:Literal;
+  sh:description """Un lieu de fabrication est un lieu associé à l’impression, au moulage, à la gravure, au pressage, au tirage, etc. d’une ressource.
+C’est généralement le lieu associé sur la source d’information au nom du fabricant responsable de l’impression, du moulage, de la gravure, du pressage, du tirage, etc. d’une ressource.
+Si aucun nom de fabricant ne figure sur la ressource, c’est le lieu où la ressource a été fabriquée, imprimée, moulée, gravée, pressée, tirée, etc."""@fr,
+    """Un lieu de fabrication est un lieu associé à l’impression, au moulage, à la gravure, au pressage, au tirage, etc. d’une ressource.
+C’est généralement le lieu associé sur la source d’information au nom du fabricant responsable de l’impression, du moulage, de la gravure, du pressage, du tirage, etc. d’une ressource.
+Si aucun nom de fabricant ne figure sur la ressource, c’est le lieu où la ressource a été fabriquée, imprimée, moulée, gravée, pressée, tirée, etc. [code RDA-FR, 2.10.2]"""@fr;
+  sh:name "a pour lieu de fabrication"@fr;
+  sh:nodeKind sh:Literal;
+  sh:path rdafr:P630046 .
+
+rdafr:P630046 a owl:DatatypeProperty;
+  rdfs:comment """Un lieu de fabrication est un lieu associé à l’impression, au moulage, à la gravure, au pressage, au tirage, etc. d’une ressource.
+C’est généralement le lieu associé sur la source d’information au nom du fabricant responsable de l’impression, du moulage, de la gravure, du pressage, du tirage, etc. d’une ressource.
+Si aucun nom de fabricant ne figure sur la ressource, c’est le lieu où la ressource a été fabriquée, imprimée, moulée, gravée, pressée, tirée, etc. [code RDA-FR, 2.10.2]"""@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour lieu de fabrication"@fr;
+  rdfs:range rdfs:Literal .
+
+rdafrru:R4051 rdfs:seeAlso "2.10.3";
+  sh:class rdfs:Literal;
+  sh:datatype rdfs:Literal;
+  sh:description "Une forme parallèle du lieu de fabrication est un lieu de fabrication dans une langue et/ou une écriture différentes de celles enregistrées dans l’élément Lieu de fabrication."@fr,
+    "Une forme parallèle du lieu de fabrication est un lieu de fabrication dans une langue et/ou une écriture différentes de celles enregistrées dans l’élément Lieu de fabrication. [code RDA-FR, 2.10.3]"@fr;
+  sh:name "a pour forme parallèle du lieu de fabrication"@fr;
+  sh:nodeKind sh:Literal;
+  sh:path rdafr:P630047 .
+
+rdafr:P630047 a owl:DatatypeProperty;
+  rdfs:comment "Une forme parallèle du lieu de fabrication est un lieu de fabrication dans une langue et/ou une écriture différentes de celles enregistrées dans l’élément Lieu de fabrication. [code RDA-FR, 2.10.3]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour forme parallèle du lieu de fabrication"@fr;
+  rdfs:range rdfs:Literal .
+
+rdafrru:R4052 rdfs:seeAlso "2.10.4";
+  sh:class rdfs:Literal;
+  sh:datatype rdfs:Literal;
+  sh:description """Une adresse complète du fabricant est une adresse qui précise le lieu de fabrication.
+Elle inclut le nom de la ville."""@fr,
+    """Une adresse complète du fabricant est une adresse qui précise le lieu de fabrication.
+Elle inclut le nom de la ville. [code RDA-FR, 2.10.4]"""@fr;
+  sh:name "a pour adresse complète du fabricant"@fr;
+  sh:nodeKind sh:Literal;
+  sh:path rdafr:P630048 .
+
+rdafr:P630048 a owl:DatatypeProperty;
+  rdfs:comment """Une adresse complète du fabricant est une adresse qui précise le lieu de fabrication.
+Elle inclut le nom de la ville. [code RDA-FR, 2.10.4]"""@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour adresse complète du fabricant"@fr;
+  rdfs:range rdfs:Literal .
+
+rdafrru:R4053 rdfs:seeAlso "2.10.5";
+  sh:class rdfs:Literal;
+  sh:datatype rdfs:Literal;
+  sh:description "Un nom du fabricant est le nom d’une personne, famille ou collectivité responsable de l’impression, du moulage, de la gravure, du pressage, du tirage, etc. d’une ressource."@fr,
+    "Un nom du fabricant est le nom d’une personne, famille ou collectivité responsable de l’impression, du moulage, de la gravure, du pressage, du tirage, etc. d’une ressource. [code RDA-FR, 2.10.5]"@fr;
+  sh:name "a pour nom du fabricant"@fr;
+  sh:nodeKind sh:Literal;
+  sh:path rdafr:P630049 .
+
+rdafr:P630049 a owl:DatatypeProperty;
+  rdfs:comment "Un nom du fabricant est le nom d’une personne, famille ou collectivité responsable de l’impression, du moulage, de la gravure, du pressage, du tirage, etc. d’une ressource. [code RDA-FR, 2.10.5]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour nom du fabricant"@fr;
+  rdfs:range rdfs:Literal .
+
+rdafrru:R4054 rdfs:seeAlso "2.10.6";
+  sh:class rdfs:Literal;
+  sh:datatype rdfs:Literal;
+  sh:description "Une forme parallèle du nom du fabricant est un nom du fabricant dans une langue et/ou une écriture différentes de celles enregistrées dans l’élément Nom du fabricant."@fr,
+    "Une forme parallèle du nom du fabricant est un nom du fabricant dans une langue et/ou une écriture différentes de celles enregistrées dans l’élément Nom du fabricant. [code RDA-FR, 2.10.6]"@fr;
+  sh:name "a pour forme parallèle du nom du fabricant"@fr;
+  sh:nodeKind sh:Literal;
+  sh:path rdafr:P630050 .
+
+rdafr:P630050 a owl:DatatypeProperty;
+  rdfs:comment "Une forme parallèle du nom du fabricant est un nom du fabricant dans une langue et/ou une écriture différentes de celles enregistrées dans l’élément Nom du fabricant. [code RDA-FR, 2.10.6]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour forme parallèle du nom du fabricant"@fr;
+  rdfs:range rdfs:Literal .
+
+rdafrru:R4055 rdfs:seeAlso "2.10.7";
+  sh:class rdfs:Literal;
+  sh:datatype rdfs:Literal;
+  sh:description "Une date de fabrication est une date associée à l’impression, au moulage, à la gravure, au pressage, au tirage, etc. d’une ressource."@fr,
+    "Une date de fabrication est une date associée à l’impression, au moulage, à la gravure, au pressage, au tirage, etc. d’une ressource. [code RDA-FR, 2.10.7]"@fr;
+  sh:name "a pour date de fabrication"@fr;
+  sh:nodeKind sh:Literal;
+  sh:path rdafr:P630051 .
+
+rdafr:P630051 a owl:DatatypeProperty;
+  rdfs:comment "Une date de fabrication est une date associée à l’impression, au moulage, à la gravure, au pressage, au tirage, etc. d’une ressource. [code RDA-FR, 2.10.7]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour date de fabrication"@fr;
+  rdfs:range rdfs:Literal .
+
+rdafrru:R4056 rdfs:seeAlso "2.10.8";
+  sh:description """Une date de fabrication sous forme normalisée est une date associée à l’impression, au moulage, à la gravure, au pressage, au tirage, etc. d’une ressource (voir Date de fabrication), enregistrée selon la norme ISO 8601 Représentation de la date et de l'heure.
+Une date de fabrication sous forme normalisée peut être une date plus précise que la date transcrite dans l’élément Date de fabrication, si l’on dispose de l’information à partir d’une source fiable (par exemple, une date fournie par l’éditeur ou le distributeur de la ressource)."""@fr,
+    """Une date de fabrication sous forme normalisée est une date associée à l’impression, au moulage, à la gravure, au pressage, au tirage, etc. d’une ressource (voir Date de fabrication), enregistrée selon la norme ISO 8601 Représentation de la date et de l'heure.
+Une date de fabrication sous forme normalisée peut être une date plus précise que la date transcrite dans l’élément Date de fabrication, si l’on dispose de l’information à partir d’une source fiable (par exemple, une date fournie par l’éditeur ou le distributeur de la ressource). [code RDA-FR, 2.10.8]"""@fr;
+  sh:name "a pour date de fabrication sous forme normalisée"@fr;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630052 .
+
+rdafr:P630052 a owl:ObjectProperty;
+  rdfs:comment """Une date de fabrication sous forme normalisée est une date associée à l’impression, au moulage, à la gravure, au pressage, au tirage, etc. d’une ressource (voir Date de fabrication), enregistrée selon la norme ISO 8601 Représentation de la date et de l'heure.
+Une date de fabrication sous forme normalisée peut être une date plus précise que la date transcrite dans l’élément Date de fabrication, si l’on dispose de l’information à partir d’une source fiable (par exemple, une date fournie par l’éditeur ou le distributeur de la ressource). [code RDA-FR, 2.10.8]"""@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour date de fabrication sous forme normalisée"@fr .
+
+rdafrru:R4057 rdfs:seeAlso "2.11";
+  sh:class rdfs:Literal;
+  sh:datatype rdfs:Literal;
+  sh:description """Une date de copyright est une date associée à une revendication de protection en vertu du copyright ou d’un régime similaire.
+Les dates de copyright comprennent les dates de protection (c’est-à-dire les dates associées à des revendications de protection pour les enregistrements sonores)."""@fr,
+    """Une date de copyright est une date associée à une revendication de protection en vertu du copyright ou d’un régime similaire.
+Les dates de copyright comprennent les dates de protection (c’est-à-dire les dates associées à des revendications de protection pour les enregistrements sonores). [code RDA-FR, 2.11]"""@fr;
+  sh:maxCount 1;
+  sh:name "a pour date de copyright"@fr;
+  sh:nodeKind sh:Literal;
+  sh:path rdafr:P630053 .
+
+rdafr:P630053 a owl:DatatypeProperty;
+  rdfs:comment """Une date de copyright est une date associée à une revendication de protection en vertu du copyright ou d’un régime similaire.
+Les dates de copyright comprennent les dates de protection (c’est-à-dire les dates associées à des revendications de protection pour les enregistrements sonores). [code RDA-FR, 2.11]"""@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour date de copyright"@fr;
+  rdfs:range rdfs:Literal .
+
+rdafrru:R4058 rdfs:seeAlso "2.13";
+  sh:description """La modalité de parution est une catégorisation qui indique si la parution d’une ressource est prévue pour s’échelonner dans le temps (diachronique) ou non.
+Cet élément s’applique à la seule ressource décrite, et non à l’ensemble dans lequel elle se situe éventuellement."""@fr,
+    """La modalité de parution est une catégorisation qui indique si la parution d’une ressource est prévue pour s’échelonner dans le temps (diachronique) ou non.
+Cet élément s’applique à la seule ressource décrite, et non à l’ensemble dans lequel elle se situe éventuellement. [code RDA-FR, 2.13]"""@fr;
+  sh:maxCount 1;
+  sh:name "a pour modalité de parution"@fr;
+  sh:node rdafr:ModaliteParution;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630054 .
+
+rdafr:P630054 a owl:ObjectProperty;
+  rdfs:comment """La modalité de parution est une catégorisation qui indique si la parution d’une ressource est prévue pour s’échelonner dans le temps (diachronique) ou non.
+Cet élément s’applique à la seule ressource décrite, et non à l’ensemble dans lequel elle se situe éventuellement. [code RDA-FR, 2.13]"""@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour modalité de parution"@fr;
+  rdfs:range rdafr:ModaliteParution .
+
+rdafrru:R4059 rdfs:seeAlso "2.15";
+  sh:description "Le niveau d’autonomie est une catégorisation permettant de dire si la ressource est une publication autonome ou si elle appartient à un ensemble plus vaste."@fr,
+    "Le niveau d’autonomie est une catégorisation permettant de dire si la ressource est une publication autonome ou si elle appartient à un ensemble plus vaste. [code RDA-FR, 2.15]"@fr;
+  sh:maxCount 1;
+  sh:name "a pour niveau d’autonomie"@fr;
+  sh:node rdafr:NiveauAutonomie;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630055 .
+
+rdafr:P630055 a owl:ObjectProperty;
+  rdfs:comment "Le niveau d’autonomie est une catégorisation permettant de dire si la ressource est une publication autonome ou si elle appartient à un ensemble plus vaste. [code RDA-FR, 2.15]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour niveau d’autonomie"@fr;
+  rdfs:range rdafr:NiveauAutonomie .
+
+rdafrru:R4060 rdfs:seeAlso "3.2";
+  sh:description "Le type de médiation est une catégorisation indiquant le type général de dispositif de médiation requis pour visionner, faire fonctionner, faire défiler, etc. le contenu d’une ressource."@fr,
+    "Le type de médiation est une catégorisation indiquant le type général de dispositif de médiation requis pour visionner, faire fonctionner, faire défiler, etc. le contenu d’une ressource. [code RDA-FR, 3.2]"@fr;
+  sh:maxCount 1;
+  sh:minCount 1;
+  sh:name "a pour type de médiation"@fr;
+  sh:node rdafr:TypeMediation;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630056 .
+
+rdafr:P630056 a owl:ObjectProperty;
+  rdfs:comment "Le type de médiation est une catégorisation indiquant le type général de dispositif de médiation requis pour visionner, faire fonctionner, faire défiler, etc. le contenu d’une ressource. [code RDA-FR, 3.2]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour type de médiation"@fr;
+  rdfs:range rdafr:TypeMediation .
+
+rdafrru:R4061 rdfs:seeAlso "3.3";
+  sh:description "Le type de support est une catégorisation reflétant le support de la ressource, correspondant au type de dispositif de médiation requis pour visionner, faire fonctionner, faire défiler, etc. le contenu d’une ressource."@fr,
+    "Le type de support est une catégorisation reflétant le support de la ressource, correspondant au type de dispositif de médiation requis pour visionner, faire fonctionner, faire défiler, etc. le contenu d’une ressource. [code RDA-FR, 3.3]"@fr;
+  sh:minCount 1;
+  sh:name "a pour type de support"@fr;
+  sh:node rdafr:TypeSupport;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630057 .
+
+rdafr:P630057 a owl:ObjectProperty;
+  rdfs:comment "Le type de support est une catégorisation reflétant le support de la ressource, correspondant au type de dispositif de médiation requis pour visionner, faire fonctionner, faire défiler, etc. le contenu d’une ressource. [code RDA-FR, 3.3]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour type de support"@fr;
+  rdfs:range rdafr:TypeSupport .
+
+rdafrru:R4062 rdfs:seeAlso "3.4";
+  sh:description """L’importance matérielle est le nombre et le type d’unités et au besoin de sous-unités formant une ressource.
+Une unité est un composant physique d’une ressource (par exemple, un volume, une cassette audio, une bobine de film, une plaque). Pour une ressource numérique dématérialisée, l’unité est la ressource.
+Une sous-unité est une subdivision physique d’une unité (par exemple, une page d’un volume, une image d’une microfiche, un fichier numérique)."""@fr,
+    """L’importance matérielle est le nombre et le type d’unités et au besoin de sous-unités formant une ressource.
+Une unité est un composant physique d’une ressource (par exemple, un volume, une cassette audio, une bobine de film, une plaque). Pour une ressource numérique dématérialisée, l’unité est la ressource.
+Une sous-unité est une subdivision physique d’une unité (par exemple, une page d’un volume, une image d’une microfiche, un fichier numérique). [code RDA-FR, 3.4]"""@fr;
+  sh:minCount 1;
+  sh:name "a pour importance matérielle"@fr;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630058 .
+
+rdafr:P630058 a owl:ObjectProperty;
+  rdfs:comment """L’importance matérielle est le nombre et le type d’unités et au besoin de sous-unités formant une ressource.
+Une unité est un composant physique d’une ressource (par exemple, un volume, une cassette audio, une bobine de film, une plaque). Pour une ressource numérique dématérialisée, l’unité est la ressource.
+Une sous-unité est une subdivision physique d’une unité (par exemple, une page d’un volume, une image d’une microfiche, un fichier numérique). [code RDA-FR, 3.4]"""@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour importance matérielle"@fr .
+
+rdafrru:R4063 rdfs:seeAlso "3.5";
+  sh:description """Les dimensions sont les mesures du ou des supports et/ou du conteneur d’une ressource.
+Les dimensions comprennent les mesures de hauteur, de largeur, de profondeur, de longueur, de diamètre et de poids."""@fr,
+    """Les dimensions sont les mesures du ou des supports et/ou du conteneur d’une ressource.
+Les dimensions comprennent les mesures de hauteur, de largeur, de profondeur, de longueur, de diamètre et de poids. [code RDA-FR, 3.5]"""@fr;
+  sh:name "a pour dimensions"@fr;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630059 .
+
+rdafr:P630059 a owl:ObjectProperty;
+  rdfs:comment """Les dimensions sont les mesures du ou des supports et/ou du conteneur d’une ressource.
+Les dimensions comprennent les mesures de hauteur, de largeur, de profondeur, de longueur, de diamètre et de poids. [code RDA-FR, 3.5]"""@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour dimensions"@fr .
+
+rdafrru:R4064 rdfs:seeAlso "3.6";
+  sh:description "Le matériau de base est un matériau physique composant le support d’une manifestation, auquel peut éventuellement s’ajouter un matériau appliqué."@fr,
+    "Le matériau de base est un matériau physique composant le support d’une manifestation, auquel peut éventuellement s’ajouter un matériau appliqué. [code RDA-FR, 3.6]"@fr;
+  sh:name "a pour matériau de base"@fr;
+  sh:node rdafr:MateriauBase;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630060 .
+
+rdafr:P630060 a owl:ObjectProperty;
+  rdfs:comment "Le matériau de base est un matériau physique composant le support d’une manifestation, auquel peut éventuellement s’ajouter un matériau appliqué. [code RDA-FR, 3.6]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour matériau de base"@fr;
+  rdfs:range rdafr:MateriauBase .
+
+rdafrru:R4065 rdfs:seeAlso "3.7";
+  sh:description "Le matériau appliqué est une substance physique ou chimique appliquée sur un matériau de base d’une manifestation."@fr,
+    "Le matériau appliqué est une substance physique ou chimique appliquée sur un matériau de base d’une manifestation. [code RDA-FR, 3.7]"@fr;
+  sh:name "a pour matériau appliqué"@fr;
+  sh:node rdafr:MateriauApplique;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630061 .
+
+rdafr:P630061 a owl:ObjectProperty;
+  rdfs:comment "Le matériau appliqué est une substance physique ou chimique appliquée sur un matériau de base d’une manifestation. [code RDA-FR, 3.7]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour matériau appliqué"@fr;
+  rdfs:range rdafr:MateriauApplique .
+
+rdafrru:R4066 rdfs:seeAlso "3.8";
+  sh:description "Une monture est un matériau physique utilisé pour le support ou le renforcement, sur lequel le matériau de base d’une manifestation a été fixé."@fr,
+    "Une monture est un matériau physique utilisé pour le support ou le renforcement, sur lequel le matériau de base d’une manifestation a été fixé. [code RDA-FR, 3.8]"@fr;
+  sh:name "a pour monture"@fr;
+  sh:node rdafr:MateriauBase;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630062 .
+
+rdafr:P630062 a owl:ObjectProperty;
+  rdfs:comment "Une monture est un matériau physique utilisé pour le support ou le renforcement, sur lequel le matériau de base d’une manifestation a été fixé. [code RDA-FR, 3.8]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour monture"@fr;
+  rdfs:range rdafr:MateriauBase .
+
+rdafrru:R4067 rdfs:seeAlso "3.9";
+  sh:description "La méthode de production est un procédé utilisé pour produire une manifestation."@fr,
+    "La méthode de production est un procédé utilisé pour produire une manifestation. [code RDA-FR, 3.9]"@fr;
+  sh:name "a pour méthode de production"@fr;
+  sh:node rdafr:MethodeProduction;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630063 .
+
+rdafr:P630063 a owl:ObjectProperty;
+  rdfs:comment "La méthode de production est un procédé utilisé pour produire une manifestation. [code RDA-FR, 3.9]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour méthode de production"@fr;
+  rdfs:range rdafr:MethodeProduction .
+
+rdafrru:R4068 rdfs:seeAlso "3.10";
+  sh:description "La génération est le produit correspondant à une étape dans le processus de fabrication d’une ressource, depuis la matrice jusqu’au produit de diffusion."@fr,
+    "La génération est le produit correspondant à une étape dans le processus de fabrication d’une ressource, depuis la matrice jusqu’au produit de diffusion. [code RDA-FR, 3.10]"@fr;
+  sh:maxCount 1;
+  sh:name "a pour génération"@fr;
+  sh:node rdafr:Generation;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630064 .
+
+rdafr:P630064 a owl:ObjectProperty;
+  rdfs:comment "La génération est le produit correspondant à une étape dans le processus de fabrication d’une ressource, depuis la matrice jusqu’au produit de diffusion. [code RDA-FR, 3.10]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour génération"@fr;
+  rdfs:range rdafr:Generation .
+
+rdafrru:R4069 rdfs:seeAlso "3.11";
+  sh:description "La disposition est l’agencement du contenu par rapport au support d’une manifestation."@fr,
+    "La disposition est l’agencement du contenu par rapport au support d’une manifestation. [code RDA-FR, 3.11]"@fr;
+  sh:name "a pour disposition"@fr;
+  sh:node rdafr:Disposition;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630065 .
+
+rdafr:P630065 a owl:ObjectProperty;
+  rdfs:comment "La disposition est l’agencement du contenu par rapport au support d’une manifestation. [code RDA-FR, 3.11]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour disposition"@fr;
+  rdfs:range rdafr:Disposition .
+
+rdafrru:R4070 rdfs:seeAlso "3.12";
+  sh:description """Le format bibliographique est déterminé par le nombre de pages résultant du nombre de fois où la feuille a été pliée pour former les feuillets d’un cahier, ou laissée à sa pleine grandeur (in-plano).
+Le format bibliographique s’applique aux ressources produites selon des procédés de fabrication anciens."""@fr,
+    """Le format bibliographique est déterminé par le nombre de pages résultant du nombre de fois où la feuille a été pliée pour former les feuillets d’un cahier, ou laissée à sa pleine grandeur (in-plano).
+Le format bibliographique s’applique aux ressources produites selon des procédés de fabrication anciens. [code RDA-FR, 3.12]"""@fr;
+  sh:maxCount 1;
+  sh:name "a pour format bibliographique"@fr;
+  sh:node rdafr:FormatBibliographique;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630066 .
+
+rdafr:P630066 a owl:ObjectProperty;
+  rdfs:comment """Le format bibliographique est déterminé par le nombre de pages résultant du nombre de fois où la feuille a été pliée pour former les feuillets d’un cahier, ou laissée à sa pleine grandeur (in-plano).
+Le format bibliographique s’applique aux ressources produites selon des procédés de fabrication anciens. [code RDA-FR, 3.12]"""@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour format bibliographique"@fr;
+  rdfs:range rdafr:FormatBibliographique .
+
+rdafrru:R4071 rdfs:seeAlso "3.13";
+  sh:description "Une caractéristique typographique est une information relative à la famille de police ou aux caractères typographiques utilisés dans la ressource."@fr,
+    "Une caractéristique typographique est une information relative à la famille de police ou aux caractères typographiques utilisés dans la ressource. [code RDA-FR, 3.13]"@fr;
+  sh:maxCount 1;
+  sh:name "a pour caractéristiques typographiques"@fr;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630067 .
+
+rdafr:P630067 a owl:ObjectProperty;
+  rdfs:comment "Une caractéristique typographique est une information relative à la famille de police ou aux caractères typographiques utilisés dans la ressource. [code RDA-FR, 3.13]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour caractéristiques typographiques"@fr .
+
+rdafrru:R4072 rdfs:seeAlso "3.13.2";
+  sh:description "Le type de police de caractères est une catégorisation générale des polices fondée sur leur style d’écriture."@fr,
+    "Le type de police de caractères est une catégorisation générale des polices fondée sur leur style d’écriture. [code RDA-FR, 3.13.2]"@fr;
+  sh:maxCount 1;
+  sh:name "a pour type de police de caractères"@fr;
+  sh:node rdafr:TypePoliceCaracteres;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630068 .
+
+rdafr:P630068 a owl:ObjectProperty;
+  rdfs:comment "Le type de police de caractères est une catégorisation générale des polices fondée sur leur style d’écriture. [code RDA-FR, 3.13.2]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour type de police de caractères"@fr;
+  rdfs:range rdafr:TypePoliceCaracteres .
+
+rdafrru:R4073 rdfs:seeAlso "3.13.3";
+  sh:description """La taille des caractères est la taille des fontes utilisées pour représenter les signes et les symboles dans une manifestation.
+Cet élément s’applique notamment aux manifestations destinées à être utilisées par des personnes ayant une déficience visuelle."""@fr,
+    """La taille des caractères est la taille des fontes utilisées pour représenter les signes et les symboles dans une manifestation.
+Cet élément s’applique notamment aux manifestations destinées à être utilisées par des personnes ayant une déficience visuelle. [code RDA-FR, 3.13.3]"""@fr;
+  sh:maxCount 1;
+  sh:name "a pour taille des caractères"@fr;
+  sh:node rdafr:TailleCaracteres;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630069 .
+
+rdafr:P630069 a owl:ObjectProperty;
+  rdfs:comment """La taille des caractères est la taille des fontes utilisées pour représenter les signes et les symboles dans une manifestation.
+Cet élément s’applique notamment aux manifestations destinées à être utilisées par des personnes ayant une déficience visuelle. [code RDA-FR, 3.13.3]"""@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour taille des caractères"@fr;
+  rdfs:range rdafr:TailleCaracteres .
+
+rdafrru:R4074 rdfs:seeAlso "3.14";
+  sh:description """Une polarité est une information précisant si les couleurs ou les valeurs de ton de l’image ont été inversées par rapport à l’objet représenté.
+La polarité d’une manifestation s’applique uniquement aux ressources audiovisuelles et aux microformes. Dans le cas des images fixes (photographies), la polarité est enregistrée au niveau de l’Expression."""@fr,
+    """Une polarité est une information précisant si les couleurs ou les valeurs de ton de l’image ont été inversées par rapport à l’objet représenté.
+La polarité d’une manifestation s’applique uniquement aux ressources audiovisuelles et aux microformes. Dans le cas des images fixes (photographies), la polarité est enregistrée au niveau de l’Expression. [code RDA-FR, 3.14]"""@fr;
+  sh:maxCount 1;
+  sh:name "a pour polarité"@fr;
+  sh:node rdafr:Polarite;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630070 .
+
+rdafr:P630070 a owl:ObjectProperty;
+  rdfs:comment """Une polarité est une information précisant si les couleurs ou les valeurs de ton de l’image ont été inversées par rapport à l’objet représenté.
+La polarité d’une manifestation s’applique uniquement aux ressources audiovisuelles et aux microformes. Dans le cas des images fixes (photographies), la polarité est enregistrée au niveau de l’Expression. [code RDA-FR, 3.14]"""@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour polarité"@fr;
+  rdfs:range rdafr:Polarite .
+
+rdafrru:R4075 rdfs:seeAlso "3.15";
+  sh:class rdfs:Literal;
+  sh:datatype rdfs:Literal;
+  sh:description "Le facteur de réduction est un rapport numérique entre la taille d’une micro-image et celle de l’original à partir duquel elle a été produite."@fr,
+    "Le facteur de réduction est un rapport numérique entre la taille d’une micro-image et celle de l’original à partir duquel elle a été produite. [code RDA-FR, 3.15]"@fr;
+  sh:maxCount 1;
+  sh:name "a pour facteur de réduction"@fr;
+  sh:node rdafr:FacteurReduction;
+  sh:nodeKind sh:Literal;
+  sh:path rdafr:P630071 .
+
+rdafr:P630071 a owl:DatatypeProperty;
+  rdfs:comment "Le facteur de réduction est un rapport numérique entre la taille d’une micro-image et celle de l’original à partir duquel elle a été produite. [code RDA-FR, 3.15]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour facteur de réduction"@fr;
+  rdfs:range rdafr:FacteurReductionrdfs:Literal .
+
+rdafrru:R4076 rdfs:seeAlso "3.16";
+  sh:description "La vitesse de lecture est la vitesse à laquelle un support audio doit être lu pour produire le son prévu."@fr,
+    "La vitesse de lecture est la vitesse à laquelle un support audio doit être lu pour produire le son prévu. [code RDA-FR, 3.16]"@fr;
+  sh:name "a pour vitesse de lecture"@fr;
+  sh:node rdafr:VitesseLecture;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630072 .
+
+rdafr:P630072 a owl:ObjectProperty;
+  rdfs:comment "La vitesse de lecture est la vitesse à laquelle un support audio doit être lu pour produire le son prévu. [code RDA-FR, 3.16]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour vitesse de lecture"@fr;
+  rdfs:range rdafr:VitesseLecture .
+
+rdafrru:R4077 rdfs:seeAlso "3.17";
+  sh:description "Les caractéristiques du sillon regroupent la largeur (ou le pas) du sillon d’un disque analogique ou d’un cylindre audio, et le mode de gravure de ce sillon."@fr,
+    "Les caractéristiques du sillon regroupent la largeur (ou le pas) du sillon d’un disque analogique ou d’un cylindre audio, et le mode de gravure de ce sillon. [code RDA-FR, 3.17]"@fr;
+  sh:maxCount 1;
+  sh:name "a pour caractéristiques du sillon"@fr;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630073 .
+
+rdafr:P630073 a owl:ObjectProperty;
+  rdfs:comment "Les caractéristiques du sillon regroupent la largeur (ou le pas) du sillon d’un disque analogique ou d’un cylindre audio, et le mode de gravure de ce sillon. [code RDA-FR, 3.17]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour caractéristiques du sillon"@fr .
+
+rdafrru:R4078 rdfs:seeAlso "3.18";
+  sh:description "Le format d’un support électronique est un standard utilisé pour enregistrer un contenu sur un support électronique propriétaire."@fr,
+    "Le format d’un support électronique est un standard utilisé pour enregistrer un contenu sur un support électronique propriétaire. [code RDA-FR, 3.18]"@fr;
+  sh:maxCount 1;
+  sh:name "a pour format d’un support électronique"@fr;
+  sh:node rdafr:FormatSupportElectronique;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630074 .
+
+rdafr:P630074 a owl:ObjectProperty;
+  rdfs:comment "Le format d’un support électronique est un standard utilisé pour enregistrer un contenu sur un support électronique propriétaire. [code RDA-FR, 3.18]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour format d’un support électronique"@fr;
+  rdfs:range rdafr:FormatSupportElectronique .
+
+rdafrru:R4079 rdfs:seeAlso "3.19";
+  sh:description """Une caractéristique du fichier numérique est une spécification technique relative à l’encodage numérique de texte, d’image, de données audio, vidéo et autres types de données dans une ressource.
+Les caractéristiques du fichier numérique comprennent le type de fichier, le format d’encodage, la taille du fichier, la résolution, le code de région, le débit binaire, le type de données, le type d’objet, le nombre d’objets, la densité, la sectorisation, etc."""@fr,
+    """Une caractéristique du fichier numérique est une spécification technique relative à l’encodage numérique de texte, d’image, de données audio, vidéo et autres types de données dans une ressource.
+Les caractéristiques du fichier numérique comprennent le type de fichier, le format d’encodage, la taille du fichier, la résolution, le code de région, le débit binaire, le type de données, le type d’objet, le nombre d’objets, la densité, la sectorisation, etc. [code RDA-FR, 3.19]"""@fr;
+  sh:name "a pour caractéristiques du fichier numérique"@fr;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630075 .
+
+rdafr:P630075 a owl:ObjectProperty;
+  rdfs:comment """Une caractéristique du fichier numérique est une spécification technique relative à l’encodage numérique de texte, d’image, de données audio, vidéo et autres types de données dans une ressource.
+Les caractéristiques du fichier numérique comprennent le type de fichier, le format d’encodage, la taille du fichier, la résolution, le code de région, le débit binaire, le type de données, le type d’objet, le nombre d’objets, la densité, la sectorisation, etc. [code RDA-FR, 3.19]"""@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour caractéristiques du fichier numérique"@fr .
+
+rdafrru:R4080 rdfs:seeAlso "3.19.2";
+  sh:description "Le type de fichier est un type général de contenu des données encodées dans un fichier informatique."@fr,
+    "Le type de fichier est un type général de contenu des données encodées dans un fichier informatique. [code RDA-FR, 3.19.2]"@fr;
+  sh:name "a pour type de fichier"@fr;
+  sh:node rdafr:TypeFichier;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630076 .
+
+rdafr:P630076 a owl:ObjectProperty;
+  rdfs:comment "Le type de fichier est un type général de contenu des données encodées dans un fichier informatique. [code RDA-FR, 3.19.2]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour type de fichier"@fr;
+  rdfs:range rdafr:TypeFichier .
+
+rdafrru:R4081 rdfs:seeAlso "3.19.3";
+  sh:description "Le format d’encodage est une norme, un schéma, etc. utilisé pour encoder le contenu numérique d’une ressource."@fr,
+    "Le format d’encodage est une norme, un schéma, etc. utilisé pour encoder le contenu numérique d’une ressource. [code RDA-FR, 3.19.3]"@fr;
+  sh:name "a pour format d’encodage"@fr;
+  sh:node "Référentiels extérieurs à RDA-FR (Type MIME, 78 ONIX)";
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630077 .
+
+rdafr:P630077 a owl:ObjectProperty;
+  rdfs:comment "Le format d’encodage est une norme, un schéma, etc. utilisé pour encoder le contenu numérique d’une ressource. [code RDA-FR, 3.19.3]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour format d’encodage"@fr;
+  rdfs:range "Référentiels extérieurs à RDA-FR (Type MIME, 78 ONIX)" .
+
+rdafrru:R4082 rdfs:seeAlso "3.19.4";
+  sh:description "La taille du fichier est le nombre d’octets d’un fichier numérique."@fr,
+    "La taille du fichier est le nombre d’octets d’un fichier numérique. [code RDA-FR, 3.19.4]"@fr;
+  sh:maxCount 1;
+  sh:name "a pour taille du fichier"@fr;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630078 .
+
+rdafr:P630078 a owl:ObjectProperty;
+  rdfs:comment "La taille du fichier est le nombre d’octets d’un fichier numérique. [code RDA-FR, 3.19.4]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour taille du fichier"@fr .
+
+rdafrru:R4083 rdfs:seeAlso "3.19.5";
+  sh:description "La résolution est la netteté ou la finesse de détail d’une image numérique. Elle couvre la résolution proprement dite, exprimée en points par pouce, et la définition, exprimée par la mesure de l’image en pixels."@fr,
+    "La résolution est la netteté ou la finesse de détail d’une image numérique. Elle couvre la résolution proprement dite, exprimée en points par pouce, et la définition, exprimée par la mesure de l’image en pixels. [code RDA-FR, 3.19.5]"@fr;
+  sh:maxCount 1;
+  sh:name "a pour résolution"@fr;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630079 .
+
+rdafr:P630079 a owl:ObjectProperty;
+  rdfs:comment "La résolution est la netteté ou la finesse de détail d’une image numérique. Elle couvre la résolution proprement dite, exprimée en points par pouce, et la définition, exprimée par la mesure de l’image en pixels. [code RDA-FR, 3.19.5]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour résolution"@fr .
+
+rdafrru:R4084 rdfs:seeAlso "3.19.7";
+  sh:description "Le débit binaire est une mesure de la quantité de données numériques transmises par unité de temps. C’est un indicateur de qualité pour les flux audio et vidéo."@fr,
+    "Le débit binaire est une mesure de la quantité de données numériques transmises par unité de temps. C’est un indicateur de qualité pour les flux audio et vidéo. [code RDA-FR, 3.19.7]"@fr;
+  sh:maxCount 1;
+  sh:name "a pour débit binaire"@fr;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630080 .
+
+rdafr:P630080 a owl:ObjectProperty;
+  rdfs:comment "Le débit binaire est une mesure de la quantité de données numériques transmises par unité de temps. C’est un indicateur de qualité pour les flux audio et vidéo. [code RDA-FR, 3.19.7]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour débit binaire"@fr .
+
+rdafrru:R4085 rdfs:seeAlso "3.19.8";
+  sh:description "La représentation numérique d’un contenu cartographique est un ensemble de détails techniques relatifs à l’encodage numérique de l’information géospatiale dans une ressource cartographique."@fr,
+    "La représentation numérique d’un contenu cartographique est un ensemble de détails techniques relatifs à l’encodage numérique de l’information géospatiale dans une ressource cartographique. [code RDA-FR, 3.19.8]"@fr;
+  sh:name "a pour représentation numérique d’un contenu cartographique"@fr;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630081 .
+
+rdafr:P630081 a owl:ObjectProperty;
+  rdfs:comment "La représentation numérique d’un contenu cartographique est un ensemble de détails techniques relatifs à l’encodage numérique de l’information géospatiale dans une ressource cartographique. [code RDA-FR, 3.19.8]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour représentation numérique d’un contenu cartographique"@fr .
+
+rdafrru:R4086 rdfs:seeAlso "3.20";
+  sh:description "Un équipement ou système requis est l’équipement ou le système nécessaire pour l’utilisation, la lecture, etc. d’une ressource analogique, numérique, etc."@fr,
+    "Un équipement ou système requis est l’équipement ou le système nécessaire pour l’utilisation, la lecture, etc. d’une ressource analogique, numérique, etc. [code RDA-FR, 3.20]"@fr;
+  sh:maxCount 1;
+  sh:name "a pour équipement ou système requis"@fr;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630082 .
+
+rdafr:P630082 a owl:ObjectProperty;
+  rdfs:comment "Un équipement ou système requis est l’équipement ou le système nécessaire pour l’utilisation, la lecture, etc. d’une ressource analogique, numérique, etc. [code RDA-FR, 3.20]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour équipement ou système requis"@fr .
+
+rdafrru:R4087 rdfs:seeAlso "3.21";
+  sh:description "Le format de projection est un format utilisé pour la production d’une image projetée."@fr,
+    "Le format de projection est un format utilisé pour la production d’une image projetée. [code RDA-FR, 3.21]"@fr;
+  sh:name "a pour format de projection"@fr;
+  sh:node rdafr:FormatProjection;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630083 .
+
+rdafr:P630083 a owl:ObjectProperty;
+  rdfs:comment "Le format de projection est un format utilisé pour la production d’une image projetée. [code RDA-FR, 3.21]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour format de projection"@fr;
+  rdfs:range rdafr:FormatProjection .
+
+rdafrru:R4088 rdfs:seeAlso "3.22";
+  sh:description "La vitesse de projection est la vitesse à laquelle un support projeté doit être utilisé pour produire l’image animée prévue."@fr,
+    "La vitesse de projection est la vitesse à laquelle un support projeté doit être utilisé pour produire l’image animée prévue. [code RDA-FR, 3.22]"@fr;
+  sh:maxCount 1;
+  sh:name "a pour vitesse de projection"@fr;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630084 .
+
+rdafr:P630084 a owl:ObjectProperty;
+  rdfs:comment "La vitesse de projection est la vitesse à laquelle un support projeté doit être utilisé pour produire l’image animée prévue. [code RDA-FR, 3.22]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour vitesse de projection"@fr .
+
+rdafrru:R4089 rdfs:seeAlso "3.23";
+  sh:description "Le format d’un support vidéo est une norme, un standard, etc. utilisé pour enregistrer un contenu sur un support vidéo."@fr,
+    "Le format d’un support vidéo est une norme, un standard, etc. utilisé pour enregistrer un contenu sur un support vidéo. [code RDA-FR, 3.23]"@fr;
+  sh:maxCount 1;
+  sh:name "a pour format d’un support vidéo"@fr;
+  sh:node rdafr:FormatSupportVideo;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630085 .
+
+rdafr:P630085 a owl:ObjectProperty;
+  rdfs:comment "Le format d’un support vidéo est une norme, un standard, etc. utilisé pour enregistrer un contenu sur un support vidéo. [code RDA-FR, 3.23]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour format d’un support vidéo"@fr;
+  rdfs:range rdafr:FormatSupportVideo .
+
+rdafrru:R4090 rdfs:seeAlso "3.24";
+  sh:description "La norme de diffusion est le standard de codage de la couleur du contenu vidéo de la manifestation décrite pour la diffusion sur téléviseur."@fr,
+    "La norme de diffusion est le standard de codage de la couleur du contenu vidéo de la manifestation décrite pour la diffusion sur téléviseur. [code RDA-FR, 3.24]"@fr;
+  sh:name "a pour norme de diffusion"@fr;
+  sh:node rdafr:NormeDiffusion;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630086 .
+
+rdafr:P630086 a owl:ObjectProperty;
+  rdfs:comment "La norme de diffusion est le standard de codage de la couleur du contenu vidéo de la manifestation décrite pour la diffusion sur téléviseur. [code RDA-FR, 3.24]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour norme de diffusion"@fr;
+  rdfs:range rdafr:NormeDiffusion .
+
+rdafrru:R4091 rdfs:seeAlso "3.25";
+  sh:class rdfs:Literal;
+  sh:datatype rdfs:Literal;
+  sh:description "Le code de région est un code identifiant la région du monde pour laquelle un fichier a été encodé sur un support et empêchant ce support d’être lu sur un lecteur vendu dans une région différente."@fr,
+    "Le code de région est un code identifiant la région du monde pour laquelle un fichier a été encodé sur un support et empêchant ce support d’être lu sur un lecteur vendu dans une région différente. [code RDA-FR, 3.25]"@fr;
+  sh:maxCount 1;
+  sh:name "a pour code de région"@fr;
+  sh:nodeKind sh:Literal;
+  sh:path rdafr:P630087 .
+
+rdafr:P630087 a owl:DatatypeProperty;
+  rdfs:comment "Le code de région est un code identifiant la région du monde pour laquelle un fichier a été encodé sur un support et empêchant ce support d’être lu sur un lecteur vendu dans une région différente. [code RDA-FR, 3.25]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour code de région"@fr;
+  rdfs:range rdfs:Literal .
+
+rdafrru:R4092 rdfs:seeAlso "3.26";
+  sh:description "La famille de support est la grande catégorie de matériel nécessitant une médiation pour accéder au contenu de la ressource."@fr,
+    "La famille de support est la grande catégorie de matériel nécessitant une médiation pour accéder au contenu de la ressource. [code RDA-FR, 3.26]"@fr;
+  sh:maxCount 1;
+  sh:name "a pour famille de support"@fr;
+  sh:node rdafr:FamilleSupport;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630088 .
+
+rdafr:P630088 a owl:ObjectProperty;
+  rdfs:comment "La famille de support est la grande catégorie de matériel nécessitant une médiation pour accéder au contenu de la ressource. [code RDA-FR, 3.26]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour famille de support"@fr;
+  rdfs:range rdafr:FamilleSupport .
+
+rdafrru:R4093 rdfs:seeAlso "3.27";
+  sh:class rdfs:Literal;
+  sh:datatype rdfs:Literal;
+  sh:description "La configuration de bande magnétique est le nombre de pistes sur une bande magnétique."@fr,
+    "La configuration de bande magnétique est le nombre de pistes sur une bande magnétique. [code RDA-FR, 3.27]"@fr;
+  sh:maxCount 1;
+  sh:name "a pour configuration de bande magnétique"@fr;
+  sh:nodeKind sh:Literal;
+  sh:path rdafr:P630089 .
+
+rdafr:P630089 a owl:DatatypeProperty;
+  rdfs:comment "La configuration de bande magnétique est le nombre de pistes sur une bande magnétique. [code RDA-FR, 3.27]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour configuration de bande magnétique"@fr;
+  rdfs:range rdfs:Literal .
+
+rdafrru:R4094 rdfs:seeAlso "3.28";
+  sh:description "La technique de spatialisation du son est la méthode utilisée pour reproduire le son et le diffuser dans l’espace."@fr,
+    "La technique de spatialisation du son est la méthode utilisée pour reproduire le son et le diffuser dans l’espace. [code RDA-FR, 3.28]"@fr;
+  sh:name "a pour technique de spatialisation du son"@fr;
+  sh:node rdafr:TechniqueSpatialisationSon;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630090 .
+
+rdafr:P630090 a owl:ObjectProperty;
+  rdfs:comment "La technique de spatialisation du son est la méthode utilisée pour reproduire le son et le diffuser dans l’espace. [code RDA-FR, 3.28]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour technique de spatialisation du son"@fr;
+  rdfs:range rdafr:TechniqueSpatialisationSon .
+
+rdafrru:R4095 rdfs:seeAlso "3.29";
+  sh:description "La technique de réduction du bruit de fond est un procédé consistant à supprimer les composantes indésirables d’un signal sonore."@fr,
+    "La technique de réduction du bruit de fond est un procédé consistant à supprimer les composantes indésirables d’un signal sonore. [code RDA-FR, 3.29]"@fr;
+  sh:name "a pour technique de réduction du bruit de fond"@fr;
+  sh:node rdafr:TechniqueReductionBruit;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630091 .
+
+rdafr:P630091 a owl:ObjectProperty;
+  rdfs:comment "La technique de réduction du bruit de fond est un procédé consistant à supprimer les composantes indésirables d’un signal sonore. [code RDA-FR, 3.29]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour technique de réduction du bruit de fond"@fr;
+  rdfs:range rdafr:TechniqueReductionBruit .
+
+rdafrru:R4096 rdfs:seeAlso "3.30";
+  sh:description "Le format d’image animée est le rapport numérique entre la largeur et la hauteur d’une image animée."@fr,
+    "Le format d’image animée est le rapport numérique entre la largeur et la hauteur d’une image animée. [code RDA-FR, 3.30]"@fr;
+  sh:maxCount 1;
+  sh:name "a pour format d’image animée"@fr;
+  sh:node rdafr:FormatImageAnimee;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630092 .
+
+rdafr:P630092 a owl:ObjectProperty;
+  rdfs:comment "Le format d’image animée est le rapport numérique entre la largeur et la hauteur d’une image animée. [code RDA-FR, 3.30]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour format d’image animée"@fr;
+  rdfs:range rdafr:FormatImageAnimee .
+
+rdafrru:R4097 rdfs:seeAlso "3.31";
+  sh:description "La reliure est un dispositif par lequel les feuilles d’une ressource ont été pliées et/ou assemblées pour former un volume, fascicule ou brochure."@fr,
+    "La reliure est un dispositif par lequel les feuilles d’une ressource ont été pliées et/ou assemblées pour former un volume, fascicule ou brochure. [code RDA-FR, 3.31]"@fr;
+  sh:maxCount 1;
+  sh:name "a pour reliure"@fr;
+  sh:node rdafr:Reliure;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630093 .
+
+rdafr:P630093 a owl:ObjectProperty;
+  rdfs:comment "La reliure est un dispositif par lequel les feuilles d’une ressource ont été pliées et/ou assemblées pour former un volume, fascicule ou brochure. [code RDA-FR, 3.31]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour reliure"@fr;
+  rdfs:range rdafr:Reliure .
+
+rdafrru:R4098 rdfs:seeAlso "3.31.2";
+  sh:class rdfs:Literal;
+  sh:datatype rdfs:Literal;
+  sh:description """La couverture est un élément de la reliure servant à protéger les pages intérieures ainsi qu’à présenter et/ou promouvoir le contenu d’une ressource.
+Les jaquettes des volumes sont assimilées à des couvertures."""@fr,
+    """La couverture est un élément de la reliure servant à protéger les pages intérieures ainsi qu’à présenter et/ou promouvoir le contenu d’une ressource.
+Les jaquettes des volumes sont assimilées à des couvertures. [code RDA-FR, 3.31.2]"""@fr;
+  sh:name "a pour couverture"@fr;
+  sh:nodeKind sh:Literal;
+  sh:path rdafr:P630094 .
+
+rdafr:P630094 a owl:DatatypeProperty;
+  rdfs:comment """La couverture est un élément de la reliure servant à protéger les pages intérieures ainsi qu’à présenter et/ou promouvoir le contenu d’une ressource.
+Les jaquettes des volumes sont assimilées à des couvertures. [code RDA-FR, 3.31.2]"""@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour couverture"@fr;
+  rdfs:range rdfs:Literal .
+
+rdafrru:R4099 rdfs:seeAlso "3.32";
+  sh:description "Le conteneur est un dispositif matériel destiné à contenir un support (voir 3.3) ou un ensemble de supports et séparable physiquement de ce(s) support(s). Un boîtier, une pochette ou un emboîtage sont des conteneurs."@fr,
+    "Le conteneur est un dispositif matériel destiné à contenir un support (voir 3.3) ou un ensemble de supports et séparable physiquement de ce(s) support(s). Un boîtier, une pochette ou un emboîtage sont des conteneurs. [code RDA-FR, 3.32]"@fr;
+  sh:name "a pour conteneur"@fr;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630095 .
+
+rdafr:P630095 a owl:ObjectProperty;
+  rdfs:comment "Le conteneur est un dispositif matériel destiné à contenir un support (voir 3.3) ou un ensemble de supports et séparable physiquement de ce(s) support(s). Un boîtier, une pochette ou un emboîtage sont des conteneurs. [code RDA-FR, 3.32]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour conteneur"@fr .
+
+rdafrru:R4100 rdfs:seeAlso "3.32.2.1";
+  sh:description "[code RDA-FR, 3.32.2.1]"@fr;
+  sh:name "a pour type de conteneur"@fr;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630096 .
+
+rdafr:P630096 a owl:ObjectProperty;
+  rdfs:comment "[code RDA-FR, 3.32.2.1]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour type de conteneur"@fr .
+
+rdafrru:R4101 rdfs:seeAlso "3.32.2.2";
+  sh:description "[code RDA-FR, 3.32.2.2]"@fr;
+  sh:name "a pour matériau du conteneur"@fr;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630097 .
+
+rdafr:P630097 a owl:ObjectProperty;
+  rdfs:comment "[code RDA-FR, 3.32.2.2]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour matériau du conteneur"@fr .
+
+rdafrru:R4102 rdfs:seeAlso "3.32.2.3";
+  sh:description "[code RDA-FR, 3.32.2.3]"@fr;
+  sh:name "a pour dimensions du conteneur"@fr;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630098 .
+
+rdafr:P630098 a owl:ObjectProperty;
+  rdfs:comment "[code RDA-FR, 3.32.2.3]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour dimensions du conteneur"@fr .
+
+rdafrru:R4103 rdfs:seeAlso "3.32.2.4";
+  sh:description "[code RDA-FR, 3.32.2.4]"@fr;
+  sh:name "a pour indicateur de relation"@fr;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630099 .
+
+rdafr:P630099 a owl:ObjectProperty;
+  rdfs:comment "[code RDA-FR, 3.32.2.4]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour indicateur de relation"@fr .
+
+rdafrru:R4104 rdfs:seeAlso "3.32.2.5";
+  sh:description "[code RDA-FR, 3.32.2.5]"@fr;
+  sh:name "a pour nature d’un contenu figurant sur le conteneur"@fr;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630100 .
+
+rdafr:P630100 a owl:ObjectProperty;
+  rdfs:comment "[code RDA-FR, 3.32.2.5]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour nature d’un contenu figurant sur le conteneur"@fr .
+
+rdafrru:R4105 rdfs:seeAlso "3.32.2.6";
+  sh:description "[code RDA-FR, 3.32.2.6]"@fr;
+  sh:name "a pour contenu supplémentaire illustratif figurant sur le conteneur"@fr;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630101 .
+
+rdafr:P630101 a owl:ObjectProperty;
+  rdfs:comment "[code RDA-FR, 3.32.2.6]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour contenu supplémentaire illustratif figurant sur le conteneur"@fr .
+
+rdafrru:R4106 rdfs:seeAlso "3.32.2.7";
+  sh:description "[code RDA-FR, 3.32.2.7]"@fr;
+  sh:name "a pour mention de responsabilité d’un contenu figurant sur le conteneur"@fr;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630102 .
+
+rdafr:P630102 a owl:ObjectProperty;
+  rdfs:comment "[code RDA-FR, 3.32.2.7]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour mention de responsabilité d’un contenu figurant sur le conteneur"@fr .
+
+rdafrru:R4107 rdfs:seeAlso "3.32.2.8";
+  sh:description "[code RDA-FR, 3.32.2.8]"@fr;
+  sh:name "a pour langue d’un contenu figurant sur le conteneur"@fr;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630103 .
+
+rdafr:P630103 a owl:ObjectProperty;
+  rdfs:comment "[code RDA-FR, 3.32.2.8]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour langue d’un contenu figurant sur le conteneur"@fr .
+
+rdafrru:R4108 rdfs:seeAlso "3.32.2.9";
+  sh:description "[code RDA-FR, 3.32.2.9]"@fr;
+  sh:name "a pour écriture d’un contenu figurant sur le conteneur"@fr;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630104 .
+
+rdafr:P630104 a owl:ObjectProperty;
+  rdfs:comment "[code RDA-FR, 3.32.2.9]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour écriture d’un contenu figurant sur le conteneur"@fr .
+
+rdafrru:R4109 rdfs:seeAlso "3.32.2.10";
+  sh:description "[code RDA-FR, 3.32.2.10]"@fr;
+  sh:name "a pour forme de la notation d’un contenu figurant sur le conteneur"@fr;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630105 .
+
+rdafr:P630105 a owl:ObjectProperty;
+  rdfs:comment "[code RDA-FR, 3.32.2.10]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour forme de la notation d’un contenu figurant sur le conteneur"@fr .
+
+rdafrru:R4110 rdfs:seeAlso "3.33";
+  sh:description "Le matériel d’accompagnement est un matériel de toute nature, publié avec la ressource décrite et conçu pour être utilisé avec elle."@fr,
+    "Le matériel d’accompagnement est un matériel de toute nature, publié avec la ressource décrite et conçu pour être utilisé avec elle. [code RDA-FR, 3.33]"@fr;
+  sh:name "a pour matériel d’accompagnement"@fr;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630106 .
+
+rdafr:P630106 a owl:ObjectProperty;
+  rdfs:comment "Le matériel d’accompagnement est un matériel de toute nature, publié avec la ressource décrite et conçu pour être utilisé avec elle. [code RDA-FR, 3.33]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour matériel d’accompagnement"@fr .
+
+rdafrru:R4111 rdfs:seeAlso "3.33.2.1";
+  sh:description "[code RDA-FR, 3.33.2.1]"@fr;
+  sh:name "a pour indicateur de relation"@fr;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630107 .
+
+rdafr:P630107 a owl:ObjectProperty;
+  rdfs:comment "[code RDA-FR, 3.33.2.1]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour indicateur de relation"@fr .
+
+rdafrru:R4112 rdfs:seeAlso "3.33.2.2";
+  sh:description "[code RDA-FR, 3.33.2.2]"@fr;
+  sh:name "a pour nature du contenu du matériel d’accompagnement"@fr;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630108 .
+
+rdafr:P630108 a owl:ObjectProperty;
+  rdfs:comment "[code RDA-FR, 3.33.2.2]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour nature du contenu du matériel d’accompagnement"@fr .
+
+rdafrru:R4113 rdfs:seeAlso "3.33.2.3";
+  sh:description "[code RDA-FR, 3.33.2.3]"@fr;
+  sh:name "a pour nature d’un contenu partiel du matériel d’accompagnement"@fr;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630109 .
+
+rdafr:P630109 a owl:ObjectProperty;
+  rdfs:comment "[code RDA-FR, 3.33.2.3]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour nature d’un contenu partiel du matériel d’accompagnement"@fr .
+
+rdafrru:R4114 rdfs:seeAlso "3.33.2.4";
+  sh:description "[code RDA-FR, 3.33.2.4]"@fr;
+  sh:name "a pour contenu supplémentaire illustratif du matériel d’accompagnement"@fr;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630110 .
+
+rdafr:P630110 a owl:ObjectProperty;
+  rdfs:comment "[code RDA-FR, 3.33.2.4]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour contenu supplémentaire illustratif du matériel d’accompagnement"@fr .
+
+rdafrru:R4115 rdfs:seeAlso "3.33.2.5";
+  sh:description "[code RDA-FR, 3.33.2.5]"@fr;
+  sh:name "a pour titre du contenu du matériel d’accompagnement"@fr;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630111 .
+
+rdafr:P630111 a owl:ObjectProperty;
+  rdfs:comment "[code RDA-FR, 3.33.2.5]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour titre du contenu du matériel d’accompagnement"@fr .
+
+rdafrru:R4116 rdfs:seeAlso "3.33.2.6";
+  sh:description "[code RDA-FR, 3.33.2.6]"@fr;
+  sh:name "a pour mention de responsabilité associée à un contenu du matériel d’accompagnement"@fr;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630112 .
+
+rdafr:P630112 a owl:ObjectProperty;
+  rdfs:comment "[code RDA-FR, 3.33.2.6]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour mention de responsabilité associée à un contenu du matériel d’accompagnement"@fr .
+
+rdafrru:R4117 rdfs:seeAlso "3.33.2.7";
+  sh:description "[code RDA-FR, 3.33.2.7]"@fr;
+  sh:name "a pour langue du contenu du matériel d’accompagnement"@fr;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630113 .
+
+rdafr:P630113 a owl:ObjectProperty;
+  rdfs:comment "[code RDA-FR, 3.33.2.7]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour langue du contenu du matériel d’accompagnement"@fr .
+
+rdafrru:R4118 rdfs:seeAlso "3.33.2.8";
+  sh:description "[code RDA-FR, 3.33.2.8]"@fr;
+  sh:name "a pour écriture du contenu du matériel d’accompagnement"@fr;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630114 .
+
+rdafr:P630114 a owl:ObjectProperty;
+  rdfs:comment "[code RDA-FR, 3.33.2.8]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour écriture du contenu du matériel d’accompagnement"@fr .
+
+rdafrru:R4119 rdfs:seeAlso "3.33.2.9";
+  sh:description "[code RDA-FR, 3.33.2.9]"@fr;
+  sh:name "a pour forme de la notation du matériel d’accompagnement"@fr;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630115 .
+
+rdafr:P630115 a owl:ObjectProperty;
+  rdfs:comment "[code RDA-FR, 3.33.2.9]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour forme de la notation du matériel d’accompagnement"@fr .
+
+rdafrru:R4120 rdfs:seeAlso "3.33.2.10";
+  sh:description "[code RDA-FR, 3.33.2.10]"@fr;
+  sh:name "a pour importance matérielle du matériel d’accompagnement"@fr;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630116 .
+
+rdafr:P630116 a owl:ObjectProperty;
+  rdfs:comment "[code RDA-FR, 3.33.2.10]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour importance matérielle du matériel d’accompagnement"@fr .
+
+rdafrru:R4121 rdfs:seeAlso "3.33.2.11";
+  sh:description "[code RDA-FR, 3.33.2.11]"@fr;
+  sh:name "a pour dimensions du matériel d’accompagnement"@fr;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630117 .
+
+rdafr:P630117 a owl:ObjectProperty;
+  rdfs:comment "[code RDA-FR, 3.33.2.11]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour dimensions du matériel d’accompagnement"@fr .
+
+rdafrru:R4122 rdfs:seeAlso "3.33.2.12";
+  sh:description "[code RDA-FR, 3.33.2.12]"@fr;
+  sh:name "a pour caractéristiques techniques du matériel d’accompagnement"@fr;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630118 .
+
+rdafr:P630118 a owl:ObjectProperty;
+  rdfs:comment "[code RDA-FR, 3.33.2.12]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour caractéristiques techniques du matériel d’accompagnement"@fr .
+
+rdafrru:R4123 rdfs:seeAlso "3.33.2.13";
+  sh:description "[code RDA-FR, 3.33.2.13]"@fr;
+  sh:name "a pour conditions d’accès du matériel d’accompagnement"@fr;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630119 .
+
+rdafr:P630119 a owl:ObjectProperty;
+  rdfs:comment "[code RDA-FR, 3.33.2.13]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour conditions d’accès du matériel d’accompagnement"@fr .
+
+rdafrru:R4124 rdfs:seeAlso "3.40";
+  sh:class rdfs:Literal;
+  sh:datatype rdfs:Literal;
+  sh:description "La note sur un support est une note qui fournit de l’information sur les attributs d’un ou plusieurs supports d’une manifestation."@fr,
+    "La note sur un support est une note qui fournit de l’information sur les attributs d’un ou plusieurs supports d’une manifestation. [code RDA-FR, 3.40]"@fr;
+  sh:name "a pour note sur un support"@fr;
+  sh:nodeKind sh:Literal;
+  sh:path rdafr:P630120 .
+
+rdafr:P630120 a owl:DatatypeProperty;
+  rdfs:comment "La note sur un support est une note qui fournit de l’information sur les attributs d’un ou plusieurs supports d’une manifestation. [code RDA-FR, 3.40]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour note sur un support"@fr;
+  rdfs:range rdfs:Literal .
+
+rdafrru:R4125 rdfs:seeAlso "3.40.2";
+  sh:class rdfs:Literal;
+  sh:datatype rdfs:Literal;
+  sh:description "La note sur l’importance matérielle d’une manifestation est une note qui fournit de l’information sur l’importance matérielle d’une manifestation qui n’est pas enregistrée dans un élément Importance matérielle."@fr,
+    "La note sur l’importance matérielle d’une manifestation est une note qui fournit de l’information sur l’importance matérielle d’une manifestation qui n’est pas enregistrée dans un élément Importance matérielle. [code RDA-FR, 3.40.2]"@fr;
+  sh:name "a pour note sur l’importance matérielle d’une manifestation"@fr;
+  sh:nodeKind sh:Literal;
+  sh:path rdafr:P630121 .
+
+rdafr:P630121 a owl:DatatypeProperty;
+  rdfs:comment "La note sur l’importance matérielle d’une manifestation est une note qui fournit de l’information sur l’importance matérielle d’une manifestation qui n’est pas enregistrée dans un élément Importance matérielle. [code RDA-FR, 3.40.2]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour note sur l’importance matérielle d’une manifestation"@fr;
+  rdfs:range rdfs:Literal .
+
+rdafrru:R4126 rdfs:seeAlso "3.40.3";
+  sh:class rdfs:Literal;
+  sh:datatype rdfs:Literal;
+  sh:description "La note sur les dimensions d’une manifestation est une note qui fournit de l’information sur les dimensions d’une manifestation qui n’est pas enregistrée dans un élément Dimensions."@fr,
+    "La note sur les dimensions d’une manifestation est une note qui fournit de l’information sur les dimensions d’une manifestation qui n’est pas enregistrée dans un élément Dimensions. [code RDA-FR, 3.40.3]"@fr;
+  sh:name "a pour note sur les dimensions d’une manifestation"@fr;
+  sh:nodeKind sh:Literal;
+  sh:path rdafr:P630122 .
+
+rdafr:P630122 a owl:DatatypeProperty;
+  rdfs:comment "La note sur les dimensions d’une manifestation est une note qui fournit de l’information sur les dimensions d’une manifestation qui n’est pas enregistrée dans un élément Dimensions. [code RDA-FR, 3.40.3]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour note sur les dimensions d’une manifestation"@fr;
+  rdfs:range rdfs:Literal .
+
+rdafrru:R4127 rdfs:seeAlso "3.40.4";
+  sh:class rdfs:Literal;
+  sh:datatype rdfs:Literal;
+  sh:description "La note sur les changements dans les caractéristiques du support est une note sur les changements dans les caractéristiques du support survenant dans les livraisons ou parties ultérieures d’une manifestation publiée en parties successives ou bien entre les différentes itérations d’une ressource intégratrice."@fr,
+    "La note sur les changements dans les caractéristiques du support est une note sur les changements dans les caractéristiques du support survenant dans les livraisons ou parties ultérieures d’une manifestation publiée en parties successives ou bien entre les différentes itérations d’une ressource intégratrice. [code RDA-FR, 3.40.4]"@fr;
+  sh:maxCount 1;
+  sh:name "a pour note sur les changements dans les caractéristiques du support"@fr;
+  sh:nodeKind sh:Literal;
+  sh:path rdafr:P630123 .
+
+rdafr:P630123 a owl:DatatypeProperty;
+  rdfs:comment "La note sur les changements dans les caractéristiques du support est une note sur les changements dans les caractéristiques du support survenant dans les livraisons ou parties ultérieures d’une manifestation publiée en parties successives ou bien entre les différentes itérations d’une ressource intégratrice. [code RDA-FR, 3.40.4]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour note sur les changements dans les caractéristiques du support"@fr;
+  rdfs:range rdfs:Literal .
+
+rdafrru:R4128 rdfs:seeAlso "3.40.5";
+  sh:class rdfs:Literal;
+  sh:datatype rdfs:Literal;
+  sh:description "La note sur une particularité d’un support est une note qui fournit de l’information sur le support d’une manifestation, lorsque cette information ne peut être enregistrée dans un élément spécifique."@fr,
+    "La note sur une particularité d’un support est une note qui fournit de l’information sur le support d’une manifestation, lorsque cette information ne peut être enregistrée dans un élément spécifique. [code RDA-FR, 3.40.5]"@fr;
+  sh:name "a pour note sur une particularité d’un support"@fr;
+  sh:nodeKind sh:Literal;
+  sh:path rdafr:P630124 .
+
+rdafr:P630124 a owl:DatatypeProperty;
+  rdfs:comment "La note sur une particularité d’un support est une note qui fournit de l’information sur le support d’une manifestation, lorsque cette information ne peut être enregistrée dans un élément spécifique. [code RDA-FR, 3.40.5]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour note sur une particularité d’un support"@fr;
+  rdfs:range rdfs:Literal .
+
+rdafrru:R4129 rdfs:seeAlso "3.51";
+  sh:description "Le type de contenu est une catégorisation reflétant la (ou les) forme(s) fondamentale(s) utilisée(s) pour exprimer le contenu d’une ressource, accompagnée si nécessaire de précisions sur le (ou les) sens sollicité(s), sur le nombre de dimensions spatiales restituées à la perception et/ou sur la présence ou l’absence de mouvement."@fr,
+    "Le type de contenu est une catégorisation reflétant la (ou les) forme(s) fondamentale(s) utilisée(s) pour exprimer le contenu d’une ressource, accompagnée si nécessaire de précisions sur le (ou les) sens sollicité(s), sur le nombre de dimensions spatiales restituées à la perception et/ou sur la présence ou l’absence de mouvement. [code RDA-FR, 3.51]"@fr;
+  sh:minCount 1;
+  sh:name "a pour type de contenu"@fr;
+  sh:node rdafr:TypeContenu;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630125 .
+
+rdafr:P630125 a owl:ObjectProperty;
+  rdfs:comment "Le type de contenu est une catégorisation reflétant la (ou les) forme(s) fondamentale(s) utilisée(s) pour exprimer le contenu d’une ressource, accompagnée si nécessaire de précisions sur le (ou les) sens sollicité(s), sur le nombre de dimensions spatiales restituées à la perception et/ou sur la présence ou l’absence de mouvement. [code RDA-FR, 3.51]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour type de contenu"@fr;
+  rdfs:range rdafr:TypeContenu .
+
+rdafrru:R4130 rdfs:seeAlso "3.52";
+  sh:description "Une mention de présentation musicale est une mention qui identifie la disposition de la présentation matérielle d’une ressource de musique notée. La plupart des désignations de présentation musicale relèvent uniquement de la manifestation. D’autres signalent aussi une expression différente de l’œuvre."@fr,
+    "Une mention de présentation musicale est une mention qui identifie la disposition de la présentation matérielle d’une ressource de musique notée. La plupart des désignations de présentation musicale relèvent uniquement de la manifestation. D’autres signalent aussi une expression différente de l’œuvre. [code RDA-FR, 3.52]"@fr;
+  sh:maxCount 1;
+  sh:name "a pour mention de présentation musicale"@fr;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630126 .
+
+rdafr:P630126 a owl:ObjectProperty;
+  rdfs:comment "Une mention de présentation musicale est une mention qui identifie la disposition de la présentation matérielle d’une ressource de musique notée. La plupart des désignations de présentation musicale relèvent uniquement de la manifestation. D’autres signalent aussi une expression différente de l’œuvre. [code RDA-FR, 3.52]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour mention de présentation musicale"@fr .
+
+rdafrru:R4131 rdfs:seeAlso "3.52.2";
+  sh:class rdfs:Literal;
+  sh:datatype rdfs:Literal;
+  sh:description "La désignation de présentation musicale est un mot, caractère ou groupe de mots ou de caractères qui indique la disposition de la présentation matérielle d’une ressource de musique notée."@fr,
+    "La désignation de présentation musicale est un mot, caractère ou groupe de mots ou de caractères qui indique la disposition de la présentation matérielle d’une ressource de musique notée. [code RDA-FR, 3.52.2]"@fr;
+  sh:maxCount 1;
+  sh:name "a pour désignation de présentation musicale"@fr;
+  sh:node rdafr:DesignationPresentationMusicale;
+  sh:nodeKind sh:Literal;
+  sh:path rdafr:P630127 .
+
+rdafr:P630127 a owl:DatatypeProperty;
+  rdfs:comment "La désignation de présentation musicale est un mot, caractère ou groupe de mots ou de caractères qui indique la disposition de la présentation matérielle d’une ressource de musique notée. [code RDA-FR, 3.52.2]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour désignation de présentation musicale"@fr;
+  rdfs:range rdafr:DesignationPresentationMusicalerdfs:Literal .
+
+rdafrru:R4132 rdfs:seeAlso "3.52.3";
+  sh:class rdfs:Literal;
+  sh:datatype rdfs:Literal;
+  sh:description "Une désignation parallèle de présentation musicale est une désignation de présentation musicale dans une autre langue ou écriture de celles enregistrées dans l’élément Désignation de présentation musicale."@fr,
+    "Une désignation parallèle de présentation musicale est une désignation de présentation musicale dans une autre langue ou écriture de celles enregistrées dans l’élément Désignation de présentation musicale. [code RDA-FR, 3.52.3]"@fr;
+  sh:name "a pour désignation parallèle de présentation musicale"@fr;
+  sh:nodeKind sh:Literal;
+  sh:path rdafr:P630128 .
+
+rdafr:P630128 a owl:DatatypeProperty;
+  rdfs:comment "Une désignation parallèle de présentation musicale est une désignation de présentation musicale dans une autre langue ou écriture de celles enregistrées dans l’élément Désignation de présentation musicale. [code RDA-FR, 3.52.3]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour désignation parallèle de présentation musicale"@fr;
+  rdfs:range rdfs:Literal .
+
+rdafrru:R4133 rdfs:seeAlso "3.53";
+  sh:description "[code RDA-FR, 3.53]"@fr;
+  sh:name "a pour détail du contenu"@fr;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630129 .
+
+rdafr:P630129 a owl:ObjectProperty;
+  rdfs:comment "[code RDA-FR, 3.53]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour détail du contenu"@fr .
+
+rdafrru:R4134 rdfs:seeAlso "3.53.3";
+  sh:description """La quantification du contenu est le nombre et le type d’unités de contenu et au besoin de sous-unités formant une ressource. Elle s’applique lorsqu’il est jugé utile de préciser la nature et l’importance du contenu de la ressource décrite.
+Une unité de contenu est un composant intellectuel ou artistique d’une ressource. Elle est désignée par un terme reflétant la typologie ou la fonction du contenu (par exemple, une carte, un dessin, une affiche, une partition).
+Une sous-unité est une subdivision d’une unité (par exemple, un segment d’une carte ou un tome dans un volume)."""@fr,
+    """La quantification du contenu est le nombre et le type d’unités de contenu et au besoin de sous-unités formant une ressource. Elle s’applique lorsqu’il est jugé utile de préciser la nature et l’importance du contenu de la ressource décrite.
+Une unité de contenu est un composant intellectuel ou artistique d’une ressource. Elle est désignée par un terme reflétant la typologie ou la fonction du contenu (par exemple, une carte, un dessin, une affiche, une partition).
+Une sous-unité est une subdivision d’une unité (par exemple, un segment d’une carte ou un tome dans un volume). [code RDA-FR, 3.53.3]"""@fr;
+  sh:name "a pour quantification du contenu"@fr;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630130 .
+
+rdafr:P630130 a owl:ObjectProperty;
+  rdfs:comment """La quantification du contenu est le nombre et le type d’unités de contenu et au besoin de sous-unités formant une ressource. Elle s’applique lorsqu’il est jugé utile de préciser la nature et l’importance du contenu de la ressource décrite.
+Une unité de contenu est un composant intellectuel ou artistique d’une ressource. Elle est désignée par un terme reflétant la typologie ou la fonction du contenu (par exemple, une carte, un dessin, une affiche, une partition).
+Une sous-unité est une subdivision d’une unité (par exemple, un segment d’une carte ou un tome dans un volume). [code RDA-FR, 3.53.3]"""@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour quantification du contenu"@fr .
+
+rdafrru:R4135 rdfs:seeAlso "3.54";
+  sh:description "Le contenu supplémentaire signale la présence d’un contenu qui complète le contenu principal de la manifestation et qui n’appartient pas à l’œuvre initiale. Le contenu supplémentaire ne s’applique donc que dans les cas d’augmentations d’une œuvre préexistante. Un contenu supplémentaire peut être un contenu dématérialisé accessible en ligne à travers une adresse URL ou un QRcode figurant dans la ressource."@fr,
+    "Le contenu supplémentaire signale la présence d’un contenu qui complète le contenu principal de la manifestation et qui n’appartient pas à l’œuvre initiale. Le contenu supplémentaire ne s’applique donc que dans les cas d’augmentations d’une œuvre préexistante. Un contenu supplémentaire peut être un contenu dématérialisé accessible en ligne à travers une adresse URL ou un QRcode figurant dans la ressource. [code RDA-FR, 3.54]"@fr;
+  sh:name "a pour contenu supplémentaire"@fr;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630131 .
+
+rdafr:P630131 a owl:ObjectProperty;
+  rdfs:comment "Le contenu supplémentaire signale la présence d’un contenu qui complète le contenu principal de la manifestation et qui n’appartient pas à l’œuvre initiale. Le contenu supplémentaire ne s’applique donc que dans les cas d’augmentations d’une œuvre préexistante. Un contenu supplémentaire peut être un contenu dématérialisé accessible en ligne à travers une adresse URL ou un QRcode figurant dans la ressource. [code RDA-FR, 3.54]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour contenu supplémentaire"@fr .
+
+rdafrru:R4136 rdfs:seeAlso "3.54.1.5.1";
+  sh:description "[code RDA-FR, 3.54.1.5.1]"@fr;
+  sh:name "a pour indicateur de relation"@fr;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630132 .
+
+rdafr:P630132 a owl:ObjectProperty;
+  rdfs:comment "[code RDA-FR, 3.54.1.5.1]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour indicateur de relation"@fr .
+
+rdafrru:R4137 rdfs:seeAlso "3.54.1.5.2";
+  sh:description "[code RDA-FR, 3.54.1.5.2]"@fr;
+  sh:name "a pour nature du contenu supplémentaire"@fr;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630133 .
+
+rdafr:P630133 a owl:ObjectProperty;
+  rdfs:comment "[code RDA-FR, 3.54.1.5.2]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour nature du contenu supplémentaire"@fr .
+
+rdafrru:R4138 rdfs:seeAlso "3.54.1.5.3";
+  sh:description "[code RDA-FR, 3.54.1.5.3]"@fr;
+  sh:name "a pour titre du contenu supplémentaire"@fr;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630134 .
+
+rdafr:P630134 a owl:ObjectProperty;
+  rdfs:comment "[code RDA-FR, 3.54.1.5.3]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour titre du contenu supplémentaire"@fr .
+
+rdafrru:R4139 rdfs:seeAlso "3.54.1.5.4";
+  sh:description "[code RDA-FR, 3.54.1.5.4]"@fr;
+  sh:name "a pour mention de responsabilité du contenu supplémentaire"@fr;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630135 .
+
+rdafr:P630135 a owl:ObjectProperty;
+  rdfs:comment "[code RDA-FR, 3.54.1.5.4]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour mention de responsabilité du contenu supplémentaire"@fr .
+
+rdafrru:R4140 rdfs:seeAlso "3.54.1.5.5";
+  sh:description "[code RDA-FR, 3.54.1.5.5]"@fr;
+  sh:name "a pour langue du contenu supplémentaire"@fr;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630136 .
+
+rdafr:P630136 a owl:ObjectProperty;
+  rdfs:comment "[code RDA-FR, 3.54.1.5.5]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour langue du contenu supplémentaire"@fr .
+
+rdafrru:R4141 rdfs:seeAlso "3.54.1.5.6";
+  sh:description "[code RDA-FR, 3.54.1.5.6]"@fr;
+  sh:name "a pour écriture du contenu supplémentaire"@fr;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630137 .
+
+rdafr:P630137 a owl:ObjectProperty;
+  rdfs:comment "[code RDA-FR, 3.54.1.5.6]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour écriture du contenu supplémentaire"@fr .
+
+rdafrru:R4142 rdfs:seeAlso "3.54.1.5.7";
+  sh:description "[code RDA-FR, 3.54.1.5.7]"@fr;
+  sh:name "a pour forme de la notation du contenu supplémentaire"@fr;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630138 .
+
+rdafr:P630138 a owl:ObjectProperty;
+  rdfs:comment "[code RDA-FR, 3.54.1.5.7]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour forme de la notation du contenu supplémentaire"@fr .
+
+rdafrru:R4143 rdfs:seeAlso "3.54.1.5.8";
+  sh:description "[code RDA-FR, 3.54.1.5.8]"@fr;
+  sh:name "a pour importance matérielle du contenu supplémentaire"@fr;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630139 .
+
+rdafr:P630139 a owl:ObjectProperty;
+  rdfs:comment "[code RDA-FR, 3.54.1.5.8]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour importance matérielle du contenu supplémentaire"@fr .
+
+rdafrru:R4144 rdfs:seeAlso "3.54.1.5.9";
+  sh:description "[code RDA-FR, 3.54.1.5.9]"@fr;
+  sh:name "a pour emplacement du contenu supplémentaire"@fr;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630140 .
+
+rdafr:P630140 a owl:ObjectProperty;
+  rdfs:comment "[code RDA-FR, 3.54.1.5.9]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour emplacement du contenu supplémentaire"@fr .
+
+rdafrru:R4145 rdfs:seeAlso "3.54.1.5.10";
+  sh:description "[code RDA-FR, 3.54.1.5.10]"@fr;
+  sh:name "a pour URL du contenu supplémentaire"@fr;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630141 .
+
+rdafr:P630141 a owl:ObjectProperty;
+  rdfs:comment "[code RDA-FR, 3.54.1.5.10]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour URL du contenu supplémentaire"@fr .
+
+rdafrru:R4146 rdfs:seeAlso "3.54.1.5.11";
+  sh:description "[code RDA-FR, 3.54.1.5.11]"@fr;
+  sh:name "a pour conditions d’accès du contenu supplémentaire"@fr;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630142 .
+
+rdafr:P630142 a owl:ObjectProperty;
+  rdfs:comment "[code RDA-FR, 3.54.1.5.11]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour conditions d’accès du contenu supplémentaire"@fr .
+
+rdafrru:R4147 rdfs:seeAlso "3.54.2";
+  sh:description "Un contenu supplémentaire illustratif signale la présence d’un contenu d’image qui complète le contenu principal d’une manifestation, et qui n’appartient pas à l’œuvre initiale (souvent textuelle). Le contenu supplémentaire illustratif ne s’applique donc que dans les cas d’augmentations."@fr,
+    "Un contenu supplémentaire illustratif signale la présence d’un contenu d’image qui complète le contenu principal d’une manifestation, et qui n’appartient pas à l’œuvre initiale (souvent textuelle). Le contenu supplémentaire illustratif ne s’applique donc que dans les cas d’augmentations. [code RDA-FR, 3.54.2]"@fr;
+  sh:name "a pour contenu supplémentaire illustratif"@fr;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630143 .
+
+rdafr:P630143 a owl:ObjectProperty;
+  rdfs:comment "Un contenu supplémentaire illustratif signale la présence d’un contenu d’image qui complète le contenu principal d’une manifestation, et qui n’appartient pas à l’œuvre initiale (souvent textuelle). Le contenu supplémentaire illustratif ne s’applique donc que dans les cas d’augmentations. [code RDA-FR, 3.54.2]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour contenu supplémentaire illustratif"@fr .
+
+rdafrru:R4148 rdfs:seeAlso "3.54.2.2";
+  sh:description "[code RDA-FR, 3.54.2.2]"@fr;
+  sh:name "a pour nature du contenu supplémentaire illustratif"@fr;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630144 .
+
+rdafr:P630144 a owl:ObjectProperty;
+  rdfs:comment "[code RDA-FR, 3.54.2.2]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour nature du contenu supplémentaire illustratif"@fr .
+
+rdafrru:R4149 rdfs:seeAlso "3.54.2.3";
+  sh:description "[code RDA-FR, 3.54.2.3]"@fr;
+  sh:name "a pour emplacement du contenu supplémentaire illustratif"@fr;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630145 .
+
+rdafr:P630145 a owl:ObjectProperty;
+  rdfs:comment "[code RDA-FR, 3.54.2.3]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour emplacement du contenu supplémentaire illustratif"@fr .
+
+rdafrru:R4150 rdfs:seeAlso "3.54.2.4";
+  sh:description "[code RDA-FR, 3.54.2.4]"@fr;
+  sh:name "a pour technique du contenu supplémentaire illustratif"@fr;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630146 .
+
+rdafr:P630146 a owl:ObjectProperty;
+  rdfs:comment "[code RDA-FR, 3.54.2.4]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour technique du contenu supplémentaire illustratif"@fr .
+
+rdafrru:R4151 rdfs:seeAlso "3.54.2.5";
+  sh:description "[code RDA-FR, 3.54.2.5]"@fr;
+  sh:maxCount 1;
+  sh:name "a pour couleur du contenu supplémentaire illustratif"@fr;
+  sh:node rdafr:Couleur;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630147 .
+
+rdafr:P630147 a owl:ObjectProperty;
+  rdfs:comment "[code RDA-FR, 3.54.2.5]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour couleur du contenu supplémentaire illustratif"@fr;
+  rdfs:range rdafr:Couleur .
+
+rdafrru:R4152 rdfs:seeAlso "4.2";
+  sh:class rdfs:Literal;
+  sh:datatype rdfs:Literal;
+  sh:description """Les conditions de distribution regroupent les modalités sous lesquelles une manifestation est mise à disposition des utilisateurs potentiels par l’éditeur, le diffuseur ou le distributeur, etc.
+Les conditions de distribution peuvent se limiter au prix de la manifestation."""@fr,
+    """Les conditions de distribution regroupent les modalités sous lesquelles une manifestation est mise à disposition des utilisateurs potentiels par l’éditeur, le diffuseur ou le distributeur, etc.
+Les conditions de distribution peuvent se limiter au prix de la manifestation. [code RDA-FR, 4.2]"""@fr;
+  sh:name "a pour conditions de distribution"@fr;
+  sh:nodeKind sh:Literal;
+  sh:path rdafr:P630148 .
+
+rdafr:P630148 a owl:DatatypeProperty;
+  rdfs:comment """Les conditions de distribution regroupent les modalités sous lesquelles une manifestation est mise à disposition des utilisateurs potentiels par l’éditeur, le diffuseur ou le distributeur, etc.
+Les conditions de distribution peuvent se limiter au prix de la manifestation. [code RDA-FR, 4.2]"""@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour conditions de distribution"@fr;
+  rdfs:range rdfs:Literal .
+
+rdafrru:R4153 rdfs:seeAlso "4.3";
+  sh:class rdfs:Literal;
+  sh:datatype rdfs:Literal;
+  sh:description "Les coordonnées de l’éditeur, du diffuseur ou du distributeur, etc. sont des renseignements permettant de contacter une organisation, etc. auprès de laquelle une ressource peut être obtenue. Elles comprennent généralement le nom, l’adresse, etc. de l’éditeur, du diffuseur ou du distributeur, etc. de la ressource."@fr,
+    "Les coordonnées de l’éditeur, du diffuseur ou du distributeur, etc. sont des renseignements permettant de contacter une organisation, etc. auprès de laquelle une ressource peut être obtenue. Elles comprennent généralement le nom, l’adresse, etc. de l’éditeur, du diffuseur ou du distributeur, etc. de la ressource. [code RDA-FR, 4.3]"@fr;
+  sh:name "a pour coordonnées de l'éditeur, du diffuseur ou du distributeur, etc."@fr;
+  sh:nodeKind sh:Literal;
+  sh:path rdafr:P630149 .
+
+rdafr:P630149 a owl:DatatypeProperty;
+  rdfs:comment "Les coordonnées de l’éditeur, du diffuseur ou du distributeur, etc. sont des renseignements permettant de contacter une organisation, etc. auprès de laquelle une ressource peut être obtenue. Elles comprennent généralement le nom, l’adresse, etc. de l’éditeur, du diffuseur ou du distributeur, etc. de la ressource. [code RDA-FR, 4.3]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour coordonnées de l'éditeur, du diffuseur ou du distributeur, etc."@fr;
+  rdfs:range rdfs:Literal .
+
+rdafrru:R4154 rdfs:seeAlso "4.4";
+  sh:class rdfs:Literal;
+  sh:datatype rdfs:Literal;
+  sh:description "Les conditions d’accès décrivent les modalités d’accès à une manifestation, y compris d’éventuelles restrictions d’accès."@fr,
+    "Les conditions d’accès décrivent les modalités d’accès à une manifestation, y compris d’éventuelles restrictions d’accès. [code RDA-FR, 4.4]"@fr;
+  sh:maxCount 1;
+  sh:name "a pour conditions d'accès"@fr;
+  sh:nodeKind sh:Literal;
+  sh:path rdafr:P630150 .
+
+rdafr:P630150 a owl:DatatypeProperty;
+  rdfs:comment "Les conditions d’accès décrivent les modalités d’accès à une manifestation, y compris d’éventuelles restrictions d’accès. [code RDA-FR, 4.4]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour conditions d'accès"@fr;
+  rdfs:range rdfs:Literal .
+
+rdafrru:R4155 rdfs:seeAlso "4.5";
+  sh:description "Le type d’accès à une ressource dématérialisée désigne les différents modes de connexion permettant d’accéder à une ressource dématérialisée."@fr,
+    "Le type d’accès à une ressource dématérialisée désigne les différents modes de connexion permettant d’accéder à une ressource dématérialisée. [code RDA-FR, 4.5]"@fr;
+  sh:name "a pour type d'accès à une ressource dématérialisée"@fr;
+  sh:node rdafr:TypeAccesDemat;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P630151 .
+
+rdafr:P630151 a owl:ObjectProperty;
+  rdfs:comment "Le type d’accès à une ressource dématérialisée désigne les différents modes de connexion permettant d’accéder à une ressource dématérialisée. [code RDA-FR, 4.5]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour type d'accès à une ressource dématérialisée"@fr;
+  rdfs:range rdafr:TypeAccesDemat .
+
+rdafrru:R4156 rdfs:seeAlso "4.6";
+  sh:class rdfs:Literal;
+  sh:datatype rdfs:Literal;
+  sh:description "Une restriction d’usage signale une limitation imposée sur la reproduction, la publication, l’exposition, etc. d’une manifestation."@fr,
+    "Une restriction d’usage signale une limitation imposée sur la reproduction, la publication, l’exposition, etc. d’une manifestation. [code RDA-FR, 4.6]"@fr;
+  sh:maxCount 1;
+  sh:name "a pour restriction d'usage"@fr;
+  sh:nodeKind sh:Literal;
+  sh:path rdafr:P630152 .
+
+rdafr:P630152 a owl:DatatypeProperty;
+  rdfs:comment "Une restriction d’usage signale une limitation imposée sur la reproduction, la publication, l’exposition, etc. d’une manifestation. [code RDA-FR, 4.6]"@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour restriction d'usage"@fr;
+  rdfs:range rdfs:Literal .
+
+rdafrru:R4157 rdfs:seeAlso "4.7";
+  sh:class rdfs:Literal;
+  sh:datatype rdfs:Literal;
+  sh:description """Une adresse URL est une adresse d’une ressource en ligne.
+Les adresses URL comprennent tous les identifiants des ressources dont le but est de fournir un accès en ligne à une manifestation à l’aide d’un navigateur Internet standard."""@fr,
+    """Une adresse URL est une adresse d’une ressource en ligne.
+Les adresses URL comprennent tous les identifiants des ressources dont le but est de fournir un accès en ligne à une manifestation à l’aide d’un navigateur Internet standard. [code RDA-FR, 4.7]"""@fr;
+  sh:name "a pour adresse URL de la manifestation"@fr;
+  sh:nodeKind sh:Literal;
+  sh:path rdafr:P630153 .
+
+rdafr:P630153 a owl:DatatypeProperty;
+  rdfs:comment """Une adresse URL est une adresse d’une ressource en ligne.
+Les adresses URL comprennent tous les identifiants des ressources dont le but est de fournir un accès en ligne à une manifestation à l’aide d’un navigateur Internet standard. [code RDA-FR, 4.7]"""@fr;
+  rdfs:domain rdafr:C100007;
+  rdfs:label "a pour adresse URL de la manifestation"@fr;
+  rdfs:range rdfs:Literal .
+
 <https://rdafr.fr/Regles#> a owl:Ontology;
   dct:conformsTo <https://www.w3.org/TR/shacl>;
   dct:created "2022-09-11"^^xsd:date;
@@ -4462,9 +6723,9 @@ rdafr:C100001 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0";
   sh:closed false;
   sh:description "Toute création intellectuelle ou artistique distincte, susceptible d’être identifiée et nommée de manière univoque dans un contexte bibliographique. [code RDA-FR, 5.1.2]"@fr;
-  sh:ignoredProperties _:node1h0i4rul4x11440 .
+  sh:ignoredProperties _:node1h0i4rul4x11748 .
 
-_:node1h0i4rul4x11440 rdf:first rdf:type;
+_:node1h0i4rul4x11748 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100001 sh:nodeKind sh:IRI;
@@ -4481,9 +6742,9 @@ rdafr:C100002 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0";
   sh:closed false;
   sh:description "Entité ayant la capacité d’agir et ayant un rapport avec des ressources qui font l’objet d’une description documentaire. Cela inclut les personnes ou les groupes. [code RDA-FR, 8.1.2]"@fr;
-  sh:ignoredProperties _:node1h0i4rul4x11441 .
+  sh:ignoredProperties _:node1h0i4rul4x11749 .
 
-_:node1h0i4rul4x11441 rdf:first rdf:type;
+_:node1h0i4rul4x11749 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100002 sh:nodeKind sh:IRI;
@@ -4500,9 +6761,9 @@ rdafr:C100003 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0";
   sh:closed false;
   sh:description "Un ou plusieurs objets portant des signes chargés de véhiculer un contenu intellectuel ou artistique. Un item exemplifie une manifestation et en reflète en principe toutes les caractéristiques. [code RDA-FR, 1.1.2]"@fr;
-  sh:ignoredProperties _:node1h0i4rul4x11442 .
+  sh:ignoredProperties _:node1h0i4rul4x11750 .
 
-_:node1h0i4rul4x11442 rdf:first rdf:type;
+_:node1h0i4rul4x11750 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100003 sh:nodeKind sh:IRI;
@@ -4519,9 +6780,9 @@ rdafr:C100004 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0";
   sh:closed false;
   sh:description "Agent identifié comme étant un individu existant ou ayant existé. [code RDA-FR, 8.1.2 et 9]"@fr;
-  sh:ignoredProperties _:node1h0i4rul4x11443 .
+  sh:ignoredProperties _:node1h0i4rul4x11751 .
 
-_:node1h0i4rul4x11443 rdf:first rdf:type;
+_:node1h0i4rul4x11751 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100004 sh:nodeKind sh:IRI;
@@ -4538,9 +6799,9 @@ rdafr:C100005 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0";
   sh:closed false;
   sh:description "Agent identifié comme étant une organisation ou une partie d'organisation, ou un groupe de personnes et/ou d'organisations. Une collectivité n’est considérée comme telle que si elle est identifiée par un nom particulier et si elle agit, ou peut agir, comme une unité. [code RDA-FR, 11]"@fr;
-  sh:ignoredProperties _:node1h0i4rul4x11444 .
+  sh:ignoredProperties _:node1h0i4rul4x11752 .
 
-_:node1h0i4rul4x11444 rdf:first rdf:type;
+_:node1h0i4rul4x11752 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100005 sh:nodeKind sh:IRI;
@@ -4558,9 +6819,9 @@ rdafr:C100006 a rdfs:Class, owl:Class, sh:NodeShape;
   sh:closed false;
   sh:description "Réalisation d’une œuvre sous la forme d’une notation (alphanumérique, musicale ou chorégraphique), de son, d’image, d’objet, de mouvement, etc. ou de toute combinaison de ces formes. [code RDA-FR, 5.1.2]"@fr,
     "Source: Glossaire RDA-FR"@fr;
-  sh:ignoredProperties _:node1h0i4rul4x11445 .
+  sh:ignoredProperties _:node1h0i4rul4x11753 .
 
-_:node1h0i4rul4x11445 rdf:first rdf:type;
+_:node1h0i4rul4x11753 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100006 sh:nodeKind sh:IRI;
@@ -4577,9 +6838,9 @@ rdafr:C100007 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0";
   sh:closed false;
   sh:description "L’ensemble de tous les supports qui sont présumés partager les mêmes caractéristiques relatives tant au contenu intellectuel ou artistique qu’aux aspects de présentation matérielle. Cet ensemble est défini à la fois par son contenu global et par le plan de production pour son (ou ses) support(s). [code RDA-FR, 1.1.2]"@fr;
-  sh:ignoredProperties _:node1h0i4rul4x11446 .
+  sh:ignoredProperties _:node1h0i4rul4x11754 .
 
-_:node1h0i4rul4x11446 rdf:first rdf:type;
+_:node1h0i4rul4x11754 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100007 sh:nodeKind sh:IRI;
@@ -4596,9 +6857,9 @@ rdafr:C100008 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0";
   sh:closed false;
   sh:description "Est considéré comme relevant de la catégorie famille un ensemble de personnes liées par la naissance, le mariage, l'adoption, l'union civile ou tout autre statut légal du même ordre, ou un ensemble de personnes qui se présentent elles-mêmes comme une famille. [code RDA-FR, 10]"@fr;
-  sh:ignoredProperties _:node1h0i4rul4x11447 .
+  sh:ignoredProperties _:node1h0i4rul4x11755 .
 
-_:node1h0i4rul4x11447 rdf:first rdf:type;
+_:node1h0i4rul4x11755 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100008 sh:nodeKind sh:IRI;
@@ -4615,9 +6876,9 @@ rdafr:C100009 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0";
   sh:closed false;
   sh:description "Portion d’espace réel. Un lieu est déterminé par des coordonnées géographiques et pourvu d’un nom. [code RDA-FR, 16]"@fr;
-  sh:ignoredProperties _:node1h0i4rul4x11448 .
+  sh:ignoredProperties _:node1h0i4rul4x11756 .
 
-_:node1h0i4rul4x11448 rdf:first rdf:type;
+_:node1h0i4rul4x11756 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100009 sh:nodeKind sh:IRI;
@@ -4633,9 +6894,9 @@ rdafr:C100010 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0";
   sh:closed false;
   sh:description "Plage temporelle ayant un début, une fin et une durée."@fr;
-  sh:ignoredProperties _:node1h0i4rul4x11449 .
+  sh:ignoredProperties _:node1h0i4rul4x11757 .
 
-_:node1h0i4rul4x11449 rdf:first rdf:type;
+_:node1h0i4rul4x11757 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100010 sh:nodeKind sh:IRI;
@@ -4651,9 +6912,9 @@ rdafr:C100011 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0";
   sh:closed false;
   sh:description "Groupement ou association de personnes portant un nom particulier et disposant de la faculté d'agir collectivement."@fr;
-  sh:ignoredProperties _:node1h0i4rul4x11450 .
+  sh:ignoredProperties _:node1h0i4rul4x11758 .
 
-_:node1h0i4rul4x11450 rdf:first rdf:type;
+_:node1h0i4rul4x11758 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100011 sh:nodeKind sh:IRI;
@@ -4669,9 +6930,9 @@ rdafr:C100012 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0";
   sh:closed false;
   sh:description "Une association entre une entité et une désignation qui y réfère ."@fr;
-  sh:ignoredProperties _:node1h0i4rul4x11451 .
+  sh:ignoredProperties _:node1h0i4rul4x11759 .
 
-_:node1h0i4rul4x11451 rdf:first rdf:type;
+_:node1h0i4rul4x11759 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100012 sh:nodeKind sh:IRI;
@@ -4687,9 +6948,9 @@ rdafr:C100013 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0";
   sh:closed false;
   sh:description "Classe abstraite de plus haut niveau de l'univers de discours couvert par l'ontologie RDA-FR. Elle comprend toutes les entités qui sont définies dans le code RDA-FR. Toutes les classes définies pour les besoins de fonctionnement de l'ontologie RDA-FR sont également des sous-classes de celle ci."@fr;
-  sh:ignoredProperties _:node1h0i4rul4x11452 .
+  sh:ignoredProperties _:node1h0i4rul4x11760 .
 
-_:node1h0i4rul4x11452 rdf:first rdf:type;
+_:node1h0i4rul4x11760 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100013 sh:nodeKind sh:IRI;
@@ -4705,9 +6966,9 @@ rdafr:C100015 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0";
   sh:closed false;
   sh:description "Identité d’un agent qui est connue ou a été rendue publique. [code RDA-FR, 8.1.2 et 9]"@fr;
-  sh:ignoredProperties _:node1h0i4rul4x11453 .
+  sh:ignoredProperties _:node1h0i4rul4x11761 .
 
-_:node1h0i4rul4x11453 rdf:first rdf:type;
+_:node1h0i4rul4x11761 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100015 sh:nodeKind sh:IRI;
@@ -4721,9 +6982,9 @@ rdafr:C100017 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0";
   sh:closed false;
   sh:description "En attente de traitement dans l'ontologie RDA-FR"@fr;
-  sh:ignoredProperties _:node1h0i4rul4x11454 .
+  sh:ignoredProperties _:node1h0i4rul4x11762 .
 
-_:node1h0i4rul4x11454 rdf:first rdf:type;
+_:node1h0i4rul4x11762 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100017 sh:nodeKind sh:IRI;
@@ -4737,9 +6998,9 @@ rdafr:C100018 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0";
   sh:closed false;
   sh:description "En attente de traitement dans l'ontologie RDA-FR"@fr;
-  sh:ignoredProperties _:node1h0i4rul4x11455 .
+  sh:ignoredProperties _:node1h0i4rul4x11763 .
 
-_:node1h0i4rul4x11455 rdf:first rdf:type;
+_:node1h0i4rul4x11763 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100018 sh:nodeKind sh:IRI;
@@ -4753,9 +7014,9 @@ rdafr:C100019 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0";
   sh:closed false;
   sh:description "En attente de traitement dans l'ontologie RDA-FR"@fr;
-  sh:ignoredProperties _:node1h0i4rul4x11456 .
+  sh:ignoredProperties _:node1h0i4rul4x11764 .
 
-_:node1h0i4rul4x11456 rdf:first rdf:type;
+_:node1h0i4rul4x11764 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100019 sh:nodeKind sh:IRI;
@@ -4769,9 +7030,9 @@ rdafr:C100020 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0";
   sh:closed false;
   sh:description "En attente de traitement dans l'ontologie RDA-FR"@fr;
-  sh:ignoredProperties _:node1h0i4rul4x11457 .
+  sh:ignoredProperties _:node1h0i4rul4x11765 .
 
-_:node1h0i4rul4x11457 rdf:first rdf:type;
+_:node1h0i4rul4x11765 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100020 sh:nodeKind sh:IRI;
@@ -4785,9 +7046,9 @@ rdafr:C100021 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0";
   sh:closed false;
   sh:description "En attente de traitement dans l'ontologie RDA-FR"@fr;
-  sh:ignoredProperties _:node1h0i4rul4x11458 .
+  sh:ignoredProperties _:node1h0i4rul4x11766 .
 
-_:node1h0i4rul4x11458 rdf:first rdf:type;
+_:node1h0i4rul4x11766 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100021 sh:nodeKind sh:IRI;
@@ -4801,9 +7062,9 @@ rdafr:C100022 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0";
   sh:closed false;
   sh:description "En attente de traitement dans l'ontologie RDA-FR"@fr;
-  sh:ignoredProperties _:node1h0i4rul4x11459 .
+  sh:ignoredProperties _:node1h0i4rul4x11767 .
 
-_:node1h0i4rul4x11459 rdf:first rdf:type;
+_:node1h0i4rul4x11767 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100022 sh:nodeKind sh:IRI;
@@ -4817,9 +7078,9 @@ rdafr:C100023 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0";
   sh:closed false;
   sh:description "En attente de traitement dans l'ontologie RDA-FR"@fr;
-  sh:ignoredProperties _:node1h0i4rul4x11460 .
+  sh:ignoredProperties _:node1h0i4rul4x11768 .
 
-_:node1h0i4rul4x11460 rdf:first rdf:type;
+_:node1h0i4rul4x11768 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100023 sh:nodeKind sh:IRI;
@@ -4833,9 +7094,9 @@ rdafr:C100025 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0";
   sh:closed false;
   sh:description "Agent étant identifié comme un groupe de personnes qui n'est ni une famille ni une collectivité et dont le nom se présente formellement comme un nom de personne (nom traditionnellement désigné par le terme \"pseudonyme collectif\")."@fr;
-  sh:ignoredProperties _:node1h0i4rul4x11461 .
+  sh:ignoredProperties _:node1h0i4rul4x11769 .
 
-_:node1h0i4rul4x11461 rdf:first rdf:type;
+_:node1h0i4rul4x11769 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100025 sh:nodeKind sh:IRI;
@@ -4849,9 +7110,9 @@ rdafr:P100001r a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0";
   sh:closed false;
   sh:description "La classe ‘relation réifiée’ permet d’ajouter des assertions sur toutes les propriétés qui expriment une relation entre des instances de deux classes de l’ontologie (et qui, de fait, correspondent aux relations entre instances d’entités du code RDA-FR)."@fr;
-  sh:ignoredProperties _:node1h0i4rul4x11462 .
+  sh:ignoredProperties _:node1h0i4rul4x11770 .
 
-_:node1h0i4rul4x11462 rdf:first rdf:type;
+_:node1h0i4rul4x11770 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:P100001r sh:nodeKind sh:IRI;
@@ -4865,9 +7126,9 @@ rdafr:P100008r a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0";
   sh:closed false;
   sh:description "La classe ‘propriété réifiée’ permet d'ajouter des assertions sur toutes les propriétés de l’ontologie qui correspondent aux attributs des entités du code RDA-FR."@fr;
-  sh:ignoredProperties _:node1h0i4rul4x11463 .
+  sh:ignoredProperties _:node1h0i4rul4x11771 .
 
-_:node1h0i4rul4x11463 rdf:first rdf:type;
+_:node1h0i4rul4x11771 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:P100008r sh:nodeKind sh:IRI;
@@ -4881,9 +7142,9 @@ skos:Concept a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0";
   sh:closed false;
   sh:description "Un concept SKOS peut être vu comme une idée ou une notion; une unité de pensée."@fr;
-  sh:ignoredProperties _:node1h0i4rul4x11464 .
+  sh:ignoredProperties _:node1h0i4rul4x11772 .
 
-_:node1h0i4rul4x11464 rdf:first rdf:type;
+_:node1h0i4rul4x11772 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 skos:Concept sh:nodeKind sh:IRI;
@@ -4897,9 +7158,9 @@ rdafr:Langue a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0";
   sh:closed false;
   sh:description "Langue d'une chaîne de caractères."@fr;
-  sh:ignoredProperties _:node1h0i4rul4x11465 .
+  sh:ignoredProperties _:node1h0i4rul4x11773 .
 
-_:node1h0i4rul4x11465 rdf:first rdf:type;
+_:node1h0i4rul4x11773 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:Langue sh:nodeKind sh:IRI;
@@ -4913,9 +7174,9 @@ rdafr:Ecriture a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0";
   sh:closed false;
   sh:description "Système d'écriture de la chaîne de caractères."@fr;
-  sh:ignoredProperties _:node1h0i4rul4x11466 .
+  sh:ignoredProperties _:node1h0i4rul4x11774 .
 
-_:node1h0i4rul4x11466 rdf:first rdf:type;
+_:node1h0i4rul4x11774 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:Ecriture sh:nodeKind sh:IRI;
@@ -4935,9 +7196,9 @@ d’autorité de noms, etc.) ;
 - des schémas d’encodage de valeurs (listes de vedettes matière, thésaurus, classifications systématiques, listes
 d’autorité de noms, etc.) ;
 − et des schémas d’encodage syntaxiques (normes d’encodage des dates, etc.)."""@fr;
-  sh:ignoredProperties _:node1h0i4rul4x11467 .
+  sh:ignoredProperties _:node1h0i4rul4x11775 .
 
-_:node1h0i4rul4x11467 rdf:first rdf:type;
+_:node1h0i4rul4x11775 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:SchemaEncodage sh:nodeKind sh:IRI;
@@ -4951,9 +7212,9 @@ rdafr:CategorieNomen a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0";
   sh:closed false;
   sh:description "Type auquel le nomen appartient (ex. : point d'accès, identifiant, titre, etc.)"@fr;
-  sh:ignoredProperties _:node1h0i4rul4x11468 .
+  sh:ignoredProperties _:node1h0i4rul4x11776 .
 
-_:node1h0i4rul4x11468 rdf:first rdf:type;
+_:node1h0i4rul4x11776 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:CategorieNomen sh:nodeKind sh:IRI;
@@ -4967,9 +7228,9 @@ rdafr:SystemeConversion a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0";
   sh:closed false;
   sh:description "Règle, système ou norme utilisée pour créer la chaîne d’un nomen à partir de la chaîne d’un autre nomen notée dans une écriture différente (par exemple, un système de translittération)."@fr;
-  sh:ignoredProperties _:node1h0i4rul4x11469 .
+  sh:ignoredProperties _:node1h0i4rul4x11777 .
 
-_:node1h0i4rul4x11469 rdf:first rdf:type;
+_:node1h0i4rul4x11777 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:SystemeConversion sh:nodeKind sh:IRI;
@@ -4984,9 +7245,9 @@ rdafr:Genre a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0";
   sh:closed false;
   sh:description "Le genre auquel une personne s'identifie. [code RDA-FR, 9.3.3]"@fr;
-  sh:ignoredProperties _:node1h0i4rul4x11470 .
+  sh:ignoredProperties _:node1h0i4rul4x11778 .
 
-_:node1h0i4rul4x11470 rdf:first rdf:type;
+_:node1h0i4rul4x11778 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:Genre sh:nodeKind sh:IRI;
@@ -5000,9 +7261,9 @@ rdafr:NiveauFiabilite a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0";
   sh:closed false;
   sh:description "Indication sur le niveau de fiabilité de l'information."@fr;
-  sh:ignoredProperties _:node1h0i4rul4x11471 .
+  sh:ignoredProperties _:node1h0i4rul4x11779 .
 
-_:node1h0i4rul4x11471 rdf:first rdf:type;
+_:node1h0i4rul4x11779 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:NiveauFiabilite sh:nodeKind sh:IRI;
@@ -5016,9 +7277,9 @@ rdafr:Calendrier a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0";
   sh:closed false;
   sh:description "Type de calendrier utilisé pour exprimer un laps de temps (julien, grégorien, hégire...)."@fr;
-  sh:ignoredProperties _:node1h0i4rul4x11472 .
+  sh:ignoredProperties _:node1h0i4rul4x11780 .
 
-_:node1h0i4rul4x11472 rdf:first rdf:type;
+_:node1h0i4rul4x11780 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:Calendrier sh:nodeKind sh:IRI;
@@ -5033,9 +7294,9 @@ rdafr:CategorieIdentitePublique a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0";
   sh:closed false;
   sh:description "Précision sur la nature du nom sur lequel est fondée l'identité publique (par exemple : nom réel, pseudonyme...) [code RDA-FR, 9.1.1]"@fr;
-  sh:ignoredProperties _:node1h0i4rul4x11473 .
+  sh:ignoredProperties _:node1h0i4rul4x11781 .
 
-_:node1h0i4rul4x11473 rdf:first rdf:type;
+_:node1h0i4rul4x11781 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:CategorieIdentitePublique sh:nodeKind sh:IRI;
@@ -5047,9 +7308,9 @@ rdafr:ModaliteParution a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0";
   sh:closed false;
-  sh:ignoredProperties _:node1h0i4rul4x11474 .
+  sh:ignoredProperties _:node1h0i4rul4x11782 .
 
-_:node1h0i4rul4x11474 rdf:first rdf:type;
+_:node1h0i4rul4x11782 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:ModaliteParution sh:nodeKind sh:IRI;
@@ -5060,9 +7321,9 @@ rdafr:NiveauAutonomie a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0";
   sh:closed false;
-  sh:ignoredProperties _:node1h0i4rul4x11475 .
+  sh:ignoredProperties _:node1h0i4rul4x11783 .
 
-_:node1h0i4rul4x11475 rdf:first rdf:type;
+_:node1h0i4rul4x11783 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:NiveauAutonomie sh:nodeKind sh:IRI;
@@ -5073,9 +7334,9 @@ rdafr:TypeMediation a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0";
   sh:closed false;
-  sh:ignoredProperties _:node1h0i4rul4x11476 .
+  sh:ignoredProperties _:node1h0i4rul4x11784 .
 
-_:node1h0i4rul4x11476 rdf:first rdf:type;
+_:node1h0i4rul4x11784 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:TypeMediation sh:nodeKind sh:IRI;
@@ -5086,9 +7347,9 @@ rdafr:TypeSupport a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0";
   sh:closed false;
-  sh:ignoredProperties _:node1h0i4rul4x11477 .
+  sh:ignoredProperties _:node1h0i4rul4x11785 .
 
-_:node1h0i4rul4x11477 rdf:first rdf:type;
+_:node1h0i4rul4x11785 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:TypeSupport sh:nodeKind sh:IRI;
@@ -5099,9 +7360,9 @@ rdafr:MateriauBase a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0";
   sh:closed false;
-  sh:ignoredProperties _:node1h0i4rul4x11478 .
+  sh:ignoredProperties _:node1h0i4rul4x11786 .
 
-_:node1h0i4rul4x11478 rdf:first rdf:type;
+_:node1h0i4rul4x11786 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:MateriauBase sh:nodeKind sh:IRI;
@@ -5112,9 +7373,9 @@ rdafr:MateriauApplique a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0";
   sh:closed false;
-  sh:ignoredProperties _:node1h0i4rul4x11479 .
+  sh:ignoredProperties _:node1h0i4rul4x11787 .
 
-_:node1h0i4rul4x11479 rdf:first rdf:type;
+_:node1h0i4rul4x11787 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:MateriauApplique sh:nodeKind sh:IRI;
@@ -5125,9 +7386,9 @@ rdafr:MethodeProduction a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0";
   sh:closed false;
-  sh:ignoredProperties _:node1h0i4rul4x11480 .
+  sh:ignoredProperties _:node1h0i4rul4x11788 .
 
-_:node1h0i4rul4x11480 rdf:first rdf:type;
+_:node1h0i4rul4x11788 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:MethodeProduction sh:nodeKind sh:IRI;
@@ -5138,9 +7399,9 @@ rdafr:Generation a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0";
   sh:closed false;
-  sh:ignoredProperties _:node1h0i4rul4x11481 .
+  sh:ignoredProperties _:node1h0i4rul4x11789 .
 
-_:node1h0i4rul4x11481 rdf:first rdf:type;
+_:node1h0i4rul4x11789 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:Generation sh:nodeKind sh:IRI;
@@ -5151,9 +7412,9 @@ rdafr:Disposition a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0";
   sh:closed false;
-  sh:ignoredProperties _:node1h0i4rul4x11482 .
+  sh:ignoredProperties _:node1h0i4rul4x11790 .
 
-_:node1h0i4rul4x11482 rdf:first rdf:type;
+_:node1h0i4rul4x11790 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:Disposition sh:nodeKind sh:IRI;
@@ -5164,9 +7425,9 @@ rdafr:FormatBibliographique a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0";
   sh:closed false;
-  sh:ignoredProperties _:node1h0i4rul4x11483 .
+  sh:ignoredProperties _:node1h0i4rul4x11791 .
 
-_:node1h0i4rul4x11483 rdf:first rdf:type;
+_:node1h0i4rul4x11791 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:FormatBibliographique sh:nodeKind sh:IRI;
@@ -5177,9 +7438,9 @@ rdafr:TypePoliceCaracteres a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0";
   sh:closed false;
-  sh:ignoredProperties _:node1h0i4rul4x11484 .
+  sh:ignoredProperties _:node1h0i4rul4x11792 .
 
-_:node1h0i4rul4x11484 rdf:first rdf:type;
+_:node1h0i4rul4x11792 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:TypePoliceCaracteres sh:nodeKind sh:IRI;
@@ -5190,9 +7451,9 @@ rdafr:TailleCaracteres a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0";
   sh:closed false;
-  sh:ignoredProperties _:node1h0i4rul4x11485 .
+  sh:ignoredProperties _:node1h0i4rul4x11793 .
 
-_:node1h0i4rul4x11485 rdf:first rdf:type;
+_:node1h0i4rul4x11793 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:TailleCaracteres sh:nodeKind sh:IRI;
@@ -5203,9 +7464,9 @@ rdafr:Polarite a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0";
   sh:closed false;
-  sh:ignoredProperties _:node1h0i4rul4x11486 .
+  sh:ignoredProperties _:node1h0i4rul4x11794 .
 
-_:node1h0i4rul4x11486 rdf:first rdf:type;
+_:node1h0i4rul4x11794 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:Polarite sh:nodeKind sh:IRI;
@@ -5216,9 +7477,9 @@ rdafr:FacteurReduction a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0";
   sh:closed false;
-  sh:ignoredProperties _:node1h0i4rul4x11487 .
+  sh:ignoredProperties _:node1h0i4rul4x11795 .
 
-_:node1h0i4rul4x11487 rdf:first rdf:type;
+_:node1h0i4rul4x11795 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:FacteurReduction sh:nodeKind sh:IRI;
@@ -5229,9 +7490,9 @@ rdafr:VitesseLecture a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0";
   sh:closed false;
-  sh:ignoredProperties _:node1h0i4rul4x11488 .
+  sh:ignoredProperties _:node1h0i4rul4x11796 .
 
-_:node1h0i4rul4x11488 rdf:first rdf:type;
+_:node1h0i4rul4x11796 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:VitesseLecture sh:nodeKind sh:IRI;
@@ -5242,9 +7503,9 @@ rdafr:FormatSupportElectronique a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0";
   sh:closed false;
-  sh:ignoredProperties _:node1h0i4rul4x11489 .
+  sh:ignoredProperties _:node1h0i4rul4x11797 .
 
-_:node1h0i4rul4x11489 rdf:first rdf:type;
+_:node1h0i4rul4x11797 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:FormatSupportElectronique sh:nodeKind sh:IRI;
@@ -5255,9 +7516,9 @@ rdafr:TypeFichier a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0";
   sh:closed false;
-  sh:ignoredProperties _:node1h0i4rul4x11490 .
+  sh:ignoredProperties _:node1h0i4rul4x11798 .
 
-_:node1h0i4rul4x11490 rdf:first rdf:type;
+_:node1h0i4rul4x11798 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:TypeFichier sh:nodeKind sh:IRI;
@@ -5268,9 +7529,9 @@ rdafr:FormatProjection a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0";
   sh:closed false;
-  sh:ignoredProperties _:node1h0i4rul4x11491 .
+  sh:ignoredProperties _:node1h0i4rul4x11799 .
 
-_:node1h0i4rul4x11491 rdf:first rdf:type;
+_:node1h0i4rul4x11799 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:FormatProjection sh:nodeKind sh:IRI;
@@ -5281,9 +7542,9 @@ rdafr:FormatSupportVideo a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0";
   sh:closed false;
-  sh:ignoredProperties _:node1h0i4rul4x11492 .
+  sh:ignoredProperties _:node1h0i4rul4x11800 .
 
-_:node1h0i4rul4x11492 rdf:first rdf:type;
+_:node1h0i4rul4x11800 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:FormatSupportVideo sh:nodeKind sh:IRI;
@@ -5294,9 +7555,9 @@ rdafr:NormeDiffusion a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0";
   sh:closed false;
-  sh:ignoredProperties _:node1h0i4rul4x11493 .
+  sh:ignoredProperties _:node1h0i4rul4x11801 .
 
-_:node1h0i4rul4x11493 rdf:first rdf:type;
+_:node1h0i4rul4x11801 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:NormeDiffusion sh:nodeKind sh:IRI;
@@ -5307,9 +7568,9 @@ rdafr:FamilleSupport a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0";
   sh:closed false;
-  sh:ignoredProperties _:node1h0i4rul4x11494 .
+  sh:ignoredProperties _:node1h0i4rul4x11802 .
 
-_:node1h0i4rul4x11494 rdf:first rdf:type;
+_:node1h0i4rul4x11802 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:FamilleSupport sh:nodeKind sh:IRI;
@@ -5320,9 +7581,9 @@ rdafr:TechniqueSpatialisationSon a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0";
   sh:closed false;
-  sh:ignoredProperties _:node1h0i4rul4x11495 .
+  sh:ignoredProperties _:node1h0i4rul4x11803 .
 
-_:node1h0i4rul4x11495 rdf:first rdf:type;
+_:node1h0i4rul4x11803 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:TechniqueSpatialisationSon sh:nodeKind sh:IRI;
@@ -5333,9 +7594,9 @@ rdafr:TechniqueReductionBruit a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0";
   sh:closed false;
-  sh:ignoredProperties _:node1h0i4rul4x11496 .
+  sh:ignoredProperties _:node1h0i4rul4x11804 .
 
-_:node1h0i4rul4x11496 rdf:first rdf:type;
+_:node1h0i4rul4x11804 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:TechniqueReductionBruit sh:nodeKind sh:IRI;
@@ -5346,9 +7607,9 @@ rdafr:FormatImageAnimee a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0";
   sh:closed false;
-  sh:ignoredProperties _:node1h0i4rul4x11497 .
+  sh:ignoredProperties _:node1h0i4rul4x11805 .
 
-_:node1h0i4rul4x11497 rdf:first rdf:type;
+_:node1h0i4rul4x11805 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:FormatImageAnimee sh:nodeKind sh:IRI;
@@ -5359,9 +7620,9 @@ rdafr:Reliure a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0";
   sh:closed false;
-  sh:ignoredProperties _:node1h0i4rul4x11498 .
+  sh:ignoredProperties _:node1h0i4rul4x11806 .
 
-_:node1h0i4rul4x11498 rdf:first rdf:type;
+_:node1h0i4rul4x11806 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:Reliure sh:nodeKind sh:IRI;
@@ -5372,9 +7633,9 @@ rdafr:TypeConteneur a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0";
   sh:closed false;
-  sh:ignoredProperties _:node1h0i4rul4x11499 .
+  sh:ignoredProperties _:node1h0i4rul4x11807 .
 
-_:node1h0i4rul4x11499 rdf:first rdf:type;
+_:node1h0i4rul4x11807 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:TypeConteneur sh:nodeKind sh:IRI;
@@ -5385,9 +7646,9 @@ rdafr:TypeContenu a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0";
   sh:closed false;
-  sh:ignoredProperties _:node1h0i4rul4x11500 .
+  sh:ignoredProperties _:node1h0i4rul4x11808 .
 
-_:node1h0i4rul4x11500 rdf:first rdf:type;
+_:node1h0i4rul4x11808 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:TypeContenu sh:nodeKind sh:IRI;
@@ -5398,9 +7659,9 @@ rdafr:DesignationPresentationMusicale a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0";
   sh:closed false;
-  sh:ignoredProperties _:node1h0i4rul4x11501 .
+  sh:ignoredProperties _:node1h0i4rul4x11809 .
 
-_:node1h0i4rul4x11501 rdf:first rdf:type;
+_:node1h0i4rul4x11809 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:DesignationPresentationMusicale sh:nodeKind sh:IRI;
@@ -5411,9 +7672,9 @@ rdafr:QuantificationContenu a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0";
   sh:closed false;
-  sh:ignoredProperties _:node1h0i4rul4x11502 .
+  sh:ignoredProperties _:node1h0i4rul4x11810 .
 
-_:node1h0i4rul4x11502 rdf:first rdf:type;
+_:node1h0i4rul4x11810 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:QuantificationContenu sh:nodeKind sh:IRI;
@@ -5424,9 +7685,9 @@ rdafr:NatureContenuSupplementaireIllustratif a rdfs:Class, owl:Class, sh:NodeSha
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0";
   sh:closed false;
-  sh:ignoredProperties _:node1h0i4rul4x11503 .
+  sh:ignoredProperties _:node1h0i4rul4x11811 .
 
-_:node1h0i4rul4x11503 rdf:first rdf:type;
+_:node1h0i4rul4x11811 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:NatureContenuSupplementaireIllustratif sh:nodeKind sh:IRI;
@@ -5437,9 +7698,9 @@ rdafr:Couleur a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0";
   sh:closed false;
-  sh:ignoredProperties _:node1h0i4rul4x11504 .
+  sh:ignoredProperties _:node1h0i4rul4x11812 .
 
-_:node1h0i4rul4x11504 rdf:first rdf:type;
+_:node1h0i4rul4x11812 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:Couleur sh:nodeKind sh:IRI;
@@ -5450,9 +7711,9 @@ rdafr:TypeAccesDemat a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0";
   sh:closed false;
-  sh:ignoredProperties _:node1h0i4rul4x11505 .
+  sh:ignoredProperties _:node1h0i4rul4x11813 .
 
-_:node1h0i4rul4x11505 rdf:first rdf:type;
+_:node1h0i4rul4x11813 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:TypeAccesDemat sh:nodeKind sh:IRI;
