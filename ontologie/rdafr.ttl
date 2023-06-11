@@ -6764,12 +6764,12 @@ rdafr:C100001 a sh:NodeShape, rdfs:Class, owl:Class;
   sh:order "5"^^xsd:integer;
   sh:nodeKind sh:IRI;
   sh:closed "false"^^xsd:boolean;
-  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c94;
+  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c9204;
   sh:targetClass rdafr:C100001;
   sh:description "Toute création intellectuelle ou artistique distincte, susceptible d’être identifiée et nommée de manière univoque dans un contexte bibliographique. [code RDA-FR, 5.1.2]"@fr;
   rdfs:comment "Toute création intellectuelle ou artistique distincte, susceptible d’être identifiée et nommée de manière univoque dans un contexte bibliographique. [code RDA-FR, 5.1.2]"@fr .
 
-_:86f7dc87ece84877b4832f4ec886d7c94 rdf:first rdf:type;
+_:86f7dc87ece84877b4832f4ec886d7c9204 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100002 a sh:NodeShape, rdfs:Class, owl:Class;
@@ -6782,12 +6782,12 @@ rdafr:C100002 a sh:NodeShape, rdfs:Class, owl:Class;
   sh:order "25"^^xsd:integer;
   sh:nodeKind sh:IRI;
   sh:closed "false"^^xsd:boolean;
-  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c95;
+  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c9205;
   sh:targetClass rdafr:C100002;
   sh:description "Entité ayant la capacité d’agir et ayant un rapport avec des ressources qui font l’objet d’une description documentaire. Cela inclut les personnes ou les groupes. [code RDA-FR, 8.1.2]"@fr;
   rdfs:comment "Entité ayant la capacité d’agir et ayant un rapport avec des ressources qui font l’objet d’une description documentaire. Cela inclut les personnes ou les groupes. [code RDA-FR, 8.1.2]"@fr .
 
-_:86f7dc87ece84877b4832f4ec886d7c95 rdf:first rdf:type;
+_:86f7dc87ece84877b4832f4ec886d7c9205 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100003 a sh:NodeShape, rdfs:Class, owl:Class;
@@ -6800,12 +6800,12 @@ rdafr:C100003 a sh:NodeShape, rdfs:Class, owl:Class;
   sh:order "20"^^xsd:integer;
   sh:nodeKind sh:IRI;
   sh:closed "false"^^xsd:boolean;
-  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c96;
+  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c9206;
   sh:targetClass rdafr:C100003;
   sh:description "Un ou plusieurs objets portant des signes chargés de véhiculer un contenu intellectuel ou artistique. Un item exemplifie une manifestation et en reflète en principe toutes les caractéristiques. [code RDA-FR, 1.1.2]"@fr;
   rdfs:comment "Un ou plusieurs objets portant des signes chargés de véhiculer un contenu intellectuel ou artistique. Un item exemplifie une manifestation et en reflète en principe toutes les caractéristiques. [code RDA-FR, 1.1.2]"@fr .
 
-_:86f7dc87ece84877b4832f4ec886d7c96 rdf:first rdf:type;
+_:86f7dc87ece84877b4832f4ec886d7c9206 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100004 a sh:NodeShape, rdfs:Class, owl:Class;
@@ -6818,12 +6818,12 @@ rdafr:C100004 a sh:NodeShape, rdfs:Class, owl:Class;
   sh:order "30"^^xsd:integer;
   sh:nodeKind sh:IRI;
   sh:closed "false"^^xsd:boolean;
-  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c97;
+  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c9207;
   sh:targetClass rdafr:C100004;
   sh:description "Agent identifié comme étant un individu existant ou ayant existé. [code RDA-FR, 8.1.2 et 9]"@fr;
   rdfs:comment "Agent identifié comme étant un individu existant ou ayant existé. [code RDA-FR, 8.1.2 et 9]"@fr .
 
-_:86f7dc87ece84877b4832f4ec886d7c97 rdf:first rdf:type;
+_:86f7dc87ece84877b4832f4ec886d7c9207 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100005 a sh:NodeShape, rdfs:Class, owl:Class;
@@ -6836,12 +6836,12 @@ rdafr:C100005 a sh:NodeShape, rdfs:Class, owl:Class;
   sh:order "45"^^xsd:integer;
   sh:nodeKind sh:IRI;
   sh:closed "false"^^xsd:boolean;
-  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c98;
+  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c9208;
   sh:targetClass rdafr:C100005;
   sh:description "Agent identifié comme étant une organisation ou une partie d'organisation, ou un groupe de personnes et/ou d'organisations. Une collectivité n’est considérée comme telle que si elle est identifiée par un nom particulier et si elle agit, ou peut agir, comme une unité. [code RDA-FR, 11]"@fr;
   rdfs:comment "Agent identifié comme étant une organisation ou une partie d'organisation, ou un groupe de personnes et/ou d'organisations. Une collectivité n’est considérée comme telle que si elle est identifiée par un nom particulier et si elle agit, ou peut agir, comme une unité. [code RDA-FR, 11]"@fr .
 
-_:86f7dc87ece84877b4832f4ec886d7c98 rdf:first rdf:type;
+_:86f7dc87ece84877b4832f4ec886d7c9208 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100006 a sh:NodeShape, rdfs:Class, owl:Class;
@@ -6855,11 +6855,11 @@ rdafr:C100006 a sh:NodeShape, rdfs:Class, owl:Class;
   sh:order "10"^^xsd:integer;
   sh:nodeKind sh:IRI;
   sh:closed "false"^^xsd:boolean;
-  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c99;
+  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c9209;
   sh:targetClass rdafr:C100006;
   rdfs:comment "Réalisation d’une œuvre sous la forme d’une notation (alphanumérique, musicale ou chorégraphique), de son, d’image, d’objet, de mouvement, etc. ou de toute combinaison de ces formes. [code RDA-FR, 5.1.2]"@fr .
 
-_:86f7dc87ece84877b4832f4ec886d7c99 rdf:first rdf:type;
+_:86f7dc87ece84877b4832f4ec886d7c9209 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100007 a sh:NodeShape, rdfs:Class, owl:Class;
@@ -6872,12 +6872,12 @@ rdafr:C100007 a sh:NodeShape, rdfs:Class, owl:Class;
   sh:order "15"^^xsd:integer;
   sh:nodeKind sh:IRI;
   sh:closed "false"^^xsd:boolean;
-  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c910;
+  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c9210;
   sh:targetClass rdafr:C100007;
   sh:description "L’ensemble de tous les supports qui sont présumés partager les mêmes caractéristiques relatives tant au contenu intellectuel ou artistique qu’aux aspects de présentation matérielle. Cet ensemble est défini à la fois par son contenu global et par le plan de production pour son (ou ses) support(s). [code RDA-FR, 1.1.2]"@fr;
   rdfs:comment "L’ensemble de tous les supports qui sont présumés partager les mêmes caractéristiques relatives tant au contenu intellectuel ou artistique qu’aux aspects de présentation matérielle. Cet ensemble est défini à la fois par son contenu global et par le plan de production pour son (ou ses) support(s). [code RDA-FR, 1.1.2]"@fr .
 
-_:86f7dc87ece84877b4832f4ec886d7c910 rdf:first rdf:type;
+_:86f7dc87ece84877b4832f4ec886d7c9210 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100008 a sh:NodeShape, rdfs:Class, owl:Class;
@@ -6890,12 +6890,12 @@ rdafr:C100008 a sh:NodeShape, rdfs:Class, owl:Class;
   sh:order "50"^^xsd:integer;
   sh:nodeKind sh:IRI;
   sh:closed "false"^^xsd:boolean;
-  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c911;
+  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c9211;
   sh:targetClass rdafr:C100008;
   sh:description "Est considéré comme relevant de la catégorie famille un ensemble de personnes liées par la naissance, le mariage, l'adoption, l'union civile ou tout autre statut légal du même ordre, ou un ensemble de personnes qui se présentent elles-mêmes comme une famille. [code RDA-FR, 10]"@fr;
   rdfs:comment "Est considéré comme relevant de la catégorie famille un ensemble de personnes liées par la naissance, le mariage, l'adoption, l'union civile ou tout autre statut légal du même ordre, ou un ensemble de personnes qui se présentent elles-mêmes comme une famille. [code RDA-FR, 10]"@fr .
 
-_:86f7dc87ece84877b4832f4ec886d7c911 rdf:first rdf:type;
+_:86f7dc87ece84877b4832f4ec886d7c9211 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100009 a sh:NodeShape, rdfs:Class, owl:Class;
@@ -6908,12 +6908,12 @@ rdafr:C100009 a sh:NodeShape, rdfs:Class, owl:Class;
   sh:order "60"^^xsd:integer;
   sh:nodeKind sh:IRI;
   sh:closed "false"^^xsd:boolean;
-  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c912;
+  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c9212;
   sh:targetClass rdafr:C100009;
   sh:description "Portion d’espace réel. Un lieu est déterminé par des coordonnées géographiques et pourvu d’un nom. [code RDA-FR, 16]"@fr;
   rdfs:comment "Portion d’espace réel. Un lieu est déterminé par des coordonnées géographiques et pourvu d’un nom. [code RDA-FR, 16]"@fr .
 
-_:86f7dc87ece84877b4832f4ec886d7c912 rdf:first rdf:type;
+_:86f7dc87ece84877b4832f4ec886d7c9212 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100010 a sh:NodeShape, rdfs:Class, owl:Class;
@@ -6925,12 +6925,12 @@ rdafr:C100010 a sh:NodeShape, rdfs:Class, owl:Class;
   sh:order "70"^^xsd:integer;
   sh:nodeKind sh:IRI;
   sh:closed "false"^^xsd:boolean;
-  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c913;
+  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c9213;
   sh:targetClass rdafr:C100010;
   sh:description "Plage temporelle ayant un début, une fin et une durée."@fr;
   rdfs:comment "Plage temporelle ayant un début, une fin et une durée."@fr .
 
-_:86f7dc87ece84877b4832f4ec886d7c913 rdf:first rdf:type;
+_:86f7dc87ece84877b4832f4ec886d7c9213 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100011 a sh:NodeShape, rdfs:Class, owl:Class;
@@ -6942,12 +6942,12 @@ rdafr:C100011 a sh:NodeShape, rdfs:Class, owl:Class;
   sh:order "35"^^xsd:integer;
   sh:nodeKind sh:IRI;
   sh:closed "false"^^xsd:boolean;
-  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c914;
+  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c9214;
   sh:targetClass rdafr:C100011;
   sh:description "Groupement ou association de personnes portant un nom particulier et disposant de la faculté d'agir collectivement."@fr;
   rdfs:comment "Groupement ou association de personnes portant un nom particulier et disposant de la faculté d'agir collectivement."@fr .
 
-_:86f7dc87ece84877b4832f4ec886d7c914 rdf:first rdf:type;
+_:86f7dc87ece84877b4832f4ec886d7c9214 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100012 a sh:NodeShape, rdfs:Class, owl:Class;
@@ -6959,12 +6959,12 @@ rdafr:C100012 a sh:NodeShape, rdfs:Class, owl:Class;
   sh:order "3"^^xsd:integer;
   sh:nodeKind sh:IRI;
   sh:closed "false"^^xsd:boolean;
-  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c915;
+  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c9215;
   sh:targetClass rdafr:C100012;
   sh:description "Une association entre une entité et une désignation qui y réfère ."@fr;
   rdfs:comment "Une association entre une entité et une désignation qui y réfère ."@fr .
 
-_:86f7dc87ece84877b4832f4ec886d7c915 rdf:first rdf:type;
+_:86f7dc87ece84877b4832f4ec886d7c9215 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100013 a sh:NodeShape, rdfs:Class, owl:Class;
@@ -6976,12 +6976,12 @@ rdafr:C100013 a sh:NodeShape, rdfs:Class, owl:Class;
   sh:order "1"^^xsd:integer;
   sh:nodeKind sh:IRI;
   sh:closed "false"^^xsd:boolean;
-  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c916;
+  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c9216;
   sh:targetClass rdafr:C100013;
   sh:description "Classe abstraite de plus haut niveau de l'univers de discours couvert par l'ontologie RDA-FR. Elle comprend toutes les entités qui sont définies dans le code RDA-FR. Toutes les classes définies pour les besoins de fonctionnement de l'ontologie RDA-FR sont également des sous-classes de celle ci."@fr;
   rdfs:comment "Classe abstraite de plus haut niveau de l'univers de discours couvert par l'ontologie RDA-FR. Elle comprend toutes les entités qui sont définies dans le code RDA-FR. Toutes les classes définies pour les besoins de fonctionnement de l'ontologie RDA-FR sont également des sous-classes de celle ci."@fr .
 
-_:86f7dc87ece84877b4832f4ec886d7c916 rdf:first rdf:type;
+_:86f7dc87ece84877b4832f4ec886d7c9216 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100015 a sh:NodeShape, rdfs:Class, owl:Class;
@@ -6992,12 +6992,12 @@ rdafr:C100015 a sh:NodeShape, rdfs:Class, owl:Class;
   sh:order "55"^^xsd:integer;
   sh:nodeKind sh:IRI;
   sh:closed "false"^^xsd:boolean;
-  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c917;
+  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c9217;
   sh:targetClass rdafr:C100015;
   sh:description "Identité d’un agent qui est connue ou a été rendue publique. [code RDA-FR, 8.1.2 et 9]"@fr;
   rdfs:comment "Identité d’un agent qui est connue ou a été rendue publique. [code RDA-FR, 8.1.2 et 9]"@fr .
 
-_:86f7dc87ece84877b4832f4ec886d7c917 rdf:first rdf:type;
+_:86f7dc87ece84877b4832f4ec886d7c9217 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100017 a sh:NodeShape, rdfs:Class, owl:Class;
@@ -7007,12 +7007,12 @@ rdafr:C100017 a sh:NodeShape, rdfs:Class, owl:Class;
   sh:order "65"^^xsd:integer;
   sh:nodeKind sh:IRI;
   sh:closed "false"^^xsd:boolean;
-  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c918;
+  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c9218;
   sh:targetClass rdafr:C100017;
   sh:description "En attente de traitement dans l'ontologie RDA-FR"@fr;
   rdfs:comment "En attente de traitement dans l'ontologie RDA-FR"@fr .
 
-_:86f7dc87ece84877b4832f4ec886d7c918 rdf:first rdf:type;
+_:86f7dc87ece84877b4832f4ec886d7c9218 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100018 a sh:NodeShape, rdfs:Class, owl:Class;
@@ -7022,12 +7022,12 @@ rdafr:C100018 a sh:NodeShape, rdfs:Class, owl:Class;
   sh:order "90"^^xsd:integer;
   sh:nodeKind sh:IRI;
   sh:closed "false"^^xsd:boolean;
-  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c919;
+  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c9219;
   sh:targetClass rdafr:C100018;
   sh:description "En attente de traitement dans l'ontologie RDA-FR"@fr;
   rdfs:comment "En attente de traitement dans l'ontologie RDA-FR"@fr .
 
-_:86f7dc87ece84877b4832f4ec886d7c919 rdf:first rdf:type;
+_:86f7dc87ece84877b4832f4ec886d7c9219 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100019 a sh:NodeShape, rdfs:Class, owl:Class;
@@ -7037,12 +7037,12 @@ rdafr:C100019 a sh:NodeShape, rdfs:Class, owl:Class;
   sh:order "95"^^xsd:integer;
   sh:nodeKind sh:IRI;
   sh:closed "false"^^xsd:boolean;
-  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c920;
+  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c9220;
   sh:targetClass rdafr:C100019;
   sh:description "En attente de traitement dans l'ontologie RDA-FR"@fr;
   rdfs:comment "En attente de traitement dans l'ontologie RDA-FR"@fr .
 
-_:86f7dc87ece84877b4832f4ec886d7c920 rdf:first rdf:type;
+_:86f7dc87ece84877b4832f4ec886d7c9220 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100020 a sh:NodeShape, rdfs:Class, owl:Class;
@@ -7052,12 +7052,12 @@ rdafr:C100020 a sh:NodeShape, rdfs:Class, owl:Class;
   sh:order "100"^^xsd:integer;
   sh:nodeKind sh:IRI;
   sh:closed "false"^^xsd:boolean;
-  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c921;
+  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c9221;
   sh:targetClass rdafr:C100020;
   sh:description "En attente de traitement dans l'ontologie RDA-FR"@fr;
   rdfs:comment "En attente de traitement dans l'ontologie RDA-FR"@fr .
 
-_:86f7dc87ece84877b4832f4ec886d7c921 rdf:first rdf:type;
+_:86f7dc87ece84877b4832f4ec886d7c9221 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100021 a sh:NodeShape, rdfs:Class, owl:Class;
@@ -7067,12 +7067,12 @@ rdafr:C100021 a sh:NodeShape, rdfs:Class, owl:Class;
   sh:order "75"^^xsd:integer;
   sh:nodeKind sh:IRI;
   sh:closed "false"^^xsd:boolean;
-  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c922;
+  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c9222;
   sh:targetClass rdafr:C100021;
   sh:description "En attente de traitement dans l'ontologie RDA-FR"@fr;
   rdfs:comment "En attente de traitement dans l'ontologie RDA-FR"@fr .
 
-_:86f7dc87ece84877b4832f4ec886d7c922 rdf:first rdf:type;
+_:86f7dc87ece84877b4832f4ec886d7c9222 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100022 a sh:NodeShape, rdfs:Class, owl:Class;
@@ -7082,12 +7082,12 @@ rdafr:C100022 a sh:NodeShape, rdfs:Class, owl:Class;
   sh:order "80"^^xsd:integer;
   sh:nodeKind sh:IRI;
   sh:closed "false"^^xsd:boolean;
-  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c923;
+  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c9223;
   sh:targetClass rdafr:C100022;
   sh:description "En attente de traitement dans l'ontologie RDA-FR"@fr;
   rdfs:comment "En attente de traitement dans l'ontologie RDA-FR"@fr .
 
-_:86f7dc87ece84877b4832f4ec886d7c923 rdf:first rdf:type;
+_:86f7dc87ece84877b4832f4ec886d7c9223 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100023 a sh:NodeShape, rdfs:Class, owl:Class;
@@ -7097,12 +7097,12 @@ rdafr:C100023 a sh:NodeShape, rdfs:Class, owl:Class;
   sh:order "85"^^xsd:integer;
   sh:nodeKind sh:IRI;
   sh:closed "false"^^xsd:boolean;
-  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c924;
+  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c9224;
   sh:targetClass rdafr:C100023;
   sh:description "En attente de traitement dans l'ontologie RDA-FR"@fr;
   rdfs:comment "En attente de traitement dans l'ontologie RDA-FR"@fr .
 
-_:86f7dc87ece84877b4832f4ec886d7c924 rdf:first rdf:type;
+_:86f7dc87ece84877b4832f4ec886d7c9224 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100025 a sh:NodeShape, rdfs:Class, owl:Class;
@@ -7112,12 +7112,12 @@ rdafr:C100025 a sh:NodeShape, rdfs:Class, owl:Class;
   sh:order "40"^^xsd:integer;
   sh:nodeKind sh:IRI;
   sh:closed "false"^^xsd:boolean;
-  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c925;
+  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c9225;
   sh:targetClass rdafr:C100025;
   sh:description "Agent étant identifié comme un groupe de personnes qui n'est ni une famille ni une collectivité et dont le nom se présente formellement comme un nom de personne (nom traditionnellement désigné par le terme \"pseudonyme collectif\")."@fr;
   rdfs:comment "Agent étant identifié comme un groupe de personnes qui n'est ni une famille ni une collectivité et dont le nom se présente formellement comme un nom de personne (nom traditionnellement désigné par le terme \"pseudonyme collectif\")."@fr .
 
-_:86f7dc87ece84877b4832f4ec886d7c925 rdf:first rdf:type;
+_:86f7dc87ece84877b4832f4ec886d7c9225 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:P100001r a sh:NodeShape, rdfs:Class, owl:Class;
@@ -7127,12 +7127,12 @@ rdafr:P100001r a sh:NodeShape, rdfs:Class, owl:Class;
   sh:order "120"^^xsd:integer;
   sh:nodeKind sh:IRI;
   sh:closed "false"^^xsd:boolean;
-  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c926;
+  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c9226;
   sh:targetClass rdafr:P100001r;
   sh:description "La classe ‘relation réifiée’ permet d’ajouter des assertions sur toutes les propriétés qui expriment une relation entre des instances de deux classes de l’ontologie (et qui, de fait, correspondent aux relations entre instances d’entités du code RDA-FR)."@fr;
   rdfs:comment "La classe ‘relation réifiée’ permet d’ajouter des assertions sur toutes les propriétés qui expriment une relation entre des instances de deux classes de l’ontologie (et qui, de fait, correspondent aux relations entre instances d’entités du code RDA-FR)."@fr .
 
-_:86f7dc87ece84877b4832f4ec886d7c926 rdf:first rdf:type;
+_:86f7dc87ece84877b4832f4ec886d7c9226 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:P100008r a sh:NodeShape, rdfs:Class, owl:Class;
@@ -7142,12 +7142,12 @@ rdafr:P100008r a sh:NodeShape, rdfs:Class, owl:Class;
   sh:order "122"^^xsd:integer;
   sh:nodeKind sh:IRI;
   sh:closed "false"^^xsd:boolean;
-  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c927;
+  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c9227;
   sh:targetClass rdafr:P100008r;
   sh:description "La classe ‘propriété réifiée’ permet d'ajouter des assertions sur toutes les propriétés de l’ontologie qui correspondent aux attributs des entités du code RDA-FR."@fr;
   rdfs:comment "La classe ‘propriété réifiée’ permet d'ajouter des assertions sur toutes les propriétés de l’ontologie qui correspondent aux attributs des entités du code RDA-FR."@fr .
 
-_:86f7dc87ece84877b4832f4ec886d7c927 rdf:first rdf:type;
+_:86f7dc87ece84877b4832f4ec886d7c9227 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 skos:Concept a sh:NodeShape, rdfs:Class, owl:Class;
@@ -7157,12 +7157,12 @@ skos:Concept a sh:NodeShape, rdfs:Class, owl:Class;
   sh:order "200"^^xsd:integer;
   sh:nodeKind sh:IRI;
   sh:closed "false"^^xsd:boolean;
-  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c928;
+  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c9228;
   sh:targetClass skos:Concept;
   sh:description "Un concept SKOS peut être vu comme une idée ou une notion; une unité de pensée."@fr;
   rdfs:comment "Un concept SKOS peut être vu comme une idée ou une notion; une unité de pensée."@fr .
 
-_:86f7dc87ece84877b4832f4ec886d7c928 rdf:first rdf:type;
+_:86f7dc87ece84877b4832f4ec886d7c9228 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:Langue a sh:NodeShape, rdfs:Class, owl:Class;
@@ -7172,12 +7172,12 @@ rdafr:Langue a sh:NodeShape, rdfs:Class, owl:Class;
   sh:order "201"^^xsd:integer;
   sh:nodeKind sh:IRI;
   sh:closed "false"^^xsd:boolean;
-  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c929;
+  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c9229;
   sh:targetClass rdafr:Langue;
   sh:description "Langue d'une chaîne de caractères."@fr;
   rdfs:comment "Langue d'une chaîne de caractères."@fr .
 
-_:86f7dc87ece84877b4832f4ec886d7c929 rdf:first rdf:type;
+_:86f7dc87ece84877b4832f4ec886d7c9229 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:Ecriture a sh:NodeShape, rdfs:Class, owl:Class;
@@ -7187,12 +7187,12 @@ rdafr:Ecriture a sh:NodeShape, rdfs:Class, owl:Class;
   sh:order "202"^^xsd:integer;
   sh:nodeKind sh:IRI;
   sh:closed "false"^^xsd:boolean;
-  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c930;
+  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c9230;
   sh:targetClass rdafr:Ecriture;
   sh:description "Système d'écriture de la chaîne de caractères."@fr;
   rdfs:comment "Système d'écriture de la chaîne de caractères."@fr .
 
-_:86f7dc87ece84877b4832f4ec886d7c930 rdf:first rdf:type;
+_:86f7dc87ece84877b4832f4ec886d7c9230 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:SchemaEncodage a sh:NodeShape, rdfs:Class, owl:Class;
@@ -7202,7 +7202,7 @@ rdafr:SchemaEncodage a sh:NodeShape, rdfs:Class, owl:Class;
   sh:order "203"^^xsd:integer;
   sh:nodeKind sh:IRI;
   sh:closed "false"^^xsd:boolean;
-  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c931;
+  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c9231;
   sh:targetClass rdafr:SchemaEncodage;
   sh:description """Système de transcription et/ou de conversion de données selon un protocole déterminé. Cela recouvre :
 - des schémas d’encodage de valeurs (listes de vedettes matière, thésaurus, classifications systématiques, listes
@@ -7213,7 +7213,7 @@ d’autorité de noms, etc.) ;
 d’autorité de noms, etc.) ;
 − et des schémas d’encodage syntaxiques (normes d’encodage des dates, etc.)."""@fr .
 
-_:86f7dc87ece84877b4832f4ec886d7c931 rdf:first rdf:type;
+_:86f7dc87ece84877b4832f4ec886d7c9231 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:CategorieNomen a sh:NodeShape, rdfs:Class, owl:Class;
@@ -7223,12 +7223,12 @@ rdafr:CategorieNomen a sh:NodeShape, rdfs:Class, owl:Class;
   sh:order "204"^^xsd:integer;
   sh:nodeKind sh:IRI;
   sh:closed "false"^^xsd:boolean;
-  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c932;
+  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c9232;
   sh:targetClass rdafr:CategorieNomen;
   sh:description "Type auquel le nomen appartient (ex. : point d'accès, identifiant, titre, etc.)"@fr;
   rdfs:comment "Type auquel le nomen appartient (ex. : point d'accès, identifiant, titre, etc.)"@fr .
 
-_:86f7dc87ece84877b4832f4ec886d7c932 rdf:first rdf:type;
+_:86f7dc87ece84877b4832f4ec886d7c9232 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:SystemeConversion a sh:NodeShape, rdfs:Class, owl:Class;
@@ -7238,12 +7238,12 @@ rdafr:SystemeConversion a sh:NodeShape, rdfs:Class, owl:Class;
   sh:order "205"^^xsd:integer;
   sh:nodeKind sh:IRI;
   sh:closed "false"^^xsd:boolean;
-  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c933;
+  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c9233;
   sh:targetClass rdafr:SystemeConversion;
   sh:description "Règle, système ou norme utilisée pour créer la chaîne d’un nomen à partir de la chaîne d’un autre nomen notée dans une écriture différente (par exemple, un système de translittération)."@fr;
   rdfs:comment "Règle, système ou norme utilisée pour créer la chaîne d’un nomen à partir de la chaîne d’un autre nomen notée dans une écriture différente (par exemple, un système de translittération)."@fr .
 
-_:86f7dc87ece84877b4832f4ec886d7c933 rdf:first rdf:type;
+_:86f7dc87ece84877b4832f4ec886d7c9233 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:Genre a sh:NodeShape, rdfs:Class, owl:Class;
@@ -7254,12 +7254,12 @@ rdafr:Genre a sh:NodeShape, rdfs:Class, owl:Class;
   sh:order "206"^^xsd:integer;
   sh:nodeKind sh:IRI;
   sh:closed "false"^^xsd:boolean;
-  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c934;
+  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c9234;
   sh:targetClass rdafr:Genre;
   sh:description "Le genre auquel une personne s'identifie. [code RDA-FR, 9.3.3]"@fr;
   rdfs:comment "Le genre auquel une personne s'identifie. [code RDA-FR, 9.3.3]"@fr .
 
-_:86f7dc87ece84877b4832f4ec886d7c934 rdf:first rdf:type;
+_:86f7dc87ece84877b4832f4ec886d7c9234 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:NiveauFiabilite a sh:NodeShape, rdfs:Class, owl:Class;
@@ -7269,12 +7269,12 @@ rdafr:NiveauFiabilite a sh:NodeShape, rdfs:Class, owl:Class;
   sh:order "207"^^xsd:integer;
   sh:nodeKind sh:IRI;
   sh:closed "false"^^xsd:boolean;
-  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c935;
+  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c9235;
   sh:targetClass rdafr:NiveauFiabilite;
   sh:description "Indication sur le niveau de fiabilité de l'information."@fr;
   rdfs:comment "Indication sur le niveau de fiabilité de l'information."@fr .
 
-_:86f7dc87ece84877b4832f4ec886d7c935 rdf:first rdf:type;
+_:86f7dc87ece84877b4832f4ec886d7c9235 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:Calendrier a sh:NodeShape, rdfs:Class, owl:Class;
@@ -7284,12 +7284,12 @@ rdafr:Calendrier a sh:NodeShape, rdfs:Class, owl:Class;
   sh:order "208"^^xsd:integer;
   sh:nodeKind sh:IRI;
   sh:closed "false"^^xsd:boolean;
-  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c936;
+  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c9236;
   sh:targetClass rdafr:Calendrier;
   sh:description "Type de calendrier utilisé pour exprimer un laps de temps (julien, grégorien, hégire...)."@fr;
   rdfs:comment "Type de calendrier utilisé pour exprimer un laps de temps (julien, grégorien, hégire...)."@fr .
 
-_:86f7dc87ece84877b4832f4ec886d7c936 rdf:first rdf:type;
+_:86f7dc87ece84877b4832f4ec886d7c9236 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:CategorieIdentitePublique a sh:NodeShape, rdfs:Class, owl:Class;
@@ -7300,12 +7300,12 @@ rdafr:CategorieIdentitePublique a sh:NodeShape, rdfs:Class, owl:Class;
   sh:order "209"^^xsd:integer;
   sh:nodeKind sh:IRI;
   sh:closed "false"^^xsd:boolean;
-  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c937;
+  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c9237;
   sh:targetClass rdafr:CategorieIdentitePublique;
   sh:description "Précision sur la nature du nom sur lequel est fondée l'identité publique (par exemple : nom réel, pseudonyme...) [code RDA-FR, 9.1.1]"@fr;
   rdfs:comment "Précision sur la nature du nom sur lequel est fondée l'identité publique (par exemple : nom réel, pseudonyme...) [code RDA-FR, 9.1.1]"@fr .
 
-_:86f7dc87ece84877b4832f4ec886d7c937 rdf:first rdf:type;
+_:86f7dc87ece84877b4832f4ec886d7c9237 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:ModaliteParution a sh:NodeShape, rdfs:Class, owl:Class;
@@ -7314,10 +7314,10 @@ rdafr:ModaliteParution a sh:NodeShape, rdfs:Class, owl:Class;
   rdfs:subClassOf skos:Concept;
   sh:nodeKind sh:IRI;
   sh:closed "false"^^xsd:boolean;
-  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c938;
+  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c9238;
   sh:targetClass rdafr:ModaliteParution .
 
-_:86f7dc87ece84877b4832f4ec886d7c938 rdf:first rdf:type;
+_:86f7dc87ece84877b4832f4ec886d7c9238 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:NiveauAutonomie a sh:NodeShape, rdfs:Class, owl:Class;
@@ -7326,10 +7326,10 @@ rdafr:NiveauAutonomie a sh:NodeShape, rdfs:Class, owl:Class;
   rdfs:subClassOf skos:Concept;
   sh:nodeKind sh:IRI;
   sh:closed "false"^^xsd:boolean;
-  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c939;
+  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c9239;
   sh:targetClass rdafr:NiveauAutonomie .
 
-_:86f7dc87ece84877b4832f4ec886d7c939 rdf:first rdf:type;
+_:86f7dc87ece84877b4832f4ec886d7c9239 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:TypeMediation a sh:NodeShape, rdfs:Class, owl:Class;
@@ -7338,10 +7338,10 @@ rdafr:TypeMediation a sh:NodeShape, rdfs:Class, owl:Class;
   rdfs:subClassOf skos:Concept;
   sh:nodeKind sh:IRI;
   sh:closed "false"^^xsd:boolean;
-  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c940;
+  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c9240;
   sh:targetClass rdafr:TypeMediation .
 
-_:86f7dc87ece84877b4832f4ec886d7c940 rdf:first rdf:type;
+_:86f7dc87ece84877b4832f4ec886d7c9240 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:TypeSupport a sh:NodeShape, rdfs:Class, owl:Class;
@@ -7350,10 +7350,10 @@ rdafr:TypeSupport a sh:NodeShape, rdfs:Class, owl:Class;
   rdfs:subClassOf skos:Concept;
   sh:nodeKind sh:IRI;
   sh:closed "false"^^xsd:boolean;
-  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c941;
+  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c9241;
   sh:targetClass rdafr:TypeSupport .
 
-_:86f7dc87ece84877b4832f4ec886d7c941 rdf:first rdf:type;
+_:86f7dc87ece84877b4832f4ec886d7c9241 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:MateriauBase a sh:NodeShape, rdfs:Class, owl:Class;
@@ -7362,10 +7362,10 @@ rdafr:MateriauBase a sh:NodeShape, rdfs:Class, owl:Class;
   rdfs:subClassOf skos:Concept;
   sh:nodeKind sh:IRI;
   sh:closed "false"^^xsd:boolean;
-  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c942;
+  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c9242;
   sh:targetClass rdafr:MateriauBase .
 
-_:86f7dc87ece84877b4832f4ec886d7c942 rdf:first rdf:type;
+_:86f7dc87ece84877b4832f4ec886d7c9242 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:MateriauApplique a sh:NodeShape, rdfs:Class, owl:Class;
@@ -7374,10 +7374,10 @@ rdafr:MateriauApplique a sh:NodeShape, rdfs:Class, owl:Class;
   rdfs:subClassOf skos:Concept;
   sh:nodeKind sh:IRI;
   sh:closed "false"^^xsd:boolean;
-  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c943;
+  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c9243;
   sh:targetClass rdafr:MateriauApplique .
 
-_:86f7dc87ece84877b4832f4ec886d7c943 rdf:first rdf:type;
+_:86f7dc87ece84877b4832f4ec886d7c9243 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:MethodeProduction a sh:NodeShape, rdfs:Class, owl:Class;
@@ -7386,10 +7386,10 @@ rdafr:MethodeProduction a sh:NodeShape, rdfs:Class, owl:Class;
   rdfs:subClassOf skos:Concept;
   sh:nodeKind sh:IRI;
   sh:closed "false"^^xsd:boolean;
-  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c944;
+  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c9244;
   sh:targetClass rdafr:MethodeProduction .
 
-_:86f7dc87ece84877b4832f4ec886d7c944 rdf:first rdf:type;
+_:86f7dc87ece84877b4832f4ec886d7c9244 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:Generation a sh:NodeShape, rdfs:Class, owl:Class;
@@ -7398,10 +7398,10 @@ rdafr:Generation a sh:NodeShape, rdfs:Class, owl:Class;
   rdfs:subClassOf skos:Concept;
   sh:nodeKind sh:IRI;
   sh:closed "false"^^xsd:boolean;
-  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c945;
+  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c9245;
   sh:targetClass rdafr:Generation .
 
-_:86f7dc87ece84877b4832f4ec886d7c945 rdf:first rdf:type;
+_:86f7dc87ece84877b4832f4ec886d7c9245 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:Disposition a sh:NodeShape, rdfs:Class, owl:Class;
@@ -7410,10 +7410,10 @@ rdafr:Disposition a sh:NodeShape, rdfs:Class, owl:Class;
   rdfs:subClassOf skos:Concept;
   sh:nodeKind sh:IRI;
   sh:closed "false"^^xsd:boolean;
-  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c946;
+  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c9246;
   sh:targetClass rdafr:Disposition .
 
-_:86f7dc87ece84877b4832f4ec886d7c946 rdf:first rdf:type;
+_:86f7dc87ece84877b4832f4ec886d7c9246 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:FormatBibliographique a sh:NodeShape, rdfs:Class, owl:Class;
@@ -7422,10 +7422,10 @@ rdafr:FormatBibliographique a sh:NodeShape, rdfs:Class, owl:Class;
   rdfs:subClassOf skos:Concept;
   sh:nodeKind sh:IRI;
   sh:closed "false"^^xsd:boolean;
-  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c947;
+  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c9247;
   sh:targetClass rdafr:FormatBibliographique .
 
-_:86f7dc87ece84877b4832f4ec886d7c947 rdf:first rdf:type;
+_:86f7dc87ece84877b4832f4ec886d7c9247 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:TypePoliceCaracteres a sh:NodeShape, rdfs:Class, owl:Class;
@@ -7434,10 +7434,10 @@ rdafr:TypePoliceCaracteres a sh:NodeShape, rdfs:Class, owl:Class;
   rdfs:subClassOf skos:Concept;
   sh:nodeKind sh:IRI;
   sh:closed "false"^^xsd:boolean;
-  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c948;
+  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c9248;
   sh:targetClass rdafr:TypePoliceCaracteres .
 
-_:86f7dc87ece84877b4832f4ec886d7c948 rdf:first rdf:type;
+_:86f7dc87ece84877b4832f4ec886d7c9248 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:TailleCaracteres a sh:NodeShape, rdfs:Class, owl:Class;
@@ -7446,10 +7446,10 @@ rdafr:TailleCaracteres a sh:NodeShape, rdfs:Class, owl:Class;
   rdfs:subClassOf skos:Concept;
   sh:nodeKind sh:IRI;
   sh:closed "false"^^xsd:boolean;
-  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c949;
+  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c9249;
   sh:targetClass rdafr:TailleCaracteres .
 
-_:86f7dc87ece84877b4832f4ec886d7c949 rdf:first rdf:type;
+_:86f7dc87ece84877b4832f4ec886d7c9249 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:Polarite a sh:NodeShape, rdfs:Class, owl:Class;
@@ -7458,10 +7458,10 @@ rdafr:Polarite a sh:NodeShape, rdfs:Class, owl:Class;
   rdfs:subClassOf skos:Concept;
   sh:nodeKind sh:IRI;
   sh:closed "false"^^xsd:boolean;
-  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c950;
+  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c9250;
   sh:targetClass rdafr:Polarite .
 
-_:86f7dc87ece84877b4832f4ec886d7c950 rdf:first rdf:type;
+_:86f7dc87ece84877b4832f4ec886d7c9250 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:FacteurReduction a sh:NodeShape, rdfs:Class, owl:Class;
@@ -7470,10 +7470,10 @@ rdafr:FacteurReduction a sh:NodeShape, rdfs:Class, owl:Class;
   rdfs:subClassOf skos:Concept;
   sh:nodeKind sh:IRI;
   sh:closed "false"^^xsd:boolean;
-  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c951;
+  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c9251;
   sh:targetClass rdafr:FacteurReduction .
 
-_:86f7dc87ece84877b4832f4ec886d7c951 rdf:first rdf:type;
+_:86f7dc87ece84877b4832f4ec886d7c9251 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:VitesseLecture a sh:NodeShape, rdfs:Class, owl:Class;
@@ -7482,10 +7482,10 @@ rdafr:VitesseLecture a sh:NodeShape, rdfs:Class, owl:Class;
   rdfs:subClassOf skos:Concept;
   sh:nodeKind sh:IRI;
   sh:closed "false"^^xsd:boolean;
-  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c952;
+  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c9252;
   sh:targetClass rdafr:VitesseLecture .
 
-_:86f7dc87ece84877b4832f4ec886d7c952 rdf:first rdf:type;
+_:86f7dc87ece84877b4832f4ec886d7c9252 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:FormatSupportElectronique a sh:NodeShape, rdfs:Class, owl:Class;
@@ -7494,10 +7494,10 @@ rdafr:FormatSupportElectronique a sh:NodeShape, rdfs:Class, owl:Class;
   rdfs:subClassOf skos:Concept;
   sh:nodeKind sh:IRI;
   sh:closed "false"^^xsd:boolean;
-  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c953;
+  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c9253;
   sh:targetClass rdafr:FormatSupportElectronique .
 
-_:86f7dc87ece84877b4832f4ec886d7c953 rdf:first rdf:type;
+_:86f7dc87ece84877b4832f4ec886d7c9253 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:TypeFichier a sh:NodeShape, rdfs:Class, owl:Class;
@@ -7506,10 +7506,10 @@ rdafr:TypeFichier a sh:NodeShape, rdfs:Class, owl:Class;
   rdfs:subClassOf skos:Concept;
   sh:nodeKind sh:IRI;
   sh:closed "false"^^xsd:boolean;
-  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c954;
+  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c9254;
   sh:targetClass rdafr:TypeFichier .
 
-_:86f7dc87ece84877b4832f4ec886d7c954 rdf:first rdf:type;
+_:86f7dc87ece84877b4832f4ec886d7c9254 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:FormatProjection a sh:NodeShape, rdfs:Class, owl:Class;
@@ -7518,10 +7518,10 @@ rdafr:FormatProjection a sh:NodeShape, rdfs:Class, owl:Class;
   rdfs:subClassOf skos:Concept;
   sh:nodeKind sh:IRI;
   sh:closed "false"^^xsd:boolean;
-  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c955;
+  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c9255;
   sh:targetClass rdafr:FormatProjection .
 
-_:86f7dc87ece84877b4832f4ec886d7c955 rdf:first rdf:type;
+_:86f7dc87ece84877b4832f4ec886d7c9255 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:FormatSupportVideo a sh:NodeShape, rdfs:Class, owl:Class;
@@ -7530,10 +7530,10 @@ rdafr:FormatSupportVideo a sh:NodeShape, rdfs:Class, owl:Class;
   rdfs:subClassOf skos:Concept;
   sh:nodeKind sh:IRI;
   sh:closed "false"^^xsd:boolean;
-  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c956;
+  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c9256;
   sh:targetClass rdafr:FormatSupportVideo .
 
-_:86f7dc87ece84877b4832f4ec886d7c956 rdf:first rdf:type;
+_:86f7dc87ece84877b4832f4ec886d7c9256 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:NormeDiffusion a sh:NodeShape, rdfs:Class, owl:Class;
@@ -7542,10 +7542,10 @@ rdafr:NormeDiffusion a sh:NodeShape, rdfs:Class, owl:Class;
   rdfs:subClassOf skos:Concept;
   sh:nodeKind sh:IRI;
   sh:closed "false"^^xsd:boolean;
-  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c957;
+  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c9257;
   sh:targetClass rdafr:NormeDiffusion .
 
-_:86f7dc87ece84877b4832f4ec886d7c957 rdf:first rdf:type;
+_:86f7dc87ece84877b4832f4ec886d7c9257 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:FamilleSupport a sh:NodeShape, rdfs:Class, owl:Class;
@@ -7554,10 +7554,10 @@ rdafr:FamilleSupport a sh:NodeShape, rdfs:Class, owl:Class;
   rdfs:subClassOf skos:Concept;
   sh:nodeKind sh:IRI;
   sh:closed "false"^^xsd:boolean;
-  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c958;
+  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c9258;
   sh:targetClass rdafr:FamilleSupport .
 
-_:86f7dc87ece84877b4832f4ec886d7c958 rdf:first rdf:type;
+_:86f7dc87ece84877b4832f4ec886d7c9258 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:TechniqueSpatialisationSon a sh:NodeShape, rdfs:Class, owl:Class;
@@ -7566,10 +7566,10 @@ rdafr:TechniqueSpatialisationSon a sh:NodeShape, rdfs:Class, owl:Class;
   rdfs:subClassOf skos:Concept;
   sh:nodeKind sh:IRI;
   sh:closed "false"^^xsd:boolean;
-  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c959;
+  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c9259;
   sh:targetClass rdafr:TechniqueSpatialisationSon .
 
-_:86f7dc87ece84877b4832f4ec886d7c959 rdf:first rdf:type;
+_:86f7dc87ece84877b4832f4ec886d7c9259 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:TechniqueReductionBruit a sh:NodeShape, rdfs:Class, owl:Class;
@@ -7578,10 +7578,10 @@ rdafr:TechniqueReductionBruit a sh:NodeShape, rdfs:Class, owl:Class;
   rdfs:subClassOf skos:Concept;
   sh:nodeKind sh:IRI;
   sh:closed "false"^^xsd:boolean;
-  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c960;
+  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c9260;
   sh:targetClass rdafr:TechniqueReductionBruit .
 
-_:86f7dc87ece84877b4832f4ec886d7c960 rdf:first rdf:type;
+_:86f7dc87ece84877b4832f4ec886d7c9260 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:FormatImageAnimee a sh:NodeShape, rdfs:Class, owl:Class;
@@ -7590,10 +7590,10 @@ rdafr:FormatImageAnimee a sh:NodeShape, rdfs:Class, owl:Class;
   rdfs:subClassOf skos:Concept;
   sh:nodeKind sh:IRI;
   sh:closed "false"^^xsd:boolean;
-  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c961;
+  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c9261;
   sh:targetClass rdafr:FormatImageAnimee .
 
-_:86f7dc87ece84877b4832f4ec886d7c961 rdf:first rdf:type;
+_:86f7dc87ece84877b4832f4ec886d7c9261 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:Reliure a sh:NodeShape, rdfs:Class, owl:Class;
@@ -7602,10 +7602,10 @@ rdafr:Reliure a sh:NodeShape, rdfs:Class, owl:Class;
   rdfs:subClassOf skos:Concept;
   sh:nodeKind sh:IRI;
   sh:closed "false"^^xsd:boolean;
-  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c962;
+  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c9262;
   sh:targetClass rdafr:Reliure .
 
-_:86f7dc87ece84877b4832f4ec886d7c962 rdf:first rdf:type;
+_:86f7dc87ece84877b4832f4ec886d7c9262 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:TypeConteneur a sh:NodeShape, rdfs:Class, owl:Class;
@@ -7614,10 +7614,10 @@ rdafr:TypeConteneur a sh:NodeShape, rdfs:Class, owl:Class;
   rdfs:subClassOf skos:Concept;
   sh:nodeKind sh:IRI;
   sh:closed "false"^^xsd:boolean;
-  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c963;
+  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c9263;
   sh:targetClass rdafr:TypeConteneur .
 
-_:86f7dc87ece84877b4832f4ec886d7c963 rdf:first rdf:type;
+_:86f7dc87ece84877b4832f4ec886d7c9263 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:TypeContenu a sh:NodeShape, rdfs:Class, owl:Class;
@@ -7626,10 +7626,10 @@ rdafr:TypeContenu a sh:NodeShape, rdfs:Class, owl:Class;
   rdfs:subClassOf skos:Concept;
   sh:nodeKind sh:IRI;
   sh:closed "false"^^xsd:boolean;
-  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c964;
+  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c9264;
   sh:targetClass rdafr:TypeContenu .
 
-_:86f7dc87ece84877b4832f4ec886d7c964 rdf:first rdf:type;
+_:86f7dc87ece84877b4832f4ec886d7c9264 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:DesignationPresentationMusicale a sh:NodeShape, rdfs:Class, owl:Class;
@@ -7638,10 +7638,10 @@ rdafr:DesignationPresentationMusicale a sh:NodeShape, rdfs:Class, owl:Class;
   rdfs:subClassOf skos:Concept;
   sh:nodeKind sh:IRI;
   sh:closed "false"^^xsd:boolean;
-  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c965;
+  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c9265;
   sh:targetClass rdafr:DesignationPresentationMusicale .
 
-_:86f7dc87ece84877b4832f4ec886d7c965 rdf:first rdf:type;
+_:86f7dc87ece84877b4832f4ec886d7c9265 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:QuantificationContenu a sh:NodeShape, rdfs:Class, owl:Class;
@@ -7650,10 +7650,10 @@ rdafr:QuantificationContenu a sh:NodeShape, rdfs:Class, owl:Class;
   rdfs:subClassOf skos:Concept;
   sh:nodeKind sh:IRI;
   sh:closed "false"^^xsd:boolean;
-  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c966;
+  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c9266;
   sh:targetClass rdafr:QuantificationContenu .
 
-_:86f7dc87ece84877b4832f4ec886d7c966 rdf:first rdf:type;
+_:86f7dc87ece84877b4832f4ec886d7c9266 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:NatureContenuSupplementaireIllustratif a sh:NodeShape, rdfs:Class, owl:Class;
@@ -7662,10 +7662,10 @@ rdafr:NatureContenuSupplementaireIllustratif a sh:NodeShape, rdfs:Class, owl:Cla
   rdfs:subClassOf skos:Concept;
   sh:nodeKind sh:IRI;
   sh:closed "false"^^xsd:boolean;
-  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c967;
+  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c9267;
   sh:targetClass rdafr:NatureContenuSupplementaireIllustratif .
 
-_:86f7dc87ece84877b4832f4ec886d7c967 rdf:first rdf:type;
+_:86f7dc87ece84877b4832f4ec886d7c9267 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:Couleur a sh:NodeShape, rdfs:Class, owl:Class;
@@ -7674,10 +7674,10 @@ rdafr:Couleur a sh:NodeShape, rdfs:Class, owl:Class;
   rdfs:subClassOf skos:Concept;
   sh:nodeKind sh:IRI;
   sh:closed "false"^^xsd:boolean;
-  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c968;
+  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c9268;
   sh:targetClass rdafr:Couleur .
 
-_:86f7dc87ece84877b4832f4ec886d7c968 rdf:first rdf:type;
+_:86f7dc87ece84877b4832f4ec886d7c9268 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:TypeAccesDemat a sh:NodeShape, rdfs:Class, owl:Class;
@@ -7686,8 +7686,8 @@ rdafr:TypeAccesDemat a sh:NodeShape, rdfs:Class, owl:Class;
   rdfs:subClassOf skos:Concept;
   sh:nodeKind sh:IRI;
   sh:closed "false"^^xsd:boolean;
-  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c969;
+  sh:ignoredProperties _:86f7dc87ece84877b4832f4ec886d7c9269;
   sh:targetClass rdafr:TypeAccesDemat .
 
-_:86f7dc87ece84877b4832f4ec886d7c969 rdf:first rdf:type;
+_:86f7dc87ece84877b4832f4ec886d7c9269 rdf:first rdf:type;
   rdf:rest rdf:nil .
