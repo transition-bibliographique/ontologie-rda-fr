@@ -10,7 +10,7 @@ RUN apt update && DEBIAN_FRONTEND=noninteractive apt -y install locales pandoc d
 
 # Installation de Widoco
 
-RUN curl -L https://github.com/dgarijo/Widoco/releases/download/v1.4.17/java-17-widoco-1.4.17-jar-with-dependencies.jar -o /tmp/widoco.jar
+RUN curl -L https://github.com/dgarijo/Widoco/releases/download/v1.4.19/widoco-1.4.19-jar-with-dependencies_JDK-17.jar -o /tmp/widoco.jar
 
 RUN mkdir /build/
 COPY ./siteweb/* /build/
