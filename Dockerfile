@@ -60,7 +60,7 @@ RUN mkdir -p ontologie
 RUN cat /tmp/ontologie/rdafr.nt /tmp/ontologie/ontologie-metadata.nt > /tmp/ontologie/ontologie-avec-meta.nt
 
 # Enlève les noeuds vides et les éléments shacl qui sont problématiques pour Widoco
-RUN sed -e "#http://www.w3.org/ns/shacl#d" -e "/_:node/d" -e "#http://www.w3.org/1999/02/22-rdf-syntax-ns#nil#d" -i /tmp/ontologie/ontologie-avec-meta.nt
+RUN sed -e "#http://www.w3.org/ns/shacl#d" -e "/_:/d" -e "!http://www.w3.org/1999/02/22-rdf-syntax-ns#nil!d" -i /tmp/ontologie/ontologie-avec-meta.nt
 
 RUN java -jar /tmp/widoco.jar \
       -ontFile /tmp/ontologie/ontologie-avec-meta.nt \
