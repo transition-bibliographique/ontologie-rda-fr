@@ -1,0 +1,29 @@
+# Cette action GitHub récupère les données des vocabulaires contrôlés depuis Google sheet pour les sauvegarder sur GitHub
+name: Google Sheet to SKOS 
+on: workflow_dispatch
+jobs:
+  google-sheet-to-skos:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-java@v3
+        with:
+          distribution: 'zulu' 
+          java-version: '17'
+
+      - name: "Installation de xsl2rdf"
+        run : |
+          curl -L 'https://github.com/sparna-git/xls2rdf/releases/download/2.2.0/xls2rdf-app-2.2.0-onejar.jar' -o /tmp/xls2rdf.jar
+
+      - name: "Récupération des données des vocabulaires contrôlés"
+        run : |
+          curl -L 'https://docs.google.com/spreadsheets/d/1szLComNgMVuHp-iAVHnxehlPJpKiyzK78z4t-Hyr9mE/export?format=xlsx' -o /tmp/vocabularies.xlsx
+
+      - name: "Transformation des vocabulaires au format SKOS"
+        run : |
+          java -jar /tmp/xls2rdf.jar convert -i /tmp/vocabularies.xlsx -l fr -o vocabulaire/vocabularies.ttl 
+      
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "Feat : Mise à jour des vocabulaires contrôlés"
+          file_pattern: "vocabulaire/*.ttl"
