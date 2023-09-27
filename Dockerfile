@@ -96,6 +96,17 @@ RUN sed -E -i /build/profil-application/index.html \
 # Copie le profil d'application pour que l'utilisateur puisse le récupérer depuis http://rdafr.fr/profil-application/rdafr-shacl.ttl
 RUN mv /tmp/ontologie/profil-application-avec-meta.ttl /build/profil-application/rdafr-shacl.ttl
 
+
+# Génération des vocabulaires contrôlés
+
+COPY ./vocabulaire/* /build/
+
+# Installation de l'outil skos play et génération des vocabulaires contrôlés
+RUN curl -L https://github.com/sparna-git/skos-play/releases/download/0.9.1/skos-play-cli-0.9.1-onejar.jar -o skos-play.jar && \
+    java -jar skos-play.jar alphabetical -i /build/vocabularies.ttl -o /build/vocabularies.pdf -f pdf -l fr && \
+    java -jar skos-play.jar alphabetical -i /build/vocabularies.ttl -o /build/vocabularies.html -f html -l fr 
+
+
 FROM nginx:1.20.2
 ENV ONTOLOGIE_RDAFR_VERSION 0.4.0
 
