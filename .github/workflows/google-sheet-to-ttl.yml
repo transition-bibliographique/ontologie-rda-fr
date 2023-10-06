@@ -7,26 +7,23 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: "Récupération de l'ontologie"
+      - name: "Récupération de xls2rdf"
+        run: |
+          curl -L --request GET 'https://github.com/sparna-git/xls2rdf/releases/download/2.2.0/xls2rdf-app-2.2.0-onejar.jar' \
+          -o ./xls2rdf.jar
+
+      - name: "Récupération des données de l'ontologie"
+        run: |
+          curl -L --request GET 'https://docs.google.com/spreadsheets/d/1CZIf3bxuuH3aghFn7B7P89DrLqp_jzv4moI_BpI9PzY/export?format=xlsx' \
+          -o data.xlsx
+
+      - name: "Transformation de l'ontologie au format RDF"
         run : |
-          curl -L --request GET 'https://xls2rdf.sparna.fr/rest/convert?noPostProcessings=true' \
-          -H "Connection: keep-alive" \
-          -F url='https://docs.google.com/spreadsheets/d/1CZIf3bxuuH3aghFn7B7P89DrLqp_jzv4moI_BpI9PzY/export?format=xlsx' \
-          -F format=ttl \
-          -o ./ontologie/rdafr.ttl
-          
-          curl -L --request GET 'https://xls2rdf.sparna.fr/rest/convert?noPostProcessings=true' \
-          -H "Connection: keep-alive" \
-          -F url='https://docs.google.com/spreadsheets/d/1CZIf3bxuuH3aghFn7B7P89DrLqp_jzv4moI_BpI9PzY/export?format=xlsx' \
-          -F format=text/plain \
-          -o ./ontologie/rdafr.nt 
-          
-          curl -L --request GET 'https://xls2rdf.sparna.fr/rest/convert?noPostProcessings=true' \
-          -H "Connection: keep-alive" \
-          -F url='https://docs.google.com/spreadsheets/d/1CZIf3bxuuH3aghFn7B7P89DrLqp_jzv4moI_BpI9PzY/export?format=xlsx' \
-          -F format=application/rdf+xml \
-          -o ./ontologie/rdafr.rdf
+          java -jar xls2rdf.jar convert -i data.xlsx -o ./ontologie/data.nt -np -l fr -f text/plain
+          java -jar xls2rdf.jar convert -i data.xlsx -o ./ontologie/data.ttl -np -l fr -f ttl
+          java -jar xls2rdf.jar convert -i data.xlsx -o ./ontologie/data.rdf -np -l fr -f application/rdf+xml
           
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: "Feat : Mise à jour de l'ontologie"
+          file_pattern: "ontologie/*.*"
