@@ -1,0 +1,26 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://rdafr.fr/vocabulary/type-captation> a skos:ConceptScheme;
+  dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
+  dct:description "Le périmètre d’application de la langue permet de qualifier la langue de certaines composantes de l’expression décrite."@fr;
+  dct:publisher "BnF, Abes"@fr;
+  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Type de captation"@fr;
+  skos:hasTopConcept <https://rdafr.fr/vocabulary/type-captation/1>, <https://rdafr.fr/vocabulary/type-captation/2> .
+
+<https://rdafr.fr/vocabulary/type-captation/1> a skos:Concept;
+  dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:inScheme <https://rdafr.fr/vocabulary/type-captation>;
+  skos:prefLabel "Captation sur le vif"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/type-captation> .
+
+<https://rdafr.fr/vocabulary/type-captation/2> a skos:Concept;
+  dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:inScheme <https://rdafr.fr/vocabulary/type-captation>;
+  skos:prefLabel "Captation en studio"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/type-captation> .

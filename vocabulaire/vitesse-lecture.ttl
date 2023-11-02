@@ -1,0 +1,49 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdafr: <https://rdafr.fr/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://rdafr.fr/vocabulary/vitesse-lecture> a skos:ConceptScheme;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  dct:publisher "BnF, Abes"@fr;
+  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des vitesses de lecture d'une manifestation"@fr;
+  skos:hasTopConcept <https://rdafr.fr/vocabulary/vitesse-lecture/1>, <https://rdafr.fr/vocabulary/vitesse-lecture/2>,
+    <https://rdafr.fr/vocabulary/vitesse-lecture/3>, <https://rdafr.fr/vocabulary/vitesse-lecture/4>,
+    <https://rdafr.fr/vocabulary/vitesse-lecture/5> .
+
+<https://rdafr.fr/vocabulary/vitesse-lecture/1> a skos:Concept, rdafr:VitesseLecture;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:inScheme <https://rdafr.fr/vocabulary/vitesse-lecture>;
+  skos:prefLabel "16 tours"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/vitesse-lecture> .
+
+<https://rdafr.fr/vocabulary/vitesse-lecture/2> a skos:Concept, rdafr:VitesseLecture;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:inScheme <https://rdafr.fr/vocabulary/vitesse-lecture>;
+  skos:prefLabel "33 tours"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/vitesse-lecture> .
+
+<https://rdafr.fr/vocabulary/vitesse-lecture/3> a skos:Concept, rdafr:VitesseLecture;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:inScheme <https://rdafr.fr/vocabulary/vitesse-lecture>;
+  skos:prefLabel "45 tours"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/vitesse-lecture> .
+
+<https://rdafr.fr/vocabulary/vitesse-lecture/4> a skos:Concept, rdafr:VitesseLecture;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:inScheme <https://rdafr.fr/vocabulary/vitesse-lecture>;
+  skos:prefLabel "78 tours"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/vitesse-lecture> .
+
+<https://rdafr.fr/vocabulary/vitesse-lecture/5> a skos:Concept, rdafr:VitesseLecture;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:inScheme <https://rdafr.fr/vocabulary/vitesse-lecture>;
+  skos:prefLabel "80 tours"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/vitesse-lecture> .

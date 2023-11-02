@@ -1,0 +1,36 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdafr: <https://rdafr.fr/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://rdafr.fr/vocabulary/type-donnees-cartographiques> a skos:ConceptScheme;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  dct:publisher "BnF, Abes"@fr;
+  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des types de données cartographiques"@fr;
+  skos:hasTopConcept <https://rdafr.fr/vocabulary/type-donnees-cartographiques/1>, <https://rdafr.fr/vocabulary/type-donnees-cartographiques/2>,
+    <https://rdafr.fr/vocabulary/type-donnees-cartographiques/3> .
+
+<https://rdafr.fr/vocabulary/type-donnees-cartographiques/1> a skos:Concept, rdafr:TypeDonneesCartographiques;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Type de données cartographiques représentant l'espace selon un maillage régulier appliqué sur la surface terrestre. L'image ainsi formée ne peut pas être modifiée."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/type-donnees-cartographiques>;
+  skos:prefLabel "raster"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/type-donnees-cartographiques> .
+
+<https://rdafr.fr/vocabulary/type-donnees-cartographiques/2> a skos:Concept, rdafr:TypeDonneesCartographiques;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Type de données cartographiques représentant l'espace au moyen de formes géométriques qui expriment la forme, la position, la couleur, etc. des entités du monde réel. L'image ainsi formée peut être modifiée."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/type-donnees-cartographiques>;
+  skos:prefLabel "vecteur"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/type-donnees-cartographiques> .
+
+<https://rdafr.fr/vocabulary/type-donnees-cartographiques/3> a skos:Concept, rdafr:TypeDonneesCartographiques;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:inScheme <https://rdafr.fr/vocabulary/type-donnees-cartographiques>;
+  skos:prefLabel "point"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/type-donnees-cartographiques> .

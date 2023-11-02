@@ -12,7 +12,7 @@ RUN apt update && DEBIAN_FRONTEND=noninteractive apt -y install locales pandoc d
 RUN curl -L https://github.com/dgarijo/Widoco/releases/download/v1.4.19/widoco-1.4.19-jar-with-dependencies_JDK-17.jar -o /tmp/widoco.jar
 
 RUN mkdir /build/
-COPY ./siteweb/* /build/
+COPY siteweb/ /build/
 COPY ./siteweb/.docker/* /build/
 
 # Les données de l'ontologie ne sont nécessaires que pour la documentation du profil d'application et de l'ontologie
@@ -36,7 +36,7 @@ RUN pandoc --standalone \
       --toc \
       --shift-heading-level-by=-1 \
       --template template.html \
-      -c style.css \
+      -c /style.css \
       -B /build/intro.html \
       -A /build/footer.html \
       /build/index-content.md -o /build/index.html
@@ -45,9 +45,17 @@ RUN pandoc --standalone \
       --toc \
       --shift-heading-level-by=-1 \
       --template template.html \
-      -c style.css \
+      -c /style.css \
       -A /build/footer.html \
       /build/release-notes.md -o /build/release-notes.html
+
+RUN pandoc --standalone \
+      --toc \
+      --shift-heading-level-by=-1 \
+      --template template.html \
+      -c /style.css \
+      -A /build/footer.html \
+      /build/vocabulaires/index.md -o /build/vocabulaires/index.html
 
 # Génération de la documentation de l'ontologie
 RUN mkdir -p ontologie
@@ -89,6 +97,21 @@ RUN sed -E -i /build/profil-application/index.html \
 
 # Copie le profil d'application pour que l'utilisateur puisse le récupérer depuis http://rdafr.fr/profil-application/rdafr-shacl.ttl
 RUN mv /tmp/ontologie/profil-application-avec-meta.ttl /build/profil-application/rdafr-shacl.ttl
+
+
+# Génération des vocabulaires contrôlés
+
+RUN mkdir -p /build/vocabulaires/
+COPY ./vocabulaire/* /build/vocabulaires/
+
+# Installation de l'outil skos play 
+RUN curl -L https://github.com/sparna-git/skos-play/releases/download/0.9.1/skos-play-cli-0.9.1-onejar.jar -o skos-play.jar
+
+# Génération d'un fichier HTML par vocabulaire
+# Depuis la page d'un vocabulaire, l'utilisateur peut ajouter le suffix .ttl à l'url pour récupérer les données au format RDF.
+RUN for i in /build/vocabulaires/*.ttl; do \
+      java -jar skos-play.jar alphabetical -i $i -o ${i%.ttl}.html -f html -l fr ;\
+    done
 
 FROM nginx:1.20.2
 ENV ONTOLOGIE_RDAFR_VERSION 0.4.0

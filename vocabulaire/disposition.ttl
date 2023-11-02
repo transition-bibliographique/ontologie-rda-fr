@@ -1,0 +1,79 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdafr: <https://rdafr.fr/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://rdafr.fr/vocabulary/disposition> a skos:ConceptScheme;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  dct:publisher "BnF, Abes"@fr;
+  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des dispositions d'une manifestation"@fr;
+  skos:hasTopConcept <https://rdafr.fr/vocabulary/disposition/1>, <https://rdafr.fr/vocabulary/disposition/2>,
+    <https://rdafr.fr/vocabulary/disposition/3>, <https://rdafr.fr/vocabulary/disposition/4>,
+    <https://rdafr.fr/vocabulary/disposition/5>, <https://rdafr.fr/vocabulary/disposition/6>,
+    <https://rdafr.fr/vocabulary/disposition/7> .
+
+<https://rdafr.fr/vocabulary/disposition/1> a skos:Concept, rdafr:Disposition;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition """Disposition dans laquelle l'information est stockée sur deux couches.
+Ce terme s'applique aux disques optiques numériques."""@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/disposition>;
+  skos:prefLabel "double couche"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/disposition> .
+
+<https://rdafr.fr/vocabulary/disposition/2> a skos:Concept, rdafr:Disposition;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition """Disposition qui utilise les deux côtés d'un support (feuille, disque, etc.).
+Pour les feuilles, ce terme s'applique aux photographies.
+Pour les disques, ce terme ne s'applique que pour les disques optiques."""@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/disposition>;
+  skos:prefLabel "double face"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/disposition> .
+
+<https://rdafr.fr/vocabulary/disposition/3> a skos:Concept, rdafr:Disposition;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Disposition qui n'utilise qu'un seul côté d'un support (disque, cassette audio, etc.)."@fr;
+  skos:editorialNote "Manque périmètre dans RDA-FR."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/disposition>;
+  skos:prefLabel "monoface"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/disposition> .
+
+<https://rdafr.fr/vocabulary/disposition/4> a skos:Concept, rdafr:Disposition;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition """Disposition dans laquelle l'information figure sur un seul côté des feuilles.
+Ce terme s'applique aux ressources publiées sous forme de volume."""@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/disposition>;
+  skos:prefLabel "recto"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/disposition> .
+
+<https://rdafr.fr/vocabulary/disposition/5> a skos:Concept, rdafr:Disposition;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition """Disposition qui se poursuit sur les deux côtés d'une ou plusieurs feuilles.
+Ce terme s'applique aux images cartographiques et aux images fixes."""@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/disposition>;
+  skos:prefLabel "recto verso"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/disposition> .
+
+<https://rdafr.fr/vocabulary/disposition/6> a skos:Concept, rdafr:Disposition;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition """Disposition dans laquelle l'information est stockée sur une seule couche.
+Ce terme s'applique aux disques optiques numériques."""@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/disposition>;
+  skos:prefLabel "simple couche"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/disposition> .
+
+<https://rdafr.fr/vocabulary/disposition/7> a skos:Concept, rdafr:Disposition;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition """Disposition dans laquelle deux contenus se présentent de façon inversée l'un par rapport à l'autre.
+Ce terme s'applique aux ressources publiées sous forme de volumes ou de feuilles."""@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/disposition>;
+  skos:prefLabel "tête-bêche"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/disposition> .

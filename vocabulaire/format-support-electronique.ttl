@@ -1,0 +1,442 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix euvoc: <http://publications.europa.eu/ontology/euvoc#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdafr: <https://rdafr.fr/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosthes: <http://purl.org/iso25964/skos-thes#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://rdafr.fr/vocabulary/format-support-electronique> dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  dct:publisher "BnF, Abes"@fr;
+  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des formats d'un support électronique"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/1> a skos:Concept, rdafr:FormatSupportElectronique;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Blu-Ray Disc propriétaires"@fr;
+  skos:prefLabel "PlayStation 3"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/2> a skos:Concept, rdafr:FormatSupportElectronique;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Blu-Ray Disc propriétaires"@fr;
+  skos:prefLabel "PlayStation 4"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/3> a skos:Concept, rdafr:FormatSupportElectronique;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Cartes mémoires propriétaires"@fr;
+  skos:prefLabel "DS"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/4> a skos:Concept, rdafr:FormatSupportElectronique;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Cartes mémoires propriétaires"@fr;
+  skos:prefLabel "3DS"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/5> a skos:Concept, rdafr:FormatSupportElectronique;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Cartes mémoires propriétaires"@fr;
+  skos:prefLabel "PSVita"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/6> a skos:Concept, rdafr:FormatSupportElectronique;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Cartes mémoires propriétaires"@fr;
+  skos:prefLabel "Switch"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/7> a skos:Concept, rdafr:FormatSupportElectronique;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Cartouches de jeu propriétaires"@fr;
+  skos:prefLabel "Vectrex"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/8> a skos:Concept, rdafr:FormatSupportElectronique;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Cartouches de jeu propriétaires"@fr;
+  skos:prefLabel "Famicom"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/9> a skos:Concept, rdafr:FormatSupportElectronique;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Cartouches de jeu propriétaires"@fr;
+  skos:prefLabel "Super Famicom"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/10> a skos:Concept, rdafr:FormatSupportElectronique;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Cartouches de jeu propriétaires"@fr;
+  skos:prefLabel "Atari 5200"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/11> a skos:Concept, rdafr:FormatSupportElectronique;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Cartouches de jeu propriétaires"@fr;
+  skos:prefLabel "Atari 7800"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/12> a skos:Concept, rdafr:FormatSupportElectronique;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Cartouches de jeu propriétaires"@fr;
+  skos:prefLabel "Atari 2600"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/13> a skos:Concept, rdafr:FormatSupportElectronique;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Cartouches de jeu propriétaires"@fr;
+  skos:prefLabel "Colecovision"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/14> a skos:Concept, rdafr:FormatSupportElectronique;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Cartouches de jeu propriétaires"@fr;
+  skos:prefLabel "NES"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/15> a skos:Concept, rdafr:FormatSupportElectronique;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Cartouches de jeu propriétaires"@fr;
+  skos:prefLabel "SEGA Master System"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/16> a skos:Concept, rdafr:FormatSupportElectronique;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Cartouches de jeu propriétaires"@fr;
+  skos:prefLabel "SEGA Mega Drive"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/17> a skos:Concept, rdafr:FormatSupportElectronique;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Cartouches de jeu propriétaires"@fr;
+  skos:prefLabel "Nintendo Game Boy"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/18> a skos:Concept, rdafr:FormatSupportElectronique;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Cartouches de jeu propriétaires"@fr;
+  skos:prefLabel "SEGA Game Gear"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/19> a skos:Concept, rdafr:FormatSupportElectronique;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Cartouches de jeu propriétaires"@fr;
+  skos:prefLabel "Super NES"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/20> a skos:Concept, rdafr:FormatSupportElectronique;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Cartouches de jeu propriétaires"@fr;
+  skos:prefLabel "SEGA Pico"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/21> a skos:Concept, rdafr:FormatSupportElectronique;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Cartouches de jeu propriétaires"@fr;
+  skos:prefLabel "Nintendo 64"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/22> a skos:Concept, rdafr:FormatSupportElectronique;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Cartouches de jeu propriétaires"@fr;
+  skos:prefLabel "Nintendo Game Boy Color"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/23> a skos:Concept, rdafr:FormatSupportElectronique;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Cartouches de jeu propriétaires"@fr;
+  skos:prefLabel "Nintendo Game Boy Advance"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/24> a skos:Concept, rdafr:FormatSupportElectronique;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Cartouches de jeu propriétaires"@fr;
+  skos:prefLabel "Nintento DS"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/25> a skos:Concept, rdafr:FormatSupportElectronique;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Cartouches de jeu propriétaires"@fr;
+  skos:prefLabel "Nintendo 3DS"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/26> a skos:Concept, rdafr:FormatSupportElectronique;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Cartouches de jeu propriétaires"@fr;
+  skos:prefLabel "V. Smile"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/27> a skos:Concept, rdafr:FormatSupportElectronique;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Cartouches de jeu propriétaires"@fr;
+  skos:prefLabel "V. Smile Baby"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/28> a skos:Concept, rdafr:FormatSupportElectronique;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Cartouches de jeu propriétaires"@fr;
+  skos:prefLabel "V. Smile Motion"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/29> a skos:Concept, rdafr:FormatSupportElectronique;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Cartouches de jeu propriétaires"@fr;
+  skos:prefLabel "V. Smile Pocket"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/30> a skos:Concept, rdafr:FormatSupportElectronique;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Cartouches de jeu propriétaires"@fr;
+  skos:prefLabel "NeoGeo"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/31> a skos:Concept, rdafr:FormatSupportElectronique;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Cartouches de jeu propriétaires"@fr;
+  skos:prefLabel "NeoGeo Pocket"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/32> a skos:Concept, rdafr:FormatSupportElectronique;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Cartouches de jeu propriétaires"@fr;
+  skos:prefLabel "NeoGeo Pocket Color"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/33> a skos:Concept, rdafr:FormatSupportElectronique;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "CD-ROM propriétaires"@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/format-support-electronique>;
+  skos:prefLabel "Dreamcast"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/34> a skos:Concept, rdafr:FormatSupportElectronique;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "CD-ROM propriétaires"@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/format-support-electronique>;
+  skos:prefLabel "Sega Saturn"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/35> a skos:Concept, rdafr:FormatSupportElectronique;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "CD-ROM propriétaires"@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/format-support-electronique>;
+  skos:prefLabel "Data DiscMan"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/36> a skos:Concept, rdafr:FormatSupportElectronique;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Disquettes propriétaires"@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/format-support-electronique>;
+  skos:prefLabel "Amstrad CPC"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/37> a skos:Concept, rdafr:FormatSupportElectronique;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "DVD-ROM propriétaires"@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/format-support-electronique>;
+  skos:prefLabel "GameCube"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/38> a skos:Concept, rdafr:FormatSupportElectronique;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "DVD-ROM propriétaires"@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/format-support-electronique>;
+  skos:prefLabel "PlayStation 1"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/39> a skos:Concept, rdafr:FormatSupportElectronique;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "DVD-ROM propriétaires"@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/format-support-electronique>;
+  skos:prefLabel "PlayStation 2"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/40> a skos:Concept, rdafr:FormatSupportElectronique;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "DVD-ROM propriétaires"@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/format-support-electronique>;
+  skos:prefLabel "Wii"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/41> a skos:Concept, rdafr:FormatSupportElectronique;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "DVD-ROM propriétaires"@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/format-support-electronique>;
+  skos:prefLabel "Xbox"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/42> a skos:Concept, rdafr:FormatSupportElectronique;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "DVD-ROM propriétaires"@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/format-support-electronique>;
+  skos:prefLabel "Xbox 360"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/43> a skos:Concept, rdafr:FormatSupportElectronique;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "DVD-ROM propriétaires"@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/format-support-electronique>;
+  skos:prefLabel "Xbox One"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/44> a skos:Concept, rdafr:FormatSupportElectronique;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "DVD-ROM propriétaires"@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/format-support-electronique>;
+  skos:prefLabel "UMD"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/1> skos:inScheme <https://rdafr.fr/vocabulary/format-support-electronique>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-electronique> .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/2> skos:inScheme <https://rdafr.fr/vocabulary/format-support-electronique>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-electronique> .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/3> skos:inScheme <https://rdafr.fr/vocabulary/format-support-electronique>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-electronique> .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/4> skos:inScheme <https://rdafr.fr/vocabulary/format-support-electronique>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-electronique> .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/5> skos:inScheme <https://rdafr.fr/vocabulary/format-support-electronique>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-electronique> .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/6> skos:inScheme <https://rdafr.fr/vocabulary/format-support-electronique>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-electronique> .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/7> skos:inScheme <https://rdafr.fr/vocabulary/format-support-electronique>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-electronique> .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/8> skos:inScheme <https://rdafr.fr/vocabulary/format-support-electronique>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-electronique> .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/9> skos:inScheme <https://rdafr.fr/vocabulary/format-support-electronique>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-electronique> .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/10> skos:inScheme <https://rdafr.fr/vocabulary/format-support-electronique>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-electronique> .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/11> skos:inScheme <https://rdafr.fr/vocabulary/format-support-electronique>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-electronique> .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/12> skos:inScheme <https://rdafr.fr/vocabulary/format-support-electronique>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-electronique> .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/13> skos:inScheme <https://rdafr.fr/vocabulary/format-support-electronique>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-electronique> .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/14> skos:inScheme <https://rdafr.fr/vocabulary/format-support-electronique>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-electronique> .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/15> skos:inScheme <https://rdafr.fr/vocabulary/format-support-electronique>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-electronique> .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/16> skos:inScheme <https://rdafr.fr/vocabulary/format-support-electronique>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-electronique> .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/17> skos:inScheme <https://rdafr.fr/vocabulary/format-support-electronique>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-electronique> .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/18> skos:inScheme <https://rdafr.fr/vocabulary/format-support-electronique>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-electronique> .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/19> skos:inScheme <https://rdafr.fr/vocabulary/format-support-electronique>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-electronique> .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/20> skos:inScheme <https://rdafr.fr/vocabulary/format-support-electronique>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-electronique> .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/21> skos:inScheme <https://rdafr.fr/vocabulary/format-support-electronique>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-electronique> .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/22> skos:inScheme <https://rdafr.fr/vocabulary/format-support-electronique>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-electronique> .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/23> skos:inScheme <https://rdafr.fr/vocabulary/format-support-electronique>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-electronique> .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/24> skos:inScheme <https://rdafr.fr/vocabulary/format-support-electronique>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-electronique> .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/25> skos:inScheme <https://rdafr.fr/vocabulary/format-support-electronique>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-electronique> .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/26> skos:inScheme <https://rdafr.fr/vocabulary/format-support-electronique>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-electronique> .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/27> skos:inScheme <https://rdafr.fr/vocabulary/format-support-electronique>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-electronique> .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/28> skos:inScheme <https://rdafr.fr/vocabulary/format-support-electronique>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-electronique> .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/29> skos:inScheme <https://rdafr.fr/vocabulary/format-support-electronique>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-electronique> .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/30> skos:inScheme <https://rdafr.fr/vocabulary/format-support-electronique>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-electronique> .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/31> skos:inScheme <https://rdafr.fr/vocabulary/format-support-electronique>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-electronique> .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/32> skos:inScheme <https://rdafr.fr/vocabulary/format-support-electronique>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-electronique> .
+
+<https://rdafr.fr/vocabulary/format-support-electronique> a skos:ConceptScheme;
+  skos:hasTopConcept <https://rdafr.fr/vocabulary/format-support-electronique/1>, <https://rdafr.fr/vocabulary/format-support-electronique/10>,
+    <https://rdafr.fr/vocabulary/format-support-electronique/11>, <https://rdafr.fr/vocabulary/format-support-electronique/12>,
+    <https://rdafr.fr/vocabulary/format-support-electronique/13>, <https://rdafr.fr/vocabulary/format-support-electronique/14>,
+    <https://rdafr.fr/vocabulary/format-support-electronique/15>, <https://rdafr.fr/vocabulary/format-support-electronique/16>,
+    <https://rdafr.fr/vocabulary/format-support-electronique/17>, <https://rdafr.fr/vocabulary/format-support-electronique/18>,
+    <https://rdafr.fr/vocabulary/format-support-electronique/19>, <https://rdafr.fr/vocabulary/format-support-electronique/2>,
+    <https://rdafr.fr/vocabulary/format-support-electronique/20>, <https://rdafr.fr/vocabulary/format-support-electronique/21>,
+    <https://rdafr.fr/vocabulary/format-support-electronique/22>, <https://rdafr.fr/vocabulary/format-support-electronique/23>,
+    <https://rdafr.fr/vocabulary/format-support-electronique/24>, <https://rdafr.fr/vocabulary/format-support-electronique/25>,
+    <https://rdafr.fr/vocabulary/format-support-electronique/26>, <https://rdafr.fr/vocabulary/format-support-electronique/27>,
+    <https://rdafr.fr/vocabulary/format-support-electronique/28>, <https://rdafr.fr/vocabulary/format-support-electronique/29>,
+    <https://rdafr.fr/vocabulary/format-support-electronique/3>, <https://rdafr.fr/vocabulary/format-support-electronique/30>,
+    <https://rdafr.fr/vocabulary/format-support-electronique/31>, <https://rdafr.fr/vocabulary/format-support-electronique/32>,
+    <https://rdafr.fr/vocabulary/format-support-electronique/33>, <https://rdafr.fr/vocabulary/format-support-electronique/34>,
+    <https://rdafr.fr/vocabulary/format-support-electronique/35>, <https://rdafr.fr/vocabulary/format-support-electronique/36>,
+    <https://rdafr.fr/vocabulary/format-support-electronique/37>, <https://rdafr.fr/vocabulary/format-support-electronique/38>,
+    <https://rdafr.fr/vocabulary/format-support-electronique/39>, <https://rdafr.fr/vocabulary/format-support-electronique/4>,
+    <https://rdafr.fr/vocabulary/format-support-electronique/40>, <https://rdafr.fr/vocabulary/format-support-electronique/41>,
+    <https://rdafr.fr/vocabulary/format-support-electronique/42>, <https://rdafr.fr/vocabulary/format-support-electronique/43>,
+    <https://rdafr.fr/vocabulary/format-support-electronique/44>, <https://rdafr.fr/vocabulary/format-support-electronique/5>,
+    <https://rdafr.fr/vocabulary/format-support-electronique/6>, <https://rdafr.fr/vocabulary/format-support-electronique/7>,
+    <https://rdafr.fr/vocabulary/format-support-electronique/8>, <https://rdafr.fr/vocabulary/format-support-electronique/9> .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/33> skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-electronique> .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/34> skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-electronique> .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/35> skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-electronique> .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/36> skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-electronique> .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/37> skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-electronique> .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/38> skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-electronique> .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/39> skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-electronique> .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/40> skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-electronique> .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/41> skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-electronique> .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/42> skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-electronique> .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/43> skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-electronique> .
+
+<https://rdafr.fr/vocabulary/format-support-electronique/44> skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-electronique> .

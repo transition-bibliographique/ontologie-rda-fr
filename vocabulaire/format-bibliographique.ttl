@@ -1,0 +1,86 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdafr: <https://rdafr.fr/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://rdafr.fr/vocabulary/format-bibliographique> a skos:ConceptScheme;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  dct:publisher "BnF, Abes"@fr;
+  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des formats bibliographiques"@fr;
+  skos:hasTopConcept <https://rdafr.fr/vocabulary/format-bibliographique/1>, <https://rdafr.fr/vocabulary/format-bibliographique/10>,
+    <https://rdafr.fr/vocabulary/format-bibliographique/2>, <https://rdafr.fr/vocabulary/format-bibliographique/3>,
+    <https://rdafr.fr/vocabulary/format-bibliographique/4>, <https://rdafr.fr/vocabulary/format-bibliographique/5>,
+    <https://rdafr.fr/vocabulary/format-bibliographique/6>, <https://rdafr.fr/vocabulary/format-bibliographique/7>,
+    <https://rdafr.fr/vocabulary/format-bibliographique/8>, <https://rdafr.fr/vocabulary/format-bibliographique/9> .
+
+<https://rdafr.fr/vocabulary/format-bibliographique/1> a skos:Concept, rdafr:FormatBibliographique;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:inScheme <https://rdafr.fr/vocabulary/format-bibliographique>;
+  skos:prefLabel "in-plano"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-bibliographique> .
+
+<https://rdafr.fr/vocabulary/format-bibliographique/2> a skos:Concept, rdafr:FormatBibliographique;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:inScheme <https://rdafr.fr/vocabulary/format-bibliographique>;
+  skos:prefLabel "in-folio"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-bibliographique> .
+
+<https://rdafr.fr/vocabulary/format-bibliographique/3> a skos:Concept, rdafr:FormatBibliographique;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:inScheme <https://rdafr.fr/vocabulary/format-bibliographique>;
+  skos:prefLabel "in-4"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-bibliographique> .
+
+<https://rdafr.fr/vocabulary/format-bibliographique/4> a skos:Concept, rdafr:FormatBibliographique;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:inScheme <https://rdafr.fr/vocabulary/format-bibliographique>;
+  skos:prefLabel "in-8"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-bibliographique> .
+
+<https://rdafr.fr/vocabulary/format-bibliographique/5> a skos:Concept, rdafr:FormatBibliographique;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:inScheme <https://rdafr.fr/vocabulary/format-bibliographique>;
+  skos:prefLabel "in-12"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-bibliographique> .
+
+<https://rdafr.fr/vocabulary/format-bibliographique/6> a skos:Concept, rdafr:FormatBibliographique;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:inScheme <https://rdafr.fr/vocabulary/format-bibliographique>;
+  skos:prefLabel "in-16"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-bibliographique> .
+
+<https://rdafr.fr/vocabulary/format-bibliographique/7> a skos:Concept, rdafr:FormatBibliographique;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:inScheme <https://rdafr.fr/vocabulary/format-bibliographique>;
+  skos:prefLabel "in-18"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-bibliographique> .
+
+<https://rdafr.fr/vocabulary/format-bibliographique/8> a skos:Concept, rdafr:FormatBibliographique;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:inScheme <https://rdafr.fr/vocabulary/format-bibliographique>;
+  skos:prefLabel "in-24"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-bibliographique> .
+
+<https://rdafr.fr/vocabulary/format-bibliographique/9> a skos:Concept, rdafr:FormatBibliographique;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:inScheme <https://rdafr.fr/vocabulary/format-bibliographique>;
+  skos:prefLabel "in-32"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-bibliographique> .
+
+<https://rdafr.fr/vocabulary/format-bibliographique/10> a skos:Concept, rdafr:FormatBibliographique;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:inScheme <https://rdafr.fr/vocabulary/format-bibliographique>;
+  skos:prefLabel "in-64"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-bibliographique> .

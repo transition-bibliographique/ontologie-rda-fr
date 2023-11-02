@@ -1,0 +1,65 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://rdafr.fr/vocabulary/perimetre-application-langue> a skos:ConceptScheme;
+  dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
+  dct:description "Le périmètre d’application de la langue permet de qualifier la langue de certaines composantes de l’expression décrite."@fr;
+  dct:publisher "BnF, Abes"@fr;
+  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Périmètre d’application de la langue"@fr;
+  skos:hasTopConcept <https://rdafr.fr/vocabulary/perimetre-application-langue/1>, <https://rdafr.fr/vocabulary/perimetre-application-langue/2>,
+    <https://rdafr.fr/vocabulary/perimetre-application-langue/3>, <https://rdafr.fr/vocabulary/perimetre-application-langue/4>,
+    <https://rdafr.fr/vocabulary/perimetre-application-langue/5>, <https://rdafr.fr/vocabulary/perimetre-application-langue/6>,
+    <https://rdafr.fr/vocabulary/perimetre-application-langue/7> .
+
+<https://rdafr.fr/vocabulary/perimetre-application-langue/1> a skos:Concept;
+  dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "remplacement de la bande sonore originale d’un film par une autre bande sonore, qui donne le dialogue des personnages dans une autre langue, tout en s’efforçant de respecter le mouvement de leurs lèvres."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/perimetre-application-langue>;
+  skos:prefLabel "Doublage"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/perimetre-application-langue> .
+
+<https://rdafr.fr/vocabulary/perimetre-application-langue/2> a skos:Concept;
+  dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "plan cinématographique assez bref, contenant uniquement du texte, intercalé au montage à l’intérieur d’une scène. (Dans le cinéma muet, les intertitres indiquaient le dialogue.)"@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/perimetre-application-langue>;
+  skos:prefLabel "Intertitres"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/perimetre-application-langue> .
+
+<https://rdafr.fr/vocabulary/perimetre-application-langue/3> a skos:Concept;
+  dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "traduction, parfois résumée, des parties parlées, chantées ou écrites d’une œuvre audiovisuelle ou multimédia, généralement placée en bas de l’image."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/perimetre-application-langue>;
+  skos:prefLabel "Sous-titres"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/perimetre-application-langue> .
+
+<https://rdafr.fr/vocabulary/perimetre-application-langue/4> a skos:Concept;
+  dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "sous-titres affichés selon le choix de l’utilisateur."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/perimetre-application-langue>;
+  skos:prefLabel "Sous-titres optionnels"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/perimetre-application-langue> .
+
+<https://rdafr.fr/vocabulary/perimetre-application-langue/5> a skos:Concept;
+  skos:definition "texte accompagnant une image et apportant des précisions sur le sujet représenté."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/perimetre-application-langue>;
+  skos:prefLabel "Légende"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/perimetre-application-langue> .
+
+<https://rdafr.fr/vocabulary/perimetre-application-langue/6> a skos:Concept;
+  skos:definition "partie complémentaire d’une œuvre (chronologie, glossaire, etc.) qui en documente la partie principale et qui est établie par le ou les créateur(s) de l’œuvre."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/perimetre-application-langue>;
+  skos:prefLabel "Annexe"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/perimetre-application-langue> .
+
+<https://rdafr.fr/vocabulary/perimetre-application-langue/7> a skos:Concept;
+  skos:definition "partie complémentaire d’une œuvre constituée par une courte synthèse du contenu de cette œuvre établie par le ou les créateur(s) de l’œuvre."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/perimetre-application-langue>;
+  skos:prefLabel "Résumé"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/perimetre-application-langue> .

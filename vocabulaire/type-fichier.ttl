@@ -1,0 +1,56 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdafr: <https://rdafr.fr/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://rdafr.fr/vocabulary/type-fichier> a skos:ConceptScheme;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  dct:publisher "BnF, Abes"@fr;
+  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des types de fichiers"@fr;
+  skos:hasTopConcept <https://rdafr.fr/vocabulary/type-fichier/1>, <https://rdafr.fr/vocabulary/type-fichier/2>,
+    <https://rdafr.fr/vocabulary/type-fichier/3>, <https://rdafr.fr/vocabulary/type-fichier/4>,
+    <https://rdafr.fr/vocabulary/type-fichier/5>, <https://rdafr.fr/vocabulary/type-fichier/6> .
+
+<https://rdafr.fr/vocabulary/type-fichier/1> a skos:Concept, rdafr:TypeFichier;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:inScheme <https://rdafr.fr/vocabulary/type-fichier>;
+  skos:prefLabel "fichier audio"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/type-fichier> .
+
+<https://rdafr.fr/vocabulary/type-fichier/2> a skos:Concept, rdafr:TypeFichier;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:inScheme <https://rdafr.fr/vocabulary/type-fichier>;
+  skos:prefLabel "fichier de données"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/type-fichier> .
+
+<https://rdafr.fr/vocabulary/type-fichier/3> a skos:Concept, rdafr:TypeFichier;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:inScheme <https://rdafr.fr/vocabulary/type-fichier>;
+  skos:prefLabel "fichier de programme"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/type-fichier> .
+
+<https://rdafr.fr/vocabulary/type-fichier/4> a skos:Concept, rdafr:TypeFichier;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:inScheme <https://rdafr.fr/vocabulary/type-fichier>;
+  skos:prefLabel "fichier image"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/type-fichier> .
+
+<https://rdafr.fr/vocabulary/type-fichier/5> a skos:Concept, rdafr:TypeFichier;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:inScheme <https://rdafr.fr/vocabulary/type-fichier>;
+  skos:prefLabel "fichier texte"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/type-fichier> .
+
+<https://rdafr.fr/vocabulary/type-fichier/6> a skos:Concept, rdafr:TypeFichier;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:inScheme <https://rdafr.fr/vocabulary/type-fichier>;
+  skos:prefLabel "fichier vidéo"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/type-fichier> .

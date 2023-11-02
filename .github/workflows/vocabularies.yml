@@ -1,0 +1,52 @@
+# Cette action GitHub récupère les données des vocabulaires contrôlés depuis Google sheet pour les sauvegarder sur GitHub. Elle génère également la liste des vocabulaires contrôlés dans un fichier markdown
+name: Google Sheet to SKOS 
+on: workflow_dispatch
+jobs:
+  google-sheet-to-skos:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - uses: actions/setup-java@v3
+        with:
+          distribution: 'zulu' 
+          java-version: '17'
+
+      - name: "Installation de xsl2rdf"
+        run : |
+          curl -L 'https://github.com/sparna-git/xls2rdf/releases/download/2.2.0/xls2rdf-app-2.2.0-onejar.jar' -o /tmp/xls2rdf.jar
+
+      - name: "Récupération du tableau contenant les vocabulaires contrôlés"
+        run : |
+          curl -L 'https://docs.google.com/spreadsheets/d/1szLComNgMVuHp-iAVHnxehlPJpKiyzK78z4t-Hyr9mE/export?format=xlsx' -o /tmp/vocabularies.xlsx
+
+      - name: "Transformation des vocabulaires au format SKOS (ttl)"
+        run : |
+          # On génère un zip avec un fichier ttl par vocabulaire. 
+          # Ces fichiers sont destinés à être distribués et sont commités dans le dépôt.
+          java -jar /tmp/xls2rdf.jar convert -i /tmp/vocabularies.xlsx -l fr -o /tmp/vocabularies.zip -f text/turtle
+
+          unzip /tmp/vocabulaire.zip -d vocabularies
+          
+          # On renomme les fichiers en enlevant l'URL dans le nom de chaque fichier
+          for i in *.ttl; do mv $i ${i#https%3A%2F%2Frdafr.fr%2Fvocabulary%2F}; done
+
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "Feat : Mise à jour des vocabulaires contrôlés"
+          file_pattern: "vocabulaire/*.ttl"
+
+      - name: "Installation de Saxon"
+        run : |
+          curl -L "https://repo1.maven.org/maven2/net/sf/saxon/Saxon-HE/9.9.1-7/Saxon-HE-9.9.1-7.jar" -o /tmp/saxon.jar
+
+      - name: "Génération de la liste des vocabulaires contrôlés au format markdown"
+        run : |
+          # On génère un fichier intermédiaire qui contient l'ensemble des vocabulaires
+          # Ce fichier permet de générer la liste des vocabulaires contrôlés au format markdown pour le site web
+          java -jar /tmp/xls2rdf.jar convert -i /tmp/vocabularies.xlsx -l fr -o /tmp/vocabularies.rdf -f application/rdf+xml
+          java -jar saxon.jar /tmp/vocabularies.rdf ./siteweb/.xslt/liste-vocabulaires.xsl > ./siteweb/vocabulaires/index.md
+
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "Feat : Mise à jour de la liste des vocabulaires contrôlés"
+          file_pattern: "siteweb/*.md"

@@ -1,0 +1,45 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdafr: <https://rdafr.fr/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://rdafr.fr/vocabulary/type-acces-demat> a skos:ConceptScheme;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  dct:publisher "BnF, Abes"@fr;
+  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des types d'accès à une ressource dématérialisée"@fr;
+  skos:hasTopConcept <https://rdafr.fr/vocabulary/type-acces-demat/1>, <https://rdafr.fr/vocabulary/type-acces-demat/2>,
+    <https://rdafr.fr/vocabulary/type-acces-demat/3>, <https://rdafr.fr/vocabulary/type-acces-demat/4> .
+
+<https://rdafr.fr/vocabulary/type-acces-demat/1> a skos:Concept, rdafr:TypeAccesDemat;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Contenu numérique disponible uniquement en se connectant à un réseau distant."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/type-acces-demat>;
+  skos:prefLabel "en ligne"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/type-acces-demat> .
+
+<https://rdafr.fr/vocabulary/type-acces-demat/2> a skos:Concept, rdafr:TypeAccesDemat;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Contenu numérique disponible uniquement sur un site distant par lecture continue d'un flux de données interdisant le stockage local."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/type-acces-demat>;
+  skos:prefLabel "en streaming"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/type-acces-demat> .
+
+<https://rdafr.fr/vocabulary/type-acces-demat/3> a skos:Concept, rdafr:TypeAccesDemat;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Contenu numérique disponible uniquement en transférant l'ensemble de la ressource depuis un site distant vers un dispositif local (serveur, clé USB, ordinateur, etc.) pour y être stocké et y accéder hors ligne."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/type-acces-demat>;
+  skos:prefLabel "téléchargeable"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/type-acces-demat> .
+
+<https://rdafr.fr/vocabulary/type-acces-demat/4> a skos:Concept, rdafr:TypeAccesDemat;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Contenu numérique disponible sur un dispositif (borne, etc.) dans un lieu donné, notamment dans le cadre d'un événement (exposition, etc.)."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/type-acces-demat>;
+  skos:prefLabel "in situ"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/type-acces-demat> .

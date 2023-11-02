@@ -1,0 +1,45 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdafr: <https://rdafr.fr/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://rdafr.fr/vocabulary/type-sillon> a skos:ConceptScheme;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  dct:publisher "BnF, Abes"@fr;
+  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des types de sillon"@fr;
+  skos:hasTopConcept <https://rdafr.fr/vocabulary/type-sillon/1>, <https://rdafr.fr/vocabulary/type-sillon/2>,
+    <https://rdafr.fr/vocabulary/type-sillon/3>, <https://rdafr.fr/vocabulary/type-sillon/4> .
+
+<https://rdafr.fr/vocabulary/type-sillon/1> a skos:Concept, rdafr:TypeSillon;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Pour un disque analogique."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/type-sillon>;
+  skos:prefLabel "microsillon"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/type-sillon> .
+
+<https://rdafr.fr/vocabulary/type-sillon/2> a skos:Concept, rdafr:TypeSillon;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Pour un disque analogique."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/type-sillon>;
+  skos:prefLabel "sillon large"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/type-sillon> .
+
+<https://rdafr.fr/vocabulary/type-sillon/3> a skos:Concept, rdafr:TypeSillon;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Pour un cylindre audio."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/type-sillon>;
+  skos:prefLabel "sillon fin"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/type-sillon> .
+
+<https://rdafr.fr/vocabulary/type-sillon/4> a skos:Concept, rdafr:TypeSillon;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Pour un cylindre audio."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/type-sillon>;
+  skos:prefLabel "sillon standard"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/type-sillon> .
