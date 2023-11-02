@@ -25,10 +25,10 @@ jobs:
           # Ces fichiers sont destinés à être distribués et sont commités dans le dépôt.
           java -jar /tmp/xls2rdf.jar convert -i /tmp/vocabulaires.xlsx -l fr -o /tmp/vocabulaires.zip -f text/turtle
 
-          unzip /tmp/vocabulaires.zip -d vocabulaire
+          unzip /tmp/vocabulaires.zip -d /tmp/
           
           # On renomme les fichiers en enlevant l'URL dans le nom de chaque fichier
-          for i in vocabulaire/*.ttl; do mv -f $i ${i#https%3A%2F%2Frdafr.fr%2Fvocabulary%2F}; done
+          for i in /tmp/*.ttl; do mv -f $i vocabulaire/${i#https%3A%2F%2Frdafr.fr%2Fvocabulary%2F}; done
 
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
