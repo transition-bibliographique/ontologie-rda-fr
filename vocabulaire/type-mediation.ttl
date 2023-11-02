@@ -1,0 +1,107 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdafr: <https://rdafr.fr/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://rdafr.fr/vocabulary/type-mediation> a skos:ConceptScheme;
+  dct:created "2023-06-02T00:00:00.000Z"^^xsd:dateTime;
+  dct:publisher "BnF, Abes"@fr;
+  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des types de médiation d'une manifestation"@fr;
+  skos:hasTopConcept <https://rdafr.fr/vocabulary/type-mediation/1>, <https://rdafr.fr/vocabulary/type-mediation/2>,
+    <https://rdafr.fr/vocabulary/type-mediation/3>, <https://rdafr.fr/vocabulary/type-mediation/4>,
+    <https://rdafr.fr/vocabulary/type-mediation/5>, <https://rdafr.fr/vocabulary/type-mediation/6>,
+    <https://rdafr.fr/vocabulary/type-mediation/7>, <https://rdafr.fr/vocabulary/type-mediation/8>,
+    <https://rdafr.fr/vocabulary/type-mediation/9> .
+
+<https://rdafr.fr/vocabulary/type-mediation/1> a skos:Concept, rdafr:TypeMediation;
+  dct:created "2023-06-02T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition """Pour des ressources nécessitant un lecteur audio.
+Type de médiation s’appliquant aux ressources contenant du son enregistré et conçues pour une utilisation au moyen d’un dispositif de lecture tel qu’une platine, un lecteur de cassette audio, un lecteur de CD ou un lecteur MP3. S’applique aux ressources contenant du son analogique aussi bien que du son encodé numériquement."""@fr;
+  skos:editorialNote """Pour les ressources sur support matériel (par exemple, un CD audio), n’indiquer que le type de médiation audio.
+Pour des fichiers dématérialisés (par exemple, un fichier MP3), indiquer les deux types de médiation électronique et audio."""@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/type-mediation>;
+  skos:prefLabel "audio"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/type-mediation> .
+
+<https://rdafr.fr/vocabulary/type-mediation/2> a skos:Concept, rdafr:TypeMediation;
+  dct:created "2023-06-02T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition """Pour des ressources nécessitant un appareil informatique.
+Type de médiation s’appliquant aux ressources composées de fichiers électroniques et conçues pour une utilisation au moyen d’un appareil informatique (par exemple, ordinateur, tablette, console de jeux, etc.).
+S’applique aux ressources accessibles à distance par serveur aussi bien qu’aux ressources en accès direct telles que des bandes et des disques informatiques."""@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/type-mediation>;
+  skos:prefLabel "électronique"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/type-mediation> .
+
+<https://rdafr.fr/vocabulary/type-mediation/3> a skos:Concept, rdafr:TypeMediation;
+  dct:created "2023-06-02T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition """Pour des ressources nécessitant un lecteur de microforme.
+Type de médiation s’appliquant aux ressources composées d’images de taille réduite non lisibles à l’œil nu, et conçues pour une utilisation au moyen d’un dispositif tel qu’un lecteur de microfilm ou de microfiche.
+S’applique aux ressources produites selon les deux procédés micrographiques, transparent et opaque."""@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/type-mediation>;
+  skos:prefLabel "microforme"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/type-mediation> .
+
+<https://rdafr.fr/vocabulary/type-mediation/4> a skos:Concept, rdafr:TypeMediation;
+  dct:created "2023-06-02T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition """Pour des ressources nécessitant un microscope.
+Type de médiation s’appliquant aux ressources contenant des objets minuscules et conçues pour une utilisation au moyen d’un dispositif tel qu’un microscope, pour faire apparaître des détails invisibles à l’œil nu."""@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/type-mediation>;
+  skos:prefLabel "microscopique"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/type-mediation> .
+
+<https://rdafr.fr/vocabulary/type-mediation/5> a skos:Concept, rdafr:TypeMediation;
+  dct:created "2023-06-02T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition """Pour des ressources composées de différents supports, auxquelles s’appliquent au moins trois types de médiation,
+Dans le cas de ressources composées de différents supports, auxquelles s’appliquent au moins trois types de médiation, enregistrer multisupport."""@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/type-mediation>;
+  skos:prefLabel "multisupport"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/type-mediation> .
+
+<https://rdafr.fr/vocabulary/type-mediation/6> a skos:Concept, rdafr:TypeMediation;
+  dct:created "2023-06-02T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition """Pour des ressources nécessitant un projecteur.
+Type de médiation s’appliquant aux ressources conçues pour une utilisation au moyen d’un dispositif de projection tel qu’un projecteur de film cinématographique, un projecteur de diapositives ou un rétroprojecteur. 
+S’applique à toute ressource conçue pour être projetée sous la forme d’images bidimensionnelles ou tridimensionnelles."""@fr;
+  skos:editorialNote "Pour des fichiers dématérialisés (par exemple, un fichier DCP utilisé pour la projection de films en salle), indiquer les deux types de médiation électronique et projeté."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/type-mediation>;
+  skos:prefLabel "projeté"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/type-mediation> .
+
+<https://rdafr.fr/vocabulary/type-mediation/7> a skos:Concept, rdafr:TypeMediation;
+  dct:created "2023-06-02T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition """Pour des ressources nécessitant un stéréoscope.
+Type de médiation s’appliquant aux ressources composées de paires d’images fixes et conçues pour une utilisation au moyen d’un dispositif tel qu’un stéréoscope ou une visionneuse stéréoscopique pour donner l’impression des trois dimensions."""@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/type-mediation>;
+  skos:prefLabel "stéréoscopique"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/type-mediation> .
+
+<https://rdafr.fr/vocabulary/type-mediation/8> a skos:Concept, rdafr:TypeMediation;
+  dct:created "2023-06-02T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition """Pour des ressources ne nécessitant aucun dispositif de médiation.
+Type de médiation s’appliquant aux ressources dont le contenu est conçu pour être perçu directement par un ou plusieurs sens humains sans l’aide d’un dispositif de médiation.
+S’applique à toute ressource au contenu visuel et/ou tactile produit selon des procédés tels que l’impression, la gravure, la lithographie, la photographie négative, etc. ; l’embossage, la texturation, etc ; ou bien encore au moyen de l’écriture à la main, du dessin, de la peinture, etc. S’applique également aux ressources constituées de formes tridimensionnelles telles que sculptures, maquettes, etc."""@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/type-mediation>;
+  skos:prefLabel "sans médiation"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/type-mediation> .
+
+<https://rdafr.fr/vocabulary/type-mediation/9> a skos:Concept, rdafr:TypeMediation;
+  dct:created "2023-06-02T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition """Pour des ressources nécessitant un lecteur vidéo.
+Type de médiation s’appliquant aux ressources contenant des images animées ou fixes et conçues pour une utilisation au moyen d’un dispositif de lecture tel qu’un lecteur de cassette vidéo ou de DVD.
+S’applique aux ressources contenant des images encodées numériquement aussi bien que des images analogiques."""@fr;
+  skos:editorialNote """Pour les ressources sur support matériel (par exemple, un DVD vidéo), n’indiquer que le type de médiation vidéo.
+Pour des fichiers dématérialisés (par exemple, un fichier MP4), indiquer les deux types de médiation électronique et vidéo."""@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/type-mediation>;
+  skos:prefLabel "vidéo"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/type-mediation> .

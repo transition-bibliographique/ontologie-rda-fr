@@ -1,0 +1,203 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix euvoc: <http://publications.europa.eu/ontology/euvoc#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdafr: <https://rdafr.fr/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosthes: <http://purl.org/iso25964/skos-thes#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://rdafr.fr/vocabulary/methode-production> dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  dct:publisher "BnF, Abes"@fr;
+  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des méthodes de production d'une manifestation"@fr .
+
+<https://rdafr.fr/vocabulary/methode-production/1> a skos:Concept, rdafr:MethodeProduction;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Pour les disques optiques"@fr;
+  skos:prefLabel "disque Pyral"@fr .
+
+<https://rdafr.fr/vocabulary/methode-production/2> a skos:Concept, rdafr:MethodeProduction;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Pour les disques optiques"@fr;
+  skos:prefLabel "gravure (disque)"@fr .
+
+<https://rdafr.fr/vocabulary/methode-production/3> a skos:Concept, rdafr:MethodeProduction;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Pour les disques optiques"@fr;
+  skos:prefLabel "gravure directe (disque)"@fr .
+
+<https://rdafr.fr/vocabulary/methode-production/4> a skos:Concept, rdafr:MethodeProduction;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Pour les disques optiques"@fr;
+  skos:prefLabel "pressage (disque)"@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/methode-production> .
+
+<https://rdafr.fr/vocabulary/methode-production/5> a skos:Concept, rdafr:MethodeProduction;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Pour les objets"@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/methode-production>;
+  skos:prefLabel "brûlage"@fr .
+
+<https://rdafr.fr/vocabulary/methode-production/6> a skos:Concept, rdafr:MethodeProduction;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Pour les objets"@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/methode-production>;
+  skos:prefLabel "estampage"@fr .
+
+<https://rdafr.fr/vocabulary/methode-production/7> a skos:Concept, rdafr:MethodeProduction;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Pour les objets monétiformes"@fr;
+  skos:editorialNote "Changer \"numismatique\" en \"monétiforme\" dans RDA-FR."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/methode-production>;
+  skos:prefLabel "électrotype/galvanoplastie"@fr .
+
+<https://rdafr.fr/vocabulary/methode-production/8> a skos:Concept, rdafr:MethodeProduction;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Pour les objets monétiformes"@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/methode-production>;
+  skos:prefLabel "monnaie coulée"@fr .
+
+<https://rdafr.fr/vocabulary/methode-production/9> a skos:Concept, rdafr:MethodeProduction;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Pour les objets monétiformes"@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/methode-production>;
+  skos:prefLabel "monnaie fourrée"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/methode-production> .
+
+<https://rdafr.fr/vocabulary/methode-production/10> a skos:Concept, rdafr:MethodeProduction;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Pour les objets monétiformes"@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/methode-production>;
+  skos:prefLabel "monnaie frappée"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/methode-production> .
+
+<https://rdafr.fr/vocabulary/methode-production/11> a skos:Concept, rdafr:MethodeProduction;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Pour les objets monétiformes"@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/methode-production>;
+  skos:prefLabel "monnaie saucée"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/methode-production> .
+
+<https://rdafr.fr/vocabulary/methode-production/12> a skos:Concept, rdafr:MethodeProduction;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Pour les objets monétiformes"@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/methode-production>;
+  skos:prefLabel "serratus"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/methode-production> .
+
+<https://rdafr.fr/vocabulary/methode-production/13> a skos:Concept, rdafr:MethodeProduction;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Pour les ressources sous forme de volumes ou de feuilles juxtaposées"@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/methode-production>;
+  skos:prefLabel "photocopie"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/methode-production> .
+
+<https://rdafr.fr/vocabulary/methode-production/14> a skos:Concept, rdafr:MethodeProduction;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Pour les ressources sous forme de volumes ou de feuilles juxtaposées"@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/methode-production>;
+  skos:prefLabel "impression"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/methode-production> .
+
+<https://rdafr.fr/vocabulary/methode-production/15> a skos:Concept, rdafr:MethodeProduction;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Pour les ressources sous forme de volumes ou de feuilles juxtaposées"@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/methode-production>;
+  skos:prefLabel "manuscrit"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/methode-production> .
+
+<https://rdafr.fr/vocabulary/methode-production/16> a skos:Concept, rdafr:MethodeProduction;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Pour les ressources sous forme de volumes ou de feuilles juxtaposées"@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/methode-production>;
+  skos:prefLabel "tapuscrit"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/methode-production> .
+
+<https://rdafr.fr/vocabulary/methode-production/17> a skos:Concept, rdafr:MethodeProduction;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Pour les ressources tactiles"@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/methode-production>;
+  skos:prefLabel "embossage"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/methode-production> .
+
+<https://rdafr.fr/vocabulary/methode-production/18> a skos:Concept, rdafr:MethodeProduction;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Pour les ressources tactiles"@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/methode-production>;
+  skos:prefLabel "thermoformage"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/methode-production> .
+
+<https://rdafr.fr/vocabulary/methode-production/19> a skos:Concept, rdafr:MethodeProduction;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Pour les ressources tactiles"@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/methode-production>;
+  skos:prefLabel "thermogonflage"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/methode-production> .
+
+<https://rdafr.fr/vocabulary/methode-production/20> a skos:Concept, rdafr:MethodeProduction;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Pour les ressources tactiles"@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/methode-production>;
+  skos:prefLabel "point rigide"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/methode-production> .
+
+<https://rdafr.fr/vocabulary/methode-production/1> skos:inScheme <https://rdafr.fr/vocabulary/methode-production>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/methode-production> .
+
+<https://rdafr.fr/vocabulary/methode-production/2> skos:inScheme <https://rdafr.fr/vocabulary/methode-production>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/methode-production> .
+
+<https://rdafr.fr/vocabulary/methode-production/3> skos:inScheme <https://rdafr.fr/vocabulary/methode-production>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/methode-production> .
+
+<https://rdafr.fr/vocabulary/methode-production> a skos:ConceptScheme;
+  skos:hasTopConcept <https://rdafr.fr/vocabulary/methode-production/1>, <https://rdafr.fr/vocabulary/methode-production/10>,
+    <https://rdafr.fr/vocabulary/methode-production/11>, <https://rdafr.fr/vocabulary/methode-production/12>,
+    <https://rdafr.fr/vocabulary/methode-production/13>, <https://rdafr.fr/vocabulary/methode-production/14>,
+    <https://rdafr.fr/vocabulary/methode-production/15>, <https://rdafr.fr/vocabulary/methode-production/16>,
+    <https://rdafr.fr/vocabulary/methode-production/17>, <https://rdafr.fr/vocabulary/methode-production/18>,
+    <https://rdafr.fr/vocabulary/methode-production/19>, <https://rdafr.fr/vocabulary/methode-production/2>,
+    <https://rdafr.fr/vocabulary/methode-production/20>, <https://rdafr.fr/vocabulary/methode-production/3>,
+    <https://rdafr.fr/vocabulary/methode-production/4>, <https://rdafr.fr/vocabulary/methode-production/5>,
+    <https://rdafr.fr/vocabulary/methode-production/6>, <https://rdafr.fr/vocabulary/methode-production/7>,
+    <https://rdafr.fr/vocabulary/methode-production/8>, <https://rdafr.fr/vocabulary/methode-production/9> .
+
+<https://rdafr.fr/vocabulary/methode-production/4> skos:topConceptOf <https://rdafr.fr/vocabulary/methode-production> .
+
+<https://rdafr.fr/vocabulary/methode-production/5> skos:topConceptOf <https://rdafr.fr/vocabulary/methode-production> .
+
+<https://rdafr.fr/vocabulary/methode-production/6> skos:topConceptOf <https://rdafr.fr/vocabulary/methode-production> .
+
+<https://rdafr.fr/vocabulary/methode-production/7> skos:topConceptOf <https://rdafr.fr/vocabulary/methode-production> .
+
+<https://rdafr.fr/vocabulary/methode-production/8> skos:topConceptOf <https://rdafr.fr/vocabulary/methode-production> .

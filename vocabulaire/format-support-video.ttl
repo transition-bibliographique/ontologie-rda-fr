@@ -1,0 +1,423 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix euvoc: <http://publications.europa.eu/ontology/euvoc#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdafr: <https://rdafr.fr/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosthes: <http://purl.org/iso25964/skos-thes#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://rdafr.fr/vocabulary/format-support-video> dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  dct:publisher "BnF, Abes"@fr;
+  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des formats d'un support vidéo"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-video/1> a skos:Concept, rdafr:FormatSupportVideo;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Bande vidéo"@fr;
+  skos:prefLabel "bande 2 pouces Ampex (ou Quadruplex)"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-video/2> a skos:Concept, rdafr:FormatSupportVideo;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Bande vidéo"@fr;
+  skos:prefLabel "bande 1 pouce A ou IVC"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-video/3> a skos:Concept, rdafr:FormatSupportVideo;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Bande vidéo"@fr;
+  skos:prefLabel "bande 1 pouce B"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-video/4> a skos:Concept, rdafr:FormatSupportVideo;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Bande vidéo"@fr;
+  skos:prefLabel "bande 1 pouce C"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-video/5> a skos:Concept, rdafr:FormatSupportVideo;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Bande vidéo"@fr;
+  skos:prefLabel "bande ½ pouce EIAJ"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-video/6> a skos:Concept, rdafr:FormatSupportVideo;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Bande vidéo"@fr;
+  skos:prefLabel "bande ¼ pouce AKAI"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-video/7> a skos:Concept, rdafr:FormatSupportVideo;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Cassette vidéo"@fr;
+  skos:prefLabel "Betacam"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-video/8> a skos:Concept, rdafr:FormatSupportVideo;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Cassette vidéo"@fr;
+  skos:prefLabel "Betacam SP"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-video/9> a skos:Concept, rdafr:FormatSupportVideo;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Cassette vidéo"@fr;
+  skos:prefLabel "Betamax"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-video/10> a skos:Concept, rdafr:FormatSupportVideo;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Cassette vidéo"@fr;
+  skos:prefLabel "BVU (Broadcast Video Unit)"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-video/11> a skos:Concept, rdafr:FormatSupportVideo;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Cassette vidéo"@fr;
+  skos:prefLabel "BVU SP"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-video/12> a skos:Concept, rdafr:FormatSupportVideo;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Cassette vidéo"@fr;
+  skos:prefLabel "HI 8"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-video/13> a skos:Concept, rdafr:FormatSupportVideo;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Cassette vidéo"@fr;
+  skos:prefLabel "S-VHS (Super-VHS)"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-video/14> a skos:Concept, rdafr:FormatSupportVideo;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Cassette vidéo"@fr;
+  skos:prefLabel "U-matic"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-video/15> a skos:Concept, rdafr:FormatSupportVideo;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Cassette vidéo"@fr;
+  skos:prefLabel "V 2000"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-video/16> a skos:Concept, rdafr:FormatSupportVideo;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Cassette vidéo"@fr;
+  skos:prefLabel "VCR"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-video/17> a skos:Concept, rdafr:FormatSupportVideo;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Cassette vidéo"@fr;
+  skos:prefLabel "VHS"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-video/18> a skos:Concept, rdafr:FormatSupportVideo;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Cassette vidéo"@fr;
+  skos:prefLabel "VHS C"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-video/19> a skos:Concept, rdafr:FormatSupportVideo;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Cassette vidéo"@fr;
+  skos:prefLabel "8 mm (ou Video 8)"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-video/20> a skos:Concept, rdafr:FormatSupportVideo;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Cassette vidéo numérique"@fr;
+  skos:prefLabel "8 mm Digital 8"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-video/21> a skos:Concept, rdafr:FormatSupportVideo;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Cassette vidéo numérique"@fr;
+  skos:prefLabel "Betacam digital"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-video/22> a skos:Concept, rdafr:FormatSupportVideo;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Cassette vidéo numérique"@fr;
+  skos:prefLabel "Betamax SX"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-video/23> a skos:Concept, rdafr:FormatSupportVideo;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Cassette vidéo numérique"@fr;
+  skos:prefLabel "D1"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-video/24> a skos:Concept, rdafr:FormatSupportVideo;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Cassette vidéo numérique"@fr;
+  skos:prefLabel "D2"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-video/25> a skos:Concept, rdafr:FormatSupportVideo;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Cassette vidéo numérique"@fr;
+  skos:prefLabel "D3"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-video/26> a skos:Concept, rdafr:FormatSupportVideo;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Cassette vidéo numérique"@fr;
+  skos:prefLabel "D4"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-video/27> a skos:Concept, rdafr:FormatSupportVideo;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Cassette vidéo numérique"@fr;
+  skos:prefLabel "D5"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-video/28> a skos:Concept, rdafr:FormatSupportVideo;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Cassette vidéo numérique"@fr;
+  skos:prefLabel "DVD DV"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-video/29> a skos:Concept, rdafr:FormatSupportVideo;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Cassette vidéo numérique"@fr;
+  skos:prefLabel "DVCAM"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-video/30> a skos:Concept, rdafr:FormatSupportVideo;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Cassette vidéo numérique"@fr;
+  skos:prefLabel "DVCPRO"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-video/31> a skos:Concept, rdafr:FormatSupportVideo;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Cassette vidéo numérique"@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/format-support-video>;
+  skos:prefLabel "HDV"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-video/32> a skos:Concept, rdafr:FormatSupportVideo;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Cassette vidéo numérique"@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/format-support-video>;
+  skos:prefLabel "HDCAM"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-video/33> a skos:Concept, rdafr:FormatSupportVideo;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Cassette vidéo numérique"@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/format-support-video>;
+  skos:prefLabel "HDCAM SR"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-video/34> a skos:Concept, rdafr:FormatSupportVideo;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Cassette vidéo numérique"@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/format-support-video>;
+  skos:prefLabel "IMX"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-video/35> a skos:Concept, rdafr:FormatSupportVideo;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Disque vidéo"@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/format-support-video>;
+  skos:prefLabel "CD-vidéo (CDV)"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-video/36> a skos:Concept, rdafr:FormatSupportVideo;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Disque vidéo"@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/format-support-video>;
+  skos:prefLabel "LaserDisc"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-video/37> a skos:Concept, rdafr:FormatSupportVideo;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Disque vidéo"@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/format-support-video>;
+  skos:prefLabel "Laservision"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-video/38> a skos:Concept, rdafr:FormatSupportVideo;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Vidéo CD"@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/format-support-video>;
+  skos:prefLabel "CVD"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-video/39> a skos:Concept, rdafr:FormatSupportVideo;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Vidéo CD"@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/format-support-video>;
+  skos:prefLabel "KVCD"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-video/40> a skos:Concept, rdafr:FormatSupportVideo;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Vidéo CD"@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/format-support-video>;
+  skos:prefLabel "SVCD"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-video/41> a skos:Concept, rdafr:FormatSupportVideo;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Vidéo CD"@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/format-support-video>;
+  skos:prefLabel "VCD"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-video/42> a skos:Concept, rdafr:FormatSupportVideo;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Vidéo CD"@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/format-support-video>;
+  skos:prefLabel "XVCD"@fr .
+
+<https://rdafr.fr/vocabulary/format-support-video/1> skos:inScheme <https://rdafr.fr/vocabulary/format-support-video>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-video> .
+
+<https://rdafr.fr/vocabulary/format-support-video/2> skos:inScheme <https://rdafr.fr/vocabulary/format-support-video>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-video> .
+
+<https://rdafr.fr/vocabulary/format-support-video/3> skos:inScheme <https://rdafr.fr/vocabulary/format-support-video>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-video> .
+
+<https://rdafr.fr/vocabulary/format-support-video/4> skos:inScheme <https://rdafr.fr/vocabulary/format-support-video>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-video> .
+
+<https://rdafr.fr/vocabulary/format-support-video/5> skos:inScheme <https://rdafr.fr/vocabulary/format-support-video>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-video> .
+
+<https://rdafr.fr/vocabulary/format-support-video/6> skos:inScheme <https://rdafr.fr/vocabulary/format-support-video>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-video> .
+
+<https://rdafr.fr/vocabulary/format-support-video/7> skos:inScheme <https://rdafr.fr/vocabulary/format-support-video>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-video> .
+
+<https://rdafr.fr/vocabulary/format-support-video/8> skos:inScheme <https://rdafr.fr/vocabulary/format-support-video>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-video> .
+
+<https://rdafr.fr/vocabulary/format-support-video/9> skos:inScheme <https://rdafr.fr/vocabulary/format-support-video>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-video> .
+
+<https://rdafr.fr/vocabulary/format-support-video/10> skos:inScheme <https://rdafr.fr/vocabulary/format-support-video>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-video> .
+
+<https://rdafr.fr/vocabulary/format-support-video/11> skos:inScheme <https://rdafr.fr/vocabulary/format-support-video>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-video> .
+
+<https://rdafr.fr/vocabulary/format-support-video/12> skos:inScheme <https://rdafr.fr/vocabulary/format-support-video>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-video> .
+
+<https://rdafr.fr/vocabulary/format-support-video/13> skos:inScheme <https://rdafr.fr/vocabulary/format-support-video>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-video> .
+
+<https://rdafr.fr/vocabulary/format-support-video/14> skos:inScheme <https://rdafr.fr/vocabulary/format-support-video>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-video> .
+
+<https://rdafr.fr/vocabulary/format-support-video/15> skos:inScheme <https://rdafr.fr/vocabulary/format-support-video>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-video> .
+
+<https://rdafr.fr/vocabulary/format-support-video/16> skos:inScheme <https://rdafr.fr/vocabulary/format-support-video>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-video> .
+
+<https://rdafr.fr/vocabulary/format-support-video/17> skos:inScheme <https://rdafr.fr/vocabulary/format-support-video>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-video> .
+
+<https://rdafr.fr/vocabulary/format-support-video/18> skos:inScheme <https://rdafr.fr/vocabulary/format-support-video>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-video> .
+
+<https://rdafr.fr/vocabulary/format-support-video/19> skos:inScheme <https://rdafr.fr/vocabulary/format-support-video>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-video> .
+
+<https://rdafr.fr/vocabulary/format-support-video/20> skos:inScheme <https://rdafr.fr/vocabulary/format-support-video>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-video> .
+
+<https://rdafr.fr/vocabulary/format-support-video/21> skos:inScheme <https://rdafr.fr/vocabulary/format-support-video>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-video> .
+
+<https://rdafr.fr/vocabulary/format-support-video/22> skos:inScheme <https://rdafr.fr/vocabulary/format-support-video>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-video> .
+
+<https://rdafr.fr/vocabulary/format-support-video/23> skos:inScheme <https://rdafr.fr/vocabulary/format-support-video>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-video> .
+
+<https://rdafr.fr/vocabulary/format-support-video/24> skos:inScheme <https://rdafr.fr/vocabulary/format-support-video>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-video> .
+
+<https://rdafr.fr/vocabulary/format-support-video/25> skos:inScheme <https://rdafr.fr/vocabulary/format-support-video>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-video> .
+
+<https://rdafr.fr/vocabulary/format-support-video/26> skos:inScheme <https://rdafr.fr/vocabulary/format-support-video>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-video> .
+
+<https://rdafr.fr/vocabulary/format-support-video/27> skos:inScheme <https://rdafr.fr/vocabulary/format-support-video>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-video> .
+
+<https://rdafr.fr/vocabulary/format-support-video/28> skos:inScheme <https://rdafr.fr/vocabulary/format-support-video>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-video> .
+
+<https://rdafr.fr/vocabulary/format-support-video/29> skos:inScheme <https://rdafr.fr/vocabulary/format-support-video>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-video> .
+
+<https://rdafr.fr/vocabulary/format-support-video/30> skos:inScheme <https://rdafr.fr/vocabulary/format-support-video>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-video> .
+
+<https://rdafr.fr/vocabulary/format-support-video> a skos:ConceptScheme;
+  skos:hasTopConcept <https://rdafr.fr/vocabulary/format-support-video/1>, <https://rdafr.fr/vocabulary/format-support-video/10>,
+    <https://rdafr.fr/vocabulary/format-support-video/11>, <https://rdafr.fr/vocabulary/format-support-video/12>,
+    <https://rdafr.fr/vocabulary/format-support-video/13>, <https://rdafr.fr/vocabulary/format-support-video/14>,
+    <https://rdafr.fr/vocabulary/format-support-video/15>, <https://rdafr.fr/vocabulary/format-support-video/16>,
+    <https://rdafr.fr/vocabulary/format-support-video/17>, <https://rdafr.fr/vocabulary/format-support-video/18>,
+    <https://rdafr.fr/vocabulary/format-support-video/19>, <https://rdafr.fr/vocabulary/format-support-video/2>,
+    <https://rdafr.fr/vocabulary/format-support-video/20>, <https://rdafr.fr/vocabulary/format-support-video/21>,
+    <https://rdafr.fr/vocabulary/format-support-video/22>, <https://rdafr.fr/vocabulary/format-support-video/23>,
+    <https://rdafr.fr/vocabulary/format-support-video/24>, <https://rdafr.fr/vocabulary/format-support-video/25>,
+    <https://rdafr.fr/vocabulary/format-support-video/26>, <https://rdafr.fr/vocabulary/format-support-video/27>,
+    <https://rdafr.fr/vocabulary/format-support-video/28>, <https://rdafr.fr/vocabulary/format-support-video/29>,
+    <https://rdafr.fr/vocabulary/format-support-video/3>, <https://rdafr.fr/vocabulary/format-support-video/30>,
+    <https://rdafr.fr/vocabulary/format-support-video/31>, <https://rdafr.fr/vocabulary/format-support-video/32>,
+    <https://rdafr.fr/vocabulary/format-support-video/33>, <https://rdafr.fr/vocabulary/format-support-video/34>,
+    <https://rdafr.fr/vocabulary/format-support-video/35>, <https://rdafr.fr/vocabulary/format-support-video/36>,
+    <https://rdafr.fr/vocabulary/format-support-video/37>, <https://rdafr.fr/vocabulary/format-support-video/38>,
+    <https://rdafr.fr/vocabulary/format-support-video/39>, <https://rdafr.fr/vocabulary/format-support-video/4>,
+    <https://rdafr.fr/vocabulary/format-support-video/40>, <https://rdafr.fr/vocabulary/format-support-video/41>,
+    <https://rdafr.fr/vocabulary/format-support-video/42>, <https://rdafr.fr/vocabulary/format-support-video/5>,
+    <https://rdafr.fr/vocabulary/format-support-video/6>, <https://rdafr.fr/vocabulary/format-support-video/7>,
+    <https://rdafr.fr/vocabulary/format-support-video/8>, <https://rdafr.fr/vocabulary/format-support-video/9> .
+
+<https://rdafr.fr/vocabulary/format-support-video/31> skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-video> .
+
+<https://rdafr.fr/vocabulary/format-support-video/32> skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-video> .
+
+<https://rdafr.fr/vocabulary/format-support-video/33> skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-video> .
+
+<https://rdafr.fr/vocabulary/format-support-video/34> skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-video> .
+
+<https://rdafr.fr/vocabulary/format-support-video/35> skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-video> .
+
+<https://rdafr.fr/vocabulary/format-support-video/36> skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-video> .
+
+<https://rdafr.fr/vocabulary/format-support-video/37> skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-video> .
+
+<https://rdafr.fr/vocabulary/format-support-video/38> skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-video> .
+
+<https://rdafr.fr/vocabulary/format-support-video/39> skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-video> .
+
+<https://rdafr.fr/vocabulary/format-support-video/40> skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-video> .
+
+<https://rdafr.fr/vocabulary/format-support-video/41> skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-video> .
+
+<https://rdafr.fr/vocabulary/format-support-video/42> skos:topConceptOf <https://rdafr.fr/vocabulary/format-support-video> .

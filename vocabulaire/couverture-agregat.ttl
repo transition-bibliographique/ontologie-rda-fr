@@ -1,0 +1,35 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdafr: <https://rdafr.fr/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://rdafr.fr/vocabulary/couverture-agregat> a skos:ConceptScheme;
+  dct:created "2023-08-17T00:00:00.000Z"^^xsd:dateTime;
+  dct:publisher "BnF, Abes"@fr;
+  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des modalités de couverture d'un agrégat"@fr;
+  owl:equivalentClass rdafr:CouvertureAgrégat;
+  skos:hasTopConcept <https://rdafr.fr/vocabulary/couverture-agrégat/1>, <https://rdafr.fr/vocabulary/couverture-agrégat/2>,
+    <https://rdafr.fr/vocabulary/couverture-agrégat/3> .
+
+<https://rdafr.fr/vocabulary/couverture-agrégat/1> a skos:Concept, rdafr:CouvertureAgregat;
+  dct:created "2023-08-17T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "La forme s’applique à toutes les expressions réunies dans l’agrégat."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/couverture-agregat>;
+  skos:prefLabel "En totalité"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/couverture-agregat> .
+
+<https://rdafr.fr/vocabulary/couverture-agrégat/2> a skos:Concept, rdafr:CouvertureAgregat;
+  dct:created "2023-08-17T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "La forme s’applique à une partie des expressions réunies dans l’agrégat. Cela s’applique notamment aux agrégats associant du texte et des illustrations (catalogues d’exposition, etc.)."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/couverture-agregat>;
+  skos:prefLabel "Partiellement"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/couverture-agregat> .
+
+<https://rdafr.fr/vocabulary/couverture-agrégat/3> a skos:Concept, rdafr:CouvertureAgregat;
+  dct:created "2023-08-17T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Il n’est pas possible d’indiquer si la forme de l’expression s’applique à la totalité ou à une partie seulement des expressions agrégées. Cette valeur est utilisée quand il n’est pas possible d’avoir accès à la ressource décrite, par exemple lors de conversions ou de reprises de données."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/couverture-agregat>;
+  skos:prefLabel "Sans précision"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/couverture-agregat> .

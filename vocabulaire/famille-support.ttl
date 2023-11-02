@@ -1,0 +1,49 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdafr: <https://rdafr.fr/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://rdafr.fr/vocabulary/famille-support> a skos:ConceptScheme;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  dct:publisher "BnF, Abes"@fr;
+  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des familles de support"@fr;
+  skos:hasTopConcept <https://rdafr.fr/vocabulary/famille-support/1>, <https://rdafr.fr/vocabulary/famille-support/2>,
+    <https://rdafr.fr/vocabulary/famille-support/3>, <https://rdafr.fr/vocabulary/famille-support/4>,
+    <https://rdafr.fr/vocabulary/famille-support/5> .
+
+<https://rdafr.fr/vocabulary/famille-support/1> a skos:Concept, rdafr:FamilleSupport;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:inScheme <https://rdafr.fr/vocabulary/famille-support>;
+  skos:prefLabel "magnétique"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/famille-support> .
+
+<https://rdafr.fr/vocabulary/famille-support/2> a skos:Concept, rdafr:FamilleSupport;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:inScheme <https://rdafr.fr/vocabulary/famille-support>;
+  skos:prefLabel "magnéto-optique"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/famille-support> .
+
+<https://rdafr.fr/vocabulary/famille-support/3> a skos:Concept, rdafr:FamilleSupport;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:inScheme <https://rdafr.fr/vocabulary/famille-support>;
+  skos:prefLabel "mécanique"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/famille-support> .
+
+<https://rdafr.fr/vocabulary/famille-support/4> a skos:Concept, rdafr:FamilleSupport;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:inScheme <https://rdafr.fr/vocabulary/famille-support>;
+  skos:prefLabel "mémoire flash"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/famille-support> .
+
+<https://rdafr.fr/vocabulary/famille-support/5> a skos:Concept, rdafr:FamilleSupport;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:inScheme <https://rdafr.fr/vocabulary/famille-support>;
+  skos:prefLabel "optique"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/famille-support> .

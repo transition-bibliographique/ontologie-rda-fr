@@ -1,0 +1,276 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix euvoc: <http://publications.europa.eu/ontology/euvoc#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdafr: <https://rdafr.fr/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosthes: <http://purl.org/iso25964/skos-thes#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://rdafr.fr/vocabulary/forme-expression> dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
+  dct:description "La forme de l’expression est le moyen par lequel l’œuvre est réalisée (par exemple, sous forme de notation alphanumérique, de notation musicale, sous forme déclamée, sous forme de sons musicaux, d’image cartographique, d’image photographique, de sculpture, de danse, de mime, etc.)."@fr;
+  dct:publisher "BnF, Abes"@fr;
+  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Forme de l'expression"@fr .
+
+<https://rdafr.fr/vocabulary/forme-expression/1> a skos:Concept, rdafr:FormeExpression;
+  dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition """Réalisation d’une œuvre cartographique au moyen de données encodées numériquement en vue d’un traitement par ordinateur.
+ Comprend les systèmes d’information géographiques (SIG) qui permettent de créer, d’organiser et de présenter des données spatialement référencées (ou géo référencées), mais aussi de produire des plans et des cartes.
+ Dans le cas de données cartographiques devant être perçues sous la forme d’image ou de forme tridimensionnelle, voir image cartographique, image cartographique animée, image cartographique tactile, objet cartographique et objet cartographique tactile."""@fr;
+  skos:prefLabel "données cartographiques"@fr .
+
+<https://rdafr.fr/vocabulary/forme-expression/2> a skos:Concept, rdafr:FormeExpression;
+  dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition """Réalisation d’une œuvre au moyen de données encodées numériquement, en vue d’un traitement par ordinateur. Comprend les données mathématiques, les données sur l’environnement, etc. utilisées par des logiciels d’application pour calculer des moyennes, des corrélations, etc. ou bien utilisées pour produire des modèles, etc. mais qui, normalement, ne sont pas affichées sous leur forme brute.
+ Dans le cas de données devant être perçues visuellement sous la forme de notation, d’image, ou de forme tridimensionnelle, voir objet, image animée, image animée tridimensionnelle, image fixe, mouvement noté, musique notée et texte.
+ Dans le cas de données devant être perçues sous une forme audible, voir musique exécutée, parole énoncée et sons."""@fr;
+  skos:prefLabel "données informatiques"@fr .
+
+<https://rdafr.fr/vocabulary/forme-expression/3> a skos:Concept, rdafr:FormeExpression;
+  dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition """Réalisation d’une œuvre au moyen d’images destinées à être perçues comme animées en deux dimensions.
+ Comprend les films cinématographiques (avec prise de vue en direct et/ou animation), les enregistrements sur film ou vidéo de spectacles, d’événements, etc., différents de ceux devant être perçus en trois dimensions (voir image animée tridimensionnelle). Les images animées peuvent ou non être accompagnées de son."""@fr;
+  skos:prefLabel "image animée"@fr .
+
+<https://rdafr.fr/vocabulary/forme-expression/4> a skos:Concept, rdafr:FormeExpression;
+  dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition """Réalisation d’une œuvre au moyen d’images destinées à être perçues comme animées en trois dimensions.
+ Comprend les films en 3-D (avec prise de vue en direct et/ou animation), etc. Les images animées tridimensionnelles peuvent ou non être accompagnées de son."""@fr;
+  skos:prefLabel "image animée tridimensionnelle"@fr .
+
+<https://rdafr.fr/vocabulary/forme-expression/5> a skos:Concept, rdafr:FormeExpression;
+  dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition """Réalisation d’une œuvre cartographique au moyen de lignes, contours, estompage, etc. destinés à être perçus visuellement comme une ou plusieurs images fixes en deux dimensions.
+ Comprend les cartes, les vues, les atlas, les images de télédétection, etc."""@fr;
+  skos:prefLabel "image cartographique"@fr .
+
+<https://rdafr.fr/vocabulary/forme-expression/6> a skos:Concept, rdafr:FormeExpression;
+  dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Réalisation d’une œuvre cartographique au moyen d’images destinées à être perçues comme animées en deux dimensions. Comprend les images satellite de la Terre ou d’autres corps célestes en mouvement."@fr;
+  skos:prefLabel "image cartographique animée"@fr .
+
+<https://rdafr.fr/vocabulary/forme-expression/7> a skos:Concept, rdafr:FormeExpression;
+  dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Réalisation d’une œuvre cartographique au moyen de lignes, contours et/ou d’autres formes destinés à être perçus au toucher comme une image fixe en deux dimensions."@fr;
+  skos:prefLabel "image cartographique tactile"@fr .
+
+<https://rdafr.fr/vocabulary/forme-expression/8> a skos:Concept, rdafr:FormeExpression;
+  dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition """Réalisation d’une œuvre au moyen de lignes, contours, estompage, etc. destinés à être perçus visuellement en deux dimensions. Comprend les dessins, les peintures, les diagrammes, les photographies, etc.
+ Dans le cas d’un contenu cartographique devant être perçu comme une image bidimensionnelle, voir image cartographique.
+ Dans le cas d’images devant être perçues au toucher, voir image tactile."""@fr;
+  skos:prefLabel "image fixe"@fr .
+
+<https://rdafr.fr/vocabulary/forme-expression/9> a skos:Concept, rdafr:FormeExpression;
+  dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition """Réalisation d’une œuvre au moyen de lignes, contours, estompage, etc. destinés à être perçus visuellement en trois dimensions.
+ Comprend les vues stéréoscopiques, les vues d’optique, les images numériques en 3D, les hologrammes."""@fr;
+  skos:prefLabel "image fixe tridimensionnelle"@fr .
+
+<https://rdafr.fr/vocabulary/forme-expression/10> a skos:Concept, rdafr:FormeExpression;
+  dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Réalisation d’une œuvre au moyen de lignes, contours et/ou d’autres formes destinés à être perçus au toucher comme une image fixe en deux dimensions."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/forme-expression>;
+  skos:prefLabel "image tactile"@fr .
+
+<https://rdafr.fr/vocabulary/forme-expression/11> a skos:Concept, rdafr:FormeExpression;
+  dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition """Réalisation d’une œuvre au moyen d’une forme de notation du mouvement destinée à être perçue visuellement.
+ Comprend toutes les formes de notation du mouvement différentes de celles devant être perçues au toucher (voir mouvement noté tactile)."""@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/forme-expression>;
+  skos:prefLabel "mouvement noté"@fr .
+
+<https://rdafr.fr/vocabulary/forme-expression/12> a skos:Concept, rdafr:FormeExpression;
+  dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Réalisation d’une œuvre au moyen d’une forme de notation du mouvement destinée à être perçue au toucher."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/forme-expression>;
+  skos:prefLabel "mouvement noté tactile"@fr .
+
+<https://rdafr.fr/vocabulary/forme-expression/13> a skos:Concept, rdafr:FormeExpression;
+  dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition """Réalisation d’une œuvre sous une forme intégrant des données numériques de toute nature (son, textes et images fixes ou animées) et conçue pour une consultation interactive.
+ Comprend notamment les Jeux vidéos (en 2-D et en 3-D)."""@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/forme-expression>;
+  skos:prefLabel "multimédia"@fr .
+
+<https://rdafr.fr/vocabulary/forme-expression/14> a skos:Concept, rdafr:FormeExpression;
+  dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Réalisation d’une œuvre musicale sous une forme destinée à être perçue par l’ouïe."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/forme-expression>;
+  skos:prefLabel "musique exécutée"@fr .
+
+<https://rdafr.fr/vocabulary/forme-expression/15> a skos:Concept, rdafr:FormeExpression;
+  dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition """Réalisation d’une œuvre musicale au moyen d’une forme de notation de la musique destinée à être perçue visuellement.
+ Comprend toutes les formes de notation de la musique différentes de celles devant être perçues au toucher (voir musique notée tactile)."""@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/forme-expression>;
+  skos:prefLabel "musique notée"@fr .
+
+<https://rdafr.fr/vocabulary/forme-expression/16> a skos:Concept, rdafr:FormeExpression;
+  dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition """Réalisation d’une œuvre musicale au moyen d’une forme de notation destinée à être perçue au toucher.
+ Comprend la musique en braille et les autres formes tactiles de notation musicale."""@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/forme-expression>;
+  skos:prefLabel "musique notée tactile"@fr .
+
+<https://rdafr.fr/vocabulary/forme-expression/17> a skos:Concept, rdafr:FormeExpression;
+  dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition """Réalisation d’une œuvre au moyen d’une ou de plusieurs formes tridimensionnelles destinées à être perçues visuellement. Comprend les sculptures, les maquettes, les monnaies, etc.
+ Dans le cas d’un contenu cartographique devant être perçu comme une forme tridimensionnelle, voir objet cartographique.
+ Dans le cas de formes tridimensionnelles devant être perçues au toucher, voir objet tactile."""@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/forme-expression>;
+  skos:prefLabel "objet"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/forme-expression> .
+
+<https://rdafr.fr/vocabulary/forme-expression/18> a skos:Concept, rdafr:FormeExpression;
+  dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition """Réalisation d’une œuvre cartographique au moyen d’une ou de plusieurs formes tridimensionnelles destinées à être perçues visuellement.
+ Comprend : les globes, les modèles en relief, etc."""@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/forme-expression>;
+  skos:prefLabel "objet cartographique"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/forme-expression> .
+
+<https://rdafr.fr/vocabulary/forme-expression/19> a skos:Concept, rdafr:FormeExpression;
+  dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Réalisation d’une œuvre cartographique au moyen d’une ou de plusieurs formes tridimensionnelles destinées à être perçues au toucher."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/forme-expression>;
+  skos:prefLabel "objet cartographique tactile"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/forme-expression> .
+
+<https://rdafr.fr/vocabulary/forme-expression/20> a skos:Concept, rdafr:FormeExpression;
+  dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Réalisation d’une œuvre au moyen d’une ou de plusieurs formes tridimensionnelles destinées à être perçues au toucher."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/forme-expression>;
+  skos:prefLabel "objet tactile"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/forme-expression> .
+
+<https://rdafr.fr/vocabulary/forme-expression/21> a skos:Concept, rdafr:FormeExpression;
+  dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition """Réalisation d’une œuvre au moyen du langage sous une forme destinée à être perçue par l’ouïe.
+ Comprend les lectures enregistrées, les textes récités, les discours, les entretiens, les récits oraux, etc., la parole créée par ordinateur, etc."""@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/forme-expression>;
+  skos:prefLabel "parole énoncée"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/forme-expression> .
+
+<https://rdafr.fr/vocabulary/forme-expression/22> a skos:Concept, rdafr:FormeExpression;
+  dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition """Réalisation d’une œuvre au moyen d’instructions encodées numériquement, en vue d’un traitement et d’une exécution par ordinateur.
+ Comprend les systèmes d’exploitation, les logiciels d’application, etc."""@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/forme-expression>;
+  skos:prefLabel "programme informatique"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/forme-expression> .
+
+<https://rdafr.fr/vocabulary/forme-expression/23> a skos:Concept, rdafr:FormeExpression;
+  dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition """Réalisation d’une œuvre consistant à fixer des sons autres que des sons du langage ou des sons musicaux sous une forme destinée à être perçue par l’ouïe.
+ Comprend les enregistrements des sons naturels, des sons artificiellement produits comme les bruitages, etc."""@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/forme-expression>;
+  skos:prefLabel "sons"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/forme-expression> .
+
+<https://rdafr.fr/vocabulary/forme-expression/24> a skos:Concept, rdafr:FormeExpression;
+  dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition """Réalisation d’une œuvre au moyen d’une forme de notation du langage destinée à être perçue visuellement.
+ Comprend toutes les formes de notation du langage différentes de celles devant être perçues au toucher (voir texte tactile) ou par l’ouïe (voir parole énoncée)."""@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/forme-expression>;
+  skos:prefLabel "texte"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/forme-expression> .
+
+<https://rdafr.fr/vocabulary/forme-expression/25> a skos:Concept, rdafr:FormeExpression;
+  dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition """Réalisation d’une œuvre au moyen d’une forme de notation du langage destinée à être perçue au toucher.
+ Comprend les textes en braille et les autres formes tactiles de notation du langage."""@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/forme-expression>;
+  skos:prefLabel "texte tactile"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/forme-expression> .
+
+<https://rdafr.fr/vocabulary/forme-expression/1> skos:inScheme <https://rdafr.fr/vocabulary/forme-expression>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/forme-expression> .
+
+<https://rdafr.fr/vocabulary/forme-expression/2> skos:inScheme <https://rdafr.fr/vocabulary/forme-expression>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/forme-expression> .
+
+<https://rdafr.fr/vocabulary/forme-expression/3> skos:inScheme <https://rdafr.fr/vocabulary/forme-expression>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/forme-expression> .
+
+<https://rdafr.fr/vocabulary/forme-expression/4> skos:inScheme <https://rdafr.fr/vocabulary/forme-expression>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/forme-expression> .
+
+<https://rdafr.fr/vocabulary/forme-expression/5> skos:inScheme <https://rdafr.fr/vocabulary/forme-expression>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/forme-expression> .
+
+<https://rdafr.fr/vocabulary/forme-expression/6> skos:inScheme <https://rdafr.fr/vocabulary/forme-expression>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/forme-expression> .
+
+<https://rdafr.fr/vocabulary/forme-expression/7> skos:inScheme <https://rdafr.fr/vocabulary/forme-expression>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/forme-expression> .
+
+<https://rdafr.fr/vocabulary/forme-expression/8> skos:inScheme <https://rdafr.fr/vocabulary/forme-expression>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/forme-expression> .
+
+<https://rdafr.fr/vocabulary/forme-expression/9> skos:inScheme <https://rdafr.fr/vocabulary/forme-expression>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/forme-expression> .
+
+<https://rdafr.fr/vocabulary/forme-expression> a skos:ConceptScheme;
+  skos:hasTopConcept <https://rdafr.fr/vocabulary/forme-expression/1>, <https://rdafr.fr/vocabulary/forme-expression/10>,
+    <https://rdafr.fr/vocabulary/forme-expression/11>, <https://rdafr.fr/vocabulary/forme-expression/12>,
+    <https://rdafr.fr/vocabulary/forme-expression/13>, <https://rdafr.fr/vocabulary/forme-expression/14>,
+    <https://rdafr.fr/vocabulary/forme-expression/15>, <https://rdafr.fr/vocabulary/forme-expression/16>,
+    <https://rdafr.fr/vocabulary/forme-expression/17>, <https://rdafr.fr/vocabulary/forme-expression/18>,
+    <https://rdafr.fr/vocabulary/forme-expression/19>, <https://rdafr.fr/vocabulary/forme-expression/2>,
+    <https://rdafr.fr/vocabulary/forme-expression/20>, <https://rdafr.fr/vocabulary/forme-expression/21>,
+    <https://rdafr.fr/vocabulary/forme-expression/22>, <https://rdafr.fr/vocabulary/forme-expression/23>,
+    <https://rdafr.fr/vocabulary/forme-expression/24>, <https://rdafr.fr/vocabulary/forme-expression/25>,
+    <https://rdafr.fr/vocabulary/forme-expression/3>, <https://rdafr.fr/vocabulary/forme-expression/4>,
+    <https://rdafr.fr/vocabulary/forme-expression/5>, <https://rdafr.fr/vocabulary/forme-expression/6>,
+    <https://rdafr.fr/vocabulary/forme-expression/7>, <https://rdafr.fr/vocabulary/forme-expression/8>,
+    <https://rdafr.fr/vocabulary/forme-expression/9> .
+
+<https://rdafr.fr/vocabulary/forme-expression/10> skos:topConceptOf <https://rdafr.fr/vocabulary/forme-expression> .
+
+<https://rdafr.fr/vocabulary/forme-expression/11> skos:topConceptOf <https://rdafr.fr/vocabulary/forme-expression> .
+
+<https://rdafr.fr/vocabulary/forme-expression/12> skos:topConceptOf <https://rdafr.fr/vocabulary/forme-expression> .
+
+<https://rdafr.fr/vocabulary/forme-expression/13> skos:topConceptOf <https://rdafr.fr/vocabulary/forme-expression> .
+
+<https://rdafr.fr/vocabulary/forme-expression/14> skos:topConceptOf <https://rdafr.fr/vocabulary/forme-expression> .
+
+<https://rdafr.fr/vocabulary/forme-expression/15> skos:topConceptOf <https://rdafr.fr/vocabulary/forme-expression> .
+
+<https://rdafr.fr/vocabulary/forme-expression/16> skos:topConceptOf <https://rdafr.fr/vocabulary/forme-expression> .

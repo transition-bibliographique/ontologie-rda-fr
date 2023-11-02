@@ -1,0 +1,197 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix euvoc: <http://publications.europa.eu/ontology/euvoc#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdafr: <https://rdafr.fr/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosthes: <http://purl.org/iso25964/skos-thes#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://rdafr.fr/vocabulary/reliure> dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  dct:publisher "BnF, Abes"@fr;
+  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des reliures d'une manifestation"@fr .
+
+<https://rdafr.fr/vocabulary/reliure/1> a skos:Concept, rdafr:Reliure;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:prefLabel "agrafé"@fr .
+
+<https://rdafr.fr/vocabulary/reliure/2> a skos:Concept, rdafr:Reliure;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:prefLabel "anneau"@fr .
+
+<https://rdafr.fr/vocabulary/reliure/3> a skos:Concept, rdafr:Reliure;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:inScheme <https://rdafr.fr/vocabulary/reliure>;
+  skos:prefLabel "broché"@fr .
+
+<https://rdafr.fr/vocabulary/reliure/4> a skos:Concept, rdafr:Reliure;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:inScheme <https://rdafr.fr/vocabulary/reliure>;
+  skos:prefLabel "broché sous étui"@fr .
+
+<https://rdafr.fr/vocabulary/reliure/5> a skos:Concept, rdafr:Reliure;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:inScheme <https://rdafr.fr/vocabulary/reliure>;
+  skos:prefLabel "broché sous jaquette"@fr .
+
+<https://rdafr.fr/vocabulary/reliure/6> a skos:Concept, rdafr:Reliure;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:inScheme <https://rdafr.fr/vocabulary/reliure>;
+  skos:prefLabel "classeur"@fr .
+
+<https://rdafr.fr/vocabulary/reliure/7> a skos:Concept, rdafr:Reliure;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:inScheme <https://rdafr.fr/vocabulary/reliure>;
+  skos:prefLabel "collé"@fr .
+
+<https://rdafr.fr/vocabulary/reliure/8> a skos:Concept, rdafr:Reliure;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:inScheme <https://rdafr.fr/vocabulary/reliure>;
+  skos:prefLabel "cousu à la chinoise"@fr .
+
+<https://rdafr.fr/vocabulary/reliure/9> a skos:Concept, rdafr:Reliure;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:inScheme <https://rdafr.fr/vocabulary/reliure>;
+  skos:prefLabel "en feuilles sous emboîtage"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/reliure> .
+
+<https://rdafr.fr/vocabulary/reliure/10> a skos:Concept, rdafr:Reliure;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:inScheme <https://rdafr.fr/vocabulary/reliure>;
+  skos:prefLabel "en feuilles sous pochette"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/reliure> .
+
+<https://rdafr.fr/vocabulary/reliure/11> a skos:Concept, rdafr:Reliure;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:inScheme <https://rdafr.fr/vocabulary/reliure>;
+  skos:prefLabel "monté sur onglets"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/reliure> .
+
+<https://rdafr.fr/vocabulary/reliure/12> a skos:Concept, rdafr:Reliure;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:inScheme <https://rdafr.fr/vocabulary/reliure>;
+  skos:prefLabel "plié"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/reliure> .
+
+<https://rdafr.fr/vocabulary/reliure/13> a skos:Concept, rdafr:Reliure;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:inScheme <https://rdafr.fr/vocabulary/reliure>;
+  skos:prefLabel "plié sous couverture"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/reliure> .
+
+<https://rdafr.fr/vocabulary/reliure/14> a skos:Concept, rdafr:Reliure;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:inScheme <https://rdafr.fr/vocabulary/reliure>;
+  skos:prefLabel "plié sous pochette"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/reliure> .
+
+<https://rdafr.fr/vocabulary/reliure/15> a skos:Concept, rdafr:Reliure;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:inScheme <https://rdafr.fr/vocabulary/reliure>;
+  skos:prefLabel "relié"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/reliure> .
+
+<https://rdafr.fr/vocabulary/reliure/16> a skos:Concept, rdafr:Reliure;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:inScheme <https://rdafr.fr/vocabulary/reliure>;
+  skos:prefLabel "relié sous étui"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/reliure> .
+
+<https://rdafr.fr/vocabulary/reliure/17> a skos:Concept, rdafr:Reliure;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:inScheme <https://rdafr.fr/vocabulary/reliure>;
+  skos:prefLabel "relié sous jaquette"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/reliure> .
+
+<https://rdafr.fr/vocabulary/reliure/18> a skos:Concept, rdafr:Reliure;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:inScheme <https://rdafr.fr/vocabulary/reliure>;
+  skos:prefLabel "reliure à la bradel"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/reliure> .
+
+<https://rdafr.fr/vocabulary/reliure/19> a skos:Concept, rdafr:Reliure;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:inScheme <https://rdafr.fr/vocabulary/reliure>;
+  skos:prefLabel "reliure à rabats"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/reliure> .
+
+<https://rdafr.fr/vocabulary/reliure/20> a skos:Concept, rdafr:Reliure;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:inScheme <https://rdafr.fr/vocabulary/reliure>;
+  skos:prefLabel "reliure à spirale"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/reliure> .
+
+<https://rdafr.fr/vocabulary/reliure/21> a skos:Concept, rdafr:Reliure;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:inScheme <https://rdafr.fr/vocabulary/reliure>;
+  skos:prefLabel "reliure cartonnée"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/reliure> .
+
+<https://rdafr.fr/vocabulary/reliure/22> a skos:Concept, rdafr:Reliure;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:inScheme <https://rdafr.fr/vocabulary/reliure>;
+  skos:prefLabel "reliure japonaise"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/reliure> .
+
+<https://rdafr.fr/vocabulary/reliure/1> skos:inScheme <https://rdafr.fr/vocabulary/reliure>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/reliure> .
+
+<https://rdafr.fr/vocabulary/reliure/2> skos:inScheme <https://rdafr.fr/vocabulary/reliure>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/reliure> .
+
+<https://rdafr.fr/vocabulary/reliure> a skos:ConceptScheme;
+  skos:hasTopConcept <https://rdafr.fr/vocabulary/reliure/1>, <https://rdafr.fr/vocabulary/reliure/10>,
+    <https://rdafr.fr/vocabulary/reliure/11>, <https://rdafr.fr/vocabulary/reliure/12>,
+    <https://rdafr.fr/vocabulary/reliure/13>, <https://rdafr.fr/vocabulary/reliure/14>,
+    <https://rdafr.fr/vocabulary/reliure/15>, <https://rdafr.fr/vocabulary/reliure/16>,
+    <https://rdafr.fr/vocabulary/reliure/17>, <https://rdafr.fr/vocabulary/reliure/18>,
+    <https://rdafr.fr/vocabulary/reliure/19>, <https://rdafr.fr/vocabulary/reliure/2>,
+    <https://rdafr.fr/vocabulary/reliure/20>, <https://rdafr.fr/vocabulary/reliure/21>,
+    <https://rdafr.fr/vocabulary/reliure/22>, <https://rdafr.fr/vocabulary/reliure/3>,
+    <https://rdafr.fr/vocabulary/reliure/4>, <https://rdafr.fr/vocabulary/reliure/5>,
+    <https://rdafr.fr/vocabulary/reliure/6>, <https://rdafr.fr/vocabulary/reliure/7>,
+    <https://rdafr.fr/vocabulary/reliure/8>, <https://rdafr.fr/vocabulary/reliure/9> .
+
+<https://rdafr.fr/vocabulary/reliure/3> skos:topConceptOf <https://rdafr.fr/vocabulary/reliure> .
+
+<https://rdafr.fr/vocabulary/reliure/4> skos:topConceptOf <https://rdafr.fr/vocabulary/reliure> .
+
+<https://rdafr.fr/vocabulary/reliure/5> skos:topConceptOf <https://rdafr.fr/vocabulary/reliure> .
+
+<https://rdafr.fr/vocabulary/reliure/6> skos:topConceptOf <https://rdafr.fr/vocabulary/reliure> .
+
+<https://rdafr.fr/vocabulary/reliure/7> skos:topConceptOf <https://rdafr.fr/vocabulary/reliure> .
+
+<https://rdafr.fr/vocabulary/reliure/8> skos:topConceptOf <https://rdafr.fr/vocabulary/reliure> .

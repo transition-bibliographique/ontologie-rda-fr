@@ -1,0 +1,41 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdafr: <https://rdafr.fr/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://rdafr.fr/vocabulary/taille-caracteres> a skos:ConceptScheme;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  dct:publisher "BnF, Abes"@fr;
+  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des tailles de caractères pour une manifestation"@fr;
+  skos:hasTopConcept <https://rdafr.fr/vocabulary/taille-caracteres/1>, <https://rdafr.fr/vocabulary/taille-caracteres/2>,
+    <https://rdafr.fr/vocabulary/taille-caracteres/3>, <https://rdafr.fr/vocabulary/taille-caracteres/4> .
+
+<https://rdafr.fr/vocabulary/taille-caracteres/1> a skos:Concept, rdafr:TailleCaracteres;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:inScheme <https://rdafr.fr/vocabulary/taille-caracteres>;
+  skos:prefLabel "braille élargi"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/taille-caracteres> .
+
+<https://rdafr.fr/vocabulary/taille-caracteres/2> a skos:Concept, rdafr:TailleCaracteres;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:inScheme <https://rdafr.fr/vocabulary/taille-caracteres>;
+  skos:prefLabel "caractères géants"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/taille-caracteres> .
+
+<https://rdafr.fr/vocabulary/taille-caracteres/3> a skos:Concept, rdafr:TailleCaracteres;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:inScheme <https://rdafr.fr/vocabulary/taille-caracteres>;
+  skos:prefLabel "gros caractères"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/taille-caracteres> .
+
+<https://rdafr.fr/vocabulary/taille-caracteres/4> a skos:Concept, rdafr:TailleCaracteres;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:inScheme <https://rdafr.fr/vocabulary/taille-caracteres>;
+  skos:prefLabel "micro-impression"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/taille-caracteres> .

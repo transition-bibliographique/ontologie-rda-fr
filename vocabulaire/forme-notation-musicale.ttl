@@ -1,0 +1,81 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://rdafr.fr/vocabulary/forme-notation-musicale> a skos:ConceptScheme;
+  dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
+  dct:description "La forme de la notation musicale est un ensemble de signes et/ou de symboles utilisés pour exprimer le contenu musical noté d’une expression."@fr;
+  dct:publisher "BnF, Abes"@fr;
+  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Forme de la notation musicale"@fr;
+  skos:hasTopConcept <https://rdafr.fr/vocabulary/forme-notation-musicale/1>, <https://rdafr.fr/vocabulary/forme-notation-musicale/2>,
+    <https://rdafr.fr/vocabulary/forme-notation-musicale/3>, <https://rdafr.fr/vocabulary/forme-notation-musicale/4>,
+    <https://rdafr.fr/vocabulary/forme-notation-musicale/5>, <https://rdafr.fr/vocabulary/forme-notation-musicale/6>,
+    <https://rdafr.fr/vocabulary/forme-notation-musicale/7>, <https://rdafr.fr/vocabulary/forme-notation-musicale/8>,
+    <https://rdafr.fr/vocabulary/forme-notation-musicale/9> .
+
+<https://rdafr.fr/vocabulary/forme-notation-musicale/1> a skos:Concept;
+  dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:altLabel "notation neumatique"@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/forme-notation-musicale>;
+  skos:prefLabel "neumes"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/forme-notation-musicale> .
+
+<https://rdafr.fr/vocabulary/forme-notation-musicale/2> a skos:Concept;
+  dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:inScheme <https://rdafr.fr/vocabulary/forme-notation-musicale>;
+  skos:prefLabel "notation alphabétique"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/forme-notation-musicale> .
+
+<https://rdafr.fr/vocabulary/forme-notation-musicale/3> a skos:Concept;
+  dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:inScheme <https://rdafr.fr/vocabulary/forme-notation-musicale>;
+  skos:prefLabel "notation chiffrée"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/forme-notation-musicale> .
+
+<https://rdafr.fr/vocabulary/forme-notation-musicale/4> a skos:Concept;
+  dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:inScheme <https://rdafr.fr/vocabulary/forme-notation-musicale>;
+  skos:prefLabel "notation graphique"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/forme-notation-musicale> .
+
+<https://rdafr.fr/vocabulary/forme-notation-musicale/5> a skos:Concept;
+  dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:altLabel "notation mensuraliste"@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/forme-notation-musicale>;
+  skos:prefLabel "notation mensuraliste"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/forme-notation-musicale> .
+
+<https://rdafr.fr/vocabulary/forme-notation-musicale/6> a skos:Concept;
+  dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:inScheme <https://rdafr.fr/vocabulary/forme-notation-musicale>;
+  skos:prefLabel "notation proportionnelle"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/forme-notation-musicale> .
+
+<https://rdafr.fr/vocabulary/forme-notation-musicale/7> a skos:Concept;
+  dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:inScheme <https://rdafr.fr/vocabulary/forme-notation-musicale>;
+  skos:prefLabel "notation sur portée"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/forme-notation-musicale> .
+
+<https://rdafr.fr/vocabulary/forme-notation-musicale/8> a skos:Concept;
+  dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:inScheme <https://rdafr.fr/vocabulary/forme-notation-musicale>;
+  skos:prefLabel "tablature"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/forme-notation-musicale> .
+
+<https://rdafr.fr/vocabulary/forme-notation-musicale/9> a skos:Concept;
+  dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:inScheme <https://rdafr.fr/vocabulary/forme-notation-musicale>;
+  skos:prefLabel "tonic sol-fa"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/forme-notation-musicale> .

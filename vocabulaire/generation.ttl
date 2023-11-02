@@ -1,0 +1,263 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix euvoc: <http://publications.europa.eu/ontology/euvoc#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdafr: <https://rdafr.fr/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosthes: <http://purl.org/iso25964/skos-thes#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://rdafr.fr/vocabulary/generation> dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  dct:publisher "BnF, Abes"@fr;
+  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des générations d'une manifestation"@fr .
+
+<https://rdafr.fr/vocabulary/generation/1> a skos:Concept, rdafr:Generation;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Pour les bandes audio."@fr;
+  skos:prefLabel "bande maîtresse"@fr .
+
+<https://rdafr.fr/vocabulary/generation/2> a skos:Concept, rdafr:Generation;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Pour les bandes audio."@fr;
+  skos:prefLabel "matrice de duplication de bande"@fr .
+
+<https://rdafr.fr/vocabulary/generation/3> a skos:Concept, rdafr:Generation;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Pour les bandes vidéo."@fr;
+  skos:prefLabel "copie de consultation de deuxième génération"@fr .
+
+<https://rdafr.fr/vocabulary/generation/4> a skos:Concept, rdafr:Generation;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Pour les bandes vidéo."@fr;
+  skos:prefLabel "copie maîtresse de deuxième génération"@fr .
+
+<https://rdafr.fr/vocabulary/generation/5> a skos:Concept, rdafr:Generation;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Pour les bandes vidéo."@fr;
+  skos:prefLabel "première génération"@fr .
+
+<https://rdafr.fr/vocabulary/generation/6> a skos:Concept, rdafr:Generation;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Pour les disques audio."@fr;
+  skos:prefLabel "disque-épreuve"@fr .
+
+<https://rdafr.fr/vocabulary/generation/7> a skos:Concept, rdafr:Generation;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Pour les disques audio."@fr;
+  skos:prefLabel "matrice"@fr .
+
+<https://rdafr.fr/vocabulary/generation/8> a skos:Concept, rdafr:Generation;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Pour les disques audio."@fr;
+  skos:prefLabel "matrice de pressage"@fr .
+
+<https://rdafr.fr/vocabulary/generation/9> a skos:Concept, rdafr:Generation;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Pour les disques audio."@fr;
+  skos:prefLabel "mère"@fr .
+
+<https://rdafr.fr/vocabulary/generation/10> a skos:Concept, rdafr:Generation;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Pour les disques audio."@fr;
+  skos:prefLabel "père"@fr .
+
+<https://rdafr.fr/vocabulary/generation/11> a skos:Concept, rdafr:Generation;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Pour les microformes."@fr;
+  skos:prefLabel "copie de consultation"@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/generation> .
+
+<https://rdafr.fr/vocabulary/generation/12> a skos:Concept, rdafr:Generation;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Pour les microformes."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/generation>;
+  skos:prefLabel "génération mixte"@fr .
+
+<https://rdafr.fr/vocabulary/generation/13> a skos:Concept, rdafr:Generation;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Pour les microformes."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/generation>;
+  skos:prefLabel "internégatif"@fr .
+
+<https://rdafr.fr/vocabulary/generation/14> a skos:Concept, rdafr:Generation;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Pour les microformes."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/generation>;
+  skos:prefLabel "interpositif"@fr .
+
+<https://rdafr.fr/vocabulary/generation/15> a skos:Concept, rdafr:Generation;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Pour les microformes."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/generation>;
+  skos:prefLabel "matrice de tirage"@fr .
+
+<https://rdafr.fr/vocabulary/generation/16> a skos:Concept, rdafr:Generation;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Pour les microformes."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/generation>;
+  skos:prefLabel "négatif original"@fr .
+
+<https://rdafr.fr/vocabulary/generation/17> a skos:Concept, rdafr:Generation;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Pour les microformes."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/generation>;
+  skos:prefLabel "première génération"@fr .
+
+<https://rdafr.fr/vocabulary/generation/18> a skos:Concept, rdafr:Generation;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Pour les films cinématographiques."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/generation>;
+  skos:prefLabel "copie"@fr .
+
+<https://rdafr.fr/vocabulary/generation/19> a skos:Concept, rdafr:Generation;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Pour les films cinématographiques."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/generation>;
+  skos:prefLabel "copie de consultation"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/generation> .
+
+<https://rdafr.fr/vocabulary/generation/20> a skos:Concept, rdafr:Generation;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Pour les films cinématographiques."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/generation>;
+  skos:prefLabel "copie de référence"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/generation> .
+
+<https://rdafr.fr/vocabulary/generation/21> a skos:Concept, rdafr:Generation;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Pour les films cinématographiques."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/generation>;
+  skos:prefLabel "copie de visionnement"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/generation> .
+
+<https://rdafr.fr/vocabulary/generation/22> a skos:Concept, rdafr:Generation;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Pour les films cinématographiques."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/generation>;
+  skos:prefLabel "internégatif"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/generation> .
+
+<https://rdafr.fr/vocabulary/generation/23> a skos:Concept, rdafr:Generation;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Pour les films cinématographiques."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/generation>;
+  skos:prefLabel "interpositif"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/generation> .
+
+<https://rdafr.fr/vocabulary/generation/24> a skos:Concept, rdafr:Generation;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Pour les films cinématographiques."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/generation>;
+  skos:prefLabel "master/matrice"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/generation> .
+
+<https://rdafr.fr/vocabulary/generation/25> a skos:Concept, rdafr:Generation;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Pour les films cinématographiques."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/generation>;
+  skos:prefLabel "négatif original"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/generation> .
+
+<https://rdafr.fr/vocabulary/generation/26> a skos:Concept, rdafr:Generation;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Pour les films cinématographiques."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/generation>;
+  skos:prefLabel "original"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/generation> .
+
+<https://rdafr.fr/vocabulary/generation/1> skos:inScheme <https://rdafr.fr/vocabulary/generation>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/generation> .
+
+<https://rdafr.fr/vocabulary/generation/2> skos:inScheme <https://rdafr.fr/vocabulary/generation>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/generation> .
+
+<https://rdafr.fr/vocabulary/generation/3> skos:inScheme <https://rdafr.fr/vocabulary/generation>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/generation> .
+
+<https://rdafr.fr/vocabulary/generation/4> skos:inScheme <https://rdafr.fr/vocabulary/generation>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/generation> .
+
+<https://rdafr.fr/vocabulary/generation/5> skos:inScheme <https://rdafr.fr/vocabulary/generation>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/generation> .
+
+<https://rdafr.fr/vocabulary/generation/6> skos:inScheme <https://rdafr.fr/vocabulary/generation>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/generation> .
+
+<https://rdafr.fr/vocabulary/generation/7> skos:inScheme <https://rdafr.fr/vocabulary/generation>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/generation> .
+
+<https://rdafr.fr/vocabulary/generation/8> skos:inScheme <https://rdafr.fr/vocabulary/generation>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/generation> .
+
+<https://rdafr.fr/vocabulary/generation/9> skos:inScheme <https://rdafr.fr/vocabulary/generation>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/generation> .
+
+<https://rdafr.fr/vocabulary/generation/10> skos:inScheme <https://rdafr.fr/vocabulary/generation>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/generation> .
+
+<https://rdafr.fr/vocabulary/generation> a skos:ConceptScheme;
+  skos:hasTopConcept <https://rdafr.fr/vocabulary/generation/1>, <https://rdafr.fr/vocabulary/generation/10>,
+    <https://rdafr.fr/vocabulary/generation/11>, <https://rdafr.fr/vocabulary/generation/12>,
+    <https://rdafr.fr/vocabulary/generation/13>, <https://rdafr.fr/vocabulary/generation/14>,
+    <https://rdafr.fr/vocabulary/generation/15>, <https://rdafr.fr/vocabulary/generation/16>,
+    <https://rdafr.fr/vocabulary/generation/17>, <https://rdafr.fr/vocabulary/generation/18>,
+    <https://rdafr.fr/vocabulary/generation/19>, <https://rdafr.fr/vocabulary/generation/2>,
+    <https://rdafr.fr/vocabulary/generation/20>, <https://rdafr.fr/vocabulary/generation/21>,
+    <https://rdafr.fr/vocabulary/generation/22>, <https://rdafr.fr/vocabulary/generation/23>,
+    <https://rdafr.fr/vocabulary/generation/24>, <https://rdafr.fr/vocabulary/generation/25>,
+    <https://rdafr.fr/vocabulary/generation/26>, <https://rdafr.fr/vocabulary/generation/3>,
+    <https://rdafr.fr/vocabulary/generation/4>, <https://rdafr.fr/vocabulary/generation/5>,
+    <https://rdafr.fr/vocabulary/generation/6>, <https://rdafr.fr/vocabulary/generation/7>,
+    <https://rdafr.fr/vocabulary/generation/8>, <https://rdafr.fr/vocabulary/generation/9> .
+
+<https://rdafr.fr/vocabulary/generation/11> skos:topConceptOf <https://rdafr.fr/vocabulary/generation> .
+
+<https://rdafr.fr/vocabulary/generation/12> skos:topConceptOf <https://rdafr.fr/vocabulary/generation> .
+
+<https://rdafr.fr/vocabulary/generation/13> skos:topConceptOf <https://rdafr.fr/vocabulary/generation> .
+
+<https://rdafr.fr/vocabulary/generation/14> skos:topConceptOf <https://rdafr.fr/vocabulary/generation> .
+
+<https://rdafr.fr/vocabulary/generation/15> skos:topConceptOf <https://rdafr.fr/vocabulary/generation> .
+
+<https://rdafr.fr/vocabulary/generation/16> skos:topConceptOf <https://rdafr.fr/vocabulary/generation> .
+
+<https://rdafr.fr/vocabulary/generation/17> skos:topConceptOf <https://rdafr.fr/vocabulary/generation> .
+
+<https://rdafr.fr/vocabulary/generation/18> skos:topConceptOf <https://rdafr.fr/vocabulary/generation> .
