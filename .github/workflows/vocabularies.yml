@@ -17,15 +17,15 @@ jobs:
 
       - name: "Récupération du tableau contenant les vocabulaires contrôlés"
         run : |
-          curl -L 'https://docs.google.com/spreadsheets/d/1szLComNgMVuHp-iAVHnxehlPJpKiyzK78z4t-Hyr9mE/export?format=xlsx' -o /tmp/vocabularies.xlsx
+          curl -L 'https://docs.google.com/spreadsheets/d/1szLComNgMVuHp-iAVHnxehlPJpKiyzK78z4t-Hyr9mE/export?format=xlsx' -o /tmp/vocabulaires.xlsx
 
       - name: "Transformation des vocabulaires au format SKOS (ttl)"
         run : |
           # On génère un zip avec un fichier ttl par vocabulaire. 
           # Ces fichiers sont destinés à être distribués et sont commités dans le dépôt.
-          java -jar /tmp/xls2rdf.jar convert -i /tmp/vocabularies.xlsx -l fr -o /tmp/vocabularies.zip -f text/turtle
+          java -jar /tmp/xls2rdf.jar convert -i /tmp/vocabulaires.xlsx -l fr -o /tmp/vocabulaires.zip -f text/turtle
 
-          unzip /tmp/vocabulaire.zip -d vocabularies
+          unzip /tmp/vocabulaires.zip -d vocabulaire
           
           # On renomme les fichiers en enlevant l'URL dans le nom de chaque fichier
           for i in *.ttl; do mv $i ${i#https%3A%2F%2Frdafr.fr%2Fvocabulary%2F}; done
@@ -43,8 +43,8 @@ jobs:
         run : |
           # On génère un fichier intermédiaire qui contient l'ensemble des vocabulaires
           # Ce fichier permet de générer la liste des vocabulaires contrôlés au format markdown pour le site web
-          java -jar /tmp/xls2rdf.jar convert -i /tmp/vocabularies.xlsx -l fr -o /tmp/vocabularies.rdf -f application/rdf+xml
-          java -jar saxon.jar /tmp/vocabularies.rdf ./siteweb/.xslt/liste-vocabulaires.xsl > ./siteweb/vocabulaires/index.md
+          java -jar /tmp/xls2rdf.jar convert -i /tmp/vocabulaires.xlsx -l fr -o /tmp/vocabulaires.rdf -f application/rdf+xml
+          java -jar saxon.jar /tmp/vocabulaires.rdf ./siteweb/.xslt/liste-vocabulaires.xsl > ./siteweb/vocabulaires/index.md
 
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
