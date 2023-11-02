@@ -28,7 +28,7 @@ jobs:
           unzip /tmp/vocabulaires.zip -d vocabulaire
           
           # On renomme les fichiers en enlevant l'URL dans le nom de chaque fichier
-          for i in vocabulaire/*.ttl; do mv $i ${i#https%3A%2F%2Frdafr.fr%2Fvocabulary%2F}; done
+          for i in vocabulaire/*.ttl; do mv -f $i ${i#https%3A%2F%2Frdafr.fr%2Fvocabulary%2F}; done
 
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
