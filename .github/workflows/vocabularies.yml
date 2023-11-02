@@ -40,6 +40,7 @@ jobs:
           curl -L "https://repo1.maven.org/maven2/net/sf/saxon/Saxon-HE/9.9.1-7/Saxon-HE-9.9.1-7.jar" -o /tmp/saxon.jar
 
       - name: "Génération de la liste des vocabulaires contrôlés au format markdown"
+        run : |
           # On génère un fichier intermédiaire qui contient l'ensemble des vocabulaires
           # Ce fichier permet de générer la liste des vocabulaires contrôlés au format markdown pour le site web
           java -jar /tmp/xls2rdf.jar convert -i /tmp/vocabularies.xlsx -l fr -o /tmp/vocabularies.rdf -f application/rdf+xml
