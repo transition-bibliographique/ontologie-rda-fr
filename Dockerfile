@@ -99,12 +99,18 @@ RUN mv /tmp/ontologie/profil-application-avec-meta.ttl /build/profil-application
 
 # Génération des vocabulaires contrôlés
 
-COPY ./vocabulaire/* /build/
+RUN mkdir -p /build/vocabularies/
+COPY ./vocabulaire/* /build/vocabularies/
 
 # Installation de l'outil skos play et génération des vocabulaires contrôlés
-RUN curl -L https://github.com/sparna-git/skos-play/releases/download/0.9.1/skos-play-cli-0.9.1-onejar.jar -o skos-play.jar && \
-    java -jar skos-play.jar alphabetical -i /build/vocabularies.ttl -o /build/vocabularies.pdf -f pdf -l fr && \
-    java -jar skos-play.jar alphabetical -i /build/vocabularies.ttl -o /build/vocabularies.html -f html -l fr 
+RUN curl -L https://github.com/sparna-git/skos-play/releases/download/0.9.1/skos-play-cli-0.9.1-onejar.jar -o skos-play.jar
+
+RUN for i in /build/vocabularies/*.ttl; do \
+      java -jar skos-play.jar alphabetical -i $i -o ${i%.ttl}.html -f html -l fr ;\
+    done
+
+# RUN for i in /build/vocabularies/*.ttl; do \
+    # grep -m 1 "(dct:title \")" >> /build/vocabularies/index.md; \
 
 
 FROM nginx:1.20.2
