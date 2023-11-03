@@ -7,8 +7,9 @@
 <https://rdafr.fr/vocabulary/forme-notation-musicale> a skos:ConceptScheme;
   dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
   dct:description "La forme de la notation musicale est un ensemble de signes et/ou de symboles utilisés pour exprimer le contenu musical noté d’une expression."@fr;
+  dct:modified "2023-11-06"^^xsd:date;
   dct:publisher "BnF, Abes"@fr;
-  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Forme de la notation musicale"@fr;
+  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Forme de la notation musicale d'une expression"@fr;
   skos:hasTopConcept <https://rdafr.fr/vocabulary/forme-notation-musicale/1>, <https://rdafr.fr/vocabulary/forme-notation-musicale/2>,
     <https://rdafr.fr/vocabulary/forme-notation-musicale/3>, <https://rdafr.fr/vocabulary/forme-notation-musicale/4>,
     <https://rdafr.fr/vocabulary/forme-notation-musicale/5>, <https://rdafr.fr/vocabulary/forme-notation-musicale/6>,

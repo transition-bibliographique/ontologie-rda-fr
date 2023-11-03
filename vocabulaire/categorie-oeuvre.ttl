@@ -19,6 +19,7 @@
 
 <https://rdafr.fr/vocabulary/categorie-oeuvre> a skos:ConceptScheme;
   dct:created "2023-08-17T00:00:00.000Z"^^xsd:dateTime;
+  dct:modified "2023-11-06"^^xsd:date;
   dct:publisher "BnF, Abes"@fr;
   dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des catégories d'oeuvre"@fr;
   owl:equivalentClass rdafr:CategorieOeuvre;

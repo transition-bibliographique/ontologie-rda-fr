@@ -7,8 +7,9 @@
 <https://rdafr.fr/vocabulary/forme-notation-tactile> a skos:ConceptScheme;
   dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
   dct:description "La forme de la notation tactile est un ensemble de signes et/ou de symboles utilisés pour exprimer le contenu d’une expression sous une forme perceptible au toucher."@fr;
+  dct:modified "2023-11-06"^^xsd:date;
   dct:publisher "BnF, Abes"@fr;
-  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Forme de la notation tactile"@fr;
+  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Forme de la notation tactile d'une expression"@fr;
   skos:hasTopConcept <https://rdafr.fr/vocabulary/forme-notation-tactile/1>, <https://rdafr.fr/vocabulary/forme-notation-tactile/2>,
     <https://rdafr.fr/vocabulary/forme-notation-tactile/3>, <https://rdafr.fr/vocabulary/forme-notation-tactile/4>,
     <https://rdafr.fr/vocabulary/forme-notation-tactile/5>, <https://rdafr.fr/vocabulary/forme-notation-tactile/6> .

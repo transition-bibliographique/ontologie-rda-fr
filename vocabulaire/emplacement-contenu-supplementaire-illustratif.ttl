@@ -7,8 +7,9 @@
 
 <https://rdafr.fr/vocabulary/emplacement-contenu-supplementaire-illustratif> a skos:ConceptScheme;
   dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  dct:modified "2023-11-06"^^xsd:date;
   dct:publisher "BnF, Abes"@fr;
-  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des emplacements du contenu supplémentaire illustratif"@fr;
+  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des emplacements du contenu supplémentaire illustratif dans une manifestation"@fr;
   skos:hasTopConcept <https://rdafr.fr/vocabulary/emplacement-contenu-supplementaire-illustratif/1>,
     <https://rdafr.fr/vocabulary/emplacement-contenu-supplementaire-illustratif/2>, <https://rdafr.fr/vocabulary/emplacement-contenu-supplementaire-illustratif/3>,
     <https://rdafr.fr/vocabulary/emplacement-contenu-supplementaire-illustratif/4>, <https://rdafr.fr/vocabulary/emplacement-contenu-supplementaire-illustratif/5>,

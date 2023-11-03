@@ -7,8 +7,9 @@
 <https://rdafr.fr/vocabulary/perimetre-application-langue> a skos:ConceptScheme;
   dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
   dct:description "Le périmètre d’application de la langue permet de qualifier la langue de certaines composantes de l’expression décrite."@fr;
+  dct:modified "2023-11-06"^^xsd:date;
   dct:publisher "BnF, Abes"@fr;
-  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Périmètre d’application de la langue"@fr;
+  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Périmètre d’application de la langue d'une expression"@fr;
   skos:hasTopConcept <https://rdafr.fr/vocabulary/perimetre-application-langue/1>, <https://rdafr.fr/vocabulary/perimetre-application-langue/2>,
     <https://rdafr.fr/vocabulary/perimetre-application-langue/3>, <https://rdafr.fr/vocabulary/perimetre-application-langue/4>,
     <https://rdafr.fr/vocabulary/perimetre-application-langue/5>, <https://rdafr.fr/vocabulary/perimetre-application-langue/6>,

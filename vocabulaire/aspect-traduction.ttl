@@ -7,8 +7,9 @@
 <https://rdafr.fr/vocabulary/aspect-traduction> a skos:ConceptScheme;
   dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
   dct:description "L’aspect de traduction permet de préciser si l’expression est une traduction d’une autre expression et, dans ce cas, s’il s’agit d’une traduction directe ou d’une traduction effectuée à partir d’une traduction intermédiaire."@fr;
+  dct:modified "2023-11-06"^^xsd:date;
   dct:publisher "BnF, Abes"@fr;
-  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Aspect de traduction"@fr;
+  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Aspect de traduction d'une expression"@fr;
   skos:hasTopConcept <https://rdafr.fr/vocabulary/aspect-traduction/1>, <https://rdafr.fr/vocabulary/aspect-traduction/2>,
     <https://rdafr.fr/vocabulary/aspect-traduction/3>, <https://rdafr.fr/vocabulary/aspect-traduction/4> .
 

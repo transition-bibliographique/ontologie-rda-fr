@@ -7,8 +7,9 @@
 <https://rdafr.fr/vocabulary/caracteristique-couleur> a skos:ConceptScheme;
   dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
   dct:description "La caractéristique de couleur est la présence de couleur, teinte, etc. dans l’expression."@fr;
+  dct:modified "2023-11-06"^^xsd:date;
   dct:publisher "BnF, Abes"@fr;
-  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Caractéristique de couleur"@fr;
+  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Caractéristique de couleur de l'expression"@fr;
   skos:hasTopConcept <https://rdafr.fr/vocabulary/caracteristique-couleur/1>, <https://rdafr.fr/vocabulary/caracteristique-couleur/2>,
     <https://rdafr.fr/vocabulary/caracteristique-couleur/3> .
 

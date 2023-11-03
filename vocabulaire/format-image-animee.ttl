@@ -5,5 +5,6 @@
 
 <https://rdafr.fr/vocabulary/format-image-animee> a skos:ConceptScheme;
   dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  dct:modified "2023-11-06"^^xsd:date;
   dct:publisher "BnF, Abes"@fr;
   dct:title "RDA-FROntologie RDA-FR - Vocabulaires contrôlés : Liste des formats d'image animée"@fr .

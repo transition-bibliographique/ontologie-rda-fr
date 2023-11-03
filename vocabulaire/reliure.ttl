@@ -18,8 +18,9 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://rdafr.fr/vocabulary/reliure> dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  dct:modified "2023-11-06"^^xsd:date;
   dct:publisher "BnF, Abes"@fr;
-  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des reliures d'une manifestation"@fr .
+  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des types de reliures d'une manifestation"@fr .
 
 <https://rdafr.fr/vocabulary/reliure/1> a skos:Concept, rdafr:Reliure;
   dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;

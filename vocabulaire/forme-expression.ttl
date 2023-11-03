@@ -19,6 +19,7 @@
 
 <https://rdafr.fr/vocabulary/forme-expression> dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
   dct:description "La forme de l’expression est le moyen par lequel l’œuvre est réalisée (par exemple, sous forme de notation alphanumérique, de notation musicale, sous forme déclamée, sous forme de sons musicaux, d’image cartographique, d’image photographique, de sculpture, de danse, de mime, etc.)."@fr;
+  dct:modified "2023-11-06"^^xsd:date;
   dct:publisher "BnF, Abes"@fr;
   dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Forme de l'expression"@fr .
 
