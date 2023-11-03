@@ -55,7 +55,7 @@ RUN pandoc --standalone \
       --template template.html \
       -c /style.css \
       -A /build/footer.html \
-      /build/vocabulaires/index.md -o /build/vocabulaires/index.html
+      /build/vocabulary/index.md -o /build/vocabulary/index.html
 
 # Génération de la documentation de l'ontologie
 RUN mkdir -p ontologie
@@ -101,15 +101,15 @@ RUN mv /tmp/ontologie/profil-application-avec-meta.ttl /build/profil-application
 
 # Génération des vocabulaires contrôlés
 
-RUN mkdir -p /build/vocabulaires/
-COPY ./vocabulaire/* /build/vocabulaires/
+RUN mkdir -p /build/vocabulary/
+COPY ./vocabulaire/* /build/vocabulary/
 
 # Installation de l'outil skos play 
 RUN curl -L https://github.com/sparna-git/skos-play/releases/download/0.9.1/skos-play-cli-0.9.1-onejar.jar -o skos-play.jar
 
 # Génération d'un fichier HTML par vocabulaire
 # Depuis la page d'un vocabulaire, l'utilisateur peut ajouter le suffix .ttl à l'url pour récupérer les données au format RDF.
-RUN for i in /build/vocabulaires/*.ttl; do \
+RUN for i in /build/vocabulary/*.ttl; do \
       java -jar skos-play.jar alphabetical -i $i -o ${i%.ttl}.html -f html -l fr ;\
     done
 
