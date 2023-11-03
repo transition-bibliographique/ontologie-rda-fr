@@ -31,20 +31,10 @@
             </xsl:variable>
             
             <xsl:variable name="date">
-                <xsl:value-of select="format-dateTime(./dct:created, '[D01]/[M01]/[Y0001]')"/>
+                <xsl:value-of select="format-dateTime(./dct:modified, '[D01]/[M01]/[Y0001]')"/>
             </xsl:variable>
             
-            <xsl:variable name="suffix">
-               <xsl:value-of select="substring-after(./owl:equivalentClass/@rdf:resource,'https://rdafr.fr/')"/>
-            </xsl:variable>
-            
-            <xsl:variable name="suffixAndPrefix">
-                <xsl:if test="$suffix != ''">
-                    <xsl:value-of select="concat(' rdafr:', $suffix)"/>
-                </xsl:if>
-            </xsl:variable>
-            
-            <xsl:value-of select="concat('* **', $title, '**', $suffixAndPrefix, ' ', $date, '&#10;')"/>            
+            <xsl:value-of select="concat('* **', $title, '**', ' ', $date, '&#10;')"/>            
         </xsl:for-each>
     </xsl:template>
 </xsl:stylesheet>
