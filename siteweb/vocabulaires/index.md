@@ -1,5 +1,3 @@
-<!--Ce fichier est généré automatiquement. Il ne doit pas être édité manuellement.-->
-
 # Vocabulaires contrôlés
 
 * **[Liste des catégories d'identités publiques](categorie-ipp.html)** rdafr:CategorieIdentitePublique 20/10/2022
@@ -46,3 +44,6 @@
 * **[Forme de l'expression](forme-expression.html)** 26/06/2023
 * **[Type de captation](type-captation.html)** 26/06/2023
 * **[Liste des tailles de caractères pour une manifestation](taille-caracteres.html)** 03/07/2023
+
+
+<!--Ce fichier est généré automatiquement. Il ne doit pas être édité manuellement.-->
