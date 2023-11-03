@@ -6,9 +6,9 @@ Ce site est dédié à la publication de l’ontologie RDA-FR qui est en cours d
 
 Le domaine de l’ontologie RDA-FR est **[https://rdafr.fr](https://rdafr.fr)**
 
-* **Le profil d’application de l’ontologie RDA-FR est publié ici : [https://rdafr.fr/profil-application](https://rdafr.fr/profil-application/)**
-* **L’ontologie RDA-FR en OWL est publié ici : [https://rdafr.fr/ontologie/](https://test.rdafr.fr/ontologie/ontology.ttl)**
-* **Les vocabulaires contrôlés associés à l’ontologie RDA-FR sont publiés ici : [https://rdafr.fr/vocabulary](https://rdafr.fr/vocabulary)**
+* **Le profil d’application de l’ontologie RDA-FR est publié ici : [https://rdafr.fr/profil-application](/profil-application/)**
+* **L’ontologie RDA-FR en OWL est publié ici : [https://rdafr.fr/ontologie/](/ontologie/ontology.ttl)**
+* **Les vocabulaires contrôlés associés à l’ontologie RDA-FR sont publiés ici : [https://rdafr.fr/vocabulary](/vocabulary)**
 
 Dans le cadre du programme [Transition bibliographique](https://www.transition-bibliographique.fr/), l’objectif de l’ontologie RDA-FR est d’exprimer avec les technologies du web sémantique les entités, leurs attributs et leurs relations définies par le [code de catalogage RDA-FR](https://www.transition-bibliographique.fr/rda-fr/) en conformité avec le modèle international [IFLA LRM](https://www.transition-bibliographique.fr/enjeux/definition-ifla-lrm/).
 
