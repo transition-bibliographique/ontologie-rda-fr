@@ -1,4 +1,6 @@
-# Vocabulaires contrôlés
+# Ontologie RDA-FR - Vocabulaires contrôlés
+
+<!--Ce fichier est généré automatiquement. Il ne doit pas être édité manuellement.-->
 
 * **[Liste des catégories d'identités publiques](categorie-ipp.html)** 
 * **[Liste des matériaux de base d'une manifestation](materiau-base.html)** 
@@ -44,6 +46,3 @@
 * **[Forme de l'expression](forme-expression.html)** 
 * **[Type de captation](type-captation.html)** 
 * **[Liste des tailles de caractères pour une manifestation](taille-caracteres.html)** 
-
-
-<!--Ce fichier est généré automatiquement. Il ne doit pas être édité manuellement.-->
