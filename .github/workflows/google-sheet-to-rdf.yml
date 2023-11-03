@@ -1,0 +1,79 @@
+# Cette action GitHub récupère les données de l'ontologie du profil d'application et des vocabulaires contrôlés depuis Google sheet pour les sauvegarder dans GitHub au format RDF.
+name: Google Sheet to RDF
+on: workflow_dispatch
+jobs:
+  google-sheet-to-rdf:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+
+      - uses: actions/setup-java@v3
+        with:
+          distribution: 'zulu'
+          java-version: '17'
+
+      - name: "Installation des dépendances"
+        run : |
+          curl -L 'https://github.com/sparna-git/xls2rdf/releases/download/2.2.0/xls2rdf-app-2.2.0-onejar.jar' -o /tmp/xls2rdf.jar
+
+          # Saxon est utilisé pour générer automatiquement la liste des vocabulaires contrôlés en utilisant un XSL
+          curl -L "https://repo1.maven.org/maven2/net/sf/saxon/Saxon-HE/9.9.1-7/Saxon-HE-9.9.1-7.jar" -o /tmp/saxon.jar
+
+      - name: "Récupération des données de l'ontologie"
+        run: |
+          # récupération du tableau contenant les l'ontologie
+          curl -L --request GET 'https://docs.google.com/spreadsheets/d/1CZIf3bxuuH3aghFn7B7P89DrLqp_jzv4moI_BpI9PzY/export?format=xlsx' \
+          -o /tmp/ontologie.xlsx
+
+          # récupération du tableau contenant les vocabulaires contrôlés
+          curl -L 'https://docs.google.com/spreadsheets/d/1szLComNgMVuHp-iAVHnxehlPJpKiyzK78z4t-Hyr9mE/export?format=xlsx' \
+          -o /tmp/vocabulaires.xlsx
+
+      - name: "Génération des données RDF de l'ontologie"
+        run : |
+          java -jar /tmp/xls2rdf.jar convert -i /tmp/ontologie.xlsx -o ./ontologie/rdafr.nt -np -l fr -f text/plain
+          java -jar /tmp/xls2rdf.jar convert -i /tmp/ontologie.xlsx -o ./ontologie/rdafr.ttl -np -l fr -f text/turtle
+          java -jar /tmp/xls2rdf.jar convert -i /tmp/ontologie.xlsx -o ./ontologie/rdafr.rdf -np -l fr -f application/rdf+xml
+
+      - name: "Génération des données RDF des vocabulaires contrôlés"
+        run : |
+          # On génère un zip avec un fichier ttl par vocabulaire.
+          # Ces fichiers sont destinés à être distribués : ils sont commités dans le dépôt.
+          java -jar /tmp/xls2rdf.jar convert -i /tmp/vocabulaires.xlsx -l fr -o /tmp/vocabulaires.zip -f text/turtle
+
+          # On supprime les anciens vocabulaires pour être sûr que les tableaux soient l'unique source de données.
+          rm vocabulaire/*.ttl
+
+          unzip /tmp/vocabulaires.zip -d /tmp/
+
+          # On renomme les fichiers en enlevant l'URL dans le nom de chaque fichier
+          for i in /tmp/*.ttl; do
+            filename=$(basename -- $i)
+            cleaned_filename=${filename#https%3A%2F%2Frdafr.fr%2Fvocabulary%2F}
+            mv $i vocabulaire/$cleaned_filename;
+          done
+
+          # On génère un fichier intermédiaire qui contient l'ensemble des vocabulaires. Ce fichier n'est pas commité.
+          # Ce fichier permet de générer la liste des vocabulaires contrôlés au format markdown pour le site web.
+          java -jar /tmp/xls2rdf.jar convert -i /tmp/vocabulaires.xlsx -p -l fr -o /tmp/vocabulaires.rdf -f application/rdf+xml
+
+
+      - name: "Génération de la liste des vocabulaires contrôlés au format markdown"
+        run : |
+          java -jar /tmp/saxon.jar /tmp/vocabulaires.rdf ./siteweb/.xslt/liste-vocabulaires.xsl > ./siteweb/vocabulary/index.md
+
+      # On ne commit les données que si l'ensemble du processus est ok.
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "Feat : Mise à jour de l'ontologie"
+          file_pattern: "ontologie/*.*"
+
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "Feat : Mise à jour des vocabulaires contrôlés"
+          file_pattern: "vocabulaire/*.ttl"
+
+      - uses: stefanzweifel/git-auto-commit-action@v4
+        with:
+          commit_message: "Feat : Mise à jour de la liste des vocabulaires contrôlés"
+          file_pattern: "siteweb/vocabulary/*.md"
