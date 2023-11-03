@@ -1,17 +1,20 @@
 # Ontologie RDA-FR - Historique des versions
 
-## v0.0.1, janvier 2023 - première publication {#v0.0.1}
+## v0.2.0, novembre 2023 {#v0.2.0}
 
-La première publication de l’ontologie RDA-FR comprend :
+Version toujours qualifiée comme bêta, reste partielle, et le caractère évolutif de l’ontologie d’une version à l’autre toujours valable. Apports de cette version : 
 
-* une introduction sur : 
-  * le cadre de l’élaboration de l’ontologie RDA-FR et ses objectifs ;  
-  * le choix des deux agences bibliographiques, la BnF et l’Abes, de publier l’ontologie RDA-FR progressivement, par blocs de classes cohérents, au fur et à mesure de son élaboration ;
-  * le texte explicatif sur les choix architecturaux et les mécanismes fonctionnels de gestion de cette ontologie et de son profil d’application (texte évolutif au fil des versions) ;
-* la publication du profil d’application de l’ontologie RDA-FR, relatif aux classes : Agent, Agent collectif, Groupe informel, Personne, Identité publique ;
-* l’information sur les modalités techniques de publication de l’ontologie RDA-FR, avec accès aux pages html concernées et le compte GitHub où l’ensemble de l’ontologie est géré.
+* Classes et leurs propriétés
+  * Déclaration de trois nouvelles classes, ***Oeuvre***, ***Manifestation*** et ***Lieu***, et de leurs propriétés. 
+* Vocabulaires contrôlés 
+  * Cette version voit pour la première fois la publication des vocabulaires contrôlés associés aux attributs des entités Oeuvre, Manifestation et Lieu. Les vocabulaires contrôlés sont déclarés dans l’espace de nom [https://rdafr.fr/vocabulary](https://rdafr.fr/vocabulary).  \
+Chacun des 44 référentiels déclarés fait l’objet d’une page distincte. Le nombre des valeurs dans un référentiel peut être très variable. Chacune d’entre elles fait l’objet d’une déclaration en propre.
+* Quelques nouvelles propriétés pour les classes déjà publiées
+* Quelques correctifs et modifications dans les propriétés déjà publiées
 
-## v0.1.0, mai 2023 {#v.0.1.0}
+Toute nouveauté (nouvelle classe, nouvelle propriété, les référentiels et leurs valeurs, correctifs et modifications sur les propriétés déjà publiées) est identifiable par le numéro de version V 0.2.0 de cette publication.
+
+## v0.1.0, mai 2023 {#v0.1.0}
 
 Version, toujours qualifiée comme beta, reste partielle, et le caractère évolutif de l’ontologie d’une version à l’autre toujours valable. Apports de cette version : 
 
@@ -43,3 +46,13 @@ l’explication sur le choix de dissocier l’ontologie RDA-FR (en OWL) de son p
   * la page https://rdafr.fr porte la mention du numéro de la dernière version de publication de l’ontologie, le numéro de cette version étant V 0.1.0. 
   * Elle comporte également une section Historique des versions, qui renvoie vers la présente page [https://rdafr.fr/release-notes](/release-notes)  où sont présentes les nouveautés de l’ontologie RDA-FR d’une version à l’autre.
 
+## v0.0.1, janvier 2023 - première publication {#v0.0.1}
+
+La première publication de l’ontologie RDA-FR comprend :
+
+* une introduction sur : 
+  * le cadre de l’élaboration de l’ontologie RDA-FR et ses objectifs ;  
+  * le choix des deux agences bibliographiques, la BnF et l’Abes, de publier l’ontologie RDA-FR progressivement, par blocs de classes cohérents, au fur et à mesure de son élaboration ;
+  * le texte explicatif sur les choix architecturaux et les mécanismes fonctionnels de gestion de cette ontologie et de son profil d’application (texte évolutif au fil des versions) ;
+* la publication du profil d’application de l’ontologie RDA-FR, relatif aux classes : Agent, Agent collectif, Groupe informel, Personne, Identité publique ;
+* l’information sur les modalités techniques de publication de l’ontologie RDA-FR, avec accès aux pages html concernées et le compte GitHub où l’ensemble de l’ontologie est géré.
