@@ -50,7 +50,7 @@ jobs:
           # On génère un fichier intermédiaire qui contient l'ensemble des vocabulaires
           # Ce fichier permet de générer la liste des vocabulaires contrôlés au format markdown pour le site web
           java -jar /tmp/xls2rdf.jar convert -i /tmp/vocabulaires.xlsx -l fr -o /tmp/vocabulaires.rdf -f application/rdf+xml
-          java -jar saxon.jar /tmp/vocabulaires.rdf ./siteweb/.xslt/liste-vocabulaires.xsl > ./siteweb/vocabulaires/index.md
+          java -jar /tmp/saxon.jar /tmp/vocabulaires.rdf ./siteweb/.xslt/liste-vocabulaires.xsl > ./siteweb/vocabulaires/index.md
 
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
