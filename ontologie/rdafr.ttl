@@ -42,9 +42,9 @@ rdafr:C100001 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Toute création intellectuelle ou artistique distincte, susceptible d’être identifiée et nommée de manière univoque dans un contexte bibliographique. [code RDA-FR, 5.1.2]"@fr;
-  sh:ignoredProperties _:node1heac2k2rx6 .
+  sh:ignoredProperties _:node1heaol6u2x6 .
 
-_:node1heac2k2rx6 rdf:first rdf:type;
+_:node1heaol6u2x6 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100001 sh:nodeKind sh:IRI;
@@ -61,9 +61,9 @@ rdafr:C100002 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Entité ayant la capacité d’agir et ayant un rapport avec des ressources qui font l’objet d’une description documentaire. Cela inclut les personnes ou les groupes. [code RDA-FR, 8.1.2]"@fr;
-  sh:ignoredProperties _:node1heac2k2rx7 .
+  sh:ignoredProperties _:node1heaol6u2x7 .
 
-_:node1heac2k2rx7 rdf:first rdf:type;
+_:node1heaol6u2x7 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100002 sh:nodeKind sh:IRI;
@@ -80,9 +80,9 @@ rdafr:C100003 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Un ou plusieurs objets portant des signes chargés de véhiculer un contenu intellectuel ou artistique. Un item exemplifie une manifestation et en reflète en principe toutes les caractéristiques. [code RDA-FR, 1.1.2]"@fr;
-  sh:ignoredProperties _:node1heac2k2rx8 .
+  sh:ignoredProperties _:node1heaol6u2x8 .
 
-_:node1heac2k2rx8 rdf:first rdf:type;
+_:node1heaol6u2x8 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100003 sh:nodeKind sh:IRI;
@@ -99,9 +99,9 @@ rdafr:C100004 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Agent identifié comme étant un individu existant ou ayant existé. [code RDA-FR, 8.1.2 et 9]"@fr;
-  sh:ignoredProperties _:node1heac2k2rx9 .
+  sh:ignoredProperties _:node1heaol6u2x9 .
 
-_:node1heac2k2rx9 rdf:first rdf:type;
+_:node1heaol6u2x9 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100004 sh:nodeKind sh:IRI;
@@ -118,9 +118,9 @@ rdafr:C100005 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Agent identifié comme étant une organisation ou une partie d'organisation, ou un groupe de personnes et/ou d'organisations. Une collectivité n’est considérée comme telle que si elle est identifiée par un nom particulier et si elle agit, ou peut agir, comme une unité. [code RDA-FR, 11]"@fr;
-  sh:ignoredProperties _:node1heac2k2rx10 .
+  sh:ignoredProperties _:node1heaol6u2x10 .
 
-_:node1heac2k2rx10 rdf:first rdf:type;
+_:node1heaol6u2x10 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100005 sh:nodeKind sh:IRI;
@@ -137,9 +137,9 @@ rdafr:C100006 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Réalisation d’une œuvre sous la forme d’une notation (alphanumérique, musicale ou chorégraphique), de son, d’image, d’objet, de mouvement, etc. ou de toute combinaison de ces formes. [code RDA-FR, 5.1.2]"@fr;
-  sh:ignoredProperties _:node1heac2k2rx11 .
+  sh:ignoredProperties _:node1heaol6u2x11 .
 
-_:node1heac2k2rx11 rdf:first rdf:type;
+_:node1heaol6u2x11 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100006 sh:nodeKind sh:IRI;
@@ -156,9 +156,9 @@ rdafr:C100007 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "L’ensemble de tous les supports qui sont présumés partager les mêmes caractéristiques relatives tant au contenu intellectuel ou artistique qu’aux aspects de présentation matérielle. Cet ensemble est défini à la fois par son contenu global et par le plan de production pour son (ou ses) support(s). [code RDA-FR, 1.1.2]"@fr;
-  sh:ignoredProperties _:node1heac2k2rx12 .
+  sh:ignoredProperties _:node1heaol6u2x12 .
 
-_:node1heac2k2rx12 rdf:first rdf:type;
+_:node1heaol6u2x12 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100007 sh:nodeKind sh:IRI;
@@ -175,9 +175,9 @@ rdafr:C100008 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Est considéré comme relevant de la catégorie famille un ensemble de personnes liées par la naissance, le mariage, l'adoption, l'union civile ou tout autre statut légal du même ordre, ou un ensemble de personnes qui se présentent elles-mêmes comme une famille. [code RDA-FR, 10]"@fr;
-  sh:ignoredProperties _:node1heac2k2rx13 .
+  sh:ignoredProperties _:node1heaol6u2x13 .
 
-_:node1heac2k2rx13 rdf:first rdf:type;
+_:node1heaol6u2x13 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100008 sh:nodeKind sh:IRI;
@@ -194,9 +194,9 @@ rdafr:C100009 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Portion d’espace réel. Un lieu est déterminé par des coordonnées géographiques et pourvu d’un nom. [code RDA-FR, 16]"@fr;
-  sh:ignoredProperties _:node1heac2k2rx14 .
+  sh:ignoredProperties _:node1heaol6u2x14 .
 
-_:node1heac2k2rx14 rdf:first rdf:type;
+_:node1heaol6u2x14 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100009 sh:nodeKind sh:IRI;
@@ -212,9 +212,9 @@ rdafr:C100010 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Plage temporelle ayant un début, une fin et une durée."@fr;
-  sh:ignoredProperties _:node1heac2k2rx15 .
+  sh:ignoredProperties _:node1heaol6u2x15 .
 
-_:node1heac2k2rx15 rdf:first rdf:type;
+_:node1heaol6u2x15 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100010 sh:nodeKind sh:IRI;
@@ -230,9 +230,9 @@ rdafr:C100011 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Groupement ou association de personnes portant un nom particulier et disposant de la faculté d'agir collectivement."@fr;
-  sh:ignoredProperties _:node1heac2k2rx16 .
+  sh:ignoredProperties _:node1heaol6u2x16 .
 
-_:node1heac2k2rx16 rdf:first rdf:type;
+_:node1heaol6u2x16 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100011 sh:nodeKind sh:IRI;
@@ -248,9 +248,9 @@ rdafr:C100012 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Une association entre une entité et une désignation qui y réfère ."@fr;
-  sh:ignoredProperties _:node1heac2k2rx17 .
+  sh:ignoredProperties _:node1heaol6u2x17 .
 
-_:node1heac2k2rx17 rdf:first rdf:type;
+_:node1heaol6u2x17 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100012 sh:nodeKind sh:IRI;
@@ -266,9 +266,9 @@ rdafr:C100013 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Classe abstraite de plus haut niveau de l'univers de discours couvert par l'ontologie RDA-FR. Elle comprend toutes les entités qui sont définies dans le code RDA-FR. Toutes les classes définies pour les besoins de fonctionnement de l'ontologie RDA-FR sont également des sous-classes de celle ci."@fr;
-  sh:ignoredProperties _:node1heac2k2rx18 .
+  sh:ignoredProperties _:node1heaol6u2x18 .
 
-_:node1heac2k2rx18 rdf:first rdf:type;
+_:node1heaol6u2x18 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100013 sh:nodeKind sh:IRI;
@@ -284,9 +284,9 @@ rdafr:C100015 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Identité d’un agent qui est connue ou a été rendue publique. [code RDA-FR, 8.1.2 et 9]"@fr;
-  sh:ignoredProperties _:node1heac2k2rx19 .
+  sh:ignoredProperties _:node1heaol6u2x19 .
 
-_:node1heac2k2rx19 rdf:first rdf:type;
+_:node1heaol6u2x19 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100015 sh:nodeKind sh:IRI;
@@ -300,9 +300,9 @@ rdafr:C100017 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "En attente de traitement dans l'ontologie RDA-FR"@fr;
-  sh:ignoredProperties _:node1heac2k2rx20 .
+  sh:ignoredProperties _:node1heaol6u2x20 .
 
-_:node1heac2k2rx20 rdf:first rdf:type;
+_:node1heaol6u2x20 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100017 sh:nodeKind sh:IRI;
@@ -316,9 +316,9 @@ rdafr:C100018 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "En attente de traitement dans l'ontologie RDA-FR"@fr;
-  sh:ignoredProperties _:node1heac2k2rx21 .
+  sh:ignoredProperties _:node1heaol6u2x21 .
 
-_:node1heac2k2rx21 rdf:first rdf:type;
+_:node1heaol6u2x21 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100018 sh:nodeKind sh:IRI;
@@ -332,9 +332,9 @@ rdafr:C100019 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "En attente de traitement dans l'ontologie RDA-FR"@fr;
-  sh:ignoredProperties _:node1heac2k2rx22 .
+  sh:ignoredProperties _:node1heaol6u2x22 .
 
-_:node1heac2k2rx22 rdf:first rdf:type;
+_:node1heaol6u2x22 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100019 sh:nodeKind sh:IRI;
@@ -348,9 +348,9 @@ rdafr:C100020 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "En attente de traitement dans l'ontologie RDA-FR"@fr;
-  sh:ignoredProperties _:node1heac2k2rx23 .
+  sh:ignoredProperties _:node1heaol6u2x23 .
 
-_:node1heac2k2rx23 rdf:first rdf:type;
+_:node1heaol6u2x23 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100020 sh:nodeKind sh:IRI;
@@ -364,9 +364,9 @@ rdafr:C100021 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "En attente de traitement dans l'ontologie RDA-FR"@fr;
-  sh:ignoredProperties _:node1heac2k2rx24 .
+  sh:ignoredProperties _:node1heaol6u2x24 .
 
-_:node1heac2k2rx24 rdf:first rdf:type;
+_:node1heaol6u2x24 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100021 sh:nodeKind sh:IRI;
@@ -380,9 +380,9 @@ rdafr:C100022 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "En attente de traitement dans l'ontologie RDA-FR"@fr;
-  sh:ignoredProperties _:node1heac2k2rx25 .
+  sh:ignoredProperties _:node1heaol6u2x25 .
 
-_:node1heac2k2rx25 rdf:first rdf:type;
+_:node1heaol6u2x25 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100022 sh:nodeKind sh:IRI;
@@ -396,9 +396,9 @@ rdafr:C100023 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "En attente de traitement dans l'ontologie RDA-FR"@fr;
-  sh:ignoredProperties _:node1heac2k2rx26 .
+  sh:ignoredProperties _:node1heaol6u2x26 .
 
-_:node1heac2k2rx26 rdf:first rdf:type;
+_:node1heaol6u2x26 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100023 sh:nodeKind sh:IRI;
@@ -412,9 +412,9 @@ rdafr:C100025 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Agent étant identifié comme un groupe de personnes qui n'est ni une famille ni une collectivité et dont le nom se présente formellement comme un nom de personne (nom traditionnellement désigné par le terme \"pseudonyme collectif\")."@fr;
-  sh:ignoredProperties _:node1heac2k2rx27 .
+  sh:ignoredProperties _:node1heaol6u2x27 .
 
-_:node1heac2k2rx27 rdf:first rdf:type;
+_:node1heaol6u2x27 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100025 sh:nodeKind sh:IRI;
@@ -428,9 +428,9 @@ rdafr:P100001r a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "La classe ‘relation réifiée’ permet d’ajouter des assertions sur toutes les propriétés qui expriment une relation entre des instances de deux classes de l’ontologie (et qui, de fait, correspondent aux relations entre instances d’entités du code RDA-FR)."@fr;
-  sh:ignoredProperties _:node1heac2k2rx28 .
+  sh:ignoredProperties _:node1heaol6u2x28 .
 
-_:node1heac2k2rx28 rdf:first rdf:type;
+_:node1heaol6u2x28 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:P100001r sh:nodeKind sh:IRI;
@@ -444,9 +444,9 @@ rdafr:P100008r a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "La classe ‘propriété réifiée’ permet d'ajouter des assertions sur toutes les propriétés de l’ontologie qui correspondent aux attributs des entités du code RDA-FR."@fr;
-  sh:ignoredProperties _:node1heac2k2rx29 .
+  sh:ignoredProperties _:node1heaol6u2x29 .
 
-_:node1heac2k2rx29 rdf:first rdf:type;
+_:node1heaol6u2x29 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:P100008r sh:nodeKind sh:IRI;
@@ -460,9 +460,9 @@ skos:Concept a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Un concept SKOS peut être vu comme une idée ou une notion; une unité de pensée."@fr;
-  sh:ignoredProperties _:node1heac2k2rx30 .
+  sh:ignoredProperties _:node1heaol6u2x30 .
 
-_:node1heac2k2rx30 rdf:first rdf:type;
+_:node1heaol6u2x30 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 skos:Concept sh:nodeKind sh:IRI;
@@ -476,9 +476,9 @@ rdafr:Langue a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Langue d'une chaîne de caractères."@fr;
-  sh:ignoredProperties _:node1heac2k2rx31 .
+  sh:ignoredProperties _:node1heaol6u2x31 .
 
-_:node1heac2k2rx31 rdf:first rdf:type;
+_:node1heaol6u2x31 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:Langue sh:nodeKind sh:IRI;
@@ -492,9 +492,9 @@ rdafr:Ecriture a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Système d'écriture de la chaîne de caractères."@fr;
-  sh:ignoredProperties _:node1heac2k2rx32 .
+  sh:ignoredProperties _:node1heaol6u2x32 .
 
-_:node1heac2k2rx32 rdf:first rdf:type;
+_:node1heaol6u2x32 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:Ecriture sh:nodeKind sh:IRI;
@@ -514,9 +514,9 @@ d’autorité de noms, etc.) ;
 - des schémas d’encodage de valeurs (listes de vedettes matière, thésaurus, classifications systématiques, listes
 d’autorité de noms, etc.) ;
 − et des schémas d’encodage syntaxiques (normes d’encodage des dates, etc.)."""@fr;
-  sh:ignoredProperties _:node1heac2k2rx33 .
+  sh:ignoredProperties _:node1heaol6u2x33 .
 
-_:node1heac2k2rx33 rdf:first rdf:type;
+_:node1heaol6u2x33 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:SchemaEncodage sh:nodeKind sh:IRI;
@@ -530,9 +530,9 @@ rdafr:CategorieNomen a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Type auquel le nomen appartient (ex. : point d'accès, identifiant, titre, etc.)"@fr;
-  sh:ignoredProperties _:node1heac2k2rx34 .
+  sh:ignoredProperties _:node1heaol6u2x34 .
 
-_:node1heac2k2rx34 rdf:first rdf:type;
+_:node1heaol6u2x34 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:CategorieNomen sh:nodeKind sh:IRI;
@@ -546,9 +546,9 @@ rdafr:SystemeConversion a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Règle, système ou norme utilisée pour créer la chaîne d’un nomen à partir de la chaîne d’un autre nomen notée dans une écriture différente (par exemple, un système de translittération)."@fr;
-  sh:ignoredProperties _:node1heac2k2rx35 .
+  sh:ignoredProperties _:node1heaol6u2x35 .
 
-_:node1heac2k2rx35 rdf:first rdf:type;
+_:node1heaol6u2x35 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:SystemeConversion sh:nodeKind sh:IRI;
@@ -563,9 +563,9 @@ rdafr:Genre a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Le genre auquel une personne s'identifie. [code RDA-FR, 9.3.3]"@fr;
-  sh:ignoredProperties _:node1heac2k2rx36 .
+  sh:ignoredProperties _:node1heaol6u2x36 .
 
-_:node1heac2k2rx36 rdf:first rdf:type;
+_:node1heaol6u2x36 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:Genre sh:nodeKind sh:IRI;
@@ -579,9 +579,9 @@ rdafr:NiveauFiabilite a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Indication sur le niveau de fiabilité de l'information."@fr;
-  sh:ignoredProperties _:node1heac2k2rx37 .
+  sh:ignoredProperties _:node1heaol6u2x37 .
 
-_:node1heac2k2rx37 rdf:first rdf:type;
+_:node1heaol6u2x37 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:NiveauFiabilite sh:nodeKind sh:IRI;
@@ -595,9 +595,9 @@ rdafr:Calendrier a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Type de calendrier utilisé pour exprimer un laps de temps (julien, grégorien, hégire...)."@fr;
-  sh:ignoredProperties _:node1heac2k2rx38 .
+  sh:ignoredProperties _:node1heaol6u2x38 .
 
-_:node1heac2k2rx38 rdf:first rdf:type;
+_:node1heaol6u2x38 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:Calendrier sh:nodeKind sh:IRI;
@@ -612,9 +612,9 @@ rdafr:CategorieIdentitePublique a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Précision sur la nature du nom sur lequel est fondée l'identité publique (par exemple : nom réel, pseudonyme...) [code RDA-FR, 9.1.1]"@fr;
-  sh:ignoredProperties _:node1heac2k2rx39 .
+  sh:ignoredProperties _:node1heaol6u2x39 .
 
-_:node1heac2k2rx39 rdf:first rdf:type;
+_:node1heaol6u2x39 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:CategorieIdentitePublique sh:nodeKind sh:IRI;
@@ -626,9 +626,9 @@ rdafr:ModaliteParution a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heac2k2rx40 .
+  sh:ignoredProperties _:node1heaol6u2x40 .
 
-_:node1heac2k2rx40 rdf:first rdf:type;
+_:node1heaol6u2x40 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:ModaliteParution sh:nodeKind sh:IRI;
@@ -639,9 +639,9 @@ rdafr:NiveauAutonomie a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heac2k2rx41 .
+  sh:ignoredProperties _:node1heaol6u2x41 .
 
-_:node1heac2k2rx41 rdf:first rdf:type;
+_:node1heaol6u2x41 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:NiveauAutonomie sh:nodeKind sh:IRI;
@@ -652,9 +652,9 @@ rdafr:TypeMediation a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heac2k2rx42 .
+  sh:ignoredProperties _:node1heaol6u2x42 .
 
-_:node1heac2k2rx42 rdf:first rdf:type;
+_:node1heaol6u2x42 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:TypeMediation sh:nodeKind sh:IRI;
@@ -665,9 +665,9 @@ rdafr:TypeSupport a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heac2k2rx43 .
+  sh:ignoredProperties _:node1heaol6u2x43 .
 
-_:node1heac2k2rx43 rdf:first rdf:type;
+_:node1heaol6u2x43 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:TypeSupport sh:nodeKind sh:IRI;
@@ -678,9 +678,9 @@ rdafr:MateriauBase a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heac2k2rx44 .
+  sh:ignoredProperties _:node1heaol6u2x44 .
 
-_:node1heac2k2rx44 rdf:first rdf:type;
+_:node1heaol6u2x44 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:MateriauBase sh:nodeKind sh:IRI;
@@ -691,9 +691,9 @@ rdafr:MateriauApplique a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heac2k2rx45 .
+  sh:ignoredProperties _:node1heaol6u2x45 .
 
-_:node1heac2k2rx45 rdf:first rdf:type;
+_:node1heaol6u2x45 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:MateriauApplique sh:nodeKind sh:IRI;
@@ -704,9 +704,9 @@ rdafr:MethodeProduction a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heac2k2rx46 .
+  sh:ignoredProperties _:node1heaol6u2x46 .
 
-_:node1heac2k2rx46 rdf:first rdf:type;
+_:node1heaol6u2x46 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:MethodeProduction sh:nodeKind sh:IRI;
@@ -717,9 +717,9 @@ rdafr:Generation a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heac2k2rx47 .
+  sh:ignoredProperties _:node1heaol6u2x47 .
 
-_:node1heac2k2rx47 rdf:first rdf:type;
+_:node1heaol6u2x47 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:Generation sh:nodeKind sh:IRI;
@@ -730,9 +730,9 @@ rdafr:Disposition a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heac2k2rx48 .
+  sh:ignoredProperties _:node1heaol6u2x48 .
 
-_:node1heac2k2rx48 rdf:first rdf:type;
+_:node1heaol6u2x48 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:Disposition sh:nodeKind sh:IRI;
@@ -743,9 +743,9 @@ rdafr:FormatBibliographique a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heac2k2rx49 .
+  sh:ignoredProperties _:node1heaol6u2x49 .
 
-_:node1heac2k2rx49 rdf:first rdf:type;
+_:node1heaol6u2x49 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:FormatBibliographique sh:nodeKind sh:IRI;
@@ -756,9 +756,9 @@ rdafr:TypePoliceCaracteres a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heac2k2rx50 .
+  sh:ignoredProperties _:node1heaol6u2x50 .
 
-_:node1heac2k2rx50 rdf:first rdf:type;
+_:node1heaol6u2x50 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:TypePoliceCaracteres sh:nodeKind sh:IRI;
@@ -769,9 +769,9 @@ rdafr:TailleCaracteres a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heac2k2rx51 .
+  sh:ignoredProperties _:node1heaol6u2x51 .
 
-_:node1heac2k2rx51 rdf:first rdf:type;
+_:node1heaol6u2x51 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:TailleCaracteres sh:nodeKind sh:IRI;
@@ -782,9 +782,9 @@ rdafr:Polarite a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heac2k2rx52 .
+  sh:ignoredProperties _:node1heaol6u2x52 .
 
-_:node1heac2k2rx52 rdf:first rdf:type;
+_:node1heaol6u2x52 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:Polarite sh:nodeKind sh:IRI;
@@ -795,9 +795,9 @@ rdafr:FacteurReduction a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heac2k2rx53 .
+  sh:ignoredProperties _:node1heaol6u2x53 .
 
-_:node1heac2k2rx53 rdf:first rdf:type;
+_:node1heaol6u2x53 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:FacteurReduction sh:nodeKind sh:IRI;
@@ -808,9 +808,9 @@ rdafr:VitesseLecture a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heac2k2rx54 .
+  sh:ignoredProperties _:node1heaol6u2x54 .
 
-_:node1heac2k2rx54 rdf:first rdf:type;
+_:node1heaol6u2x54 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:VitesseLecture sh:nodeKind sh:IRI;
@@ -821,9 +821,9 @@ rdafr:FormatSupportElectronique a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heac2k2rx55 .
+  sh:ignoredProperties _:node1heaol6u2x55 .
 
-_:node1heac2k2rx55 rdf:first rdf:type;
+_:node1heaol6u2x55 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:FormatSupportElectronique sh:nodeKind sh:IRI;
@@ -834,9 +834,9 @@ rdafr:TypeFichier a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heac2k2rx56 .
+  sh:ignoredProperties _:node1heaol6u2x56 .
 
-_:node1heac2k2rx56 rdf:first rdf:type;
+_:node1heaol6u2x56 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:TypeFichier sh:nodeKind sh:IRI;
@@ -847,9 +847,9 @@ rdafr:FormatProjection a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heac2k2rx57 .
+  sh:ignoredProperties _:node1heaol6u2x57 .
 
-_:node1heac2k2rx57 rdf:first rdf:type;
+_:node1heaol6u2x57 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:FormatProjection sh:nodeKind sh:IRI;
@@ -860,9 +860,9 @@ rdafr:FormatSupportVideo a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heac2k2rx58 .
+  sh:ignoredProperties _:node1heaol6u2x58 .
 
-_:node1heac2k2rx58 rdf:first rdf:type;
+_:node1heaol6u2x58 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:FormatSupportVideo sh:nodeKind sh:IRI;
@@ -873,9 +873,9 @@ rdafr:NormeDiffusion a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heac2k2rx59 .
+  sh:ignoredProperties _:node1heaol6u2x59 .
 
-_:node1heac2k2rx59 rdf:first rdf:type;
+_:node1heaol6u2x59 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:NormeDiffusion sh:nodeKind sh:IRI;
@@ -886,9 +886,9 @@ rdafr:FamilleSupport a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heac2k2rx60 .
+  sh:ignoredProperties _:node1heaol6u2x60 .
 
-_:node1heac2k2rx60 rdf:first rdf:type;
+_:node1heaol6u2x60 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:FamilleSupport sh:nodeKind sh:IRI;
@@ -899,9 +899,9 @@ rdafr:TechniqueSpatialisationSon a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heac2k2rx61 .
+  sh:ignoredProperties _:node1heaol6u2x61 .
 
-_:node1heac2k2rx61 rdf:first rdf:type;
+_:node1heaol6u2x61 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:TechniqueSpatialisationSon sh:nodeKind sh:IRI;
@@ -912,9 +912,9 @@ rdafr:TechniqueReductionBruit a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heac2k2rx62 .
+  sh:ignoredProperties _:node1heaol6u2x62 .
 
-_:node1heac2k2rx62 rdf:first rdf:type;
+_:node1heaol6u2x62 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:TechniqueReductionBruit sh:nodeKind sh:IRI;
@@ -925,9 +925,9 @@ rdafr:FormatImageAnimee a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heac2k2rx63 .
+  sh:ignoredProperties _:node1heaol6u2x63 .
 
-_:node1heac2k2rx63 rdf:first rdf:type;
+_:node1heaol6u2x63 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:FormatImageAnimee sh:nodeKind sh:IRI;
@@ -938,9 +938,9 @@ rdafr:Reliure a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heac2k2rx64 .
+  sh:ignoredProperties _:node1heaol6u2x64 .
 
-_:node1heac2k2rx64 rdf:first rdf:type;
+_:node1heaol6u2x64 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:Reliure sh:nodeKind sh:IRI;
@@ -951,9 +951,9 @@ rdafr:TypeConteneur a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heac2k2rx65 .
+  sh:ignoredProperties _:node1heaol6u2x65 .
 
-_:node1heac2k2rx65 rdf:first rdf:type;
+_:node1heaol6u2x65 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:TypeConteneur sh:nodeKind sh:IRI;
@@ -964,14 +964,14 @@ rdafr:TypeContenu a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heac2k2rx66 .
+  sh:ignoredProperties _:node1heaol6u2x66 .
 
-_:node1heac2k2rx66 rdf:first rdf:type;
+_:node1heaol6u2x66 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
-rdafr:TypeContenu sh:ignoredProperties _:node1heac2k2rx73 .
+rdafr:TypeContenu sh:ignoredProperties _:node1heaol6u2x73 .
 
-_:node1heac2k2rx73 rdf:first rdf:type;
+_:node1heaol6u2x73 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:TypeContenu sh:nodeKind sh:IRI;
@@ -982,9 +982,9 @@ rdafr:DesignationPresentationMusicale a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heac2k2rx67 .
+  sh:ignoredProperties _:node1heaol6u2x67 .
 
-_:node1heac2k2rx67 rdf:first rdf:type;
+_:node1heaol6u2x67 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:DesignationPresentationMusicale sh:nodeKind sh:IRI;
@@ -995,9 +995,9 @@ rdafr:QuantificationContenu a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heac2k2rx68 .
+  sh:ignoredProperties _:node1heaol6u2x68 .
 
-_:node1heac2k2rx68 rdf:first rdf:type;
+_:node1heaol6u2x68 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:QuantificationContenu sh:nodeKind sh:IRI;
@@ -1008,9 +1008,9 @@ rdafr:NatureContenuSupplementaireIllustratif a rdfs:Class, owl:Class, sh:NodeSha
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heac2k2rx69 .
+  sh:ignoredProperties _:node1heaol6u2x69 .
 
-_:node1heac2k2rx69 rdf:first rdf:type;
+_:node1heaol6u2x69 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:NatureContenuSupplementaireIllustratif sh:nodeKind sh:IRI;
@@ -1021,9 +1021,9 @@ rdafr:Couleur a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heac2k2rx70 .
+  sh:ignoredProperties _:node1heaol6u2x70 .
 
-_:node1heac2k2rx70 rdf:first rdf:type;
+_:node1heaol6u2x70 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:Couleur sh:nodeKind sh:IRI;
@@ -1034,9 +1034,9 @@ rdafr:TypeAccesDemat a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heac2k2rx71 .
+  sh:ignoredProperties _:node1heaol6u2x71 .
 
-_:node1heac2k2rx71 rdf:first rdf:type;
+_:node1heaol6u2x71 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:TypeAccesDemat sh:nodeKind sh:IRI;
@@ -1047,9 +1047,9 @@ rdafr:CategorieLieu a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heac2k2rx72 .
+  sh:ignoredProperties _:node1heaol6u2x72 .
 
-_:node1heac2k2rx72 rdf:first rdf:type;
+_:node1heaol6u2x72 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:CategorieLieu sh:nodeKind sh:IRI;
@@ -1060,9 +1060,9 @@ rdafr:AspectTraduction a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heac2k2rx74 .
+  sh:ignoredProperties _:node1heaol6u2x74 .
 
-_:node1heac2k2rx74 rdf:first rdf:type;
+_:node1heaol6u2x74 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:AspectTraduction sh:nodeKind sh:IRI;
@@ -1073,9 +1073,9 @@ rdafr:PerimetreApplicationLangue a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heac2k2rx75 .
+  sh:ignoredProperties _:node1heaol6u2x75 .
 
-_:node1heac2k2rx75 rdf:first rdf:type;
+_:node1heaol6u2x75 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:PerimetreApplicationLangue sh:nodeKind sh:IRI;
@@ -1086,9 +1086,9 @@ rdafr:TypeCaptation a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heac2k2rx76 .
+  sh:ignoredProperties _:node1heaol6u2x76 .
 
-_:node1heac2k2rx76 rdf:first rdf:type;
+_:node1heaol6u2x76 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:TypeCaptation sh:nodeKind sh:IRI;
@@ -1099,9 +1099,9 @@ rdafr:FormeNotationMusicale a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heac2k2rx77 .
+  sh:ignoredProperties _:node1heaol6u2x77 .
 
-_:node1heac2k2rx77 rdf:first rdf:type;
+_:node1heaol6u2x77 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:FormeNotationMusicale sh:nodeKind sh:IRI;
@@ -1112,9 +1112,9 @@ rdafr:FormeNotationTactile a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heac2k2rx78 .
+  sh:ignoredProperties _:node1heaol6u2x78 .
 
-_:node1heac2k2rx78 rdf:first rdf:type;
+_:node1heaol6u2x78 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:FormeNotationTactile sh:nodeKind sh:IRI;
@@ -1125,9 +1125,9 @@ rdafr:FormeNotationMouvement a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heac2k2rx79 .
+  sh:ignoredProperties _:node1heaol6u2x79 .
 
-_:node1heac2k2rx79 rdf:first rdf:type;
+_:node1heaol6u2x79 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:FormeNotationMouvement sh:nodeKind sh:IRI;
@@ -1138,9 +1138,9 @@ rdafr:CaracteristiqueCouleur a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heac2k2rx80 .
+  sh:ignoredProperties _:node1heaol6u2x80 .
 
-_:node1heac2k2rx80 rdf:first rdf:type;
+_:node1heaol6u2x80 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:CaracteristiqueCouleur sh:nodeKind sh:IRI;
@@ -1151,9 +1151,9 @@ rdafr:CaracteristiqueSonore a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heac2k2rx81 .
+  sh:ignoredProperties _:node1heaol6u2x81 .
 
-_:node1heac2k2rx81 rdf:first rdf:type;
+_:node1heaol6u2x81 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:CaracteristiqueSonore sh:nodeKind sh:IRI;
@@ -1164,9 +1164,9 @@ rdafr:FormeExpression a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heac2k2rx82 .
+  sh:ignoredProperties _:node1heaol6u2x82 .
 
-_:node1heac2k2rx82 rdf:first rdf:type;
+_:node1heaol6u2x82 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:FormeExpression sh:nodeKind sh:IRI;
@@ -1177,9 +1177,9 @@ rdafr:CouvertureAgregat a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heac2k2rx83 .
+  sh:ignoredProperties _:node1heaol6u2x83 .
 
-_:node1heac2k2rx83 rdf:first rdf:type;
+_:node1heaol6u2x83 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:CouvertureAgregat sh:nodeKind sh:IRI;
@@ -1190,9 +1190,9 @@ rdafr:ImportanceRelativeFormeExpression a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heac2k2rx84 .
+  sh:ignoredProperties _:node1heaol6u2x84 .
 
-_:node1heac2k2rx84 rdf:first rdf:type;
+_:node1heaol6u2x84 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:ImportanceRelativeFormeExpression sh:nodeKind sh:IRI;
@@ -1203,9 +1203,9 @@ rdafr:PlanExtensionOeuvre a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heac2k2rx85 .
+  sh:ignoredProperties _:node1heaol6u2x85 .
 
-_:node1heac2k2rx85 rdf:first rdf:type;
+_:node1heaol6u2x85 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:PlanExtensionOeuvre sh:nodeKind sh:IRI;
@@ -1216,9 +1216,9 @@ rdafr:CategorieOeuvre a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heac2k2rx86 .
+  sh:ignoredProperties _:node1heaol6u2x86 .
 
-_:node1heac2k2rx86 rdf:first rdf:type;
+_:node1heaol6u2x86 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:CategorieOeuvre sh:nodeKind sh:IRI;
