@@ -19,9 +19,9 @@ jobs:
 
       - name: "Transformation de l'ontologie au format RDF"
         run : |
-          java -jar xls2rdf.jar convert -i data.xlsx -o ./ontologie/data.nt -np -l fr -f text/plain
-          java -jar xls2rdf.jar convert -i data.xlsx -o ./ontologie/data.ttl -np -l fr -f ttl
-          java -jar xls2rdf.jar convert -i data.xlsx -o ./ontologie/data.rdf -np -l fr -f application/rdf+xml
+          java -jar xls2rdf.jar convert -i data.xlsx -o ./ontologie/rdafr.nt -np -l fr -f text/plain
+          java -jar xls2rdf.jar convert -i data.xlsx -o ./ontologie/rdafr.ttl -np -l fr -f ttl
+          java -jar xls2rdf.jar convert -i data.xlsx -o ./ontologie/rdafr.rdf -np -l fr -f application/rdf+xml
           
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
