@@ -21,6 +21,8 @@ jobs:
 
       - name: "Transformation des vocabulaires au format SKOS (ttl)"
         run : |
+          # On supprime les anciens vocabulaires pour être sûr que les tableaux soient la seule source.
+          rm vocabulaire/*.ttl
           # On génère un zip avec un fichier ttl par vocabulaire. 
           # Ces fichiers sont destinés à être distribués et sont commités dans le dépôt.
           java -jar /tmp/xls2rdf.jar convert -i /tmp/vocabulaires.xlsx -l fr -o /tmp/vocabulaires.zip -f text/turtle
@@ -28,7 +30,11 @@ jobs:
           unzip /tmp/vocabulaires.zip -d /tmp/
           
           # On renomme les fichiers en enlevant l'URL dans le nom de chaque fichier
-          for i in /tmp/*.ttl; do mv -f $i vocabulaire/${i#https%3A%2F%2Frdafr.fr%2Fvocabulary%2F}; done
+          for i in /tmp/*.ttl; do 
+            filename=$(basename -- $i)
+            cleaned_filename=${filename#https%3A%2F%2Frdafr.fr%2Fvocabulary%2F}
+            mv -f $i vocabulaire/$cleaned_filename; 
+          done
 
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
