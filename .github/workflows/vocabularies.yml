@@ -33,7 +33,7 @@ jobs:
           for i in /tmp/*.ttl; do 
             filename=$(basename -- $i)
             cleaned_filename=${filename#https%3A%2F%2Frdafr.fr%2Fvocabulary%2F}
-            mv -f $i vocabulaire/$cleaned_filename; 
+            mv $i vocabulaire/$cleaned_filename; 
           done
 
       - uses: stefanzweifel/git-auto-commit-action@v4
