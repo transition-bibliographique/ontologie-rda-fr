@@ -12,10 +12,12 @@
     <xsl:strip-space elements="*"/>
     
    <xsl:template match="/">
-       <xsl:comment>Ce fichier est généré automatiquement. Il ne doit pas être édité manuellement.</xsl:comment>
-       <xsl:text>&#10;&#10;# Vocabulaires contrôlés&#10;&#10;</xsl:text>
+       <xsl:text># Vocabulaires contrôlés&#10;&#10;</xsl:text>
        
        <xsl:call-template name="liste-vocab"/>
+
+       <xsl:text>&#10;&#10;</xsl:text> 
+       <xsl:comment>Ce fichier est généré automatiquement. Il ne doit pas être édité manuellement.</xsl:comment>
    </xsl:template>
 
     <xsl:template name="liste-vocab">
