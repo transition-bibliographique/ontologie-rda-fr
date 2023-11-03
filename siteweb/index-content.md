@@ -8,12 +8,12 @@ L’ontologie RDA-FR, en cours d’élaboration, est une représentation formell
 
 **Avertissement** : tout au long du processus d’élaboration, la version publiée est susceptible d’évoluer (par des compléments ou des corrections) en fonction des décisions du groupe de travail. Ces évolutions seront documentées au fil des publications.
 
-<div align=center>
+<div align="center">
 
 _Vue globale de la hiérarchie des classes de l’ontologie RDA-FR._  \
 _Seules sont traitées dans cette version bêta les classes non grisées ci-dessous._
 
-![image](https://github.com/transition-bibliographique/ontologie-rda-fr/assets/60341438/cdcdb209-71ae-45e7-8d84-6426e96b2f4c)
+![Vue globale de la hiérarchie des classes de l’ontologie RDA-FR](https://github.com/transition-bibliographique/ontologie-rda-fr/assets/60341438/cdcdb209-71ae-45e7-8d84-6426e96b2f4c)
 
 </div>
 
@@ -40,7 +40,7 @@ Dans le système des classes et propriétés :
 * La classe **_Groupe informel_**, absente du code RDA-FR, est créée dans l’ontologie RDA-FR comme sous-classe de la classe Agent collectif, pour permettre de traiter comme groupes du monde réel les groupes de personnes qui ne sont ni des familles ni des collectivités. C’est le cas, notamment, des groupes identifiés par un pseudonyme collectif dont le nom se présente formellement comme un nom de personne (le pseudonyme collectif, lui-même, relève de la classe Identité publique). Cette classe permet d’établir, par exemple, la relation de création entre le groupe informel et son œuvre, ou la relation entre le groupe et les personnes qui le composent.
 * La classe **_Identité publique_**, spécifique à l’ontologie RDA-FR, reflète l’approche du chapitre 9 du code RDA-FR Identification des personnes et de leurs identités publiques, qui distingue clairement les personnes de leurs identités publiques. Une personne ou un groupe informel a toujours au moins une identité publique. Le modèle IFLA LRM appréhende l’Identité publique comme une grappe de Nomen (voir [IFLA LRM, 2017, traduction française](https://repository.ifla.org/bitstream/123456789/1703/1/IFLA-LRM-traduction-francaise.pdf), paragraphe 5.5 Modélisation des identités bibliographiques). C’est pour cette raison que dans l’ontologie RDA-FR, la classe Identité publique est déclarée comme une sous-classe de la classe racine ‘Entité RDA-FR’.
 
-<div align=center>
+<div align="center">
   
 _Schéma représentant les relations entre la classe Identité publique et les classes Personne ou Groupe informel, ainsi que les relations de ces dernières avec la classe Oeuvre_
 ![image](https://github.com/transition-bibliographique/ontologie-rda-fr/assets/60341438/9f4d9927-b02e-44dc-b86f-04de6d74262a)
@@ -53,7 +53,7 @@ _Schéma représentant les relations entre la classe Identité publique et les c
 
 Les référentiels associés aux entités du code RDA-FR sont traités dans l’ontologie comme des vocabulaires contrôlés. Pour leur gestion, l’ontologie RDA-FR fait appel au standard du W3C [SKOS Simple Knowledge Organization System](https://www.w3.org/2009/08/skos-reference/skos.html). Ainsi les vocabulaires contrôlés de l’ontologie RDA-FR relèvent de la classe **_[skos:ConceptScheme](http://www.w3.org/2004/02/skos/core#ConceptScheme)_** de ce standard. 
 
-Les référentiels propres au code RDA-FR et ceux repris de RDA avec adaptations et/ou enrichissements, sont tous déclarés dans l’espace de nom [https://rdafr.fr](https://rdafr.fr), sous [https://rdafr.fr/vocabulary/](https://rdafr.fr/vocabulary/). 
+Les référentiels propres au code RDA-FR et ceux repris de RDA avec adaptations et/ou enrichissements, sont tous déclarés dans l’espace de nom [https://rdafr.fr](https://rdafr.fr), sous [https://rdafr.fr/vocabulary/](/vocabulary/). 
 
 Pour les référentiels régis par des normes internationales ISO, en raison d’absence de leur déclaration en Linked Data par l’ISO même, une démarche pragmatique est adoptée. Notamment : 
 
@@ -73,7 +73,7 @@ Pour permettre l’ajout d’assertions sur les propriétés (ou des “méta-m�
 Font exception de cette règle :  les propriétés d’appellation, comme ‘a pour nom de la collectivité’, ‘a pour titre de la manifestation’ qui pointent vers la classe Nomen, ainsi que les propriétés de datation qui pointent vers la classe Laps de temps. 
 
 
-<div align=center>
+<div align="center">
 
 _Exemple de réification de la propriété ‘a pour domaine d’activité de la personne’_
 ![Exemple de réification de la propriété ‘a pour domaine d’activité de la personne’](https://github.com/transition-bibliographique/ontologie-rda-fr/assets/60341438/59c584b7-6b14-4f28-a60c-5f74ada2f19e)
@@ -83,7 +83,7 @@ _Exemple de réification de la propriété ‘a pour domaine d’activité de la
 * la classe P100001r **_‘est en relation avec’_** a été introduite pour permettre d’ajouter des assertions sur toutes les propriétés qui expriment une relation entre des instances de deux classes de l’ontologie (et qui, de fait, correspondent aux relations entre instances d’entités du code RDA-FR). Elle permet par exemple de donner des précisions (source, période, etc.) sur une relation de type _‘est élève de’ / ‘est enseignant de’_ entre deux personnes. Chaque propriété de ce type est systématiquement réifiée par une classe dont l’URI est la même que celle de la propriété. Cette classe est déclarée comme une sous classe de la classe P100001r _‘est en relation avec’_. \
 Font exception de cette règle les relations dites fondamentales du modèle IFLA LRM entre les classes Oeuvre, Expression, Manifestation et Item.
 
-<div align=center>
+<div align="center">
 
 _Exemple de réification de la relation ‘est élève de’ / ‘est enseignant de’_ 
 ![Exemple de réification de la relation ‘est élève de’ / ‘est enseignant de](https://github.com/transition-bibliographique/ontologie-rda-fr/assets/60341438/5411cd8b-81c5-4c91-aeb6-563027cc050d)
@@ -95,8 +95,8 @@ _Exemple de réification de la relation ‘est élève de’ / ‘est enseignant
 Dans le code RDA-FR il existe des propriétés (relations ou attributs du code RDA-FR) qui peuvent être établies entre plusieurs entités. 
 
 * Dans **le code RDA-FR**, elles sont déclarées expressément au niveau précis de chacune des entités auxquelles elles s’appliquent. Par exemple, on trouvera la relation ‘_collabore avec_’ déclarée à la fois, entre deux personnes, entre deux collectivités, entre une personne et une collectivité, etc. 
-* Dans **[l’ontologie RDA-FR (en OWL)](https://rdafr.fr/ontologie/)**, pour ces types de propriétés, le choix a été fait de déclarer seulement une propriété générique au niveau de la classe parente de ces classes (niveau le plus haut pertinent), en appliquant le principe d'héritage.
-* Dans **[le profil d’application de l’ontologie RDA-FR](https://rdafr.fr/profil-application/)**, ces propriétés sont déclarées non seulement au niveau générique, mais aussi au niveau précis de chacune des sous-classes auxquelles elles s’appliquent. A noter qu’à ce niveau spécifique la propriété conserve le même URI et le même libellé que cette même propriété déclarée au niveau générique. Le profil d’application (SHACL) offre la possibilité de décrire les règles métier du code RDA-FR, avec, notamment les possibilités suivantes au niveau de chaque classe : 
+* Dans **[l’ontologie RDA-FR (en OWL)](/ontologie/)**, pour ces types de propriétés, le choix a été fait de déclarer seulement une propriété générique au niveau de la classe parente de ces classes (niveau le plus haut pertinent), en appliquant le principe d'héritage.
+* Dans **[le profil d’application de l’ontologie RDA-FR](/profil-application/)**, ces propriétés sont déclarées non seulement au niveau générique, mais aussi au niveau précis de chacune des sous-classes auxquelles elles s’appliquent. A noter qu’à ce niveau spécifique la propriété conserve le même URI et le même libellé que cette même propriété déclarée au niveau générique. Le profil d’application (SHACL) offre la possibilité de décrire les règles métier du code RDA-FR, avec, notamment les possibilités suivantes au niveau de chaque classe : 
 * lorsque, **dans l’ontologie RDA-FR**, une propriété est déclarée au niveau générique d’une super-classe (ex.: Agent), mais que son application n’est pas pertinente pour une de ses sous-classes (ex.: Famille), dans le profil d’application de l’ontologie RDA-FR, cette propriété n’est simplement pas reprise au niveau de la sous-classe en question (la sous-classe Famille, le cas échéant). 
 * **dans le profil d’application de l’ontologie RDA-FR**, pour toutes ces propriétés génériques, il est possible de donner leur contexte d’application précis dans le cadre de la sous-classe précise, en donnant une définition contextuelle et en y associant des règles spécifiques lorsqu’il y a lieu, etc.
 
@@ -111,8 +111,8 @@ Le choix a été fait de publier une ontologie (OWL) et d’un profil d’applic
 
 Cette dissociation a pour avantages : 
 
-* de disposer de **[l’ontologie RDA-FR en OWL](https://rdafr.fr/ontologie/)**, porteuse de la structure de base qui exprime l’univers du discours couvert par le code RDA-FR ;
-* de mettre à disposition **[le profil d’application de l’ontologie RDA-FR](https://rdafr.fr/profil-application/)**, qui intègre les règles et les contraintes des données, gérées en langage SHACL, plus riches que celles contenues dans l’ontologie, car elles permettent d’indiquer l’utilisation ou non d’une propriété dans une sous classe, ainsi que des indications spécifiques d’utilisation ;
+* de disposer de **[l’ontologie RDA-FR en OWL](/ontologie/)**, porteuse de la structure de base qui exprime l’univers du discours couvert par le code RDA-FR ;
+* de mettre à disposition **[le profil d’application de l’ontologie RDA-FR](/profil-application/)**, qui intègre les règles et les contraintes des données, gérées en langage SHACL, plus riches que celles contenues dans l’ontologie, car elles permettent d’indiquer l’utilisation ou non d’une propriété dans une sous classe, ainsi que des indications spécifiques d’utilisation ;
 * de pouvoir adapter et enrichir ces règles sans modifier l’ontologie de base ;
 * d’exécuter les règles SHACL sur les instances du graphe de connaissance pour vérifier que les données sont cohérentes et conformes à l'ontologie.
 
@@ -122,10 +122,10 @@ Il est à souligner que l’ontologie peut avoir un trait d’avance par rapport
 
 ### Modalités techniques de publication de l’ontologie RDA-FR
 
-* La version HTML du profil d’application RDA-FR est publiée ici : [https://rdafr.fr/profil-application/](https://rdafr.fr/profil-application/)
-* La version SHACL du profil d’application (au format turtle) est publiée ici : [https://rdafr.fr/profil-application/rdafr-shacl.ttl](https://rdafr.fr/profil-application/rdafr-shacl.ttl)
-* La version HTML et OWL de l’ontologie est publiée ici : [https://rdafr.fr/ontologie/](https://test.rdafr.fr/ontologie/ontology.ttl)
-* Les vocabulaires contrôlés associées à l’ontologie sont publiés ici : [https://rdafr.fr/vocabulary/](https://test.rdafr.fr/ontologie/ontology.ttl)
+* La version HTML du profil d’application RDA-FR est publiée ici : [https://rdafr.fr/profil-application/](/profil-application)
+* La version SHACL du profil d’application (au format turtle) est publiée ici : [https://rdafr.fr/profil-application/rdafr-shacl.ttl](/profil-application/rdafr-shacl.ttl)
+* La version HTML et OWL de l’ontologie est publiée ici : [https://rdafr.fr/ontologie/](/ontologie/ontology.ttl)
+* Les vocabulaires contrôlés associées à l’ontologie sont publiés ici : [https://rdafr.fr/vocabulary/](/vocabulary)
 
 L’ensemble de l’ontologie est géré depuis le compte GitHub du programme Transition bibliographique : [https://github.com/transition-bibliographique/ontologie-rda-fr](https://github.com/transition-bibliographique/ontologie-rda-fr).
 
