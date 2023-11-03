@@ -8,7 +8,7 @@
 <https://rdafr.fr/vocabulary/vitesse-lecture> a skos:ConceptScheme;
   dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
   dct:publisher "BnF, Abes"@fr;
-  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des vitesses de lecture d'une manifestation"@fr;
+  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des vitesses de lecture d'un disque"@fr;
   skos:hasTopConcept <https://rdafr.fr/vocabulary/vitesse-lecture/1>, <https://rdafr.fr/vocabulary/vitesse-lecture/2>,
     <https://rdafr.fr/vocabulary/vitesse-lecture/3>, <https://rdafr.fr/vocabulary/vitesse-lecture/4>,
     <https://rdafr.fr/vocabulary/vitesse-lecture/5> .

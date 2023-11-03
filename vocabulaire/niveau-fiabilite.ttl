@@ -6,4 +6,4 @@
 <https://rdafr.fr/vocabulary/niveau-fiabilite> a skos:ConceptScheme;
   dct:created "2022-10-20T00:00:00.000Z"^^xsd:dateTime;
   dct:publisher "BnF, Abes"@fr;
-  dct:title "Liste des niveaux de fiabilité"@fr .
+  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des niveaux de fiabilité"@fr .
