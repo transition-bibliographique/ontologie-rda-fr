@@ -55,4 +55,4 @@ jobs:
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: "Feat : Mise à jour de la liste des vocabulaires contrôlés"
-          file_pattern: "siteweb/*.md"
+          file_pattern: "siteweb/vocabulaires/*.md"
