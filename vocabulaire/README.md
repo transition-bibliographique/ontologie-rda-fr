@@ -1,7 +1,3 @@
 # Ontologie RDA-FR : vocabulaire
 
-Le vocabulaire de l'ontologie RDA-FR.
-
-(travail en cours)
-
-
+Ce dossier contient les sauvegardes des données des vocabulaires contrôlés de l'ontologie RDAFR.
