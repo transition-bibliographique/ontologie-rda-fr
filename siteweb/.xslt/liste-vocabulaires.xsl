@@ -29,7 +29,7 @@
             </xsl:variable>
             
             <xsl:variable name="date">
-                <xsl:value-of select="format-dateTime(./dct:modified, '[D01]/[M01]/[Y0001]')"/>
+                <xsl:value-of select="format-date(./dct:modified, '[D01]/[M01]/[Y0001]')"/>
             </xsl:variable>
             
             <xsl:value-of select="concat('* **', $title, '**', ' ', $date, '&#10;')"/>            
