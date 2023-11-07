@@ -42,9 +42,9 @@ rdafr:C100001 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Toute création intellectuelle ou artistique distincte, susceptible d’être identifiée et nommée de manière univoque dans un contexte bibliographique. [code RDA-FR, 5.1.2]"@fr;
-  sh:ignoredProperties _:node1heaol6u2x6 .
+  sh:ignoredProperties _:node1hekdhtcvx6 .
 
-_:node1heaol6u2x6 rdf:first rdf:type;
+_:node1hekdhtcvx6 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100001 sh:nodeKind sh:IRI;
@@ -61,9 +61,9 @@ rdafr:C100002 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Entité ayant la capacité d’agir et ayant un rapport avec des ressources qui font l’objet d’une description documentaire. Cela inclut les personnes ou les groupes. [code RDA-FR, 8.1.2]"@fr;
-  sh:ignoredProperties _:node1heaol6u2x7 .
+  sh:ignoredProperties _:node1hekdhtcvx7 .
 
-_:node1heaol6u2x7 rdf:first rdf:type;
+_:node1hekdhtcvx7 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100002 sh:nodeKind sh:IRI;
@@ -80,9 +80,9 @@ rdafr:C100003 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Un ou plusieurs objets portant des signes chargés de véhiculer un contenu intellectuel ou artistique. Un item exemplifie une manifestation et en reflète en principe toutes les caractéristiques. [code RDA-FR, 1.1.2]"@fr;
-  sh:ignoredProperties _:node1heaol6u2x8 .
+  sh:ignoredProperties _:node1hekdhtcvx8 .
 
-_:node1heaol6u2x8 rdf:first rdf:type;
+_:node1hekdhtcvx8 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100003 sh:nodeKind sh:IRI;
@@ -99,9 +99,9 @@ rdafr:C100004 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Agent identifié comme étant un individu existant ou ayant existé. [code RDA-FR, 8.1.2 et 9]"@fr;
-  sh:ignoredProperties _:node1heaol6u2x9 .
+  sh:ignoredProperties _:node1hekdhtcvx9 .
 
-_:node1heaol6u2x9 rdf:first rdf:type;
+_:node1hekdhtcvx9 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100004 sh:nodeKind sh:IRI;
@@ -118,9 +118,9 @@ rdafr:C100005 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Agent identifié comme étant une organisation ou une partie d'organisation, ou un groupe de personnes et/ou d'organisations. Une collectivité n’est considérée comme telle que si elle est identifiée par un nom particulier et si elle agit, ou peut agir, comme une unité. [code RDA-FR, 11]"@fr;
-  sh:ignoredProperties _:node1heaol6u2x10 .
+  sh:ignoredProperties _:node1hekdhtcvx10 .
 
-_:node1heaol6u2x10 rdf:first rdf:type;
+_:node1hekdhtcvx10 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100005 sh:nodeKind sh:IRI;
@@ -137,9 +137,9 @@ rdafr:C100006 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Réalisation d’une œuvre sous la forme d’une notation (alphanumérique, musicale ou chorégraphique), de son, d’image, d’objet, de mouvement, etc. ou de toute combinaison de ces formes. [code RDA-FR, 5.1.2]"@fr;
-  sh:ignoredProperties _:node1heaol6u2x11 .
+  sh:ignoredProperties _:node1hekdhtcvx11 .
 
-_:node1heaol6u2x11 rdf:first rdf:type;
+_:node1hekdhtcvx11 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100006 sh:nodeKind sh:IRI;
@@ -156,9 +156,9 @@ rdafr:C100007 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "L’ensemble de tous les supports qui sont présumés partager les mêmes caractéristiques relatives tant au contenu intellectuel ou artistique qu’aux aspects de présentation matérielle. Cet ensemble est défini à la fois par son contenu global et par le plan de production pour son (ou ses) support(s). [code RDA-FR, 1.1.2]"@fr;
-  sh:ignoredProperties _:node1heaol6u2x12 .
+  sh:ignoredProperties _:node1hekdhtcvx12 .
 
-_:node1heaol6u2x12 rdf:first rdf:type;
+_:node1hekdhtcvx12 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100007 sh:nodeKind sh:IRI;
@@ -175,9 +175,9 @@ rdafr:C100008 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Est considéré comme relevant de la catégorie famille un ensemble de personnes liées par la naissance, le mariage, l'adoption, l'union civile ou tout autre statut légal du même ordre, ou un ensemble de personnes qui se présentent elles-mêmes comme une famille. [code RDA-FR, 10]"@fr;
-  sh:ignoredProperties _:node1heaol6u2x13 .
+  sh:ignoredProperties _:node1hekdhtcvx13 .
 
-_:node1heaol6u2x13 rdf:first rdf:type;
+_:node1hekdhtcvx13 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100008 sh:nodeKind sh:IRI;
@@ -194,9 +194,9 @@ rdafr:C100009 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Portion d’espace réel. Un lieu est déterminé par des coordonnées géographiques et pourvu d’un nom. [code RDA-FR, 16]"@fr;
-  sh:ignoredProperties _:node1heaol6u2x14 .
+  sh:ignoredProperties _:node1hekdhtcvx14 .
 
-_:node1heaol6u2x14 rdf:first rdf:type;
+_:node1hekdhtcvx14 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100009 sh:nodeKind sh:IRI;
@@ -212,9 +212,9 @@ rdafr:C100010 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Plage temporelle ayant un début, une fin et une durée."@fr;
-  sh:ignoredProperties _:node1heaol6u2x15 .
+  sh:ignoredProperties _:node1hekdhtcvx15 .
 
-_:node1heaol6u2x15 rdf:first rdf:type;
+_:node1hekdhtcvx15 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100010 sh:nodeKind sh:IRI;
@@ -230,9 +230,9 @@ rdafr:C100011 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Groupement ou association de personnes portant un nom particulier et disposant de la faculté d'agir collectivement."@fr;
-  sh:ignoredProperties _:node1heaol6u2x16 .
+  sh:ignoredProperties _:node1hekdhtcvx16 .
 
-_:node1heaol6u2x16 rdf:first rdf:type;
+_:node1hekdhtcvx16 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100011 sh:nodeKind sh:IRI;
@@ -248,9 +248,9 @@ rdafr:C100012 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Une association entre une entité et une désignation qui y réfère ."@fr;
-  sh:ignoredProperties _:node1heaol6u2x17 .
+  sh:ignoredProperties _:node1hekdhtcvx17 .
 
-_:node1heaol6u2x17 rdf:first rdf:type;
+_:node1hekdhtcvx17 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100012 sh:nodeKind sh:IRI;
@@ -266,9 +266,9 @@ rdafr:C100013 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Classe abstraite de plus haut niveau de l'univers de discours couvert par l'ontologie RDA-FR. Elle comprend toutes les entités qui sont définies dans le code RDA-FR. Toutes les classes définies pour les besoins de fonctionnement de l'ontologie RDA-FR sont également des sous-classes de celle ci."@fr;
-  sh:ignoredProperties _:node1heaol6u2x18 .
+  sh:ignoredProperties _:node1hekdhtcvx18 .
 
-_:node1heaol6u2x18 rdf:first rdf:type;
+_:node1hekdhtcvx18 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100013 sh:nodeKind sh:IRI;
@@ -284,9 +284,9 @@ rdafr:C100015 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Identité d’un agent qui est connue ou a été rendue publique. [code RDA-FR, 8.1.2 et 9]"@fr;
-  sh:ignoredProperties _:node1heaol6u2x19 .
+  sh:ignoredProperties _:node1hekdhtcvx19 .
 
-_:node1heaol6u2x19 rdf:first rdf:type;
+_:node1hekdhtcvx19 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100015 sh:nodeKind sh:IRI;
@@ -300,9 +300,9 @@ rdafr:C100017 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "En attente de traitement dans l'ontologie RDA-FR"@fr;
-  sh:ignoredProperties _:node1heaol6u2x20 .
+  sh:ignoredProperties _:node1hekdhtcvx20 .
 
-_:node1heaol6u2x20 rdf:first rdf:type;
+_:node1hekdhtcvx20 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100017 sh:nodeKind sh:IRI;
@@ -316,9 +316,9 @@ rdafr:C100018 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "En attente de traitement dans l'ontologie RDA-FR"@fr;
-  sh:ignoredProperties _:node1heaol6u2x21 .
+  sh:ignoredProperties _:node1hekdhtcvx21 .
 
-_:node1heaol6u2x21 rdf:first rdf:type;
+_:node1hekdhtcvx21 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100018 sh:nodeKind sh:IRI;
@@ -332,9 +332,9 @@ rdafr:C100019 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "En attente de traitement dans l'ontologie RDA-FR"@fr;
-  sh:ignoredProperties _:node1heaol6u2x22 .
+  sh:ignoredProperties _:node1hekdhtcvx22 .
 
-_:node1heaol6u2x22 rdf:first rdf:type;
+_:node1hekdhtcvx22 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100019 sh:nodeKind sh:IRI;
@@ -348,9 +348,9 @@ rdafr:C100020 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "En attente de traitement dans l'ontologie RDA-FR"@fr;
-  sh:ignoredProperties _:node1heaol6u2x23 .
+  sh:ignoredProperties _:node1hekdhtcvx23 .
 
-_:node1heaol6u2x23 rdf:first rdf:type;
+_:node1hekdhtcvx23 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100020 sh:nodeKind sh:IRI;
@@ -364,9 +364,9 @@ rdafr:C100021 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "En attente de traitement dans l'ontologie RDA-FR"@fr;
-  sh:ignoredProperties _:node1heaol6u2x24 .
+  sh:ignoredProperties _:node1hekdhtcvx24 .
 
-_:node1heaol6u2x24 rdf:first rdf:type;
+_:node1hekdhtcvx24 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100021 sh:nodeKind sh:IRI;
@@ -380,9 +380,9 @@ rdafr:C100022 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "En attente de traitement dans l'ontologie RDA-FR"@fr;
-  sh:ignoredProperties _:node1heaol6u2x25 .
+  sh:ignoredProperties _:node1hekdhtcvx25 .
 
-_:node1heaol6u2x25 rdf:first rdf:type;
+_:node1hekdhtcvx25 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100022 sh:nodeKind sh:IRI;
@@ -396,9 +396,9 @@ rdafr:C100023 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "En attente de traitement dans l'ontologie RDA-FR"@fr;
-  sh:ignoredProperties _:node1heaol6u2x26 .
+  sh:ignoredProperties _:node1hekdhtcvx26 .
 
-_:node1heaol6u2x26 rdf:first rdf:type;
+_:node1hekdhtcvx26 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100023 sh:nodeKind sh:IRI;
@@ -412,9 +412,9 @@ rdafr:C100025 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Agent étant identifié comme un groupe de personnes qui n'est ni une famille ni une collectivité et dont le nom se présente formellement comme un nom de personne (nom traditionnellement désigné par le terme \"pseudonyme collectif\")."@fr;
-  sh:ignoredProperties _:node1heaol6u2x27 .
+  sh:ignoredProperties _:node1hekdhtcvx27 .
 
-_:node1heaol6u2x27 rdf:first rdf:type;
+_:node1hekdhtcvx27 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100025 sh:nodeKind sh:IRI;
@@ -422,15 +422,15 @@ rdafr:C100025 sh:nodeKind sh:IRI;
   sh:targetClass rdafr:C100025 .
 
 rdafr:P100001r a rdfs:Class, owl:Class, sh:NodeShape;
-  rdfs:comment "La classe ‘relation réifiée’ permet d’ajouter des assertions sur toutes les propriétés qui expriment une relation entre des instances de deux classes de l’ontologie (et qui, de fait, correspondent aux relations entre instances d’entités du code RDA-FR)."@fr;
+  rdfs:comment "La classe ‘est en relation avec’ permet d’ajouter des assertions sur toutes les propriétés qui expriment une relation entre des instances de deux classes de l’ontologie (et qui, de fait, correspondent aux relations entre instances d’entités du code RDA-FR)."@fr;
   rdfs:label "est en relation avec"@fr;
   rdfs:subClassOf owl:Thing;
-  owl:versionInfo "0.1.0"@fr;
+  owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:description "La classe ‘relation réifiée’ permet d’ajouter des assertions sur toutes les propriétés qui expriment une relation entre des instances de deux classes de l’ontologie (et qui, de fait, correspondent aux relations entre instances d’entités du code RDA-FR)."@fr;
-  sh:ignoredProperties _:node1heaol6u2x28 .
+  sh:description "La classe ‘est en relation avec’ permet d’ajouter des assertions sur toutes les propriétés qui expriment une relation entre des instances de deux classes de l’ontologie (et qui, de fait, correspondent aux relations entre instances d’entités du code RDA-FR)."@fr;
+  sh:ignoredProperties _:node1hekdhtcvx28 .
 
-_:node1heaol6u2x28 rdf:first rdf:type;
+_:node1hekdhtcvx28 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:P100001r sh:nodeKind sh:IRI;
@@ -444,9 +444,9 @@ rdafr:P100008r a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "La classe ‘propriété réifiée’ permet d'ajouter des assertions sur toutes les propriétés de l’ontologie qui correspondent aux attributs des entités du code RDA-FR."@fr;
-  sh:ignoredProperties _:node1heaol6u2x29 .
+  sh:ignoredProperties _:node1hekdhtcvx29 .
 
-_:node1heaol6u2x29 rdf:first rdf:type;
+_:node1hekdhtcvx29 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:P100008r sh:nodeKind sh:IRI;
@@ -460,9 +460,9 @@ skos:Concept a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Un concept SKOS peut être vu comme une idée ou une notion; une unité de pensée."@fr;
-  sh:ignoredProperties _:node1heaol6u2x30 .
+  sh:ignoredProperties _:node1hekdhtcvx30 .
 
-_:node1heaol6u2x30 rdf:first rdf:type;
+_:node1hekdhtcvx30 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 skos:Concept sh:nodeKind sh:IRI;
@@ -470,15 +470,15 @@ skos:Concept sh:nodeKind sh:IRI;
   sh:targetClass skos:Concept .
 
 rdafr:Langue a rdfs:Class, owl:Class, sh:NodeShape;
-  rdfs:comment "Langue d'une chaîne de caractères."@fr;
+  rdfs:comment "Langue d'une chaîne de caractères. [vocabulaire de la classe, voir: https://id.loc.gov/vocabulary/iso639-2.html ]"@fr;
   rdfs:label "Langue"@fr;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
-  sh:description "Langue d'une chaîne de caractères."@fr;
-  sh:ignoredProperties _:node1heaol6u2x31 .
+  sh:description "Langue d'une chaîne de caractères. [vocabulaire de la classe, voir: https://id.loc.gov/vocabulary/iso639-2.html ]"@fr;
+  sh:ignoredProperties _:node1hekdhtcvx31 .
 
-_:node1heaol6u2x31 rdf:first rdf:type;
+_:node1hekdhtcvx31 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:Langue sh:nodeKind sh:IRI;
@@ -492,9 +492,9 @@ rdafr:Ecriture a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Système d'écriture de la chaîne de caractères."@fr;
-  sh:ignoredProperties _:node1heaol6u2x32 .
+  sh:ignoredProperties _:node1hekdhtcvx32 .
 
-_:node1heaol6u2x32 rdf:first rdf:type;
+_:node1hekdhtcvx32 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:Ecriture sh:nodeKind sh:IRI;
@@ -514,9 +514,9 @@ d’autorité de noms, etc.) ;
 - des schémas d’encodage de valeurs (listes de vedettes matière, thésaurus, classifications systématiques, listes
 d’autorité de noms, etc.) ;
 − et des schémas d’encodage syntaxiques (normes d’encodage des dates, etc.)."""@fr;
-  sh:ignoredProperties _:node1heaol6u2x33 .
+  sh:ignoredProperties _:node1hekdhtcvx33 .
 
-_:node1heaol6u2x33 rdf:first rdf:type;
+_:node1hekdhtcvx33 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:SchemaEncodage sh:nodeKind sh:IRI;
@@ -524,48 +524,48 @@ rdafr:SchemaEncodage sh:nodeKind sh:IRI;
   sh:targetClass rdafr:SchemaEncodage .
 
 rdafr:CategorieNomen a rdfs:Class, owl:Class, sh:NodeShape;
-  rdfs:comment "Type auquel le nomen appartient (ex. : point d'accès, identifiant, titre, etc.)"@fr;
+  rdfs:comment "Type auquel le nomen appartient (ex. : point d'accès, identifiant, titre, etc.) [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/categorie-nomen.html ]"@fr;
   rdfs:label "Catégorie de nomen"@fr;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
-  sh:description "Type auquel le nomen appartient (ex. : point d'accès, identifiant, titre, etc.)"@fr;
-  sh:ignoredProperties _:node1heaol6u2x34 .
+  sh:description "Type auquel le nomen appartient (ex. : point d'accès, identifiant, titre, etc.) [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/categorie-nomen.html ]"@fr;
+  sh:ignoredProperties _:node1hekdhtcvx34 .
 
-_:node1heaol6u2x34 rdf:first rdf:type;
+_:node1hekdhtcvx34 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:CategorieNomen sh:nodeKind sh:IRI;
   sh:order 204;
   sh:targetClass rdafr:CategorieNomen .
 
-rdafr:SystemeConversion a rdfs:Class, owl:Class, sh:NodeShape;
+rdafr:ConversionEcriture a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:comment "Règle, système ou norme utilisée pour créer la chaîne d’un nomen à partir de la chaîne d’un autre nomen notée dans une écriture différente (par exemple, un système de translittération)."@fr;
   rdfs:label "Conversion d'écriture"@fr;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Règle, système ou norme utilisée pour créer la chaîne d’un nomen à partir de la chaîne d’un autre nomen notée dans une écriture différente (par exemple, un système de translittération)."@fr;
-  sh:ignoredProperties _:node1heaol6u2x35 .
+  sh:ignoredProperties _:node1hekdhtcvx35 .
 
-_:node1heaol6u2x35 rdf:first rdf:type;
+_:node1hekdhtcvx35 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
-rdafr:SystemeConversion sh:nodeKind sh:IRI;
+rdafr:ConversionEcriture sh:nodeKind sh:IRI;
   sh:order 205;
-  sh:targetClass rdafr:SystemeConversion .
+  sh:targetClass rdafr:ConversionEcriture .
 
 rdafr:Genre a rdfs:Class, owl:Class, sh:NodeShape;
-  rdfs:comment "Le genre auquel une personne s'identifie. [code RDA-FR, 9.3.3]"@fr;
+  rdfs:comment "Le genre auquel une personne s'identifie."@fr;
   rdfs:label "Genre"@fr;
   rdfs:seeAlso "9.3.3"@fr;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
-  sh:description "Le genre auquel une personne s'identifie. [code RDA-FR, 9.3.3]"@fr;
-  sh:ignoredProperties _:node1heaol6u2x36 .
+  sh:description "Le genre auquel une personne s'identifie."@fr;
+  sh:ignoredProperties _:node1hekdhtcvx36 .
 
-_:node1heaol6u2x36 rdf:first rdf:type;
+_:node1hekdhtcvx36 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:Genre sh:nodeKind sh:IRI;
@@ -573,15 +573,15 @@ rdafr:Genre sh:nodeKind sh:IRI;
   sh:targetClass rdafr:Genre .
 
 rdafr:NiveauFiabilite a rdfs:Class, owl:Class, sh:NodeShape;
-  rdfs:comment "Indication sur le niveau de fiabilité de l'information."@fr;
+  rdfs:comment "Niveau de fiabilité de l'information [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/niveau-fiabilite.html ]"@fr;
   rdfs:label "Niveau de fiabilité"@fr;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
-  sh:description "Indication sur le niveau de fiabilité de l'information."@fr;
-  sh:ignoredProperties _:node1heaol6u2x37 .
+  sh:description "Niveau de fiabilité de l'information [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/niveau-fiabilite.html ]"@fr;
+  sh:ignoredProperties _:node1hekdhtcvx37 .
 
-_:node1heaol6u2x37 rdf:first rdf:type;
+_:node1hekdhtcvx37 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:NiveauFiabilite sh:nodeKind sh:IRI;
@@ -595,9 +595,9 @@ rdafr:Calendrier a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Type de calendrier utilisé pour exprimer un laps de temps (julien, grégorien, hégire...)."@fr;
-  sh:ignoredProperties _:node1heaol6u2x38 .
+  sh:ignoredProperties _:node1hekdhtcvx38 .
 
-_:node1heaol6u2x38 rdf:first rdf:type;
+_:node1hekdhtcvx38 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:Calendrier sh:nodeKind sh:IRI;
@@ -605,16 +605,16 @@ rdafr:Calendrier sh:nodeKind sh:IRI;
   sh:targetClass rdafr:Calendrier .
 
 rdafr:CategorieIdentitePublique a rdfs:Class, owl:Class, sh:NodeShape;
-  rdfs:comment "Précision sur la nature du nom sur lequel est fondée l'identité publique (par exemple : nom réel, pseudonyme...) [code RDA-FR, 9.1.1]"@fr;
+  rdfs:comment "Précision sur la nature du nom sur lequel est fondée l'identité publique (par exemple : nom réel, pseudonyme...) [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/categorie-ipp.html ]"@fr;
   rdfs:label "Catégorie d'identité publique"@fr;
   rdfs:seeAlso "9.1.1"@fr;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
-  sh:description "Précision sur la nature du nom sur lequel est fondée l'identité publique (par exemple : nom réel, pseudonyme...) [code RDA-FR, 9.1.1]"@fr;
-  sh:ignoredProperties _:node1heaol6u2x39 .
+  sh:description "Précision sur la nature du nom sur lequel est fondée l'identité publique (par exemple : nom réel, pseudonyme...) [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/categorie-ipp.html ]"@fr;
+  sh:ignoredProperties _:node1hekdhtcvx39 .
 
-_:node1heaol6u2x39 rdf:first rdf:type;
+_:node1hekdhtcvx39 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:CategorieIdentitePublique sh:nodeKind sh:IRI;
@@ -622,603 +622,618 @@ rdafr:CategorieIdentitePublique sh:nodeKind sh:IRI;
   sh:targetClass rdafr:CategorieIdentitePublique .
 
 rdafr:ModaliteParution a rdfs:Class, owl:Class, sh:NodeShape;
+  rdfs:comment "La modalité de parution est une catégorisation qui indique si la parution d’une ressource est prévue pour s’échelonner dans le temps (diachronique) ou non. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/modalite-parution.html ]"@fr;
   rdfs:label "Modalité de parution"@fr;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heaol6u2x40 .
+  sh:description "La modalité de parution est une catégorisation qui indique si la parution d’une ressource est prévue pour s’échelonner dans le temps (diachronique) ou non. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/modalite-parution.html ]"@fr;
+  sh:ignoredProperties _:node1hekdhtcvx40 .
 
-_:node1heaol6u2x40 rdf:first rdf:type;
+_:node1hekdhtcvx40 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:ModaliteParution sh:nodeKind sh:IRI;
   sh:targetClass rdafr:ModaliteParution .
 
 rdafr:NiveauAutonomie a rdfs:Class, owl:Class, sh:NodeShape;
+  rdfs:comment "Le niveau d’autonomie est une catégorisation permettant de dire si la ressource est une publication autonome ou si elle appartient à un ensemble plus vaste. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/niveau-autonomie.html ]"@fr;
   rdfs:label "Niveau d'autonomie"@fr;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heaol6u2x41 .
+  sh:description "Le niveau d’autonomie est une catégorisation permettant de dire si la ressource est une publication autonome ou si elle appartient à un ensemble plus vaste. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/niveau-autonomie.html ]"@fr;
+  sh:ignoredProperties _:node1hekdhtcvx41 .
 
-_:node1heaol6u2x41 rdf:first rdf:type;
+_:node1hekdhtcvx41 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:NiveauAutonomie sh:nodeKind sh:IRI;
   sh:targetClass rdafr:NiveauAutonomie .
 
 rdafr:TypeMediation a rdfs:Class, owl:Class, sh:NodeShape;
+  rdfs:comment "Le type de médiation est une catégorisation indiquant le type général de dispositif de médiation requis pour visionner, faire fonctionner, faire défiler, etc. le contenu d’une ressource. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/type-mediation.html ]"@fr;
   rdfs:label "Type de médiation"@fr;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heaol6u2x42 .
+  sh:description "Le type de médiation est une catégorisation indiquant le type général de dispositif de médiation requis pour visionner, faire fonctionner, faire défiler, etc. le contenu d’une ressource. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/type-mediation.html ]"@fr;
+  sh:ignoredProperties _:node1hekdhtcvx42 .
 
-_:node1heaol6u2x42 rdf:first rdf:type;
+_:node1hekdhtcvx42 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:TypeMediation sh:nodeKind sh:IRI;
   sh:targetClass rdafr:TypeMediation .
 
-rdafr:TypeSupport a rdfs:Class, owl:Class, sh:NodeShape;
-  rdfs:label "Type de support"@fr;
-  rdfs:subClassOf skos:Concept;
-  owl:versionInfo "0.2.0"@fr;
-  sh:closed false;
-  sh:ignoredProperties _:node1heaol6u2x43 .
-
-_:node1heaol6u2x43 rdf:first rdf:type;
-  rdf:rest rdf:nil .
-
-rdafr:TypeSupport sh:nodeKind sh:IRI;
-  sh:targetClass rdafr:TypeSupport .
-
 rdafr:MateriauBase a rdfs:Class, owl:Class, sh:NodeShape;
+  rdfs:comment "Le matériau de base est un matériau physique composant le support d’une manifestation, auquel peut éventuellement s’ajouter un matériau appliqué [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/materiau-base.html ]"@fr;
   rdfs:label "Matériau de base"@fr;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heaol6u2x44 .
+  sh:description "Le matériau de base est un matériau physique composant le support d’une manifestation, auquel peut éventuellement s’ajouter un matériau appliqué [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/materiau-base.html ]"@fr;
+  sh:ignoredProperties _:node1hekdhtcvx43 .
 
-_:node1heaol6u2x44 rdf:first rdf:type;
+_:node1hekdhtcvx43 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:MateriauBase sh:nodeKind sh:IRI;
   sh:targetClass rdafr:MateriauBase .
 
-rdafr:MateriauApplique a rdfs:Class, owl:Class, sh:NodeShape;
-  rdfs:label "Matériau appliqué"@fr;
-  rdfs:subClassOf skos:Concept;
-  owl:versionInfo "0.2.0"@fr;
-  sh:closed false;
-  sh:ignoredProperties _:node1heaol6u2x45 .
-
-_:node1heaol6u2x45 rdf:first rdf:type;
-  rdf:rest rdf:nil .
-
-rdafr:MateriauApplique sh:nodeKind sh:IRI;
-  sh:targetClass rdafr:MateriauApplique .
-
 rdafr:MethodeProduction a rdfs:Class, owl:Class, sh:NodeShape;
+  rdfs:comment "La méthode de production est un procédé utilisé pour produire une manifestation. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/methode-production.html ]"@fr;
   rdfs:label "Méthode de production"@fr;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heaol6u2x46 .
+  sh:description "La méthode de production est un procédé utilisé pour produire une manifestation. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/methode-production.html ]"@fr;
+  sh:ignoredProperties _:node1hekdhtcvx44 .
 
-_:node1heaol6u2x46 rdf:first rdf:type;
+_:node1hekdhtcvx44 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:MethodeProduction sh:nodeKind sh:IRI;
   sh:targetClass rdafr:MethodeProduction .
 
 rdafr:Generation a rdfs:Class, owl:Class, sh:NodeShape;
+  rdfs:comment "La génération est le produit correspondant à une étape dans le processus de fabrication d’une ressource, depuis la matrice jusqu’au produit de diffusion. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/gneration.html ]"@fr;
   rdfs:label "Génération"@fr;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heaol6u2x47 .
+  sh:description "La génération est le produit correspondant à une étape dans le processus de fabrication d’une ressource, depuis la matrice jusqu’au produit de diffusion. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/gneration.html ]"@fr;
+  sh:ignoredProperties _:node1hekdhtcvx45 .
 
-_:node1heaol6u2x47 rdf:first rdf:type;
+_:node1hekdhtcvx45 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:Generation sh:nodeKind sh:IRI;
   sh:targetClass rdafr:Generation .
 
 rdafr:Disposition a rdfs:Class, owl:Class, sh:NodeShape;
+  rdfs:comment "La disposition est l’agencement du contenu par rapport au support d’une manifestation. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/disposition.html ]"@fr;
   rdfs:label "Disposition"@fr;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heaol6u2x48 .
+  sh:description "La disposition est l’agencement du contenu par rapport au support d’une manifestation. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/disposition.html ]"@fr;
+  sh:ignoredProperties _:node1hekdhtcvx46 .
 
-_:node1heaol6u2x48 rdf:first rdf:type;
+_:node1hekdhtcvx46 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:Disposition sh:nodeKind sh:IRI;
   sh:targetClass rdafr:Disposition .
 
 rdafr:FormatBibliographique a rdfs:Class, owl:Class, sh:NodeShape;
+  rdfs:comment "Le format bibliographique est déterminé par le nombre de pages résultant du nombre de fois où la feuille a été pliée pour former les feuillets d’un cahier, ou laissée à sa pleine grandeur (in-plano). [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/format-bibliographique.html ]"@fr;
   rdfs:label "Format bibliographique"@fr;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heaol6u2x49 .
+  sh:description "Le format bibliographique est déterminé par le nombre de pages résultant du nombre de fois où la feuille a été pliée pour former les feuillets d’un cahier, ou laissée à sa pleine grandeur (in-plano). [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/format-bibliographique.html ]"@fr;
+  sh:ignoredProperties _:node1hekdhtcvx47 .
 
-_:node1heaol6u2x49 rdf:first rdf:type;
+_:node1hekdhtcvx47 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:FormatBibliographique sh:nodeKind sh:IRI;
   sh:targetClass rdafr:FormatBibliographique .
 
 rdafr:TypePoliceCaracteres a rdfs:Class, owl:Class, sh:NodeShape;
+  rdfs:comment "Le type de police de caractères est une catégorisation générale des polices fondée sur leur style d’écriture. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/type-police-caracteres.html ]"@fr;
   rdfs:label "Type de police de caractères"@fr;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heaol6u2x50 .
+  sh:description "Le type de police de caractères est une catégorisation générale des polices fondée sur leur style d’écriture. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/type-police-caracteres.html ]"@fr;
+  sh:ignoredProperties _:node1hekdhtcvx48 .
 
-_:node1heaol6u2x50 rdf:first rdf:type;
+_:node1hekdhtcvx48 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:TypePoliceCaracteres sh:nodeKind sh:IRI;
   sh:targetClass rdafr:TypePoliceCaracteres .
 
 rdafr:TailleCaracteres a rdfs:Class, owl:Class, sh:NodeShape;
+  rdfs:comment "La taille des caractères est la taille des fontes utilisées pour représenter les signes et les symboles dans une manifestation. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/taille-caracteres.html ]"@fr;
   rdfs:label "Taille de caractères"@fr;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heaol6u2x51 .
+  sh:description "La taille des caractères est la taille des fontes utilisées pour représenter les signes et les symboles dans une manifestation. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/taille-caracteres.html ]"@fr;
+  sh:ignoredProperties _:node1hekdhtcvx49 .
 
-_:node1heaol6u2x51 rdf:first rdf:type;
+_:node1hekdhtcvx49 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:TailleCaracteres sh:nodeKind sh:IRI;
   sh:targetClass rdafr:TailleCaracteres .
 
 rdafr:Polarite a rdfs:Class, owl:Class, sh:NodeShape;
+  rdfs:comment "Une polarité est une information précisant si les couleurs ou les valeurs de ton de l’image ont été inversées par rapport à l’objet représenté. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/polarite.html ]"@fr;
   rdfs:label "Polarité"@fr;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heaol6u2x52 .
+  sh:description "Une polarité est une information précisant si les couleurs ou les valeurs de ton de l’image ont été inversées par rapport à l’objet représenté. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/polarite.html ]"@fr;
+  sh:ignoredProperties _:node1hekdhtcvx50 .
 
-_:node1heaol6u2x52 rdf:first rdf:type;
+_:node1hekdhtcvx50 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:Polarite sh:nodeKind sh:IRI;
   sh:targetClass rdafr:Polarite .
 
 rdafr:FacteurReduction a rdfs:Class, owl:Class, sh:NodeShape;
+  rdfs:comment "Le facteur de réduction est un rapport numérique entre la taille d’une micro-image et celle de l’original à partir duquel elle a été produite. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/facteur-reduction.html ]"@fr;
   rdfs:label "Facteur de réduction"@fr;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heaol6u2x53 .
+  sh:description "Le facteur de réduction est un rapport numérique entre la taille d’une micro-image et celle de l’original à partir duquel elle a été produite. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/facteur-reduction.html ]"@fr;
+  sh:ignoredProperties _:node1hekdhtcvx51 .
 
-_:node1heaol6u2x53 rdf:first rdf:type;
+_:node1hekdhtcvx51 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:FacteurReduction sh:nodeKind sh:IRI;
   sh:targetClass rdafr:FacteurReduction .
 
 rdafr:VitesseLecture a rdfs:Class, owl:Class, sh:NodeShape;
+  rdfs:comment "La vitesse de lecture est la vitesse à laquelle un support audio doit être lu pour produire le son prévu. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/vitesse-lecture.html ]"@fr;
   rdfs:label "Vitesse de lecture"@fr;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heaol6u2x54 .
+  sh:description "La vitesse de lecture est la vitesse à laquelle un support audio doit être lu pour produire le son prévu. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/vitesse-lecture.html ]"@fr;
+  sh:ignoredProperties _:node1hekdhtcvx52 .
 
-_:node1heaol6u2x54 rdf:first rdf:type;
+_:node1hekdhtcvx52 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:VitesseLecture sh:nodeKind sh:IRI;
   sh:targetClass rdafr:VitesseLecture .
 
+rdafr:TypeSillon rdfs:comment "Le type de sillon est la largeur du sillon d’un disque analogique ou le pas du sillon d’un cylindre audio, exprimés sous forme générique. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/type-sillon.html ]"@fr;
+  rdfs:label "Type de sillon"@fr;
+  rdfs:subClassOf skos:Concept;
+  owl:versionInfo "0.2.0"@fr;
+  sh:description "Le type de sillon est la largeur du sillon d’un disque analogique ou le pas du sillon d’un cylindre audio, exprimés sous forme générique. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/type-sillon.html ]"@fr .
+
+rdafr:MethodeGravureSillon rdfs:comment "La méthode de gravure du sillon indique si le sillon est gravé latéralement ou verticalement et détermine la pointe de lecture (aiguille ou saphir) à utiliser pour les disques pré-microsillon. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/methode-gravure-sillon.html ]"@fr;
+  rdfs:label "Méthode de gravure du sillon"@fr;
+  rdfs:subClassOf skos:Concept;
+  owl:versionInfo "0.2.0"@fr;
+  sh:description "La méthode de gravure du sillon indique si le sillon est gravé latéralement ou verticalement et détermine la pointe de lecture (aiguille ou saphir) à utiliser pour les disques pré-microsillon. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/methode-gravure-sillon.html ]"@fr .
+
 rdafr:FormatSupportElectronique a rdfs:Class, owl:Class, sh:NodeShape;
+  rdfs:comment "Le format d’un support électronique est un standard utilisé pour enregistrer un contenu sur un support électronique propriétaire. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/format-support-electronique.html ]"@fr;
   rdfs:label "Format d'un support électronique"@fr;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heaol6u2x55 .
+  sh:description "Le format d’un support électronique est un standard utilisé pour enregistrer un contenu sur un support électronique propriétaire. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/format-support-electronique.html ]"@fr;
+  sh:ignoredProperties _:node1hekdhtcvx53 .
 
-_:node1heaol6u2x55 rdf:first rdf:type;
+_:node1hekdhtcvx53 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:FormatSupportElectronique sh:nodeKind sh:IRI;
   sh:targetClass rdafr:FormatSupportElectronique .
 
 rdafr:TypeFichier a rdfs:Class, owl:Class, sh:NodeShape;
+  rdfs:comment "Le type de fichier est un type général de contenu des données encodées dans un fichier informatique. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/type-fichier.html ]"@fr;
   rdfs:label "Type de fichier"@fr;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heaol6u2x56 .
+  sh:description "Le type de fichier est un type général de contenu des données encodées dans un fichier informatique. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/type-fichier.html ]"@fr;
+  sh:ignoredProperties _:node1hekdhtcvx54 .
 
-_:node1heaol6u2x56 rdf:first rdf:type;
+_:node1hekdhtcvx54 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:TypeFichier sh:nodeKind sh:IRI;
   sh:targetClass rdafr:TypeFichier .
 
 rdafr:FormatProjection a rdfs:Class, owl:Class, sh:NodeShape;
+  rdfs:comment "Le format de projection est un format utilisé pour la production d’une image projetée. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/format-projection.html ]"@fr;
   rdfs:label "Format de projection"@fr;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heaol6u2x57 .
+  sh:description "Le format de projection est un format utilisé pour la production d’une image projetée. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/format-projection.html ]"@fr;
+  sh:ignoredProperties _:node1hekdhtcvx55 .
 
-_:node1heaol6u2x57 rdf:first rdf:type;
+_:node1hekdhtcvx55 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:FormatProjection sh:nodeKind sh:IRI;
   sh:targetClass rdafr:FormatProjection .
 
 rdafr:FormatSupportVideo a rdfs:Class, owl:Class, sh:NodeShape;
+  rdfs:comment "Le format d’un support vidéo est une norme, un standard, etc. utilisé pour enregistrer un contenu sur un support vidéo. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/format-support-video.html ]"@fr;
   rdfs:label "Format d'un support vidéo"@fr;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heaol6u2x58 .
+  sh:description "Le format d’un support vidéo est une norme, un standard, etc. utilisé pour enregistrer un contenu sur un support vidéo. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/format-support-video.html ]"@fr;
+  sh:ignoredProperties _:node1hekdhtcvx56 .
 
-_:node1heaol6u2x58 rdf:first rdf:type;
+_:node1hekdhtcvx56 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:FormatSupportVideo sh:nodeKind sh:IRI;
   sh:targetClass rdafr:FormatSupportVideo .
 
 rdafr:NormeDiffusion a rdfs:Class, owl:Class, sh:NodeShape;
+  rdfs:comment "La norme de diffusion est le standard de codage de la couleur du contenu vidéo de la manifestation décrite pour la diffusion sur téléviseur. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/norme-diffusion.html ]"@fr;
   rdfs:label "Norme de diffusion"@fr;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heaol6u2x59 .
+  sh:description "La norme de diffusion est le standard de codage de la couleur du contenu vidéo de la manifestation décrite pour la diffusion sur téléviseur. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/norme-diffusion.html ]"@fr;
+  sh:ignoredProperties _:node1hekdhtcvx57 .
 
-_:node1heaol6u2x59 rdf:first rdf:type;
+_:node1hekdhtcvx57 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:NormeDiffusion sh:nodeKind sh:IRI;
   sh:targetClass rdafr:NormeDiffusion .
 
 rdafr:FamilleSupport a rdfs:Class, owl:Class, sh:NodeShape;
+  rdfs:comment "La famille de support est la grande catégorie de matériel nécessitant une médiation pour accéder au contenu de la ressource. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/famille-support.html ]"@fr;
   rdfs:label "Famille de support"@fr;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heaol6u2x60 .
+  sh:description "La famille de support est la grande catégorie de matériel nécessitant une médiation pour accéder au contenu de la ressource. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/famille-support.html ]"@fr;
+  sh:ignoredProperties _:node1hekdhtcvx58 .
 
-_:node1heaol6u2x60 rdf:first rdf:type;
+_:node1hekdhtcvx58 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:FamilleSupport sh:nodeKind sh:IRI;
   sh:targetClass rdafr:FamilleSupport .
 
 rdafr:TechniqueSpatialisationSon a rdfs:Class, owl:Class, sh:NodeShape;
+  rdfs:comment "La technique de spatialisation du son est la méthode utilisée pour reproduire le son et le diffuser dans l’espace. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/technique-spatialisation-son.html ]"@fr;
   rdfs:label "Technique de spatialisation du son"@fr;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heaol6u2x61 .
+  sh:description "La technique de spatialisation du son est la méthode utilisée pour reproduire le son et le diffuser dans l’espace. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/technique-spatialisation-son.html ]"@fr;
+  sh:ignoredProperties _:node1hekdhtcvx59 .
 
-_:node1heaol6u2x61 rdf:first rdf:type;
+_:node1hekdhtcvx59 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:TechniqueSpatialisationSon sh:nodeKind sh:IRI;
   sh:targetClass rdafr:TechniqueSpatialisationSon .
 
 rdafr:TechniqueReductionBruit a rdfs:Class, owl:Class, sh:NodeShape;
+  rdfs:comment "La technique de réduction du bruit de fond est un procédé consistant à supprimer les composantes indésirables d’un signal sonore. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/technique-reduction-bruit.html ]"@fr;
   rdfs:label "Technique de réduction du bruit de fond"@fr;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heaol6u2x62 .
+  sh:description "La technique de réduction du bruit de fond est un procédé consistant à supprimer les composantes indésirables d’un signal sonore. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/technique-reduction-bruit.html ]"@fr;
+  sh:ignoredProperties _:node1hekdhtcvx60 .
 
-_:node1heaol6u2x62 rdf:first rdf:type;
+_:node1hekdhtcvx60 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:TechniqueReductionBruit sh:nodeKind sh:IRI;
   sh:targetClass rdafr:TechniqueReductionBruit .
 
 rdafr:FormatImageAnimee a rdfs:Class, owl:Class, sh:NodeShape;
+  rdfs:comment "Le format d’image animée est le rapport numérique entre la largeur et la hauteur d’une image animée. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/format-image-animee.html ]"@fr;
   rdfs:label "Format d'image animée"@fr;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heaol6u2x63 .
+  sh:description "Le format d’image animée est le rapport numérique entre la largeur et la hauteur d’une image animée. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/format-image-animee.html ]"@fr;
+  sh:ignoredProperties _:node1hekdhtcvx61 .
 
-_:node1heaol6u2x63 rdf:first rdf:type;
+_:node1hekdhtcvx61 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:FormatImageAnimee sh:nodeKind sh:IRI;
   sh:targetClass rdafr:FormatImageAnimee .
 
 rdafr:Reliure a rdfs:Class, owl:Class, sh:NodeShape;
+  rdfs:comment "La reliure est un dispositif par lequel les feuilles d’une ressource ont été pliées et/ou assemblées pour former un volume, fascicule ou brochure. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/reliure.html ]"@fr;
   rdfs:label "Reliure"@fr;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heaol6u2x64 .
+  sh:description "La reliure est un dispositif par lequel les feuilles d’une ressource ont été pliées et/ou assemblées pour former un volume, fascicule ou brochure. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/reliure.html ]"@fr;
+  sh:ignoredProperties _:node1hekdhtcvx62 .
 
-_:node1heaol6u2x64 rdf:first rdf:type;
+_:node1hekdhtcvx62 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:Reliure sh:nodeKind sh:IRI;
   sh:targetClass rdafr:Reliure .
 
-rdafr:TypeConteneur a rdfs:Class, owl:Class, sh:NodeShape;
-  rdfs:label "Type de conteneur"@fr;
+rdafr:FormeExpression-TypeContenu a rdfs:Class, owl:Class, sh:NodeShape;
+  rdfs:comment """La forme de l’expression est le moyen par lequel l’œuvre est réalisée (par exemple, sous forme de notation alphanumérique, de notation musicale, sous forme déclamée, sous forme de sons musicaux, d’image cartographique, d’image photographique, de sculpture, de danse, de mime, etc.). 
+Pour une manifestation le Type de contenu est une catégorisation reflétant la (ou les) forme(s) fondamentale(s) utilisée(s) pour exprimer le contenu d’une ressource, accompagnée si nécessaire de précisions sur le (ou les) sens sollicité(s), sur le nombre de dimensions spatiales restituées à la perception et/ou sur la présence ou l’absence de mouvement.
+Ce même vocabulaire contrôlé fournit les valeurs pour la propriété 'a pour forme de l'expression représentative de l'oeuvre' de la classe Oeuvre et pour la propriété 'a pour type de contenu' de la classe Manifestation. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/forme-expression-type-contenu-manifestation.html ]"""@fr;
+  rdfs:label "Forme de l'expression ou type de contenu de la manifestation"@fr;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heaol6u2x65 .
+  sh:description """La forme de l’expression est le moyen par lequel l’œuvre est réalisée (par exemple, sous forme de notation alphanumérique, de notation musicale, sous forme déclamée, sous forme de sons musicaux, d’image cartographique, d’image photographique, de sculpture, de danse, de mime, etc.). 
+Pour une manifestation le Type de contenu est une catégorisation reflétant la (ou les) forme(s) fondamentale(s) utilisée(s) pour exprimer le contenu d’une ressource, accompagnée si nécessaire de précisions sur le (ou les) sens sollicité(s), sur le nombre de dimensions spatiales restituées à la perception et/ou sur la présence ou l’absence de mouvement.
+Ce même vocabulaire contrôlé fournit les valeurs pour la propriété 'a pour forme de l'expression représentative de l'oeuvre' de la classe Oeuvre et pour la propriété 'a pour type de contenu' de la classe Manifestation. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/forme-expression-type-contenu-manifestation.html ]"""@fr;
+  sh:ignoredProperties _:node1hekdhtcvx63 .
 
-_:node1heaol6u2x65 rdf:first rdf:type;
+_:node1hekdhtcvx63 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
-rdafr:TypeConteneur sh:nodeKind sh:IRI;
-  sh:targetClass rdafr:TypeConteneur .
-
-rdafr:TypeContenu a rdfs:Class, owl:Class, sh:NodeShape;
-  rdfs:label "Forme de l'expression"@fr, "Type de contenu"@fr;
-  rdfs:subClassOf skos:Concept;
-  owl:versionInfo "0.2.0"@fr;
-  sh:closed false;
-  sh:ignoredProperties _:node1heaol6u2x66 .
-
-_:node1heaol6u2x66 rdf:first rdf:type;
-  rdf:rest rdf:nil .
-
-rdafr:TypeContenu sh:ignoredProperties _:node1heaol6u2x73 .
-
-_:node1heaol6u2x73 rdf:first rdf:type;
-  rdf:rest rdf:nil .
-
-rdafr:TypeContenu sh:nodeKind sh:IRI;
-  sh:targetClass rdafr:TypeContenu .
+rdafr:FormeExpression-TypeContenu sh:nodeKind sh:IRI;
+  sh:targetClass rdafr:FormeExpression-TypeContenu .
 
 rdafr:DesignationPresentationMusicale a rdfs:Class, owl:Class, sh:NodeShape;
+  rdfs:comment "La désignation de présentation musicale est un mot, caractère ou groupe de mots ou de caractères qui indique la disposition de la présentation matérielle d’une ressource de musique notée. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/designation-presentation-musicale.html ]"@fr;
   rdfs:label "Désignation de présentation musicale"@fr;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heaol6u2x67 .
+  sh:description "La désignation de présentation musicale est un mot, caractère ou groupe de mots ou de caractères qui indique la disposition de la présentation matérielle d’une ressource de musique notée. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/designation-presentation-musicale.html ]"@fr;
+  sh:ignoredProperties _:node1hekdhtcvx64 .
 
-_:node1heaol6u2x67 rdf:first rdf:type;
+_:node1hekdhtcvx64 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:DesignationPresentationMusicale sh:nodeKind sh:IRI;
   sh:targetClass rdafr:DesignationPresentationMusicale .
 
-rdafr:QuantificationContenu a rdfs:Class, owl:Class, sh:NodeShape;
-  rdfs:label "Quantification du contenu"@fr;
-  rdfs:subClassOf skos:Concept;
-  owl:versionInfo "0.2.0"@fr;
-  sh:closed false;
-  sh:ignoredProperties _:node1heaol6u2x68 .
-
-_:node1heaol6u2x68 rdf:first rdf:type;
-  rdf:rest rdf:nil .
-
-rdafr:QuantificationContenu sh:nodeKind sh:IRI;
-  sh:targetClass rdafr:QuantificationContenu .
-
 rdafr:NatureContenuSupplementaireIllustratif a rdfs:Class, owl:Class, sh:NodeShape;
+  rdfs:comment """Un contenu supplémentaire illustratif signale la présence d’un contenu d’image qui complète le contenu principal d’une manifestation, et qui n’appartient pas à l’œuvre initiale (souvent textuelle). Le contenu supplémentaire illustratif ne s’applique donc que dans les cas d’augmentations.
+ [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/nature-contenu-supplementaire-illustratif.html ]"""@fr;
   rdfs:label "Nature du contenu supplémentaire illustratif"@fr;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heaol6u2x69 .
+  sh:description """Un contenu supplémentaire illustratif signale la présence d’un contenu d’image qui complète le contenu principal d’une manifestation, et qui n’appartient pas à l’œuvre initiale (souvent textuelle). Le contenu supplémentaire illustratif ne s’applique donc que dans les cas d’augmentations.
+ [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/nature-contenu-supplementaire-illustratif.html ]"""@fr;
+  sh:ignoredProperties _:node1hekdhtcvx65 .
 
-_:node1heaol6u2x69 rdf:first rdf:type;
+_:node1hekdhtcvx65 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:NatureContenuSupplementaireIllustratif sh:nodeKind sh:IRI;
   sh:targetClass rdafr:NatureContenuSupplementaireIllustratif .
 
-rdafr:Couleur a rdfs:Class, owl:Class, sh:NodeShape;
-  rdfs:label "Couleur"@fr;
-  rdfs:subClassOf skos:Concept;
-  owl:versionInfo "0.2.0"@fr;
-  sh:closed false;
-  sh:ignoredProperties _:node1heaol6u2x70 .
-
-_:node1heaol6u2x70 rdf:first rdf:type;
-  rdf:rest rdf:nil .
-
-rdafr:Couleur sh:nodeKind sh:IRI;
-  sh:targetClass rdafr:Couleur .
-
 rdafr:TypeAccesDemat a rdfs:Class, owl:Class, sh:NodeShape;
+  rdfs:comment "Le type d'accès à une ressource dématérialisée désigne les différents modes de connexion permettant d’accéder à une ressource dématérialisée. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/type-acces-demat.html ]"@fr;
   rdfs:label "Type d'accès à une ressource dématérialisée"@fr;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heaol6u2x71 .
+  sh:description "Le type d'accès à une ressource dématérialisée désigne les différents modes de connexion permettant d’accéder à une ressource dématérialisée. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/type-acces-demat.html ]"@fr;
+  sh:ignoredProperties _:node1hekdhtcvx66 .
 
-_:node1heaol6u2x71 rdf:first rdf:type;
+_:node1hekdhtcvx66 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:TypeAccesDemat sh:nodeKind sh:IRI;
   sh:targetClass rdafr:TypeAccesDemat .
 
 rdafr:CategorieLieu a rdfs:Class, owl:Class, sh:NodeShape;
+  rdfs:comment "Catégorie générale à laquelle une instance de Lieu appartient. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/categorie-lieu.html ]"@fr;
   rdfs:label "Catégorie de lieu"@fr;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heaol6u2x72 .
+  sh:description "Catégorie générale à laquelle une instance de Lieu appartient. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/categorie-lieu.html ]"@fr;
+  sh:ignoredProperties _:node1hekdhtcvx67 .
 
-_:node1heaol6u2x72 rdf:first rdf:type;
+_:node1hekdhtcvx67 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:CategorieLieu sh:nodeKind sh:IRI;
   sh:targetClass rdafr:CategorieLieu .
 
 rdafr:AspectTraduction a rdfs:Class, owl:Class, sh:NodeShape;
+  rdfs:comment "L’aspect de traduction permet de préciser si l’expression est une traduction d’une autre expression et, dans ce cas, s’il s’agit d’une traduction directe ou d’une traduction effectuée à partir d’une traduction intermédiaire. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/forme-expression.html ]"@fr;
   rdfs:label "Aspect de traduction"@fr;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heaol6u2x74 .
+  sh:description "L’aspect de traduction permet de préciser si l’expression est une traduction d’une autre expression et, dans ce cas, s’il s’agit d’une traduction directe ou d’une traduction effectuée à partir d’une traduction intermédiaire. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/forme-expression.html ]"@fr;
+  sh:ignoredProperties _:node1hekdhtcvx68 .
 
-_:node1heaol6u2x74 rdf:first rdf:type;
+_:node1hekdhtcvx68 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:AspectTraduction sh:nodeKind sh:IRI;
   sh:targetClass rdafr:AspectTraduction .
 
 rdafr:PerimetreApplicationLangue a rdfs:Class, owl:Class, sh:NodeShape;
+  rdfs:comment "Le périmètre d’application de la langue permet de qualifier la langue de certaines composantes de l’expression décrite. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/forme-expression.html ]"@fr;
   rdfs:label "Périmètre d'application de la langue"@fr;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heaol6u2x75 .
+  sh:description "Le périmètre d’application de la langue permet de qualifier la langue de certaines composantes de l’expression décrite. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/forme-expression.html ]"@fr;
+  sh:ignoredProperties _:node1hekdhtcvx69 .
 
-_:node1heaol6u2x75 rdf:first rdf:type;
+_:node1hekdhtcvx69 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:PerimetreApplicationLangue sh:nodeKind sh:IRI;
   sh:targetClass rdafr:PerimetreApplicationLangue .
 
 rdafr:TypeCaptation a rdfs:Class, owl:Class, sh:NodeShape;
+  rdfs:comment "Le périmètre d’application de la langue permet de qualifier la langue de certaines composantes de l’expression décrite. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/forme-expression.html ]"@fr;
   rdfs:label "Type de captation"@fr;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heaol6u2x76 .
+  sh:description "Le périmètre d’application de la langue permet de qualifier la langue de certaines composantes de l’expression décrite. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/forme-expression.html ]"@fr;
+  sh:ignoredProperties _:node1hekdhtcvx70 .
 
-_:node1heaol6u2x76 rdf:first rdf:type;
+_:node1hekdhtcvx70 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:TypeCaptation sh:nodeKind sh:IRI;
   sh:targetClass rdafr:TypeCaptation .
 
 rdafr:FormeNotationMusicale a rdfs:Class, owl:Class, sh:NodeShape;
+  rdfs:comment "La forme de la notation musicale est un ensemble de signes et/ou de symboles utilisés pour exprimer le contenu musical noté d’une expression. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/forme-notation-musicale.html ]"@fr;
   rdfs:label "Forme de la notation musicale"@fr;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heaol6u2x77 .
+  sh:description "La forme de la notation musicale est un ensemble de signes et/ou de symboles utilisés pour exprimer le contenu musical noté d’une expression. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/forme-notation-musicale.html ]"@fr;
+  sh:ignoredProperties _:node1hekdhtcvx71 .
 
-_:node1heaol6u2x77 rdf:first rdf:type;
+_:node1hekdhtcvx71 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:FormeNotationMusicale sh:nodeKind sh:IRI;
   sh:targetClass rdafr:FormeNotationMusicale .
 
 rdafr:FormeNotationTactile a rdfs:Class, owl:Class, sh:NodeShape;
+  rdfs:comment "La forme de la notation tactile est un ensemble de signes et/ou de symboles utilisés pour exprimer le contenu d’une expression sous une forme perceptible au toucher. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/forme-notation-tactile.html ]"@fr;
   rdfs:label "Forme de la notation tactile"@fr;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heaol6u2x78 .
+  sh:description "La forme de la notation tactile est un ensemble de signes et/ou de symboles utilisés pour exprimer le contenu d’une expression sous une forme perceptible au toucher. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/forme-notation-tactile.html ]"@fr;
+  sh:ignoredProperties _:node1hekdhtcvx72 .
 
-_:node1heaol6u2x78 rdf:first rdf:type;
+_:node1hekdhtcvx72 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:FormeNotationTactile sh:nodeKind sh:IRI;
   sh:targetClass rdafr:FormeNotationTactile .
 
 rdafr:FormeNotationMouvement a rdfs:Class, owl:Class, sh:NodeShape;
+  rdfs:comment "La forme de la notation du mouvement est un ensemble de signes et/ou de caractères utilisés pour exprimer le contenu du mouvement d’une expression, en particulier celle d’une œuvre chorégraphique. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/forme-notation-mouvement.html ]"@fr;
   rdfs:label "Forme de la notation de mouvement"@fr;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heaol6u2x79 .
+  sh:description "La forme de la notation du mouvement est un ensemble de signes et/ou de caractères utilisés pour exprimer le contenu du mouvement d’une expression, en particulier celle d’une œuvre chorégraphique. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/forme-notation-mouvement.html ]"@fr;
+  sh:ignoredProperties _:node1hekdhtcvx73 .
 
-_:node1heaol6u2x79 rdf:first rdf:type;
+_:node1hekdhtcvx73 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:FormeNotationMouvement sh:nodeKind sh:IRI;
   sh:targetClass rdafr:FormeNotationMouvement .
 
 rdafr:CaracteristiqueCouleur a rdfs:Class, owl:Class, sh:NodeShape;
+  rdfs:comment "La caractéristique de couleur est la présence de couleur, teinte, etc. dans l’expression. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/caracteristique-couleur.html ]"@fr;
   rdfs:label "Caractéristique de couleur"@fr;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heaol6u2x80 .
+  sh:description "La caractéristique de couleur est la présence de couleur, teinte, etc. dans l’expression. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/caracteristique-couleur.html ]"@fr;
+  sh:ignoredProperties _:node1hekdhtcvx74 .
 
-_:node1heaol6u2x80 rdf:first rdf:type;
+_:node1hekdhtcvx74 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:CaracteristiqueCouleur sh:nodeKind sh:IRI;
   sh:targetClass rdafr:CaracteristiqueCouleur .
 
 rdafr:CaracteristiqueSonore a rdfs:Class, owl:Class, sh:NodeShape;
+  rdfs:comment "La caractéristique sonore est le son présent dans une expression qui n’est pas constituée principalement de son enregistré, par exemple une expression d’un film ou d’une œuvre multimédia. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/caracteristique-sonore.html ]"@fr;
   rdfs:label "Caractéristique sonore"@fr;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heaol6u2x81 .
+  sh:description "La caractéristique sonore est le son présent dans une expression qui n’est pas constituée principalement de son enregistré, par exemple une expression d’un film ou d’une œuvre multimédia. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/caracteristique-sonore.html ]"@fr;
+  sh:ignoredProperties _:node1hekdhtcvx75 .
 
-_:node1heaol6u2x81 rdf:first rdf:type;
+_:node1hekdhtcvx75 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:CaracteristiqueSonore sh:nodeKind sh:IRI;
   sh:targetClass rdafr:CaracteristiqueSonore .
 
-rdafr:FormeExpression a rdfs:Class, owl:Class, sh:NodeShape;
-  rdfs:label "Forme de l'expression"@fr;
-  rdfs:subClassOf skos:Concept;
-  owl:versionInfo "0.2.0"@fr;
-  sh:closed false;
-  sh:ignoredProperties _:node1heaol6u2x82 .
-
-_:node1heaol6u2x82 rdf:first rdf:type;
-  rdf:rest rdf:nil .
-
-rdafr:FormeExpression sh:nodeKind sh:IRI;
-  sh:targetClass rdafr:FormeExpression .
-
 rdafr:CouvertureAgregat a rdfs:Class, owl:Class, sh:NodeShape;
+  rdfs:comment "La couverture de l’agrégat permet de préciser, dans le cas d’une expression d’agrégation, si la ou les formes de l’expression s’appliquent à toutes les expressions réunies dans l’agrégat ou seulement à une partie d’entre elles. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/couverture-agregat.html ]"@fr;
   rdfs:label "Couverture agrégat"@fr;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heaol6u2x83 .
+  sh:description "La couverture de l’agrégat permet de préciser, dans le cas d’une expression d’agrégation, si la ou les formes de l’expression s’appliquent à toutes les expressions réunies dans l’agrégat ou seulement à une partie d’entre elles. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/couverture-agregat.html ]"@fr;
+  sh:ignoredProperties _:node1hekdhtcvx76 .
 
-_:node1heaol6u2x83 rdf:first rdf:type;
+_:node1hekdhtcvx76 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:CouvertureAgregat sh:nodeKind sh:IRI;
   sh:targetClass rdafr:CouvertureAgregat .
 
 rdafr:ImportanceRelativeFormeExpression a rdfs:Class, owl:Class, sh:NodeShape;
+  rdfs:comment "L’importance relative de la forme de l’expression représentative de l'oeuvre permet de préciser, pour des formes de l’expression présentes mais qui n’apportent pas une contribution essentielle, la place qu’elles occupent dans la réalisation de l’expression. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/importance-relative-forme-expression.html ]"@fr;
   rdfs:label "Importance relative de la forme de l'expression"@fr;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heaol6u2x84 .
+  sh:description "L’importance relative de la forme de l’expression représentative de l'oeuvre permet de préciser, pour des formes de l’expression présentes mais qui n’apportent pas une contribution essentielle, la place qu’elles occupent dans la réalisation de l’expression. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/importance-relative-forme-expression.html ]"@fr;
+  sh:ignoredProperties _:node1hekdhtcvx77 .
 
-_:node1heaol6u2x84 rdf:first rdf:type;
+_:node1hekdhtcvx77 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:ImportanceRelativeFormeExpression sh:nodeKind sh:IRI;
   sh:targetClass rdafr:ImportanceRelativeFormeExpression .
 
 rdafr:PlanExtensionOeuvre a rdfs:Class, owl:Class, sh:NodeShape;
+  rdfs:comment "Le plan d’extension de l’œuvre permet d’indiquer l’intention du créateur quant aux modalités d’extension d’une œuvre. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/plan-extension-oeuvre.html ]"@fr;
   rdfs:label "Plan extension de l'oeuvre"@fr;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heaol6u2x85 .
+  sh:description "Le plan d’extension de l’œuvre permet d’indiquer l’intention du créateur quant aux modalités d’extension d’une œuvre. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/plan-extension-oeuvre.html ]"@fr;
+  sh:ignoredProperties _:node1hekdhtcvx78 .
 
-_:node1heaol6u2x85 rdf:first rdf:type;
+_:node1hekdhtcvx78 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:PlanExtensionOeuvre sh:nodeKind sh:IRI;
   sh:targetClass rdafr:PlanExtensionOeuvre .
 
 rdafr:CategorieOeuvre a rdfs:Class, owl:Class, sh:NodeShape;
+  rdfs:comment "La catégorie d’œuvre est une large catégorisation de l’œuvre déterminée par la forme de l'expression représentative de celle-ci [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/categories-oeuvres.html ]"@fr;
   rdfs:label "Catégorie d'oeuvre"@fr;
   rdfs:subClassOf skos:Concept;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
-  sh:ignoredProperties _:node1heaol6u2x86 .
+  sh:description "La catégorie d’œuvre est une large catégorisation de l’œuvre déterminée par la forme de l'expression représentative de celle-ci [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/categories-oeuvres.html ]"@fr;
+  sh:ignoredProperties _:node1hekdhtcvx79 .
 
-_:node1heaol6u2x86 rdf:first rdf:type;
+_:node1hekdhtcvx79 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:CategorieOeuvre sh:nodeKind sh:IRI;
@@ -1609,8 +1624,6 @@ rdafr:P500008 a owl:ObjectProperty;
 
 rdafrru:R112 owl:versionInfo "0.2.0"@fr;
   sh:description "Relation générique permettant d'exprimer une relation dont la nature n'et pas précisée entre une personne et toute autre entité RDA-FR."@fr .
-
-rdafr:P100001r rdfs:comment "Relation générique permettant d'exprimer une relation dont la nature n'et pas précisée entre une personne et toute autre entité RDA-FR."@fr .
 
 rdafrru:R413 owl:versionInfo "0.1.0"@fr;
   sh:description "Relation de non équivalence alertant sur les risques de confusion entre agents, notamment en cas d'homonymie."@fr;
@@ -2014,7 +2027,7 @@ rdafrru:R519 rdfs:seeAlso "9.3.11"@fr;
   sh:path rdafr:P501023r .
 
 rdafr:C100004 sh:property rdafrru:R122, rdafrru:R519, rdafrru:R520, rdafrru:R521,
-    rdafrru:R525, rdafrru:R526, rdafrru:R527, rdafrru:R528 .
+    rdafrru:R525, rdafrru:R526, rdafrru:R527, rdafrru:R528, rdafrru:R529 .
 
 rdafr:P501023r a owl:Class, owl:ObjectProperty;
   rdfs:comment "Profession ou l’occupation qu’une personne exerce ou a exercée. [code RDA-FR, 9.3.11]"@fr;
@@ -2060,8 +2073,6 @@ rdafrru:R122 owl:versionInfo "0.2.0"@fr;
   sh:node rdafr:P100001r;
   sh:nodeKind sh:IRI;
   sh:path rdafr:P100001r .
-
-rdafr:P100001r rdfs:domain rdafr:C100004 .
 
 rdafrru:R525 owl:versionInfo "0.1.0"@fr;
   sh:description "Relation entre une personne et la personne qu'elle infuence. Cette relation est établie en dehors du périmètre de la relation d’enseignement. S’applique dans les domaines intellectuels et artistiques."@fr;
@@ -2132,9 +2143,6 @@ rdafrru:R529 owl:versionInfo "0.1.0"@fr;
   sh:nodeKind sh:IRI;
   sh:path rdafr:P502039ri .
 
-rdafr:C100004 sh:property rdafrru:R529, rdafrru:R530, rdafrru:R531, rdafrru:R532,
-    rdafrru:R533, rdafrru:R534, rdafrru:R535, rdafrru:R536 .
-
 rdafr:P502039ri a owl:ObjectProperty;
   rdfs:comment "Relation de commande d'une oeuvre entre une personne et une collectivité créatrice."@fr;
   rdfs:domain rdafr:C100004;
@@ -2149,6 +2157,9 @@ rdafrru:R530 owl:versionInfo "0.1.0"@fr;
   sh:node rdafr:C100005;
   sh:nodeKind sh:IRI;
   sh:path rdafr:P502040ri .
+
+rdafr:C100004 sh:property rdafrru:R530, rdafrru:R531, rdafrru:R532, rdafrru:R533,
+    rdafrru:R534, rdafrru:R535, rdafrru:R536, rdafrru:R537 .
 
 rdafr:P502040ri a owl:ObjectProperty;
   rdfs:comment "Relation entre une personne, artiste créateur, et la collectivité ou l'autorité qui l'enjoint à réaliser une œuvre ou qui l'y encourage."@fr;
@@ -2251,9 +2262,6 @@ rdafrru:R537 owl:versionInfo "0.1.0"@fr;
   sh:nodeKind sh:IRI;
   sh:path rdafr:P501030r .
 
-rdafr:C100004 sh:property rdafrru:R537, rdafrru:R538, rdafrru:R539, rdafrru:R540,
-    rdafrru:R541, rdafrru:R542, rdafrru:R543, rdafrru:R544 .
-
 rdafr:P501030r a owl:Class, owl:ObjectProperty;
   rdfs:comment "Relation entre une personne et l'établissement d'enseignement dont elle est élève. S'applique à tous les domaines, y compris les domaines artistiques."@fr;
   rdfs:domain rdafr:C100004;
@@ -2269,6 +2277,9 @@ rdafrru:R538 owl:versionInfo "0.2.0"@fr;
   sh:node rdafr:C100005;
   sh:nodeKind sh:IRI;
   sh:path rdafr:P501072r .
+
+rdafr:C100004 sh:property rdafrru:R538, rdafrru:R539, rdafrru:R540, rdafrru:R541,
+    rdafrru:R542, rdafrru:R543, rdafrru:R544, rdafrru:R545 .
 
 rdafr:P501072r a owl:Class, owl:ObjectProperty;
   rdfs:comment "Relation entre une personne et l'établissement d'enseignement dont elle est diplômée."@fr;
@@ -2370,9 +2381,6 @@ rdafrru:R545 owl:versionInfo "0.1.0"@fr;
   sh:nodeKind sh:IRI;
   sh:path rdafr:P501057r .
 
-rdafr:C100004 sh:property rdafrru:R545, rdafrru:R546, rdafrru:R547, rdafrru:R548,
-    rdafrru:R549, rdafrru:R550, rdafrru:R551, rdafrru:R552, rdafrru:R553 .
-
 rdafr:P501057r a owl:Class, owl:ObjectProperty;
   rdfs:comment "Relation entre deux personnes liées, dans une acception large, par mariage, concubinage, union civile..."@fr;
   rdfs:domain rdafr:C100004;
@@ -2387,6 +2395,9 @@ rdafrru:R546 owl:versionInfo "0.1.0"@fr;
   sh:node rdafr:C100008;
   sh:nodeKind sh:IRI;
   sh:path rdafr:P501064r .
+
+rdafr:C100004 sh:property rdafrru:R546, rdafrru:R547, rdafrru:R548, rdafrru:R549,
+    rdafrru:R550, rdafrru:R551, rdafrru:R552, rdafrru:R553, rdafrru:R554 .
 
 rdafr:P501064r a owl:Class, owl:ObjectProperty;
   rdfs:comment "Relation entre une personne et la famille dont elle est membre."@fr;
@@ -2488,9 +2499,6 @@ rdafrru:R554 owl:versionInfo "0.1.0"@fr;
   sh:nodeKind sh:IRI;
   sh:path rdafr:P502377ri .
 
-rdafr:C100004 sh:property rdafrru:R554, rdafrru:R555, rdafrru:R556, rdafrru:R557,
-    rdafrru:R558, rdafrru:R559, rdafrru:R560, rdafrru:R561 .
-
 rdafr:P502377ri a owl:ObjectProperty;
   rdfs:comment "Relation de financement entre une personne et la collectivité qui la finance."@fr;
   rdfs:domain rdafr:C100004;
@@ -2505,6 +2513,9 @@ rdafrru:R555 owl:versionInfo "0.1.0"@fr;
   sh:node rdafr:C100008;
   sh:nodeKind sh:IRI;
   sh:path rdafr:P501088r .
+
+rdafr:C100004 sh:property rdafrru:R555, rdafrru:R556, rdafrru:R557, rdafrru:R558,
+    rdafrru:R559, rdafrru:R560, rdafrru:R561, rdafrru:R562 .
 
 rdafr:P501088r a owl:Class, owl:ObjectProperty;
   rdfs:comment "Relation de financement d'une personne envers une famille."@fr;
@@ -2546,78 +2557,13 @@ rdafr:P502379ri a owl:ObjectProperty;
   owl:inverseOf rdafr:P502379r .
 
 rdafrru:R558 owl:versionInfo "0.1.0"@fr;
-  sh:description "Relation entre une personne qui apporte un soutien matériel pour l'exercice d'activités présentant un intérêt général et la collectivité bénéficiaire de ce soutien. L'apport du soutien est sans contrepartie directe de la part du bénéficiaire."@fr;
-  sh:name "est mécène de [dans la relation]"@fr;
-  sh:node rdafr:C100005;
-  sh:nodeKind sh:IRI;
-  sh:path rdafr:P501042r .
-
-rdafr:P501042r a owl:Class, owl:ObjectProperty;
-  rdfs:comment "Relation entre une personne qui apporte un soutien matériel pour l'exercice d'activités présentant un intérêt général et la collectivité bénéficiaire de ce soutien. L'apport du soutien est sans contrepartie directe de la part du bénéficiaire."@fr;
-  rdfs:domain rdafr:C100004;
-  rdfs:label "est mécène de [dans la relation]"@fr;
-  rdfs:range rdafr:P501042r;
-  rdfs:subClassOf rdafr:P500028r;
-  rdfs:subPropertyOf rdafr:P500028r;
-  owl:inverseOf rdafr:P501042ri .
-
-rdafrru:R559 owl:versionInfo "0.1.0"@fr;
-  sh:description "Relation entre une personne bénéficiaire d'un soutien matériel pour l'exercice d'activités présentant un intérêt général et la collectivité qui lui apporte ce soutien. L'apport du soutien est sans contrepartie directe de la part du bénéficiaire."@fr;
-  sh:name "a pour mécène [dans la relation]"@fr;
-  sh:node rdafr:C100005;
-  sh:nodeKind sh:IRI;
-  sh:path rdafr:P501042ri .
-
-rdafr:P501042ri a owl:ObjectProperty;
-  rdfs:comment "Relation entre une personne bénéficiaire d'un soutien matériel pour l'exercice d'activités présentant un intérêt général et la collectivité qui lui apporte ce soutien. L'apport du soutien est sans contrepartie directe de la part du bénéficiaire."@fr;
-  rdfs:domain rdafr:C100004;
-  rdfs:label "a pour mécène [dans la relation]"@fr;
-  rdfs:range rdafr:P501042r;
-  rdfs:subPropertyOf rdafr:P500028r;
-  owl:inverseOf rdafr:P501042r .
-
-rdafrru:R560 owl:versionInfo "0.1.0"@fr;
-  sh:description "Relation entre une personne qui apporte un soutien matériel pour l'exercice d'activités présentant un intérêt général et la collectivité bénficiaire de ce soutien. Le parraineur retire un bénéfice direct du soutien qu'il apporte."@fr;
-  sh:name "est parraineur de [dans la relation]"@fr;
-  sh:node rdafr:C100005;
-  sh:nodeKind sh:IRI;
-  sh:path rdafr:P501043r .
-
-rdafr:P501043r a owl:Class, owl:ObjectProperty;
-  rdfs:comment "Relation entre une personne qui apporte un soutien matériel pour l'exercice d'activités présentant un intérêt général et la collectivité bénficiaire de ce soutien. Le parraineur retire un bénéfice direct du soutien qu'il apporte."@fr;
-  rdfs:domain rdafr:C100004;
-  rdfs:label "est parraineur de [dans la relation]"@fr;
-  rdfs:range rdafr:P501043r;
-  rdfs:subClassOf rdafr:P100001r;
-  rdfs:subPropertyOf rdafr:P100001r;
-  owl:inverseOf rdafr:P501043ri .
-
-rdafrru:R561 owl:versionInfo "0.1.0"@fr;
-  sh:description "Relation entre une personne bénéficiaire d'un soutien matériel pour l'exercice d'activités présentant un intérêt général et la collectivité qui lui apporte ce soutien. Le parraineur retire un bénéfice direct du soutien qu'il apporte."@fr;
-  sh:name "a pour parraineur [dans la relation]"@fr;
-  sh:node rdafr:C100004;
-  sh:nodeKind sh:IRI;
-  sh:path rdafr:P501043ri .
-
-rdafr:P501043ri a owl:ObjectProperty;
-  rdfs:comment "Relation entre une personne bénéficiaire d'un soutien matériel pour l'exercice d'activités présentant un intérêt général et la collectivité qui lui apporte ce soutien. Le parraineur retire un bénéfice direct du soutien qu'il apporte."@fr;
-  rdfs:domain rdafr:C100004;
-  rdfs:label "a pour parraineur [dans la relation]"@fr;
-  rdfs:range rdafr:P501043r;
-  rdfs:subPropertyOf rdafr:P100001r;
-  owl:inverseOf rdafr:P501043r .
-
-rdafrru:R562 owl:versionInfo "0.1.0"@fr;
   sh:description "Catégorie de relations entre entre une personne et un autre agent, regroupant les relations de membre, d'affiliation ou de propriété. Utiliser les relations précises de cette catégorie."@fr;
   sh:name "a des relations d'appartenance ou d'adhésion avec [dans la relation]"@fr;
   sh:node rdafr:C100002;
   sh:nodeKind sh:IRI;
   sh:path rdafr:P500050r .
 
-rdafr:C100004 sh:property rdafrru:R562, rdafrru:R563, rdafrru:R564, rdafrru:R565,
-    rdafrru:R566, rdafrru:R567, rdafrru:R568, rdafrru:R569, rdafrru:R570 .
-
-rdafrru:R563 owl:versionInfo "0.1.0"@fr;
+rdafrru:R559 owl:versionInfo "0.1.0"@fr;
   sh:description "Relation entre une personne et la collectivité dont elle est membre."@fr;
   sh:name "personne est membre de la collectivité [dans la relation]"@fr;
   sh:node rdafr:C100005;
@@ -2633,7 +2579,7 @@ rdafr:P501068r a owl:Class, owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P500050r;
   owl:inverseOf rdafr:P501068ri .
 
-rdafrru:R564 owl:versionInfo "0.1.0"@fr;
+rdafrru:R560 owl:versionInfo "0.1.0"@fr;
   sh:description "Relation entre une personne et le groupe informel dont elle fait partie."@fr;
   sh:name "personne est membre du groupe informel [dans la relation]"@fr;
   sh:node rdafr:C100025;
@@ -2649,7 +2595,7 @@ rdafr:P501079r a owl:Class, owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P500050r;
   owl:inverseOf rdafr:P501079ri .
 
-rdafrru:R565 rdfs:seeAlso "9.3.12"@fr;
+rdafrru:R561 rdfs:seeAlso "9.3.12"@fr;
   owl:versionInfo "0.1.0"@fr;
   sh:description """Relation entre une personne et la collectivité à laquelle elle est affiliée. Il s'agit d'un cas particulier de la relation \"est membre de\", principalement en usage dans le contexte de l'enseignement supérieur et de la recherche.
 Relation entre une personne et le groupe auquel elle est affiliée. Cette relation signale une appartenance à un groupe obtenue par recrutement, acquisition de la qualité de membre, etc [code RDA-FR, 9.3.12]"""@fr;
@@ -2668,7 +2614,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
   rdfs:subPropertyOf rdafr:P500050r;
   owl:inverseOf rdafr:P501024ri .
 
-rdafrru:R566 owl:versionInfo "0.1.0"@fr;
+rdafrru:R562 owl:versionInfo "0.1.0"@fr;
   sh:description "Relation entre une personne et la collectivité qu'elle possède."@fr;
   sh:name "personne est propriétaire de la collectivité [dans la relation]"@fr;
   sh:node rdafr:C100005;
@@ -2684,14 +2630,17 @@ rdafr:P501078r a owl:Class, owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P500050r;
   owl:inverseOf rdafr:P501078ri .
 
-rdafrru:R567 owl:versionInfo "0.1.0"@fr;
+rdafrru:R563 owl:versionInfo "0.1.0"@fr;
   sh:description "Catégorie de relations entre entre une personne et un autre agent comprenant les relations d'emploi, de prestation, de franchise ou d'associé de."@fr;
   sh:name "a des relations contractuelles avec [dans la relation]"@fr;
   sh:node rdafr:C100002;
   sh:nodeKind sh:IRI;
   sh:path rdafr:P500051r .
 
-rdafrru:R568 owl:versionInfo "0.2.0"@fr;
+rdafr:C100004 sh:property rdafrru:R563, rdafrru:R564, rdafrru:R565, rdafrru:R566,
+    rdafrru:R567, rdafrru:R568, rdafrru:R569 .
+
+rdafrru:R564 owl:versionInfo "0.2.0"@fr;
   sh:description "Relation contractuelle entre une personne et une entreprise où la personne, en vertu de son statut d'associée, partage les bénéfices de l'entreprise avec d'autres associés."@fr;
   sh:name "personne est l'associé ou l'associée de la collectivité [dans la relation]"@fr;
   sh:node rdafr:C100005;
@@ -2707,7 +2656,7 @@ rdafr:P501075r a owl:Class, owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P500051r;
   owl:inverseOf rdafr:P501075ri .
 
-rdafrru:R569 owl:versionInfo "0.2.0"@fr;
+rdafrru:R565 owl:versionInfo "0.2.0"@fr;
   sh:description "Relation contractuelle entre une personne et son organisme employeur (par exemple, lorsque la personne est employée avec le statut de salarié, d’agent de la fonction publique, etc.). Cette relation implique aussi un rapport de hiérarchie entre la personne employée et l'organisme employeur. A ne pas confondre avec la relation “Est prestataire de service / Est client de” qui est une relation contractuelle sans hiérarchie entre les parties."@fr;
   sh:name "personne est employé ou employée par la collectivité [dans la relation]"@fr;
   sh:node rdafr:C100005;
@@ -2723,21 +2672,19 @@ rdafr:P501074r a owl:Class, owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P500051r;
   owl:inverseOf rdafr:P501074ri .
 
-rdafrru:R570 owl:versionInfo "0.1.0"@fr;
+rdafrru:R566 owl:versionInfo "0.1.0"@fr;
   sh:description "Catégorie de relations entre agents regroupant des relations de subordination ou d'autorité (contrôle, tutelle)"@fr;
   sh:name "a des relations hiérarchiques avec [dans la relation]"@fr;
   sh:node rdafr:C100002;
   sh:nodeKind sh:IRI;
   sh:path rdafr:P502336r .
 
-rdafrru:R571 owl:versionInfo "0.2.0"@fr;
+rdafrru:R567 owl:versionInfo "0.2.0"@fr;
   sh:description "Relation entre une personne et la collectivité qu'elle dirige ou au sein de laquelle elle exerce une fonction de responsabilité."@fr;
   sh:name "personne dirige la collectivité [dans la relation]"@fr;
   sh:node rdafr:C100005;
   sh:nodeKind sh:IRI;
   sh:path rdafr:P501080r .
-
-rdafr:C100004 sh:property rdafrru:R571, rdafrru:R572, rdafrru:R573 .
 
 rdafr:P501080r a owl:Class, owl:ObjectProperty;
   rdfs:comment "Relation entre une personne et la collectivité qu'elle dirige ou au sein de laquelle elle exerce une fonction de responsabilité."@fr;
@@ -2748,7 +2695,7 @@ rdafr:P501080r a owl:Class, owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P502336r;
   owl:inverseOf rdafr:P501080ri .
 
-rdafrru:R572 owl:versionInfo "0.1.0"@fr;
+rdafrru:R568 owl:versionInfo "0.1.0"@fr;
   sh:description "Relation de non équivalence entre la personne décrite et une autre personne, collectivité ou famille homonyme, alertant sur les risques de confusion entre les deux."@fr;
   sh:name "est à distinguer de [dans la relation]"@fr;
   sh:node rdafr:C100002;
@@ -2757,7 +2704,7 @@ rdafrru:R572 owl:versionInfo "0.1.0"@fr;
 
 rdafr:P100010r rdfs:subPropertyOf rdafr:P100001r .
 
-rdafrru:R573 owl:versionInfo "0.1.0"@fr;
+rdafrru:R569 owl:versionInfo "0.1.0"@fr;
   sh:description "Personne qui partage une même identité publique avec une autre personne, dans le cas de pseudonymes collectifs."@fr;
   sh:name "partage l'identité publique avec [dans la relation]"@fr;
   sh:node rdafr:C100004;
@@ -3172,8 +3119,8 @@ rdafrru:P728 rdfs:seeAlso "11.12"@fr;
   sh:nodeKind sh:Literal;
   sh:path rdafr:P502323r .
 
-rdafr:C100005 sh:property rdafrru:P728, rdafrru:P729, rdafrru:P730, rdafrru:P734,
-    rdafrru:P735, rdafrru:P736, rdafrru:P737 .
+rdafr:C100005 sh:property rdafrru:P728, rdafrru:P729, rdafrru:P730, rdafrru:P732,
+    rdafrru:P733, rdafrru:P734, rdafrru:P735, rdafrru:P736, rdafrru:R131 .
 
 rdafr:P502323r a owl:Class, owl:ObjectProperty;
   rdfs:comment "Champ d'activité dans lequel évolue une collectivité ou une zone de compétence ou de responsabilité d'une collectivité, etc. [code RDA-FR, 11.12]"@fr;
@@ -3217,15 +3164,18 @@ rdafr:P502325 a owl:ObjectProperty;
 rdafrru:R131 owl:versionInfo "0.2.0"@fr;
   sh:description "Relation générique permettant d'exprimer une relation dont la nature n'et pas précisée entre une collectivité et toute autre entité RDA-FR."@fr;
   sh:name "est en relation avec"@fr;
-  sh:node rdafr:P100001r;
+  sh:node rdafr:C100013;
   sh:nodeKind sh:IRI;
   sh:path rdafr:P100001r .
 
-rdafr:C100013 sh:property rdafrru:R131 .
+rdafrru:P732 owl:versionInfo "0.1.0"@fr;
+  sh:description "Catégorie de relations entre une collectivité et tout autre agent, regroupant les relations spécifiques de nature sociale, économique ou culturelle. Ne pas l'utiliser comme type de relation à part entière. Privilégier les relations précises."@fr;
+  sh:name "a une relation sociale, économique ou culturelle avec [dans la relation]"@fr;
+  sh:node rdafr:C100002;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P500028r .
 
-rdafr:P100001r rdfs:comment "Relation générique permettant d'exprimer une relation dont la nature n'et pas précisée entre une collectivité et toute autre entité RDA-FR."@fr .
-
-rdafrru:P734 owl:versionInfo "0.1.0"@fr;
+rdafrru:P733 owl:versionInfo "0.1.0"@fr;
   sh:description "Relation de commande d'une oeuvre entre une collectivité et une collectivité créatrice."@fr;
   sh:name "collectivité commande des œuvres à la collectivité [dans la relation]"@fr;
   sh:node rdafr:C100005;
@@ -3240,7 +3190,7 @@ rdafr:P502338ri a owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P500028r;
   owl:inverseOf rdafr:P502338r .
 
-rdafrru:P735 owl:versionInfo "0.1.0"@fr;
+rdafrru:P734 owl:versionInfo "0.1.0"@fr;
   sh:description "Relation entre une collectivité créatrice, et la collectivité ou l'autorité qui l'enjoint à réaliser une œuvre ou qui l'y encourage."@fr;
   sh:name "collectivité reçoit des commandes de la collectivité [dans la relation]"@fr;
   sh:node rdafr:C100005;
@@ -3256,7 +3206,7 @@ rdafr:P502338r a owl:Class, owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P500028r;
   owl:inverseOf rdafr:P502338ri .
 
-rdafrru:P736 owl:versionInfo "0.1.0"@fr;
+rdafrru:P735 owl:versionInfo "0.1.0"@fr;
   sh:description "Relation de commande d'une oeuvre entre une collectivité et un artiste créateur."@fr;
   sh:name "collectivité commande des œuvres à la personne [dans la relation]"@fr;
   sh:node rdafr:C100004;
@@ -3272,7 +3222,7 @@ rdafr:P502040r a owl:Class, owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P500028r;
   owl:inverseOf rdafr:P502040ri .
 
-rdafrru:P737 owl:versionInfo "0.1.0"@fr;
+rdafrru:P736 owl:versionInfo "0.1.0"@fr;
   sh:description "Relation entre une collectivité créatrice, et la personne qui l'enjoint à réaliser une œuvre ou qui l'y encourage."@fr;
   sh:name "collectivité reçoit des commandes de la personne [dans la relation]"@fr;
   sh:node rdafr:C100004;
@@ -3288,15 +3238,15 @@ rdafr:P502039r a owl:Class, owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P500028r;
   owl:inverseOf rdafr:P502039ri .
 
-rdafrru:P738 owl:versionInfo "0.1.0"@fr;
+rdafrru:P737 owl:versionInfo "0.1.0"@fr;
   sh:description "Relation entre une collectivité créatrice, et la famille qui l'enjoint à réaliser une œuvre ou qui l'y encourage."@fr;
   sh:name "collectivité reçoit des commandes de la famille [dans la relation]"@fr;
   sh:node rdafr:C100008;
   sh:nodeKind sh:IRI;
   sh:path rdafr:P502390r .
 
-rdafr:C100005 sh:property rdafrru:P738, rdafrru:P739, rdafrru:P740, rdafrru:P741,
-    rdafrru:P742, rdafrru:P743, rdafrru:P744, rdafrru:P745, rdafrru:P746 .
+rdafr:C100005 sh:property rdafrru:P737, rdafrru:P738, rdafrru:P739, rdafrru:P740,
+    rdafrru:P741, rdafrru:P742, rdafrru:P743, rdafrru:P744, rdafrru:P745 .
 
 rdafr:P502390r a owl:Class, owl:ObjectProperty;
   rdfs:comment "Relation entre une collectivité créatrice, et la famille qui l'enjoint à réaliser une œuvre ou qui l'y encourage."@fr;
@@ -3307,14 +3257,14 @@ rdafr:P502390r a owl:Class, owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P500028r;
   owl:inverseOf rdafr:P502390ri .
 
-rdafrru:P739 owl:versionInfo "0.1.0"@fr;
+rdafrru:P738 owl:versionInfo "0.1.0"@fr;
   sh:description "Catégorie de relations regroupant les relations spécifiques relatives à la formation entre agents."@fr;
   sh:name "a une relation relative à la formation avec [dans la relation]"@fr;
   sh:node rdafr:C100002;
   sh:nodeKind sh:IRI;
   sh:path rdafr:P500049r .
 
-rdafrru:P740 owl:versionInfo "0.1.0"@fr;
+rdafrru:P739 owl:versionInfo "0.1.0"@fr;
   sh:description "Relation entre un organisme de formation et une collectivité."@fr;
   sh:name "dispense des formations à la collectivité [dans la relation]"@fr;
   sh:node rdafr:C100005;
@@ -3330,7 +3280,7 @@ rdafr:P502050r a owl:Class, owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P500049r;
   owl:inverseOf rdafr:P502050ri .
 
-rdafrru:P741 owl:versionInfo "0.1.0"@fr;
+rdafrru:P740 owl:versionInfo "0.1.0"@fr;
   sh:description "Relation entre une collectivité et un organisme de formation."@fr;
   sh:name "reçoit des formations de la collectivité [dans la relation]"@fr;
   sh:node rdafr:C100005;
@@ -3345,35 +3295,7 @@ rdafr:P502050ri a owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P500049r;
   owl:inverseOf rdafr:P502050r .
 
-rdafrru:P742 owl:versionInfo "0.1.0"@fr;
-  sh:description "Relation entre une collectivité et une personne formatrice"@fr;
-  sh:name "reçoit des formations de la personne [dans la relation]"@fr;
-  sh:node rdafr:C100004;
-  sh:nodeKind sh:IRI;
-  sh:path rdafr:P502051r .
-
-rdafr:P502051r a owl:Class, owl:ObjectProperty;
-  rdfs:comment "Relation entre une collectivité et une personne formatrice"@fr;
-  rdfs:domain rdafr:C100005;
-  rdfs:label "reçoit des formations de la personne [dans la relation]"@fr;
-  rdfs:range rdafr:P502051r;
-  rdfs:subClassOf rdafr:P500049r;
-  rdfs:subPropertyOf rdafr:P500049r .
-
-rdafrru:P743 owl:versionInfo "0.2.0"@fr;
-  sh:description "Relation entre un organisme de formation et une personne."@fr;
-  sh:name "dispense des formations à la personne [dans la relation]"@fr;
-  sh:node rdafr:C100004;
-  sh:nodeKind sh:IRI;
-  sh:path rdafr:P502051ri .
-
-rdafr:P502051ri a owl:ObjectProperty;
-  rdfs:comment "Relation entre un organisme de formation et une personne."@fr;
-  rdfs:domain rdafr:C100005;
-  rdfs:label "dispense des formations à la personne [dans la relation]"@fr;
-  rdfs:subPropertyOf rdafr:P500049r .
-
-rdafrru:P744 owl:versionInfo "0.1.0"@fr;
+rdafrru:P741 owl:versionInfo "0.1.0"@fr;
   sh:description "Relation entre un établissement d'enseignement et la personne à laquelle il confère un diplôme."@fr;
   sh:name "confère un diplôme à la personne [dans la relation]"@fr;
   sh:node rdafr:C100004;
@@ -3388,7 +3310,7 @@ rdafr:P501072ri a owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P500049r;
   owl:inverseOf rdafr:P501072r .
 
-rdafrru:P745 owl:versionInfo "0.1.0"@fr;
+rdafrru:P742 owl:versionInfo "0.1.0"@fr;
   sh:description "Relation entre un établissement d'enseignement et la personne élève de cet établissement. S'applique à tous les domaines, y compris les domaines artistiques."@fr;
   sh:name "compte parmi ses élèves [dans la relation]"@fr;
   sh:node rdafr:C100004;
@@ -3403,7 +3325,7 @@ rdafr:P501030ri a owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P500049r;
   owl:inverseOf rdafr:P501030r .
 
-rdafrru:P746 owl:versionInfo "0.1.0"@fr;
+rdafrru:P743 owl:versionInfo "0.1.0"@fr;
   sh:description "Relation entre une collectivité fondatrice et la collectivité qu'elle a fondée."@fr;
   sh:name "collectivité fonde la collectivité [dans la relation]"@fr;
   sh:node rdafr:C100005;
@@ -3419,15 +3341,12 @@ rdafr:P502048r a owl:Class, owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P500028r;
   owl:inverseOf rdafr:P502048ri .
 
-rdafrru:P747 owl:versionInfo "0.1.0"@fr;
+rdafrru:P744 owl:versionInfo "0.1.0"@fr;
   sh:description "Relation entre une collectivité et la collectivité qui l'a fondée."@fr;
   sh:name "collectivité est fondé par la collectivité [dans la relation]"@fr;
   sh:node rdafr:C100005;
   sh:nodeKind sh:IRI;
   sh:path rdafr:P502048ri .
-
-rdafr:C100005 sh:property rdafrru:P747, rdafrru:P748, rdafrru:P749, rdafrru:P750,
-    rdafrru:P751, rdafrru:P752, rdafrru:P753, rdafrru:P754, rdafrru:P755 .
 
 rdafr:P502048ri a owl:ObjectProperty;
   rdfs:comment "Relation entre une collectivité et la collectivité qui l'a fondée."@fr;
@@ -3437,7 +3356,7 @@ rdafr:P502048ri a owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P500028r;
   owl:inverseOf rdafr:P502048r .
 
-rdafrru:P748 owl:versionInfo "0.1.0"@fr;
+rdafrru:P745 owl:versionInfo "0.1.0"@fr;
   sh:description "Relation entre une collectivité et la famille qui l'a fondée."@fr;
   sh:name "collectivité est fondé par la famille [dans la relation]"@fr;
   sh:node rdafr:C100004;
@@ -3452,12 +3371,15 @@ rdafr:P505010ri a owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P500028r;
   owl:inverseOf rdafr:P505010r .
 
-rdafrru:P749 owl:versionInfo "0.1.0"@fr;
+rdafrru:P746 owl:versionInfo "0.1.0"@fr;
   sh:description "Relation entre une collectivité et la personne qui l'a fondée."@fr;
   sh:name "collectivité est fondé par la personne [dans la relation]"@fr;
   sh:node rdafr:C100004;
   sh:nodeKind sh:IRI;
   sh:path rdafr:P501076ri .
+
+rdafr:C100005 sh:property rdafrru:P746, rdafrru:P747, rdafrru:P748, rdafrru:P749,
+    rdafrru:P750, rdafrru:P751, rdafrru:P752, rdafrru:P753, rdafrru:P754 .
 
 rdafr:P501076ri a owl:ObjectProperty;
   rdfs:comment "Relation entre une collectivité et la personne qui l'a fondée."@fr;
@@ -3467,14 +3389,14 @@ rdafr:P501076ri a owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P500028r;
   owl:inverseOf rdafr:P501076r .
 
-rdafrru:P750 owl:versionInfo "0.1.0"@fr;
+rdafrru:P747 owl:versionInfo "0.1.0"@fr;
   sh:description "Catégorie de relations entre agents regroupant des relations de subordination ou d'autorité (contrôle, tutelle)."@fr;
   sh:name "a des relations hiérarchiques avec [dans la relation]"@fr;
   sh:node rdafr:C100002;
   sh:nodeKind sh:IRI;
   sh:path rdafr:P502336r .
 
-rdafrru:P751 owl:versionInfo "0.1.0"@fr;
+rdafrru:P748 owl:versionInfo "0.1.0"@fr;
   sh:description "Relation entre une collectivité et la personne qui la dirige où au sein de laquelle elle exerce une fonction de responsabilité."@fr;
   sh:name "collectivité est dirigé par la personne [dans la relation]"@fr;
   sh:node rdafr:C100004;
@@ -3489,7 +3411,7 @@ rdafr:P501080ri a owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P502336r;
   owl:inverseOf rdafr:P501080r .
 
-rdafrru:P752 owl:versionInfo "0.1.0"@fr;
+rdafrru:P749 owl:versionInfo "0.1.0"@fr;
   sh:description "Relation entre une collectivité et la famille qui la dirige."@fr;
   sh:name "collectivité est dirigé par la famille [dans la relation]"@fr;
   sh:node rdafr:C100008;
@@ -3504,7 +3426,7 @@ rdafr:P505012ri a owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P502336r;
   owl:inverseOf rdafr:P505012r .
 
-rdafrru:P753 owl:versionInfo "0.1.0"@fr;
+rdafrru:P750 owl:versionInfo "0.1.0"@fr;
   sh:description "Relation entre une collectivité et la collectivité qui lui est subordonnée."@fr;
   sh:name "a pour subordonné [dans la relation]"@fr;
   sh:node rdafr:C100005;
@@ -3520,7 +3442,7 @@ rdafr:P502337r a owl:Class, owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P502336r;
   owl:inverseOf rdafr:P502337ri .
 
-rdafrru:P754 owl:versionInfo "0.1.0"@fr;
+rdafrru:P751 owl:versionInfo "0.1.0"@fr;
   sh:description "Relation entre une collectivité subordonnée et sa collectivité supérieure."@fr;
   sh:name "est subordonné à [dans la relation]"@fr;
   sh:node rdafr:C100005;
@@ -3535,7 +3457,7 @@ rdafr:P502337ri a owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P502336r;
   owl:inverseOf rdafr:P502337r .
 
-rdafrru:P755 owl:versionInfo "0.1.0"@fr;
+rdafrru:P752 owl:versionInfo "0.1.0"@fr;
   sh:description "Relation entre une collectivité et la collectivité qui est sous son autorité. Appartenant à la categorie des relations hiérarchiques, cette sous-catégorie regroupe les relations de contrôle et de tutelle. Peut être employé comme une relation à part entière lorsqu'on n'a pas d'information précise sur la nature de l'autorité exercée."@fr;
   sh:name "a l'autorité sur [dans la relation]"@fr;
   sh:node rdafr:C100005;
@@ -3551,15 +3473,12 @@ rdafr:P502339r a owl:Class, owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P502337r;
   owl:inverseOf rdafr:P502339ri .
 
-rdafrru:P756 owl:versionInfo "0.1.0"@fr;
+rdafrru:P753 owl:versionInfo "0.1.0"@fr;
   sh:description "Relation entre une collectivité et la collectivité exerçant son autorité sur elle. Appartenant à la categorie des relations hiérarchiques, cette sous-catégorie regroupe les relations de contrôle et de tutelle. Peut être employé comme une relation à part entière lorsqu'on n'a pas d'information précise sur la nature de l'autorité exercée."@fr;
   sh:name "est sous l'autorité de [dans la relation]"@fr;
   sh:node rdafr:C100005;
   sh:nodeKind sh:IRI;
   sh:path rdafr:P502339ri .
-
-rdafr:C100005 sh:property rdafrru:P756, rdafrru:P757, rdafrru:P758, rdafrru:P759,
-    rdafrru:P760, rdafrru:P761, rdafrru:P762, rdafrru:P763, rdafrru:P764 .
 
 rdafr:P502339ri a owl:ObjectProperty;
   rdfs:comment "Relation entre une collectivité et la collectivité exerçant son autorité sur elle. Appartenant à la categorie des relations hiérarchiques, cette sous-catégorie regroupe les relations de contrôle et de tutelle. Peut être employé comme une relation à part entière lorsqu'on n'a pas d'information précise sur la nature de l'autorité exercée."@fr;
@@ -3569,7 +3488,7 @@ rdafr:P502339ri a owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P502337ri;
   owl:inverseOf rdafr:P502339r .
 
-rdafrru:P757 owl:versionInfo "0.1.0"@fr;
+rdafrru:P754 owl:versionInfo "0.1.0"@fr;
   sh:description "Relation entre une collectivité et la collectivité qu'elle contrôle."@fr;
   sh:name "contrôle [dans la relation]"@fr;
   sh:node rdafr:C100005;
@@ -3585,12 +3504,15 @@ rdafr:P502341r a owl:Class, owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P502339r;
   owl:inverseOf rdafr:P502341ri .
 
-rdafrru:P758 owl:versionInfo "0.1.0"@fr;
+rdafrru:P755 owl:versionInfo "0.1.0"@fr;
   sh:description "Relation entre une collectivité et la collectivité qui la contrôle."@fr;
   sh:name "est contrôlé par [dans la relation]"@fr;
   sh:node rdafr:C100005;
   sh:nodeKind sh:IRI;
   sh:path rdafr:P502341ri .
+
+rdafr:C100005 sh:property rdafrru:P755, rdafrru:P756, rdafrru:P757, rdafrru:P758,
+    rdafrru:P759, rdafrru:P760, rdafrru:P761, rdafrru:P762, rdafrru:P763 .
 
 rdafr:P502341ri a owl:ObjectProperty;
   rdfs:comment "Relation entre une collectivité et la collectivité qui la contrôle."@fr;
@@ -3600,7 +3522,7 @@ rdafr:P502341ri a owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P502339ri;
   owl:inverseOf rdafr:P502341r .
 
-rdafrru:P759 owl:versionInfo "0.1.0"@fr;
+rdafrru:P756 owl:versionInfo "0.1.0"@fr;
   sh:description "Relation entre une collectivité et la collectivité qui est sous sa tutelle."@fr;
   sh:name "est la tutelle de [dans la relation]"@fr;
   sh:node rdafr:C100005;
@@ -3616,7 +3538,7 @@ rdafr:P502343r a owl:Class, owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P502339r;
   owl:inverseOf rdafr:P502343ri .
 
-rdafrru:P760 owl:versionInfo "0.1.0"@fr;
+rdafrru:P757 owl:versionInfo "0.1.0"@fr;
   sh:description "Relation entre une collectivité et sa collectivité de tutelle."@fr;
   sh:name "est sous la tutelle de [dans la relation]"@fr;
   sh:node rdafr:C100005;
@@ -3631,14 +3553,14 @@ rdafr:P502343ri a owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P502339ri;
   owl:inverseOf rdafr:P502343r .
 
-rdafrru:P761 owl:versionInfo "0.1.0"@fr;
+rdafrru:P758 owl:versionInfo "0.1.0"@fr;
   sh:description "Catégorie de relations entre une collectivité et tout autre agent, regroupant les relations de membre, d'affiliation ou de propriété. Utiliser les relations spécifiques de cette nature."@fr;
   sh:name "a des relations d'appartenance ou d'adhésion avec [dans la relation]"@fr;
   sh:node rdafr:C100002;
   sh:nodeKind sh:IRI;
   sh:path rdafr:P500050r .
 
-rdafrru:P762 owl:versionInfo "0.1.0"@fr;
+rdafrru:P759 owl:versionInfo "0.1.0"@fr;
   sh:description "Relation entre une collectivité et la collectivité dont elle est membre. La relation de membre n’implique pas de subordination hiérarchique entre ces deux collectivités au sens strict du terme. Au sein d'un regroupement de collectivités, la collectivité membre conserve son intégrité et personnalité juridique, même si elle peut déléguer certaines de ses compétences au regroupement."@fr;
   sh:name "collectivité est membre de la collectivité [dans la relation]"@fr;
   sh:node rdafr:C100005;
@@ -3654,7 +3576,7 @@ rdafr:P502346r a owl:Class, owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P500050r;
   owl:inverseOf rdafr:P502346ri .
 
-rdafrru:P763 owl:versionInfo "0.1.0"@fr;
+rdafrru:P760 owl:versionInfo "0.1.0"@fr;
   sh:description "Relation entre une collectivité et la collectivité qui en est membre. La relation de membre n’implique pas de subordination hiérarchique entre ces deux collectivités au sens strict du terme. Au sein d'un regroupement de collectivités, la collectivité membre conserve son intégrité et personnalité juridique, même si elle peut déléguer certaines de ses compétences au regroupement."@fr;
   sh:name "collectivité a pour membre la collectivité [dans la relation]"@fr;
   sh:node rdafr:C100005;
@@ -3669,7 +3591,7 @@ rdafr:P502346ri a owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P500050r;
   owl:inverseOf rdafr:P502346r .
 
-rdafrru:P764 owl:versionInfo "0.1.0"@fr;
+rdafrru:P761 owl:versionInfo "0.1.0"@fr;
   sh:description "Relation entre une collectivité et la personne qui en est membre."@fr;
   sh:name "collectivité a pour membre la personne [dans la relation]"@fr;
   sh:node rdafr:C100004;
@@ -3684,15 +3606,12 @@ rdafr:P501068ri a owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P500050r;
   owl:inverseOf rdafr:P501068r .
 
-rdafrru:P765 owl:versionInfo "0.1.0"@fr;
+rdafrru:P762 owl:versionInfo "0.1.0"@fr;
   sh:description "Relation entre une collectivité et la collectivité à laquelle elle est affiliée. Il s'agit d'une relation d'adhésion ou d'association plus ou moins formelle permettant à la collectivité affiliée de participer aux activités ou bénéficier des avantages de la collectivité à laquelle elle est affiliée."@fr;
   sh:name "collectivité est affilié à la collectivité [dans la relation]"@fr;
   sh:node rdafr:C100005;
   sh:nodeKind sh:IRI;
   sh:path rdafr:P502348r .
-
-rdafr:C100005 sh:property rdafrru:P765, rdafrru:P766, rdafrru:P767, rdafrru:P768,
-    rdafrru:P769, rdafrru:P770, rdafrru:P771, rdafrru:P772 .
 
 rdafr:P502348r a owl:Class, owl:ObjectProperty;
   rdfs:comment "Relation entre une collectivité et la collectivité à laquelle elle est affiliée. Il s'agit d'une relation d'adhésion ou d'association plus ou moins formelle permettant à la collectivité affiliée de participer aux activités ou bénéficier des avantages de la collectivité à laquelle elle est affiliée."@fr;
@@ -3703,7 +3622,7 @@ rdafr:P502348r a owl:Class, owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P500050r;
   owl:inverseOf rdafr:P502348ri .
 
-rdafrru:P766 owl:versionInfo "0.1.0"@fr;
+rdafrru:P763 owl:versionInfo "0.1.0"@fr;
   sh:description "Relation entre une collectivité et la collectivité qui lui est affiliée. Il s'agit d'une relation d'adhésion ou d'association plus ou moins formelle permettant à la collectivité affiliée de participer aux activités ou bénéficier des avantages de la collectivité à laquelle elle est affiliée."@fr;
   sh:name "collectivité a pour affilié la collectivité[dans la relation]"@fr;
   sh:node rdafr:C100005;
@@ -3718,12 +3637,15 @@ rdafr:P502348ri a owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P500050r;
   owl:inverseOf rdafr:P502348r .
 
-rdafrru:P767 owl:versionInfo "0.2.0"@fr;
+rdafrru:P764 owl:versionInfo "0.2.0"@fr;
   sh:description "Relation entre une collectivité et la personne qui lui est affiliée. Il s'agit d'un cas particulier de la relation \"a pour membre\", principalement en usage dans le contexte de l'enseignement supérieur et de la recherche."@fr;
   sh:name "collectivité a pour affilié ou affiliée la personne [dans la relation]"@fr;
   sh:node rdafr:C100004;
   sh:nodeKind sh:IRI;
   sh:path rdafr:P501024ri .
+
+rdafr:C100005 sh:property rdafrru:P764, rdafrru:P765, rdafrru:P766, rdafrru:P767,
+    rdafrru:P768, rdafrru:P769, rdafrru:P770, rdafrru:P771, rdafrru:P772 .
 
 rdafr:P501024ri a owl:ObjectProperty;
   rdfs:comment "Relation entre une collectivité et la personne qui lui est affiliée. Il s'agit d'un cas particulier de la relation \"a pour membre\", principalement en usage dans le contexte de l'enseignement supérieur et de la recherche."@fr;
@@ -3733,7 +3655,7 @@ rdafr:P501024ri a owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P500050r;
   owl:inverseOf rdafr:P501024r .
 
-rdafrru:P768 owl:versionInfo "0.1.0"@fr;
+rdafrru:P765 owl:versionInfo "0.1.0"@fr;
   sh:description "Relation entre une collectivité et la collectivité qu'elle possède."@fr;
   sh:name "collectivité est propriétaire de la collectivité [dans la relation]"@fr;
   sh:node rdafr:C100005;
@@ -3749,7 +3671,7 @@ rdafr:P502349r a owl:Class, owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P500050r;
   owl:inverseOf rdafr:P502349ri .
 
-rdafrru:P769 owl:versionInfo "0.1.0"@fr;
+rdafrru:P766 owl:versionInfo "0.1.0"@fr;
   sh:description "Relation entre une collectivité et la collectivité qui la possède."@fr;
   sh:name "collectivité est la propriété de la collectivité [dans la relation]"@fr;
   sh:node rdafr:C100005;
@@ -3764,7 +3686,7 @@ rdafr:P502349ri a owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P500050r;
   owl:inverseOf rdafr:P502349r .
 
-rdafrru:P770 owl:versionInfo "0.1.0"@fr;
+rdafrru:P767 owl:versionInfo "0.1.0"@fr;
   sh:description "Relation entre une collectivité et la personne qui en est propriétaire."@fr;
   sh:name "collectivité est la propriété de la personne [dans la relation]"@fr;
   sh:node rdafr:C100004;
@@ -3779,7 +3701,7 @@ rdafr:P501078ri a owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P500050r;
   owl:inverseOf rdafr:P501078r .
 
-rdafrru:P771 owl:versionInfo "0.1.0"@fr;
+rdafrru:P768 owl:versionInfo "0.1.0"@fr;
   sh:description "Relation entre une collectivité et la famille qui en est propriétaire."@fr;
   sh:name "collectivité est la propriété de la famille [dans la relation]"@fr;
   sh:node rdafr:C100008;
@@ -3794,7 +3716,7 @@ rdafr:P505011ri a owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P500050r;
   owl:inverseOf rdafr:P505011r .
 
-rdafrru:P772 owl:versionInfo "0.1.0"@fr;
+rdafrru:P769 owl:versionInfo "0.1.0"@fr;
   sh:description "Relation entre une collectivité mère et sa collectivité fille (dans le cas où la maison mère détient plus de 50% du capital)."@fr;
   sh:name "a pour filiale [dans la relation]"@fr;
   sh:node rdafr:C100005;
@@ -3809,15 +3731,12 @@ rdafr:P502350ri a owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P500050r;
   owl:inverseOf rdafr:P502350r .
 
-rdafrru:P773 owl:versionInfo "0.1.0"@fr;
+rdafrru:P770 owl:versionInfo "0.1.0"@fr;
   sh:description "Relation entre une collectivité fille et sa collectivité mère (dans le cas où la maison mère détient plus de 50% du capital)."@fr;
   sh:name "est une filiale de [dans la relation]"@fr;
   sh:node rdafr:C100005;
   sh:nodeKind sh:IRI;
   sh:path rdafr:P502350r .
-
-rdafr:C100005 sh:property rdafrru:P773, rdafrru:P774, rdafrru:P775, rdafrru:P776,
-    rdafrru:P777, rdafrru:P778, rdafrru:P779, rdafrru:P780, rdafrru:P781 .
 
 rdafr:P502350r a owl:Class, owl:ObjectProperty;
   rdfs:comment "Relation entre une collectivité fille et sa collectivité mère (dans le cas où la maison mère détient plus de 50% du capital)."@fr;
@@ -3828,28 +3747,31 @@ rdafr:P502350r a owl:Class, owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P500050r;
   owl:inverseOf rdafr:P502350ri .
 
-rdafrru:P774 owl:versionInfo "0.1.0"@fr;
+rdafrru:P771 owl:versionInfo "0.1.0"@fr;
   sh:description "Relation générique de collaboration entre une collectivité et un autre agent (personne, collectivité ou famille) en vue de réaliser un projet commun dans la sphère professionnelle ou commerciale. Comprend les différents types de collaboration comme le partenariat, la relation contractuelle, la relation de financement, etc. Peut être utilisée comme une relation à part entière lorsqu'on n'a pas d'information sur le type précis de collaboration."@fr;
   sh:name "collabore avec [dans la relation]"@fr;
   sh:node rdafr:C100002;
   sh:nodeKind sh:IRI;
   sh:path rdafr:P500046r .
 
-rdafrru:P775 owl:versionInfo "0.2.0"@fr;
+rdafrru:P772 owl:versionInfo "0.2.0"@fr;
   sh:description "Relation de financement d'un agent envers un autre agent. Il s'agit d'une relation générique comprenant les différents types de financement comme la subvention, le parrainage ou le mécénat. Peut être utilisée comme relation distincte lorsqu'on ne connaît pas la nature précise du financement."@fr;
   sh:name "collectivité finance [dans la relation]"@fr;
   sh:node rdafr:C100002;
   sh:nodeKind sh:IRI;
   sh:path rdafr:P500053r .
 
-rdafrru:P776 owl:versionInfo "0.2.0"@fr;
+rdafrru:P773 owl:versionInfo "0.2.0"@fr;
   sh:description "Relation de financement entre un agent et l'agent qui la finance. Il s'agit d'une relation générique comprenant les différents types de financement comme la subvention, le parrainage ou le mécénat. Peut être utilisée comme relation distincte lorsqu'on ne connaît pas la nature précise du financement."@fr;
   sh:name "collectivité est financé par [dans la relation]"@fr;
   sh:node rdafr:C100002;
   sh:nodeKind sh:IRI;
   sh:path rdafr:P500053ri .
 
-rdafrru:P777 owl:versionInfo "0.1.0"@fr;
+rdafr:C100005 sh:property rdafrru:P773, rdafrru:P774, rdafrru:P775, rdafrru:P776,
+    rdafrru:P777, rdafrru:P778, rdafrru:P779, rdafrru:P780 .
+
+rdafrru:P774 owl:versionInfo "0.1.0"@fr;
   sh:description "Relation de financement d'une collectivité envers une personne. Il s'agit d'une relation générique comprenant les différents types de financement comme la subvention, le parrainage ou le mécénat. Peut être utilisée comme relation distincte lorsqu'on ne connaît pas la nature précise du financement."@fr;
   sh:name "collectivité finance la personne [dans la relation]"@fr;
   sh:node rdafr:C100004;
@@ -3865,7 +3787,7 @@ rdafr:P502377r a owl:Class, owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P500053r;
   owl:inverseOf rdafr:P502377ri .
 
-rdafrru:P778 owl:versionInfo "0.1.0"@fr;
+rdafrru:P775 owl:versionInfo "0.1.0"@fr;
   sh:description "Relation de financement entre une collectivité et la personne qui la finance. Il s'agit d'une relation générique comprenant les différents types de financement comme la subvention, le parrainage ou le mécénat. Peut être utilisée comme relation distincte lorsqu'on ne connaît pas la nature précise du financement."@fr;
   sh:name "collectivité est financé par la personne [dans la relation]"@fr;
   sh:node rdafr:C100004;
@@ -3880,7 +3802,7 @@ rdafr:P501032ri a owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P500053ri;
   owl:inverseOf rdafr:P501032r .
 
-rdafrru:P779 owl:versionInfo "0.1.0"@fr;
+rdafrru:P776 owl:versionInfo "0.1.0"@fr;
   sh:description "Relation de financement d'une collectivité envers une autre collectivité. Il s'agit d'une relation générique comprenant les différents types de financement comme la subvention, le parrainage ou le mécénat. Peut être utilisée comme relation distincte lorsqu'on ne connaît pas la nature précise du financement."@fr;
   sh:name "collectivité finance la collectivité [dans la relation]"@fr;
   sh:node rdafr:C100005;
@@ -3896,7 +3818,7 @@ rdafr:P502354r a owl:Class, owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P500053r;
   owl:inverseOf rdafr:P502354ri .
 
-rdafrru:P780 owl:versionInfo "0.1.0"@fr;
+rdafrru:P777 owl:versionInfo "0.1.0"@fr;
   sh:description "Relation de financement entre une collectivité et la collectivité qui la finance. Il s'agit d'une relation générique comprenant les différents types de financement comme la subvention, le parrainage ou le mécénat. Peut être utilisée comme relation distincte lorsqu'on ne connaît pas la nature précise du financement."@fr;
   sh:name "collectivité est financé par la collectivité [dans la relation]"@fr;
   sh:node rdafr:C100005;
@@ -3911,7 +3833,7 @@ rdafr:P502354ri a owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P500053ri;
   owl:inverseOf rdafr:P502354r .
 
-rdafrru:P781 owl:versionInfo "0.1.0"@fr;
+rdafrru:P778 owl:versionInfo "0.1.0"@fr;
   sh:description "Relation de financement d'une collectivité envers une famille. Il s'agit d'une relation générique comprenant les différents types de financement comme la subvention, le parrainage ou le mécénat. Peut être utilisée comme relation distincte lorsqu'on ne connaît pas la nature précise du financement."@fr;
   sh:name "collectivité finance la famille [dans la relation]"@fr;
   sh:node rdafr:C100008;
@@ -3927,15 +3849,12 @@ rdafr:P505005r a owl:Class, owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P500053r;
   owl:inverseOf rdafr:P505005ri .
 
-rdafrru:P782 owl:versionInfo "0.1.0"@fr;
+rdafrru:P779 owl:versionInfo "0.1.0"@fr;
   sh:description "Relation de financement entre une collectivité et la famille qui la finance. Il s'agit d'une relation générique comprenant les différents types de financement comme la subvention, le parrainage ou le mécénat. Peut être utilisée comme relation distincte lorsqu'on ne connaît pas la nature précise du financement."@fr;
   sh:name "collectivité est financé par la famille [dans la relation]"@fr;
   sh:node rdafr:C100008;
   sh:nodeKind sh:IRI;
   sh:path rdafr:P505014ri .
-
-rdafr:C100005 sh:property rdafrru:P782, rdafrru:P783, rdafrru:P784, rdafrru:P785,
-    rdafrru:P786, rdafrru:P787, rdafrru:P788, rdafrru:P789 .
 
 rdafr:P505014ri a owl:ObjectProperty;
   rdfs:comment "Relation de financement entre une collectivité et la famille qui la finance. Il s'agit d'une relation générique comprenant les différents types de financement comme la subvention, le parrainage ou le mécénat. Peut être utilisée comme relation distincte lorsqu'on ne connaît pas la nature précise du financement."@fr;
@@ -3945,7 +3864,7 @@ rdafr:P505014ri a owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P500053ri;
   owl:inverseOf rdafr:P505014r .
 
-rdafrru:P783 owl:versionInfo "0.1.0"@fr;
+rdafrru:P780 owl:versionInfo "0.1.0"@fr;
   sh:description "Relation entre une collectivité et la collectivité qu'elle subventionne. Il s'agit de soutien financier du secteur public aux acteurs du secteur public ou privé."@fr;
   sh:name "collectivité subventionne la collectivité [dans la relation]"@fr;
   sh:node rdafr:C100005;
@@ -3961,12 +3880,15 @@ rdafr:P502355r a owl:Class, owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P500053r;
   owl:inverseOf rdafr:P502355ri .
 
-rdafrru:P784 owl:versionInfo "0.1.0"@fr;
+rdafrru:P781 owl:versionInfo "0.1.0"@fr;
   sh:description "Relation entre une collectivité et la collectivité qui la subventionne. Il s’agit de soutien du secteur public aux acteurs du secteur public ou privé."@fr;
   sh:name "collectivité est subventionné par la collectivité [dans la relation]"@fr;
   sh:node rdafr:C100005;
   sh:nodeKind sh:IRI;
   sh:path rdafr:P502355ri .
+
+rdafr:C100005 sh:property rdafrru:P781, rdafrru:P782, rdafrru:P783, rdafrru:P784,
+    rdafrru:P785, rdafrru:P786, rdafrru:P787, rdafrru:P788 .
 
 rdafr:P502355ri a owl:ObjectProperty;
   rdfs:comment "Relation entre une collectivité et la collectivité qui la subventionne. Il s’agit de soutien du secteur public aux acteurs du secteur public ou privé."@fr;
@@ -3976,7 +3898,7 @@ rdafr:P502355ri a owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P500053ri;
   owl:inverseOf rdafr:P502355r .
 
-rdafrru:P785 owl:versionInfo "0.1.0"@fr;
+rdafrru:P782 owl:versionInfo "0.1.0"@fr;
   sh:description "Relation entre une collectivité et la personne qu'elle subventionne. Il s'agit de soutien financier du secteur public."@fr;
   sh:name "collectivité subventionne la personne[dans la relation]"@fr;
   sh:node rdafr:C100004;
@@ -3992,7 +3914,7 @@ rdafr:P502379r a owl:Class, owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P500053r;
   owl:inverseOf rdafr:P502379ri .
 
-rdafrru:P786 owl:versionInfo "0.1.0"@fr;
+rdafrru:P783 owl:versionInfo "0.1.0"@fr;
   sh:description "Relation entre l'Etat ou l'un de ses établissements publics accordant un agrément et la collectivité ou recevant cet agrément."@fr;
   sh:name "agrée [dans la relation]"@fr;
   sh:node rdafr:C100005;
@@ -4008,7 +3930,7 @@ rdafr:P502366r a owl:Class, owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P500046r;
   owl:inverseOf rdafr:P502366ri .
 
-rdafrru:P787 owl:versionInfo "0.1.0"@fr;
+rdafrru:P784 owl:versionInfo "0.1.0"@fr;
   sh:description "Relation entre une collectivité recevant un agrément et l'Etat ou l'un de ses établissements publics qui lui accordecet agrément."@fr;
   sh:name "est agréé par [dans la relation]"@fr;
   sh:node rdafr:C100005;
@@ -4023,79 +3945,14 @@ rdafr:P502366ri a owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P500046r;
   owl:inverseOf rdafr:P502366r .
 
-rdafrru:P788 owl:versionInfo "0.1.0"@fr;
-  sh:description "Relation entre une collectivité bénéficiaire d'un soutien matériel et la collectivité qui lui apporte ce soutien en vue d'en retirer un bénéfice direct de ce soutien."@fr;
-  sh:name "est parraineur de [dans la relation]"@fr;
-  sh:node rdafr:C100005;
-  sh:nodeKind sh:IRI;
-  sh:path rdafr:P502357r .
-
-rdafr:P502357r a owl:Class, owl:ObjectProperty;
-  rdfs:comment "Relation entre une collectivité bénéficiaire d'un soutien matériel et la collectivité qui lui apporte ce soutien en vue d'en retirer un bénéfice direct de ce soutien."@fr;
-  rdfs:domain rdafr:C100005;
-  rdfs:label "est parraineur de [dans la relation]"@fr;
-  rdfs:range rdafr:P502357r;
-  rdfs:subClassOf rdafr:P500053r;
-  rdfs:subPropertyOf rdafr:P500053r;
-  owl:inverseOf rdafr:P502357ri .
-
-rdafrru:P789 owl:versionInfo "0.1.0"@fr;
-  sh:description "Relation entre une collactivité qui apporte un soutien matériel pour l'exercice d'activités présentant un intérêt général à une autre collectivité en vue d'en retirer un bénéfice direct et la collectivité bénéficiaire de ce soutien."@fr;
-  sh:name "a pour parraineur [dans la relation]"@fr;
-  sh:node rdafr:C100005;
-  sh:nodeKind sh:IRI;
-  sh:path rdafr:P502357ri .
-
-rdafr:P502357ri a owl:ObjectProperty;
-  rdfs:comment "Relation entre une collactivité qui apporte un soutien matériel pour l'exercice d'activités présentant un intérêt général à une autre collectivité en vue d'en retirer un bénéfice direct et la collectivité bénéficiaire de ce soutien."@fr;
-  rdfs:domain rdafr:C100005;
-  rdfs:label "a pour parraineur [dans la relation]"@fr;
-  rdfs:range rdafr:P502357r;
-  rdfs:subPropertyOf rdafr:P500053ri;
-  owl:inverseOf rdafr:P502357r .
-
-rdafrru:P790 owl:versionInfo "0.1.0"@fr;
-  sh:description "Relation entre une collectivité bénéficiaire d'un soutien matériel pour l'exercice d'activités présentant un intérêt général et la collectivité qui lui apporte ce soutien. L'apport du soutien est sans contrepartie directe de la part du bénéficiaire."@fr;
-  sh:name "est mécène de [dans la relation]"@fr;
-  sh:node rdafr:C100005;
-  sh:nodeKind sh:IRI;
-  sh:path rdafr:P502359r .
-
-rdafr:C100005 sh:property rdafrru:P790, rdafrru:P791, rdafrru:P792, rdafrru:P793,
-    rdafrru:P794, rdafrru:P795, rdafrru:P796, rdafrru:P797 .
-
-rdafr:P502359r a owl:Class, owl:ObjectProperty;
-  rdfs:comment "Relation entre une collectivité bénéficiaire d'un soutien matériel pour l'exercice d'activités présentant un intérêt général et la collectivité qui lui apporte ce soutien. L'apport du soutien est sans contrepartie directe de la part du bénéficiaire."@fr;
-  rdfs:domain rdafr:C100005;
-  rdfs:label "est mécène de [dans la relation]"@fr;
-  rdfs:range rdafr:P502359r;
-  rdfs:subClassOf rdafr:P500053r;
-  rdfs:subPropertyOf rdafr:P500053r;
-  owl:inverseOf rdafr:P502359ri .
-
-rdafrru:P791 owl:versionInfo "0.1.0"@fr;
-  sh:description "Relation entre une collectivité qui apport un soutien matériel à une autre collectivité pour l'exercice d'activités présentant un intérêt général et la collectivité bénéficiaire de ce soutien. L'apport du soutien est sans contrepartie directe de la part du bénéficiaire."@fr;
-  sh:name "a pour mécène [dans la relation]"@fr;
-  sh:node rdafr:C100005;
-  sh:nodeKind sh:IRI;
-  sh:path rdafr:P502359ri .
-
-rdafr:P502359ri a owl:ObjectProperty;
-  rdfs:comment "Relation entre une collectivité qui apport un soutien matériel à une autre collectivité pour l'exercice d'activités présentant un intérêt général et la collectivité bénéficiaire de ce soutien. L'apport du soutien est sans contrepartie directe de la part du bénéficiaire."@fr;
-  rdfs:domain rdafr:C100005;
-  rdfs:label "a pour mécène [dans la relation]"@fr;
-  rdfs:range rdafr:P502359r;
-  rdfs:subPropertyOf rdafr:P500053ri;
-  owl:inverseOf rdafr:P502359r .
-
-rdafrru:P792 owl:versionInfo "0.1.0"@fr;
+rdafrru:P785 owl:versionInfo "0.1.0"@fr;
   sh:description "Catégorie de relations entre une collectivité et une collectivité ou personne comprenant les relations d'emploi, de prestation, de franchise ou d'associé de. Peut être utilisée comme une relation distincte lorsqu'on ne connaît pas la nature précise du type de contrat qui relie les parties."@fr;
   sh:name "a des relations contractuelles avec [dans la relation]"@fr;
   sh:node rdafr:C100004, rdafr:C100005;
   sh:nodeKind sh:IRI;
   sh:path rdafr:P500051r .
 
-rdafrru:P793 owl:versionInfo "0.1.0"@fr;
+rdafrru:P786 owl:versionInfo "0.1.0"@fr;
   sh:description "Relation contractuelle entre un organisme franchisé et l'organisme franchiseur. Relation sans implication de hiérarchie."@fr;
   sh:name "est franchiseur de [dans la relation]"@fr;
   sh:node rdafr:C100005;
@@ -4111,7 +3968,7 @@ rdafr:P502362r a owl:Class, owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P500051r;
   owl:inverseOf rdafr:P502362ri .
 
-rdafrru:P794 owl:versionInfo "0.1.0"@fr;
+rdafrru:P787 owl:versionInfo "0.1.0"@fr;
   sh:description "Relation contractuelle entre un organisme franchiseur et l'organismé franchisé. Relation sans implication de hiérarchie."@fr;
   sh:name "est franchisé de [dans la relation]"@fr;
   sh:node rdafr:C100005;
@@ -4126,7 +3983,7 @@ rdafr:P502362ri a owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P500051r;
   owl:inverseOf rdafr:P502362r .
 
-rdafrru:P795 owl:versionInfo "0.1.0"@fr;
+rdafrru:P788 owl:versionInfo "0.1.0"@fr;
   sh:description "Relation contractuelle entre un organisme employeur et la personne employée (par exemple, lorsque la personne est employée avec le statut de salarié, d’agent de la fonction publique, etc.). Cette relation implique aussi un rapport de hiérarchie entre l'organisme employeur et la personne employée. A ne pas confondre avec la relation “Est prestataire de service / Est client de” qui est une relation contractuelle sans hiérarchie entre les parties."@fr;
   sh:name "collectivité emploie la personne [dans la relation]"@fr;
   sh:node rdafr:C100004;
@@ -4141,12 +3998,15 @@ rdafr:P501074ri a owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P500051r;
   owl:inverseOf rdafr:P501074r .
 
-rdafrru:P796 owl:versionInfo "0.1.0"@fr;
+rdafrru:P789 owl:versionInfo "0.1.0"@fr;
   sh:description "Relation entre un prestataire de service et un organisme. Par un contrat de service, le prestataire s’engage à fournir un service contre rémunération. Relation sans implication de hiérarchie."@fr;
   sh:name "est prestataire de [dans la relation]"@fr;
   sh:node rdafr:C100005;
   sh:nodeKind sh:IRI;
   sh:path rdafr:P502363r .
+
+rdafr:C100005 sh:property rdafrru:P789, rdafrru:P790, rdafrru:P791, rdafrru:P792,
+    rdafrru:P793, rdafrru:R794, rdafrru:R795, rdafrru:R796 .
 
 rdafr:P502363r a owl:Class, owl:ObjectProperty;
   rdfs:comment "Relation entre un prestataire de service et un organisme. Par un contrat de service, le prestataire s’engage à fournir un service contre rémunération. Relation sans implication de hiérarchie."@fr;
@@ -4157,7 +4017,7 @@ rdafr:P502363r a owl:Class, owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P500051r;
   owl:inverseOf rdafr:P502363ri .
 
-rdafrru:P797 owl:versionInfo "0.1.0"@fr;
+rdafrru:P790 owl:versionInfo "0.1.0"@fr;
   sh:description "Relation entre un organisme et un prestataire de service. Par un contrat de service, le prestataire s’engage à fournir un service contre rémunération. Relation sans implication de hiérarchie."@fr;
   sh:name "est client de [dans la relation]"@fr;
   sh:node rdafr:C100005;
@@ -4172,15 +4032,12 @@ rdafr:P502363ri a owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P500051r;
   owl:inverseOf rdafr:P502363r .
 
-rdafrru:P798 owl:versionInfo "0.1.0"@fr;
+rdafrru:P791 owl:versionInfo "0.1.0"@fr;
   sh:description "Relation contractuelle entre une collectivité et une entreprise, où la collectivité, en vertu de son statut d'associée, partage les bénéfices de l'entreprise avec d'autres associés."@fr;
   sh:name "collectivité est l'associée de la collectivité [dans la relation]"@fr;
   sh:node rdafr:C100005;
   sh:nodeKind sh:IRI;
   sh:path rdafr:P502364r .
-
-rdafr:C100005 sh:property rdafrru:P798, rdafrru:P799, rdafrru:P800, rdafrru:R801,
-    rdafrru:R802, rdafrru:R803, rdafrru:R804, rdafrru:R805 .
 
 rdafr:P502364r a owl:Class, owl:ObjectProperty;
   rdfs:comment "Relation contractuelle entre une collectivité et une entreprise, où la collectivité, en vertu de son statut d'associée, partage les bénéfices de l'entreprise avec d'autres associés."@fr;
@@ -4191,7 +4048,7 @@ rdafr:P502364r a owl:Class, owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P500051r;
   owl:inverseOf rdafr:P502364ri .
 
-rdafrru:P799 owl:versionInfo "0.1.0"@fr;
+rdafrru:P792 owl:versionInfo "0.1.0"@fr;
   sh:description "Relation contractuelle entre une entreprise et une collectivité, où la collectivité s'associé à l'entreprise en vue d'en partager les bénéfices avec d'autres associés."@fr;
   sh:name "collectivité a pour associée la collectivité[dans la relation]"@fr;
   sh:node rdafr:C100005;
@@ -4206,7 +4063,7 @@ rdafr:P502364ri a owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P500051r;
   owl:inverseOf rdafr:P502364r .
 
-rdafrru:P800 owl:versionInfo "0.2.0"@fr;
+rdafrru:P793 owl:versionInfo "0.2.0"@fr;
   sh:description "Relation contractuelle entre une entreprise et une personne, où la personne s'associé à l'entreprise en vue d'en partager les bénéfices avec d'autres associés."@fr;
   sh:name "collectivité a pour associé ou associée la personne [dans la relation]"@fr;
   sh:node rdafr:C100004;
@@ -4221,7 +4078,7 @@ rdafr:P501075ri a owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P500051r;
   owl:inverseOf rdafr:P501075r .
 
-rdafrru:R801 owl:versionInfo "0.2.0"@fr;
+rdafrru:R794 owl:versionInfo "0.2.0"@fr;
   sh:description "Catégorie de relations entre deux collectivités, comprenant les relations de succession (voir avant / voir après), d'absorption, de scission ou de fusion."@fr;
   sh:name "collectivité a une relation chronologique, séquentielle ou de transformation avec la collectivité [dans la relation]"@fr;
   sh:node rdafr:C100005;
@@ -4236,7 +4093,7 @@ rdafr:P502370r a owl:Class, owl:ObjectProperty;
   rdfs:subClassOf rdafr:P100001r;
   rdfs:subPropertyOf rdafr:P100001r .
 
-rdafrru:R802 owl:versionInfo "0.2.0"@fr;
+rdafrru:R795 owl:versionInfo "0.2.0"@fr;
   sh:description "Relation entre une collectivité et la collectivité qui la succède."@fr;
   sh:name "collectivité précède à la collectivité [dans la relation]"@fr;
   sh:node rdafr:C100005;
@@ -4252,7 +4109,7 @@ rdafr:P502371r a owl:Class, owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P502370r;
   owl:inverseOf rdafr:P502371ri .
 
-rdafrru:R803 owl:versionInfo "0.2.0"@fr;
+rdafrru:R796 owl:versionInfo "0.2.0"@fr;
   sh:description "Relation entre une collectivité et la collectivité qui la précède."@fr;
   sh:name "collectivité succède à la collectivité [dans la relation]"@fr;
   sh:node rdafr:C100005;
@@ -4267,12 +4124,15 @@ rdafr:P502371ri a owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P502370r;
   owl:inverseOf rdafr:P502371r .
 
-rdafrru:R804 owl:versionInfo "0.2.0"@fr;
+rdafrru:R797 owl:versionInfo "0.2.0"@fr;
   sh:description "Relation entre une collectivité et la collectivité avec laquelle elle fusionne pour former une troisième collectivité."@fr;
   sh:name "collectivité fusionne avec la collectivité [dans la relation]"@fr;
   sh:node rdafr:C100005;
   sh:nodeKind sh:IRI;
   sh:path rdafr:P502373r .
+
+rdafr:C100005 sh:property rdafrru:R797, rdafrru:R798, rdafrru:P804, rdafrru:R799,
+    rdafrru:R800, rdafrru:R801, rdafrru:R802, rdafrru:R803 .
 
 rdafr:P502373r a owl:Class, owl:ObjectProperty;
   rdfs:comment "Relation entre une collectivité et la collectivité avec laquelle elle fusionne pour former une troisième collectivité."@fr;
@@ -4282,7 +4142,7 @@ rdafr:P502373r a owl:Class, owl:ObjectProperty;
   rdfs:subClassOf rdafr:P502370r;
   rdfs:subPropertyOf rdafr:P502370r .
 
-rdafrru:R805 owl:versionInfo "0.2.0"@fr;
+rdafrru:R798 owl:versionInfo "0.2.0"@fr;
   sh:description "Relation entre une collectivité issue de la fusion de plusieurs collectivités et une des collectivités composantes de la fusion."@fr;
   sh:name "collectivité est la fusion de [dans la relation]"@fr;
   sh:node rdafr:C100005;
@@ -4298,15 +4158,12 @@ rdafr:P502374r a owl:Class, owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P502370r;
   owl:inverseOf rdafr:P502374ri .
 
-rdafrru:R806 owl:versionInfo "0.2.0"@fr;
+rdafrru:R799 owl:versionInfo "0.2.0"@fr;
   sh:description "Relation entre une collectivité, composante d'une fusion de collectivités, et la collectivité issue de cette fusion."@fr;
   sh:name "collectivité est composante de la fusion de [dans la relation]"@fr;
   sh:node rdafr:C100005;
   sh:nodeKind sh:IRI;
   sh:path rdafr:P502374ri .
-
-rdafr:C100005 sh:property rdafrru:P811, rdafrru:R806, rdafrru:R807, rdafrru:R808,
-    rdafrru:R809, rdafrru:R810, rdafrru:R812 .
 
 rdafr:P502374ri a owl:ObjectProperty;
   rdfs:comment "Relation entre une collectivité, composante d'une fusion de collectivités, et la collectivité issue de cette fusion."@fr;
@@ -4316,7 +4173,7 @@ rdafr:P502374ri a owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P502370r;
   owl:inverseOf rdafr:P502374r .
 
-rdafrru:R807 owl:versionInfo "0.2.0"@fr;
+rdafrru:R800 owl:versionInfo "0.2.0"@fr;
   sh:description "Relation entre une collectivité et la collectivité qu'elle a absorbée."@fr;
   sh:name "collectivité absorbe la collectivité [dans la relation]"@fr;
   sh:node rdafr:C100005;
@@ -4332,7 +4189,7 @@ rdafr:P502375r a owl:Class, owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P502370r;
   owl:inverseOf rdafr:P502375ri .
 
-rdafrru:R808 owl:versionInfo "0.2.0"@fr;
+rdafrru:R801 owl:versionInfo "0.2.0"@fr;
   sh:description "Relation entre une collectivité et la collectivité qui l'a absorbée."@fr;
   sh:name "collectivité est absorbé par la collectivité [dans la relation]"@fr;
   sh:node rdafr:C100005;
@@ -4347,7 +4204,7 @@ rdafr:P502375ri a owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P502370r;
   owl:inverseOf rdafr:P502375r .
 
-rdafrru:R809 owl:versionInfo "0.2.0"@fr;
+rdafrru:R802 owl:versionInfo "0.2.0"@fr;
   sh:description "Relation entre une collectivité qui a été scindée et une des collectivités qui ont résultées de cette scission."@fr;
   sh:name "collectivité est scindé en [dans la relation]"@fr;
   sh:node rdafr:C100005;
@@ -4363,7 +4220,7 @@ rdafr:P502378r a owl:Class, owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P502370r;
   owl:inverseOf rdafr:P502378ri .
 
-rdafrru:R810 owl:versionInfo "0.2.0"@fr;
+rdafrru:R803 owl:versionInfo "0.2.0"@fr;
   sh:description "Relation entre une des collectivités résultant de la scission d'une collectivité et la collectivité qui a été scindée."@fr;
   sh:name "collectivité est résultat de la scission de la collectivité [dans la relation]"@fr;
   sh:node rdafr:C100005;
@@ -4378,7 +4235,7 @@ rdafr:P502378ri a owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P502370r;
   owl:inverseOf rdafr:P502378r .
 
-rdafrru:P811 owl:versionInfo "0.1.0"@fr;
+rdafrru:P804 owl:versionInfo "0.1.0"@fr;
   sh:description "Relation entre une collectivité et le lieu qu'elle administre, dans le cas ou ce lieu constitue une division territoriale."@fr;
   sh:name "collectivité administre le lieu [dans la relation]"@fr;
   sh:node rdafr:C100009;
@@ -4394,12 +4251,14 @@ rdafr:P502317r a owl:Class, owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P100001r;
   owl:inverseOf rdafr:P502317ri .
 
-rdafrru:R812 owl:versionInfo "0.1.0"@fr;
+rdafrru:R805 owl:versionInfo "0.1.0"@fr;
   sh:description "Relation de non équivalence alertant sur les risques de confusion existant avec d'autres agents homonymes."@fr;
   sh:name "est à distinguer de [dans la relation]"@fr;
   sh:node rdafr:C100002;
   sh:nodeKind sh:IRI;
   sh:path rdafr:P100010r .
+
+rdafr:C100005 sh:property rdafrru:R805 .
 
 rdafrru:R904 rdfs:seeAlso "10.2"@fr;
   owl:versionInfo "0.1.0"@fr;
@@ -4689,8 +4548,6 @@ rdafr:P505021 a owl:DatatypeProperty;
 rdafr:C100013 sh:property rdafrru:R122 .
 
 rdafrru:R122 sh:description "Relation générique permettant d'exprimer une relation dont la nature n'et pas précisée entre une famille et toute autre entité RDA-FR."@fr .
-
-rdafr:P100001r rdfs:comment "Relation générique permettant d'exprimer une relation dont la nature n'et pas précisée entre une famille et toute autre entité RDA-FR."@fr .
 
 rdafrru:R923 owl:versionInfo "0.2.0"@fr;
   sh:description "Catégorie regroupant les relations de parenté ou d'alliance entre personnes, entre personnes et familles ou entre familles."@fr;
@@ -5366,7 +5223,7 @@ rdafrru:P1224 owl:versionInfo "0.1.0"@fr;
   sh:path rdafr:P600025 .
 
 rdafr:C100015 sh:property rdafrru:P1224, rdafrru:P1225, rdafrru:P1226, rdafrru:P1227,
-    rdafrru:P1228, rdafrru:P1229, rdafrru:P1230, rdafrru:P1231, rdafrru:P1232 .
+    rdafrru:P1228, rdafrru:P1229, rdafrru:P1230, rdafrru:P1231, rdafrru:P1233, rdafrru:R1304 .
 
 rdafr:P600025 a owl:DatatypeProperty;
   rdfs:comment "Le point d’accès autorisé représentant une identité publique, construit en utilisant comme élément de base le nom privilégié de l’identité publique du groupe informel."@fr;
@@ -5455,23 +5312,7 @@ rdafr:P600011 a owl:DatatypeProperty;
   rdfs:label "a pour contexte d'utilisation de l'identité publique"@fr;
   rdfs:range rdfs:Literal .
 
-rdafrru:P1231 rdfs:seeAlso "9.2.4"@fr;
-  owl:versionInfo "0.1.0"@fr;
-  sh:description "Une date ou une fourchette de dates associée à l’utilisation d’une identité publique. [code RDA-FR, 9.2.4]"@fr;
-  sh:maxCount 1;
-  sh:name "a pour date d'utilisation de l'identité publique"@fr;
-  sh:node rdafr:C100010;
-  sh:nodeKind sh:IRI;
-  sh:path rdafr:P600012 .
-
-rdafr:P600012 a owl:ObjectProperty;
-  rdfs:comment "Une date ou une fourchette de dates associée à l’utilisation d’une identité publique. [code RDA-FR, 9.2.4]"@fr;
-  rdfs:domain rdafr:C100015;
-  rdfs:label "a pour date d'utilisation de l'identité publique"@fr;
-  rdfs:range rdafr:C100010;
-  rdfs:subPropertyOf rdafr:P100002 .
-
-rdafrru:P1232 rdfs:seeAlso "9.2.5"@fr;
+rdafrru:P1231 rdfs:seeAlso "9.2.5"@fr;
   owl:versionInfo "0.1.0"@fr;
   sh:description """Un identifiant associé à l’identité publique est une chaîne de caractères ou de symboles qui lui est associée (par exemple un identifiant ISNI - International standard name identifier).
 L’identifiant sert à distinguer une identité publique d’une autre. Il doit être unique et univoque pour un référentiel donné.
@@ -5489,14 +5330,12 @@ Dans le cas des personnes ayant plus d’une identité, chaque identité publiqu
   rdfs:range rdafr:C100012;
   rdfs:subPropertyOf rdafr:P100007 .
 
-rdafrru:P1234 owl:versionInfo "0.1.0"@fr;
+rdafrru:P1233 owl:versionInfo "0.1.0"@fr;
   sh:description "Relation de non équivalence entre deux identités publiques homonymes identifiant deux personnes distinctes, alertant sur les risques de confusion ."@fr;
   sh:name "est a distinguer de [dans la relation]"@fr;
   sh:node rdafr:C100015;
   sh:nodeKind sh:IRI;
   sh:path rdafr:P100010r .
-
-rdafr:C100015 sh:property rdafrru:P1234, rdafrru:R1304, rdafrru:R1305, rdafrru:R1306 .
 
 rdafrru:R1304 owl:versionInfo "0.1.0"@fr;
   sh:maxCount 1;
@@ -5512,6 +5351,8 @@ rdafrru:R1305 owl:versionInfo "0.1.0"@fr;
   sh:name "a pour source [texte]"@fr;
   sh:nodeKind sh:Literal;
   sh:path rdafr:P100003t .
+
+rdafr:C100015 sh:property rdafrru:R1305, rdafrru:R1306 .
 
 rdafrru:R1306 owl:versionInfo "0.1.0"@fr;
   sh:maxCount 1;
@@ -5531,7 +5372,7 @@ rdafrru:R1307 owl:versionInfo "0.1.0"@fr;
   sh:path rdafr:P800002 .
 
 rdafr:C100012 sh:property rdafrru:R1307, rdafrru:R1308, rdafrru:R1309, rdafrru:R1310,
-    rdafrru:R1311, rdafrru:R1312, rdafrru:R1313, rdafrru:R1314, rdafrru:R1315 .
+    rdafrru:R1311, rdafrru:R1312, rdafrru:R1313, rdafrru:R1314 .
 
 rdafr:P800002 a owl:DatatypeProperty;
   rdfs:comment "La chaîne de charactères qui constitue le nomen."@fr;
@@ -5586,7 +5427,7 @@ rdafrru:R1311 owl:versionInfo "0.1.0"@fr;
   sh:description "La règle, le système ou la norme utilisée pour créer la chaîne du nomen d’un nomen dérivé à partir de la chaîne du nomen d’un autre nomen distinct quand celle-ci est notée dans une écriture différente."@fr;
   sh:maxCount 1;
   sh:name "a pour système de conversion des écritures"@fr;
-  sh:node rdafr:SystemeConversion;
+  sh:node rdafr:ConversionEcriture;
   sh:nodeKind sh:IRI;
   sh:path rdafr:P800006 .
 
@@ -5594,7 +5435,7 @@ rdafr:P800006 a owl:ObjectProperty;
   rdfs:comment "La règle, le système ou la norme utilisée pour créer la chaîne du nomen d’un nomen dérivé à partir de la chaîne du nomen d’un autre nomen distinct quand celle-ci est notée dans une écriture différente."@fr;
   rdfs:domain rdafr:C100012;
   rdfs:label "a pour système de conversion des écritures"@fr;
-  rdfs:range rdafr:SystemeConversion .
+  rdfs:range rdafr:ConversionEcriture .
 
 rdafrru:R1312 owl:versionInfo "0.1.0"@fr;
   sh:description "Date ou une fourchette de dates associée à l’utilisation d'un nomen."@fr;
@@ -5640,21 +5481,6 @@ rdafr:P800010 a owl:ObjectProperty;
   rdfs:label "a pour date d'attestation"@fr;
   rdfs:range rdafr:C100010;
   rdfs:subPropertyOf rdafr:P100002 .
-
-rdafrru:R1315 owl:versionInfo "0.1.0"@fr;
-  sh:description "Type auquel le nomen appartient."@fr;
-  sh:maxCount 1;
-  sh:minCount 1;
-  sh:name "a pour catégorie du nomen"@fr;
-  sh:node rdafr:CategorieNomen;
-  sh:nodeKind sh:IRI;
-  sh:path rdafr:P800012 .
-
-rdafr:P800012 a owl:ObjectProperty;
-  rdfs:comment "Type auquel le nomen appartient."@fr;
-  rdfs:domain rdafr:C100012;
-  rdfs:label "a pour catégorie du nomen"@fr;
-  rdfs:range rdafr:CategorieNomen .
 
 rdafrru:R1404 owl:versionInfo "0.1.0"@fr;
   sh:class rdfs:Literal;
@@ -6034,7 +5860,7 @@ rdafrru:R1521 rdfs:seeAlso "16.4.9.1.1"@fr;
   owl:versionInfo "0.2.0"@fr;
   sh:description "Date à laquelle le lieu a commencé d'exister. [code RDA-FR, 16.4.9.1.1]"@fr;
   sh:maxCount 1;
-  sh:name "a pour date d’apparition"@fr;
+  sh:name "a pour date d’apparition du lieu"@fr;
   sh:node rdafr:C100010;
   sh:nodeKind sh:IRI;
   sh:path rdafr:P350018 .
@@ -6042,7 +5868,7 @@ rdafrru:R1521 rdfs:seeAlso "16.4.9.1.1"@fr;
 rdafr:P350018 a owl:ObjectProperty;
   rdfs:comment "Date à laquelle le lieu a commencé d'exister. [code RDA-FR, 16.4.9.1.1]"@fr;
   rdfs:domain rdafr:C100009;
-  rdfs:label "a pour date d’apparition"@fr;
+  rdfs:label "a pour date d’apparition du lieu"@fr;
   rdfs:range rdafr:C100010;
   rdfs:subPropertyOf rdafr:P350017 .
 
@@ -6050,7 +5876,7 @@ rdafrru:R1522 rdfs:seeAlso "16.4.9.1.2"@fr;
   owl:versionInfo "0.2.0"@fr;
   sh:description "Date à laquelle un lieu a cessé d'exister. [code RDA-FR, 16.4.9.1.2]"@fr;
   sh:maxCount 1;
-  sh:name "a pour date de disparition"@fr;
+  sh:name "a pour date de disparition du lieu"@fr;
   sh:node rdafr:C100010;
   sh:nodeKind sh:IRI;
   sh:path rdafr:P350019 .
@@ -6058,7 +5884,7 @@ rdafrru:R1522 rdfs:seeAlso "16.4.9.1.2"@fr;
 rdafr:P350019 a owl:ObjectProperty;
   rdfs:comment "Date à laquelle un lieu a cessé d'exister. [code RDA-FR, 16.4.9.1.2]"@fr;
   rdfs:domain rdafr:C100009;
-  rdfs:label "a pour date de disparition"@fr;
+  rdfs:label "a pour date de disparition du lieu"@fr;
   rdfs:range rdafr:C100010;
   rdfs:subPropertyOf rdafr:P350017 .
 
@@ -6560,7 +6386,7 @@ rdafrru:R2013 rdfs:seeAlso "6.7.2"@fr;
   owl:versionInfo "0.2.0"@fr;
   sh:description "La forme de l’expression représentative de l’œuvre est le moyen par lequel l’œuvre a été réalisée à l’origine [code RDA-FR, 6.7.2]"@fr;
   sh:name "a pour forme de l'expression représentative de l'oeuvre"@fr;
-  sh:node rdafr:FormeExpression;
+  sh:node rdafr:FormeExpression-TypeContenu;
   sh:nodeKind sh:IRI;
   sh:path rdafr:P610010 .
 
@@ -6568,7 +6394,7 @@ rdafr:P610010 a owl:ObjectProperty;
   rdfs:comment "La forme de l’expression représentative de l’œuvre est le moyen par lequel l’œuvre a été réalisée à l’origine [code RDA-FR, 6.7.2]"@fr;
   rdfs:domain rdafr:C100001;
   rdfs:label "a pour forme de l'expression représentative de l'oeuvre"@fr;
-  rdfs:range rdafr:FormeExpression;
+  rdfs:range rdafr:FormeExpression-TypeContenu;
   rdfs:subPropertyOf rdafr:P610009 .
 
 rdafrru:R2014 rdfs:seeAlso "6.7.3"@fr;
@@ -6653,14 +6479,14 @@ intermédiaire. [code RDA-FR, 6.8.3]"""@fr;
 
 rdafrru:R2019 rdfs:seeAlso "6.8.4"@fr;
   owl:versionInfo "0.2.0"@fr;
-  sh:description "L’importance relative de la forme de l’expression représentative de l'oeuvre permet de préciser, pour des formes de l’expression présentes mais qui n’apportent pas une contribution essentielle, la place qu’elles occupent dans la réalisation de l’expression. [code RDA-FR, 6.8.4]"@fr;
+  sh:description "La couverture de l’agrégat permet de préciser, dans le cas d’une expression d’agrégation, si la ou les formes de l’expression s’appliquent à toutes les expressions réunies dans l’agrégat ou seulement à une partie d’entre elles. [code RDA-FR, 6.8.4]"@fr;
   sh:name "a pour couverture de l'agrégat"@fr;
   sh:node rdafr:CouvertureAgregat;
   sh:nodeKind sh:IRI;
   sh:path rdafr:P610016 .
 
 rdafr:P610016 a owl:ObjectProperty;
-  rdfs:comment "L’importance relative de la forme de l’expression représentative de l'oeuvre permet de préciser, pour des formes de l’expression présentes mais qui n’apportent pas une contribution essentielle, la place qu’elles occupent dans la réalisation de l’expression. [code RDA-FR, 6.8.4]"@fr;
+  rdfs:comment "La couverture de l’agrégat permet de préciser, dans le cas d’une expression d’agrégation, si la ou les formes de l’expression s’appliquent à toutes les expressions réunies dans l’agrégat ou seulement à une partie d’entre elles. [code RDA-FR, 6.8.4]"@fr;
   rdfs:domain rdafr:C100001;
   rdfs:label "a pour couverture de l'agrégat"@fr;
   rdfs:range rdafr:CouvertureAgregat;
@@ -8649,7 +8475,7 @@ rdafrru:R4109 rdfs:seeAlso "3.51"@fr;
   sh:description "Le type de contenu est une catégorisation reflétant la (ou les) forme(s) fondamentale(s) utilisée(s) pour exprimer le contenu d’une ressource, accompagnée si nécessaire de précisions sur le (ou les) sens sollicité(s), sur le nombre de dimensions spatiales restituées à la perception et/ou sur la présence ou l’absence de mouvement. [code RDA-FR, 3.51]"@fr;
   sh:minCount 1;
   sh:name "a pour type de contenu"@fr;
-  sh:node rdafr:TypeContenu;
+  sh:node rdafr:FormeExpression-TypeContenu;
   sh:nodeKind sh:IRI;
   sh:path rdafr:P630125 .
 
@@ -8657,7 +8483,7 @@ rdafr:P630125 a owl:ObjectProperty;
   rdfs:comment "Le type de contenu est une catégorisation reflétant la (ou les) forme(s) fondamentale(s) utilisée(s) pour exprimer le contenu d’une ressource, accompagnée si nécessaire de précisions sur le (ou les) sens sollicité(s), sur le nombre de dimensions spatiales restituées à la perception et/ou sur la présence ou l’absence de mouvement. [code RDA-FR, 3.51]"@fr;
   rdfs:domain rdafr:C100007;
   rdfs:label "a pour type de contenu"@fr;
-  rdfs:range rdafr:TypeContenu .
+  rdfs:range rdafr:FormeExpression-TypeContenu .
 
 rdafrru:R4111 rdfs:seeAlso "3.52.2"@fr;
   owl:versionInfo "0.2.0"@fr;
