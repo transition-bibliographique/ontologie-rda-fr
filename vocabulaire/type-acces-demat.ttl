@@ -7,8 +7,8 @@
 
 <https://rdafr.fr/vocabulary/type-acces-demat> a skos:ConceptScheme;
   dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  dct:description "Le type d'accès à une ressource dématérialisée désigne les différents modes de connexion permettant d’accéder à une ressource dématérialisée."@fr;
   dct:modified "2023-11-06"^^xsd:date;
-  dct:publisher "BnF, Abes"@fr;
   dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des types d'accès à une ressource dématérialisée"@fr;
   skos:hasTopConcept <https://rdafr.fr/vocabulary/type-acces-demat/1>, <https://rdafr.fr/vocabulary/type-acces-demat/2>,
     <https://rdafr.fr/vocabulary/type-acces-demat/3>, <https://rdafr.fr/vocabulary/type-acces-demat/4> .

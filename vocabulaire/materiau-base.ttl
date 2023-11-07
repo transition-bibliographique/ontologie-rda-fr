@@ -18,9 +18,10 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://rdafr.fr/vocabulary/materiau-base> dct:created "2023-06-05T00:00:00.000Z"^^xsd:dateTime;
+  dct:description "Le matériau de base est un matériau physique composant le support d’une manifestation, auquel peut éventuellement s’ajouter un matériau appliqué."@fr;
   dct:modified "2023-11-06"^^xsd:date;
   dct:publisher "BnF, Abes"@fr;
-  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des matériaux de base d'une manifestation"@fr .
+  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des matériaux de base pour les manifestations"@fr .
 
 <https://rdafr.fr/vocabulary/materiau-base/1> a skos:Concept, rdafr:MateriauBase;
   dct:created "2023-06-05T00:00:00.000Z"^^xsd:dateTime;

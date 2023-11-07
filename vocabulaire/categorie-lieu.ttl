@@ -18,6 +18,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://rdafr.fr/vocabulary/categorie-lieu> dct:created "2023-06-12T00:00:00.000Z"^^xsd:dateTime;
+  dct:description "Catégorie générale à laquelle une instance de Lieu appartient."@fr;
   dct:modified "2023-11-06"^^xsd:date;
   dct:publisher "BnF, Abes"@fr;
   dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des catégories de lieu"@fr;

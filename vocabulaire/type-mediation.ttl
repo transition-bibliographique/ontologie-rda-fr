@@ -7,9 +7,10 @@
 
 <https://rdafr.fr/vocabulary/type-mediation> a skos:ConceptScheme;
   dct:created "2023-06-02T00:00:00.000Z"^^xsd:dateTime;
+  dct:description "Le type de médiation est une catégorisation indiquant le type général de dispositif de médiation requis pour visionner, faire fonctionner, faire défiler, etc. le contenu d’une ressource."@fr;
   dct:modified "2023-11-06"^^xsd:date;
   dct:publisher "BnF, Abes"@fr;
-  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des types de médiation d'une manifestation"@fr;
+  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des types de médiation pour les manifestations"@fr;
   skos:hasTopConcept <https://rdafr.fr/vocabulary/type-mediation/1>, <https://rdafr.fr/vocabulary/type-mediation/2>,
     <https://rdafr.fr/vocabulary/type-mediation/3>, <https://rdafr.fr/vocabulary/type-mediation/4>,
     <https://rdafr.fr/vocabulary/type-mediation/5>, <https://rdafr.fr/vocabulary/type-mediation/6>,

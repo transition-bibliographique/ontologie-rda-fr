@@ -7,4 +7,21 @@
   dct:created "2022-10-20T00:00:00.000Z"^^xsd:dateTime;
   dct:modified "2023-11-06"^^xsd:date;
   dct:publisher "BnF, Abes"@fr;
-  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des niveaux de fiabilité"@fr .
+  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des niveaux de fiabilité"@fr;
+  skos:hasTopConcept <https://rdafr.fr/vocabulary/niveau-fiabilite/1>, <https://rdafr.fr/vocabulary/niveau-fiabilite/2>,
+    <https://rdafr.fr/vocabulary/niveau-fiabilite/3> .
+
+<https://rdafr.fr/vocabulary/niveau-fiabilite/1> a skos:Concept;
+  skos:inScheme <https://rdafr.fr/vocabulary/niveau-fiabilite>;
+  skos:prefLabel "certaine"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/niveau-fiabilite> .
+
+<https://rdafr.fr/vocabulary/niveau-fiabilite/2> a skos:Concept;
+  skos:inScheme <https://rdafr.fr/vocabulary/niveau-fiabilite>;
+  skos:prefLabel "incertaine"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/niveau-fiabilite> .
+
+<https://rdafr.fr/vocabulary/niveau-fiabilite/3> a skos:Concept;
+  skos:inScheme <https://rdafr.fr/vocabulary/niveau-fiabilite>;
+  skos:prefLabel "erronée"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/niveau-fiabilite> .

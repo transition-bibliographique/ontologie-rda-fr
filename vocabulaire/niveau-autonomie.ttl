@@ -7,6 +7,7 @@
 
 <https://rdafr.fr/vocabulary/niveau-autonomie> a skos:ConceptScheme;
   dct:created "2023-06-02T00:00:00.000Z"^^xsd:dateTime;
+  dct:description "Le niveau d’autonomie est une catégorisation permettant de dire si la ressource est une publication autonome ou si elle appartient à un ensemble plus vaste."@fr;
   dct:modified "2023-11-06"^^xsd:date;
   dct:publisher "BnF, Abes"@fr;
   dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des niveaux d'autonomie d'une manifestation"@fr;

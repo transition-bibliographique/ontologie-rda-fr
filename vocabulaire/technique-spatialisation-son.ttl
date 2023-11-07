@@ -7,6 +7,7 @@
 
 <https://rdafr.fr/vocabulary/technique-spatialisation-son> a skos:ConceptScheme;
   dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  dct:description "La technique de spatialisation du son est la méthode utilisée pour reproduire le son et le diffuser dans l’espace."@fr;
   dct:modified "2023-11-06"^^xsd:date;
   dct:publisher "BnF, Abes"@fr;
   dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des techniques de spatialisation du son"@fr;

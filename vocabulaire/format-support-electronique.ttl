@@ -18,6 +18,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://rdafr.fr/vocabulary/format-support-electronique> dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  dct:description "Le format d’un support électronique est un standard utilisé pour enregistrer un contenu sur un support électronique propriétaire."@fr;
   dct:modified "2023-11-06"^^xsd:date;
   dct:publisher "BnF, Abes"@fr;
   dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des formats d'un support électronique"@fr .

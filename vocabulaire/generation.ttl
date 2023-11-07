@@ -18,6 +18,7 @@
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://rdafr.fr/vocabulary/generation> dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  dct:description "La génération est le produit correspondant à une étape dans le processus de fabrication d’une ressource, depuis la matrice jusqu’au produit de diffusion."@fr;
   dct:modified "2023-11-06"^^xsd:date;
   dct:publisher "BnF, Abes"@fr;
   dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des générations d'une manifestation"@fr .

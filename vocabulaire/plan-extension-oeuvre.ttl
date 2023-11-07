@@ -7,6 +7,7 @@
 
 <https://rdafr.fr/vocabulary/plan-extension-oeuvre> a skos:ConceptScheme;
   dct:created "2023-08-09T00:00:00.000Z"^^xsd:dateTime;
+  dct:description "Le plan d’extension de l’œuvre permet d’indiquer l’intention du créateur quant aux modalités d’extension d’une œuvre."@fr;
   dct:modified "2023-11-06"^^xsd:date;
   dct:publisher "BnF, Abes"@fr;
   dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des différents plans d'extension d'une oeuvre"@fr;

@@ -7,6 +7,7 @@
 
 <https://rdafr.fr/vocabulary/couverture-agregat> a skos:ConceptScheme;
   dct:created "2023-08-17T00:00:00.000Z"^^xsd:dateTime;
+  dct:description "La couverture de l’agrégat permet de préciser, dans le cas d’une expression d’agrégation, si la ou les formes de l’expression s’appliquent à toutes les expressions réunies dans l’agrégat ou seulement à une partie d’entre elles."@fr;
   dct:modified "2023-11-06"^^xsd:date;
   dct:publisher "BnF, Abes"@fr;
   dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des modalités de couverture d'un agrégat"@fr;
