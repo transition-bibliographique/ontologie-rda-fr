@@ -111,7 +111,7 @@ RUN curl -L https://github.com/sparna-git/skos-play/releases/download/0.9.1/skos
 # Depuis la page d'un vocabulaire, l'utilisateur peut ajouter le suffix .ttl à l'url pour récupérer les données au format RDF.
 RUN for i in /build/vocabulary/*.ttl; do \
       java -jar skos-play.jar alphabetical -i $i -o ${i%.ttl}.html -f html -l fr ; \
-      sed -i 's#<h2 class="title">.*?</h2>##g' ${i%.ttl}.html ; \
+      sed -i '/<h2 class="title">.*<\/h2>/d' ${i%.ttl}.html ; \
     done
 
 FROM nginx:1.20.2
