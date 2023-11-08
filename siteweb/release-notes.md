@@ -5,10 +5,11 @@
 Version toujours qualifiée comme bêta, reste partielle, et le caractère évolutif de l’ontologie d’une version à l’autre toujours valable. Apports de cette version : 
 
 * Classes et leurs propriétés
-  * Déclaration de trois nouvelles classes, ***Oeuvre***, ***Manifestation*** et ***Lieu***, et de leurs propriétés. 
+  * Déclaration de deux nouvelles classes, **_Manifestation_** et **_Lieu_**, et de leurs propriétés. 
 * Vocabulaires contrôlés 
-  * Cette version voit pour la première fois la publication des vocabulaires contrôlés associés aux attributs des entités Oeuvre, Manifestation et Lieu. Les vocabulaires contrôlés sont déclarés dans l’espace de nom [https://rdafr.fr/vocabulary](https://rdafr.fr/vocabulary).  \
-Chacun des 44 référentiels déclarés fait l’objet d’une page distincte. Le nombre des valeurs dans un référentiel peut être très variable. Chacune d’entre elles fait l’objet d’une déclaration en propre.
+  * Cette version voit pour la première fois la publication des vocabulaires contrôlés associés aux attributs des entités, Manifestation et Lieu. Les vocabulaires contrôlés sont déclarés dans l’espace de nom [https://rdafr.fr/vocabulary](https://rdafr.fr/vocabulary).  \
+Chacun des référentiels déclarés fait l’objet d’une page distincte. Le nombre des valeurs dans un référentiel peut être très variable. Chacune d’entre elles fait l’objet d’une déclaration en propre.
+
 * Quelques nouvelles propriétés pour les classes déjà publiées
 * Quelques correctifs et modifications dans les propriétés déjà publiées
 
