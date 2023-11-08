@@ -19,6 +19,7 @@
 * **[Liste des types de sillon](type-sillon.html)** 06/11/2023
 * **[Liste des termes désignant une présentation musicale](designation-presentation-musicale.html)** 06/11/2023
 * **[Caractéristique sonore](caracteristique-sonore.html)** 06/11/2023
+* **[Aspect de traduction d'une expression](aspect-traduction.html)** 06/11/2023
 * **[Liste des différents plans d'extension d'une oeuvre](plan-extension-oeuvre.html)** 06/11/2023
 * **[Liste des natures du contenu supplémentaire illustratif d'une manifestation](nature-contenu-supplementaire-illustratif.html)** 06/11/2023
 * **[Forme de la notation musicale d'une expression](forme-notation-musicale.html)** 06/11/2023
