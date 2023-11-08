@@ -42,9 +42,9 @@ rdafr:C100001 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Toute création intellectuelle ou artistique distincte, susceptible d’être identifiée et nommée de manière univoque dans un contexte bibliographique. [code RDA-FR, 5.1.2]"@fr;
-  sh:ignoredProperties _:node1hekdhtcvx6 .
+  sh:ignoredProperties _:node1hen8mskdx6 .
 
-_:node1hekdhtcvx6 rdf:first rdf:type;
+_:node1hen8mskdx6 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100001 sh:nodeKind sh:IRI;
@@ -61,9 +61,9 @@ rdafr:C100002 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Entité ayant la capacité d’agir et ayant un rapport avec des ressources qui font l’objet d’une description documentaire. Cela inclut les personnes ou les groupes. [code RDA-FR, 8.1.2]"@fr;
-  sh:ignoredProperties _:node1hekdhtcvx7 .
+  sh:ignoredProperties _:node1hen8mskdx7 .
 
-_:node1hekdhtcvx7 rdf:first rdf:type;
+_:node1hen8mskdx7 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100002 sh:nodeKind sh:IRI;
@@ -80,9 +80,9 @@ rdafr:C100003 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Un ou plusieurs objets portant des signes chargés de véhiculer un contenu intellectuel ou artistique. Un item exemplifie une manifestation et en reflète en principe toutes les caractéristiques. [code RDA-FR, 1.1.2]"@fr;
-  sh:ignoredProperties _:node1hekdhtcvx8 .
+  sh:ignoredProperties _:node1hen8mskdx8 .
 
-_:node1hekdhtcvx8 rdf:first rdf:type;
+_:node1hen8mskdx8 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100003 sh:nodeKind sh:IRI;
@@ -99,9 +99,9 @@ rdafr:C100004 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Agent identifié comme étant un individu existant ou ayant existé. [code RDA-FR, 8.1.2 et 9]"@fr;
-  sh:ignoredProperties _:node1hekdhtcvx9 .
+  sh:ignoredProperties _:node1hen8mskdx9 .
 
-_:node1hekdhtcvx9 rdf:first rdf:type;
+_:node1hen8mskdx9 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100004 sh:nodeKind sh:IRI;
@@ -118,9 +118,9 @@ rdafr:C100005 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Agent identifié comme étant une organisation ou une partie d'organisation, ou un groupe de personnes et/ou d'organisations. Une collectivité n’est considérée comme telle que si elle est identifiée par un nom particulier et si elle agit, ou peut agir, comme une unité. [code RDA-FR, 11]"@fr;
-  sh:ignoredProperties _:node1hekdhtcvx10 .
+  sh:ignoredProperties _:node1hen8mskdx10 .
 
-_:node1hekdhtcvx10 rdf:first rdf:type;
+_:node1hen8mskdx10 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100005 sh:nodeKind sh:IRI;
@@ -137,9 +137,9 @@ rdafr:C100006 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Réalisation d’une œuvre sous la forme d’une notation (alphanumérique, musicale ou chorégraphique), de son, d’image, d’objet, de mouvement, etc. ou de toute combinaison de ces formes. [code RDA-FR, 5.1.2]"@fr;
-  sh:ignoredProperties _:node1hekdhtcvx11 .
+  sh:ignoredProperties _:node1hen8mskdx11 .
 
-_:node1hekdhtcvx11 rdf:first rdf:type;
+_:node1hen8mskdx11 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100006 sh:nodeKind sh:IRI;
@@ -156,9 +156,9 @@ rdafr:C100007 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "L’ensemble de tous les supports qui sont présumés partager les mêmes caractéristiques relatives tant au contenu intellectuel ou artistique qu’aux aspects de présentation matérielle. Cet ensemble est défini à la fois par son contenu global et par le plan de production pour son (ou ses) support(s). [code RDA-FR, 1.1.2]"@fr;
-  sh:ignoredProperties _:node1hekdhtcvx12 .
+  sh:ignoredProperties _:node1hen8mskdx12 .
 
-_:node1hekdhtcvx12 rdf:first rdf:type;
+_:node1hen8mskdx12 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100007 sh:nodeKind sh:IRI;
@@ -175,9 +175,9 @@ rdafr:C100008 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Est considéré comme relevant de la catégorie famille un ensemble de personnes liées par la naissance, le mariage, l'adoption, l'union civile ou tout autre statut légal du même ordre, ou un ensemble de personnes qui se présentent elles-mêmes comme une famille. [code RDA-FR, 10]"@fr;
-  sh:ignoredProperties _:node1hekdhtcvx13 .
+  sh:ignoredProperties _:node1hen8mskdx13 .
 
-_:node1hekdhtcvx13 rdf:first rdf:type;
+_:node1hen8mskdx13 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100008 sh:nodeKind sh:IRI;
@@ -194,9 +194,9 @@ rdafr:C100009 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Portion d’espace réel. Un lieu est déterminé par des coordonnées géographiques et pourvu d’un nom. [code RDA-FR, 16]"@fr;
-  sh:ignoredProperties _:node1hekdhtcvx14 .
+  sh:ignoredProperties _:node1hen8mskdx14 .
 
-_:node1hekdhtcvx14 rdf:first rdf:type;
+_:node1hen8mskdx14 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100009 sh:nodeKind sh:IRI;
@@ -212,9 +212,9 @@ rdafr:C100010 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Plage temporelle ayant un début, une fin et une durée."@fr;
-  sh:ignoredProperties _:node1hekdhtcvx15 .
+  sh:ignoredProperties _:node1hen8mskdx15 .
 
-_:node1hekdhtcvx15 rdf:first rdf:type;
+_:node1hen8mskdx15 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100010 sh:nodeKind sh:IRI;
@@ -230,9 +230,9 @@ rdafr:C100011 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Groupement ou association de personnes portant un nom particulier et disposant de la faculté d'agir collectivement."@fr;
-  sh:ignoredProperties _:node1hekdhtcvx16 .
+  sh:ignoredProperties _:node1hen8mskdx16 .
 
-_:node1hekdhtcvx16 rdf:first rdf:type;
+_:node1hen8mskdx16 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100011 sh:nodeKind sh:IRI;
@@ -248,9 +248,9 @@ rdafr:C100012 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Une association entre une entité et une désignation qui y réfère ."@fr;
-  sh:ignoredProperties _:node1hekdhtcvx17 .
+  sh:ignoredProperties _:node1hen8mskdx17 .
 
-_:node1hekdhtcvx17 rdf:first rdf:type;
+_:node1hen8mskdx17 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100012 sh:nodeKind sh:IRI;
@@ -266,9 +266,9 @@ rdafr:C100013 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Classe abstraite de plus haut niveau de l'univers de discours couvert par l'ontologie RDA-FR. Elle comprend toutes les entités qui sont définies dans le code RDA-FR. Toutes les classes définies pour les besoins de fonctionnement de l'ontologie RDA-FR sont également des sous-classes de celle ci."@fr;
-  sh:ignoredProperties _:node1hekdhtcvx18 .
+  sh:ignoredProperties _:node1hen8mskdx18 .
 
-_:node1hekdhtcvx18 rdf:first rdf:type;
+_:node1hen8mskdx18 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100013 sh:nodeKind sh:IRI;
@@ -284,9 +284,9 @@ rdafr:C100015 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Identité d’un agent qui est connue ou a été rendue publique. [code RDA-FR, 8.1.2 et 9]"@fr;
-  sh:ignoredProperties _:node1hekdhtcvx19 .
+  sh:ignoredProperties _:node1hen8mskdx19 .
 
-_:node1hekdhtcvx19 rdf:first rdf:type;
+_:node1hen8mskdx19 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100015 sh:nodeKind sh:IRI;
@@ -300,9 +300,9 @@ rdafr:C100017 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "En attente de traitement dans l'ontologie RDA-FR"@fr;
-  sh:ignoredProperties _:node1hekdhtcvx20 .
+  sh:ignoredProperties _:node1hen8mskdx20 .
 
-_:node1hekdhtcvx20 rdf:first rdf:type;
+_:node1hen8mskdx20 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100017 sh:nodeKind sh:IRI;
@@ -316,9 +316,9 @@ rdafr:C100018 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "En attente de traitement dans l'ontologie RDA-FR"@fr;
-  sh:ignoredProperties _:node1hekdhtcvx21 .
+  sh:ignoredProperties _:node1hen8mskdx21 .
 
-_:node1hekdhtcvx21 rdf:first rdf:type;
+_:node1hen8mskdx21 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100018 sh:nodeKind sh:IRI;
@@ -332,9 +332,9 @@ rdafr:C100019 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "En attente de traitement dans l'ontologie RDA-FR"@fr;
-  sh:ignoredProperties _:node1hekdhtcvx22 .
+  sh:ignoredProperties _:node1hen8mskdx22 .
 
-_:node1hekdhtcvx22 rdf:first rdf:type;
+_:node1hen8mskdx22 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100019 sh:nodeKind sh:IRI;
@@ -348,9 +348,9 @@ rdafr:C100020 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "En attente de traitement dans l'ontologie RDA-FR"@fr;
-  sh:ignoredProperties _:node1hekdhtcvx23 .
+  sh:ignoredProperties _:node1hen8mskdx23 .
 
-_:node1hekdhtcvx23 rdf:first rdf:type;
+_:node1hen8mskdx23 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100020 sh:nodeKind sh:IRI;
@@ -364,9 +364,9 @@ rdafr:C100021 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "En attente de traitement dans l'ontologie RDA-FR"@fr;
-  sh:ignoredProperties _:node1hekdhtcvx24 .
+  sh:ignoredProperties _:node1hen8mskdx24 .
 
-_:node1hekdhtcvx24 rdf:first rdf:type;
+_:node1hen8mskdx24 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100021 sh:nodeKind sh:IRI;
@@ -380,9 +380,9 @@ rdafr:C100022 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "En attente de traitement dans l'ontologie RDA-FR"@fr;
-  sh:ignoredProperties _:node1hekdhtcvx25 .
+  sh:ignoredProperties _:node1hen8mskdx25 .
 
-_:node1hekdhtcvx25 rdf:first rdf:type;
+_:node1hen8mskdx25 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100022 sh:nodeKind sh:IRI;
@@ -396,9 +396,9 @@ rdafr:C100023 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "En attente de traitement dans l'ontologie RDA-FR"@fr;
-  sh:ignoredProperties _:node1hekdhtcvx26 .
+  sh:ignoredProperties _:node1hen8mskdx26 .
 
-_:node1hekdhtcvx26 rdf:first rdf:type;
+_:node1hen8mskdx26 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100023 sh:nodeKind sh:IRI;
@@ -412,9 +412,9 @@ rdafr:C100025 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Agent étant identifié comme un groupe de personnes qui n'est ni une famille ni une collectivité et dont le nom se présente formellement comme un nom de personne (nom traditionnellement désigné par le terme \"pseudonyme collectif\")."@fr;
-  sh:ignoredProperties _:node1hekdhtcvx27 .
+  sh:ignoredProperties _:node1hen8mskdx27 .
 
-_:node1hekdhtcvx27 rdf:first rdf:type;
+_:node1hen8mskdx27 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100025 sh:nodeKind sh:IRI;
@@ -428,9 +428,9 @@ rdafr:P100001r a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
   sh:description "La classe ‘est en relation avec’ permet d’ajouter des assertions sur toutes les propriétés qui expriment une relation entre des instances de deux classes de l’ontologie (et qui, de fait, correspondent aux relations entre instances d’entités du code RDA-FR)."@fr;
-  sh:ignoredProperties _:node1hekdhtcvx28 .
+  sh:ignoredProperties _:node1hen8mskdx28 .
 
-_:node1hekdhtcvx28 rdf:first rdf:type;
+_:node1hen8mskdx28 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:P100001r sh:nodeKind sh:IRI;
@@ -444,9 +444,9 @@ rdafr:P100008r a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "La classe ‘propriété réifiée’ permet d'ajouter des assertions sur toutes les propriétés de l’ontologie qui correspondent aux attributs des entités du code RDA-FR."@fr;
-  sh:ignoredProperties _:node1hekdhtcvx29 .
+  sh:ignoredProperties _:node1hen8mskdx29 .
 
-_:node1hekdhtcvx29 rdf:first rdf:type;
+_:node1hen8mskdx29 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:P100008r sh:nodeKind sh:IRI;
@@ -460,9 +460,9 @@ skos:Concept a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Un concept SKOS peut être vu comme une idée ou une notion; une unité de pensée."@fr;
-  sh:ignoredProperties _:node1hekdhtcvx30 .
+  sh:ignoredProperties _:node1hen8mskdx30 .
 
-_:node1hekdhtcvx30 rdf:first rdf:type;
+_:node1hen8mskdx30 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 skos:Concept sh:nodeKind sh:IRI;
@@ -476,9 +476,9 @@ rdafr:Langue a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Langue d'une chaîne de caractères. [vocabulaire de la classe, voir: https://id.loc.gov/vocabulary/iso639-2.html ]"@fr;
-  sh:ignoredProperties _:node1hekdhtcvx31 .
+  sh:ignoredProperties _:node1hen8mskdx31 .
 
-_:node1hekdhtcvx31 rdf:first rdf:type;
+_:node1hen8mskdx31 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:Langue sh:nodeKind sh:IRI;
@@ -492,9 +492,9 @@ rdafr:Ecriture a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Système d'écriture de la chaîne de caractères."@fr;
-  sh:ignoredProperties _:node1hekdhtcvx32 .
+  sh:ignoredProperties _:node1hen8mskdx32 .
 
-_:node1hekdhtcvx32 rdf:first rdf:type;
+_:node1hen8mskdx32 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:Ecriture sh:nodeKind sh:IRI;
@@ -514,30 +514,14 @@ d’autorité de noms, etc.) ;
 - des schémas d’encodage de valeurs (listes de vedettes matière, thésaurus, classifications systématiques, listes
 d’autorité de noms, etc.) ;
 − et des schémas d’encodage syntaxiques (normes d’encodage des dates, etc.)."""@fr;
-  sh:ignoredProperties _:node1hekdhtcvx33 .
+  sh:ignoredProperties _:node1hen8mskdx33 .
 
-_:node1hekdhtcvx33 rdf:first rdf:type;
+_:node1hen8mskdx33 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:SchemaEncodage sh:nodeKind sh:IRI;
   sh:order 203;
   sh:targetClass rdafr:SchemaEncodage .
-
-rdafr:CategorieNomen a rdfs:Class, owl:Class, sh:NodeShape;
-  rdfs:comment "Type auquel le nomen appartient (ex. : point d'accès, identifiant, titre, etc.) [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/categorie-nomen.html ]"@fr;
-  rdfs:label "Catégorie de nomen"@fr;
-  rdfs:subClassOf skos:Concept;
-  owl:versionInfo "0.1.0"@fr;
-  sh:closed false;
-  sh:description "Type auquel le nomen appartient (ex. : point d'accès, identifiant, titre, etc.) [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/categorie-nomen.html ]"@fr;
-  sh:ignoredProperties _:node1hekdhtcvx34 .
-
-_:node1hekdhtcvx34 rdf:first rdf:type;
-  rdf:rest rdf:nil .
-
-rdafr:CategorieNomen sh:nodeKind sh:IRI;
-  sh:order 204;
-  sh:targetClass rdafr:CategorieNomen .
 
 rdafr:ConversionEcriture a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:comment "Règle, système ou norme utilisée pour créer la chaîne d’un nomen à partir de la chaîne d’un autre nomen notée dans une écriture différente (par exemple, un système de translittération)."@fr;
@@ -546,13 +530,13 @@ rdafr:ConversionEcriture a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Règle, système ou norme utilisée pour créer la chaîne d’un nomen à partir de la chaîne d’un autre nomen notée dans une écriture différente (par exemple, un système de translittération)."@fr;
-  sh:ignoredProperties _:node1hekdhtcvx35 .
+  sh:ignoredProperties _:node1hen8mskdx34 .
 
-_:node1hekdhtcvx35 rdf:first rdf:type;
+_:node1hen8mskdx34 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:ConversionEcriture sh:nodeKind sh:IRI;
-  sh:order 205;
+  sh:order 204;
   sh:targetClass rdafr:ConversionEcriture .
 
 rdafr:Genre a rdfs:Class, owl:Class, sh:NodeShape;
@@ -563,13 +547,13 @@ rdafr:Genre a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Le genre auquel une personne s'identifie."@fr;
-  sh:ignoredProperties _:node1hekdhtcvx36 .
+  sh:ignoredProperties _:node1hen8mskdx35 .
 
-_:node1hekdhtcvx36 rdf:first rdf:type;
+_:node1hen8mskdx35 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:Genre sh:nodeKind sh:IRI;
-  sh:order 206;
+  sh:order 205;
   sh:targetClass rdafr:Genre .
 
 rdafr:NiveauFiabilite a rdfs:Class, owl:Class, sh:NodeShape;
@@ -579,13 +563,13 @@ rdafr:NiveauFiabilite a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Niveau de fiabilité de l'information [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/niveau-fiabilite.html ]"@fr;
-  sh:ignoredProperties _:node1hekdhtcvx37 .
+  sh:ignoredProperties _:node1hen8mskdx36 .
 
-_:node1hekdhtcvx37 rdf:first rdf:type;
+_:node1hen8mskdx36 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:NiveauFiabilite sh:nodeKind sh:IRI;
-  sh:order 207;
+  sh:order 206;
   sh:targetClass rdafr:NiveauFiabilite .
 
 rdafr:Calendrier a rdfs:Class, owl:Class, sh:NodeShape;
@@ -595,13 +579,13 @@ rdafr:Calendrier a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Type de calendrier utilisé pour exprimer un laps de temps (julien, grégorien, hégire...)."@fr;
-  sh:ignoredProperties _:node1hekdhtcvx38 .
+  sh:ignoredProperties _:node1hen8mskdx37 .
 
-_:node1hekdhtcvx38 rdf:first rdf:type;
+_:node1hen8mskdx37 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:Calendrier sh:nodeKind sh:IRI;
-  sh:order 208;
+  sh:order 207;
   sh:targetClass rdafr:Calendrier .
 
 rdafr:CategorieIdentitePublique a rdfs:Class, owl:Class, sh:NodeShape;
@@ -612,13 +596,13 @@ rdafr:CategorieIdentitePublique a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Précision sur la nature du nom sur lequel est fondée l'identité publique (par exemple : nom réel, pseudonyme...) [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/categorie-ipp.html ]"@fr;
-  sh:ignoredProperties _:node1hekdhtcvx39 .
+  sh:ignoredProperties _:node1hen8mskdx38 .
 
-_:node1hekdhtcvx39 rdf:first rdf:type;
+_:node1hen8mskdx38 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:CategorieIdentitePublique sh:nodeKind sh:IRI;
-  sh:order 209;
+  sh:order 208;
   sh:targetClass rdafr:CategorieIdentitePublique .
 
 rdafr:ModaliteParution a rdfs:Class, owl:Class, sh:NodeShape;
@@ -628,9 +612,9 @@ rdafr:ModaliteParution a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
   sh:description "La modalité de parution est une catégorisation qui indique si la parution d’une ressource est prévue pour s’échelonner dans le temps (diachronique) ou non. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/modalite-parution.html ]"@fr;
-  sh:ignoredProperties _:node1hekdhtcvx40 .
+  sh:ignoredProperties _:node1hen8mskdx39 .
 
-_:node1hekdhtcvx40 rdf:first rdf:type;
+_:node1hen8mskdx39 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:ModaliteParution sh:nodeKind sh:IRI;
@@ -643,9 +627,9 @@ rdafr:NiveauAutonomie a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
   sh:description "Le niveau d’autonomie est une catégorisation permettant de dire si la ressource est une publication autonome ou si elle appartient à un ensemble plus vaste. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/niveau-autonomie.html ]"@fr;
-  sh:ignoredProperties _:node1hekdhtcvx41 .
+  sh:ignoredProperties _:node1hen8mskdx40 .
 
-_:node1hekdhtcvx41 rdf:first rdf:type;
+_:node1hen8mskdx40 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:NiveauAutonomie sh:nodeKind sh:IRI;
@@ -658,9 +642,9 @@ rdafr:TypeMediation a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
   sh:description "Le type de médiation est une catégorisation indiquant le type général de dispositif de médiation requis pour visionner, faire fonctionner, faire défiler, etc. le contenu d’une ressource. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/type-mediation.html ]"@fr;
-  sh:ignoredProperties _:node1hekdhtcvx42 .
+  sh:ignoredProperties _:node1hen8mskdx41 .
 
-_:node1hekdhtcvx42 rdf:first rdf:type;
+_:node1hen8mskdx41 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:TypeMediation sh:nodeKind sh:IRI;
@@ -673,9 +657,9 @@ rdafr:MateriauBase a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
   sh:description "Le matériau de base est un matériau physique composant le support d’une manifestation, auquel peut éventuellement s’ajouter un matériau appliqué [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/materiau-base.html ]"@fr;
-  sh:ignoredProperties _:node1hekdhtcvx43 .
+  sh:ignoredProperties _:node1hen8mskdx42 .
 
-_:node1hekdhtcvx43 rdf:first rdf:type;
+_:node1hen8mskdx42 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:MateriauBase sh:nodeKind sh:IRI;
@@ -688,9 +672,9 @@ rdafr:MethodeProduction a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
   sh:description "La méthode de production est un procédé utilisé pour produire une manifestation. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/methode-production.html ]"@fr;
-  sh:ignoredProperties _:node1hekdhtcvx44 .
+  sh:ignoredProperties _:node1hen8mskdx43 .
 
-_:node1hekdhtcvx44 rdf:first rdf:type;
+_:node1hen8mskdx43 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:MethodeProduction sh:nodeKind sh:IRI;
@@ -703,9 +687,9 @@ rdafr:Generation a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
   sh:description "La génération est le produit correspondant à une étape dans le processus de fabrication d’une ressource, depuis la matrice jusqu’au produit de diffusion. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/gneration.html ]"@fr;
-  sh:ignoredProperties _:node1hekdhtcvx45 .
+  sh:ignoredProperties _:node1hen8mskdx44 .
 
-_:node1hekdhtcvx45 rdf:first rdf:type;
+_:node1hen8mskdx44 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:Generation sh:nodeKind sh:IRI;
@@ -718,9 +702,9 @@ rdafr:Disposition a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
   sh:description "La disposition est l’agencement du contenu par rapport au support d’une manifestation. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/disposition.html ]"@fr;
-  sh:ignoredProperties _:node1hekdhtcvx46 .
+  sh:ignoredProperties _:node1hen8mskdx45 .
 
-_:node1hekdhtcvx46 rdf:first rdf:type;
+_:node1hen8mskdx45 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:Disposition sh:nodeKind sh:IRI;
@@ -733,9 +717,9 @@ rdafr:FormatBibliographique a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
   sh:description "Le format bibliographique est déterminé par le nombre de pages résultant du nombre de fois où la feuille a été pliée pour former les feuillets d’un cahier, ou laissée à sa pleine grandeur (in-plano). [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/format-bibliographique.html ]"@fr;
-  sh:ignoredProperties _:node1hekdhtcvx47 .
+  sh:ignoredProperties _:node1hen8mskdx46 .
 
-_:node1hekdhtcvx47 rdf:first rdf:type;
+_:node1hen8mskdx46 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:FormatBibliographique sh:nodeKind sh:IRI;
@@ -748,9 +732,9 @@ rdafr:TypePoliceCaracteres a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
   sh:description "Le type de police de caractères est une catégorisation générale des polices fondée sur leur style d’écriture. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/type-police-caracteres.html ]"@fr;
-  sh:ignoredProperties _:node1hekdhtcvx48 .
+  sh:ignoredProperties _:node1hen8mskdx47 .
 
-_:node1hekdhtcvx48 rdf:first rdf:type;
+_:node1hen8mskdx47 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:TypePoliceCaracteres sh:nodeKind sh:IRI;
@@ -763,9 +747,9 @@ rdafr:TailleCaracteres a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
   sh:description "La taille des caractères est la taille des fontes utilisées pour représenter les signes et les symboles dans une manifestation. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/taille-caracteres.html ]"@fr;
-  sh:ignoredProperties _:node1hekdhtcvx49 .
+  sh:ignoredProperties _:node1hen8mskdx48 .
 
-_:node1hekdhtcvx49 rdf:first rdf:type;
+_:node1hen8mskdx48 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:TailleCaracteres sh:nodeKind sh:IRI;
@@ -778,9 +762,9 @@ rdafr:Polarite a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
   sh:description "Une polarité est une information précisant si les couleurs ou les valeurs de ton de l’image ont été inversées par rapport à l’objet représenté. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/polarite.html ]"@fr;
-  sh:ignoredProperties _:node1hekdhtcvx50 .
+  sh:ignoredProperties _:node1hen8mskdx49 .
 
-_:node1hekdhtcvx50 rdf:first rdf:type;
+_:node1hen8mskdx49 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:Polarite sh:nodeKind sh:IRI;
@@ -793,9 +777,9 @@ rdafr:FacteurReduction a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
   sh:description "Le facteur de réduction est un rapport numérique entre la taille d’une micro-image et celle de l’original à partir duquel elle a été produite. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/facteur-reduction.html ]"@fr;
-  sh:ignoredProperties _:node1hekdhtcvx51 .
+  sh:ignoredProperties _:node1hen8mskdx50 .
 
-_:node1hekdhtcvx51 rdf:first rdf:type;
+_:node1hen8mskdx50 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:FacteurReduction sh:nodeKind sh:IRI;
@@ -808,9 +792,9 @@ rdafr:VitesseLecture a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
   sh:description "La vitesse de lecture est la vitesse à laquelle un support audio doit être lu pour produire le son prévu. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/vitesse-lecture.html ]"@fr;
-  sh:ignoredProperties _:node1hekdhtcvx52 .
+  sh:ignoredProperties _:node1hen8mskdx51 .
 
-_:node1hekdhtcvx52 rdf:first rdf:type;
+_:node1hen8mskdx51 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:VitesseLecture sh:nodeKind sh:IRI;
@@ -835,9 +819,9 @@ rdafr:FormatSupportElectronique a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
   sh:description "Le format d’un support électronique est un standard utilisé pour enregistrer un contenu sur un support électronique propriétaire. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/format-support-electronique.html ]"@fr;
-  sh:ignoredProperties _:node1hekdhtcvx53 .
+  sh:ignoredProperties _:node1hen8mskdx52 .
 
-_:node1hekdhtcvx53 rdf:first rdf:type;
+_:node1hen8mskdx52 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:FormatSupportElectronique sh:nodeKind sh:IRI;
@@ -850,9 +834,9 @@ rdafr:TypeFichier a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
   sh:description "Le type de fichier est un type général de contenu des données encodées dans un fichier informatique. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/type-fichier.html ]"@fr;
-  sh:ignoredProperties _:node1hekdhtcvx54 .
+  sh:ignoredProperties _:node1hen8mskdx53 .
 
-_:node1hekdhtcvx54 rdf:first rdf:type;
+_:node1hen8mskdx53 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:TypeFichier sh:nodeKind sh:IRI;
@@ -865,9 +849,9 @@ rdafr:FormatProjection a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
   sh:description "Le format de projection est un format utilisé pour la production d’une image projetée. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/format-projection.html ]"@fr;
-  sh:ignoredProperties _:node1hekdhtcvx55 .
+  sh:ignoredProperties _:node1hen8mskdx54 .
 
-_:node1hekdhtcvx55 rdf:first rdf:type;
+_:node1hen8mskdx54 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:FormatProjection sh:nodeKind sh:IRI;
@@ -880,9 +864,9 @@ rdafr:FormatSupportVideo a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
   sh:description "Le format d’un support vidéo est une norme, un standard, etc. utilisé pour enregistrer un contenu sur un support vidéo. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/format-support-video.html ]"@fr;
-  sh:ignoredProperties _:node1hekdhtcvx56 .
+  sh:ignoredProperties _:node1hen8mskdx55 .
 
-_:node1hekdhtcvx56 rdf:first rdf:type;
+_:node1hen8mskdx55 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:FormatSupportVideo sh:nodeKind sh:IRI;
@@ -895,9 +879,9 @@ rdafr:NormeDiffusion a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
   sh:description "La norme de diffusion est le standard de codage de la couleur du contenu vidéo de la manifestation décrite pour la diffusion sur téléviseur. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/norme-diffusion.html ]"@fr;
-  sh:ignoredProperties _:node1hekdhtcvx57 .
+  sh:ignoredProperties _:node1hen8mskdx56 .
 
-_:node1hekdhtcvx57 rdf:first rdf:type;
+_:node1hen8mskdx56 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:NormeDiffusion sh:nodeKind sh:IRI;
@@ -910,9 +894,9 @@ rdafr:FamilleSupport a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
   sh:description "La famille de support est la grande catégorie de matériel nécessitant une médiation pour accéder au contenu de la ressource. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/famille-support.html ]"@fr;
-  sh:ignoredProperties _:node1hekdhtcvx58 .
+  sh:ignoredProperties _:node1hen8mskdx57 .
 
-_:node1hekdhtcvx58 rdf:first rdf:type;
+_:node1hen8mskdx57 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:FamilleSupport sh:nodeKind sh:IRI;
@@ -925,9 +909,9 @@ rdafr:TechniqueSpatialisationSon a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
   sh:description "La technique de spatialisation du son est la méthode utilisée pour reproduire le son et le diffuser dans l’espace. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/technique-spatialisation-son.html ]"@fr;
-  sh:ignoredProperties _:node1hekdhtcvx59 .
+  sh:ignoredProperties _:node1hen8mskdx58 .
 
-_:node1hekdhtcvx59 rdf:first rdf:type;
+_:node1hen8mskdx58 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:TechniqueSpatialisationSon sh:nodeKind sh:IRI;
@@ -940,9 +924,9 @@ rdafr:TechniqueReductionBruit a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
   sh:description "La technique de réduction du bruit de fond est un procédé consistant à supprimer les composantes indésirables d’un signal sonore. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/technique-reduction-bruit.html ]"@fr;
-  sh:ignoredProperties _:node1hekdhtcvx60 .
+  sh:ignoredProperties _:node1hen8mskdx59 .
 
-_:node1hekdhtcvx60 rdf:first rdf:type;
+_:node1hen8mskdx59 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:TechniqueReductionBruit sh:nodeKind sh:IRI;
@@ -955,9 +939,9 @@ rdafr:FormatImageAnimee a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
   sh:description "Le format d’image animée est le rapport numérique entre la largeur et la hauteur d’une image animée. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/format-image-animee.html ]"@fr;
-  sh:ignoredProperties _:node1hekdhtcvx61 .
+  sh:ignoredProperties _:node1hen8mskdx60 .
 
-_:node1hekdhtcvx61 rdf:first rdf:type;
+_:node1hen8mskdx60 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:FormatImageAnimee sh:nodeKind sh:IRI;
@@ -970,9 +954,9 @@ rdafr:Reliure a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
   sh:description "La reliure est un dispositif par lequel les feuilles d’une ressource ont été pliées et/ou assemblées pour former un volume, fascicule ou brochure. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/reliure.html ]"@fr;
-  sh:ignoredProperties _:node1hekdhtcvx62 .
+  sh:ignoredProperties _:node1hen8mskdx61 .
 
-_:node1hekdhtcvx62 rdf:first rdf:type;
+_:node1hen8mskdx61 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:Reliure sh:nodeKind sh:IRI;
@@ -989,9 +973,9 @@ Ce même vocabulaire contrôlé fournit les valeurs pour la propriété 'a pour 
   sh:description """La forme de l’expression est le moyen par lequel l’œuvre est réalisée (par exemple, sous forme de notation alphanumérique, de notation musicale, sous forme déclamée, sous forme de sons musicaux, d’image cartographique, d’image photographique, de sculpture, de danse, de mime, etc.). 
 Pour une manifestation le Type de contenu est une catégorisation reflétant la (ou les) forme(s) fondamentale(s) utilisée(s) pour exprimer le contenu d’une ressource, accompagnée si nécessaire de précisions sur le (ou les) sens sollicité(s), sur le nombre de dimensions spatiales restituées à la perception et/ou sur la présence ou l’absence de mouvement.
 Ce même vocabulaire contrôlé fournit les valeurs pour la propriété 'a pour forme de l'expression représentative de l'oeuvre' de la classe Oeuvre et pour la propriété 'a pour type de contenu' de la classe Manifestation. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/forme-expression-type-contenu-manifestation.html ]"""@fr;
-  sh:ignoredProperties _:node1hekdhtcvx63 .
+  sh:ignoredProperties _:node1hen8mskdx62 .
 
-_:node1hekdhtcvx63 rdf:first rdf:type;
+_:node1hen8mskdx62 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:FormeExpression-TypeContenu sh:nodeKind sh:IRI;
@@ -1004,9 +988,9 @@ rdafr:DesignationPresentationMusicale a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
   sh:description "La désignation de présentation musicale est un mot, caractère ou groupe de mots ou de caractères qui indique la disposition de la présentation matérielle d’une ressource de musique notée. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/designation-presentation-musicale.html ]"@fr;
-  sh:ignoredProperties _:node1hekdhtcvx64 .
+  sh:ignoredProperties _:node1hen8mskdx63 .
 
-_:node1hekdhtcvx64 rdf:first rdf:type;
+_:node1hen8mskdx63 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:DesignationPresentationMusicale sh:nodeKind sh:IRI;
@@ -1021,9 +1005,9 @@ rdafr:NatureContenuSupplementaireIllustratif a rdfs:Class, owl:Class, sh:NodeSha
   sh:closed false;
   sh:description """Un contenu supplémentaire illustratif signale la présence d’un contenu d’image qui complète le contenu principal d’une manifestation, et qui n’appartient pas à l’œuvre initiale (souvent textuelle). Le contenu supplémentaire illustratif ne s’applique donc que dans les cas d’augmentations.
  [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/nature-contenu-supplementaire-illustratif.html ]"""@fr;
-  sh:ignoredProperties _:node1hekdhtcvx65 .
+  sh:ignoredProperties _:node1hen8mskdx64 .
 
-_:node1hekdhtcvx65 rdf:first rdf:type;
+_:node1hen8mskdx64 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:NatureContenuSupplementaireIllustratif sh:nodeKind sh:IRI;
@@ -1036,9 +1020,9 @@ rdafr:TypeAccesDemat a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
   sh:description "Le type d'accès à une ressource dématérialisée désigne les différents modes de connexion permettant d’accéder à une ressource dématérialisée. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/type-acces-demat.html ]"@fr;
-  sh:ignoredProperties _:node1hekdhtcvx66 .
+  sh:ignoredProperties _:node1hen8mskdx65 .
 
-_:node1hekdhtcvx66 rdf:first rdf:type;
+_:node1hen8mskdx65 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:TypeAccesDemat sh:nodeKind sh:IRI;
@@ -1051,193 +1035,13 @@ rdafr:CategorieLieu a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
   sh:description "Catégorie générale à laquelle une instance de Lieu appartient. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/categorie-lieu.html ]"@fr;
-  sh:ignoredProperties _:node1hekdhtcvx67 .
+  sh:ignoredProperties _:node1hen8mskdx66 .
 
-_:node1hekdhtcvx67 rdf:first rdf:type;
+_:node1hen8mskdx66 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:CategorieLieu sh:nodeKind sh:IRI;
   sh:targetClass rdafr:CategorieLieu .
-
-rdafr:AspectTraduction a rdfs:Class, owl:Class, sh:NodeShape;
-  rdfs:comment "L’aspect de traduction permet de préciser si l’expression est une traduction d’une autre expression et, dans ce cas, s’il s’agit d’une traduction directe ou d’une traduction effectuée à partir d’une traduction intermédiaire. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/forme-expression.html ]"@fr;
-  rdfs:label "Aspect de traduction"@fr;
-  rdfs:subClassOf skos:Concept;
-  owl:versionInfo "0.2.0"@fr;
-  sh:closed false;
-  sh:description "L’aspect de traduction permet de préciser si l’expression est une traduction d’une autre expression et, dans ce cas, s’il s’agit d’une traduction directe ou d’une traduction effectuée à partir d’une traduction intermédiaire. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/forme-expression.html ]"@fr;
-  sh:ignoredProperties _:node1hekdhtcvx68 .
-
-_:node1hekdhtcvx68 rdf:first rdf:type;
-  rdf:rest rdf:nil .
-
-rdafr:AspectTraduction sh:nodeKind sh:IRI;
-  sh:targetClass rdafr:AspectTraduction .
-
-rdafr:PerimetreApplicationLangue a rdfs:Class, owl:Class, sh:NodeShape;
-  rdfs:comment "Le périmètre d’application de la langue permet de qualifier la langue de certaines composantes de l’expression décrite. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/forme-expression.html ]"@fr;
-  rdfs:label "Périmètre d'application de la langue"@fr;
-  rdfs:subClassOf skos:Concept;
-  owl:versionInfo "0.2.0"@fr;
-  sh:closed false;
-  sh:description "Le périmètre d’application de la langue permet de qualifier la langue de certaines composantes de l’expression décrite. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/forme-expression.html ]"@fr;
-  sh:ignoredProperties _:node1hekdhtcvx69 .
-
-_:node1hekdhtcvx69 rdf:first rdf:type;
-  rdf:rest rdf:nil .
-
-rdafr:PerimetreApplicationLangue sh:nodeKind sh:IRI;
-  sh:targetClass rdafr:PerimetreApplicationLangue .
-
-rdafr:TypeCaptation a rdfs:Class, owl:Class, sh:NodeShape;
-  rdfs:comment "Le périmètre d’application de la langue permet de qualifier la langue de certaines composantes de l’expression décrite. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/forme-expression.html ]"@fr;
-  rdfs:label "Type de captation"@fr;
-  rdfs:subClassOf skos:Concept;
-  owl:versionInfo "0.2.0"@fr;
-  sh:closed false;
-  sh:description "Le périmètre d’application de la langue permet de qualifier la langue de certaines composantes de l’expression décrite. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/forme-expression.html ]"@fr;
-  sh:ignoredProperties _:node1hekdhtcvx70 .
-
-_:node1hekdhtcvx70 rdf:first rdf:type;
-  rdf:rest rdf:nil .
-
-rdafr:TypeCaptation sh:nodeKind sh:IRI;
-  sh:targetClass rdafr:TypeCaptation .
-
-rdafr:FormeNotationMusicale a rdfs:Class, owl:Class, sh:NodeShape;
-  rdfs:comment "La forme de la notation musicale est un ensemble de signes et/ou de symboles utilisés pour exprimer le contenu musical noté d’une expression. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/forme-notation-musicale.html ]"@fr;
-  rdfs:label "Forme de la notation musicale"@fr;
-  rdfs:subClassOf skos:Concept;
-  owl:versionInfo "0.2.0"@fr;
-  sh:closed false;
-  sh:description "La forme de la notation musicale est un ensemble de signes et/ou de symboles utilisés pour exprimer le contenu musical noté d’une expression. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/forme-notation-musicale.html ]"@fr;
-  sh:ignoredProperties _:node1hekdhtcvx71 .
-
-_:node1hekdhtcvx71 rdf:first rdf:type;
-  rdf:rest rdf:nil .
-
-rdafr:FormeNotationMusicale sh:nodeKind sh:IRI;
-  sh:targetClass rdafr:FormeNotationMusicale .
-
-rdafr:FormeNotationTactile a rdfs:Class, owl:Class, sh:NodeShape;
-  rdfs:comment "La forme de la notation tactile est un ensemble de signes et/ou de symboles utilisés pour exprimer le contenu d’une expression sous une forme perceptible au toucher. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/forme-notation-tactile.html ]"@fr;
-  rdfs:label "Forme de la notation tactile"@fr;
-  rdfs:subClassOf skos:Concept;
-  owl:versionInfo "0.2.0"@fr;
-  sh:closed false;
-  sh:description "La forme de la notation tactile est un ensemble de signes et/ou de symboles utilisés pour exprimer le contenu d’une expression sous une forme perceptible au toucher. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/forme-notation-tactile.html ]"@fr;
-  sh:ignoredProperties _:node1hekdhtcvx72 .
-
-_:node1hekdhtcvx72 rdf:first rdf:type;
-  rdf:rest rdf:nil .
-
-rdafr:FormeNotationTactile sh:nodeKind sh:IRI;
-  sh:targetClass rdafr:FormeNotationTactile .
-
-rdafr:FormeNotationMouvement a rdfs:Class, owl:Class, sh:NodeShape;
-  rdfs:comment "La forme de la notation du mouvement est un ensemble de signes et/ou de caractères utilisés pour exprimer le contenu du mouvement d’une expression, en particulier celle d’une œuvre chorégraphique. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/forme-notation-mouvement.html ]"@fr;
-  rdfs:label "Forme de la notation de mouvement"@fr;
-  rdfs:subClassOf skos:Concept;
-  owl:versionInfo "0.2.0"@fr;
-  sh:closed false;
-  sh:description "La forme de la notation du mouvement est un ensemble de signes et/ou de caractères utilisés pour exprimer le contenu du mouvement d’une expression, en particulier celle d’une œuvre chorégraphique. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/forme-notation-mouvement.html ]"@fr;
-  sh:ignoredProperties _:node1hekdhtcvx73 .
-
-_:node1hekdhtcvx73 rdf:first rdf:type;
-  rdf:rest rdf:nil .
-
-rdafr:FormeNotationMouvement sh:nodeKind sh:IRI;
-  sh:targetClass rdafr:FormeNotationMouvement .
-
-rdafr:CaracteristiqueCouleur a rdfs:Class, owl:Class, sh:NodeShape;
-  rdfs:comment "La caractéristique de couleur est la présence de couleur, teinte, etc. dans l’expression. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/caracteristique-couleur.html ]"@fr;
-  rdfs:label "Caractéristique de couleur"@fr;
-  rdfs:subClassOf skos:Concept;
-  owl:versionInfo "0.2.0"@fr;
-  sh:closed false;
-  sh:description "La caractéristique de couleur est la présence de couleur, teinte, etc. dans l’expression. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/caracteristique-couleur.html ]"@fr;
-  sh:ignoredProperties _:node1hekdhtcvx74 .
-
-_:node1hekdhtcvx74 rdf:first rdf:type;
-  rdf:rest rdf:nil .
-
-rdafr:CaracteristiqueCouleur sh:nodeKind sh:IRI;
-  sh:targetClass rdafr:CaracteristiqueCouleur .
-
-rdafr:CaracteristiqueSonore a rdfs:Class, owl:Class, sh:NodeShape;
-  rdfs:comment "La caractéristique sonore est le son présent dans une expression qui n’est pas constituée principalement de son enregistré, par exemple une expression d’un film ou d’une œuvre multimédia. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/caracteristique-sonore.html ]"@fr;
-  rdfs:label "Caractéristique sonore"@fr;
-  rdfs:subClassOf skos:Concept;
-  owl:versionInfo "0.2.0"@fr;
-  sh:closed false;
-  sh:description "La caractéristique sonore est le son présent dans une expression qui n’est pas constituée principalement de son enregistré, par exemple une expression d’un film ou d’une œuvre multimédia. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/caracteristique-sonore.html ]"@fr;
-  sh:ignoredProperties _:node1hekdhtcvx75 .
-
-_:node1hekdhtcvx75 rdf:first rdf:type;
-  rdf:rest rdf:nil .
-
-rdafr:CaracteristiqueSonore sh:nodeKind sh:IRI;
-  sh:targetClass rdafr:CaracteristiqueSonore .
-
-rdafr:CouvertureAgregat a rdfs:Class, owl:Class, sh:NodeShape;
-  rdfs:comment "La couverture de l’agrégat permet de préciser, dans le cas d’une expression d’agrégation, si la ou les formes de l’expression s’appliquent à toutes les expressions réunies dans l’agrégat ou seulement à une partie d’entre elles. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/couverture-agregat.html ]"@fr;
-  rdfs:label "Couverture agrégat"@fr;
-  rdfs:subClassOf skos:Concept;
-  owl:versionInfo "0.2.0"@fr;
-  sh:closed false;
-  sh:description "La couverture de l’agrégat permet de préciser, dans le cas d’une expression d’agrégation, si la ou les formes de l’expression s’appliquent à toutes les expressions réunies dans l’agrégat ou seulement à une partie d’entre elles. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/couverture-agregat.html ]"@fr;
-  sh:ignoredProperties _:node1hekdhtcvx76 .
-
-_:node1hekdhtcvx76 rdf:first rdf:type;
-  rdf:rest rdf:nil .
-
-rdafr:CouvertureAgregat sh:nodeKind sh:IRI;
-  sh:targetClass rdafr:CouvertureAgregat .
-
-rdafr:ImportanceRelativeFormeExpression a rdfs:Class, owl:Class, sh:NodeShape;
-  rdfs:comment "L’importance relative de la forme de l’expression représentative de l'oeuvre permet de préciser, pour des formes de l’expression présentes mais qui n’apportent pas une contribution essentielle, la place qu’elles occupent dans la réalisation de l’expression. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/importance-relative-forme-expression.html ]"@fr;
-  rdfs:label "Importance relative de la forme de l'expression"@fr;
-  rdfs:subClassOf skos:Concept;
-  owl:versionInfo "0.2.0"@fr;
-  sh:closed false;
-  sh:description "L’importance relative de la forme de l’expression représentative de l'oeuvre permet de préciser, pour des formes de l’expression présentes mais qui n’apportent pas une contribution essentielle, la place qu’elles occupent dans la réalisation de l’expression. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/importance-relative-forme-expression.html ]"@fr;
-  sh:ignoredProperties _:node1hekdhtcvx77 .
-
-_:node1hekdhtcvx77 rdf:first rdf:type;
-  rdf:rest rdf:nil .
-
-rdafr:ImportanceRelativeFormeExpression sh:nodeKind sh:IRI;
-  sh:targetClass rdafr:ImportanceRelativeFormeExpression .
-
-rdafr:PlanExtensionOeuvre a rdfs:Class, owl:Class, sh:NodeShape;
-  rdfs:comment "Le plan d’extension de l’œuvre permet d’indiquer l’intention du créateur quant aux modalités d’extension d’une œuvre. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/plan-extension-oeuvre.html ]"@fr;
-  rdfs:label "Plan extension de l'oeuvre"@fr;
-  rdfs:subClassOf skos:Concept;
-  owl:versionInfo "0.2.0"@fr;
-  sh:closed false;
-  sh:description "Le plan d’extension de l’œuvre permet d’indiquer l’intention du créateur quant aux modalités d’extension d’une œuvre. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/plan-extension-oeuvre.html ]"@fr;
-  sh:ignoredProperties _:node1hekdhtcvx78 .
-
-_:node1hekdhtcvx78 rdf:first rdf:type;
-  rdf:rest rdf:nil .
-
-rdafr:PlanExtensionOeuvre sh:nodeKind sh:IRI;
-  sh:targetClass rdafr:PlanExtensionOeuvre .
-
-rdafr:CategorieOeuvre a rdfs:Class, owl:Class, sh:NodeShape;
-  rdfs:comment "La catégorie d’œuvre est une large catégorisation de l’œuvre déterminée par la forme de l'expression représentative de celle-ci [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/categories-oeuvres.html ]"@fr;
-  rdfs:label "Catégorie d'oeuvre"@fr;
-  rdfs:subClassOf skos:Concept;
-  owl:versionInfo "0.2.0"@fr;
-  sh:closed false;
-  sh:description "La catégorie d’œuvre est une large catégorisation de l’œuvre déterminée par la forme de l'expression représentative de celle-ci [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/categories-oeuvres.html ]"@fr;
-  sh:ignoredProperties _:node1hekdhtcvx79 .
-
-_:node1hekdhtcvx79 rdf:first rdf:type;
-  rdf:rest rdf:nil .
-
-rdafr:CategorieOeuvre sh:nodeKind sh:IRI;
-  sh:targetClass rdafr:CategorieOeuvre .
 
 rdafrru:R105 owl:versionInfo "0.1.0"@fr;
   sh:name "a pour laps de temps"@fr;
@@ -1626,9 +1430,9 @@ rdafrru:R112 owl:versionInfo "0.2.0"@fr;
   sh:description "Relation générique permettant d'exprimer une relation dont la nature n'et pas précisée entre une personne et toute autre entité RDA-FR."@fr .
 
 rdafrru:R413 owl:versionInfo "0.1.0"@fr;
-  sh:description "Relation de non équivalence alertant sur les risques de confusion entre agents, notamment en cas d'homonymie."@fr;
+  sh:description "Relation de non équivalence alertant sur les risques de confusion existant avec d'autres entités RDA-FR homonymes, en particulier avec d'autres agents."@fr;
   sh:name "est a distinguer de [dans la relation]"@fr;
-  sh:node rdafr:C100002;
+  sh:node rdafr:C100013;
   sh:nodeKind sh:IRI;
   sh:path rdafr:P100010r .
 
@@ -1804,7 +1608,8 @@ rdafr:P501001 a owl:ObjectProperty;
   rdfs:comment "Une date associée à la personne est une date importante associée à l’histoire de la personne (par exemple, date de naissance, date de décès, et dans certains cas dates d’activité) [code RDA-FR, 9.3.1]"@fr;
   rdfs:domain rdafr:C100004;
   rdfs:label "a pour date associée à la personne"@fr;
-  rdfs:range rdafr:C100010 .
+  rdfs:range rdafr:C100010;
+  rdfs:subPropertyOf rdafr:P100002 .
 
 rdafrru:R506 rdfs:seeAlso "9.3.1.4"@fr;
   owl:versionInfo "0.1.0"@fr;
@@ -2696,9 +2501,9 @@ rdafr:P501080r a owl:Class, owl:ObjectProperty;
   owl:inverseOf rdafr:P501080ri .
 
 rdafrru:R568 owl:versionInfo "0.1.0"@fr;
-  sh:description "Relation de non équivalence entre la personne décrite et une autre personne, collectivité ou famille homonyme, alertant sur les risques de confusion entre les deux."@fr;
+  sh:description "Relation de non équivalence alertant sur les risques de confusion existant avec d'autres entités RDA-FR homonymes, en particulier avec d'autres agents."@fr;
   sh:name "est à distinguer de [dans la relation]"@fr;
-  sh:node rdafr:C100002;
+  sh:node rdafr:C100013;
   sh:nodeKind sh:IRI;
   sh:path rdafr:P100010r .
 
@@ -3016,7 +2821,8 @@ rdafr:P502313 a owl:ObjectProperty;
   rdfs:comment "Dates importantes associées à l’histoire d’une collectivité [code RDA-FR, 11.7]"@fr;
   rdfs:domain rdafr:C100005;
   rdfs:label "a pour dates associées à la collectivité"@fr;
-  rdfs:range rdafr:C100010 .
+  rdfs:range rdafr:C100010;
+  rdfs:subPropertyOf rdafr:P100002 .
 
 rdafrru:P722 rdfs:seeAlso "11.7.2"@fr;
   owl:versionInfo "0.1.0"@fr;
@@ -4251,10 +4057,10 @@ rdafr:P502317r a owl:Class, owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P100001r;
   owl:inverseOf rdafr:P502317ri .
 
-rdafrru:R805 owl:versionInfo "0.1.0"@fr;
-  sh:description "Relation de non équivalence alertant sur les risques de confusion existant avec d'autres agents homonymes."@fr;
+rdafrru:R805 owl:versionInfo "0.2.0"@fr;
+  sh:description "Relation de non équivalence alertant sur les risques de confusion existant avec d'autres entités RDA-FR homonymes, en particulier avec d'autres agents."@fr;
   sh:name "est à distinguer de [dans la relation]"@fr;
-  sh:node rdafr:C100002;
+  sh:node rdafr:C100013;
   sh:nodeKind sh:IRI;
   sh:path rdafr:P100010r .
 
@@ -4420,7 +4226,8 @@ rdafr:P505013 a owl:ObjectProperty;
   rdfs:comment "Les dates associées à la famille sont les dates extrêmes de la famille et les dates extrêmes d’activité de la famille. Considérer que les dates extrêmes d’une famille correspondent au périmètre chronologique de cette dernière dans les ressources qui lui sont associées. [code RDA-FR, 10.4]"@fr;
   rdfs:domain rdafr:C100008;
   rdfs:label "a pour dates associées à la famille"@fr;
-  rdfs:range rdafr:C100010 .
+  rdfs:range rdafr:C100010;
+  rdfs:subPropertyOf rdafr:P100002 .
 
 rdafrru:R914 rdfs:seeAlso "10.4.2"@fr;
   owl:versionInfo "0.1.0"@fr;
@@ -4831,10 +4638,10 @@ rdafr:P505005ri a owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P500053ri;
   owl:inverseOf rdafr:P505005r .
 
-rdafrru:R943 owl:versionInfo "0.1.0"@fr;
-  sh:description "Relation de non équivalence alertant sur les risques de confusion existant avec d'autres agents homonymes."@fr;
+rdafrru:R943 owl:versionInfo "0.2.0"@fr;
+  sh:description "Relation de non équivalence alertant sur les risques de confusion existant avec d'autres entités RDA-FR homonymes, en particulier avec d'autres agents."@fr;
   sh:name "est à distinguer de [dans la relation]"@fr;
-  sh:node rdafr:C100002;
+  sh:node rdafr:C100013;
   sh:nodeKind sh:IRI;
   sh:path rdafr:P100010r .
 
@@ -4952,10 +4759,10 @@ rdafr:P501077ri a owl:ObjectProperty;
   rdfs:subPropertyOf rdafr:P100001r;
   owl:inverseOf rdafr:P501077r .
 
-rdafrru:R1113 owl:versionInfo "0.1.0"@fr;
-  sh:description "Relation de non équivalence alertant sur les risques de confusion existant avec d'autres agents homonymes."@fr;
+rdafrru:R1113 owl:versionInfo "0.2.0"@fr;
+  sh:description "Relation de non équivalence alertant sur les risques de confusion existant avec d'autres entités RDA-FR homonymes, en particulier avec d'autres agents."@fr;
   sh:name "est à distinguer de [dans la relation]"@fr;
-  sh:node rdafr:C100002;
+  sh:node rdafr:C100013;
   sh:nodeKind sh:IRI;
   sh:path rdafr:P100010r .
 
@@ -5223,7 +5030,7 @@ rdafrru:P1224 owl:versionInfo "0.1.0"@fr;
   sh:path rdafr:P600025 .
 
 rdafr:C100015 sh:property rdafrru:P1224, rdafrru:P1225, rdafrru:P1226, rdafrru:P1227,
-    rdafrru:P1228, rdafrru:P1229, rdafrru:P1230, rdafrru:P1231, rdafrru:P1233, rdafrru:R1304 .
+    rdafrru:P1228, rdafrru:P1229, rdafrru:P1230, rdafrru:P1231, rdafrru:P1232 .
 
 rdafr:P600025 a owl:DatatypeProperty;
   rdfs:comment "Le point d’accès autorisé représentant une identité publique, construit en utilisant comme élément de base le nom privilégié de l’identité publique du groupe informel."@fr;
@@ -5253,6 +5060,7 @@ rdafrru:P1226 sh:description "Un point d’accès représentant une identité pu
 rdafr:P600026 a owl:DatatypeProperty;
   rdfs:comment "Un point d’accès représentant une identité publique, construit à partir d'un nom privilégié supplémentaire du groupe informel"@fr;
   rdfs:label "a pour point d'accès autorisé supplémentaire de l'identité publique du groupe informel"@fr;
+  rdfs:range rdafr:C100012;
   rdfs:subPropertyOf rdafr:P600024 .
 
 rdafrru:P1227 rdfs:seeAlso "9.4.4"@fr;
@@ -5267,7 +5075,7 @@ rdafr:P600009 a owl:ObjectProperty;
   rdfs:comment "Un point d’accès représentant une identité publique de la personne autre que le point d’accès autorisé ou le point d'accès autorisé supplémentaire. [code RDA-FR, 9.4.4]"@fr;
   rdfs:domain rdafr:C100015;
   rdfs:label "a pour variante de point d'accès de l'identité publique de personne"@fr;
-  rdfs:range "#REF!"@fr;
+  rdfs:range rdafr:C100012;
   rdfs:subPropertyOf rdafr:P600019 .
 
 rdafrru:P1228 sh:description "Un point d’accès représentant une identité publique du groupe informel autre que le point d’accès autorisé ou le point d'accès autorisé supplémentaire."@fr;
@@ -5312,7 +5120,23 @@ rdafr:P600011 a owl:DatatypeProperty;
   rdfs:label "a pour contexte d'utilisation de l'identité publique"@fr;
   rdfs:range rdfs:Literal .
 
-rdafrru:P1231 rdfs:seeAlso "9.2.5"@fr;
+rdafrru:P1231 rdfs:seeAlso "9.2.4"@fr;
+  owl:versionInfo "0.1.0"@fr;
+  sh:description "Une date ou une fourchette de dates associée à l’utilisation d’une identité publique. [code RDA-FR, 9.2.4]"@fr;
+  sh:maxCount 1;
+  sh:name "a pour date d'utilisation de l'identité publique"@fr;
+  sh:node rdafr:C100010;
+  sh:nodeKind sh:IRI;
+  sh:path rdafr:P600012 .
+
+rdafr:P600012 a owl:ObjectProperty;
+  rdfs:comment "Une date ou une fourchette de dates associée à l’utilisation d’une identité publique. [code RDA-FR, 9.2.4]"@fr;
+  rdfs:domain rdafr:C100015;
+  rdfs:label "a pour date d'utilisation de l'identité publique"@fr;
+  rdfs:range rdafr:C100010;
+  rdfs:subPropertyOf rdafr:P100002 .
+
+rdafrru:P1232 rdfs:seeAlso "9.2.5"@fr;
   owl:versionInfo "0.1.0"@fr;
   sh:description """Un identifiant associé à l’identité publique est une chaîne de caractères ou de symboles qui lui est associée (par exemple un identifiant ISNI - International standard name identifier).
 L’identifiant sert à distinguer une identité publique d’une autre. Il doit être unique et univoque pour un référentiel donné.
@@ -5330,12 +5154,14 @@ Dans le cas des personnes ayant plus d’une identité, chaque identité publiqu
   rdfs:range rdafr:C100012;
   rdfs:subPropertyOf rdafr:P100007 .
 
-rdafrru:P1233 owl:versionInfo "0.1.0"@fr;
+rdafrru:P1234 owl:versionInfo "0.1.0"@fr;
   sh:description "Relation de non équivalence entre deux identités publiques homonymes identifiant deux personnes distinctes, alertant sur les risques de confusion ."@fr;
   sh:name "est a distinguer de [dans la relation]"@fr;
   sh:node rdafr:C100015;
   sh:nodeKind sh:IRI;
   sh:path rdafr:P100010r .
+
+rdafr:C100015 sh:property rdafrru:P1234, rdafrru:R1304, rdafrru:R1305, rdafrru:R1306 .
 
 rdafrru:R1304 owl:versionInfo "0.1.0"@fr;
   sh:maxCount 1;
@@ -5351,8 +5177,6 @@ rdafrru:R1305 owl:versionInfo "0.1.0"@fr;
   sh:name "a pour source [texte]"@fr;
   sh:nodeKind sh:Literal;
   sh:path rdafr:P100003t .
-
-rdafr:C100015 sh:property rdafrru:R1305, rdafrru:R1306 .
 
 rdafrru:R1306 owl:versionInfo "0.1.0"@fr;
   sh:maxCount 1;
@@ -5441,7 +5265,7 @@ rdafrru:R1312 owl:versionInfo "0.1.0"@fr;
   sh:description "Date ou une fourchette de dates associée à l’utilisation d'un nomen."@fr;
   sh:maxCount 1;
   sh:minCount 1;
-  sh:name "a pour dates d'utilisation"@fr;
+  sh:name "a pour dates d'utilisation du nomen"@fr;
   sh:node rdafr:C100010;
   sh:nodeKind sh:IRI;
   sh:path rdafr:P800009 .
@@ -5449,18 +5273,20 @@ rdafrru:R1312 owl:versionInfo "0.1.0"@fr;
 rdafr:P800009 a owl:ObjectProperty;
   rdfs:comment "Date ou une fourchette de dates associée à l’utilisation d'un nomen."@fr;
   rdfs:domain rdafr:C100012;
-  rdfs:label "a pour dates d'utilisation"@fr;
+  rdfs:label "a pour dates d'utilisation du nomen"@fr;
   rdfs:range rdafr:C100010;
   rdfs:subPropertyOf rdafr:P100002 .
 
 rdafrru:R1313 rdfs:seeAlso "11.7.5"@fr;
-  owl:versionInfo "0.1.0"@fr;
+  owl:versionInfo "c"@fr;
   sh:description "Date à laquelle la nom de la collectivité a changé sans pour autant que la collectivité change fondamentalement ses fonctions, son périmètre d’action, ni son rattachement hiérarchique. Un simple changement de nom ne conduit pas à la création d'une nouvelle collectivité. [code RDA-FR, 11.7.5]"@fr;
+  sh:maxCount 1;
   sh:name "a pour date de changement du nom de la collectivité"@fr;
   sh:node rdafr:C100010;
+  sh:nodeKind sh:IRI;
   sh:path rdafr:P800011 .
 
-rdafr:P800011 a owl:DatatypeProperty;
+rdafr:P800011 a owl:ObjectProperty;
   rdfs:comment "Date à laquelle la nom de la collectivité a changé sans pour autant que la collectivité change fondamentalement ses fonctions, son périmètre d’action, ni son rattachement hiérarchique. Un simple changement de nom ne conduit pas à la création d'une nouvelle collectivité. [code RDA-FR, 11.7.5]"@fr;
   rdfs:domain rdafr:C100012;
   rdfs:label "a pour date de changement du nom de la collectivité"@fr;
@@ -5470,7 +5296,7 @@ rdafr:P800011 a owl:DatatypeProperty;
 rdafrru:R1314 owl:versionInfo "0.1.0"@fr;
   sh:description "Date d’une ressource mentionnant l'instance d'une entité sous une forme particulière de son nom. Elle est associée à la forme du nom trouvée dans cette source."@fr;
   sh:maxCount 1;
-  sh:name "a pour date d'attestation"@fr;
+  sh:name "a pour date d'attestation du nomen"@fr;
   sh:node rdafr:C100010;
   sh:nodeKind sh:IRI;
   sh:path rdafr:P800010 .
@@ -5478,7 +5304,7 @@ rdafrru:R1314 owl:versionInfo "0.1.0"@fr;
 rdafr:P800010 a owl:ObjectProperty;
   rdfs:comment "Date d’une ressource mentionnant l'instance d'une entité sous une forme particulière de son nom. Elle est associée à la forme du nom trouvée dans cette source."@fr;
   rdfs:domain rdafr:C100012;
-  rdfs:label "a pour date d'attestation"@fr;
+  rdfs:label "a pour date d'attestation du nomen"@fr;
   rdfs:range rdafr:C100010;
   rdfs:subPropertyOf rdafr:P100002 .
 
@@ -6233,589 +6059,6 @@ rdafr:P502317ri a owl:ObjectProperty;
   rdfs:range rdafr:P502317r;
   rdfs:subPropertyOf rdafr:P100001r;
   owl:inverseOf rdafr:P502317r .
-
-rdafrru:R2004 rdfs:seeAlso "6.2"@fr;
-  owl:versionInfo "0.2.0"@fr;
-  sh:description "La catégorie d’œuvre est une large catégorisation de l’œuvre déterminée par la forme de l'expression représentative de celle-ci [code RDA-FR, 6.2]"@fr;
-  sh:maxCount 1;
-  sh:minCount 1;
-  sh:name "a pour catégorie de l'oeuvre"@fr;
-  sh:node rdafr:CategorieOeuvre;
-  sh:nodeKind sh:IRI;
-  sh:path rdafr:P610001 .
-
-rdafr:C100001 sh:property rdafrru:R2004, rdafrru:R2005, rdafrru:R2006, rdafrru:R2007,
-    rdafrru:R2008, rdafrru:R2009, rdafrru:R2010, rdafrru:R2011 .
-
-rdafr:P610001 a owl:ObjectProperty;
-  rdfs:comment "La catégorie d’œuvre est une large catégorisation de l’œuvre déterminée par la forme de l'expression représentative de celle-ci [code RDA-FR, 6.2]"@fr;
-  rdfs:domain rdafr:C100001;
-  rdfs:label "a pour catégorie de l'oeuvre"@fr;
-  rdfs:range rdafr:CategorieOeuvre .
-
-rdafrru:R2005 rdfs:seeAlso "6.3"@fr;
-  owl:versionInfo "0.2.0"@fr;
-  sh:description "L’élément Plan d’extension de l’œuvre permet d’indiquer l’intention du créateur quant aux modalités d’extension d’une œuvre. [code RDA-FR, 6.3]"@fr;
-  sh:maxCount 1;
-  sh:name "a pour plan d'extension de l'oeuvre"@fr;
-  sh:node rdafr:PlanExtensionOeuvre;
-  sh:nodeKind sh:IRI;
-  sh:path rdafr:P610002 .
-
-rdafr:P610002 a owl:ObjectProperty;
-  rdfs:comment "L’élément Plan d’extension de l’œuvre permet d’indiquer l’intention du créateur quant aux modalités d’extension d’une œuvre. [code RDA-FR, 6.3]"@fr;
-  rdfs:domain rdafr:C100001;
-  rdfs:label "a pour plan d'extension de l'oeuvre"@fr;
-  rdfs:range rdafr:PlanExtensionOeuvre .
-
-rdafrru:R2006 rdfs:seeAlso "6.4"@fr;
-  owl:versionInfo "0.2.0"@fr;
-  sh:description "Le titre de l’œuvre peut être un titre par lequel une œuvre est couramment désignée, ou bien un titre par lequel elle est identifiée dans les sources de référence, ou bien un titre figurant sur les manifestations qui la matérialisent. [code RDA-FR, 6.4]"@fr;
-  sh:minCount 1;
-  sh:name "a pour titre de l'oeuvre"@fr;
-  sh:node rdafr:C100012;
-  sh:nodeKind sh:IRI;
-  sh:path rdafr:P610003 .
-
-rdafr:P610003 a owl:ObjectProperty;
-  rdfs:comment "Le titre de l’œuvre peut être un titre par lequel une œuvre est couramment désignée, ou bien un titre par lequel elle est identifiée dans les sources de référence, ou bien un titre figurant sur les manifestations qui la matérialisent. [code RDA-FR, 6.4]"@fr;
-  rdfs:domain rdafr:C100001;
-  rdfs:label "a pour titre de l'oeuvre"@fr;
-  rdfs:range rdafr:C100012;
-  rdfs:subPropertyOf rdafr:P100007 .
-
-rdafrru:R2007 rdfs:seeAlso "6.4.2"@fr;
-  owl:versionInfo "0.2.0"@fr;
-  sh:description "Le titre privilégié de l’œuvre est le titre ou la forme de titre choisie pour identifier l’œuvre. [code RDA-FR, 6.4.2]"@fr;
-  sh:maxCount 1;
-  sh:minCount 1;
-  sh:name "a pour titre privilégié de l'oeuvre"@fr;
-  sh:node rdafr:C100012;
-  sh:nodeKind sh:IRI;
-  sh:path rdafr:P610004 .
-
-rdafr:P610004 a owl:ObjectProperty;
-  rdfs:comment "Le titre privilégié de l’œuvre est le titre ou la forme de titre choisie pour identifier l’œuvre. [code RDA-FR, 6.4.2]"@fr;
-  rdfs:domain rdafr:C100001;
-  rdfs:label "a pour titre privilégié de l'oeuvre"@fr;
-  rdfs:range rdafr:C100012;
-  rdfs:subPropertyOf rdafr:P610003 .
-
-rdafrru:R2008 rdfs:seeAlso "6.4.3"@fr;
-  owl:versionInfo "0.2.0"@fr;
-  sh:description "Le titre privilégié supplémentaire est une autre forme du titre privilégié dans une langue ou une écriture différente et qui peut se substituer à celuici selon le contexte ou les utilisateurs visés. [code RDA-FR, 6.4.3]"@fr;
-  sh:name "a pour titre privilégié supplémentaire de l'oeuvre"@fr;
-  sh:node rdafr:C100012;
-  sh:nodeKind sh:IRI;
-  sh:path rdafr:P610005 .
-
-rdafr:P610005 a owl:ObjectProperty;
-  rdfs:comment "Le titre privilégié supplémentaire est une autre forme du titre privilégié dans une langue ou une écriture différente et qui peut se substituer à celuici selon le contexte ou les utilisateurs visés. [code RDA-FR, 6.4.3]"@fr;
-  rdfs:domain rdafr:C100001;
-  rdfs:label "a pour titre privilégié supplémentaire de l'oeuvre"@fr;
-  rdfs:range rdafr:C100012;
-  rdfs:subPropertyOf rdafr:P610003 .
-
-rdafrru:R2009 rdfs:seeAlso "6.4.4"@fr;
-  owl:versionInfo "0.2.0"@fr;
-  sh:description """La variante de titre de l'oeuvre est un titre ou forme de titre sous laquelle une œuvre est connue et qui diffère du titre ou de la forme de titre
-choisie comme titre privilégié de cette œuvre [code RDA-FR, 6.4.4]"""@fr;
-  sh:name "a pour variante de titre de l'oeuvre"@fr;
-  sh:node rdafr:C100012;
-  sh:nodeKind sh:IRI;
-  sh:path rdafr:P610006 .
-
-rdafr:P610006 a owl:ObjectProperty;
-  rdfs:comment """La variante de titre de l'oeuvre est un titre ou forme de titre sous laquelle une œuvre est connue et qui diffère du titre ou de la forme de titre
-choisie comme titre privilégié de cette œuvre [code RDA-FR, 6.4.4]"""@fr;
-  rdfs:domain rdafr:C100001;
-  rdfs:label "a pour variante de titre de l'oeuvre"@fr;
-  rdfs:range rdafr:C100012;
-  rdfs:subPropertyOf rdafr:P610003 .
-
-rdafrru:R2010 rdfs:seeAlso "6.5"@fr;
-  owl:versionInfo "0.2.0"@fr;
-  sh:description "Un identifiant de l’œuvre est une chaîne de caractères numériques et/ou alphabétiques associée de manière univoque à une œuvre et qui permet de la distinguer d’autres œuvres de même nature. [code RDA-FR, 6.5]"@fr;
-  sh:maxCount 1;
-  sh:minCount 1;
-  sh:name "a pour identifiant de l'oeuvre"@fr;
-  sh:node rdafr:C100012;
-  sh:nodeKind sh:IRI;
-  sh:path rdafr:P610007 .
-
-rdafr:P610007 a owl:ObjectProperty;
-  rdfs:comment "Un identifiant de l’œuvre est une chaîne de caractères numériques et/ou alphabétiques associée de manière univoque à une œuvre et qui permet de la distinguer d’autres œuvres de même nature. [code RDA-FR, 6.5]"@fr;
-  rdfs:domain rdafr:C100001;
-  rdfs:label "a pour identifiant de l'oeuvre"@fr;
-  rdfs:range rdafr:C100012;
-  rdfs:subPropertyOf rdafr:P100007 .
-
-rdafrru:R2011 rdfs:seeAlso "6.6"@fr;
-  owl:versionInfo "0.2.0"@fr;
-  sh:class rdfs:Literal;
-  sh:datatype rdfs:Literal;
-  sh:description "La forme de l’œuvre est une catégorie ou un genre auquel l’œuvre appartient. [code RDA-FR, 6.6]"@fr;
-  sh:name "a pour forme de l'oeuvre"@fr;
-  sh:nodeKind sh:Literal;
-  sh:path rdafr:P610008 .
-
-rdafr:P610008 a owl:DatatypeProperty;
-  rdfs:comment "La forme de l’œuvre est une catégorie ou un genre auquel l’œuvre appartient. [code RDA-FR, 6.6]"@fr;
-  rdfs:domain rdafr:C100001;
-  rdfs:label "a pour forme de l'oeuvre"@fr;
-  rdfs:range rdfs:Literal .
-
-rdafrru:R2012 rdfs:seeAlso "6.7"@fr;
-  owl:versionInfo "0.2.0"@fr;
-  sh:description "[code RDA-FR, 6.7]"@fr;
-  sh:name "a pour mention de la forme de l'expression représentative de l'oeuvre"@fr;
-  sh:node skos:Concept;
-  sh:nodeKind sh:IRI;
-  sh:path rdafr:P610009 .
-
-rdafr:C100001 sh:property rdafrru:R2012, rdafrru:R2013, rdafrru:R2014, rdafrru:R2015,
-    rdafrru:R2016, rdafrru:R2017, rdafrru:R2018, rdafrru:R2019, rdafrru:R2020 .
-
-rdafr:P610009 a owl:ObjectProperty;
-  rdfs:comment "[code RDA-FR, 6.7]"@fr;
-  rdfs:domain rdafr:C100001;
-  rdfs:label "a pour mention de la forme de l'expression représentative de l'oeuvre"@fr;
-  rdfs:range skos:Concept .
-
-rdafrru:R2013 rdfs:seeAlso "6.7.2"@fr;
-  owl:versionInfo "0.2.0"@fr;
-  sh:description "La forme de l’expression représentative de l’œuvre est le moyen par lequel l’œuvre a été réalisée à l’origine [code RDA-FR, 6.7.2]"@fr;
-  sh:name "a pour forme de l'expression représentative de l'oeuvre"@fr;
-  sh:node rdafr:FormeExpression-TypeContenu;
-  sh:nodeKind sh:IRI;
-  sh:path rdafr:P610010 .
-
-rdafr:P610010 a owl:ObjectProperty;
-  rdfs:comment "La forme de l’expression représentative de l’œuvre est le moyen par lequel l’œuvre a été réalisée à l’origine [code RDA-FR, 6.7.2]"@fr;
-  rdfs:domain rdafr:C100001;
-  rdfs:label "a pour forme de l'expression représentative de l'oeuvre"@fr;
-  rdfs:range rdafr:FormeExpression-TypeContenu;
-  rdfs:subPropertyOf rdafr:P610009 .
-
-rdafrru:R2014 rdfs:seeAlso "6.7.3"@fr;
-  owl:versionInfo "0.2.0"@fr;
-  sh:description "L’importance relative de la forme de l’expression représentative de l'oeuvre permet de préciser, pour des formes de l’expression présentes mais qui n’apportent pas une contribution essentielle, la place qu’elles occupent dans la réalisation de l’expression. [code RDA-FR, 6.7.3]"@fr;
-  sh:name "a pour importance relative de l'expression représentative de l'oeuvre"@fr;
-  sh:node rdafr:ImportanceRelativeFormeExpression;
-  sh:nodeKind sh:IRI;
-  sh:path rdafr:P610011 .
-
-rdafr:P610011 a owl:ObjectProperty;
-  rdfs:comment "L’importance relative de la forme de l’expression représentative de l'oeuvre permet de préciser, pour des formes de l’expression présentes mais qui n’apportent pas une contribution essentielle, la place qu’elles occupent dans la réalisation de l’expression. [code RDA-FR, 6.7.3]"@fr;
-  rdfs:domain rdafr:C100001;
-  rdfs:label "a pour importance relative de l'expression représentative de l'oeuvre"@fr;
-  rdfs:range rdafr:ImportanceRelativeFormeExpression;
-  rdfs:subPropertyOf rdafr:P610009 .
-
-rdafrru:R2015 rdfs:seeAlso "6.7.4"@fr;
-  owl:versionInfo "0.2.0"@fr;
-  sh:description "La couverture de l’agrégat permet de préciser, dans le cas d’une expression d’agrégation, si la ou les formes de l’expression s’appliquent à toutes les expressions réunies dans l’agrégat ou seulement à une partie d’entre elles. [code RDA-FR, 6.7.4]"@fr;
-  sh:name "a pour couverture de l'agrégat"@fr;
-  sh:node rdafr:CouvertureAgregat;
-  sh:nodeKind sh:IRI;
-  sh:path rdafr:P610012 .
-
-rdafr:P610012 a owl:ObjectProperty;
-  rdfs:comment "La couverture de l’agrégat permet de préciser, dans le cas d’une expression d’agrégation, si la ou les formes de l’expression s’appliquent à toutes les expressions réunies dans l’agrégat ou seulement à une partie d’entre elles. [code RDA-FR, 6.7.4]"@fr;
-  rdfs:domain rdafr:C100001;
-  rdfs:label "a pour couverture de l'agrégat"@fr;
-  rdfs:range rdafr:CouvertureAgregat;
-  rdfs:subPropertyOf rdafr:P610009 .
-
-rdafrru:R2016 rdfs:seeAlso "6.8"@fr;
-  owl:versionInfo "0.2.0"@fr;
-  sh:description "[code RDA-FR, 6.8]"@fr;
-  sh:name "a pour mention de la langue de l'expression représentative de l'oeuvre"@fr;
-  sh:node skos:Concept;
-  sh:nodeKind sh:IRI;
-  sh:path rdafr:P610013 .
-
-rdafr:P610013 a owl:ObjectProperty;
-  rdfs:comment "[code RDA-FR, 6.8]"@fr;
-  rdfs:domain rdafr:C100001;
-  rdfs:label "a pour mention de la langue de l'expression représentative de l'oeuvre"@fr;
-  rdfs:range "#REF!"@fr .
-
-rdafrru:R2017 rdfs:seeAlso "6.8.2"@fr;
-  owl:versionInfo "0.2.0"@fr;
-  sh:description "La langue de l’expression représentative de l’œuvre est la langue dans laquelle l’œuvre a été réalisée par son créateur. [code RDA-FR, 6.8.2]"@fr;
-  sh:name "a pour langue de l'expression représentative de l'oeuvre"@fr;
-  sh:node rdafr:Langue;
-  sh:nodeKind sh:IRI;
-  sh:path rdafr:P610014 .
-
-rdafr:P610014 a owl:ObjectProperty;
-  rdfs:comment "La langue de l’expression représentative de l’œuvre est la langue dans laquelle l’œuvre a été réalisée par son créateur. [code RDA-FR, 6.8.2]"@fr;
-  rdfs:domain rdafr:C100001;
-  rdfs:label "a pour langue de l'expression représentative de l'oeuvre"@fr;
-  rdfs:range skos:Concept;
-  rdfs:subPropertyOf rdafr:P610013 .
-
-rdafrru:R2018 rdfs:seeAlso "6.8.3"@fr;
-  owl:versionInfo "0.2.0"@fr;
-  sh:description """L’aspect de traduction permet de préciser si l’expression est une
-traduction d’une autre expression et, dans ce cas, s’il s’agit d’une
-traduction directe ou d’une traduction effectuée à partir d’une traduction
-intermédiaire. [code RDA-FR, 6.8.3]"""@fr;
-  sh:name "a pour aspect de traduction de l'expression représentative de l'oeuvre"@fr;
-  sh:node rdafr:AspectTraduction;
-  sh:nodeKind sh:IRI;
-  sh:path rdafr:P610015 .
-
-rdafr:P610015 a owl:ObjectProperty;
-  rdfs:comment """L’aspect de traduction permet de préciser si l’expression est une
-traduction d’une autre expression et, dans ce cas, s’il s’agit d’une
-traduction directe ou d’une traduction effectuée à partir d’une traduction
-intermédiaire. [code RDA-FR, 6.8.3]"""@fr;
-  rdfs:domain rdafr:C100001;
-  rdfs:label "a pour aspect de traduction de l'expression représentative de l'oeuvre"@fr;
-  rdfs:range rdafr:AspectTraduction;
-  rdfs:subPropertyOf rdafr:P610013 .
-
-rdafrru:R2019 rdfs:seeAlso "6.8.4"@fr;
-  owl:versionInfo "0.2.0"@fr;
-  sh:description "La couverture de l’agrégat permet de préciser, dans le cas d’une expression d’agrégation, si la ou les formes de l’expression s’appliquent à toutes les expressions réunies dans l’agrégat ou seulement à une partie d’entre elles. [code RDA-FR, 6.8.4]"@fr;
-  sh:name "a pour couverture de l'agrégat"@fr;
-  sh:node rdafr:CouvertureAgregat;
-  sh:nodeKind sh:IRI;
-  sh:path rdafr:P610016 .
-
-rdafr:P610016 a owl:ObjectProperty;
-  rdfs:comment "La couverture de l’agrégat permet de préciser, dans le cas d’une expression d’agrégation, si la ou les formes de l’expression s’appliquent à toutes les expressions réunies dans l’agrégat ou seulement à une partie d’entre elles. [code RDA-FR, 6.8.4]"@fr;
-  rdfs:domain rdafr:C100001;
-  rdfs:label "a pour couverture de l'agrégat"@fr;
-  rdfs:range rdafr:CouvertureAgregat;
-  rdfs:subPropertyOf rdafr:P610013 .
-
-rdafrru:R2020 rdfs:seeAlso "6.8.5"@fr;
-  owl:versionInfo "0.2.0"@fr;
-  sh:description "Le périmètre d’application de la langue permet de qualifier la langue de certaines composantes de l’expression représentative de l'oeuvre décrite. [code RDA-FR, 6.8.5]"@fr;
-  sh:name "a pour périmètre d'application de la langue de l'expression représentative de l'oeuvre"@fr;
-  sh:node rdafr:PerimetreApplicationLangue;
-  sh:nodeKind sh:IRI;
-  sh:path rdafr:P610017 .
-
-rdafr:P610017 a owl:ObjectProperty;
-  rdfs:comment "Le périmètre d’application de la langue permet de qualifier la langue de certaines composantes de l’expression représentative de l'oeuvre décrite. [code RDA-FR, 6.8.5]"@fr;
-  rdfs:domain rdafr:C100001;
-  rdfs:label "a pour périmètre d'application de la langue de l'expression représentative de l'oeuvre"@fr;
-  rdfs:range rdafr:PerimetreApplicationLangue;
-  rdfs:subPropertyOf rdafr:P610013 .
-
-rdafrru:R2021 rdfs:seeAlso "6.8.6"@fr;
-  owl:versionInfo "0.2.0"@fr;
-  sh:class rdfs:Literal;
-  sh:datatype rdfs:Literal;
-  sh:description "L’élément Particularités de la langue permet d’apporter des informations complémentaires sur la ou les langue(s) donnée(s) dans l’élément Langue de l’expression représentative de l'oeuvre [code RDA-FR, 6.8.6]"@fr;
-  sh:name "a pour particularité de la langue de l'expression représentative de l'oeuvre"@fr;
-  sh:nodeKind sh:Literal;
-  sh:path rdafr:P610018 .
-
-rdafr:C100001 sh:property rdafrru:R2021, rdafrru:R2022, rdafrru:R2023, rdafrru:R2024,
-    rdafrru:R2025, rdafrru:R2027, rdafrru:R2028, rdafrru:R2029 .
-
-rdafr:P610018 a owl:DatatypeProperty;
-  rdfs:comment "L’élément Particularités de la langue permet d’apporter des informations complémentaires sur la ou les langue(s) donnée(s) dans l’élément Langue de l’expression représentative de l'oeuvre [code RDA-FR, 6.8.6]"@fr;
-  rdfs:domain rdafr:C100001;
-  rdfs:label "a pour particularité de la langue de l'expression représentative de l'oeuvre"@fr;
-  rdfs:range rdfs:Literal;
-  rdfs:subPropertyOf rdafr:P610013 .
-
-rdafrru:R2022 rdfs:seeAlso "6.9"@fr;
-  owl:versionInfo "0.2.0"@fr;
-  sh:description "[code RDA-FR, 6.9]"@fr;
-  sh:name "a pour mention de la date de l'oeuvre"@fr;
-  sh:node skos:Concept;
-  sh:nodeKind sh:IRI;
-  sh:path rdafr:P610019 .
-
-rdafr:P610019 a owl:ObjectProperty;
-  rdfs:comment "[code RDA-FR, 6.9]"@fr;
-  rdfs:domain rdafr:C100001;
-  rdfs:label "a pour mention de la date de l'oeuvre"@fr;
-  rdfs:range skos:Concept .
-
-rdafrru:R2023 rdfs:seeAlso "6.9.2"@fr;
-  owl:versionInfo "0.2.0"@fr;
-  sh:description "La date de l'oeuvre correspond à des évènements qui sont jugés significatifs dans la vie d’une œuvre. [code RDA-FR, 6.9.2]"@fr;
-  sh:name "a pour date de l'oeuvre"@fr;
-  sh:node rdafr:C100010;
-  sh:nodeKind sh:IRI;
-  sh:path rdafr:P610020 .
-
-rdafr:P610020 a owl:ObjectProperty;
-  rdfs:comment "La date de l'oeuvre correspond à des évènements qui sont jugés significatifs dans la vie d’une œuvre. [code RDA-FR, 6.9.2]"@fr;
-  rdfs:domain rdafr:C100001;
-  rdfs:label "a pour date de l'oeuvre"@fr;
-  rdfs:range rdafr:C100010;
-  rdfs:subPropertyOf rdafr:P610019 .
-
-rdafrru:R2024 rdfs:seeAlso "6.9.3"@fr;
-  owl:versionInfo "0.2.0"@fr;
-  sh:class rdfs:Literal;
-  sh:datatype rdfs:Literal;
-  sh:description "La nature de la date de l’œuvre permet de préciser, pour chaque date associée à une œuvre, la nature de cette date [code RDA-FR, 6.9.3]"@fr;
-  sh:name "a pour nature de la date de l'oeuvre"@fr;
-  sh:nodeKind sh:Literal;
-  sh:path rdafr:P610021 .
-
-rdafr:P610021 a owl:DatatypeProperty;
-  rdfs:comment "La nature de la date de l’œuvre permet de préciser, pour chaque date associée à une œuvre, la nature de cette date [code RDA-FR, 6.9.3]"@fr;
-  rdfs:domain rdafr:C100001;
-  rdfs:label "a pour nature de la date de l'oeuvre"@fr;
-  rdfs:range rdfs:Literal;
-  rdfs:subPropertyOf rdafr:P610019 .
-
-rdafrru:R2025 rdfs:seeAlso "6.9.4"@fr;
-  owl:versionInfo "0.2.0"@fr;
-  sh:description "La date privilégiée de l’œuvre est une date choisie par convention parmi les différentes dates associées à l’œuvre. [code RDA-FR, 6.9.4]"@fr;
-  sh:maxCount 1;
-  sh:name "a pour date privilégiée de l'oeuvre"@fr;
-  sh:node rdafr:C100010;
-  sh:nodeKind sh:IRI;
-  sh:path rdafr:P610022 .
-
-rdafr:P610022 a owl:ObjectProperty;
-  rdfs:comment "La date privilégiée de l’œuvre est une date choisie par convention parmi les différentes dates associées à l’œuvre. [code RDA-FR, 6.9.4]"@fr;
-  rdfs:domain rdafr:C100001;
-  rdfs:label "a pour date privilégiée de l'oeuvre"@fr;
-  rdfs:range rdafr:C100010;
-  rdfs:subPropertyOf rdafr:P610019 .
-
-rdafrru:R2027 rdfs:seeAlso "6.10.2"@fr;
-  owl:versionInfo "0.2.0"@fr;
-  sh:description "Le lieu associé à l'oeuvre correspond à des évènements qui sont jugés significatifs dans la vie d’une œuvre. [code RDA-FR, 6.10.2]"@fr;
-  sh:name "a pour lieu associé à l'oeuvre"@fr;
-  sh:node rdafr:C100009;
-  sh:nodeKind sh:IRI;
-  sh:path rdafr:P610024 .
-
-rdafr:P610024 a owl:ObjectProperty;
-  rdfs:comment "Le lieu associé à l'oeuvre correspond à des évènements qui sont jugés significatifs dans la vie d’une œuvre. [code RDA-FR, 6.10.2]"@fr;
-  rdfs:domain rdafr:C100001;
-  rdfs:label "a pour lieu associé à l'oeuvre"@fr;
-  rdfs:range rdafr:C100009 .
-
-rdafrru:R2028 rdfs:seeAlso "6.10.3"@fr;
-  owl:versionInfo "0.2.0"@fr;
-  sh:class rdfs:Literal;
-  sh:datatype rdfs:Literal;
-  sh:description "La nature du lieu associé à l’œuvre permet de préciser, pour chaque lieu associé à une œuvre, la nature de ce lieu. [code RDA-FR, 6.10.3]"@fr;
-  sh:name "a pour nature du lieu associé à l'oeuvre"@fr;
-  sh:nodeKind sh:Literal;
-  sh:path rdafr:P610025 .
-
-rdafr:P610025 a owl:DatatypeProperty;
-  rdfs:comment "La nature du lieu associé à l’œuvre permet de préciser, pour chaque lieu associé à une œuvre, la nature de ce lieu. [code RDA-FR, 6.10.3]"@fr;
-  rdfs:domain rdafr:C100001;
-  rdfs:label "a pour nature du lieu associé à l'oeuvre"@fr;
-  rdfs:range rdfs:Literal .
-
-rdafrru:R2029 rdfs:seeAlso "6.11"@fr;
-  owl:versionInfo "0.2.0"@fr;
-  sh:class rdfs:Literal;
-  sh:datatype rdfs:Literal;
-  sh:description "Une autre caractéristique distinctive de l’œuvre est une caractéristique autre que la forme de l’œuvre, la date de l’œuvre ou le lieu associé à l’œuvre, servant à distinguer une œuvre d’une autre œuvre portant le même titre ou à la différencier du nom d’une personne, famille ou collectivité. [code RDA-FR, 6.11]"@fr;
-  sh:name "a pour autre caractéristique distinctive de l'oeuvre"@fr;
-  sh:nodeKind sh:Literal;
-  sh:path rdafr:P610026 .
-
-rdafr:P610026 a owl:DatatypeProperty;
-  rdfs:comment "Une autre caractéristique distinctive de l’œuvre est une caractéristique autre que la forme de l’œuvre, la date de l’œuvre ou le lieu associé à l’œuvre, servant à distinguer une œuvre d’une autre œuvre portant le même titre ou à la différencier du nom d’une personne, famille ou collectivité. [code RDA-FR, 6.11]"@fr;
-  rdfs:domain rdafr:C100001;
-  rdfs:label "a pour autre caractéristique distinctive de l'oeuvre"@fr;
-  rdfs:range rdfs:Literal .
-
-rdafrru:R2030 rdfs:seeAlso "6.12"@fr;
-  owl:versionInfo "0.2.0"@fr;
-  sh:description "La caractéristique de couleur de l’expression représentative de l’œuvre est la présence de couleur, teinte, etc. dès la création de l’œuvre. [code RDA-FR, 6.12]"@fr;
-  sh:maxCount 1;
-  sh:name "a pour caractéristique de couleur de l'expression représentative de l'oeuvre"@fr;
-  sh:node rdafr:CaracteristiqueCouleur;
-  sh:nodeKind sh:IRI;
-  sh:path rdafr:P610027 .
-
-rdafr:C100001 sh:property rdafrru:R2030, rdafrru:R2031, rdafrru:R2032, rdafrru:R2033,
-    rdafrru:R2034, rdafrru:R2035, rdafrru:R2036, rdafrru:R2037, rdafrru:R2038 .
-
-rdafr:P610027 a owl:ObjectProperty;
-  rdfs:comment "La caractéristique de couleur de l’expression représentative de l’œuvre est la présence de couleur, teinte, etc. dès la création de l’œuvre. [code RDA-FR, 6.12]"@fr;
-  rdfs:domain rdafr:C100001;
-  rdfs:label "a pour caractéristique de couleur de l'expression représentative de l'oeuvre"@fr;
-  rdfs:range rdafr:CaracteristiqueCouleur .
-
-rdafrru:R2031 rdfs:seeAlso "6.13"@fr;
-  owl:versionInfo "0.2.0"@fr;
-  sh:description "La caractéristique sonore de l'expression représentative de l'œuvre est le son présent dès l'origine dans une œuvre qui n’est pas constituée principalement de son enregistré. [code RDA-FR, 6.13]"@fr;
-  sh:maxCount 1;
-  sh:name "a pour caractéristique sonore de l'expression représentative de l'oeuvre"@fr;
-  sh:node rdafr:CaracteristiqueSonore;
-  sh:nodeKind sh:IRI;
-  sh:path rdafr:P610028 .
-
-rdafr:P610028 a owl:ObjectProperty;
-  rdfs:comment "La caractéristique sonore de l'expression représentative de l'œuvre est le son présent dès l'origine dans une œuvre qui n’est pas constituée principalement de son enregistré. [code RDA-FR, 6.13]"@fr;
-  rdfs:domain rdafr:C100001;
-  rdfs:label "a pour caractéristique sonore de l'expression représentative de l'oeuvre"@fr;
-  rdfs:range rdafr:CaracteristiqueSonore .
-
-rdafrru:R2032 rdfs:seeAlso "6.14"@fr;
-  owl:versionInfo "0.2.0"@fr;
-  sh:class rdfs:Literal;
-  sh:datatype rdfs:Literal;
-  sh:description "Le contenu annexe de l'œuvre permet de signaler des annexes (bibliographie, index, glossaire, etc.) faisant intrinsèquement partie de l’œuvre. [code RDA-FR, 6.14]"@fr;
-  sh:name "a pour contenu annexe de l'oeuvre"@fr;
-  sh:nodeKind sh:Literal;
-  sh:path rdafr:P610029 .
-
-rdafr:P610029 a owl:DatatypeProperty;
-  rdfs:comment "Le contenu annexe de l'œuvre permet de signaler des annexes (bibliographie, index, glossaire, etc.) faisant intrinsèquement partie de l’œuvre. [code RDA-FR, 6.14]"@fr;
-  rdfs:domain rdafr:C100001;
-  rdfs:label "a pour contenu annexe de l'oeuvre"@fr;
-  rdfs:range rdfs:Literal .
-
-rdafrru:R2033 rdfs:seeAlso "6.15"@fr;
-  owl:versionInfo "0.2.0"@fr;
-  sh:class rdfs:Literal;
-  sh:datatype rdfs:Literal;
-  sh:description "Le contenu illustratif de l'œuvre permet de signaler des éléments illustratifs (photographies, graphiques, cartes, etc.) considérés comme minoritaires mais faisant intrinsèquement partie de l’œuvre. [code RDA-FR, 6.15]"@fr;
-  sh:name "a pour contenu illustratif de l'oeuvre"@fr;
-  sh:nodeKind sh:Literal;
-  sh:path rdafr:P610030 .
-
-rdafr:P610030 a owl:DatatypeProperty;
-  rdfs:comment "Le contenu illustratif de l'œuvre permet de signaler des éléments illustratifs (photographies, graphiques, cartes, etc.) considérés comme minoritaires mais faisant intrinsèquement partie de l’œuvre. [code RDA-FR, 6.15]"@fr;
-  rdfs:domain rdafr:C100001;
-  rdfs:label "a pour contenu illustratif de l'oeuvre"@fr;
-  rdfs:range rdfs:Literal .
-
-rdafrru:R2034 rdfs:seeAlso "6.16"@fr;
-  owl:versionInfo "0.2.0"@fr;
-  sh:class rdfs:Literal;
-  sh:datatype rdfs:Literal;
-  sh:description "L’historique de l’œuvre contient des informations concernant les événements survenus dans l’histoire de l’œuvre. [code RDA-FR, 6.16]"@fr;
-  sh:name "a pour historique de l'oeuvre"@fr;
-  sh:nodeKind sh:Literal;
-  sh:path rdafr:P610031 .
-
-rdafr:P610031 a owl:DatatypeProperty;
-  rdfs:comment "L’historique de l’œuvre contient des informations concernant les événements survenus dans l’histoire de l’œuvre. [code RDA-FR, 6.16]"@fr;
-  rdfs:domain rdafr:C100001;
-  rdfs:label "a pour historique de l'oeuvre"@fr;
-  rdfs:range rdfs:Literal .
-
-rdafrru:R2035 rdfs:seeAlso "6.17"@fr;
-  owl:versionInfo "0.2.0"@fr;
-  sh:class rdfs:Literal;
-  sh:datatype rdfs:Literal;
-  sh:description "La nature du contenu de l'oeuvre permet de compléter les informations sur la forme de l'oeuvre. [code RDA-FR, 6.17]"@fr;
-  sh:name "a pour nature du contenu de l'oeuvre"@fr;
-  sh:nodeKind sh:Literal;
-  sh:path rdafr:P610032 .
-
-rdafr:P610032 a owl:DatatypeProperty;
-  rdfs:comment "La nature du contenu de l'oeuvre permet de compléter les informations sur la forme de l'oeuvre. [code RDA-FR, 6.17]"@fr;
-  rdfs:domain rdafr:C100001;
-  rdfs:label "a pour nature du contenu de l'oeuvre"@fr;
-  rdfs:range rdfs:Literal .
-
-rdafrru:R2036 rdfs:seeAlso "6.18"@fr;
-  owl:versionInfo "0.2.0"@fr;
-  sh:class rdfs:Literal;
-  sh:datatype rdfs:Literal;
-  sh:description "La couverture du contenu de l’œuvre est sa couverture chronologique et/ou géographique. [code RDA-FR, 6.18]"@fr;
-  sh:name "a pour couverture du contenu de l'oeuvre"@fr;
-  sh:nodeKind sh:Literal;
-  sh:path rdafr:P610033 .
-
-rdafr:P610033 a owl:DatatypeProperty;
-  rdfs:comment "La couverture du contenu de l’œuvre est sa couverture chronologique et/ou géographique. [code RDA-FR, 6.18]"@fr;
-  rdfs:domain rdafr:C100001;
-  rdfs:label "a pour couverture du contenu de l'oeuvre"@fr;
-  rdfs:range rdfs:Literal .
-
-rdafrru:R2037 rdfs:seeAlso "6.19"@fr;
-  owl:versionInfo "0.2.0"@fr;
-  sh:class rdfs:Literal;
-  sh:datatype rdfs:Literal;
-  sh:description "Le public destinataire de l’œuvre est la catégorie d’utilisateurs à laquelle l’œuvre est destinée ou supposée convenir. [code RDA-FR, 6.19]"@fr;
-  sh:name "a pour public destinataire de l'oeuvre"@fr;
-  sh:nodeKind sh:Literal;
-  sh:path rdafr:P610034 .
-
-rdafr:P610034 a owl:DatatypeProperty;
-  rdfs:comment "Le public destinataire de l’œuvre est la catégorie d’utilisateurs à laquelle l’œuvre est destinée ou supposée convenir. [code RDA-FR, 6.19]"@fr;
-  rdfs:domain rdafr:C100001;
-  rdfs:label "a pour public destinataire de l'oeuvre"@fr;
-  rdfs:range rdfs:Literal .
-
-rdafrru:R2038 rdfs:seeAlso "6.20"@fr;
-  owl:versionInfo "0.2.0"@fr;
-  sh:class rdfs:Literal;
-  sh:datatype rdfs:Literal;
-  sh:description "Une restriction d’accès à l’œuvre est une disposition contractuelle, légale ou réglementaire qui impose une limitation, partielle ou totale, de la possibilité de consulter l’œuvre décrite. [code RDA-FR, 6.20]"@fr;
-  sh:name "a pour restriction d'accès à l'oeuvre"@fr;
-  sh:nodeKind sh:Literal;
-  sh:path rdafr:P610035 .
-
-rdafr:P610035 a owl:DatatypeProperty;
-  rdfs:comment "Une restriction d’accès à l’œuvre est une disposition contractuelle, légale ou réglementaire qui impose une limitation, partielle ou totale, de la possibilité de consulter l’œuvre décrite. [code RDA-FR, 6.20]"@fr;
-  rdfs:domain rdafr:C100001;
-  rdfs:label "a pour restriction d'accès à l'oeuvre"@fr;
-  rdfs:range rdfs:Literal .
-
-rdafrru:R2039 rdfs:seeAlso "6.21"@fr;
-  owl:versionInfo "0.2.0"@fr;
-  sh:class rdfs:Literal;
-  sh:datatype rdfs:Literal;
-  sh:description "Le mode de classement de l’œuvre est l’organisation (alphabétique, chronologique, thématique ou selon tout autre critère ou combinaison de critères) adoptée par le créateur d’une œuvre agrégative. [code RDA-FR, 6.21]"@fr;
-  sh:maxCount 1;
-  sh:name "a pour mode de classement de l'oeuvre"@fr;
-  sh:nodeKind sh:Literal;
-  sh:path rdafr:P610036 .
-
-rdafr:C100001 sh:property rdafrru:R2039, rdafrru:R2040, rdafrru:R2041 .
-
-rdafr:P610036 a owl:DatatypeProperty;
-  rdfs:comment "Le mode de classement de l’œuvre est l’organisation (alphabétique, chronologique, thématique ou selon tout autre critère ou combinaison de critères) adoptée par le créateur d’une œuvre agrégative. [code RDA-FR, 6.21]"@fr;
-  rdfs:domain rdafr:C100001;
-  rdfs:label "a pour mode de classement de l'oeuvre"@fr;
-  rdfs:range rdfs:Literal .
-
-rdafrru:R2040 rdfs:seeAlso "6.22"@fr;
-  owl:versionInfo "0.2.0"@fr;
-  sh:class rdfs:Literal;
-  sh:datatype rdfs:Literal;
-  sh:description "Le résumé de l’œuvre est une indication des principaux concepts constitutifs de l’œuvre et/ou des articulations qui en définissent la structure. [code RDA-FR, 6.22]"@fr;
-  sh:name "a pour résumé de l'oeuvre"@fr;
-  sh:nodeKind sh:Literal;
-  sh:path rdafr:P610037 .
-
-rdafr:P610037 a owl:DatatypeProperty;
-  rdfs:comment "Le résumé de l’œuvre est une indication des principaux concepts constitutifs de l’œuvre et/ou des articulations qui en définissent la structure. [code RDA-FR, 6.22]"@fr;
-  rdfs:domain rdafr:C100001;
-  rdfs:label "a pour résumé de l'oeuvre"@fr;
-  rdfs:range rdfs:Literal .
-
-rdafrru:R2041 rdfs:seeAlso "6.23"@fr;
-  owl:versionInfo "0.2.0"@fr;
-  sh:class rdfs:Literal;
-  sh:datatype rdfs:Literal;
-  sh:description "Un prix décerné à l’œuvre est une reconnaissance officielle d’excellence, etc. accordée à une œuvre par un organisme octroyant une récompense ou un prix. [code RDA-FR, 6.23]"@fr;
-  sh:name "a pour prix décerné à l'oeuvre"@fr;
-  sh:nodeKind sh:Literal;
-  sh:path rdafr:P610038 .
-
-rdafr:P610038 a owl:DatatypeProperty;
-  rdfs:comment "Un prix décerné à l’œuvre est une reconnaissance officielle d’excellence, etc. accordée à une œuvre par un organisme octroyant une récompense ou un prix. [code RDA-FR, 6.23]"@fr;
-  rdfs:domain rdafr:C100001;
-  rdfs:label "a pour prix décerné à l'oeuvre"@fr;
-  rdfs:range rdfs:Literal .
 
 rdafrru:R4004 rdfs:seeAlso "2.3"@fr;
   owl:versionInfo "0.2.0"@fr;

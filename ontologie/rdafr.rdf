@@ -50,10 +50,10 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hekdi25qx6"/>
+	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx6"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hekdi25qx6">
+<rdf:Description rdf:nodeID="node1hen8mvugx6">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -77,10 +77,10 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hekdi25qx7"/>
+	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx7"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hekdi25qx7">
+<rdf:Description rdf:nodeID="node1hen8mvugx7">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -104,10 +104,10 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hekdi25qx8"/>
+	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx8"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hekdi25qx8">
+<rdf:Description rdf:nodeID="node1hen8mvugx8">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -131,10 +131,10 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hekdi25qx9"/>
+	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx9"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hekdi25qx9">
+<rdf:Description rdf:nodeID="node1hen8mvugx9">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -158,10 +158,10 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hekdi25qx10"/>
+	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx10"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hekdi25qx10">
+<rdf:Description rdf:nodeID="node1hen8mvugx10">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -185,10 +185,10 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hekdi25qx11"/>
+	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx11"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hekdi25qx11">
+<rdf:Description rdf:nodeID="node1hen8mvugx11">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -212,10 +212,10 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hekdi25qx12"/>
+	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx12"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hekdi25qx12">
+<rdf:Description rdf:nodeID="node1hen8mvugx12">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -239,10 +239,10 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hekdi25qx13"/>
+	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx13"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hekdi25qx13">
+<rdf:Description rdf:nodeID="node1hen8mvugx13">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -266,10 +266,10 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hekdi25qx14"/>
+	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx14"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hekdi25qx14">
+<rdf:Description rdf:nodeID="node1hen8mvugx14">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -292,10 +292,10 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hekdi25qx15"/>
+	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx15"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hekdi25qx15">
+<rdf:Description rdf:nodeID="node1hen8mvugx15">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -318,10 +318,10 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hekdi25qx16"/>
+	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx16"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hekdi25qx16">
+<rdf:Description rdf:nodeID="node1hen8mvugx16">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -344,10 +344,10 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hekdi25qx17"/>
+	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx17"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hekdi25qx17">
+<rdf:Description rdf:nodeID="node1hen8mvugx17">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -370,10 +370,10 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hekdi25qx18"/>
+	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx18"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hekdi25qx18">
+<rdf:Description rdf:nodeID="node1hen8mvugx18">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -395,10 +395,10 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hekdi25qx19"/>
+	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx19"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hekdi25qx19">
+<rdf:Description rdf:nodeID="node1hen8mvugx19">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -419,10 +419,10 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hekdi25qx20"/>
+	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx20"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hekdi25qx20">
+<rdf:Description rdf:nodeID="node1hen8mvugx20">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -443,10 +443,10 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hekdi25qx21"/>
+	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx21"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hekdi25qx21">
+<rdf:Description rdf:nodeID="node1hen8mvugx21">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -467,10 +467,10 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hekdi25qx22"/>
+	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx22"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hekdi25qx22">
+<rdf:Description rdf:nodeID="node1hen8mvugx22">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -491,10 +491,10 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hekdi25qx23"/>
+	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx23"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hekdi25qx23">
+<rdf:Description rdf:nodeID="node1hen8mvugx23">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -515,10 +515,10 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hekdi25qx24"/>
+	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx24"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hekdi25qx24">
+<rdf:Description rdf:nodeID="node1hen8mvugx24">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -539,10 +539,10 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hekdi25qx25"/>
+	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx25"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hekdi25qx25">
+<rdf:Description rdf:nodeID="node1hen8mvugx25">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -563,10 +563,10 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hekdi25qx26"/>
+	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx26"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hekdi25qx26">
+<rdf:Description rdf:nodeID="node1hen8mvugx26">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -587,10 +587,10 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hekdi25qx27"/>
+	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx27"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hekdi25qx27">
+<rdf:Description rdf:nodeID="node1hen8mvugx27">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -611,10 +611,10 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hekdi25qx28"/>
+	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx28"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hekdi25qx28">
+<rdf:Description rdf:nodeID="node1hen8mvugx28">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -635,10 +635,10 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hekdi25qx29"/>
+	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx29"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hekdi25qx29">
+<rdf:Description rdf:nodeID="node1hen8mvugx29">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -659,10 +659,10 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hekdi25qx30"/>
+	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx30"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hekdi25qx30">
+<rdf:Description rdf:nodeID="node1hen8mvugx30">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -683,10 +683,10 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hekdi25qx31"/>
+	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx31"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hekdi25qx31">
+<rdf:Description rdf:nodeID="node1hen8mvugx31">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -707,10 +707,10 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hekdi25qx32"/>
+	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx32"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hekdi25qx32">
+<rdf:Description rdf:nodeID="node1hen8mvugx32">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -731,10 +731,10 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hekdi25qx33"/>
+	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx33"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hekdi25qx33">
+<rdf:Description rdf:nodeID="node1hen8mvugx33">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -751,8 +751,8 @@ d’autorité de noms, etc.) ;
 − et des schémas d’encodage syntaxiques (normes d’encodage des dates, etc.).</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Elements#CategorieNomen">
-	<rdfs:label xml:lang="fr">Catégorie de nomen</rdfs:label>
+<rdf:Description rdf:about="https://rdafr.fr/Elements#ConversionEcriture">
+	<rdfs:label xml:lang="fr">Conversion d'écriture</rdfs:label>
 	<owl:versionInfo xml:lang="fr">0.1.0</owl:versionInfo>
 	<rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
 	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">204</sh:order>
@@ -761,34 +761,10 @@ d’autorité de noms, etc.) ;
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hekdi25qx34"/>
+	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx34"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hekdi25qx34">
-	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
-	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#CategorieNomen">
-	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#CategorieNomen"/>
-	<sh:description xml:lang="fr">Type auquel le nomen appartient (ex. : point d'accès, identifiant, titre, etc.) [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/categorie-nomen.html ]</sh:description>
-	<rdfs:comment xml:lang="fr">Type auquel le nomen appartient (ex. : point d'accès, identifiant, titre, etc.) [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/categorie-nomen.html ]</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#ConversionEcriture">
-	<rdfs:label xml:lang="fr">Conversion d'écriture</rdfs:label>
-	<owl:versionInfo xml:lang="fr">0.1.0</owl:versionInfo>
-	<rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">205</sh:order>
-	<rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
-	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hekdi25qx35"/>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="node1hekdi25qx35">
+<rdf:Description rdf:nodeID="node1hen8mvugx34">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -804,16 +780,16 @@ d’autorité de noms, etc.) ;
 	<owl:versionInfo xml:lang="fr">0.1.0</owl:versionInfo>
 	<rdfs:seeAlso xml:lang="fr">9.3.3</rdfs:seeAlso>
 	<rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">206</sh:order>
+	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">205</sh:order>
 	<rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
 	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hekdi25qx36"/>
+	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx35"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hekdi25qx36">
+<rdf:Description rdf:nodeID="node1hen8mvugx35">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -828,16 +804,16 @@ d’autorité de noms, etc.) ;
 	<rdfs:label xml:lang="fr">Niveau de fiabilité</rdfs:label>
 	<owl:versionInfo xml:lang="fr">0.1.0</owl:versionInfo>
 	<rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">207</sh:order>
+	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">206</sh:order>
 	<rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
 	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hekdi25qx37"/>
+	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx36"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hekdi25qx37">
+<rdf:Description rdf:nodeID="node1hen8mvugx36">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -852,16 +828,16 @@ d’autorité de noms, etc.) ;
 	<rdfs:label xml:lang="fr">Calendrier</rdfs:label>
 	<owl:versionInfo xml:lang="fr">0.1.0</owl:versionInfo>
 	<rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">208</sh:order>
+	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">207</sh:order>
 	<rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
 	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hekdi25qx38"/>
+	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx37"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hekdi25qx38">
+<rdf:Description rdf:nodeID="node1hen8mvugx37">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -877,16 +853,16 @@ d’autorité de noms, etc.) ;
 	<owl:versionInfo xml:lang="fr">0.1.0</owl:versionInfo>
 	<rdfs:seeAlso xml:lang="fr">9.1.1</rdfs:seeAlso>
 	<rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">209</sh:order>
+	<sh:order rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">208</sh:order>
 	<rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
 	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hekdi25qx39"/>
+	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx38"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hekdi25qx39">
+<rdf:Description rdf:nodeID="node1hen8mvugx38">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -906,10 +882,10 @@ d’autorité de noms, etc.) ;
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hekdi25qx40"/>
+	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx39"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hekdi25qx40">
+<rdf:Description rdf:nodeID="node1hen8mvugx39">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -929,10 +905,10 @@ d’autorité de noms, etc.) ;
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hekdi25qx41"/>
+	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx40"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hekdi25qx41">
+<rdf:Description rdf:nodeID="node1hen8mvugx40">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -952,10 +928,10 @@ d’autorité de noms, etc.) ;
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hekdi25qx42"/>
+	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx41"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hekdi25qx42">
+<rdf:Description rdf:nodeID="node1hen8mvugx41">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -975,10 +951,10 @@ d’autorité de noms, etc.) ;
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hekdi25qx43"/>
+	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx42"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hekdi25qx43">
+<rdf:Description rdf:nodeID="node1hen8mvugx42">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -998,10 +974,10 @@ d’autorité de noms, etc.) ;
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hekdi25qx44"/>
+	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx43"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hekdi25qx44">
+<rdf:Description rdf:nodeID="node1hen8mvugx43">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -1021,10 +997,10 @@ d’autorité de noms, etc.) ;
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hekdi25qx45"/>
+	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx44"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hekdi25qx45">
+<rdf:Description rdf:nodeID="node1hen8mvugx44">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -1044,10 +1020,10 @@ d’autorité de noms, etc.) ;
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hekdi25qx46"/>
+	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx45"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hekdi25qx46">
+<rdf:Description rdf:nodeID="node1hen8mvugx45">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -1067,10 +1043,10 @@ d’autorité de noms, etc.) ;
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hekdi25qx47"/>
+	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx46"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hekdi25qx47">
+<rdf:Description rdf:nodeID="node1hen8mvugx46">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -1090,10 +1066,10 @@ d’autorité de noms, etc.) ;
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hekdi25qx48"/>
+	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx47"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hekdi25qx48">
+<rdf:Description rdf:nodeID="node1hen8mvugx47">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -1113,10 +1089,10 @@ d’autorité de noms, etc.) ;
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hekdi25qx49"/>
+	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx48"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hekdi25qx49">
+<rdf:Description rdf:nodeID="node1hen8mvugx48">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -1136,10 +1112,10 @@ d’autorité de noms, etc.) ;
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hekdi25qx50"/>
+	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx49"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hekdi25qx50">
+<rdf:Description rdf:nodeID="node1hen8mvugx49">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -1159,10 +1135,10 @@ d’autorité de noms, etc.) ;
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hekdi25qx51"/>
+	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx50"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hekdi25qx51">
+<rdf:Description rdf:nodeID="node1hen8mvugx50">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -1182,10 +1158,10 @@ d’autorité de noms, etc.) ;
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hekdi25qx52"/>
+	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx51"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hekdi25qx52">
+<rdf:Description rdf:nodeID="node1hen8mvugx51">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -1221,10 +1197,10 @@ d’autorité de noms, etc.) ;
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hekdi25qx53"/>
+	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx52"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hekdi25qx53">
+<rdf:Description rdf:nodeID="node1hen8mvugx52">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -1244,10 +1220,10 @@ d’autorité de noms, etc.) ;
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hekdi25qx54"/>
+	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx53"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hekdi25qx54">
+<rdf:Description rdf:nodeID="node1hen8mvugx53">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -1267,10 +1243,10 @@ d’autorité de noms, etc.) ;
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hekdi25qx55"/>
+	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx54"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hekdi25qx55">
+<rdf:Description rdf:nodeID="node1hen8mvugx54">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -1290,10 +1266,10 @@ d’autorité de noms, etc.) ;
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hekdi25qx56"/>
+	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx55"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hekdi25qx56">
+<rdf:Description rdf:nodeID="node1hen8mvugx55">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -1313,10 +1289,10 @@ d’autorité de noms, etc.) ;
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hekdi25qx57"/>
+	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx56"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hekdi25qx57">
+<rdf:Description rdf:nodeID="node1hen8mvugx56">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -1336,10 +1312,10 @@ d’autorité de noms, etc.) ;
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hekdi25qx58"/>
+	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx57"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hekdi25qx58">
+<rdf:Description rdf:nodeID="node1hen8mvugx57">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -1359,10 +1335,10 @@ d’autorité de noms, etc.) ;
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hekdi25qx59"/>
+	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx58"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hekdi25qx59">
+<rdf:Description rdf:nodeID="node1hen8mvugx58">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -1382,10 +1358,10 @@ d’autorité de noms, etc.) ;
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hekdi25qx60"/>
+	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx59"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hekdi25qx60">
+<rdf:Description rdf:nodeID="node1hen8mvugx59">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -1405,10 +1381,10 @@ d’autorité de noms, etc.) ;
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hekdi25qx61"/>
+	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx60"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hekdi25qx61">
+<rdf:Description rdf:nodeID="node1hen8mvugx60">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -1428,10 +1404,10 @@ d’autorité de noms, etc.) ;
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hekdi25qx62"/>
+	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx61"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hekdi25qx62">
+<rdf:Description rdf:nodeID="node1hen8mvugx61">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -1451,10 +1427,10 @@ d’autorité de noms, etc.) ;
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hekdi25qx63"/>
+	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx62"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hekdi25qx63">
+<rdf:Description rdf:nodeID="node1hen8mvugx62">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -1478,10 +1454,10 @@ Ce même vocabulaire contrôlé fournit les valeurs pour la propriété 'a pour 
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hekdi25qx64"/>
+	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx63"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hekdi25qx64">
+<rdf:Description rdf:nodeID="node1hen8mvugx63">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -1501,10 +1477,10 @@ Ce même vocabulaire contrôlé fournit les valeurs pour la propriété 'a pour 
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hekdi25qx65"/>
+	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx64"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hekdi25qx65">
+<rdf:Description rdf:nodeID="node1hen8mvugx64">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -1526,10 +1502,10 @@ Ce même vocabulaire contrôlé fournit les valeurs pour la propriété 'a pour 
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hekdi25qx66"/>
+	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx65"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hekdi25qx66">
+<rdf:Description rdf:nodeID="node1hen8mvugx65">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -1549,10 +1525,10 @@ Ce même vocabulaire contrôlé fournit les valeurs pour la propriété 'a pour 
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hekdi25qx67"/>
+	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx66"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hekdi25qx67">
+<rdf:Description rdf:nodeID="node1hen8mvugx66">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -1561,282 +1537,6 @@ Ce même vocabulaire contrôlé fournit les valeurs pour la propriété 'a pour 
 	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#CategorieLieu"/>
 	<sh:description xml:lang="fr">Catégorie générale à laquelle une instance de Lieu appartient. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/categorie-lieu.html ]</sh:description>
 	<rdfs:comment xml:lang="fr">Catégorie générale à laquelle une instance de Lieu appartient. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/categorie-lieu.html ]</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#AspectTraduction">
-	<rdfs:label xml:lang="fr">Aspect de traduction</rdfs:label>
-	<owl:versionInfo xml:lang="fr">0.2.0</owl:versionInfo>
-	<rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
-	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hekdi25qx68"/>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="node1hekdi25qx68">
-	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
-	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#AspectTraduction">
-	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#AspectTraduction"/>
-	<sh:description xml:lang="fr">L’aspect de traduction permet de préciser si l’expression est une traduction d’une autre expression et, dans ce cas, s’il s’agit d’une traduction directe ou d’une traduction effectuée à partir d’une traduction intermédiaire. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/forme-expression.html ]</sh:description>
-	<rdfs:comment xml:lang="fr">L’aspect de traduction permet de préciser si l’expression est une traduction d’une autre expression et, dans ce cas, s’il s’agit d’une traduction directe ou d’une traduction effectuée à partir d’une traduction intermédiaire. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/forme-expression.html ]</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#PerimetreApplicationLangue">
-	<rdfs:label xml:lang="fr">Périmètre d'application de la langue</rdfs:label>
-	<owl:versionInfo xml:lang="fr">0.2.0</owl:versionInfo>
-	<rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
-	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hekdi25qx69"/>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="node1hekdi25qx69">
-	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
-	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#PerimetreApplicationLangue">
-	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#PerimetreApplicationLangue"/>
-	<sh:description xml:lang="fr">Le périmètre d’application de la langue permet de qualifier la langue de certaines composantes de l’expression décrite. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/forme-expression.html ]</sh:description>
-	<rdfs:comment xml:lang="fr">Le périmètre d’application de la langue permet de qualifier la langue de certaines composantes de l’expression décrite. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/forme-expression.html ]</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#TypeCaptation">
-	<rdfs:label xml:lang="fr">Type de captation</rdfs:label>
-	<owl:versionInfo xml:lang="fr">0.2.0</owl:versionInfo>
-	<rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
-	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hekdi25qx70"/>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="node1hekdi25qx70">
-	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
-	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#TypeCaptation">
-	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#TypeCaptation"/>
-	<sh:description xml:lang="fr">Le périmètre d’application de la langue permet de qualifier la langue de certaines composantes de l’expression décrite. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/forme-expression.html ]</sh:description>
-	<rdfs:comment xml:lang="fr">Le périmètre d’application de la langue permet de qualifier la langue de certaines composantes de l’expression décrite. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/forme-expression.html ]</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#FormeNotationMusicale">
-	<rdfs:label xml:lang="fr">Forme de la notation musicale</rdfs:label>
-	<owl:versionInfo xml:lang="fr">0.2.0</owl:versionInfo>
-	<rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
-	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hekdi25qx71"/>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="node1hekdi25qx71">
-	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
-	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#FormeNotationMusicale">
-	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#FormeNotationMusicale"/>
-	<sh:description xml:lang="fr">La forme de la notation musicale est un ensemble de signes et/ou de symboles utilisés pour exprimer le contenu musical noté d’une expression. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/forme-notation-musicale.html ]</sh:description>
-	<rdfs:comment xml:lang="fr">La forme de la notation musicale est un ensemble de signes et/ou de symboles utilisés pour exprimer le contenu musical noté d’une expression. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/forme-notation-musicale.html ]</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#FormeNotationTactile">
-	<rdfs:label xml:lang="fr">Forme de la notation tactile</rdfs:label>
-	<owl:versionInfo xml:lang="fr">0.2.0</owl:versionInfo>
-	<rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
-	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hekdi25qx72"/>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="node1hekdi25qx72">
-	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
-	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#FormeNotationTactile">
-	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#FormeNotationTactile"/>
-	<sh:description xml:lang="fr">La forme de la notation tactile est un ensemble de signes et/ou de symboles utilisés pour exprimer le contenu d’une expression sous une forme perceptible au toucher. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/forme-notation-tactile.html ]</sh:description>
-	<rdfs:comment xml:lang="fr">La forme de la notation tactile est un ensemble de signes et/ou de symboles utilisés pour exprimer le contenu d’une expression sous une forme perceptible au toucher. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/forme-notation-tactile.html ]</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#FormeNotationMouvement">
-	<rdfs:label xml:lang="fr">Forme de la notation de mouvement</rdfs:label>
-	<owl:versionInfo xml:lang="fr">0.2.0</owl:versionInfo>
-	<rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
-	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hekdi25qx73"/>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="node1hekdi25qx73">
-	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
-	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#FormeNotationMouvement">
-	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#FormeNotationMouvement"/>
-	<sh:description xml:lang="fr">La forme de la notation du mouvement est un ensemble de signes et/ou de caractères utilisés pour exprimer le contenu du mouvement d’une expression, en particulier celle d’une œuvre chorégraphique. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/forme-notation-mouvement.html ]</sh:description>
-	<rdfs:comment xml:lang="fr">La forme de la notation du mouvement est un ensemble de signes et/ou de caractères utilisés pour exprimer le contenu du mouvement d’une expression, en particulier celle d’une œuvre chorégraphique. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/forme-notation-mouvement.html ]</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#CaracteristiqueCouleur">
-	<rdfs:label xml:lang="fr">Caractéristique de couleur</rdfs:label>
-	<owl:versionInfo xml:lang="fr">0.2.0</owl:versionInfo>
-	<rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
-	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hekdi25qx74"/>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="node1hekdi25qx74">
-	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
-	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#CaracteristiqueCouleur">
-	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#CaracteristiqueCouleur"/>
-	<sh:description xml:lang="fr">La caractéristique de couleur est la présence de couleur, teinte, etc. dans l’expression. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/caracteristique-couleur.html ]</sh:description>
-	<rdfs:comment xml:lang="fr">La caractéristique de couleur est la présence de couleur, teinte, etc. dans l’expression. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/caracteristique-couleur.html ]</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#CaracteristiqueSonore">
-	<rdfs:label xml:lang="fr">Caractéristique sonore</rdfs:label>
-	<owl:versionInfo xml:lang="fr">0.2.0</owl:versionInfo>
-	<rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
-	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hekdi25qx75"/>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="node1hekdi25qx75">
-	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
-	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#CaracteristiqueSonore">
-	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#CaracteristiqueSonore"/>
-	<sh:description xml:lang="fr">La caractéristique sonore est le son présent dans une expression qui n’est pas constituée principalement de son enregistré, par exemple une expression d’un film ou d’une œuvre multimédia. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/caracteristique-sonore.html ]</sh:description>
-	<rdfs:comment xml:lang="fr">La caractéristique sonore est le son présent dans une expression qui n’est pas constituée principalement de son enregistré, par exemple une expression d’un film ou d’une œuvre multimédia. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/caracteristique-sonore.html ]</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#CouvertureAgregat">
-	<rdfs:label xml:lang="fr">Couverture agrégat</rdfs:label>
-	<owl:versionInfo xml:lang="fr">0.2.0</owl:versionInfo>
-	<rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
-	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hekdi25qx76"/>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="node1hekdi25qx76">
-	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
-	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#CouvertureAgregat">
-	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#CouvertureAgregat"/>
-	<sh:description xml:lang="fr">La couverture de l’agrégat permet de préciser, dans le cas d’une expression d’agrégation, si la ou les formes de l’expression s’appliquent à toutes les expressions réunies dans l’agrégat ou seulement à une partie d’entre elles. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/couverture-agregat.html ]</sh:description>
-	<rdfs:comment xml:lang="fr">La couverture de l’agrégat permet de préciser, dans le cas d’une expression d’agrégation, si la ou les formes de l’expression s’appliquent à toutes les expressions réunies dans l’agrégat ou seulement à une partie d’entre elles. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/couverture-agregat.html ]</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#ImportanceRelativeFormeExpression">
-	<rdfs:label xml:lang="fr">Importance relative de la forme de l'expression</rdfs:label>
-	<owl:versionInfo xml:lang="fr">0.2.0</owl:versionInfo>
-	<rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
-	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hekdi25qx77"/>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="node1hekdi25qx77">
-	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
-	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#ImportanceRelativeFormeExpression">
-	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#ImportanceRelativeFormeExpression"/>
-	<sh:description xml:lang="fr">L’importance relative de la forme de l’expression représentative de l'oeuvre permet de préciser, pour des formes de l’expression présentes mais qui n’apportent pas une contribution essentielle, la place qu’elles occupent dans la réalisation de l’expression. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/importance-relative-forme-expression.html ]</sh:description>
-	<rdfs:comment xml:lang="fr">L’importance relative de la forme de l’expression représentative de l'oeuvre permet de préciser, pour des formes de l’expression présentes mais qui n’apportent pas une contribution essentielle, la place qu’elles occupent dans la réalisation de l’expression. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/importance-relative-forme-expression.html ]</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#PlanExtensionOeuvre">
-	<rdfs:label xml:lang="fr">Plan extension de l'oeuvre</rdfs:label>
-	<owl:versionInfo xml:lang="fr">0.2.0</owl:versionInfo>
-	<rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
-	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hekdi25qx78"/>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="node1hekdi25qx78">
-	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
-	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#PlanExtensionOeuvre">
-	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#PlanExtensionOeuvre"/>
-	<sh:description xml:lang="fr">Le plan d’extension de l’œuvre permet d’indiquer l’intention du créateur quant aux modalités d’extension d’une œuvre. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/plan-extension-oeuvre.html ]</sh:description>
-	<rdfs:comment xml:lang="fr">Le plan d’extension de l’œuvre permet d’indiquer l’intention du créateur quant aux modalités d’extension d’une œuvre. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/plan-extension-oeuvre.html ]</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#CategorieOeuvre">
-	<rdfs:label xml:lang="fr">Catégorie d'oeuvre</rdfs:label>
-	<owl:versionInfo xml:lang="fr">0.2.0</owl:versionInfo>
-	<rdfs:subClassOf rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<rdf:type rdf:resource="http://www.w3.org/ns/shacl#NodeShape"/>
-	<rdf:type rdf:resource="http://www.w3.org/2000/01/rdf-schema#Class"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hekdi25qx79"/>
-</rdf:Description>
-
-<rdf:Description rdf:nodeID="node1hekdi25qx79">
-	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
-	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#CategorieOeuvre">
-	<sh:targetClass rdf:resource="https://rdafr.fr/Elements#CategorieOeuvre"/>
-	<sh:description xml:lang="fr">La catégorie d’œuvre est une large catégorisation de l’œuvre déterminée par la forme de l'expression représentative de celle-ci [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/categories-oeuvres.html ]</sh:description>
-	<rdfs:comment xml:lang="fr">La catégorie d’œuvre est une large catégorisation de l’œuvre déterminée par la forme de l'expression représentative de celle-ci [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/categories-oeuvres.html ]</rdfs:comment>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://rdafr.fr/Rules#R105">
@@ -2619,7 +2319,7 @@ Ce même vocabulaire contrôlé fournit les valeurs pour la propriété 'a pour 
 	<owl:versionInfo xml:lang="fr">0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P100010r"/>
 	<sh:name xml:lang="fr">est a distinguer de [dans la relation]</sh:name>
-	<sh:description xml:lang="fr">Relation de non équivalence alertant sur les risques de confusion entre agents, notamment en cas d'homonymie.</sh:description>
+	<sh:description xml:lang="fr">Relation de non équivalence alertant sur les risques de confusion existant avec d'autres entités RDA-FR homonymes, en particulier avec d'autres agents.</sh:description>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://rdafr.fr/Elements#C100002">
@@ -2627,7 +2327,7 @@ Ce même vocabulaire contrôlé fournit les valeurs pour la propriété 'a pour 
 </rdf:Description>
 
 <rdf:Description rdf:about="https://rdafr.fr/Rules#R413">
-	<sh:node rdf:resource="https://rdafr.fr/Elements#C100002"/>
+	<sh:node rdf:resource="https://rdafr.fr/Elements#C100013"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 </rdf:Description>
 
@@ -2946,6 +2646,7 @@ Ce même vocabulaire contrôlé fournit les valeurs pour la propriété 'a pour 
 	<rdfs:range rdf:resource="https://rdafr.fr/Elements#C100010"/>
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
 	<rdfs:label xml:lang="fr">a pour date associée à la personne</rdfs:label>
+	<rdfs:subPropertyOf rdf:resource="https://rdafr.fr/Elements#P100002"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://rdafr.fr/Rules#R505">
@@ -5018,7 +4719,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 </rdf:Description>
 
 <rdf:Description rdf:about="https://rdafr.fr/Rules#R568">
-	<sh:node rdf:resource="https://rdafr.fr/Elements#C100002"/>
+	<sh:node rdf:resource="https://rdafr.fr/Elements#C100013"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 </rdf:Description>
 
@@ -5027,7 +4728,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 </rdf:Description>
 
 <rdf:Description rdf:about="https://rdafr.fr/Rules#R568">
-	<sh:description xml:lang="fr">Relation de non équivalence entre la personne décrite et une autre personne, collectivité ou famille homonyme, alertant sur les risques de confusion entre les deux.</sh:description>
+	<sh:description xml:lang="fr">Relation de non équivalence alertant sur les risques de confusion existant avec d'autres entités RDA-FR homonymes, en particulier avec d'autres agents.</sh:description>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://rdafr.fr/Rules#R569">
@@ -5656,6 +5357,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdfs:range rdf:resource="https://rdafr.fr/Elements#C100010"/>
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
 	<rdfs:label xml:lang="fr">a pour dates associées à la collectivité</rdfs:label>
+	<rdfs:subPropertyOf rdf:resource="https://rdafr.fr/Elements#P100002"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://rdafr.fr/Rules#P721">
@@ -8625,7 +8327,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 </rdf:Description>
 
 <rdf:Description rdf:about="https://rdafr.fr/Rules#R805">
-	<owl:versionInfo xml:lang="fr">0.1.0</owl:versionInfo>
+	<owl:versionInfo xml:lang="fr">0.2.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P100010r"/>
 	<sh:name xml:lang="fr">est à distinguer de [dans la relation]</sh:name>
 </rdf:Description>
@@ -8635,9 +8337,9 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 </rdf:Description>
 
 <rdf:Description rdf:about="https://rdafr.fr/Rules#R805">
-	<sh:node rdf:resource="https://rdafr.fr/Elements#C100002"/>
+	<sh:node rdf:resource="https://rdafr.fr/Elements#C100013"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-	<sh:description xml:lang="fr">Relation de non équivalence alertant sur les risques de confusion existant avec d'autres agents homonymes.</sh:description>
+	<sh:description xml:lang="fr">Relation de non équivalence alertant sur les risques de confusion existant avec d'autres entités RDA-FR homonymes, en particulier avec d'autres agents.</sh:description>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://rdafr.fr/Rules#R904">
@@ -8957,6 +8659,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdfs:range rdf:resource="https://rdafr.fr/Elements#C100010"/>
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
 	<rdfs:label xml:lang="fr">a pour dates associées à la famille</rdfs:label>
+	<rdfs:subPropertyOf rdf:resource="https://rdafr.fr/Elements#P100002"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://rdafr.fr/Rules#R913">
@@ -9915,7 +9618,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 </rdf:Description>
 
 <rdf:Description rdf:about="https://rdafr.fr/Rules#R943">
-	<owl:versionInfo xml:lang="fr">0.1.0</owl:versionInfo>
+	<owl:versionInfo xml:lang="fr">0.2.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P100010r"/>
 	<sh:name xml:lang="fr">est à distinguer de [dans la relation]</sh:name>
 </rdf:Description>
@@ -9925,9 +9628,9 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 </rdf:Description>
 
 <rdf:Description rdf:about="https://rdafr.fr/Rules#R943">
-	<sh:node rdf:resource="https://rdafr.fr/Elements#C100002"/>
+	<sh:node rdf:resource="https://rdafr.fr/Elements#C100013"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-	<sh:description xml:lang="fr">Relation de non équivalence alertant sur les risques de confusion existant avec d'autres agents homonymes.</sh:description>
+	<sh:description xml:lang="fr">Relation de non équivalence alertant sur les risques de confusion existant avec d'autres entités RDA-FR homonymes, en particulier avec d'autres agents.</sh:description>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://rdafr.fr/Rules#R1104">
@@ -10192,7 +9895,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 </rdf:Description>
 
 <rdf:Description rdf:about="https://rdafr.fr/Rules#R1113">
-	<owl:versionInfo xml:lang="fr">0.1.0</owl:versionInfo>
+	<owl:versionInfo xml:lang="fr">0.2.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P100010r"/>
 	<sh:name xml:lang="fr">est à distinguer de [dans la relation]</sh:name>
 </rdf:Description>
@@ -10202,9 +9905,9 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 </rdf:Description>
 
 <rdf:Description rdf:about="https://rdafr.fr/Rules#R1113">
-	<sh:node rdf:resource="https://rdafr.fr/Elements#C100002"/>
+	<sh:node rdf:resource="https://rdafr.fr/Elements#C100013"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-	<sh:description xml:lang="fr">Relation de non équivalence alertant sur les risques de confusion existant avec d'autres agents homonymes.</sh:description>
+	<sh:description xml:lang="fr">Relation de non équivalence alertant sur les risques de confusion existant avec d'autres entités RDA-FR homonymes, en particulier avec d'autres agents.</sh:description>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://rdafr.fr/Rules#P1204">
@@ -10843,6 +10546,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 </rdf:Description>
 
 <rdf:Description rdf:about="https://rdafr.fr/Elements#P600026">
+	<rdfs:range rdf:resource="https://rdafr.fr/Elements#C100012"/>
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
 	<rdfs:label xml:lang="fr">a pour point d'accès autorisé supplémentaire de l'identité publique du groupe informel</rdfs:label>
 	<rdfs:subPropertyOf rdf:resource="https://rdafr.fr/Elements#P600024"/>
@@ -10874,7 +10578,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 
 <rdf:Description rdf:about="https://rdafr.fr/Elements#P600009">
 	<rdfs:domain rdf:resource="https://rdafr.fr/Elements#C100015"/>
-	<rdfs:range xml:lang="fr">#REF!</rdfs:range>
+	<rdfs:range rdf:resource="https://rdafr.fr/Elements#C100012"/>
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
 	<rdfs:label xml:lang="fr">a pour variante de point d'accès de l'identité publique de personne</rdfs:label>
 	<rdfs:subPropertyOf rdf:resource="https://rdafr.fr/Elements#P600019"/>
@@ -10983,9 +10687,9 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 
 <rdf:Description rdf:about="https://rdafr.fr/Rules#P1231">
 	<owl:versionInfo xml:lang="fr">0.1.0</owl:versionInfo>
-	<sh:path rdf:resource="https://rdafr.fr/Elements#P600013"/>
-	<sh:name xml:lang="fr">a pour identifiant associé à l’identité publique</sh:name>
-	<rdfs:seeAlso xml:lang="fr">9.2.5</rdfs:seeAlso>
+	<sh:path rdf:resource="https://rdafr.fr/Elements#P600012"/>
+	<sh:name xml:lang="fr">a pour date d'utilisation de l'identité publique</sh:name>
+	<rdfs:seeAlso xml:lang="fr">9.2.4</rdfs:seeAlso>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://rdafr.fr/Elements#C100015">
@@ -10993,6 +10697,39 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 </rdf:Description>
 
 <rdf:Description rdf:about="https://rdafr.fr/Rules#P1231">
+	<sh:node rdf:resource="https://rdafr.fr/Elements#C100010"/>
+	<sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://rdafr.fr/Elements#P600012">
+	<rdfs:domain rdf:resource="https://rdafr.fr/Elements#C100015"/>
+	<rdfs:range rdf:resource="https://rdafr.fr/Elements#C100010"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
+	<rdfs:label xml:lang="fr">a pour date d'utilisation de l'identité publique</rdfs:label>
+	<rdfs:subPropertyOf rdf:resource="https://rdafr.fr/Elements#P100002"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P1231">
+	<sh:description xml:lang="fr">Une date ou une fourchette de dates associée à l’utilisation d’une identité publique. [code RDA-FR, 9.2.4]</sh:description>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://rdafr.fr/Elements#P600012">
+	<rdfs:comment xml:lang="fr">Une date ou une fourchette de dates associée à l’utilisation d’une identité publique. [code RDA-FR, 9.2.4]</rdfs:comment>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P1232">
+	<owl:versionInfo xml:lang="fr">0.1.0</owl:versionInfo>
+	<sh:path rdf:resource="https://rdafr.fr/Elements#P600013"/>
+	<sh:name xml:lang="fr">a pour identifiant associé à l’identité publique</sh:name>
+	<rdfs:seeAlso xml:lang="fr">9.2.5</rdfs:seeAlso>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://rdafr.fr/Elements#C100015">
+	<sh:property rdf:resource="https://rdafr.fr/Rules#P1232"/>
+</rdf:Description>
+
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P1232">
 	<sh:node rdf:resource="https://rdafr.fr/Elements#C100012"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 </rdf:Description>
@@ -11004,7 +10741,7 @@ Relation entre une personne et le groupe auquel elle est affiliée. Cette relati
 	<rdfs:subPropertyOf rdf:resource="https://rdafr.fr/Elements#P100007"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#P1231">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P1232">
 	<sh:description xml:lang="fr">Un identifiant associé à l’identité publique est une chaîne de caractères ou de symboles qui lui est associée (par exemple un identifiant ISNI - International standard name identifier).
 L’identifiant sert à distinguer une identité publique d’une autre. Il doit être unique et univoque pour un référentiel donné.
 Dans le cas des personnes ayant plus d’une identité, chaque identité publique a son propre identifiant. [code RDA-FR, 9.2.5]</sh:description>
@@ -11016,17 +10753,17 @@ L’identifiant sert à distinguer une identité publique d’une autre. Il doit
 Dans le cas des personnes ayant plus d’une identité, chaque identité publique a son propre identifiant. [code RDA-FR, 9.2.5]</rdfs:comment>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#P1233">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P1234">
 	<owl:versionInfo xml:lang="fr">0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P100010r"/>
 	<sh:name xml:lang="fr">est a distinguer de [dans la relation]</sh:name>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://rdafr.fr/Elements#C100015">
-	<sh:property rdf:resource="https://rdafr.fr/Rules#P1233"/>
+	<sh:property rdf:resource="https://rdafr.fr/Rules#P1234"/>
 </rdf:Description>
 
-<rdf:Description rdf:about="https://rdafr.fr/Rules#P1233">
+<rdf:Description rdf:about="https://rdafr.fr/Rules#P1234">
 	<sh:node rdf:resource="https://rdafr.fr/Elements#C100015"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:description xml:lang="fr">Relation de non équivalence entre deux identités publiques homonymes identifiant deux personnes distinctes, alertant sur les risques de confusion .</sh:description>
@@ -11242,7 +10979,7 @@ Dans le cas des personnes ayant plus d’une identité, chaque identité publiqu
 <rdf:Description rdf:about="https://rdafr.fr/Rules#R1312">
 	<owl:versionInfo xml:lang="fr">0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P800009"/>
-	<sh:name xml:lang="fr">a pour dates d'utilisation</sh:name>
+	<sh:name xml:lang="fr">a pour dates d'utilisation du nomen</sh:name>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://rdafr.fr/Elements#C100012">
@@ -11260,7 +10997,7 @@ Dans le cas des personnes ayant plus d’une identité, chaque identité publiqu
 	<rdfs:domain rdf:resource="https://rdafr.fr/Elements#C100012"/>
 	<rdfs:range rdf:resource="https://rdafr.fr/Elements#C100010"/>
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-	<rdfs:label xml:lang="fr">a pour dates d'utilisation</rdfs:label>
+	<rdfs:label xml:lang="fr">a pour dates d'utilisation du nomen</rdfs:label>
 	<rdfs:subPropertyOf rdf:resource="https://rdafr.fr/Elements#P100002"/>
 </rdf:Description>
 
@@ -11273,7 +11010,7 @@ Dans le cas des personnes ayant plus d’une identité, chaque identité publiqu
 </rdf:Description>
 
 <rdf:Description rdf:about="https://rdafr.fr/Rules#R1313">
-	<owl:versionInfo xml:lang="fr">0.1.0</owl:versionInfo>
+	<owl:versionInfo xml:lang="fr">c</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P800011"/>
 	<sh:name xml:lang="fr">a pour date de changement du nom de la collectivité</sh:name>
 	<rdfs:seeAlso xml:lang="fr">11.7.5</rdfs:seeAlso>
@@ -11285,12 +11022,14 @@ Dans le cas des personnes ayant plus d’une identité, chaque identité publiqu
 
 <rdf:Description rdf:about="https://rdafr.fr/Rules#R1313">
 	<sh:node rdf:resource="https://rdafr.fr/Elements#C100010"/>
+	<sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
+	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://rdafr.fr/Elements#P800011">
 	<rdfs:domain rdf:resource="https://rdafr.fr/Elements#C100012"/>
 	<rdfs:range rdf:resource="https://rdafr.fr/Elements#C100010"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
+	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
 	<rdfs:label xml:lang="fr">a pour date de changement du nom de la collectivité</rdfs:label>
 	<rdfs:subPropertyOf rdf:resource="https://rdafr.fr/Elements#P100002"/>
 </rdf:Description>
@@ -11306,7 +11045,7 @@ Dans le cas des personnes ayant plus d’une identité, chaque identité publiqu
 <rdf:Description rdf:about="https://rdafr.fr/Rules#R1314">
 	<owl:versionInfo xml:lang="fr">0.1.0</owl:versionInfo>
 	<sh:path rdf:resource="https://rdafr.fr/Elements#P800010"/>
-	<sh:name xml:lang="fr">a pour date d'attestation</sh:name>
+	<sh:name xml:lang="fr">a pour date d'attestation du nomen</sh:name>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://rdafr.fr/Elements#C100012">
@@ -11323,7 +11062,7 @@ Dans le cas des personnes ayant plus d’une identité, chaque identité publiqu
 	<rdfs:domain rdf:resource="https://rdafr.fr/Elements#C100012"/>
 	<rdfs:range rdf:resource="https://rdafr.fr/Elements#C100010"/>
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-	<rdfs:label xml:lang="fr">a pour date d'attestation</rdfs:label>
+	<rdfs:label xml:lang="fr">a pour date d'attestation du nomen</rdfs:label>
 	<rdfs:subPropertyOf rdf:resource="https://rdafr.fr/Elements#P100002"/>
 </rdf:Description>
 
@@ -12912,1204 +12651,6 @@ Dans le cas des personnes ayant plus d’une identité, chaque identité publiqu
 
 <rdf:Description rdf:about="https://rdafr.fr/Elements#P502317ri">
 	<rdfs:comment xml:lang="fr">Relation entre un lieu qui est une division territoriale et la collectivité qui l’administre. [code RDA-FR, 34.3]</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2004">
-	<owl:versionInfo xml:lang="fr">0.2.0</owl:versionInfo>
-	<sh:path rdf:resource="https://rdafr.fr/Elements#P610001"/>
-	<sh:name xml:lang="fr">a pour catégorie de l'oeuvre</sh:name>
-	<rdfs:seeAlso xml:lang="fr">6.2</rdfs:seeAlso>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#C100001">
-	<sh:property rdf:resource="https://rdafr.fr/Rules#R2004"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2004">
-	<sh:node rdf:resource="https://rdafr.fr/Elements#CategorieOeuvre"/>
-	<sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-	<sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P610001">
-	<rdfs:domain rdf:resource="https://rdafr.fr/Elements#C100001"/>
-	<rdfs:range rdf:resource="https://rdafr.fr/Elements#CategorieOeuvre"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-	<rdfs:label xml:lang="fr">a pour catégorie de l'oeuvre</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2004">
-	<sh:description xml:lang="fr">La catégorie d’œuvre est une large catégorisation de l’œuvre déterminée par la forme de l'expression représentative de celle-ci [code RDA-FR, 6.2]</sh:description>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P610001">
-	<rdfs:comment xml:lang="fr">La catégorie d’œuvre est une large catégorisation de l’œuvre déterminée par la forme de l'expression représentative de celle-ci [code RDA-FR, 6.2]</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2005">
-	<owl:versionInfo xml:lang="fr">0.2.0</owl:versionInfo>
-	<sh:path rdf:resource="https://rdafr.fr/Elements#P610002"/>
-	<sh:name xml:lang="fr">a pour plan d'extension de l'oeuvre</sh:name>
-	<rdfs:seeAlso xml:lang="fr">6.3</rdfs:seeAlso>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#C100001">
-	<sh:property rdf:resource="https://rdafr.fr/Rules#R2005"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2005">
-	<sh:node rdf:resource="https://rdafr.fr/Elements#PlanExtensionOeuvre"/>
-	<sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P610002">
-	<rdfs:domain rdf:resource="https://rdafr.fr/Elements#C100001"/>
-	<rdfs:range rdf:resource="https://rdafr.fr/Elements#PlanExtensionOeuvre"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-	<rdfs:label xml:lang="fr">a pour plan d'extension de l'oeuvre</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2005">
-	<sh:description xml:lang="fr">L’élément Plan d’extension de l’œuvre permet d’indiquer l’intention du créateur quant aux modalités d’extension d’une œuvre. [code RDA-FR, 6.3]</sh:description>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P610002">
-	<rdfs:comment xml:lang="fr">L’élément Plan d’extension de l’œuvre permet d’indiquer l’intention du créateur quant aux modalités d’extension d’une œuvre. [code RDA-FR, 6.3]</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2006">
-	<owl:versionInfo xml:lang="fr">0.2.0</owl:versionInfo>
-	<sh:path rdf:resource="https://rdafr.fr/Elements#P610003"/>
-	<sh:name xml:lang="fr">a pour titre de l'oeuvre</sh:name>
-	<rdfs:seeAlso xml:lang="fr">6.4</rdfs:seeAlso>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#C100001">
-	<sh:property rdf:resource="https://rdafr.fr/Rules#R2006"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2006">
-	<sh:node rdf:resource="https://rdafr.fr/Elements#C100012"/>
-	<sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P610003">
-	<rdfs:domain rdf:resource="https://rdafr.fr/Elements#C100001"/>
-	<rdfs:range rdf:resource="https://rdafr.fr/Elements#C100012"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-	<rdfs:label xml:lang="fr">a pour titre de l'oeuvre</rdfs:label>
-	<rdfs:subPropertyOf rdf:resource="https://rdafr.fr/Elements#P100007"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2006">
-	<sh:description xml:lang="fr">Le titre de l’œuvre peut être un titre par lequel une œuvre est couramment désignée, ou bien un titre par lequel elle est identifiée dans les sources de référence, ou bien un titre figurant sur les manifestations qui la matérialisent. [code RDA-FR, 6.4]</sh:description>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P610003">
-	<rdfs:comment xml:lang="fr">Le titre de l’œuvre peut être un titre par lequel une œuvre est couramment désignée, ou bien un titre par lequel elle est identifiée dans les sources de référence, ou bien un titre figurant sur les manifestations qui la matérialisent. [code RDA-FR, 6.4]</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2007">
-	<owl:versionInfo xml:lang="fr">0.2.0</owl:versionInfo>
-	<sh:path rdf:resource="https://rdafr.fr/Elements#P610004"/>
-	<sh:name xml:lang="fr">a pour titre privilégié de l'oeuvre</sh:name>
-	<rdfs:seeAlso xml:lang="fr">6.4.2</rdfs:seeAlso>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#C100001">
-	<sh:property rdf:resource="https://rdafr.fr/Rules#R2007"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2007">
-	<sh:node rdf:resource="https://rdafr.fr/Elements#C100012"/>
-	<sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-	<sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P610004">
-	<rdfs:domain rdf:resource="https://rdafr.fr/Elements#C100001"/>
-	<rdfs:range rdf:resource="https://rdafr.fr/Elements#C100012"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-	<rdfs:label xml:lang="fr">a pour titre privilégié de l'oeuvre</rdfs:label>
-	<rdfs:subPropertyOf rdf:resource="https://rdafr.fr/Elements#P610003"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2007">
-	<sh:description xml:lang="fr">Le titre privilégié de l’œuvre est le titre ou la forme de titre choisie pour identifier l’œuvre. [code RDA-FR, 6.4.2]</sh:description>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P610004">
-	<rdfs:comment xml:lang="fr">Le titre privilégié de l’œuvre est le titre ou la forme de titre choisie pour identifier l’œuvre. [code RDA-FR, 6.4.2]</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2008">
-	<owl:versionInfo xml:lang="fr">0.2.0</owl:versionInfo>
-	<sh:path rdf:resource="https://rdafr.fr/Elements#P610005"/>
-	<sh:name xml:lang="fr">a pour titre privilégié supplémentaire de l'oeuvre</sh:name>
-	<rdfs:seeAlso xml:lang="fr">6.4.3</rdfs:seeAlso>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#C100001">
-	<sh:property rdf:resource="https://rdafr.fr/Rules#R2008"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2008">
-	<sh:node rdf:resource="https://rdafr.fr/Elements#C100012"/>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P610005">
-	<rdfs:domain rdf:resource="https://rdafr.fr/Elements#C100001"/>
-	<rdfs:range rdf:resource="https://rdafr.fr/Elements#C100012"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-	<rdfs:label xml:lang="fr">a pour titre privilégié supplémentaire de l'oeuvre</rdfs:label>
-	<rdfs:subPropertyOf rdf:resource="https://rdafr.fr/Elements#P610003"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2008">
-	<sh:description xml:lang="fr">Le titre privilégié supplémentaire est une autre forme du titre privilégié dans une langue ou une écriture différente et qui peut se substituer à celuici selon le contexte ou les utilisateurs visés. [code RDA-FR, 6.4.3]</sh:description>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P610005">
-	<rdfs:comment xml:lang="fr">Le titre privilégié supplémentaire est une autre forme du titre privilégié dans une langue ou une écriture différente et qui peut se substituer à celuici selon le contexte ou les utilisateurs visés. [code RDA-FR, 6.4.3]</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2009">
-	<owl:versionInfo xml:lang="fr">0.2.0</owl:versionInfo>
-	<sh:path rdf:resource="https://rdafr.fr/Elements#P610006"/>
-	<sh:name xml:lang="fr">a pour variante de titre de l'oeuvre</sh:name>
-	<rdfs:seeAlso xml:lang="fr">6.4.4</rdfs:seeAlso>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#C100001">
-	<sh:property rdf:resource="https://rdafr.fr/Rules#R2009"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2009">
-	<sh:node rdf:resource="https://rdafr.fr/Elements#C100012"/>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P610006">
-	<rdfs:domain rdf:resource="https://rdafr.fr/Elements#C100001"/>
-	<rdfs:range rdf:resource="https://rdafr.fr/Elements#C100012"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-	<rdfs:label xml:lang="fr">a pour variante de titre de l'oeuvre</rdfs:label>
-	<rdfs:subPropertyOf rdf:resource="https://rdafr.fr/Elements#P610003"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2009">
-	<sh:description xml:lang="fr">La variante de titre de l'oeuvre est un titre ou forme de titre sous laquelle une œuvre est connue et qui diffère du titre ou de la forme de titre
-choisie comme titre privilégié de cette œuvre [code RDA-FR, 6.4.4]</sh:description>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P610006">
-	<rdfs:comment xml:lang="fr">La variante de titre de l'oeuvre est un titre ou forme de titre sous laquelle une œuvre est connue et qui diffère du titre ou de la forme de titre
-choisie comme titre privilégié de cette œuvre [code RDA-FR, 6.4.4]</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2010">
-	<owl:versionInfo xml:lang="fr">0.2.0</owl:versionInfo>
-	<sh:path rdf:resource="https://rdafr.fr/Elements#P610007"/>
-	<sh:name xml:lang="fr">a pour identifiant de l'oeuvre</sh:name>
-	<rdfs:seeAlso xml:lang="fr">6.5</rdfs:seeAlso>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#C100001">
-	<sh:property rdf:resource="https://rdafr.fr/Rules#R2010"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2010">
-	<sh:node rdf:resource="https://rdafr.fr/Elements#C100012"/>
-	<sh:minCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:minCount>
-	<sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P610007">
-	<rdfs:domain rdf:resource="https://rdafr.fr/Elements#C100001"/>
-	<rdfs:range rdf:resource="https://rdafr.fr/Elements#C100012"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-	<rdfs:label xml:lang="fr">a pour identifiant de l'oeuvre</rdfs:label>
-	<rdfs:subPropertyOf rdf:resource="https://rdafr.fr/Elements#P100007"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2010">
-	<sh:description xml:lang="fr">Un identifiant de l’œuvre est une chaîne de caractères numériques et/ou alphabétiques associée de manière univoque à une œuvre et qui permet de la distinguer d’autres œuvres de même nature. [code RDA-FR, 6.5]</sh:description>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P610007">
-	<rdfs:comment xml:lang="fr">Un identifiant de l’œuvre est une chaîne de caractères numériques et/ou alphabétiques associée de manière univoque à une œuvre et qui permet de la distinguer d’autres œuvres de même nature. [code RDA-FR, 6.5]</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2011">
-	<owl:versionInfo xml:lang="fr">0.2.0</owl:versionInfo>
-	<sh:path rdf:resource="https://rdafr.fr/Elements#P610008"/>
-	<sh:name xml:lang="fr">a pour forme de l'oeuvre</sh:name>
-	<rdfs:seeAlso xml:lang="fr">6.6</rdfs:seeAlso>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#C100001">
-	<sh:property rdf:resource="https://rdafr.fr/Rules#R2011"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2011">
-	<sh:datatype rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
-	<sh:class rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P610008">
-	<rdfs:domain rdf:resource="https://rdafr.fr/Elements#C100001"/>
-	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-	<rdfs:label xml:lang="fr">a pour forme de l'oeuvre</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2011">
-	<sh:description xml:lang="fr">La forme de l’œuvre est une catégorie ou un genre auquel l’œuvre appartient. [code RDA-FR, 6.6]</sh:description>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P610008">
-	<rdfs:comment xml:lang="fr">La forme de l’œuvre est une catégorie ou un genre auquel l’œuvre appartient. [code RDA-FR, 6.6]</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2012">
-	<owl:versionInfo xml:lang="fr">0.2.0</owl:versionInfo>
-	<sh:path rdf:resource="https://rdafr.fr/Elements#P610009"/>
-	<sh:name xml:lang="fr">a pour mention de la forme de l'expression représentative de l'oeuvre</sh:name>
-	<rdfs:seeAlso xml:lang="fr">6.7</rdfs:seeAlso>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#C100001">
-	<sh:property rdf:resource="https://rdafr.fr/Rules#R2012"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2012">
-	<sh:node rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P610009">
-	<rdfs:domain rdf:resource="https://rdafr.fr/Elements#C100001"/>
-	<rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-	<rdfs:label xml:lang="fr">a pour mention de la forme de l'expression représentative de l'oeuvre</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2012">
-	<sh:description xml:lang="fr">[code RDA-FR, 6.7]</sh:description>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P610009">
-	<rdfs:comment xml:lang="fr">[code RDA-FR, 6.7]</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2013">
-	<owl:versionInfo xml:lang="fr">0.2.0</owl:versionInfo>
-	<sh:path rdf:resource="https://rdafr.fr/Elements#P610010"/>
-	<sh:name xml:lang="fr">a pour forme de l'expression représentative de l'oeuvre</sh:name>
-	<rdfs:seeAlso xml:lang="fr">6.7.2</rdfs:seeAlso>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#C100001">
-	<sh:property rdf:resource="https://rdafr.fr/Rules#R2013"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2013">
-	<sh:node rdf:resource="https://rdafr.fr/Elements#FormeExpression-TypeContenu"/>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P610010">
-	<rdfs:domain rdf:resource="https://rdafr.fr/Elements#C100001"/>
-	<rdfs:range rdf:resource="https://rdafr.fr/Elements#FormeExpression-TypeContenu"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-	<rdfs:label xml:lang="fr">a pour forme de l'expression représentative de l'oeuvre</rdfs:label>
-	<rdfs:subPropertyOf rdf:resource="https://rdafr.fr/Elements#P610009"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2013">
-	<sh:description xml:lang="fr">La forme de l’expression représentative de l’œuvre est le moyen par lequel l’œuvre a été réalisée à l’origine [code RDA-FR, 6.7.2]</sh:description>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P610010">
-	<rdfs:comment xml:lang="fr">La forme de l’expression représentative de l’œuvre est le moyen par lequel l’œuvre a été réalisée à l’origine [code RDA-FR, 6.7.2]</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2014">
-	<owl:versionInfo xml:lang="fr">0.2.0</owl:versionInfo>
-	<sh:path rdf:resource="https://rdafr.fr/Elements#P610011"/>
-	<sh:name xml:lang="fr">a pour importance relative de l'expression représentative de l'oeuvre</sh:name>
-	<rdfs:seeAlso xml:lang="fr">6.7.3</rdfs:seeAlso>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#C100001">
-	<sh:property rdf:resource="https://rdafr.fr/Rules#R2014"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2014">
-	<sh:node rdf:resource="https://rdafr.fr/Elements#ImportanceRelativeFormeExpression"/>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P610011">
-	<rdfs:domain rdf:resource="https://rdafr.fr/Elements#C100001"/>
-	<rdfs:range rdf:resource="https://rdafr.fr/Elements#ImportanceRelativeFormeExpression"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-	<rdfs:label xml:lang="fr">a pour importance relative de l'expression représentative de l'oeuvre</rdfs:label>
-	<rdfs:subPropertyOf rdf:resource="https://rdafr.fr/Elements#P610009"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2014">
-	<sh:description xml:lang="fr">L’importance relative de la forme de l’expression représentative de l'oeuvre permet de préciser, pour des formes de l’expression présentes mais qui n’apportent pas une contribution essentielle, la place qu’elles occupent dans la réalisation de l’expression. [code RDA-FR, 6.7.3]</sh:description>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P610011">
-	<rdfs:comment xml:lang="fr">L’importance relative de la forme de l’expression représentative de l'oeuvre permet de préciser, pour des formes de l’expression présentes mais qui n’apportent pas une contribution essentielle, la place qu’elles occupent dans la réalisation de l’expression. [code RDA-FR, 6.7.3]</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2015">
-	<owl:versionInfo xml:lang="fr">0.2.0</owl:versionInfo>
-	<sh:path rdf:resource="https://rdafr.fr/Elements#P610012"/>
-	<sh:name xml:lang="fr">a pour couverture de l'agrégat</sh:name>
-	<rdfs:seeAlso xml:lang="fr">6.7.4</rdfs:seeAlso>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#C100001">
-	<sh:property rdf:resource="https://rdafr.fr/Rules#R2015"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2015">
-	<sh:node rdf:resource="https://rdafr.fr/Elements#CouvertureAgregat"/>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P610012">
-	<rdfs:domain rdf:resource="https://rdafr.fr/Elements#C100001"/>
-	<rdfs:range rdf:resource="https://rdafr.fr/Elements#CouvertureAgregat"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-	<rdfs:label xml:lang="fr">a pour couverture de l'agrégat</rdfs:label>
-	<rdfs:subPropertyOf rdf:resource="https://rdafr.fr/Elements#P610009"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2015">
-	<sh:description xml:lang="fr">La couverture de l’agrégat permet de préciser, dans le cas d’une expression d’agrégation, si la ou les formes de l’expression s’appliquent à toutes les expressions réunies dans l’agrégat ou seulement à une partie d’entre elles. [code RDA-FR, 6.7.4]</sh:description>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P610012">
-	<rdfs:comment xml:lang="fr">La couverture de l’agrégat permet de préciser, dans le cas d’une expression d’agrégation, si la ou les formes de l’expression s’appliquent à toutes les expressions réunies dans l’agrégat ou seulement à une partie d’entre elles. [code RDA-FR, 6.7.4]</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2016">
-	<owl:versionInfo xml:lang="fr">0.2.0</owl:versionInfo>
-	<sh:path rdf:resource="https://rdafr.fr/Elements#P610013"/>
-	<sh:name xml:lang="fr">a pour mention de la langue de l'expression représentative de l'oeuvre</sh:name>
-	<rdfs:seeAlso xml:lang="fr">6.8</rdfs:seeAlso>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#C100001">
-	<sh:property rdf:resource="https://rdafr.fr/Rules#R2016"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2016">
-	<sh:node rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P610013">
-	<rdfs:domain rdf:resource="https://rdafr.fr/Elements#C100001"/>
-	<rdfs:range xml:lang="fr">#REF!</rdfs:range>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-	<rdfs:label xml:lang="fr">a pour mention de la langue de l'expression représentative de l'oeuvre</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2016">
-	<sh:description xml:lang="fr">[code RDA-FR, 6.8]</sh:description>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P610013">
-	<rdfs:comment xml:lang="fr">[code RDA-FR, 6.8]</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2017">
-	<owl:versionInfo xml:lang="fr">0.2.0</owl:versionInfo>
-	<sh:path rdf:resource="https://rdafr.fr/Elements#P610014"/>
-	<sh:name xml:lang="fr">a pour langue de l'expression représentative de l'oeuvre</sh:name>
-	<rdfs:seeAlso xml:lang="fr">6.8.2</rdfs:seeAlso>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#C100001">
-	<sh:property rdf:resource="https://rdafr.fr/Rules#R2017"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2017">
-	<sh:node rdf:resource="https://rdafr.fr/Elements#Langue"/>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P610014">
-	<rdfs:domain rdf:resource="https://rdafr.fr/Elements#C100001"/>
-	<rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-	<rdfs:label xml:lang="fr">a pour langue de l'expression représentative de l'oeuvre</rdfs:label>
-	<rdfs:subPropertyOf rdf:resource="https://rdafr.fr/Elements#P610013"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2017">
-	<sh:description xml:lang="fr">La langue de l’expression représentative de l’œuvre est la langue dans laquelle l’œuvre a été réalisée par son créateur. [code RDA-FR, 6.8.2]</sh:description>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P610014">
-	<rdfs:comment xml:lang="fr">La langue de l’expression représentative de l’œuvre est la langue dans laquelle l’œuvre a été réalisée par son créateur. [code RDA-FR, 6.8.2]</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2018">
-	<owl:versionInfo xml:lang="fr">0.2.0</owl:versionInfo>
-	<sh:path rdf:resource="https://rdafr.fr/Elements#P610015"/>
-	<sh:name xml:lang="fr">a pour aspect de traduction de l'expression représentative de l'oeuvre</sh:name>
-	<rdfs:seeAlso xml:lang="fr">6.8.3</rdfs:seeAlso>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#C100001">
-	<sh:property rdf:resource="https://rdafr.fr/Rules#R2018"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2018">
-	<sh:node rdf:resource="https://rdafr.fr/Elements#AspectTraduction"/>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P610015">
-	<rdfs:domain rdf:resource="https://rdafr.fr/Elements#C100001"/>
-	<rdfs:range rdf:resource="https://rdafr.fr/Elements#AspectTraduction"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-	<rdfs:label xml:lang="fr">a pour aspect de traduction de l'expression représentative de l'oeuvre</rdfs:label>
-	<rdfs:subPropertyOf rdf:resource="https://rdafr.fr/Elements#P610013"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2018">
-	<sh:description xml:lang="fr">L’aspect de traduction permet de préciser si l’expression est une
-traduction d’une autre expression et, dans ce cas, s’il s’agit d’une
-traduction directe ou d’une traduction effectuée à partir d’une traduction
-intermédiaire. [code RDA-FR, 6.8.3]</sh:description>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P610015">
-	<rdfs:comment xml:lang="fr">L’aspect de traduction permet de préciser si l’expression est une
-traduction d’une autre expression et, dans ce cas, s’il s’agit d’une
-traduction directe ou d’une traduction effectuée à partir d’une traduction
-intermédiaire. [code RDA-FR, 6.8.3]</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2019">
-	<owl:versionInfo xml:lang="fr">0.2.0</owl:versionInfo>
-	<sh:path rdf:resource="https://rdafr.fr/Elements#P610016"/>
-	<sh:name xml:lang="fr">a pour couverture de l'agrégat</sh:name>
-	<rdfs:seeAlso xml:lang="fr">6.8.4</rdfs:seeAlso>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#C100001">
-	<sh:property rdf:resource="https://rdafr.fr/Rules#R2019"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2019">
-	<sh:node rdf:resource="https://rdafr.fr/Elements#CouvertureAgregat"/>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P610016">
-	<rdfs:domain rdf:resource="https://rdafr.fr/Elements#C100001"/>
-	<rdfs:range rdf:resource="https://rdafr.fr/Elements#CouvertureAgregat"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-	<rdfs:label xml:lang="fr">a pour couverture de l'agrégat</rdfs:label>
-	<rdfs:subPropertyOf rdf:resource="https://rdafr.fr/Elements#P610013"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2019">
-	<sh:description xml:lang="fr">La couverture de l’agrégat permet de préciser, dans le cas d’une expression d’agrégation, si la ou les formes de l’expression s’appliquent à toutes les expressions réunies dans l’agrégat ou seulement à une partie d’entre elles. [code RDA-FR, 6.8.4]</sh:description>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P610016">
-	<rdfs:comment xml:lang="fr">La couverture de l’agrégat permet de préciser, dans le cas d’une expression d’agrégation, si la ou les formes de l’expression s’appliquent à toutes les expressions réunies dans l’agrégat ou seulement à une partie d’entre elles. [code RDA-FR, 6.8.4]</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2020">
-	<owl:versionInfo xml:lang="fr">0.2.0</owl:versionInfo>
-	<sh:path rdf:resource="https://rdafr.fr/Elements#P610017"/>
-	<sh:name xml:lang="fr">a pour périmètre d'application de la langue de l'expression représentative de l'oeuvre</sh:name>
-	<rdfs:seeAlso xml:lang="fr">6.8.5</rdfs:seeAlso>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#C100001">
-	<sh:property rdf:resource="https://rdafr.fr/Rules#R2020"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2020">
-	<sh:node rdf:resource="https://rdafr.fr/Elements#PerimetreApplicationLangue"/>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P610017">
-	<rdfs:domain rdf:resource="https://rdafr.fr/Elements#C100001"/>
-	<rdfs:range rdf:resource="https://rdafr.fr/Elements#PerimetreApplicationLangue"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-	<rdfs:label xml:lang="fr">a pour périmètre d'application de la langue de l'expression représentative de l'oeuvre</rdfs:label>
-	<rdfs:subPropertyOf rdf:resource="https://rdafr.fr/Elements#P610013"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2020">
-	<sh:description xml:lang="fr">Le périmètre d’application de la langue permet de qualifier la langue de certaines composantes de l’expression représentative de l'oeuvre décrite. [code RDA-FR, 6.8.5]</sh:description>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P610017">
-	<rdfs:comment xml:lang="fr">Le périmètre d’application de la langue permet de qualifier la langue de certaines composantes de l’expression représentative de l'oeuvre décrite. [code RDA-FR, 6.8.5]</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2021">
-	<owl:versionInfo xml:lang="fr">0.2.0</owl:versionInfo>
-	<sh:path rdf:resource="https://rdafr.fr/Elements#P610018"/>
-	<sh:name xml:lang="fr">a pour particularité de la langue de l'expression représentative de l'oeuvre</sh:name>
-	<rdfs:seeAlso xml:lang="fr">6.8.6</rdfs:seeAlso>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#C100001">
-	<sh:property rdf:resource="https://rdafr.fr/Rules#R2021"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2021">
-	<sh:datatype rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
-	<sh:class rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P610018">
-	<rdfs:domain rdf:resource="https://rdafr.fr/Elements#C100001"/>
-	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-	<rdfs:label xml:lang="fr">a pour particularité de la langue de l'expression représentative de l'oeuvre</rdfs:label>
-	<rdfs:subPropertyOf rdf:resource="https://rdafr.fr/Elements#P610013"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2021">
-	<sh:description xml:lang="fr">L’élément Particularités de la langue permet d’apporter des informations complémentaires sur la ou les langue(s) donnée(s) dans l’élément Langue de l’expression représentative de l'oeuvre [code RDA-FR, 6.8.6]</sh:description>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P610018">
-	<rdfs:comment xml:lang="fr">L’élément Particularités de la langue permet d’apporter des informations complémentaires sur la ou les langue(s) donnée(s) dans l’élément Langue de l’expression représentative de l'oeuvre [code RDA-FR, 6.8.6]</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2022">
-	<owl:versionInfo xml:lang="fr">0.2.0</owl:versionInfo>
-	<sh:path rdf:resource="https://rdafr.fr/Elements#P610019"/>
-	<sh:name xml:lang="fr">a pour mention de la date de l'oeuvre</sh:name>
-	<rdfs:seeAlso xml:lang="fr">6.9</rdfs:seeAlso>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#C100001">
-	<sh:property rdf:resource="https://rdafr.fr/Rules#R2022"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2022">
-	<sh:node rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P610019">
-	<rdfs:domain rdf:resource="https://rdafr.fr/Elements#C100001"/>
-	<rdfs:range rdf:resource="http://www.w3.org/2004/02/skos/core#Concept"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-	<rdfs:label xml:lang="fr">a pour mention de la date de l'oeuvre</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2022">
-	<sh:description xml:lang="fr">[code RDA-FR, 6.9]</sh:description>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P610019">
-	<rdfs:comment xml:lang="fr">[code RDA-FR, 6.9]</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2023">
-	<owl:versionInfo xml:lang="fr">0.2.0</owl:versionInfo>
-	<sh:path rdf:resource="https://rdafr.fr/Elements#P610020"/>
-	<sh:name xml:lang="fr">a pour date de l'oeuvre</sh:name>
-	<rdfs:seeAlso xml:lang="fr">6.9.2</rdfs:seeAlso>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#C100001">
-	<sh:property rdf:resource="https://rdafr.fr/Rules#R2023"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2023">
-	<sh:node rdf:resource="https://rdafr.fr/Elements#C100010"/>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P610020">
-	<rdfs:domain rdf:resource="https://rdafr.fr/Elements#C100001"/>
-	<rdfs:range rdf:resource="https://rdafr.fr/Elements#C100010"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-	<rdfs:label xml:lang="fr">a pour date de l'oeuvre</rdfs:label>
-	<rdfs:subPropertyOf rdf:resource="https://rdafr.fr/Elements#P610019"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2023">
-	<sh:description xml:lang="fr">La date de l'oeuvre correspond à des évènements qui sont jugés significatifs dans la vie d’une œuvre. [code RDA-FR, 6.9.2]</sh:description>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P610020">
-	<rdfs:comment xml:lang="fr">La date de l'oeuvre correspond à des évènements qui sont jugés significatifs dans la vie d’une œuvre. [code RDA-FR, 6.9.2]</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2024">
-	<owl:versionInfo xml:lang="fr">0.2.0</owl:versionInfo>
-	<sh:path rdf:resource="https://rdafr.fr/Elements#P610021"/>
-	<sh:name xml:lang="fr">a pour nature de la date de l'oeuvre</sh:name>
-	<rdfs:seeAlso xml:lang="fr">6.9.3</rdfs:seeAlso>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#C100001">
-	<sh:property rdf:resource="https://rdafr.fr/Rules#R2024"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2024">
-	<sh:datatype rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
-	<sh:class rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P610021">
-	<rdfs:domain rdf:resource="https://rdafr.fr/Elements#C100001"/>
-	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-	<rdfs:label xml:lang="fr">a pour nature de la date de l'oeuvre</rdfs:label>
-	<rdfs:subPropertyOf rdf:resource="https://rdafr.fr/Elements#P610019"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2024">
-	<sh:description xml:lang="fr">La nature de la date de l’œuvre permet de préciser, pour chaque date associée à une œuvre, la nature de cette date [code RDA-FR, 6.9.3]</sh:description>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P610021">
-	<rdfs:comment xml:lang="fr">La nature de la date de l’œuvre permet de préciser, pour chaque date associée à une œuvre, la nature de cette date [code RDA-FR, 6.9.3]</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2025">
-	<owl:versionInfo xml:lang="fr">0.2.0</owl:versionInfo>
-	<sh:path rdf:resource="https://rdafr.fr/Elements#P610022"/>
-	<sh:name xml:lang="fr">a pour date privilégiée de l'oeuvre</sh:name>
-	<rdfs:seeAlso xml:lang="fr">6.9.4</rdfs:seeAlso>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#C100001">
-	<sh:property rdf:resource="https://rdafr.fr/Rules#R2025"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2025">
-	<sh:node rdf:resource="https://rdafr.fr/Elements#C100010"/>
-	<sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P610022">
-	<rdfs:domain rdf:resource="https://rdafr.fr/Elements#C100001"/>
-	<rdfs:range rdf:resource="https://rdafr.fr/Elements#C100010"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-	<rdfs:label xml:lang="fr">a pour date privilégiée de l'oeuvre</rdfs:label>
-	<rdfs:subPropertyOf rdf:resource="https://rdafr.fr/Elements#P610019"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2025">
-	<sh:description xml:lang="fr">La date privilégiée de l’œuvre est une date choisie par convention parmi les différentes dates associées à l’œuvre. [code RDA-FR, 6.9.4]</sh:description>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P610022">
-	<rdfs:comment xml:lang="fr">La date privilégiée de l’œuvre est une date choisie par convention parmi les différentes dates associées à l’œuvre. [code RDA-FR, 6.9.4]</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2027">
-	<owl:versionInfo xml:lang="fr">0.2.0</owl:versionInfo>
-	<sh:path rdf:resource="https://rdafr.fr/Elements#P610024"/>
-	<sh:name xml:lang="fr">a pour lieu associé à l'oeuvre</sh:name>
-	<rdfs:seeAlso xml:lang="fr">6.10.2</rdfs:seeAlso>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#C100001">
-	<sh:property rdf:resource="https://rdafr.fr/Rules#R2027"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2027">
-	<sh:node rdf:resource="https://rdafr.fr/Elements#C100009"/>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P610024">
-	<rdfs:domain rdf:resource="https://rdafr.fr/Elements#C100001"/>
-	<rdfs:range rdf:resource="https://rdafr.fr/Elements#C100009"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-	<rdfs:label xml:lang="fr">a pour lieu associé à l'oeuvre</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2027">
-	<sh:description xml:lang="fr">Le lieu associé à l'oeuvre correspond à des évènements qui sont jugés significatifs dans la vie d’une œuvre. [code RDA-FR, 6.10.2]</sh:description>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P610024">
-	<rdfs:comment xml:lang="fr">Le lieu associé à l'oeuvre correspond à des évènements qui sont jugés significatifs dans la vie d’une œuvre. [code RDA-FR, 6.10.2]</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2028">
-	<owl:versionInfo xml:lang="fr">0.2.0</owl:versionInfo>
-	<sh:path rdf:resource="https://rdafr.fr/Elements#P610025"/>
-	<sh:name xml:lang="fr">a pour nature du lieu associé à l'oeuvre</sh:name>
-	<rdfs:seeAlso xml:lang="fr">6.10.3</rdfs:seeAlso>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#C100001">
-	<sh:property rdf:resource="https://rdafr.fr/Rules#R2028"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2028">
-	<sh:datatype rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
-	<sh:class rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P610025">
-	<rdfs:domain rdf:resource="https://rdafr.fr/Elements#C100001"/>
-	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-	<rdfs:label xml:lang="fr">a pour nature du lieu associé à l'oeuvre</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2028">
-	<sh:description xml:lang="fr">La nature du lieu associé à l’œuvre permet de préciser, pour chaque lieu associé à une œuvre, la nature de ce lieu. [code RDA-FR, 6.10.3]</sh:description>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P610025">
-	<rdfs:comment xml:lang="fr">La nature du lieu associé à l’œuvre permet de préciser, pour chaque lieu associé à une œuvre, la nature de ce lieu. [code RDA-FR, 6.10.3]</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2029">
-	<owl:versionInfo xml:lang="fr">0.2.0</owl:versionInfo>
-	<sh:path rdf:resource="https://rdafr.fr/Elements#P610026"/>
-	<sh:name xml:lang="fr">a pour autre caractéristique distinctive de l'oeuvre</sh:name>
-	<rdfs:seeAlso xml:lang="fr">6.11</rdfs:seeAlso>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#C100001">
-	<sh:property rdf:resource="https://rdafr.fr/Rules#R2029"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2029">
-	<sh:datatype rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
-	<sh:class rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P610026">
-	<rdfs:domain rdf:resource="https://rdafr.fr/Elements#C100001"/>
-	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-	<rdfs:label xml:lang="fr">a pour autre caractéristique distinctive de l'oeuvre</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2029">
-	<sh:description xml:lang="fr">Une autre caractéristique distinctive de l’œuvre est une caractéristique autre que la forme de l’œuvre, la date de l’œuvre ou le lieu associé à l’œuvre, servant à distinguer une œuvre d’une autre œuvre portant le même titre ou à la différencier du nom d’une personne, famille ou collectivité. [code RDA-FR, 6.11]</sh:description>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P610026">
-	<rdfs:comment xml:lang="fr">Une autre caractéristique distinctive de l’œuvre est une caractéristique autre que la forme de l’œuvre, la date de l’œuvre ou le lieu associé à l’œuvre, servant à distinguer une œuvre d’une autre œuvre portant le même titre ou à la différencier du nom d’une personne, famille ou collectivité. [code RDA-FR, 6.11]</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2030">
-	<owl:versionInfo xml:lang="fr">0.2.0</owl:versionInfo>
-	<sh:path rdf:resource="https://rdafr.fr/Elements#P610027"/>
-	<sh:name xml:lang="fr">a pour caractéristique de couleur de l'expression représentative de l'oeuvre</sh:name>
-	<rdfs:seeAlso xml:lang="fr">6.12</rdfs:seeAlso>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#C100001">
-	<sh:property rdf:resource="https://rdafr.fr/Rules#R2030"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2030">
-	<sh:node rdf:resource="https://rdafr.fr/Elements#CaracteristiqueCouleur"/>
-	<sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P610027">
-	<rdfs:domain rdf:resource="https://rdafr.fr/Elements#C100001"/>
-	<rdfs:range rdf:resource="https://rdafr.fr/Elements#CaracteristiqueCouleur"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-	<rdfs:label xml:lang="fr">a pour caractéristique de couleur de l'expression représentative de l'oeuvre</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2030">
-	<sh:description xml:lang="fr">La caractéristique de couleur de l’expression représentative de l’œuvre est la présence de couleur, teinte, etc. dès la création de l’œuvre. [code RDA-FR, 6.12]</sh:description>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P610027">
-	<rdfs:comment xml:lang="fr">La caractéristique de couleur de l’expression représentative de l’œuvre est la présence de couleur, teinte, etc. dès la création de l’œuvre. [code RDA-FR, 6.12]</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2031">
-	<owl:versionInfo xml:lang="fr">0.2.0</owl:versionInfo>
-	<sh:path rdf:resource="https://rdafr.fr/Elements#P610028"/>
-	<sh:name xml:lang="fr">a pour caractéristique sonore de l'expression représentative de l'oeuvre</sh:name>
-	<rdfs:seeAlso xml:lang="fr">6.13</rdfs:seeAlso>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#C100001">
-	<sh:property rdf:resource="https://rdafr.fr/Rules#R2031"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2031">
-	<sh:node rdf:resource="https://rdafr.fr/Elements#CaracteristiqueSonore"/>
-	<sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P610028">
-	<rdfs:domain rdf:resource="https://rdafr.fr/Elements#C100001"/>
-	<rdfs:range rdf:resource="https://rdafr.fr/Elements#CaracteristiqueSonore"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#ObjectProperty"/>
-	<rdfs:label xml:lang="fr">a pour caractéristique sonore de l'expression représentative de l'oeuvre</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2031">
-	<sh:description xml:lang="fr">La caractéristique sonore de l'expression représentative de l'œuvre est le son présent dès l'origine dans une œuvre qui n’est pas constituée principalement de son enregistré. [code RDA-FR, 6.13]</sh:description>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P610028">
-	<rdfs:comment xml:lang="fr">La caractéristique sonore de l'expression représentative de l'œuvre est le son présent dès l'origine dans une œuvre qui n’est pas constituée principalement de son enregistré. [code RDA-FR, 6.13]</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2032">
-	<owl:versionInfo xml:lang="fr">0.2.0</owl:versionInfo>
-	<sh:path rdf:resource="https://rdafr.fr/Elements#P610029"/>
-	<sh:name xml:lang="fr">a pour contenu annexe de l'oeuvre</sh:name>
-	<rdfs:seeAlso xml:lang="fr">6.14</rdfs:seeAlso>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#C100001">
-	<sh:property rdf:resource="https://rdafr.fr/Rules#R2032"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2032">
-	<sh:datatype rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
-	<sh:class rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P610029">
-	<rdfs:domain rdf:resource="https://rdafr.fr/Elements#C100001"/>
-	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-	<rdfs:label xml:lang="fr">a pour contenu annexe de l'oeuvre</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2032">
-	<sh:description xml:lang="fr">Le contenu annexe de l'œuvre permet de signaler des annexes (bibliographie, index, glossaire, etc.) faisant intrinsèquement partie de l’œuvre. [code RDA-FR, 6.14]</sh:description>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P610029">
-	<rdfs:comment xml:lang="fr">Le contenu annexe de l'œuvre permet de signaler des annexes (bibliographie, index, glossaire, etc.) faisant intrinsèquement partie de l’œuvre. [code RDA-FR, 6.14]</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2033">
-	<owl:versionInfo xml:lang="fr">0.2.0</owl:versionInfo>
-	<sh:path rdf:resource="https://rdafr.fr/Elements#P610030"/>
-	<sh:name xml:lang="fr">a pour contenu illustratif de l'oeuvre</sh:name>
-	<rdfs:seeAlso xml:lang="fr">6.15</rdfs:seeAlso>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#C100001">
-	<sh:property rdf:resource="https://rdafr.fr/Rules#R2033"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2033">
-	<sh:datatype rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
-	<sh:class rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P610030">
-	<rdfs:domain rdf:resource="https://rdafr.fr/Elements#C100001"/>
-	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-	<rdfs:label xml:lang="fr">a pour contenu illustratif de l'oeuvre</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2033">
-	<sh:description xml:lang="fr">Le contenu illustratif de l'œuvre permet de signaler des éléments illustratifs (photographies, graphiques, cartes, etc.) considérés comme minoritaires mais faisant intrinsèquement partie de l’œuvre. [code RDA-FR, 6.15]</sh:description>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P610030">
-	<rdfs:comment xml:lang="fr">Le contenu illustratif de l'œuvre permet de signaler des éléments illustratifs (photographies, graphiques, cartes, etc.) considérés comme minoritaires mais faisant intrinsèquement partie de l’œuvre. [code RDA-FR, 6.15]</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2034">
-	<owl:versionInfo xml:lang="fr">0.2.0</owl:versionInfo>
-	<sh:path rdf:resource="https://rdafr.fr/Elements#P610031"/>
-	<sh:name xml:lang="fr">a pour historique de l'oeuvre</sh:name>
-	<rdfs:seeAlso xml:lang="fr">6.16</rdfs:seeAlso>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#C100001">
-	<sh:property rdf:resource="https://rdafr.fr/Rules#R2034"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2034">
-	<sh:datatype rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
-	<sh:class rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P610031">
-	<rdfs:domain rdf:resource="https://rdafr.fr/Elements#C100001"/>
-	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-	<rdfs:label xml:lang="fr">a pour historique de l'oeuvre</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2034">
-	<sh:description xml:lang="fr">L’historique de l’œuvre contient des informations concernant les événements survenus dans l’histoire de l’œuvre. [code RDA-FR, 6.16]</sh:description>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P610031">
-	<rdfs:comment xml:lang="fr">L’historique de l’œuvre contient des informations concernant les événements survenus dans l’histoire de l’œuvre. [code RDA-FR, 6.16]</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2035">
-	<owl:versionInfo xml:lang="fr">0.2.0</owl:versionInfo>
-	<sh:path rdf:resource="https://rdafr.fr/Elements#P610032"/>
-	<sh:name xml:lang="fr">a pour nature du contenu de l'oeuvre</sh:name>
-	<rdfs:seeAlso xml:lang="fr">6.17</rdfs:seeAlso>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#C100001">
-	<sh:property rdf:resource="https://rdafr.fr/Rules#R2035"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2035">
-	<sh:datatype rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
-	<sh:class rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P610032">
-	<rdfs:domain rdf:resource="https://rdafr.fr/Elements#C100001"/>
-	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-	<rdfs:label xml:lang="fr">a pour nature du contenu de l'oeuvre</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2035">
-	<sh:description xml:lang="fr">La nature du contenu de l'oeuvre permet de compléter les informations sur la forme de l'oeuvre. [code RDA-FR, 6.17]</sh:description>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P610032">
-	<rdfs:comment xml:lang="fr">La nature du contenu de l'oeuvre permet de compléter les informations sur la forme de l'oeuvre. [code RDA-FR, 6.17]</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2036">
-	<owl:versionInfo xml:lang="fr">0.2.0</owl:versionInfo>
-	<sh:path rdf:resource="https://rdafr.fr/Elements#P610033"/>
-	<sh:name xml:lang="fr">a pour couverture du contenu de l'oeuvre</sh:name>
-	<rdfs:seeAlso xml:lang="fr">6.18</rdfs:seeAlso>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#C100001">
-	<sh:property rdf:resource="https://rdafr.fr/Rules#R2036"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2036">
-	<sh:datatype rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
-	<sh:class rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P610033">
-	<rdfs:domain rdf:resource="https://rdafr.fr/Elements#C100001"/>
-	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-	<rdfs:label xml:lang="fr">a pour couverture du contenu de l'oeuvre</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2036">
-	<sh:description xml:lang="fr">La couverture du contenu de l’œuvre est sa couverture chronologique et/ou géographique. [code RDA-FR, 6.18]</sh:description>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P610033">
-	<rdfs:comment xml:lang="fr">La couverture du contenu de l’œuvre est sa couverture chronologique et/ou géographique. [code RDA-FR, 6.18]</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2037">
-	<owl:versionInfo xml:lang="fr">0.2.0</owl:versionInfo>
-	<sh:path rdf:resource="https://rdafr.fr/Elements#P610034"/>
-	<sh:name xml:lang="fr">a pour public destinataire de l'oeuvre</sh:name>
-	<rdfs:seeAlso xml:lang="fr">6.19</rdfs:seeAlso>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#C100001">
-	<sh:property rdf:resource="https://rdafr.fr/Rules#R2037"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2037">
-	<sh:datatype rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
-	<sh:class rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P610034">
-	<rdfs:domain rdf:resource="https://rdafr.fr/Elements#C100001"/>
-	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-	<rdfs:label xml:lang="fr">a pour public destinataire de l'oeuvre</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2037">
-	<sh:description xml:lang="fr">Le public destinataire de l’œuvre est la catégorie d’utilisateurs à laquelle l’œuvre est destinée ou supposée convenir. [code RDA-FR, 6.19]</sh:description>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P610034">
-	<rdfs:comment xml:lang="fr">Le public destinataire de l’œuvre est la catégorie d’utilisateurs à laquelle l’œuvre est destinée ou supposée convenir. [code RDA-FR, 6.19]</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2038">
-	<owl:versionInfo xml:lang="fr">0.2.0</owl:versionInfo>
-	<sh:path rdf:resource="https://rdafr.fr/Elements#P610035"/>
-	<sh:name xml:lang="fr">a pour restriction d'accès à l'oeuvre</sh:name>
-	<rdfs:seeAlso xml:lang="fr">6.20</rdfs:seeAlso>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#C100001">
-	<sh:property rdf:resource="https://rdafr.fr/Rules#R2038"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2038">
-	<sh:datatype rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
-	<sh:class rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P610035">
-	<rdfs:domain rdf:resource="https://rdafr.fr/Elements#C100001"/>
-	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-	<rdfs:label xml:lang="fr">a pour restriction d'accès à l'oeuvre</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2038">
-	<sh:description xml:lang="fr">Une restriction d’accès à l’œuvre est une disposition contractuelle, légale ou réglementaire qui impose une limitation, partielle ou totale, de la possibilité de consulter l’œuvre décrite. [code RDA-FR, 6.20]</sh:description>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P610035">
-	<rdfs:comment xml:lang="fr">Une restriction d’accès à l’œuvre est une disposition contractuelle, légale ou réglementaire qui impose une limitation, partielle ou totale, de la possibilité de consulter l’œuvre décrite. [code RDA-FR, 6.20]</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2039">
-	<owl:versionInfo xml:lang="fr">0.2.0</owl:versionInfo>
-	<sh:path rdf:resource="https://rdafr.fr/Elements#P610036"/>
-	<sh:name xml:lang="fr">a pour mode de classement de l'oeuvre</sh:name>
-	<rdfs:seeAlso xml:lang="fr">6.21</rdfs:seeAlso>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#C100001">
-	<sh:property rdf:resource="https://rdafr.fr/Rules#R2039"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2039">
-	<sh:datatype rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-	<sh:maxCount rdf:datatype="http://www.w3.org/2001/XMLSchema#integer">1</sh:maxCount>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
-	<sh:class rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P610036">
-	<rdfs:domain rdf:resource="https://rdafr.fr/Elements#C100001"/>
-	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-	<rdfs:label xml:lang="fr">a pour mode de classement de l'oeuvre</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2039">
-	<sh:description xml:lang="fr">Le mode de classement de l’œuvre est l’organisation (alphabétique, chronologique, thématique ou selon tout autre critère ou combinaison de critères) adoptée par le créateur d’une œuvre agrégative. [code RDA-FR, 6.21]</sh:description>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P610036">
-	<rdfs:comment xml:lang="fr">Le mode de classement de l’œuvre est l’organisation (alphabétique, chronologique, thématique ou selon tout autre critère ou combinaison de critères) adoptée par le créateur d’une œuvre agrégative. [code RDA-FR, 6.21]</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2040">
-	<owl:versionInfo xml:lang="fr">0.2.0</owl:versionInfo>
-	<sh:path rdf:resource="https://rdafr.fr/Elements#P610037"/>
-	<sh:name xml:lang="fr">a pour résumé de l'oeuvre</sh:name>
-	<rdfs:seeAlso xml:lang="fr">6.22</rdfs:seeAlso>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#C100001">
-	<sh:property rdf:resource="https://rdafr.fr/Rules#R2040"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2040">
-	<sh:datatype rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
-	<sh:class rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P610037">
-	<rdfs:domain rdf:resource="https://rdafr.fr/Elements#C100001"/>
-	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-	<rdfs:label xml:lang="fr">a pour résumé de l'oeuvre</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2040">
-	<sh:description xml:lang="fr">Le résumé de l’œuvre est une indication des principaux concepts constitutifs de l’œuvre et/ou des articulations qui en définissent la structure. [code RDA-FR, 6.22]</sh:description>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P610037">
-	<rdfs:comment xml:lang="fr">Le résumé de l’œuvre est une indication des principaux concepts constitutifs de l’œuvre et/ou des articulations qui en définissent la structure. [code RDA-FR, 6.22]</rdfs:comment>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2041">
-	<owl:versionInfo xml:lang="fr">0.2.0</owl:versionInfo>
-	<sh:path rdf:resource="https://rdafr.fr/Elements#P610038"/>
-	<sh:name xml:lang="fr">a pour prix décerné à l'oeuvre</sh:name>
-	<rdfs:seeAlso xml:lang="fr">6.23</rdfs:seeAlso>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#C100001">
-	<sh:property rdf:resource="https://rdafr.fr/Rules#R2041"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2041">
-	<sh:datatype rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#Literal"/>
-	<sh:class rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P610038">
-	<rdfs:domain rdf:resource="https://rdafr.fr/Elements#C100001"/>
-	<rdfs:range rdf:resource="http://www.w3.org/2000/01/rdf-schema#Literal"/>
-	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#DatatypeProperty"/>
-	<rdfs:label xml:lang="fr">a pour prix décerné à l'oeuvre</rdfs:label>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Rules#R2041">
-	<sh:description xml:lang="fr">Un prix décerné à l’œuvre est une reconnaissance officielle d’excellence, etc. accordée à une œuvre par un organisme octroyant une récompense ou un prix. [code RDA-FR, 6.23]</sh:description>
-</rdf:Description>
-
-<rdf:Description rdf:about="https://rdafr.fr/Elements#P610038">
-	<rdfs:comment xml:lang="fr">Un prix décerné à l’œuvre est une reconnaissance officielle d’excellence, etc. accordée à une œuvre par un organisme octroyant une récompense ou un prix. [code RDA-FR, 6.23]</rdfs:comment>
 </rdf:Description>
 
 <rdf:Description rdf:about="https://rdafr.fr/Rules#R4004">
