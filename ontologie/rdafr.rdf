@@ -26,11 +26,11 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Ontology"/>
 	<rdfs:label xml:lang="fr">Profil d'application de l'ontologie RDA-FR</rdfs:label>
 	<dct:description xml:lang="fr">Profil d'application de l'ontologie RDA-FR pour le code de catalogage français RDA-FR. Il définit les règles et contraintes pour produire et valider les données RDF du graphe des données en appliquant l'ontologie RDA-FR.</dct:description>
-	<rdfs:comment xml:lang="fr">Version beta, partielle. Couvre la partie de l’ontologie RDA-FR relative aux classes : Oeuvre, Manifestation, Agent, Agent collectif, Collectivité, Famille, Groupe informel, Personne, Identité publique, Lieu, ainsi qu les référentiels qui leur sont associés. Elle comprend aussi les relations entre agents.</rdfs:comment>
+	<rdfs:comment xml:lang="fr">Version beta, partielle. Couvre la partie de l’ontologie RDA-FR relative aux classes : Manifestation, Agent, Agent collectif, Collectivité, Famille, Groupe informel, Personne, Identité publique, Lieu, ainsi qu les référentiels (vocabulaires contrôlés) qui leur sont associés. Elle comprend aussi les relations entre agents et celles qui impliquent la classe Lieu.</rdfs:comment>
 	<owl:versionInfo xml:lang="fr">0.2.0</owl:versionInfo>
 	<dct:conformsTo rdf:resource="https://www.w3.org/TR/shacl"/>
 	<dct:created rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2022-09-11</dct:created>
-	<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-10-17</dct:modified>
+	<dct:modified rdf:datatype="http://www.w3.org/2001/XMLSchema#date">2023-11-06</dct:modified>
 	<dct:license rdf:resource="https://www.etalab.gouv.fr/licence-ouverte-open-licence"/>
 	<dct:creator xml:lang="fr">BnF, Abes</dct:creator>
 	<dct:publisher xml:lang="fr">BnF, Abes</dct:publisher>
@@ -50,10 +50,10 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx6"/>
+	<sh:ignoredProperties rdf:nodeID="node1heq8qjk7x6"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hen8mvugx6">
+<rdf:Description rdf:nodeID="node1heq8qjk7x6">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -77,10 +77,10 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx7"/>
+	<sh:ignoredProperties rdf:nodeID="node1heq8qjk7x7"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hen8mvugx7">
+<rdf:Description rdf:nodeID="node1heq8qjk7x7">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -104,10 +104,10 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx8"/>
+	<sh:ignoredProperties rdf:nodeID="node1heq8qjk7x8"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hen8mvugx8">
+<rdf:Description rdf:nodeID="node1heq8qjk7x8">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -131,10 +131,10 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx9"/>
+	<sh:ignoredProperties rdf:nodeID="node1heq8qjk7x9"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hen8mvugx9">
+<rdf:Description rdf:nodeID="node1heq8qjk7x9">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -158,10 +158,10 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx10"/>
+	<sh:ignoredProperties rdf:nodeID="node1heq8qjk7x10"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hen8mvugx10">
+<rdf:Description rdf:nodeID="node1heq8qjk7x10">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -185,10 +185,10 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx11"/>
+	<sh:ignoredProperties rdf:nodeID="node1heq8qjk7x11"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hen8mvugx11">
+<rdf:Description rdf:nodeID="node1heq8qjk7x11">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -212,10 +212,10 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx12"/>
+	<sh:ignoredProperties rdf:nodeID="node1heq8qjk7x12"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hen8mvugx12">
+<rdf:Description rdf:nodeID="node1heq8qjk7x12">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -239,10 +239,10 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx13"/>
+	<sh:ignoredProperties rdf:nodeID="node1heq8qjk7x13"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hen8mvugx13">
+<rdf:Description rdf:nodeID="node1heq8qjk7x13">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -266,10 +266,10 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx14"/>
+	<sh:ignoredProperties rdf:nodeID="node1heq8qjk7x14"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hen8mvugx14">
+<rdf:Description rdf:nodeID="node1heq8qjk7x14">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -292,10 +292,10 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx15"/>
+	<sh:ignoredProperties rdf:nodeID="node1heq8qjk7x15"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hen8mvugx15">
+<rdf:Description rdf:nodeID="node1heq8qjk7x15">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -318,10 +318,10 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx16"/>
+	<sh:ignoredProperties rdf:nodeID="node1heq8qjk7x16"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hen8mvugx16">
+<rdf:Description rdf:nodeID="node1heq8qjk7x16">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -344,10 +344,10 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx17"/>
+	<sh:ignoredProperties rdf:nodeID="node1heq8qjk7x17"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hen8mvugx17">
+<rdf:Description rdf:nodeID="node1heq8qjk7x17">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -370,10 +370,10 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx18"/>
+	<sh:ignoredProperties rdf:nodeID="node1heq8qjk7x18"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hen8mvugx18">
+<rdf:Description rdf:nodeID="node1heq8qjk7x18">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -395,10 +395,10 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx19"/>
+	<sh:ignoredProperties rdf:nodeID="node1heq8qjk7x19"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hen8mvugx19">
+<rdf:Description rdf:nodeID="node1heq8qjk7x19">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -419,10 +419,10 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx20"/>
+	<sh:ignoredProperties rdf:nodeID="node1heq8qjk7x20"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hen8mvugx20">
+<rdf:Description rdf:nodeID="node1heq8qjk7x20">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -443,10 +443,10 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx21"/>
+	<sh:ignoredProperties rdf:nodeID="node1heq8qjk7x21"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hen8mvugx21">
+<rdf:Description rdf:nodeID="node1heq8qjk7x21">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -467,10 +467,10 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx22"/>
+	<sh:ignoredProperties rdf:nodeID="node1heq8qjk7x22"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hen8mvugx22">
+<rdf:Description rdf:nodeID="node1heq8qjk7x22">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -491,10 +491,10 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx23"/>
+	<sh:ignoredProperties rdf:nodeID="node1heq8qjk7x23"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hen8mvugx23">
+<rdf:Description rdf:nodeID="node1heq8qjk7x23">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -515,10 +515,10 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx24"/>
+	<sh:ignoredProperties rdf:nodeID="node1heq8qjk7x24"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hen8mvugx24">
+<rdf:Description rdf:nodeID="node1heq8qjk7x24">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -539,10 +539,10 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx25"/>
+	<sh:ignoredProperties rdf:nodeID="node1heq8qjk7x25"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hen8mvugx25">
+<rdf:Description rdf:nodeID="node1heq8qjk7x25">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -563,10 +563,10 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx26"/>
+	<sh:ignoredProperties rdf:nodeID="node1heq8qjk7x26"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hen8mvugx26">
+<rdf:Description rdf:nodeID="node1heq8qjk7x26">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -587,10 +587,10 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx27"/>
+	<sh:ignoredProperties rdf:nodeID="node1heq8qjk7x27"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hen8mvugx27">
+<rdf:Description rdf:nodeID="node1heq8qjk7x27">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -611,10 +611,10 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx28"/>
+	<sh:ignoredProperties rdf:nodeID="node1heq8qjk7x28"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hen8mvugx28">
+<rdf:Description rdf:nodeID="node1heq8qjk7x28">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -635,10 +635,10 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx29"/>
+	<sh:ignoredProperties rdf:nodeID="node1heq8qjk7x29"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hen8mvugx29">
+<rdf:Description rdf:nodeID="node1heq8qjk7x29">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -659,10 +659,10 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx30"/>
+	<sh:ignoredProperties rdf:nodeID="node1heq8qjk7x30"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hen8mvugx30">
+<rdf:Description rdf:nodeID="node1heq8qjk7x30">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -683,10 +683,10 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx31"/>
+	<sh:ignoredProperties rdf:nodeID="node1heq8qjk7x31"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hen8mvugx31">
+<rdf:Description rdf:nodeID="node1heq8qjk7x31">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -707,10 +707,10 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx32"/>
+	<sh:ignoredProperties rdf:nodeID="node1heq8qjk7x32"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hen8mvugx32">
+<rdf:Description rdf:nodeID="node1heq8qjk7x32">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -731,10 +731,10 @@
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx33"/>
+	<sh:ignoredProperties rdf:nodeID="node1heq8qjk7x33"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hen8mvugx33">
+<rdf:Description rdf:nodeID="node1heq8qjk7x33">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -761,10 +761,10 @@ d’autorité de noms, etc.) ;
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx34"/>
+	<sh:ignoredProperties rdf:nodeID="node1heq8qjk7x34"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hen8mvugx34">
+<rdf:Description rdf:nodeID="node1heq8qjk7x34">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -786,10 +786,10 @@ d’autorité de noms, etc.) ;
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx35"/>
+	<sh:ignoredProperties rdf:nodeID="node1heq8qjk7x35"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hen8mvugx35">
+<rdf:Description rdf:nodeID="node1heq8qjk7x35">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -810,10 +810,10 @@ d’autorité de noms, etc.) ;
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx36"/>
+	<sh:ignoredProperties rdf:nodeID="node1heq8qjk7x36"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hen8mvugx36">
+<rdf:Description rdf:nodeID="node1heq8qjk7x36">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -834,10 +834,10 @@ d’autorité de noms, etc.) ;
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx37"/>
+	<sh:ignoredProperties rdf:nodeID="node1heq8qjk7x37"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hen8mvugx37">
+<rdf:Description rdf:nodeID="node1heq8qjk7x37">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -859,10 +859,10 @@ d’autorité de noms, etc.) ;
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx38"/>
+	<sh:ignoredProperties rdf:nodeID="node1heq8qjk7x38"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hen8mvugx38">
+<rdf:Description rdf:nodeID="node1heq8qjk7x38">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -882,10 +882,10 @@ d’autorité de noms, etc.) ;
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx39"/>
+	<sh:ignoredProperties rdf:nodeID="node1heq8qjk7x39"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hen8mvugx39">
+<rdf:Description rdf:nodeID="node1heq8qjk7x39">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -905,10 +905,10 @@ d’autorité de noms, etc.) ;
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx40"/>
+	<sh:ignoredProperties rdf:nodeID="node1heq8qjk7x40"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hen8mvugx40">
+<rdf:Description rdf:nodeID="node1heq8qjk7x40">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -928,10 +928,10 @@ d’autorité de noms, etc.) ;
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx41"/>
+	<sh:ignoredProperties rdf:nodeID="node1heq8qjk7x41"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hen8mvugx41">
+<rdf:Description rdf:nodeID="node1heq8qjk7x41">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -951,10 +951,10 @@ d’autorité de noms, etc.) ;
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx42"/>
+	<sh:ignoredProperties rdf:nodeID="node1heq8qjk7x42"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hen8mvugx42">
+<rdf:Description rdf:nodeID="node1heq8qjk7x42">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -974,10 +974,10 @@ d’autorité de noms, etc.) ;
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx43"/>
+	<sh:ignoredProperties rdf:nodeID="node1heq8qjk7x43"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hen8mvugx43">
+<rdf:Description rdf:nodeID="node1heq8qjk7x43">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -997,10 +997,10 @@ d’autorité de noms, etc.) ;
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx44"/>
+	<sh:ignoredProperties rdf:nodeID="node1heq8qjk7x44"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hen8mvugx44">
+<rdf:Description rdf:nodeID="node1heq8qjk7x44">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -1020,10 +1020,10 @@ d’autorité de noms, etc.) ;
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx45"/>
+	<sh:ignoredProperties rdf:nodeID="node1heq8qjk7x45"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hen8mvugx45">
+<rdf:Description rdf:nodeID="node1heq8qjk7x45">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -1043,10 +1043,10 @@ d’autorité de noms, etc.) ;
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx46"/>
+	<sh:ignoredProperties rdf:nodeID="node1heq8qjk7x46"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hen8mvugx46">
+<rdf:Description rdf:nodeID="node1heq8qjk7x46">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -1066,10 +1066,10 @@ d’autorité de noms, etc.) ;
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx47"/>
+	<sh:ignoredProperties rdf:nodeID="node1heq8qjk7x47"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hen8mvugx47">
+<rdf:Description rdf:nodeID="node1heq8qjk7x47">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -1089,10 +1089,10 @@ d’autorité de noms, etc.) ;
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx48"/>
+	<sh:ignoredProperties rdf:nodeID="node1heq8qjk7x48"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hen8mvugx48">
+<rdf:Description rdf:nodeID="node1heq8qjk7x48">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -1112,10 +1112,10 @@ d’autorité de noms, etc.) ;
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx49"/>
+	<sh:ignoredProperties rdf:nodeID="node1heq8qjk7x49"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hen8mvugx49">
+<rdf:Description rdf:nodeID="node1heq8qjk7x49">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -1135,10 +1135,10 @@ d’autorité de noms, etc.) ;
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx50"/>
+	<sh:ignoredProperties rdf:nodeID="node1heq8qjk7x50"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hen8mvugx50">
+<rdf:Description rdf:nodeID="node1heq8qjk7x50">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -1158,10 +1158,10 @@ d’autorité de noms, etc.) ;
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx51"/>
+	<sh:ignoredProperties rdf:nodeID="node1heq8qjk7x51"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hen8mvugx51">
+<rdf:Description rdf:nodeID="node1heq8qjk7x51">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -1197,10 +1197,10 @@ d’autorité de noms, etc.) ;
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx52"/>
+	<sh:ignoredProperties rdf:nodeID="node1heq8qjk7x52"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hen8mvugx52">
+<rdf:Description rdf:nodeID="node1heq8qjk7x52">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -1220,10 +1220,10 @@ d’autorité de noms, etc.) ;
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx53"/>
+	<sh:ignoredProperties rdf:nodeID="node1heq8qjk7x53"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hen8mvugx53">
+<rdf:Description rdf:nodeID="node1heq8qjk7x53">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -1243,10 +1243,10 @@ d’autorité de noms, etc.) ;
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx54"/>
+	<sh:ignoredProperties rdf:nodeID="node1heq8qjk7x54"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hen8mvugx54">
+<rdf:Description rdf:nodeID="node1heq8qjk7x54">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -1266,10 +1266,10 @@ d’autorité de noms, etc.) ;
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx55"/>
+	<sh:ignoredProperties rdf:nodeID="node1heq8qjk7x55"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hen8mvugx55">
+<rdf:Description rdf:nodeID="node1heq8qjk7x55">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -1289,10 +1289,10 @@ d’autorité de noms, etc.) ;
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx56"/>
+	<sh:ignoredProperties rdf:nodeID="node1heq8qjk7x56"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hen8mvugx56">
+<rdf:Description rdf:nodeID="node1heq8qjk7x56">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -1312,10 +1312,10 @@ d’autorité de noms, etc.) ;
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx57"/>
+	<sh:ignoredProperties rdf:nodeID="node1heq8qjk7x57"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hen8mvugx57">
+<rdf:Description rdf:nodeID="node1heq8qjk7x57">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -1335,10 +1335,10 @@ d’autorité de noms, etc.) ;
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx58"/>
+	<sh:ignoredProperties rdf:nodeID="node1heq8qjk7x58"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hen8mvugx58">
+<rdf:Description rdf:nodeID="node1heq8qjk7x58">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -1358,10 +1358,10 @@ d’autorité de noms, etc.) ;
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx59"/>
+	<sh:ignoredProperties rdf:nodeID="node1heq8qjk7x59"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hen8mvugx59">
+<rdf:Description rdf:nodeID="node1heq8qjk7x59">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -1381,10 +1381,10 @@ d’autorité de noms, etc.) ;
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx60"/>
+	<sh:ignoredProperties rdf:nodeID="node1heq8qjk7x60"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hen8mvugx60">
+<rdf:Description rdf:nodeID="node1heq8qjk7x60">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -1404,10 +1404,10 @@ d’autorité de noms, etc.) ;
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx61"/>
+	<sh:ignoredProperties rdf:nodeID="node1heq8qjk7x61"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hen8mvugx61">
+<rdf:Description rdf:nodeID="node1heq8qjk7x61">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -1427,10 +1427,10 @@ d’autorité de noms, etc.) ;
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx62"/>
+	<sh:ignoredProperties rdf:nodeID="node1heq8qjk7x62"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hen8mvugx62">
+<rdf:Description rdf:nodeID="node1heq8qjk7x62">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -1454,10 +1454,10 @@ Ce même vocabulaire contrôlé fournit les valeurs pour la propriété 'a pour 
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx63"/>
+	<sh:ignoredProperties rdf:nodeID="node1heq8qjk7x63"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hen8mvugx63">
+<rdf:Description rdf:nodeID="node1heq8qjk7x63">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -1477,10 +1477,10 @@ Ce même vocabulaire contrôlé fournit les valeurs pour la propriété 'a pour 
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx64"/>
+	<sh:ignoredProperties rdf:nodeID="node1heq8qjk7x64"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hen8mvugx64">
+<rdf:Description rdf:nodeID="node1heq8qjk7x64">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -1502,10 +1502,10 @@ Ce même vocabulaire contrôlé fournit les valeurs pour la propriété 'a pour 
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx65"/>
+	<sh:ignoredProperties rdf:nodeID="node1heq8qjk7x65"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hen8mvugx65">
+<rdf:Description rdf:nodeID="node1heq8qjk7x65">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
@@ -1525,10 +1525,10 @@ Ce même vocabulaire contrôlé fournit les valeurs pour la propriété 'a pour 
 	<rdf:type rdf:resource="http://www.w3.org/2002/07/owl#Class"/>
 	<sh:nodeKind rdf:resource="http://www.w3.org/ns/shacl#IRI"/>
 	<sh:closed rdf:datatype="http://www.w3.org/2001/XMLSchema#boolean">false</sh:closed>
-	<sh:ignoredProperties rdf:nodeID="node1hen8mvugx66"/>
+	<sh:ignoredProperties rdf:nodeID="node1heq8qjk7x66"/>
 </rdf:Description>
 
-<rdf:Description rdf:nodeID="node1hen8mvugx66">
+<rdf:Description rdf:nodeID="node1heq8qjk7x66">
 	<rdf:first rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#type"/>
 	<rdf:rest rdf:resource="http://www.w3.org/1999/02/22-rdf-syntax-ns#nil"/>
 </rdf:Description>
