@@ -10,18 +10,50 @@
   dct:modified "2023-11-06"^^xsd:date;
   dct:publisher "BnF, Abes"@fr;
   dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Type de captation d'une expression"@fr;
-  skos:hasTopConcept <https://rdafr.fr/vocabulary/type-captation/1>, <https://rdafr.fr/vocabulary/type-captation/2> .
+  skos:hasTopConcept <https://rdafr.fr/vocabulary/type-captation/1>, <https://rdafr.fr/vocabulary/type-captation/2>,
+    <https://rdafr.fr/vocabulary/type-captation/3>, <https://rdafr.fr/vocabulary/type-captation/4>,
+    <https://rdafr.fr/vocabulary/type-captation/5>, <https://rdafr.fr/vocabulary/type-captation/6> .
 
 <https://rdafr.fr/vocabulary/type-captation/1> a skos:Concept;
   dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
+  skos:definition "Représentation/exécution ayant lieu en présence d’un auditoire."@fr;
   skos:inScheme <https://rdafr.fr/vocabulary/type-captation>;
-  skos:prefLabel "Captation sur le vif"@fr;
+  skos:prefLabel "en public"@fr;
   skos:topConceptOf <https://rdafr.fr/vocabulary/type-captation> .
 
 <https://rdafr.fr/vocabulary/type-captation/2> a skos:Concept;
   dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
+  skos:definition "Représentation/exécution n'ayant pas d'auditoire."@fr;
   skos:inScheme <https://rdafr.fr/vocabulary/type-captation>;
-  skos:prefLabel "Captation en studio"@fr;
+  skos:prefLabel "sans public"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/type-captation> .
+
+<https://rdafr.fr/vocabulary/type-captation/3> a skos:Concept;
+  dct:created "2023-11-09T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Représentation/exécution réalisée en plein air."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/type-captation>;
+  skos:prefLabel "en extérieur"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/type-captation> .
+
+<https://rdafr.fr/vocabulary/type-captation/4> a skos:Concept;
+  dct:created "2023-11-09T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Représentation/exécution réalisée dans un lieu fermé (bâtiment, chapiteau, etc.)."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/type-captation>;
+  skos:prefLabel "en intérieur"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/type-captation> .
+
+<https://rdafr.fr/vocabulary/type-captation/5> a skos:Concept;
+  dct:created "2023-11-09T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Représentation/exécution réalisée dans un local où ont lieu les enregistrements destinés à la radiodiffusion, à la télévision, à l'industrie du disque."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/type-captation>;
+  skos:prefLabel "en studio"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/type-captation> .
+
+<https://rdafr.fr/vocabulary/type-captation/6> a skos:Concept;
+  dct:created "2023-11-09T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Représentation/exécution réalisée sans interruption, dans le but d'enregistrer une œuvre en une seule prise."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/type-captation>;
+  skos:prefLabel "dans les conditions du direct"@fr;
   skos:topConceptOf <https://rdafr.fr/vocabulary/type-captation> .
