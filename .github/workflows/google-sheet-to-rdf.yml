@@ -26,7 +26,7 @@ jobs:
           -o /tmp/ontologie.xlsx
 
           # récupération du tableau contenant les vocabulaires contrôlés
-          curl -L 'https://docs.google.com/spreadsheets/d/1szLComNgMVuHp-iAVHnxehlPJpKiyzK78z4t-Hyr9mE/export?format=xlsx' \
+          curl -L 'https://docs.google.com/spreadsheets/d/1zT2OgiRZzMTfSu0iqcA48NgPb4XPCugDA5T4WfFAlW8/export?format=xlsx' \
           -o /tmp/vocabulaires.xlsx
 
       - name: "Génération des données RDF de l'ontologie"
