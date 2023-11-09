@@ -62,9 +62,9 @@ jobs:
         run : |
           java -jar /tmp/saxon.jar /tmp/vocabulaires.rdf ./siteweb/.xslt/liste-vocabulaires.xsl > ./siteweb/vocabulary/index.md
 
-      - name: "Nettoyage de /tmp"
-        run : |
-          rm -r /tmp/
+      # - name: "Nettoyage de /tmp"
+      #  run : |
+      #    rm -r /tmp/
 
       # On ne commit les données que si l'ensemble du processus est ok.
       - uses: stefanzweifel/git-auto-commit-action@v4
