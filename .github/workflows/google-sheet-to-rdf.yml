@@ -62,18 +62,22 @@ jobs:
         run : |
           java -jar /tmp/saxon.jar /tmp/vocabulaires.rdf ./siteweb/.xslt/liste-vocabulaires.xsl > ./siteweb/vocabulary/index.md
 
+      - name: "Nettoyage de /tmp"
+        run : |
+          rm -r /tmp/
+
       # On ne commit les données que si l'ensemble du processus est ok.
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
-          commit_message: "Feat : Mise à jour de l'ontologie"
-          file_pattern: "ontologie/*.*"
+          commit_message: "Feat : Mise à jour de RDAFR"
+          #file_pattern: "ontologie/*.*"
 
-      - uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: "Feat : Mise à jour des vocabulaires contrôlés"
-          file_pattern: "vocabulaire/*.ttl"
+      #- uses: stefanzweifel/git-auto-commit-action@v4
+      #  with:
+      #    commit_message: "Feat : Mise à jour des vocabulaires contrôlés"
+      #    file_pattern: "vocabulaire/*.ttl"
 
-      - uses: stefanzweifel/git-auto-commit-action@v4
-        with:
-          commit_message: "Feat : Mise à jour de la liste des vocabulaires contrôlés"
-          file_pattern: "siteweb/vocabulary/*.md"
+      #- uses: stefanzweifel/git-auto-commit-action@v4
+      #  with:
+      #    commit_message: "Feat : Mise à jour de la liste des vocabulaires contrôlés"
+      #    file_pattern: "siteweb/vocabulary/*.md"
