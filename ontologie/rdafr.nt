@@ -22,9 +22,9 @@
 <https://rdafr.fr/Elements#C100001> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://rdafr.fr/Elements#C100001> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Elements#C100001> <http://www.w3.org/ns/shacl#closed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://rdafr.fr/Elements#C100001> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqe0dgix6 .
-_:node1heqe0dgix6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
-_:node1heqe0dgix6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://rdafr.fr/Elements#C100001> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqeheoox6 .
+_:node1heqeheoox6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+_:node1heqeheoox6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <https://rdafr.fr/Elements#C100001> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements#C100001> .
 <https://rdafr.fr/Elements#C100001> <http://www.w3.org/ns/shacl#description> "Toute création intellectuelle ou artistique distincte, susceptible d’être identifiée et nommée de manière univoque dans un contexte bibliographique. [code RDA-FR, 5.1.2]"@fr .
 <https://rdafr.fr/Elements#C100001> <http://www.w3.org/2000/01/rdf-schema#comment> "Toute création intellectuelle ou artistique distincte, susceptible d’être identifiée et nommée de manière univoque dans un contexte bibliographique. [code RDA-FR, 5.1.2]"@fr .
@@ -40,9 +40,9 @@ _:node1heqe0dgix6 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.
 <https://rdafr.fr/Elements#C100002> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://rdafr.fr/Elements#C100002> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Elements#C100002> <http://www.w3.org/ns/shacl#closed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://rdafr.fr/Elements#C100002> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqe0dgix7 .
-_:node1heqe0dgix7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
-_:node1heqe0dgix7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://rdafr.fr/Elements#C100002> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqeheoox7 .
+_:node1heqeheoox7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+_:node1heqeheoox7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <https://rdafr.fr/Elements#C100002> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements#C100002> .
 <https://rdafr.fr/Elements#C100002> <http://www.w3.org/ns/shacl#description> "Entité ayant la capacité d’agir et ayant un rapport avec des ressources qui font l’objet d’une description documentaire. Cela inclut les personnes ou les groupes. [code RDA-FR, 8.1.2]"@fr .
 <https://rdafr.fr/Elements#C100002> <http://www.w3.org/2000/01/rdf-schema#comment> "Entité ayant la capacité d’agir et ayant un rapport avec des ressources qui font l’objet d’une description documentaire. Cela inclut les personnes ou les groupes. [code RDA-FR, 8.1.2]"@fr .
@@ -58,9 +58,9 @@ _:node1heqe0dgix7 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.
 <https://rdafr.fr/Elements#C100003> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://rdafr.fr/Elements#C100003> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Elements#C100003> <http://www.w3.org/ns/shacl#closed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://rdafr.fr/Elements#C100003> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqe0dgix8 .
-_:node1heqe0dgix8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
-_:node1heqe0dgix8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://rdafr.fr/Elements#C100003> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqeheoox8 .
+_:node1heqeheoox8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+_:node1heqeheoox8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <https://rdafr.fr/Elements#C100003> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements#C100003> .
 <https://rdafr.fr/Elements#C100003> <http://www.w3.org/ns/shacl#description> "Un ou plusieurs objets portant des signes chargés de véhiculer un contenu intellectuel ou artistique. Un item exemplifie une manifestation et en reflète en principe toutes les caractéristiques. [code RDA-FR, 1.1.2]"@fr .
 <https://rdafr.fr/Elements#C100003> <http://www.w3.org/2000/01/rdf-schema#comment> "Un ou plusieurs objets portant des signes chargés de véhiculer un contenu intellectuel ou artistique. Un item exemplifie une manifestation et en reflète en principe toutes les caractéristiques. [code RDA-FR, 1.1.2]"@fr .
@@ -76,9 +76,9 @@ _:node1heqe0dgix8 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.
 <https://rdafr.fr/Elements#C100004> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://rdafr.fr/Elements#C100004> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Elements#C100004> <http://www.w3.org/ns/shacl#closed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://rdafr.fr/Elements#C100004> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqe0dgix9 .
-_:node1heqe0dgix9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
-_:node1heqe0dgix9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://rdafr.fr/Elements#C100004> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqeheoox9 .
+_:node1heqeheoox9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+_:node1heqeheoox9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <https://rdafr.fr/Elements#C100004> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements#C100004> .
 <https://rdafr.fr/Elements#C100004> <http://www.w3.org/ns/shacl#description> "Agent identifié comme étant un individu existant ou ayant existé. [code RDA-FR, 8.1.2 et 9]"@fr .
 <https://rdafr.fr/Elements#C100004> <http://www.w3.org/2000/01/rdf-schema#comment> "Agent identifié comme étant un individu existant ou ayant existé. [code RDA-FR, 8.1.2 et 9]"@fr .
@@ -94,9 +94,9 @@ _:node1heqe0dgix9 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.
 <https://rdafr.fr/Elements#C100005> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://rdafr.fr/Elements#C100005> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Elements#C100005> <http://www.w3.org/ns/shacl#closed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://rdafr.fr/Elements#C100005> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqe0dgix10 .
-_:node1heqe0dgix10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
-_:node1heqe0dgix10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://rdafr.fr/Elements#C100005> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqeheoox10 .
+_:node1heqeheoox10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+_:node1heqeheoox10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <https://rdafr.fr/Elements#C100005> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements#C100005> .
 <https://rdafr.fr/Elements#C100005> <http://www.w3.org/ns/shacl#description> "Agent identifié comme étant une organisation ou une partie d'organisation, ou un groupe de personnes et/ou d'organisations. Une collectivité n’est considérée comme telle que si elle est identifiée par un nom particulier et si elle agit, ou peut agir, comme une unité. [code RDA-FR, 11]"@fr .
 <https://rdafr.fr/Elements#C100005> <http://www.w3.org/2000/01/rdf-schema#comment> "Agent identifié comme étant une organisation ou une partie d'organisation, ou un groupe de personnes et/ou d'organisations. Une collectivité n’est considérée comme telle que si elle est identifiée par un nom particulier et si elle agit, ou peut agir, comme une unité. [code RDA-FR, 11]"@fr .
@@ -112,9 +112,9 @@ _:node1heqe0dgix10 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www
 <https://rdafr.fr/Elements#C100006> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://rdafr.fr/Elements#C100006> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Elements#C100006> <http://www.w3.org/ns/shacl#closed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://rdafr.fr/Elements#C100006> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqe0dgix11 .
-_:node1heqe0dgix11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
-_:node1heqe0dgix11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://rdafr.fr/Elements#C100006> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqeheoox11 .
+_:node1heqeheoox11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+_:node1heqeheoox11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <https://rdafr.fr/Elements#C100006> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements#C100006> .
 <https://rdafr.fr/Elements#C100006> <http://www.w3.org/ns/shacl#description> "Réalisation d’une œuvre sous la forme d’une notation (alphanumérique, musicale ou chorégraphique), de son, d’image, d’objet, de mouvement, etc. ou de toute combinaison de ces formes. [code RDA-FR, 5.1.2]"@fr .
 <https://rdafr.fr/Elements#C100006> <http://www.w3.org/2000/01/rdf-schema#comment> "Réalisation d’une œuvre sous la forme d’une notation (alphanumérique, musicale ou chorégraphique), de son, d’image, d’objet, de mouvement, etc. ou de toute combinaison de ces formes. [code RDA-FR, 5.1.2]"@fr .
@@ -130,9 +130,9 @@ _:node1heqe0dgix11 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www
 <https://rdafr.fr/Elements#C100007> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://rdafr.fr/Elements#C100007> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Elements#C100007> <http://www.w3.org/ns/shacl#closed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://rdafr.fr/Elements#C100007> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqe0dgix12 .
-_:node1heqe0dgix12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
-_:node1heqe0dgix12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://rdafr.fr/Elements#C100007> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqeheoox12 .
+_:node1heqeheoox12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+_:node1heqeheoox12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <https://rdafr.fr/Elements#C100007> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements#C100007> .
 <https://rdafr.fr/Elements#C100007> <http://www.w3.org/ns/shacl#description> "L’ensemble de tous les supports qui sont présumés partager les mêmes caractéristiques relatives tant au contenu intellectuel ou artistique qu’aux aspects de présentation matérielle. Cet ensemble est défini à la fois par son contenu global et par le plan de production pour son (ou ses) support(s). [code RDA-FR, 1.1.2]"@fr .
 <https://rdafr.fr/Elements#C100007> <http://www.w3.org/2000/01/rdf-schema#comment> "L’ensemble de tous les supports qui sont présumés partager les mêmes caractéristiques relatives tant au contenu intellectuel ou artistique qu’aux aspects de présentation matérielle. Cet ensemble est défini à la fois par son contenu global et par le plan de production pour son (ou ses) support(s). [code RDA-FR, 1.1.2]"@fr .
@@ -148,9 +148,9 @@ _:node1heqe0dgix12 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www
 <https://rdafr.fr/Elements#C100008> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://rdafr.fr/Elements#C100008> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Elements#C100008> <http://www.w3.org/ns/shacl#closed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://rdafr.fr/Elements#C100008> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqe0dgix13 .
-_:node1heqe0dgix13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
-_:node1heqe0dgix13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://rdafr.fr/Elements#C100008> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqeheoox13 .
+_:node1heqeheoox13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+_:node1heqeheoox13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <https://rdafr.fr/Elements#C100008> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements#C100008> .
 <https://rdafr.fr/Elements#C100008> <http://www.w3.org/ns/shacl#description> "Est considéré comme relevant de la catégorie famille un ensemble de personnes liées par la naissance, le mariage, l'adoption, l'union civile ou tout autre statut légal du même ordre, ou un ensemble de personnes qui se présentent elles-mêmes comme une famille. [code RDA-FR, 10]"@fr .
 <https://rdafr.fr/Elements#C100008> <http://www.w3.org/2000/01/rdf-schema#comment> "Est considéré comme relevant de la catégorie famille un ensemble de personnes liées par la naissance, le mariage, l'adoption, l'union civile ou tout autre statut légal du même ordre, ou un ensemble de personnes qui se présentent elles-mêmes comme une famille. [code RDA-FR, 10]"@fr .
@@ -166,9 +166,9 @@ _:node1heqe0dgix13 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www
 <https://rdafr.fr/Elements#C100009> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://rdafr.fr/Elements#C100009> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Elements#C100009> <http://www.w3.org/ns/shacl#closed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://rdafr.fr/Elements#C100009> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqe0dgix14 .
-_:node1heqe0dgix14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
-_:node1heqe0dgix14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://rdafr.fr/Elements#C100009> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqeheoox14 .
+_:node1heqeheoox14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+_:node1heqeheoox14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <https://rdafr.fr/Elements#C100009> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements#C100009> .
 <https://rdafr.fr/Elements#C100009> <http://www.w3.org/ns/shacl#description> "Portion d’espace réel. Un lieu est déterminé par des coordonnées géographiques et pourvu d’un nom. [code RDA-FR, 16]"@fr .
 <https://rdafr.fr/Elements#C100009> <http://www.w3.org/2000/01/rdf-schema#comment> "Portion d’espace réel. Un lieu est déterminé par des coordonnées géographiques et pourvu d’un nom. [code RDA-FR, 16]"@fr .
@@ -183,9 +183,9 @@ _:node1heqe0dgix14 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www
 <https://rdafr.fr/Elements#C100010> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://rdafr.fr/Elements#C100010> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Elements#C100010> <http://www.w3.org/ns/shacl#closed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://rdafr.fr/Elements#C100010> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqe0dgix15 .
-_:node1heqe0dgix15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
-_:node1heqe0dgix15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://rdafr.fr/Elements#C100010> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqeheoox15 .
+_:node1heqeheoox15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+_:node1heqeheoox15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <https://rdafr.fr/Elements#C100010> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements#C100010> .
 <https://rdafr.fr/Elements#C100010> <http://www.w3.org/ns/shacl#description> "Plage temporelle ayant un début, une fin et une durée."@fr .
 <https://rdafr.fr/Elements#C100010> <http://www.w3.org/2000/01/rdf-schema#comment> "Plage temporelle ayant un début, une fin et une durée."@fr .
@@ -200,9 +200,9 @@ _:node1heqe0dgix15 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www
 <https://rdafr.fr/Elements#C100011> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://rdafr.fr/Elements#C100011> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Elements#C100011> <http://www.w3.org/ns/shacl#closed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://rdafr.fr/Elements#C100011> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqe0dgix16 .
-_:node1heqe0dgix16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
-_:node1heqe0dgix16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://rdafr.fr/Elements#C100011> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqeheoox16 .
+_:node1heqeheoox16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+_:node1heqeheoox16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <https://rdafr.fr/Elements#C100011> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements#C100011> .
 <https://rdafr.fr/Elements#C100011> <http://www.w3.org/ns/shacl#description> "Groupement ou association de personnes portant un nom particulier et disposant de la faculté d'agir collectivement."@fr .
 <https://rdafr.fr/Elements#C100011> <http://www.w3.org/2000/01/rdf-schema#comment> "Groupement ou association de personnes portant un nom particulier et disposant de la faculté d'agir collectivement."@fr .
@@ -217,9 +217,9 @@ _:node1heqe0dgix16 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www
 <https://rdafr.fr/Elements#C100012> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://rdafr.fr/Elements#C100012> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Elements#C100012> <http://www.w3.org/ns/shacl#closed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://rdafr.fr/Elements#C100012> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqe0dgix17 .
-_:node1heqe0dgix17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
-_:node1heqe0dgix17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://rdafr.fr/Elements#C100012> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqeheoox17 .
+_:node1heqeheoox17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+_:node1heqeheoox17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <https://rdafr.fr/Elements#C100012> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements#C100012> .
 <https://rdafr.fr/Elements#C100012> <http://www.w3.org/ns/shacl#description> "Une association entre une entité et une désignation qui y réfère ."@fr .
 <https://rdafr.fr/Elements#C100012> <http://www.w3.org/2000/01/rdf-schema#comment> "Une association entre une entité et une désignation qui y réfère ."@fr .
@@ -234,9 +234,9 @@ _:node1heqe0dgix17 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www
 <https://rdafr.fr/Elements#C100013> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://rdafr.fr/Elements#C100013> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Elements#C100013> <http://www.w3.org/ns/shacl#closed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://rdafr.fr/Elements#C100013> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqe0dgix18 .
-_:node1heqe0dgix18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
-_:node1heqe0dgix18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://rdafr.fr/Elements#C100013> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqeheoox18 .
+_:node1heqeheoox18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+_:node1heqeheoox18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <https://rdafr.fr/Elements#C100013> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements#C100013> .
 <https://rdafr.fr/Elements#C100013> <http://www.w3.org/ns/shacl#description> "Classe abstraite de plus haut niveau de l'univers de discours couvert par l'ontologie RDA-FR. Elle comprend toutes les entités qui sont définies dans le code RDA-FR. Toutes les classes définies pour les besoins de fonctionnement de l'ontologie RDA-FR sont également des sous-classes de celle ci."@fr .
 <https://rdafr.fr/Elements#C100013> <http://www.w3.org/2000/01/rdf-schema#comment> "Classe abstraite de plus haut niveau de l'univers de discours couvert par l'ontologie RDA-FR. Elle comprend toutes les entités qui sont définies dans le code RDA-FR. Toutes les classes définies pour les besoins de fonctionnement de l'ontologie RDA-FR sont également des sous-classes de celle ci."@fr .
@@ -250,9 +250,9 @@ _:node1heqe0dgix18 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www
 <https://rdafr.fr/Elements#C100015> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://rdafr.fr/Elements#C100015> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Elements#C100015> <http://www.w3.org/ns/shacl#closed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://rdafr.fr/Elements#C100015> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqe0dgix19 .
-_:node1heqe0dgix19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
-_:node1heqe0dgix19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://rdafr.fr/Elements#C100015> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqeheoox19 .
+_:node1heqeheoox19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+_:node1heqeheoox19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <https://rdafr.fr/Elements#C100015> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements#C100015> .
 <https://rdafr.fr/Elements#C100015> <http://www.w3.org/ns/shacl#description> "Identité d’un agent qui est connue ou a été rendue publique. [code RDA-FR, 8.1.2 et 9]"@fr .
 <https://rdafr.fr/Elements#C100015> <http://www.w3.org/2000/01/rdf-schema#comment> "Identité d’un agent qui est connue ou a été rendue publique. [code RDA-FR, 8.1.2 et 9]"@fr .
@@ -265,9 +265,9 @@ _:node1heqe0dgix19 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www
 <https://rdafr.fr/Elements#C100017> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://rdafr.fr/Elements#C100017> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Elements#C100017> <http://www.w3.org/ns/shacl#closed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://rdafr.fr/Elements#C100017> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqe0dgix20 .
-_:node1heqe0dgix20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
-_:node1heqe0dgix20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://rdafr.fr/Elements#C100017> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqeheoox20 .
+_:node1heqeheoox20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+_:node1heqeheoox20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <https://rdafr.fr/Elements#C100017> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements#C100017> .
 <https://rdafr.fr/Elements#C100017> <http://www.w3.org/ns/shacl#description> "En attente de traitement dans l'ontologie RDA-FR"@fr .
 <https://rdafr.fr/Elements#C100017> <http://www.w3.org/2000/01/rdf-schema#comment> "En attente de traitement dans l'ontologie RDA-FR"@fr .
@@ -280,9 +280,9 @@ _:node1heqe0dgix20 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www
 <https://rdafr.fr/Elements#C100018> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://rdafr.fr/Elements#C100018> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Elements#C100018> <http://www.w3.org/ns/shacl#closed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://rdafr.fr/Elements#C100018> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqe0dgix21 .
-_:node1heqe0dgix21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
-_:node1heqe0dgix21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://rdafr.fr/Elements#C100018> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqeheoox21 .
+_:node1heqeheoox21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+_:node1heqeheoox21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <https://rdafr.fr/Elements#C100018> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements#C100018> .
 <https://rdafr.fr/Elements#C100018> <http://www.w3.org/ns/shacl#description> "En attente de traitement dans l'ontologie RDA-FR"@fr .
 <https://rdafr.fr/Elements#C100018> <http://www.w3.org/2000/01/rdf-schema#comment> "En attente de traitement dans l'ontologie RDA-FR"@fr .
@@ -295,9 +295,9 @@ _:node1heqe0dgix21 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www
 <https://rdafr.fr/Elements#C100019> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://rdafr.fr/Elements#C100019> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Elements#C100019> <http://www.w3.org/ns/shacl#closed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://rdafr.fr/Elements#C100019> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqe0dgix22 .
-_:node1heqe0dgix22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
-_:node1heqe0dgix22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://rdafr.fr/Elements#C100019> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqeheoox22 .
+_:node1heqeheoox22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+_:node1heqeheoox22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <https://rdafr.fr/Elements#C100019> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements#C100019> .
 <https://rdafr.fr/Elements#C100019> <http://www.w3.org/ns/shacl#description> "En attente de traitement dans l'ontologie RDA-FR"@fr .
 <https://rdafr.fr/Elements#C100019> <http://www.w3.org/2000/01/rdf-schema#comment> "En attente de traitement dans l'ontologie RDA-FR"@fr .
@@ -310,9 +310,9 @@ _:node1heqe0dgix22 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www
 <https://rdafr.fr/Elements#C100020> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://rdafr.fr/Elements#C100020> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Elements#C100020> <http://www.w3.org/ns/shacl#closed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://rdafr.fr/Elements#C100020> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqe0dgix23 .
-_:node1heqe0dgix23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
-_:node1heqe0dgix23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://rdafr.fr/Elements#C100020> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqeheoox23 .
+_:node1heqeheoox23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+_:node1heqeheoox23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <https://rdafr.fr/Elements#C100020> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements#C100020> .
 <https://rdafr.fr/Elements#C100020> <http://www.w3.org/ns/shacl#description> "En attente de traitement dans l'ontologie RDA-FR"@fr .
 <https://rdafr.fr/Elements#C100020> <http://www.w3.org/2000/01/rdf-schema#comment> "En attente de traitement dans l'ontologie RDA-FR"@fr .
@@ -325,9 +325,9 @@ _:node1heqe0dgix23 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www
 <https://rdafr.fr/Elements#C100021> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://rdafr.fr/Elements#C100021> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Elements#C100021> <http://www.w3.org/ns/shacl#closed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://rdafr.fr/Elements#C100021> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqe0dgix24 .
-_:node1heqe0dgix24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
-_:node1heqe0dgix24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://rdafr.fr/Elements#C100021> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqeheoox24 .
+_:node1heqeheoox24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+_:node1heqeheoox24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <https://rdafr.fr/Elements#C100021> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements#C100021> .
 <https://rdafr.fr/Elements#C100021> <http://www.w3.org/ns/shacl#description> "En attente de traitement dans l'ontologie RDA-FR"@fr .
 <https://rdafr.fr/Elements#C100021> <http://www.w3.org/2000/01/rdf-schema#comment> "En attente de traitement dans l'ontologie RDA-FR"@fr .
@@ -340,9 +340,9 @@ _:node1heqe0dgix24 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www
 <https://rdafr.fr/Elements#C100022> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://rdafr.fr/Elements#C100022> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Elements#C100022> <http://www.w3.org/ns/shacl#closed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://rdafr.fr/Elements#C100022> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqe0dgix25 .
-_:node1heqe0dgix25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
-_:node1heqe0dgix25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://rdafr.fr/Elements#C100022> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqeheoox25 .
+_:node1heqeheoox25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+_:node1heqeheoox25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <https://rdafr.fr/Elements#C100022> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements#C100022> .
 <https://rdafr.fr/Elements#C100022> <http://www.w3.org/ns/shacl#description> "En attente de traitement dans l'ontologie RDA-FR"@fr .
 <https://rdafr.fr/Elements#C100022> <http://www.w3.org/2000/01/rdf-schema#comment> "En attente de traitement dans l'ontologie RDA-FR"@fr .
@@ -355,9 +355,9 @@ _:node1heqe0dgix25 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www
 <https://rdafr.fr/Elements#C100023> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://rdafr.fr/Elements#C100023> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Elements#C100023> <http://www.w3.org/ns/shacl#closed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://rdafr.fr/Elements#C100023> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqe0dgix26 .
-_:node1heqe0dgix26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
-_:node1heqe0dgix26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://rdafr.fr/Elements#C100023> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqeheoox26 .
+_:node1heqeheoox26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+_:node1heqeheoox26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <https://rdafr.fr/Elements#C100023> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements#C100023> .
 <https://rdafr.fr/Elements#C100023> <http://www.w3.org/ns/shacl#description> "En attente de traitement dans l'ontologie RDA-FR"@fr .
 <https://rdafr.fr/Elements#C100023> <http://www.w3.org/2000/01/rdf-schema#comment> "En attente de traitement dans l'ontologie RDA-FR"@fr .
@@ -370,9 +370,9 @@ _:node1heqe0dgix26 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www
 <https://rdafr.fr/Elements#C100025> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://rdafr.fr/Elements#C100025> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Elements#C100025> <http://www.w3.org/ns/shacl#closed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://rdafr.fr/Elements#C100025> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqe0dgix27 .
-_:node1heqe0dgix27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
-_:node1heqe0dgix27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://rdafr.fr/Elements#C100025> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqeheoox27 .
+_:node1heqeheoox27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+_:node1heqeheoox27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <https://rdafr.fr/Elements#C100025> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements#C100025> .
 <https://rdafr.fr/Elements#C100025> <http://www.w3.org/ns/shacl#description> "Agent étant identifié comme un groupe de personnes qui n'est ni une famille ni une collectivité et dont le nom se présente formellement comme un nom de personne (nom traditionnellement désigné par le terme \"pseudonyme collectif\")."@fr .
 <https://rdafr.fr/Elements#C100025> <http://www.w3.org/2000/01/rdf-schema#comment> "Agent étant identifié comme un groupe de personnes qui n'est ni une famille ni une collectivité et dont le nom se présente formellement comme un nom de personne (nom traditionnellement désigné par le terme \"pseudonyme collectif\")."@fr .
@@ -385,9 +385,9 @@ _:node1heqe0dgix27 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www
 <https://rdafr.fr/Elements#P100001r> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://rdafr.fr/Elements#P100001r> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Elements#P100001r> <http://www.w3.org/ns/shacl#closed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://rdafr.fr/Elements#P100001r> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqe0dgix28 .
-_:node1heqe0dgix28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
-_:node1heqe0dgix28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://rdafr.fr/Elements#P100001r> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqeheoox28 .
+_:node1heqeheoox28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+_:node1heqeheoox28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <https://rdafr.fr/Elements#P100001r> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements#P100001r> .
 <https://rdafr.fr/Elements#P100001r> <http://www.w3.org/ns/shacl#description> "La classe ‘est en relation avec’ permet d’ajouter des assertions sur toutes les propriétés qui expriment une relation entre des instances de deux classes de l’ontologie (et qui, de fait, correspondent aux relations entre instances d’entités du code RDA-FR)."@fr .
 <https://rdafr.fr/Elements#P100001r> <http://www.w3.org/2000/01/rdf-schema#comment> "La classe ‘est en relation avec’ permet d’ajouter des assertions sur toutes les propriétés qui expriment une relation entre des instances de deux classes de l’ontologie (et qui, de fait, correspondent aux relations entre instances d’entités du code RDA-FR)."@fr .
@@ -400,9 +400,9 @@ _:node1heqe0dgix28 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www
 <https://rdafr.fr/Elements#P100008r> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://rdafr.fr/Elements#P100008r> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Elements#P100008r> <http://www.w3.org/ns/shacl#closed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://rdafr.fr/Elements#P100008r> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqe0dgix29 .
-_:node1heqe0dgix29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
-_:node1heqe0dgix29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://rdafr.fr/Elements#P100008r> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqeheoox29 .
+_:node1heqeheoox29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+_:node1heqeheoox29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <https://rdafr.fr/Elements#P100008r> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements#P100008r> .
 <https://rdafr.fr/Elements#P100008r> <http://www.w3.org/ns/shacl#description> "La classe ‘propriété réifiée’ permet d'ajouter des assertions sur toutes les propriétés de l’ontologie qui correspondent aux attributs des entités du code RDA-FR."@fr .
 <https://rdafr.fr/Elements#P100008r> <http://www.w3.org/2000/01/rdf-schema#comment> "La classe ‘propriété réifiée’ permet d'ajouter des assertions sur toutes les propriétés de l’ontologie qui correspondent aux attributs des entités du code RDA-FR."@fr .
@@ -415,9 +415,9 @@ _:node1heqe0dgix29 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www
 <http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/ns/shacl#closed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqe0dgix30 .
-_:node1heqe0dgix30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
-_:node1heqe0dgix30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqeheoox30 .
+_:node1heqeheoox30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+_:node1heqeheoox30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/ns/shacl#targetClass> <http://www.w3.org/2004/02/skos/core#Concept> .
 <http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/ns/shacl#description> "Un concept SKOS peut être vu comme une idée ou une notion; une unité de pensée."@fr .
 <http://www.w3.org/2004/02/skos/core#Concept> <http://www.w3.org/2000/01/rdf-schema#comment> "Un concept SKOS peut être vu comme une idée ou une notion; une unité de pensée."@fr .
@@ -430,9 +430,9 @@ _:node1heqe0dgix30 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www
 <https://rdafr.fr/Elements#Langue> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://rdafr.fr/Elements#Langue> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Elements#Langue> <http://www.w3.org/ns/shacl#closed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://rdafr.fr/Elements#Langue> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqe0dgix31 .
-_:node1heqe0dgix31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
-_:node1heqe0dgix31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://rdafr.fr/Elements#Langue> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqeheoox31 .
+_:node1heqeheoox31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+_:node1heqeheoox31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <https://rdafr.fr/Elements#Langue> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements#Langue> .
 <https://rdafr.fr/Elements#Langue> <http://www.w3.org/ns/shacl#description> "Langue d'une chaîne de caractères. [vocabulaire de la classe, voir: https://id.loc.gov/vocabulary/iso639-2.html ]"@fr .
 <https://rdafr.fr/Elements#Langue> <http://www.w3.org/2000/01/rdf-schema#comment> "Langue d'une chaîne de caractères. [vocabulaire de la classe, voir: https://id.loc.gov/vocabulary/iso639-2.html ]"@fr .
@@ -445,9 +445,9 @@ _:node1heqe0dgix31 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www
 <https://rdafr.fr/Elements#Ecriture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://rdafr.fr/Elements#Ecriture> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Elements#Ecriture> <http://www.w3.org/ns/shacl#closed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://rdafr.fr/Elements#Ecriture> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqe0dgix32 .
-_:node1heqe0dgix32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
-_:node1heqe0dgix32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://rdafr.fr/Elements#Ecriture> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqeheoox32 .
+_:node1heqeheoox32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+_:node1heqeheoox32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <https://rdafr.fr/Elements#Ecriture> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements#Ecriture> .
 <https://rdafr.fr/Elements#Ecriture> <http://www.w3.org/ns/shacl#description> "Système d'écriture de la chaîne de caractères."@fr .
 <https://rdafr.fr/Elements#Ecriture> <http://www.w3.org/2000/01/rdf-schema#comment> "Système d'écriture de la chaîne de caractères."@fr .
@@ -460,9 +460,9 @@ _:node1heqe0dgix32 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www
 <https://rdafr.fr/Elements#SchemaEncodage> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://rdafr.fr/Elements#SchemaEncodage> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Elements#SchemaEncodage> <http://www.w3.org/ns/shacl#closed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://rdafr.fr/Elements#SchemaEncodage> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqe0dgix33 .
-_:node1heqe0dgix33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
-_:node1heqe0dgix33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://rdafr.fr/Elements#SchemaEncodage> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqeheoox33 .
+_:node1heqeheoox33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+_:node1heqeheoox33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <https://rdafr.fr/Elements#SchemaEncodage> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements#SchemaEncodage> .
 <https://rdafr.fr/Elements#SchemaEncodage> <http://www.w3.org/ns/shacl#description> "Système de transcription et/ou de conversion de données selon un protocole déterminé. Cela recouvre :\n- des schémas d’encodage de valeurs (listes de vedettes matière, thésaurus, classifications systématiques, listes\nd’autorité de noms, etc.) ;\n− et des schémas d’encodage syntaxiques (normes d’encodage des dates, etc.)."@fr .
 <https://rdafr.fr/Elements#SchemaEncodage> <http://www.w3.org/2000/01/rdf-schema#comment> "Système de transcription et/ou de conversion de données selon un protocole déterminé. Cela recouvre :\n- des schémas d’encodage de valeurs (listes de vedettes matière, thésaurus, classifications systématiques, listes\nd’autorité de noms, etc.) ;\n− et des schémas d’encodage syntaxiques (normes d’encodage des dates, etc.)."@fr .
@@ -475,9 +475,9 @@ _:node1heqe0dgix33 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www
 <https://rdafr.fr/Elements#ConversionEcriture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://rdafr.fr/Elements#ConversionEcriture> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Elements#ConversionEcriture> <http://www.w3.org/ns/shacl#closed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://rdafr.fr/Elements#ConversionEcriture> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqe0dgix34 .
-_:node1heqe0dgix34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
-_:node1heqe0dgix34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://rdafr.fr/Elements#ConversionEcriture> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqeheoox34 .
+_:node1heqeheoox34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+_:node1heqeheoox34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <https://rdafr.fr/Elements#ConversionEcriture> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements#ConversionEcriture> .
 <https://rdafr.fr/Elements#ConversionEcriture> <http://www.w3.org/ns/shacl#description> "Règle, système ou norme utilisée pour créer la chaîne d’un nomen à partir de la chaîne d’un autre nomen notée dans une écriture différente (par exemple, un système de translittération)."@fr .
 <https://rdafr.fr/Elements#ConversionEcriture> <http://www.w3.org/2000/01/rdf-schema#comment> "Règle, système ou norme utilisée pour créer la chaîne d’un nomen à partir de la chaîne d’un autre nomen notée dans une écriture différente (par exemple, un système de translittération)."@fr .
@@ -491,9 +491,9 @@ _:node1heqe0dgix34 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www
 <https://rdafr.fr/Elements#Genre> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://rdafr.fr/Elements#Genre> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Elements#Genre> <http://www.w3.org/ns/shacl#closed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://rdafr.fr/Elements#Genre> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqe0dgix35 .
-_:node1heqe0dgix35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
-_:node1heqe0dgix35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://rdafr.fr/Elements#Genre> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqeheoox35 .
+_:node1heqeheoox35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+_:node1heqeheoox35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <https://rdafr.fr/Elements#Genre> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements#Genre> .
 <https://rdafr.fr/Elements#Genre> <http://www.w3.org/ns/shacl#description> "Le genre auquel une personne s'identifie."@fr .
 <https://rdafr.fr/Elements#Genre> <http://www.w3.org/2000/01/rdf-schema#comment> "Le genre auquel une personne s'identifie."@fr .
@@ -506,9 +506,9 @@ _:node1heqe0dgix35 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www
 <https://rdafr.fr/Elements#NiveauFiabilite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://rdafr.fr/Elements#NiveauFiabilite> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Elements#NiveauFiabilite> <http://www.w3.org/ns/shacl#closed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://rdafr.fr/Elements#NiveauFiabilite> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqe0dgix36 .
-_:node1heqe0dgix36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
-_:node1heqe0dgix36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://rdafr.fr/Elements#NiveauFiabilite> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqeheoox36 .
+_:node1heqeheoox36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+_:node1heqeheoox36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <https://rdafr.fr/Elements#NiveauFiabilite> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements#NiveauFiabilite> .
 <https://rdafr.fr/Elements#NiveauFiabilite> <http://www.w3.org/ns/shacl#description> "Niveau de fiabilité de l'information [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/niveau-fiabilite.html ]"@fr .
 <https://rdafr.fr/Elements#NiveauFiabilite> <http://www.w3.org/2000/01/rdf-schema#comment> "Niveau de fiabilité de l'information [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/niveau-fiabilite.html ]"@fr .
@@ -521,9 +521,9 @@ _:node1heqe0dgix36 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www
 <https://rdafr.fr/Elements#Calendrier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://rdafr.fr/Elements#Calendrier> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Elements#Calendrier> <http://www.w3.org/ns/shacl#closed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://rdafr.fr/Elements#Calendrier> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqe0dgix37 .
-_:node1heqe0dgix37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
-_:node1heqe0dgix37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://rdafr.fr/Elements#Calendrier> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqeheoox37 .
+_:node1heqeheoox37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+_:node1heqeheoox37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <https://rdafr.fr/Elements#Calendrier> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements#Calendrier> .
 <https://rdafr.fr/Elements#Calendrier> <http://www.w3.org/ns/shacl#description> "Type de calendrier utilisé pour exprimer un laps de temps (julien, grégorien, hégire...)."@fr .
 <https://rdafr.fr/Elements#Calendrier> <http://www.w3.org/2000/01/rdf-schema#comment> "Type de calendrier utilisé pour exprimer un laps de temps (julien, grégorien, hégire...)."@fr .
@@ -537,9 +537,9 @@ _:node1heqe0dgix37 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www
 <https://rdafr.fr/Elements#CategorieIdentitePublique> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://rdafr.fr/Elements#CategorieIdentitePublique> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Elements#CategorieIdentitePublique> <http://www.w3.org/ns/shacl#closed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://rdafr.fr/Elements#CategorieIdentitePublique> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqe0dgix38 .
-_:node1heqe0dgix38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
-_:node1heqe0dgix38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://rdafr.fr/Elements#CategorieIdentitePublique> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqeheoox38 .
+_:node1heqeheoox38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+_:node1heqeheoox38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <https://rdafr.fr/Elements#CategorieIdentitePublique> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements#CategorieIdentitePublique> .
 <https://rdafr.fr/Elements#CategorieIdentitePublique> <http://www.w3.org/ns/shacl#description> "Précision sur la nature du nom sur lequel est fondée l'identité publique (par exemple : nom réel, pseudonyme...) [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/categorie-ipp.html ]"@fr .
 <https://rdafr.fr/Elements#CategorieIdentitePublique> <http://www.w3.org/2000/01/rdf-schema#comment> "Précision sur la nature du nom sur lequel est fondée l'identité publique (par exemple : nom réel, pseudonyme...) [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/categorie-ipp.html ]"@fr .
@@ -551,9 +551,9 @@ _:node1heqe0dgix38 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www
 <https://rdafr.fr/Elements#ModaliteParution> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://rdafr.fr/Elements#ModaliteParution> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Elements#ModaliteParution> <http://www.w3.org/ns/shacl#closed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://rdafr.fr/Elements#ModaliteParution> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqe0dgix39 .
-_:node1heqe0dgix39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
-_:node1heqe0dgix39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://rdafr.fr/Elements#ModaliteParution> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqeheoox39 .
+_:node1heqeheoox39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+_:node1heqeheoox39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <https://rdafr.fr/Elements#ModaliteParution> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements#ModaliteParution> .
 <https://rdafr.fr/Elements#ModaliteParution> <http://www.w3.org/ns/shacl#description> "La modalité de parution est une catégorisation qui indique si la parution d’une ressource est prévue pour s’échelonner dans le temps (diachronique) ou non. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/modalite-parution.html ]"@fr .
 <https://rdafr.fr/Elements#ModaliteParution> <http://www.w3.org/2000/01/rdf-schema#comment> "La modalité de parution est une catégorisation qui indique si la parution d’une ressource est prévue pour s’échelonner dans le temps (diachronique) ou non. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/modalite-parution.html ]"@fr .
@@ -565,9 +565,9 @@ _:node1heqe0dgix39 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www
 <https://rdafr.fr/Elements#NiveauAutonomie> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://rdafr.fr/Elements#NiveauAutonomie> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Elements#NiveauAutonomie> <http://www.w3.org/ns/shacl#closed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://rdafr.fr/Elements#NiveauAutonomie> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqe0dgix40 .
-_:node1heqe0dgix40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
-_:node1heqe0dgix40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://rdafr.fr/Elements#NiveauAutonomie> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqeheoox40 .
+_:node1heqeheoox40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+_:node1heqeheoox40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <https://rdafr.fr/Elements#NiveauAutonomie> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements#NiveauAutonomie> .
 <https://rdafr.fr/Elements#NiveauAutonomie> <http://www.w3.org/ns/shacl#description> "Le niveau d’autonomie est une catégorisation permettant de dire si la ressource est une publication autonome ou si elle appartient à un ensemble plus vaste. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/niveau-autonomie.html ]"@fr .
 <https://rdafr.fr/Elements#NiveauAutonomie> <http://www.w3.org/2000/01/rdf-schema#comment> "Le niveau d’autonomie est une catégorisation permettant de dire si la ressource est une publication autonome ou si elle appartient à un ensemble plus vaste. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/niveau-autonomie.html ]"@fr .
@@ -579,9 +579,9 @@ _:node1heqe0dgix40 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www
 <https://rdafr.fr/Elements#TypeMediation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://rdafr.fr/Elements#TypeMediation> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Elements#TypeMediation> <http://www.w3.org/ns/shacl#closed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://rdafr.fr/Elements#TypeMediation> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqe0dgix41 .
-_:node1heqe0dgix41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
-_:node1heqe0dgix41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://rdafr.fr/Elements#TypeMediation> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqeheoox41 .
+_:node1heqeheoox41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+_:node1heqeheoox41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <https://rdafr.fr/Elements#TypeMediation> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements#TypeMediation> .
 <https://rdafr.fr/Elements#TypeMediation> <http://www.w3.org/ns/shacl#description> "Le type de médiation est une catégorisation indiquant le type général de dispositif de médiation requis pour visionner, faire fonctionner, faire défiler, etc. le contenu d’une ressource. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/type-mediation.html ]"@fr .
 <https://rdafr.fr/Elements#TypeMediation> <http://www.w3.org/2000/01/rdf-schema#comment> "Le type de médiation est une catégorisation indiquant le type général de dispositif de médiation requis pour visionner, faire fonctionner, faire défiler, etc. le contenu d’une ressource. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/type-mediation.html ]"@fr .
@@ -593,9 +593,9 @@ _:node1heqe0dgix41 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www
 <https://rdafr.fr/Elements#MateriauBase> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://rdafr.fr/Elements#MateriauBase> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Elements#MateriauBase> <http://www.w3.org/ns/shacl#closed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://rdafr.fr/Elements#MateriauBase> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqe0dgix42 .
-_:node1heqe0dgix42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
-_:node1heqe0dgix42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://rdafr.fr/Elements#MateriauBase> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqeheoox42 .
+_:node1heqeheoox42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+_:node1heqeheoox42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <https://rdafr.fr/Elements#MateriauBase> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements#MateriauBase> .
 <https://rdafr.fr/Elements#MateriauBase> <http://www.w3.org/ns/shacl#description> "Le matériau de base est un matériau physique composant le support d’une manifestation, auquel peut éventuellement s’ajouter un matériau appliqué [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/materiau-base.html ]"@fr .
 <https://rdafr.fr/Elements#MateriauBase> <http://www.w3.org/2000/01/rdf-schema#comment> "Le matériau de base est un matériau physique composant le support d’une manifestation, auquel peut éventuellement s’ajouter un matériau appliqué [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/materiau-base.html ]"@fr .
@@ -607,9 +607,9 @@ _:node1heqe0dgix42 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www
 <https://rdafr.fr/Elements#MethodeProduction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://rdafr.fr/Elements#MethodeProduction> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Elements#MethodeProduction> <http://www.w3.org/ns/shacl#closed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://rdafr.fr/Elements#MethodeProduction> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqe0dgix43 .
-_:node1heqe0dgix43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
-_:node1heqe0dgix43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://rdafr.fr/Elements#MethodeProduction> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqeheoox43 .
+_:node1heqeheoox43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+_:node1heqeheoox43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <https://rdafr.fr/Elements#MethodeProduction> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements#MethodeProduction> .
 <https://rdafr.fr/Elements#MethodeProduction> <http://www.w3.org/ns/shacl#description> "La méthode de production est un procédé utilisé pour produire une manifestation. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/methode-production.html ]"@fr .
 <https://rdafr.fr/Elements#MethodeProduction> <http://www.w3.org/2000/01/rdf-schema#comment> "La méthode de production est un procédé utilisé pour produire une manifestation. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/methode-production.html ]"@fr .
@@ -621,9 +621,9 @@ _:node1heqe0dgix43 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www
 <https://rdafr.fr/Elements#Generation> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://rdafr.fr/Elements#Generation> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Elements#Generation> <http://www.w3.org/ns/shacl#closed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://rdafr.fr/Elements#Generation> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqe0dgix44 .
-_:node1heqe0dgix44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
-_:node1heqe0dgix44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://rdafr.fr/Elements#Generation> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqeheoox44 .
+_:node1heqeheoox44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+_:node1heqeheoox44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <https://rdafr.fr/Elements#Generation> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements#Generation> .
 <https://rdafr.fr/Elements#Generation> <http://www.w3.org/ns/shacl#description> "La génération est le produit correspondant à une étape dans le processus de fabrication d’une ressource, depuis la matrice jusqu’au produit de diffusion. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/gneration.html ]"@fr .
 <https://rdafr.fr/Elements#Generation> <http://www.w3.org/2000/01/rdf-schema#comment> "La génération est le produit correspondant à une étape dans le processus de fabrication d’une ressource, depuis la matrice jusqu’au produit de diffusion. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/gneration.html ]"@fr .
@@ -635,9 +635,9 @@ _:node1heqe0dgix44 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www
 <https://rdafr.fr/Elements#Disposition> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://rdafr.fr/Elements#Disposition> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Elements#Disposition> <http://www.w3.org/ns/shacl#closed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://rdafr.fr/Elements#Disposition> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqe0dgix45 .
-_:node1heqe0dgix45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
-_:node1heqe0dgix45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://rdafr.fr/Elements#Disposition> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqeheoox45 .
+_:node1heqeheoox45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+_:node1heqeheoox45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <https://rdafr.fr/Elements#Disposition> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements#Disposition> .
 <https://rdafr.fr/Elements#Disposition> <http://www.w3.org/ns/shacl#description> "La disposition est l’agencement du contenu par rapport au support d’une manifestation. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/disposition.html ]"@fr .
 <https://rdafr.fr/Elements#Disposition> <http://www.w3.org/2000/01/rdf-schema#comment> "La disposition est l’agencement du contenu par rapport au support d’une manifestation. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/disposition.html ]"@fr .
@@ -649,9 +649,9 @@ _:node1heqe0dgix45 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www
 <https://rdafr.fr/Elements#FormatBibliographique> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://rdafr.fr/Elements#FormatBibliographique> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Elements#FormatBibliographique> <http://www.w3.org/ns/shacl#closed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://rdafr.fr/Elements#FormatBibliographique> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqe0dgix46 .
-_:node1heqe0dgix46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
-_:node1heqe0dgix46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://rdafr.fr/Elements#FormatBibliographique> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqeheoox46 .
+_:node1heqeheoox46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+_:node1heqeheoox46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <https://rdafr.fr/Elements#FormatBibliographique> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements#FormatBibliographique> .
 <https://rdafr.fr/Elements#FormatBibliographique> <http://www.w3.org/ns/shacl#description> "Le format bibliographique est déterminé par le nombre de pages résultant du nombre de fois où la feuille a été pliée pour former les feuillets d’un cahier, ou laissée à sa pleine grandeur (in-plano). [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/format-bibliographique.html ]"@fr .
 <https://rdafr.fr/Elements#FormatBibliographique> <http://www.w3.org/2000/01/rdf-schema#comment> "Le format bibliographique est déterminé par le nombre de pages résultant du nombre de fois où la feuille a été pliée pour former les feuillets d’un cahier, ou laissée à sa pleine grandeur (in-plano). [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/format-bibliographique.html ]"@fr .
@@ -663,9 +663,9 @@ _:node1heqe0dgix46 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www
 <https://rdafr.fr/Elements#TypePoliceCaracteres> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://rdafr.fr/Elements#TypePoliceCaracteres> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Elements#TypePoliceCaracteres> <http://www.w3.org/ns/shacl#closed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://rdafr.fr/Elements#TypePoliceCaracteres> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqe0dgix47 .
-_:node1heqe0dgix47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
-_:node1heqe0dgix47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://rdafr.fr/Elements#TypePoliceCaracteres> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqeheoox47 .
+_:node1heqeheoox47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+_:node1heqeheoox47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <https://rdafr.fr/Elements#TypePoliceCaracteres> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements#TypePoliceCaracteres> .
 <https://rdafr.fr/Elements#TypePoliceCaracteres> <http://www.w3.org/ns/shacl#description> "Le type de police de caractères est une catégorisation générale des polices fondée sur leur style d’écriture. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/type-police-caracteres.html ]"@fr .
 <https://rdafr.fr/Elements#TypePoliceCaracteres> <http://www.w3.org/2000/01/rdf-schema#comment> "Le type de police de caractères est une catégorisation générale des polices fondée sur leur style d’écriture. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/type-police-caracteres.html ]"@fr .
@@ -677,9 +677,9 @@ _:node1heqe0dgix47 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www
 <https://rdafr.fr/Elements#TailleCaracteres> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://rdafr.fr/Elements#TailleCaracteres> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Elements#TailleCaracteres> <http://www.w3.org/ns/shacl#closed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://rdafr.fr/Elements#TailleCaracteres> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqe0dgix48 .
-_:node1heqe0dgix48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
-_:node1heqe0dgix48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://rdafr.fr/Elements#TailleCaracteres> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqeheoox48 .
+_:node1heqeheoox48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+_:node1heqeheoox48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <https://rdafr.fr/Elements#TailleCaracteres> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements#TailleCaracteres> .
 <https://rdafr.fr/Elements#TailleCaracteres> <http://www.w3.org/ns/shacl#description> "La taille des caractères est la taille des fontes utilisées pour représenter les signes et les symboles dans une manifestation. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/taille-caracteres.html ]"@fr .
 <https://rdafr.fr/Elements#TailleCaracteres> <http://www.w3.org/2000/01/rdf-schema#comment> "La taille des caractères est la taille des fontes utilisées pour représenter les signes et les symboles dans une manifestation. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/taille-caracteres.html ]"@fr .
@@ -691,9 +691,9 @@ _:node1heqe0dgix48 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www
 <https://rdafr.fr/Elements#Polarite> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://rdafr.fr/Elements#Polarite> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Elements#Polarite> <http://www.w3.org/ns/shacl#closed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://rdafr.fr/Elements#Polarite> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqe0dgix49 .
-_:node1heqe0dgix49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
-_:node1heqe0dgix49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://rdafr.fr/Elements#Polarite> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqeheoox49 .
+_:node1heqeheoox49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+_:node1heqeheoox49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <https://rdafr.fr/Elements#Polarite> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements#Polarite> .
 <https://rdafr.fr/Elements#Polarite> <http://www.w3.org/ns/shacl#description> "Une polarité est une information précisant si les couleurs ou les valeurs de ton de l’image ont été inversées par rapport à l’objet représenté. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/polarite.html ]"@fr .
 <https://rdafr.fr/Elements#Polarite> <http://www.w3.org/2000/01/rdf-schema#comment> "Une polarité est une information précisant si les couleurs ou les valeurs de ton de l’image ont été inversées par rapport à l’objet représenté. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/polarite.html ]"@fr .
@@ -705,9 +705,9 @@ _:node1heqe0dgix49 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www
 <https://rdafr.fr/Elements#FacteurReduction> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://rdafr.fr/Elements#FacteurReduction> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Elements#FacteurReduction> <http://www.w3.org/ns/shacl#closed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://rdafr.fr/Elements#FacteurReduction> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqe0dgix50 .
-_:node1heqe0dgix50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
-_:node1heqe0dgix50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://rdafr.fr/Elements#FacteurReduction> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqeheoox50 .
+_:node1heqeheoox50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+_:node1heqeheoox50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <https://rdafr.fr/Elements#FacteurReduction> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements#FacteurReduction> .
 <https://rdafr.fr/Elements#FacteurReduction> <http://www.w3.org/ns/shacl#description> "Le facteur de réduction est un rapport numérique entre la taille d’une micro-image et celle de l’original à partir duquel elle a été produite. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/facteur-reduction.html ]"@fr .
 <https://rdafr.fr/Elements#FacteurReduction> <http://www.w3.org/2000/01/rdf-schema#comment> "Le facteur de réduction est un rapport numérique entre la taille d’une micro-image et celle de l’original à partir duquel elle a été produite. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/facteur-reduction.html ]"@fr .
@@ -719,9 +719,9 @@ _:node1heqe0dgix50 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www
 <https://rdafr.fr/Elements#VitesseLecture> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://rdafr.fr/Elements#VitesseLecture> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Elements#VitesseLecture> <http://www.w3.org/ns/shacl#closed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://rdafr.fr/Elements#VitesseLecture> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqe0dgix51 .
-_:node1heqe0dgix51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
-_:node1heqe0dgix51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://rdafr.fr/Elements#VitesseLecture> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqeheoox51 .
+_:node1heqeheoox51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+_:node1heqeheoox51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <https://rdafr.fr/Elements#VitesseLecture> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements#VitesseLecture> .
 <https://rdafr.fr/Elements#VitesseLecture> <http://www.w3.org/ns/shacl#description> "La vitesse de lecture est la vitesse à laquelle un support audio doit être lu pour produire le son prévu. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/vitesse-lecture.html ]"@fr .
 <https://rdafr.fr/Elements#VitesseLecture> <http://www.w3.org/2000/01/rdf-schema#comment> "La vitesse de lecture est la vitesse à laquelle un support audio doit être lu pour produire le son prévu. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/vitesse-lecture.html ]"@fr .
@@ -743,9 +743,9 @@ _:node1heqe0dgix51 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www
 <https://rdafr.fr/Elements#FormatSupportElectronique> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://rdafr.fr/Elements#FormatSupportElectronique> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Elements#FormatSupportElectronique> <http://www.w3.org/ns/shacl#closed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://rdafr.fr/Elements#FormatSupportElectronique> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqe0dgix52 .
-_:node1heqe0dgix52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
-_:node1heqe0dgix52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://rdafr.fr/Elements#FormatSupportElectronique> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqeheoox52 .
+_:node1heqeheoox52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+_:node1heqeheoox52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <https://rdafr.fr/Elements#FormatSupportElectronique> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements#FormatSupportElectronique> .
 <https://rdafr.fr/Elements#FormatSupportElectronique> <http://www.w3.org/ns/shacl#description> "Le format d’un support électronique est un standard utilisé pour enregistrer un contenu sur un support électronique propriétaire. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/format-support-electronique.html ]"@fr .
 <https://rdafr.fr/Elements#FormatSupportElectronique> <http://www.w3.org/2000/01/rdf-schema#comment> "Le format d’un support électronique est un standard utilisé pour enregistrer un contenu sur un support électronique propriétaire. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/format-support-electronique.html ]"@fr .
@@ -757,9 +757,9 @@ _:node1heqe0dgix52 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www
 <https://rdafr.fr/Elements#TypeFichier> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://rdafr.fr/Elements#TypeFichier> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Elements#TypeFichier> <http://www.w3.org/ns/shacl#closed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://rdafr.fr/Elements#TypeFichier> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqe0dgix53 .
-_:node1heqe0dgix53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
-_:node1heqe0dgix53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://rdafr.fr/Elements#TypeFichier> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqeheoox53 .
+_:node1heqeheoox53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+_:node1heqeheoox53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <https://rdafr.fr/Elements#TypeFichier> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements#TypeFichier> .
 <https://rdafr.fr/Elements#TypeFichier> <http://www.w3.org/ns/shacl#description> "Le type de fichier est un type général de contenu des données encodées dans un fichier informatique. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/type-fichier.html ]"@fr .
 <https://rdafr.fr/Elements#TypeFichier> <http://www.w3.org/2000/01/rdf-schema#comment> "Le type de fichier est un type général de contenu des données encodées dans un fichier informatique. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/type-fichier.html ]"@fr .
@@ -771,9 +771,9 @@ _:node1heqe0dgix53 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www
 <https://rdafr.fr/Elements#FormatProjection> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://rdafr.fr/Elements#FormatProjection> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Elements#FormatProjection> <http://www.w3.org/ns/shacl#closed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://rdafr.fr/Elements#FormatProjection> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqe0dgix54 .
-_:node1heqe0dgix54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
-_:node1heqe0dgix54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://rdafr.fr/Elements#FormatProjection> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqeheoox54 .
+_:node1heqeheoox54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+_:node1heqeheoox54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <https://rdafr.fr/Elements#FormatProjection> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements#FormatProjection> .
 <https://rdafr.fr/Elements#FormatProjection> <http://www.w3.org/ns/shacl#description> "Le format de projection est un format utilisé pour la production d’une image projetée. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/format-projection.html ]"@fr .
 <https://rdafr.fr/Elements#FormatProjection> <http://www.w3.org/2000/01/rdf-schema#comment> "Le format de projection est un format utilisé pour la production d’une image projetée. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/format-projection.html ]"@fr .
@@ -785,9 +785,9 @@ _:node1heqe0dgix54 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www
 <https://rdafr.fr/Elements#FormatSupportVideo> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://rdafr.fr/Elements#FormatSupportVideo> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Elements#FormatSupportVideo> <http://www.w3.org/ns/shacl#closed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://rdafr.fr/Elements#FormatSupportVideo> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqe0dgix55 .
-_:node1heqe0dgix55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
-_:node1heqe0dgix55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://rdafr.fr/Elements#FormatSupportVideo> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqeheoox55 .
+_:node1heqeheoox55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+_:node1heqeheoox55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <https://rdafr.fr/Elements#FormatSupportVideo> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements#FormatSupportVideo> .
 <https://rdafr.fr/Elements#FormatSupportVideo> <http://www.w3.org/ns/shacl#description> "Le format d’un support vidéo est une norme, un standard, etc. utilisé pour enregistrer un contenu sur un support vidéo. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/format-support-video.html ]"@fr .
 <https://rdafr.fr/Elements#FormatSupportVideo> <http://www.w3.org/2000/01/rdf-schema#comment> "Le format d’un support vidéo est une norme, un standard, etc. utilisé pour enregistrer un contenu sur un support vidéo. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/format-support-video.html ]"@fr .
@@ -799,9 +799,9 @@ _:node1heqe0dgix55 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www
 <https://rdafr.fr/Elements#NormeDiffusion> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://rdafr.fr/Elements#NormeDiffusion> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Elements#NormeDiffusion> <http://www.w3.org/ns/shacl#closed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://rdafr.fr/Elements#NormeDiffusion> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqe0dgix56 .
-_:node1heqe0dgix56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
-_:node1heqe0dgix56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://rdafr.fr/Elements#NormeDiffusion> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqeheoox56 .
+_:node1heqeheoox56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+_:node1heqeheoox56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <https://rdafr.fr/Elements#NormeDiffusion> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements#NormeDiffusion> .
 <https://rdafr.fr/Elements#NormeDiffusion> <http://www.w3.org/ns/shacl#description> "La norme de diffusion est le standard de codage de la couleur du contenu vidéo de la manifestation décrite pour la diffusion sur téléviseur. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/norme-diffusion.html ]"@fr .
 <https://rdafr.fr/Elements#NormeDiffusion> <http://www.w3.org/2000/01/rdf-schema#comment> "La norme de diffusion est le standard de codage de la couleur du contenu vidéo de la manifestation décrite pour la diffusion sur téléviseur. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/norme-diffusion.html ]"@fr .
@@ -813,9 +813,9 @@ _:node1heqe0dgix56 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www
 <https://rdafr.fr/Elements#FamilleSupport> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://rdafr.fr/Elements#FamilleSupport> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Elements#FamilleSupport> <http://www.w3.org/ns/shacl#closed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://rdafr.fr/Elements#FamilleSupport> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqe0dgix57 .
-_:node1heqe0dgix57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
-_:node1heqe0dgix57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://rdafr.fr/Elements#FamilleSupport> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqeheoox57 .
+_:node1heqeheoox57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+_:node1heqeheoox57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <https://rdafr.fr/Elements#FamilleSupport> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements#FamilleSupport> .
 <https://rdafr.fr/Elements#FamilleSupport> <http://www.w3.org/ns/shacl#description> "La famille de support est la grande catégorie de matériel nécessitant une médiation pour accéder au contenu de la ressource. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/famille-support.html ]"@fr .
 <https://rdafr.fr/Elements#FamilleSupport> <http://www.w3.org/2000/01/rdf-schema#comment> "La famille de support est la grande catégorie de matériel nécessitant une médiation pour accéder au contenu de la ressource. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/famille-support.html ]"@fr .
@@ -827,9 +827,9 @@ _:node1heqe0dgix57 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www
 <https://rdafr.fr/Elements#TechniqueSpatialisationSon> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://rdafr.fr/Elements#TechniqueSpatialisationSon> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Elements#TechniqueSpatialisationSon> <http://www.w3.org/ns/shacl#closed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://rdafr.fr/Elements#TechniqueSpatialisationSon> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqe0dgix58 .
-_:node1heqe0dgix58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
-_:node1heqe0dgix58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://rdafr.fr/Elements#TechniqueSpatialisationSon> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqeheoox58 .
+_:node1heqeheoox58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+_:node1heqeheoox58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <https://rdafr.fr/Elements#TechniqueSpatialisationSon> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements#TechniqueSpatialisationSon> .
 <https://rdafr.fr/Elements#TechniqueSpatialisationSon> <http://www.w3.org/ns/shacl#description> "La technique de spatialisation du son est la méthode utilisée pour reproduire le son et le diffuser dans l’espace. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/technique-spatialisation-son.html ]"@fr .
 <https://rdafr.fr/Elements#TechniqueSpatialisationSon> <http://www.w3.org/2000/01/rdf-schema#comment> "La technique de spatialisation du son est la méthode utilisée pour reproduire le son et le diffuser dans l’espace. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/technique-spatialisation-son.html ]"@fr .
@@ -841,9 +841,9 @@ _:node1heqe0dgix58 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www
 <https://rdafr.fr/Elements#TechniqueReductionBruit> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://rdafr.fr/Elements#TechniqueReductionBruit> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Elements#TechniqueReductionBruit> <http://www.w3.org/ns/shacl#closed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://rdafr.fr/Elements#TechniqueReductionBruit> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqe0dgix59 .
-_:node1heqe0dgix59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
-_:node1heqe0dgix59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://rdafr.fr/Elements#TechniqueReductionBruit> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqeheoox59 .
+_:node1heqeheoox59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+_:node1heqeheoox59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <https://rdafr.fr/Elements#TechniqueReductionBruit> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements#TechniqueReductionBruit> .
 <https://rdafr.fr/Elements#TechniqueReductionBruit> <http://www.w3.org/ns/shacl#description> "La technique de réduction du bruit de fond est un procédé consistant à supprimer les composantes indésirables d’un signal sonore. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/technique-reduction-bruit.html ]"@fr .
 <https://rdafr.fr/Elements#TechniqueReductionBruit> <http://www.w3.org/2000/01/rdf-schema#comment> "La technique de réduction du bruit de fond est un procédé consistant à supprimer les composantes indésirables d’un signal sonore. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/technique-reduction-bruit.html ]"@fr .
@@ -855,9 +855,9 @@ _:node1heqe0dgix59 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www
 <https://rdafr.fr/Elements#FormatImageAnimee> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://rdafr.fr/Elements#FormatImageAnimee> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Elements#FormatImageAnimee> <http://www.w3.org/ns/shacl#closed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://rdafr.fr/Elements#FormatImageAnimee> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqe0dgix60 .
-_:node1heqe0dgix60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
-_:node1heqe0dgix60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://rdafr.fr/Elements#FormatImageAnimee> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqeheoox60 .
+_:node1heqeheoox60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+_:node1heqeheoox60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <https://rdafr.fr/Elements#FormatImageAnimee> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements#FormatImageAnimee> .
 <https://rdafr.fr/Elements#FormatImageAnimee> <http://www.w3.org/ns/shacl#description> "Le format d’image animée est le rapport numérique entre la largeur et la hauteur d’une image animée. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/format-image-animee.html ]"@fr .
 <https://rdafr.fr/Elements#FormatImageAnimee> <http://www.w3.org/2000/01/rdf-schema#comment> "Le format d’image animée est le rapport numérique entre la largeur et la hauteur d’une image animée. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/format-image-animee.html ]"@fr .
@@ -869,9 +869,9 @@ _:node1heqe0dgix60 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www
 <https://rdafr.fr/Elements#Reliure> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://rdafr.fr/Elements#Reliure> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Elements#Reliure> <http://www.w3.org/ns/shacl#closed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://rdafr.fr/Elements#Reliure> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqe0dgix61 .
-_:node1heqe0dgix61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
-_:node1heqe0dgix61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://rdafr.fr/Elements#Reliure> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqeheoox61 .
+_:node1heqeheoox61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+_:node1heqeheoox61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <https://rdafr.fr/Elements#Reliure> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements#Reliure> .
 <https://rdafr.fr/Elements#Reliure> <http://www.w3.org/ns/shacl#description> "La reliure est un dispositif par lequel les feuilles d’une ressource ont été pliées et/ou assemblées pour former un volume, fascicule ou brochure. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/reliure.html ]"@fr .
 <https://rdafr.fr/Elements#Reliure> <http://www.w3.org/2000/01/rdf-schema#comment> "La reliure est un dispositif par lequel les feuilles d’une ressource ont été pliées et/ou assemblées pour former un volume, fascicule ou brochure. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/reliure.html ]"@fr .
@@ -883,9 +883,9 @@ _:node1heqe0dgix61 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www
 <https://rdafr.fr/Elements#FormeExpression-TypeContenu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://rdafr.fr/Elements#FormeExpression-TypeContenu> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Elements#FormeExpression-TypeContenu> <http://www.w3.org/ns/shacl#closed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://rdafr.fr/Elements#FormeExpression-TypeContenu> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqe0dgix62 .
-_:node1heqe0dgix62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
-_:node1heqe0dgix62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://rdafr.fr/Elements#FormeExpression-TypeContenu> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqeheoox62 .
+_:node1heqeheoox62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+_:node1heqeheoox62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <https://rdafr.fr/Elements#FormeExpression-TypeContenu> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements#FormeExpression-TypeContenu> .
 <https://rdafr.fr/Elements#FormeExpression-TypeContenu> <http://www.w3.org/ns/shacl#description> "La forme de l’expression est le moyen par lequel l’œuvre est réalisée (par exemple, sous forme de notation alphanumérique, de notation musicale, sous forme déclamée, sous forme de sons musicaux, d’image cartographique, d’image photographique, de sculpture, de danse, de mime, etc.). \nPour une manifestation le Type de contenu est une catégorisation reflétant la (ou les) forme(s) fondamentale(s) utilisée(s) pour exprimer le contenu d’une ressource, accompagnée si nécessaire de précisions sur le (ou les) sens sollicité(s), sur le nombre de dimensions spatiales restituées à la perception et/ou sur la présence ou l’absence de mouvement.\nCe même vocabulaire contrôlé fournit les valeurs pour la propriété 'a pour forme de l'expression représentative de l'oeuvre' de la classe Oeuvre et pour la propriété 'a pour type de contenu' de la classe Manifestation. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/forme-expression-type-contenu-manifestation.html ]"@fr .
 <https://rdafr.fr/Elements#FormeExpression-TypeContenu> <http://www.w3.org/2000/01/rdf-schema#comment> "La forme de l’expression est le moyen par lequel l’œuvre est réalisée (par exemple, sous forme de notation alphanumérique, de notation musicale, sous forme déclamée, sous forme de sons musicaux, d’image cartographique, d’image photographique, de sculpture, de danse, de mime, etc.). \nPour une manifestation le Type de contenu est une catégorisation reflétant la (ou les) forme(s) fondamentale(s) utilisée(s) pour exprimer le contenu d’une ressource, accompagnée si nécessaire de précisions sur le (ou les) sens sollicité(s), sur le nombre de dimensions spatiales restituées à la perception et/ou sur la présence ou l’absence de mouvement.\nCe même vocabulaire contrôlé fournit les valeurs pour la propriété 'a pour forme de l'expression représentative de l'oeuvre' de la classe Oeuvre et pour la propriété 'a pour type de contenu' de la classe Manifestation. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/forme-expression-type-contenu-manifestation.html ]"@fr .
@@ -897,9 +897,9 @@ _:node1heqe0dgix62 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www
 <https://rdafr.fr/Elements#DesignationPresentationMusicale> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://rdafr.fr/Elements#DesignationPresentationMusicale> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Elements#DesignationPresentationMusicale> <http://www.w3.org/ns/shacl#closed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://rdafr.fr/Elements#DesignationPresentationMusicale> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqe0dgix63 .
-_:node1heqe0dgix63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
-_:node1heqe0dgix63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://rdafr.fr/Elements#DesignationPresentationMusicale> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqeheoox63 .
+_:node1heqeheoox63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+_:node1heqeheoox63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <https://rdafr.fr/Elements#DesignationPresentationMusicale> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements#DesignationPresentationMusicale> .
 <https://rdafr.fr/Elements#DesignationPresentationMusicale> <http://www.w3.org/ns/shacl#description> "La désignation de présentation musicale est un mot, caractère ou groupe de mots ou de caractères qui indique la disposition de la présentation matérielle d’une ressource de musique notée. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/designation-presentation-musicale.html ]"@fr .
 <https://rdafr.fr/Elements#DesignationPresentationMusicale> <http://www.w3.org/2000/01/rdf-schema#comment> "La désignation de présentation musicale est un mot, caractère ou groupe de mots ou de caractères qui indique la disposition de la présentation matérielle d’une ressource de musique notée. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/designation-presentation-musicale.html ]"@fr .
@@ -911,9 +911,9 @@ _:node1heqe0dgix63 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www
 <https://rdafr.fr/Elements#NatureContenuSupplementaireIllustratif> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://rdafr.fr/Elements#NatureContenuSupplementaireIllustratif> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Elements#NatureContenuSupplementaireIllustratif> <http://www.w3.org/ns/shacl#closed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://rdafr.fr/Elements#NatureContenuSupplementaireIllustratif> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqe0dgix64 .
-_:node1heqe0dgix64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
-_:node1heqe0dgix64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://rdafr.fr/Elements#NatureContenuSupplementaireIllustratif> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqeheoox64 .
+_:node1heqeheoox64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+_:node1heqeheoox64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <https://rdafr.fr/Elements#NatureContenuSupplementaireIllustratif> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements#NatureContenuSupplementaireIllustratif> .
 <https://rdafr.fr/Elements#NatureContenuSupplementaireIllustratif> <http://www.w3.org/ns/shacl#description> "Un contenu supplémentaire illustratif signale la présence d’un contenu d’image qui complète le contenu principal d’une manifestation, et qui n’appartient pas à l’œuvre initiale (souvent textuelle). Le contenu supplémentaire illustratif ne s’applique donc que dans les cas d’augmentations.\n [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/nature-contenu-supplementaire-illustratif.html ]"@fr .
 <https://rdafr.fr/Elements#NatureContenuSupplementaireIllustratif> <http://www.w3.org/2000/01/rdf-schema#comment> "Un contenu supplémentaire illustratif signale la présence d’un contenu d’image qui complète le contenu principal d’une manifestation, et qui n’appartient pas à l’œuvre initiale (souvent textuelle). Le contenu supplémentaire illustratif ne s’applique donc que dans les cas d’augmentations.\n [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/nature-contenu-supplementaire-illustratif.html ]"@fr .
@@ -925,9 +925,9 @@ _:node1heqe0dgix64 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www
 <https://rdafr.fr/Elements#TypeAccesDemat> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://rdafr.fr/Elements#TypeAccesDemat> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Elements#TypeAccesDemat> <http://www.w3.org/ns/shacl#closed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://rdafr.fr/Elements#TypeAccesDemat> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqe0dgix65 .
-_:node1heqe0dgix65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
-_:node1heqe0dgix65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://rdafr.fr/Elements#TypeAccesDemat> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqeheoox65 .
+_:node1heqeheoox65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+_:node1heqeheoox65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <https://rdafr.fr/Elements#TypeAccesDemat> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements#TypeAccesDemat> .
 <https://rdafr.fr/Elements#TypeAccesDemat> <http://www.w3.org/ns/shacl#description> "Le type d'accès à une ressource dématérialisée désigne les différents modes de connexion permettant d’accéder à une ressource dématérialisée. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/type-acces-demat.html ]"@fr .
 <https://rdafr.fr/Elements#TypeAccesDemat> <http://www.w3.org/2000/01/rdf-schema#comment> "Le type d'accès à une ressource dématérialisée désigne les différents modes de connexion permettant d’accéder à une ressource dématérialisée. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/type-acces-demat.html ]"@fr .
@@ -939,9 +939,9 @@ _:node1heqe0dgix65 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www
 <https://rdafr.fr/Elements#CategorieLieu> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Class> .
 <https://rdafr.fr/Elements#CategorieLieu> <http://www.w3.org/ns/shacl#nodeKind> <http://www.w3.org/ns/shacl#IRI> .
 <https://rdafr.fr/Elements#CategorieLieu> <http://www.w3.org/ns/shacl#closed> "false"^^<http://www.w3.org/2001/XMLSchema#boolean> .
-<https://rdafr.fr/Elements#CategorieLieu> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqe0dgix66 .
-_:node1heqe0dgix66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
-_:node1heqe0dgix66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
+<https://rdafr.fr/Elements#CategorieLieu> <http://www.w3.org/ns/shacl#ignoredProperties> _:node1heqeheoox66 .
+_:node1heqeheoox66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#first> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> .
+_:node1heqeheoox66 <http://www.w3.org/1999/02/22-rdf-syntax-ns#rest> <http://www.w3.org/1999/02/22-rdf-syntax-ns#nil> .
 <https://rdafr.fr/Elements#CategorieLieu> <http://www.w3.org/ns/shacl#targetClass> <https://rdafr.fr/Elements#CategorieLieu> .
 <https://rdafr.fr/Elements#CategorieLieu> <http://www.w3.org/ns/shacl#description> "Catégorie générale à laquelle une instance de Lieu appartient. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/categorie-lieu.html ]"@fr .
 <https://rdafr.fr/Elements#CategorieLieu> <http://www.w3.org/2000/01/rdf-schema#comment> "Catégorie générale à laquelle une instance de Lieu appartient. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/categorie-lieu.html ]"@fr .
