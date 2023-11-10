@@ -9,7 +9,7 @@ FROM debian:stable-20230502-slim AS builder
 RUN apt update && DEBIAN_FRONTEND=noninteractive apt -y install locales pandoc default-jdk curl
 
 # Installation de Widoco
-RUN curl -L https://github.com/dgarijo/Widoco/releases/download/v1.4.19/widoco-1.4.19-jar-with-dependencies_JDK-17.jar -o /tmp/widoco.jar
+RUN curl -L https://github.com/dgarijo/Widoco/releases/download/v1.4.20/widoco-1.4.20-jar-with-dependencies_JDK-17.jar -o /tmp/widoco.jar
 
 RUN mkdir /build/
 COPY siteweb/ /build/
@@ -115,6 +115,7 @@ RUN curl -L https://github.com/sparna-git/skos-play/releases/download/0.9.1/skos
 # Depuis la page d'un vocabulaire, l'utilisateur peut ajouter le suffix .ttl à l'url pour récupérer les données au format RDF.
 RUN for i in /build/vocabulary/*.ttl; do \
       java -jar skos-play.jar alphabetical -i $i -o ${i%.ttl}.html -f html -l fr ; \
+      # Suppression des top terms dans le fichier HTML
       sed -i '/<h2 class="title">.*<\/h2>/d' ${i%.ttl}.html ; \
     done
 
