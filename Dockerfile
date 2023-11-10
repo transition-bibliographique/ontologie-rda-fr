@@ -120,7 +120,7 @@ RUN for i in /build/vocabulary/*.ttl; do \
     done
 
 FROM nginx:1.20.2
-ENV ONTOLOGIE_RDAFR_VERSION 0.4.0
+ENV ONTOLOGIE_RDAFR_VERSION 0.5.0
 
 COPY --from=builder /build ./usr/share/nginx/html/
 
