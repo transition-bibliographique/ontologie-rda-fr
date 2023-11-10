@@ -74,13 +74,17 @@ RUN java -jar /tmp/widoco.jar \
       -noPlaceHolderText \
       -ignoreIndividuals
 
+# Copie le profil d'application pour que l'utilisateur puisse le récupérer depuis http://rdafr.fr/ontologie/rdafr.ttl
+# On conserve aussi ontology.ttl qui est référencé par widoco dans un bouton de téléchargement
+RUN cp /build/ontologie/ontology.ttl /build/ontologie/rdafr.ttl
+
 # Renomme index-en.html, qui est généré automatiquement par Widoco, en index.html
 RUN mv /build/ontologie/index-en.html /build/ontologie/index.html
 
 # Génération du profil d'application
 RUN mkdir -p profil-application
 
-# Ajout des métadonnées au profil d'application. On copie les métadonnées au format NT dans le fichier TTL, pour faire apparaître les préfix dans le profil d'application
+# Ajout des métadonnées au profil d'application. On copie les métadonnées au format NT dans le fichier TTL, pour faire apparaître les préfixes dans le profil d'application
 RUN cat /tmp/ontologie/profil-application-metadata.nt /tmp/ontologie/rdafr.ttl > /tmp/ontologie/profil-application-avec-meta.ttl
 
 # Installation de shacl play
