@@ -123,11 +123,11 @@ Il est à souligner que l’ontologie peut avoir un trait d’avance par rapport
 ### Modalités techniques de publication de l’ontologie RDA-FR
 
 
-* La version HTML du profil d’application RDA-FR est publiée ici : [https://rdafr.fr/profil-application/](/profil-application)
+* La version HTML du profil d’application RDA-FR est publiée ici : [https://rdafr.fr/profil-application/](/profil-application/)
 * La version SHACL du profil d’application (au format turtle) est publiée ici : [https://rdafr.fr/profil-application/rdafr-shacl.ttl](/profil-application/rdafr-shacl.ttl)
-* La version HTML de l’ontologie est publiée ici : [https://rdafr.fr/ontologie/](/ontologie)
+* La version HTML de l’ontologie est publiée ici : [https://rdafr.fr/ontologie/](/ontologie/)
 * La version OWL de l’ontologie est publiée ici : [https://rdafr.fr/ontologie/rdafr.ttl](/ontologie/rdafr.ttl)
-* Les vocabulaires contrôlés associés à l’ontologie sont publiés ici : [https://rdafr.fr/vocabulary/](/vocabulary)
+* Les vocabulaires contrôlés associés à l’ontologie sont publiés ici : [https://rdafr.fr/vocabulary/](/vocabulary/)
 
 L’ensemble de l’ontologie est géré depuis le compte GitHub du programme Transition bibliographique : [https://github.com/transition-bibliographique/ontologie-rda-fr](https://github.com/transition-bibliographique/ontologie-rda-fr).
 
