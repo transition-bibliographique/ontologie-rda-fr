@@ -10,7 +10,7 @@
   dct:description "La famille de support est la grande catégorie de matériel nécessitant une médiation pour accéder au contenu de la ressource."@fr;
   dct:modified "2023-11-06"^^xsd:date;
   dct:publisher "BnF, Abes"@fr;
-  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des familles de support"@fr;
+  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des familles de support pour une manifestation"@fr;
   skos:hasTopConcept <https://rdafr.fr/vocabulary/famille-support/1>, <https://rdafr.fr/vocabulary/famille-support/2>,
     <https://rdafr.fr/vocabulary/famille-support/3>, <https://rdafr.fr/vocabulary/famille-support/4>,
     <https://rdafr.fr/vocabulary/famille-support/5> .

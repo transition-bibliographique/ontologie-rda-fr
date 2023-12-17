@@ -10,7 +10,7 @@
   dct:description "La disposition est l’agencement du contenu par rapport au support d’une manifestation."@fr;
   dct:modified "2023-11-06"^^xsd:date;
   dct:publisher "BnF, Abes"@fr;
-  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des dispositions d'une manifestation"@fr;
+  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des dispositions pour une manifestation"@fr;
   skos:hasTopConcept <https://rdafr.fr/vocabulary/disposition/1>, <https://rdafr.fr/vocabulary/disposition/2>,
     <https://rdafr.fr/vocabulary/disposition/3>, <https://rdafr.fr/vocabulary/disposition/4>,
     <https://rdafr.fr/vocabulary/disposition/5>, <https://rdafr.fr/vocabulary/disposition/6>,

@@ -1,0 +1,45 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://rdafr.fr/vocabulary/forme-notation-tactile> a skos:ConceptScheme;
+  dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
+  dct:description "La forme de la notation tactile est un ensemble de signes et/ou de symboles utilisés pour exprimer le contenu d’une expression sous une forme perceptible au toucher."@fr;
+  dct:modified "2023-11-06"^^xsd:date;
+  dct:publisher "BnF, Abes"@fr;
+  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Formes de la notation tactile pour une expression"@fr;
+  skos:hasTopConcept <https://rdafr.fr/vocabulary/forme-notation-tactile/1>, <https://rdafr.fr/vocabulary/forme-notation-tactile/2>,
+    <https://rdafr.fr/vocabulary/forme-notation-tactile/3>, <https://rdafr.fr/vocabulary/forme-notation-tactile/4>,
+    <https://rdafr.fr/vocabulary/forme-notation-tactile/5>, <https://rdafr.fr/vocabulary/forme-notation-tactile/6> .
+
+<https://rdafr.fr/vocabulary/forme-notation-tactile/1> a skos:Concept;
+  owl:equivalentClass "45103"@fr, "braille"@fr, "false"@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/forme-notation-tactile>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/forme-notation-tactile> .
+
+<https://rdafr.fr/vocabulary/forme-notation-tactile/2> a skos:Concept;
+  owl:equivalentClass "45103"@fr, "braille mathématique"@fr, "false"@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/forme-notation-tactile>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/forme-notation-tactile> .
+
+<https://rdafr.fr/vocabulary/forme-notation-tactile/3> a skos:Concept;
+  owl:equivalentClass "code Moon"@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/forme-notation-tactile>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/forme-notation-tactile> .
+
+<https://rdafr.fr/vocabulary/forme-notation-tactile/4> a skos:Concept;
+  owl:equivalentClass "graphisme tactile"@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/forme-notation-tactile>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/forme-notation-tactile> .
+
+<https://rdafr.fr/vocabulary/forme-notation-tactile/5> a skos:Concept;
+  owl:equivalentClass "braille musical"@fr, "notation musicale braille"@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/forme-notation-tactile>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/forme-notation-tactile> .
+
+<https://rdafr.fr/vocabulary/forme-notation-tactile/6> a skos:Concept;
+  owl:equivalentClass "notation musicale tactile"@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/forme-notation-tactile>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/forme-notation-tactile> .

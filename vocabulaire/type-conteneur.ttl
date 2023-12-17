@@ -1,0 +1,94 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdafr: <https://rdafr.fr/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://rdafr.fr/vocabulary/type-conteneur> a skos:ConceptScheme;
+  dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  dct:description "Le conteneur est un dispositif matériel destiné à contenir un support ou un ensemble de supports et séparable physiquement de ce(s) support(s). Un boîtier, une pochette ou un emboîtage sont des conteneurs."@fr;
+  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des types de conteneur pour une manifestation"@fr;
+  skos:hasTopConcept <https://rdafr.fr/vocabulary/type-conteneur/1>, <https://rdafr.fr/vocabulary/type-conteneur/10>,
+    <https://rdafr.fr/vocabulary/type-conteneur/11>, <https://rdafr.fr/vocabulary/type-conteneur/2>,
+    <https://rdafr.fr/vocabulary/type-conteneur/3>, <https://rdafr.fr/vocabulary/type-conteneur/4>,
+    <https://rdafr.fr/vocabulary/type-conteneur/5>, <https://rdafr.fr/vocabulary/type-conteneur/6>,
+    <https://rdafr.fr/vocabulary/type-conteneur/7>, <https://rdafr.fr/vocabulary/type-conteneur/8>,
+    <https://rdafr.fr/vocabulary/type-conteneur/9> .
+
+<https://rdafr.fr/vocabulary/type-conteneur/1> a skos:Concept, rdafr:TypeConteneur;
+  dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:inScheme <https://rdafr.fr/vocabulary/type-conteneur>;
+  skos:prefLabel "album"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/type-conteneur> .
+
+<https://rdafr.fr/vocabulary/type-conteneur/2> a skos:Concept, rdafr:TypeConteneur;
+  dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:inScheme <https://rdafr.fr/vocabulary/type-conteneur>;
+  skos:prefLabel "boîte"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/type-conteneur> .
+
+<https://rdafr.fr/vocabulary/type-conteneur/3> a skos:Concept, rdafr:TypeConteneur;
+  dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:inScheme <https://rdafr.fr/vocabulary/type-conteneur>;
+  skos:prefLabel "boîtier"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/type-conteneur> .
+
+<https://rdafr.fr/vocabulary/type-conteneur/4> a skos:Concept, rdafr:TypeConteneur;
+  dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:inScheme <https://rdafr.fr/vocabulary/type-conteneur>;
+  skos:prefLabel "coffret"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/type-conteneur> .
+
+<https://rdafr.fr/vocabulary/type-conteneur/5> a skos:Concept, rdafr:TypeConteneur;
+  dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:inScheme <https://rdafr.fr/vocabulary/type-conteneur>;
+  skos:prefLabel "emboîtage"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/type-conteneur> .
+
+<https://rdafr.fr/vocabulary/type-conteneur/6> a skos:Concept, rdafr:TypeConteneur;
+  dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:inScheme <https://rdafr.fr/vocabulary/type-conteneur>;
+  skos:prefLabel "enveloppe"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/type-conteneur> .
+
+<https://rdafr.fr/vocabulary/type-conteneur/7> a skos:Concept, rdafr:TypeConteneur;
+  dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:inScheme <https://rdafr.fr/vocabulary/type-conteneur>;
+  skos:prefLabel "etui"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/type-conteneur> .
+
+<https://rdafr.fr/vocabulary/type-conteneur/8> a skos:Concept, rdafr:TypeConteneur;
+  dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:inScheme <https://rdafr.fr/vocabulary/type-conteneur>;
+  skos:prefLabel "mallette"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/type-conteneur> .
+
+<https://rdafr.fr/vocabulary/type-conteneur/9> a skos:Concept, rdafr:TypeConteneur;
+  dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:inScheme <https://rdafr.fr/vocabulary/type-conteneur>;
+  skos:prefLabel "pochette"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/type-conteneur> .
+
+<https://rdafr.fr/vocabulary/type-conteneur/10> a skos:Concept, rdafr:TypeConteneur;
+  dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:inScheme <https://rdafr.fr/vocabulary/type-conteneur>;
+  skos:prefLabel "portfolio"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/type-conteneur> .
+
+<https://rdafr.fr/vocabulary/type-conteneur/11> a skos:Concept, rdafr:TypeConteneur;
+  dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:inScheme <https://rdafr.fr/vocabulary/type-conteneur>;
+  skos:prefLabel "tube"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/type-conteneur> .

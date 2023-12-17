@@ -1,0 +1,58 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdafr: <https://rdafr.fr/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://rdafr.fr/vocabulary/plan-extension-oeuvre> a skos:ConceptScheme;
+  dct:created "2023-08-09T00:00:00.000Z"^^xsd:dateTime;
+  dct:description "Le plan d’extension de l’œuvre permet d’indiquer l’intention du créateur quant aux modalités d’extension d’une œuvre."@fr;
+  dct:modified "2023-11-06"^^xsd:date;
+  dct:publisher "BnF, Abes"@fr;
+  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des différents plans d'extension d'une oeuvre"@fr;
+  owl:equivalentClass rdafr:PlanExtensionOeuvre;
+  skos:hasTopConcept <https://rdafr.fr/vocabulary/plan-extension-oeuvre/1>, <https://rdafr.fr/vocabulary/plan-extension-oeuvre/2>,
+    <https://rdafr.fr/vocabulary/plan-extension-oeuvre/3>, <https://rdafr.fr/vocabulary/plan-extension-oeuvre/4>,
+    <https://rdafr.fr/vocabulary/plan-extension-oeuvre/5> .
+
+<https://rdafr.fr/vocabulary/plan-extension-oeuvre/1> a skos:Concept, rdafr:PlanExtensionOeuvre;
+  dct:created "2023-08-09T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition """Plan d’extension pour une œuvre donnant naissance à de multiples livraisons distinctes qui se matérialisent pendant une période non circonscrite dans le temps et dont le cumul forme l’ensemble de la ressource.
+Ce plan d’extension correspond aux œuvres de publications en série (périodiques et collections éditoriales)."""@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/plan-extension-oeuvre>;
+  skos:prefLabel "Plan d’extension par livraisons successives et sans fin prédéterminée"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/plan-extension-oeuvre> .
+
+<https://rdafr.fr/vocabulary/plan-extension-oeuvre/2> a skos:Concept, rdafr:PlanExtensionOeuvre;
+  dct:created "2023-08-09T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition """Plan d’extension pour une œuvre destinée à être réalisée par une seule expression d’agrégation distincte qui se matérialise pendant une période non circonscrite dans le temps. Le contenu est mis à jour dans sa globalité à chaque itération.
+Ce plan d’extension correspond aux œuvres de ressources intégratrices à mise à jour permanente."""@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/plan-extension-oeuvre>;
+  skos:prefLabel "Plan d’extension par intégration et sans fin prédéterminée"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/plan-extension-oeuvre> .
+
+<https://rdafr.fr/vocabulary/plan-extension-oeuvre/3> a skos:Concept, rdafr:PlanExtensionOeuvre;
+  dct:created "2023-08-09T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition """Plan d’extension pour une œuvre en plusieurs parties distinctes destinées à former un ensemble fini et dont la première manifestation est composée de livraisons publiées successivement.
+Ce plan d’extension correspond 
+aux œuvres monographiques en plusieurs parties publiées en plusieurs fois, particulièrement sur plusieurs années ;
+aux œuvres présentant les caractéristiques d’une publication en série (périodicité, numérotation, etc.) mais dont la durée de vie est limitée dans le temps (par exemple, les journaux d’événements, les blogues relatifs à un projet de recherche, un colloque, etc.),"""@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/plan-extension-oeuvre>;
+  skos:prefLabel "Plan d’extension par livraisons successives avec une fin prédéterminée"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/plan-extension-oeuvre> .
+
+<https://rdafr.fr/vocabulary/plan-extension-oeuvre/4> a skos:Concept, rdafr:PlanExtensionOeuvre;
+  dct:created "2023-08-09T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Plan d’extension pour une œuvre en plusieurs parties distinctes destinées à former un ensemble, composée de livraisons publiées successivement, sans information disponible sur le caractère prédéterminé ou non de la fin."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/plan-extension-oeuvre>;
+  skos:prefLabel "Plan d’extension par livraisons successives dont l’intention de clôture est inconnue"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/plan-extension-oeuvre> .
+
+<https://rdafr.fr/vocabulary/plan-extension-oeuvre/5> a skos:Concept, rdafr:PlanExtensionOeuvre;
+  dct:created "2023-08-09T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition """Plan d’extension pour une œuvre destinée à être réalisée par une seule expression d’agrégation distincte qui se matérialise pendant une période circonscrite dans le temps.
+Ce plan d’extension correspond aux œuvres présentant les caractéristiques d’une ressource intégratrice à mise à jour permanente mais dont la durée de vie est limitée dans le temps (par exemple, les wikis associés à un projet, les sites Web relatifs à une conférence, etc.)."""@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/plan-extension-oeuvre>;
+  skos:prefLabel "Plan d’extension par intégration avec une fin prédéterminée"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/plan-extension-oeuvre> .

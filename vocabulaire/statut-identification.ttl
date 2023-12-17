@@ -1,0 +1,44 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdafr: <https://rdafr.fr/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://rdafr.fr/vocabulary/statut-identification> a skos:ConceptScheme;
+  dct:created "2023-12-14T00:00:00.000Z"^^xsd:dateTime;
+  dct:description "Le statut d’identification indique le niveau de fiabilité des données permettant l’identification des instances d’entités et la construction des points d’accès autorisés représentant ces instances."@fr;
+  dct:modified "2023-12-14"^^xsd:date;
+  dct:publisher "BnF, Abes"@fr;
+  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des statuts d'identification des métadonées de la description"@fr;
+  owl:equivalentClass rdafr:StatutIdentification;
+  skos:hasTopConcept <https://rdafr.fr/vocabulary/statut-identification/1>, <https://rdafr.fr/vocabulary/statut-identification/2>,
+    <https://rdafr.fr/vocabulary/statut-identification/3>, <https://rdafr.fr/vocabulary/statut-identification/4> .
+
+<https://rdafr.fr/vocabulary/statut-identification/1> a skos:Concept, rdafr:StatutIdentification;
+  dct:created "2023-12-14T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Enrichi : si les données comportent outre les données suffisantes pour l’identification, des éléments complémentaires de description ou de contextualisation."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/statut-identification>;
+  skos:prefLabel "Enrichi"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/statut-identification> .
+
+<https://rdafr.fr/vocabulary/statut-identification/2> a skos:Concept, rdafr:StatutIdentification;
+  dct:created "2023-12-14T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Établi : si les données suffisent pour identifier correctement l’instance d’entité décrite et établir le point d’accès autorisé la représentant."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/statut-identification>;
+  skos:prefLabel "Établi"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/statut-identification> .
+
+<https://rdafr.fr/vocabulary/statut-identification/3> a skos:Concept, rdafr:StatutIdentification;
+  dct:created "2023-12-14T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Provisoire : si les données sont insuffisantes pour identifier correctement l’instance d’entité décrite et qu’elles ne permettent pas d’établir de manière satisfaisante le point d’accès autorisé la représentant."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/statut-identification>;
+  skos:prefLabel "Provisoire"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/statut-identification> .
+
+<https://rdafr.fr/vocabulary/statut-identification/4> a skos:Concept, rdafr:StatutIdentification;
+  dct:created "2023-12-14T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Élémentaire : si les données sont générées automatiquement ou récupérées d’une source ne donnant pas d’information sur leur fiabilité."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/statut-identification>;
+  skos:prefLabel "Élémentaire"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/statut-identification> .

@@ -10,7 +10,7 @@
   dct:description "La norme de diffusion est le standard de codage de la couleur du contenu vidéo de la manifestation décrite pour la diffusion sur téléviseur."@fr;
   dct:modified "2023-11-06"^^xsd:date;
   dct:publisher "BnF, Abes"@fr;
-  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des normes de diffusion"@fr;
+  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des normes de diffusion (manifestation)"@fr;
   skos:hasTopConcept <https://rdafr.fr/vocabulary/norme-diffusion/1>, <https://rdafr.fr/vocabulary/norme-diffusion/2>,
     <https://rdafr.fr/vocabulary/norme-diffusion/3>, <https://rdafr.fr/vocabulary/norme-diffusion/4> .
 

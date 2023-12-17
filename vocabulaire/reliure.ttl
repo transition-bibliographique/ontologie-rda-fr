@@ -21,7 +21,7 @@
   dct:description "La reliure est un dispositif par lequel les feuilles d’une ressource ont été pliées et/ou assemblées pour former un volume, fascicule ou brochure."@fr;
   dct:modified "2023-11-06"^^xsd:date;
   dct:publisher "BnF, Abes"@fr;
-  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des types de reliures d'une manifestation"@fr .
+  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des types de reliures pour une manifestation"@fr .
 
 <https://rdafr.fr/vocabulary/reliure/1> a skos:Concept, rdafr:Reliure;
   dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;

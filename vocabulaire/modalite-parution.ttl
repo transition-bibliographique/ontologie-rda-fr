@@ -10,7 +10,7 @@
   dct:description "La modalité de parution est une catégorisation qui indique si la parution d’une ressource est prévue pour s’échelonner dans le temps (diachronique) ou non."@fr;
   dct:modified "2023-11-06"^^xsd:date;
   dct:publisher "BnF, Abes"@fr;
-  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des modalités de parution pour les manifestations"@fr;
+  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des modalités de parution pour une manifestation"@fr;
   skos:hasTopConcept <https://rdafr.fr/vocabulary/modalite-parution/1>, <https://rdafr.fr/vocabulary/modalite-parution/2> .
 
 <https://rdafr.fr/vocabulary/modalite-parution/1> a skos:Concept, rdafr:ModaliteParution;

@@ -21,7 +21,7 @@
   dct:description "La désignation de présentation musicale est un mot, caractère ou groupe de mots ou de caractères qui indique la disposition de la présentation matérielle d’une ressource de musique notée."@fr;
   dct:modified "2023-11-06"^^xsd:date;
   dct:publisher "BnF, Abes"@fr;
-  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des termes désignant une présentation musicale"@fr .
+  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des termes désignant une présentation musicale pour une manifestation"@fr .
 
 <https://rdafr.fr/vocabulary/designation-presentation-musicale/1> a skos:Concept,
     rdafr:DesignationPresentationMusicale;
