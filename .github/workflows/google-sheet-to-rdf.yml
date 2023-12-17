@@ -21,20 +21,29 @@ jobs:
 
       - name: "Récupération des données de l'ontologie"
         run: |
-          # récupération du tableau contenant les l'ontologie
+          # Récupération du tableau contenant les l'ontologie complète (avec les réifications).
+          # Cette version est fournie à l'utilisateur final
+          curl -L --request GET 'https://docs.google.com/spreadsheets/d/1irgSxGF1GUWHGARch7k9jGzRN3QvfzaKr11us5m7D6M/export?format=xlsx' \
+          -o /tmp/ontologie-complete.xlsx
+          
+          # Récupération du tableau contenant les données de l'ontologie simplifiée (sans réification).
+          # Cette version simplifiée est utilisée pour la génération de la documentation. Les réifications ne doivent pas apparaître dans la documentation.
           curl -L --request GET 'https://docs.google.com/spreadsheets/d/1CZIf3bxuuH3aghFn7B7P89DrLqp_jzv4moI_BpI9PzY/export?format=xlsx' \
-          -o /tmp/ontologie.xlsx
+          -o /tmp/ontologie-simplifiee.xlsx
 
-          # récupération du tableau contenant les vocabulaires contrôlés
+          # Récupération du tableau contenant les vocabulaires contrôlés
           curl -L 'https://docs.google.com/spreadsheets/d/1LVZ2U1RZvJ2uM_91MLsMg3q_mji0vD56bQPzMSXBdIQ/export?format=xlsx' \
           -o /tmp/vocabulaires.xlsx
 
       - name: "Génération des données RDF de l'ontologie"
         run : |
-          java -jar /tmp/xls2rdf.jar convert -i /tmp/ontologie.xlsx -o ./ontologie/rdafr.nt -np -l fr -f text/plain
-          java -jar /tmp/xls2rdf.jar convert -i /tmp/ontologie.xlsx -o ./ontologie/rdafr.ttl -np -l fr -f text/turtle
-          java -jar /tmp/xls2rdf.jar convert -i /tmp/ontologie.xlsx -o ./ontologie/rdafr.rdf -np -l fr -f application/rdf+xml
-
+          # Version destinées à produire la documentation
+          java -jar /tmp/xls2rdf.jar convert -i /tmp/ontologie-simplifiee.xlsx -o ./ontologie/rdafr-doc.ttl -np -l fr -f text/turtle
+ 
+          # Version déstinées à produire les fichiers distribués sur le site rdafr
+          java -jar /tmp/xls2rdf.jar convert -i /tmp/ontologie-complete.xlsx -o ./ontologie/rdafr.nt -np -l fr -f text/plain
+          java -jar /tmp/xls2rdf.jar convert -i /tmp/ontologie-complete.xlsx -o ./ontologie/rdafr.ttl -np -l fr -f text/turtle
+          java -jar /tmp/xls2rdf.jar convert -i /tmp/ontologie-complete.xlsx -o ./ontologie/rdafr.rdf -np -l fr -f application/rdf+xml
       - name: "Génération des données RDF des vocabulaires contrôlés"
         run : |
           # On génère un zip avec un fichier ttl par vocabulaire.
@@ -70,14 +79,3 @@ jobs:
       - uses: stefanzweifel/git-auto-commit-action@v4
         with:
           commit_message: "Feat : Mise à jour de RDAFR"
-          #file_pattern: "ontologie/*.*"
-
-      #- uses: stefanzweifel/git-auto-commit-action@v4
-      #  with:
-      #    commit_message: "Feat : Mise à jour des vocabulaires contrôlés"
-      #    file_pattern: "vocabulaire/*.ttl"
-
-      #- uses: stefanzweifel/git-auto-commit-action@v4
-      #  with:
-      #    commit_message: "Feat : Mise à jour de la liste des vocabulaires contrôlés"
-      #    file_pattern: "siteweb/vocabulary/*.md"
