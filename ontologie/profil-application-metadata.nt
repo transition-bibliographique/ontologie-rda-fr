@@ -8,6 +8,6 @@
 <https://rdafr.fr/Regles#> <http://purl.org/dc/terms/created> "2022-09-11"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://rdafr.fr/Regles#> <http://purl.org/dc/terms/issued> "2023-10-20"^^<http://www.w3.org/2001/XMLSchema#date> .
 <https://rdafr.fr/Regles#> <http://purl.org/dc/terms/license> <https://www.etalab.gouv.fr/licence-ouverte-open-licence> .
-<https://rdafr.fr/Regles#> <http://purl.org/dc/terms/creator> "BnF, Abes" .
-<https://rdafr.fr/Regles#> <http://purl.org/dc/terms/publisher> "BnF, Abes" .
-<https://rdafr.fr/Regles#> <http://purl.org/dc/terms/rigthsHolder> "Bnf, Abes" .
+<https://rdafr.fr/Regles#> <http://purl.org/dc/terms/creator> "BnF, Abes+" .
+<https://rdafr.fr/Regles#> <http://purl.org/dc/terms/publisher> "BnF, Abes-" .
+<https://rdafr.fr/Regles#> <http://purl.org/dc/terms/rigthsHolder> "Bnf, Abes=" .
