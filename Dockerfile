@@ -119,6 +119,7 @@ RUN for i in /build/vocabulary/*.ttl; do \
       java -jar skos-play.jar alphabetical -i $i -o ${i%.ttl}.html -f html -l fr ; \
       # Suppression des top terms dans le fichier HTML
       sed -i '/<h2 class="title">.*<\/h2>/d' ${i%.ttl}.html ; \
+      sed -i "s/<li>DEF : /<li>Périmètre d'application : /g" ${i%.ttl}.html ; \
     done
 
 FROM nginx:1.20.2
