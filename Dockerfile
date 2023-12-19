@@ -49,13 +49,16 @@ RUN pandoc --standalone \
       -A /build/footer.html \
       /build/release-notes.md -o /build/release-notes.html
 
+
+RUN pandoc /build/vocabulary/index-intro.md -o /build/vocabulary/intro.html
 RUN pandoc --standalone \
       --toc \
       --shift-heading-level-by=-1 \
       --template template.html \
       -c /style.css \
+      -B /build/vocabulary/intro.html \
       -A /build/footer.html \
-      /build/vocabulary/index.md -o /build/vocabulary/index.html
+      /build/vocabulary/index-content.md -o /build/vocabulary/index.html
 
 # Génération de la documentation de l'ontologie
 RUN mkdir -p ontologie

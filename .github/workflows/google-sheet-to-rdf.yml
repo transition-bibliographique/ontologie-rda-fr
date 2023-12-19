@@ -69,7 +69,7 @@ jobs:
 
       - name: "Génération de la liste des vocabulaires contrôlés au format markdown"
         run : |
-          java -jar /tmp/saxon.jar /tmp/vocabulaires.rdf ./siteweb/.xslt/liste-vocabulaires.xsl > ./siteweb/vocabulary/index.md
+          java -jar /tmp/saxon.jar /tmp/vocabulaires.rdf ./siteweb/.xslt/liste-vocabulaires.xsl > ./siteweb/vocabulary/index-content.md
 
       # - name: "Nettoyage de /tmp"
       #  run : |
