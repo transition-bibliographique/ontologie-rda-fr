@@ -2,8 +2,6 @@
 
 **Version bêta partielle V 0.2.0**
 
-Test4
-
 Ce site est dédié à la publication de l’ontologie RDA-FR qui est en cours d’élaboration.
 
 Le domaine de l’ontologie RDA-FR est **[https://rdafr.fr](https://rdafr.fr)**
