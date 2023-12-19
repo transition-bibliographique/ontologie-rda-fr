@@ -9,7 +9,7 @@
   dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
   dct:modified "2023-11-06"^^xsd:date;
   dct:publisher "BnF, Abes"@fr;
-  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des types de données cartographiques"@fr;
+  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des types de données cartographiques pour une manifestation"@fr;
   skos:hasTopConcept <https://rdafr.fr/vocabulary/type-donnees-cartographiques/1>, <https://rdafr.fr/vocabulary/type-donnees-cartographiques/2>,
     <https://rdafr.fr/vocabulary/type-donnees-cartographiques/3> .
 

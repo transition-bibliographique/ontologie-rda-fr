@@ -21,7 +21,7 @@
   dct:description "La méthode de production est un procédé utilisé pour produire une manifestation."@fr;
   dct:modified "2023-11-06"^^xsd:date;
   dct:publisher "BnF, Abes"@fr;
-  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des méthodes de production d'une manifestation"@fr .
+  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des méthodes de production pour une manifestation"@fr .
 
 <https://rdafr.fr/vocabulary/methode-production/1> a skos:Concept, rdafr:MethodeProduction;
   dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;

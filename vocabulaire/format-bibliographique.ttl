@@ -10,7 +10,7 @@
   dct:description "Le format bibliographique est déterminé par le nombre de pages résultant du nombre de fois où la feuille a été pliée pour former les feuillets d’un cahier, ou laissée à sa pleine grandeur (in-plano)."@fr;
   dct:modified "2023-11-06"^^xsd:date;
   dct:publisher "BnF, Abes"@fr;
-  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des formats bibliographiques"@fr;
+  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des formats bibliographiques pour une manifestation"@fr;
   skos:hasTopConcept <https://rdafr.fr/vocabulary/format-bibliographique/1>, <https://rdafr.fr/vocabulary/format-bibliographique/10>,
     <https://rdafr.fr/vocabulary/format-bibliographique/2>, <https://rdafr.fr/vocabulary/format-bibliographique/3>,
     <https://rdafr.fr/vocabulary/format-bibliographique/4>, <https://rdafr.fr/vocabulary/format-bibliographique/5>,

@@ -22,7 +22,7 @@
   dct:description "Le format de projection est un format utilisé pour la production d’une image projetée."@fr;
   dct:modified "2023-11-06"^^xsd:date;
   dct:publisher "BnF, Abes"@fr;
-  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des formats de projection"@fr;
+  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des formats de projection pour une manifestation"@fr;
   skos:hasTopConcept <https://rdafr.fr/vocabulary/format-projection/1>, <https://rdafr.fr/vocabulary/format-projection/10>,
     <https://rdafr.fr/vocabulary/format-projection/11>, <https://rdafr.fr/vocabulary/format-projection/12>,
     <https://rdafr.fr/vocabulary/format-projection/2>, <https://rdafr.fr/vocabulary/format-projection/3>,

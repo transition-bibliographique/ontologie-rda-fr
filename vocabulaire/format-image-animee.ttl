@@ -8,4 +8,4 @@
   dct:description "Le format d’image animée est le rapport numérique entre la largeur et la hauteur d’une image animée."@fr;
   dct:modified "2023-11-06"^^xsd:date;
   dct:publisher "BnF, Abes"@fr;
-  dct:title "RDA-FROntologie RDA-FR - Vocabulaires contrôlés : Liste des formats d'image animée"@fr .
+  dct:title "RDA-FROntologie RDA-FR - Vocabulaires contrôlés : Liste des formats d'image animée pour une manifestation"@fr .

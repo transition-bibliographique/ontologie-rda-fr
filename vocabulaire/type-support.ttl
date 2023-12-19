@@ -1,0 +1,1435 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix euvoc: <http://publications.europa.eu/ontology/euvoc#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdafr: <https://rdafr.fr/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosthes: <http://purl.org/iso25964/skos-thes#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://rdafr.fr/vocabulary/type-support> dct:created "2023-06-02T00:00:00.000Z"^^xsd:dateTime;
+  dct:description "Le type de support est une catégorisation reflétant le support de la ressource, correspondant au type de dispositif de médiation requis pour visionner, faire fonctionner, faire défiler, etc. le contenu d’une ressource."@fr;
+  dct:modified "2023-12-04"^^xsd:date;
+  dct:publisher "BnF, Abes"@fr;
+  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des types de support pour une manifestation"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/1> a skos:Concept, rdafr:TypeSupport;
+  dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition """Enregistrement audio – sans informations détaillées.
+Terme générique"""@fr;
+  skos:prefLabel "support audio"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/2> a skos:Concept, rdafr:TypeSupport;
+  dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Bobine ouverte contenant un métrage de bande magnétique sur laquelle sont enregistrés des signaux électriques qui peuvent être convertis en sons à l’aide d’un appareil de lecture de type lecteur audio à bobines."@fr;
+  skos:prefLabel "bande magnétique audio"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/3> a skos:Concept, rdafr:TypeSupport;
+  dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Boîtier scellé contenant une bande enroulée sur un seul noyau sur laquelle est gravé un sillon qui constitue le support d’un enregistrement audio analogique."@fr;
+  skos:prefLabel "bande TEFI"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/4> a skos:Concept, rdafr:TypeSupport;
+  dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Bobine ouverte contenant un métrage de film sur lequel est enregistré du son."@fr;
+  skos:prefLabel "bobine de piste sonore"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/5> a skos:Concept, rdafr:TypeSupport;
+  dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Boîtier scellé contenant une bande magnétique enroulée sur un seul noyau qui constitue le support d’un enregistrement audio analogique."@fr;
+  skos:prefLabel "cartouche audio"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/6> a skos:Concept, rdafr:TypeSupport;
+  dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Boîtier scellé contenant une bande magnétique enroulée sur deux noyaux jumelés, qui constitue le support d’un enregistrement audio analogique."@fr;
+  skos:prefLabel "cassette audio analogique"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/7> a skos:Concept, rdafr:TypeSupport;
+  dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition """Boîtier scellé contenant une bande magnétique enroulée sur deux noyaux jumelés, qui constitue le support d’un enregistrement audio numérique.
+Comprend :
+- Digital Compact Cassette (DCC) ;
+- Cassette DAT (Digital Audio Tape)."""@fr;
+  skos:prefLabel "cassette audio numérique"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/8> a skos:Concept, rdafr:TypeSupport;
+  dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Voir cassette audio numérique"@fr;
+  skos:prefLabel "cassette DAT"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/9> a skos:Concept, rdafr:TypeSupport;
+  dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition """Disque optique de type CD (Compact Disc), contenant des données sonores stockées sous forme numérique quel que soit leur format d’enregistrement et de codage.
+Comprend :
+- CD audio ;
+- SACD (Super audio CD) ;
+- CD MP3 ;
+- CD-R audio."""@fr;
+  skos:prefLabel "CD audio"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/10> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition """CD audio avec contenu partiel sur CD-ROM.
+Comprend :
+- CD-Extra ;
+- CD-Plus ;
+- OpenDisc."""@fr;
+  skos:prefLabel "CD-Extra"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/11> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition """Objet en forme de rouleau sur lequel des ondulations sonores ont été gravées au moyen d’une entaille ou d’empreintes en créant un sillon circulaire continu (gravure analogique).
+Comprend :
+- les cylindres en cire ;
+- les cylindres en celluloïde."""@fr;
+  skos:prefLabel "cylindre phonographique"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/12> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition """Disque sur lequel les ondulations sonores, enregistrées sous forme de modulations, impulsions, etc. ont été gravées au moyen d’une entaille ou d’empreintes en créant un sillon continu en spirale (gravure analogique).
+Exclut les disques optiques comme les CD, etc.
+Comprend :
+- les disques 78 tours ;
+- les disques microsillons (y compris les disques souples) ;
+- les disques à gravure directe (Pyral)."""@fr;
+  skos:prefLabel "disque audio"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/13> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Disque optique de type DVD (Digital Versatile Disc, c’est-à-dire Disque numérique polyvalent) contenant des données sonores."@fr;
+  skos:prefLabel "DVD audio"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/14> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Feuille plastique comprenant plusieurs groupes de sillons en spirales, qui peuvent être convertis en sons à l’aide d’un appareil spécifique."@fr;
+  skos:prefLabel "feuille acoustique"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/15> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Fil métallique sur lequel sont enregistrés des signaux électriques qui peuvent être convertis en sons à l’aide d’un appareil de lecture spécifique."@fr;
+  skos:prefLabel "fil magnétique"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/16> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Voir dispositif électronique autonome"@fr;
+  skos:prefLabel "lecteur audio numérique préenregistré"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/17> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Disque inséré dans un plastique rigide de sept centimètres de côté qui constitue un support magnéto-optique d’enregistrement et de reproduction numérique de données sonores (Sony, 1992)."@fr;
+  skos:prefLabel "MiniDisc"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/18> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition """Rouleau ou bande de papier sur lequel les notes de musique sont représentées par des perforations, destiné à reproduire mécaniquement la musique lorsqu’il est utilisé avec un piano mécanique, un orgue mécanique, etc.
+Comprend :
+- les rouleaux pour piano ;
+- les cartons d’orgue de Barbarie."""@fr;
+  skos:prefLabel "bande perforée pour instrument mécanique"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/19> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Ruban métallique sur lequel sont enregistrés des signaux électriques qui peuvent être convertis en sons à l’aide d’un appareil de lecture spécifique."@fr;
+  skos:prefLabel "ruban métallique magnétique"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/20> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition """Disque optique haute définition, format Blu-ray, contenant des données audio.
+Variantes :
+BD (abréviation de Blu-ray disc) ;
+Blu-ray Pure Audio."""@fr;
+  skos:prefLabel "Blu-ray audio"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/21> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Voir matrice"@fr;
+  skos:prefLabel "matrice de disque"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/23> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition """Film ou support transparent – sans informations détaillées.
+Terme générique"""@fr;
+  skos:prefLabel "film ou transparent"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/24> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Bobine ouverte contenant un film cinématographique à utiliser avec un projecteur de film cinématographique."@fr;
+  skos:prefLabel "bobine de film"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/25> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Boîtier scellé contenant un film fixe."@fr;
+  skos:prefLabel "cartouche de film fixe"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/26> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition """Petite feuille en matériau transparent ou petite plaque de verre (habituellement dans un cadre protecteur) portant une image positive directe, conçue pour être utilisée avec un projecteur ou une visionneuse.
+Comprend :
+- les diapositives de la marque Kodachrome ;
+- les diapositives de la marque Ektachrome."""@fr;
+  skos:prefLabel "diapositive"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/27> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Rouleau de film, avec son enregistré ou non, contenant une succession d’images devant être projetées une par une."@fr;
+  skos:prefLabel "film fixe"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/28> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Courte bande de film contenant une succession d’images devant être projetées une par une, généralement sous une forme droite plutôt qu’enroulée."@fr;
+  skos:prefLabel "film fixe court"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/29> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Plaque de verre pour les lanternes magiques."@fr;
+  skos:prefLabel "plaque de lanterne magique"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/30> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Métrage de film enroulé."@fr;
+  skos:prefLabel "rouleau de film"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/31> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Feuille de matériau transparent (avec ou sans monture de protection) comportant une image et conçue pour être utilisée avec un rétroprojecteur."@fr;
+  skos:prefLabel "transparent pour rétroprojecteur"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/33> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition """Support tangible contenant des données numériques – sans informations détaillées.
+Terme générique"""@fr;
+  skos:prefLabel "support numérique manipulable"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/34> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition """Disque optique haute définition, format Blu-ray, contenant des données numériques.
+Variante :
+BD (abréviation de Blu-ray disc)"""@fr;
+  skos:prefLabel "Blu-ray Disc"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/35> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition """Disque optique haute définition, format Blu-ray, contenant des données numériques destinées à être uniquement lues par un lecteur compatible.
+Comprend :
+- Sony PlayStation 3 (PlayStation 3, PS3) ;
+- Sony PlayStation 4 (PlayStation 4, PS4).
+Variante :
+- BD (abréviation de Blu-ray disc)."""@fr;
+  skos:prefLabel "Blu-ray Disc propriétaire"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/36> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Bobine ouverte contenant un métrage de bande informatique à utiliser avec un lecteur de bande informatique."@fr;
+  skos:prefLabel "bobine de bande informatique"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/37> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition """Carte constituant une unité amovible de stockage de données numériques préenregistrées.
+Comprend :
+- les cartes mémoire SD (Secure Digital) ;
+- les cartes mémoire CF (Compact Flash) ;
+- les cartes mémoire MS (Memory Stick) ;
+- les cartes mémoire MMC (MultiMedia Card)."""@fr;
+  skos:prefLabel "carte mémoire"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/38> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition """Carte constituant une unité amovible de stockage de données numériques préenregistrées conçue pour être utilisée sur une console de jeu spécifique.
+Comprend :
+- DS ;
+- 3DS ;
+- PSVita."""@fr;
+  skos:prefLabel "carte mémoire propriétaire"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/39> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Voir cartouche de jeu"@fr;
+  skos:prefLabel "cartouche à puce informatique"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/40> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Voir cartouche informatique"@fr;
+  skos:prefLabel "cartouche de bande informatique"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/41> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Voir cartouche informatique"@fr;
+  skos:prefLabel "cartouche de disque informatique"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/42> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Voir CD-ROM propriétaire (Data Discman) et DVD-ROM propriétaire (UMD)"@fr;
+  skos:prefLabel "cartouche de disque optique"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/43> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition """Boîtier scellé contenant un logiciel ou code de jeu vidéo inscrit dans une mémoire morte, conçu pour être enfiché dans un ordinateur, une console de jeux vidéo ou un système d’arcade.
+Comprend (dates de commercialisation pour l’Europe) :
+Les cartouches Nintendo et SEGA :
+- Nintendo Entertainment System (NES) (1986 – 1995),
+- SEGA Master System (1987 – 1996),
+- SEGA Mega Drive (1990 – 1999),
+- Nintendo Game Boy (1990 – 2000),
+- SEGA Game Gear (1991 – 1997),
+- Super Nintendo Entertainment System (Super NES) (1992 – 2000),
+- SEGA Pico ou SEGA Pico Logistoire (1994 – 1998),
+- Nintendo 64 (N64) (1997 – 2002),
+- Nintendo Game Boy Color (GBC) (1998 – 2003),
+- Nintendo Game Boy Advance (GBA) (2001 – 2008),
+- Nintendo DS (2005 – 2013),
+- Nintendo 3DS (2011 – ) ;
+les cartouches Vtech :
+- V.Smile,
+- V.Smile Pocket,
+- V.Smile Motion ;
+SNK :
+- NeoGeo (1990 – 2004),
+- NeoGeo Pocket (1998 – 2001),
+- NeoGoe Pocket Color (1999 – 2001)."""@fr;
+  skos:prefLabel "Cartouche de jeu"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/44> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition """Boîtier scellé contenant un support d’enregistrement de données numériques. Le support d’enregistrement peut être :
+une bande magnétique enroulée sur un seul noyau (cartouche de bande informatique) ;
+un ou plusieurs disques magnétiques amovibles (cartouche de disque informatique) ;
+un circuit de mémoire morte ROM (Read Only Memory)."""@fr;
+  skos:prefLabel "cartouche informatique"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/45> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Boîtier scellé contenant une bande magnétique enroulée sur deux noyaux jumelés, qui constitue le support d’enregistrement de données numériques."@fr;
+  skos:prefLabel "cassette de bande informatique"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/46> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition """Compact Disc Interactif, disque optique contenant des données numériques, conçu pour être utilisé avec un lecteur spécifique et un téléviseur de façon interactive.
+Variante :
+CD-i."""@fr;
+  skos:prefLabel "CD-I"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/47> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Disque optique contenant des données photographiques numérisées et conçu pour être utilisé soit avec un lecteur de CD-I sur un téléviseur soit avec un micro-ordinateur."@fr;
+  skos:prefLabel "CD-Photo"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/48> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition """Disque optique de type CD (Compact Disc) contenant des données numériques, destinées à être uniquement lues par un ordinateur.
+Comprend :
+CD-ROM pour ordinateur PC ou MacIntosh (y compris CD-ROM 8 cm)."""@fr;
+  skos:prefLabel "CD-ROM"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/49> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition """Disque optique de type CD (Compact Disc) contenant des données numériques, destinées à être uniquement lues par un lecteur compatible.
+Comprend :
+Dreamcast ;
+Sega Saturn ;
+Sony Data DiscMan : support optique propriétaire de 8 cm de type CD (Compact Disc) dans une coque en plastique, contenant des données textuelles, mis au point par Sony et conçu pour un lecteur spécifique."""@fr;
+  skos:prefLabel "CD-ROM propriétaire"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/50> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Disque optique contenant des données numériques conçu pour être utilisé sur la plateforme multimédia Commodore Dynamic Total Vision (ou Amiga CDTV) qui combine un ordinateur personnel et une console de jeu."@fr;
+  skos:prefLabel "CDTV"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/51> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Licence de produit numérique fournie par le biais du circuit de détail sous la forme d’une « clé » matérielle (une carte ou une brochure contenant un code permettant à l’acheteur de télécharger le produit)."@fr;
+  skos:prefLabel "clé de licence de produit numérique"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/52> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition """Dispositif électronique contenant à la fois des données numériques préenregistrées et le lecteur correspondant utilisable seul.
+Comprend :
+les consoles de jeu autonomes (ex. Nintendo Game & Watch);
+les lecteurs MP3;
+les tablettes ;
+les livres audio « Playaway » (USA)."""@fr;
+  skos:prefLabel "dispositif électronique autonome"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/53> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition """Disque optique double face, une face audio CD/CD-ROM, une autre face DVD.
+Variante :
+DualDisc."""@fr;
+  skos:prefLabel "disque optique hybride"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/54> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition """Disque souple et amovible de format carré contenant des données numériques, destinées à être lues par un ordinateur.
+Comprend :
+les disquettes 3,5 pouces ;
+les disquettes 5 ¼ pouces ;
+les disquettes 8 pouces."""@fr;
+  skos:prefLabel "disquette"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/55> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition """Disque souple et amovible de format carré contenant des données numériques, destinées à être lues par un lecteur spécifique.
+Comprend :
+Amstrad CPC."""@fr;
+  skos:prefLabel "disquette propriétaire"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/56> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition """Disque optique de type DVD (Digital Versatile Disc, c’est-à-dire Disque numérique polyvalent) contenant des données numériques, destinées à être uniquement lues par un ordinateur.
+Comprend :
+DVD-ROM pour ordinateur PC ou MacIntosh."""@fr;
+  skos:prefLabel "DVD-ROM"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/57> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition """Disque optique de type DVD (Digital Versatile Disc, c’est-à-dire Disque numérique polyvalent) contenant des données numériques, destinée à être uniquement lues par un lecteur spécifique.
+Comprend :
+GameCube (Nintendo GameCube) ;
+PlayStation 1 (Sony PlayStation 1, PS1, PSone) ;
+PlayStation 2 (Sony PlayStation 2, PS2) ;
+Wii (Nintendo Wii) ;
+Xbox (Microsoft Xbox) ;
+UMD (Universal Media Disc) : support optique propriétaire de 6 cm de type DVD (Digital Versatile Disc, c’est-à-dire Disque numérique polyvalent) dans une coque en plastique, mis au point par Sony pour sa console portable PSP (PlayStation Portable). Permet de stocker des jeux vidéo ou des films."""@fr;
+  skos:prefLabel "DVD-ROM propriétaire"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/58> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition """Support de stockage amovible contenant des données numériques préenregistrées qui se branche sur un port USB (Universal Serial Bus, c’est-à-dire Bus universel en série).
+Comprend :
+les clés USB ;
+les disques durs externes.
+NB : pour les lecteurs MP3 autonomes, voir dispositif électronique autonome."""@fr;
+  skos:prefLabel "mémoire USB"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/59> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Dispositif contenant des données destinées à être lues par radio-fréquence (RFID = Radio Frequency Identification) ; il comprend une antenne associée à une puce électronique qui lui permet de recevoir et de répondre aux requêtes radio émises depuis le lecteur."@fr;
+  skos:prefLabel "puce RFID"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/60> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Contenu numérique – sur un serveur distant ou sans association à un support particulier."@fr;
+  skos:prefLabel "ressource dématérialisée"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/61> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Définition"@fr;
+  skos:prefLabel "supports de microformes"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/62> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition """Microforme – sans informations détaillées.
+Terme générique"""@fr;
+  skos:prefLabel "microforme"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/63> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Film portant une série de micro-images disposées de façon linéaire."@fr;
+  skos:prefLabel "microfilm"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/64> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Courte bande de film portant une série de micro-images disposées de façon linéaire, découpée dans un rouleau."@fr;
+  skos:prefLabel "bande de microfilm"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/65> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Bobine ouverte contenant un film portant une série de micro-images disposées de façon linéaire, à glisser dans un lecteur de microfilm."@fr;
+  skos:prefLabel "bobine de microfilm"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/66> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Carte comprenant une ou plusieurs ouvertures ou fenêtres rectangulaires sur lesquelles sont montées des images de microfilm."@fr;
+  skos:prefLabel "carte à fenêtre"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/67> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Boîtier scellé contenant un film enroulé sur un seul noyau et portant une série de micro-images disposées de façon linéaire."@fr;
+  skos:prefLabel "cartouche de microfilm"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/68> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Cassette contenant des microfiches non coupées."@fr;
+  skos:prefLabel "cassette de microfiches"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/69> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Boîtier scellé contenant un film enroulé sur deux noyaux jumelés et portant une série de micro-images disposées de façon linéaire."@fr;
+  skos:prefLabel "Cassette de microfilm"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/70> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Fiche ou feuille de matériau opaque comportant une série de micro-images disposées selon deux axes."@fr;
+  skos:prefLabel "Micro-opaque"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/71> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Feuille de film portant une série de micro-images disposées selon deux axes."@fr;
+  skos:prefLabel "Microfiche"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/72> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Métrage enroulé de film portant une série de micro-images disposées de façon linéaire."@fr;
+  skos:prefLabel "Rouleau de microfilm"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/73> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Définition"@fr;
+  skos:prefLabel "Supports microscopiques"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/74> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Petite feuille de matériau transparent (avec ou sans monture de protection) comportant un objet minuscule, conçue pour une utilisation au moyen d’un dispositif tel qu’un microscope."@fr;
+  skos:prefLabel "Lame pour microscope"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/75> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Définition"@fr;
+  skos:prefLabel "Supports sans médiation"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/76> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition """Objet fabriqué pour exécuter un travail, observer un phénomène, prendre des mesures, et délivrant de façon largement autonome le service attendu par l’utilisateur final.
+Terme générique"""@fr;
+  skos:prefLabel "Appareil"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/77> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition """Support de texte ou d’images disposant sur sa face inférieure d’une fine couche d’adhésif permettant de le fixer sur une surface, à titre généralement définitif.
+Comprend :
+les pochettes de gommettes autocollantes ;
+les vignettes « Panini » ;
+les timbres."""@fr;
+  skos:prefLabel "Autocollant"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/78> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Pellicule de film photographique négatif sur support transparent, ayant fait l’objet d’un découpage (plusieurs négatifs d’affilée, à plat)."@fr;
+  skos:prefLabel "Bande de film photographique"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/79> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Pellicule de film photographique négatif sur support transparent, roulé sur son support d’origine, en bobine."@fr;
+  skos:prefLabel "Bobine de film photographique"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/80> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Unité matérielle réunissant un certain nombre de feuillets sous la forme d’un cahier broché ou de feuilles agrafées, comptant généralement moins de 48 pages."@fr;
+  skos:prefLabel "Brochure"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/81> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition """Petit rectangle de papier fort ou de carton servant de support d’information (texte ou image). Il peut être plié pour former une carte double.
+Comprend :
+les cartes postales ;
+les cartes à jouer ;
+les cartes de visite ;
+les fiches de cuisine ;
+les fiches pédagogiques."""@fr;
+  skos:prefLabel "Carte"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/82> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition """Feuille en accordéon, conçue pour être pliée au format de poche ou au format de page normal.
+Peut se présenter sous une reliure ou un emboîtage.
+Comprend :
+les frises en accordéon."""@fr;
+  skos:prefLabel "Dépliant"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/83> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition """Unité matérielle réunissant un certain nombre de feuillets et faisant partie d’un ensemble dont elle ne peut être dissociée.
+Les fascicules peuvent être :
+publiés simultanément sous un même emboîtage ;
+publiés successivement mais destinés à être réunis et reliés dans un seul et même volume."""@fr;
+  skos:prefLabel "Fascicule"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/84> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Morceau plat de matériau fin (papier, plastique, etc.)."@fr;
+  skos:prefLabel "Feuille"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/85> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Voir carte"@fr;
+  skos:prefLabel "Fiche"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/86> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition """Pellicule de film photographique négatif sur support transparent, sans autre information.
+Terme générique"""@fr;
+  skos:prefLabel "Film photographique"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/87> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Objet de forme sphérique, généralement monté sur un axe incliné, constitué par la représentation réduite et en trois dimensions de la Terre ou d’un autre corps céleste approximativement sphérique (comme une planète, une étoile, un satellite naturel), ou par une représentation sphérique de la voûte céleste (étoiles et constellations)."@fr;
+  skos:prefLabel "Globe"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/88> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition """Composants à assembler après achat.
+Comprend :
+les puzzles ;
+les découpages à monter.
+Ne pas confondre avec une ressource multimédia multi-supports pour laquelle les différents supports sont détaillés."""@fr;
+  skos:prefLabel "Kit"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/89> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Représentation en trois dimensions et à échelle généralement réduite d’une construction, d’un appareil, d’un décor, etc."@fr;
+  skos:prefLabel "Maquette"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/90> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition """Objet destiné à réaliser une impression par encrage ou à fabriquer un autre objet.
+Comprend :
+les éléments d’impression (plaque de cuivre, pierre lithographique, etc.). Un élément d’impression peut être en relief, en creux, plat ou en pochoir ;
+les matrices de disques ;
+les matrices d’objets numismatiques."""@fr;
+  skos:prefLabel "Matrice"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/91> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition """Artefact tridimensionnel (ou réplique d’un artefact) ou objet naturel.
+Terme générique"""@fr;
+  skos:prefLabel "Objet"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/92> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition """Pièce de métal ou d’un autre matériau, ayant généralement la forme d’un disque, portant des empreintes (inscriptions, images) marquées sur sa surface.
+Comprend :
+les monnaies ;
+les médailles ;
+les jetons ;
+les insignes.
+Pour le papier monnaie, voir feuille."""@fr;
+  skos:prefLabel "Objet numismatique"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/93> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Élément plan de taille moyenne à très grande, souvent de forme parallélépipédique, fabriqué dans différents matériaux."@fr;
+  skos:prefLabel "Panneau"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/94> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Panneau conçu pour se déplier ou s’ouvrir."@fr;
+  skos:prefLabel "Panneau dépliant"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/95> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition """Morceau plat et peu épais de matériau rigide (carton, bois, métal, plastique, celluloïd, etc.), généralement de petite taille ou de taille moyenne.
+Comprend :
+les magnets."""@fr;
+  skos:prefLabel "Plaque"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/96> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition """Plaque en verre ou en métal utilisée comme support d’une photographie négative ou positive.
+Comprend :
+les daguerréotypes ;
+les autochromes ;
+les plaques de verre."""@fr;
+  skos:prefLabel "Plaque photographique"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/97> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Support plat et rigide portant des inscriptions ou des images et servant de socle pour un jeu."@fr;
+  skos:prefLabel "Plateau de jeu"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/98> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Métrage de matériau enroulé (papier, parchemin, tissu, etc.)."@fr;
+  skos:prefLabel "Rouleau"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/99> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Pellicule de film photographique négatif sur support transparent, enroulé sur lui-même."@fr;
+  skos:prefLabel "Rouleau de film photographique"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/100> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Dispositif à charnière maintenant au moins deux feuilles et conçu pour une utilisation sur chevalet."@fr;
+  skos:prefLabel "Tableau à feuilles mobiles"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/101> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Feuille de matériau transparent (avec ou sans monture de protection) comportant une image et/ou du texte."@fr;
+  skos:prefLabel "Transparent"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/102> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Unité matérielle réunissant sous une même couverture un certain nombre de feuillets ou de cahiers dont la reliure constitue un dos."@fr;
+  skos:prefLabel "Volume"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/103> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Définition"@fr;
+  skos:prefLabel "Supports stéréoscopiques"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/104> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Feuille de papier généralement montée sur carton, comportant une double vue permettant un visionnage en relief."@fr;
+  skos:prefLabel "Carte stéréoscopique"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/105> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Disque avec des ouvertures sur sa circonférence, contenant des images fixes montées en paires, et conçu pour être utilisé avec une visionneuse stéréoscopique."@fr;
+  skos:prefLabel "Disque stéréoscopique"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/106> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition """Plaque de verre ou de métal, comportant une double vue permettant un visionnage en relief.
+Comprend :
+les autochromes stéréoscopiques ;
+les daguerréotypes stéréoscopiques."""@fr;
+  skos:prefLabel "Plaque stéréoscopique"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/107> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Définition"@fr;
+  skos:prefLabel "Supports vidéo"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/108> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition """Vidéo – sans informations détaillées.
+Terme générique"""@fr;
+  skos:prefLabel "Vidéo"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/109> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition """Bobine ouverte contenant un métrage de bande magnétique sur laquelle sont enregistrés des signaux électriques qui peuvent être convertis en images animées à l’aide d’un appareil de lecture spécifique.
+Comprend :
+Bande 2 pouces Ampex (1956-1975) ;
+Bande 1 pouce A ou IVC ;
+Bande 1 pouce B (Bosch, 1976, SECAM) ;
+Bande 1 pouce C (Sony, 1976, PAL) ;
+Bande ½ pouce EIAJ (Sony, 1967) ;
+Bande ¼ pouce AKAI."""@fr;
+  skos:prefLabel "Bande vidéo"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/110> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition """Disque optique haute définition, format Blu-ray, contenant des données vidéo (Sony, 2006).
+Variante :
+BD (abréviation de Blu-ray disc)."""@fr;
+  skos:prefLabel "Blu-ray vidéo"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/111> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition """Boîtier scellé contenant une bande magnétique généralement enroulée sur deux noyaux jumelés, qui constitue le support d’un enregistrement vidéo analogique.
+Comprend :
+Betacam (½ pouce, Sony, 1982) ;
+Betacam SP (½ pouce, Sony, 1986) ;
+Betamax (½ pouce, Sony, 1975) ;
+BVU (Broadcast Video Unit) (¾ pouce, Sony, 1978) ;
+BVU SP (¾ pouce, Sony) ;
+HI 8 (8 mm, Sony, 1989, son numérique) ;
+S-VHS (½ pouce, Matsushita, 1987, son en qualité hifi) ;
+U-matic (¾ pouce, Sony, 1971, 2 tailles) ;
+U-matic SP (¾ pouce, Sony) ;
+V 2000 (½ pouce, Philips, 1979) ;
+VCR (½ pouce, Philips, 1972) ;
+VHS (½ pouce, JVC, 1976) ;
+VHS C (pour caméscope, plus petite) ;
+8 mm (ou Video 8) (1985)."""@fr;
+  skos:prefLabel "Cassette vidéo"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/112> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition """Boîtier scellé contenant une bande magnétique enroulée sur deux noyaux jumelés, qui constitue le support d’un enregistrement vidéo numérique.
+Comprend :
+Betacam digital (½ pouce, Sony, 1993, MJPEG) ;
+Betacam SX (½ pouce, Sony, 1996) ;
+IMX (½ pouce, 2001) ;
+D1 (¾ pouce, Sony, 1986) ;
+D2 à D5 (¾ pouce, Panasonic) ;
+DVC DV (¼ pouce, Sony, 1995) ;
+DVCAM (¼ pouce, Sony, 1995) ;
+DVCPRO (¼ pouce, Panasonic, 1998) ;
+HDV (¼ pouce, Sony, 2003) ;
+HDCAM (½ pouce, Sony, 1997) ;
+HDCAM SR (½ pouce, Sony, 2003);
+8 mm Digital 8 (8 mm, Sony, 1999)."""@fr;
+  skos:prefLabel "Cassette vidéo numérique"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/113> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition """Disque optique contenant des données vidéo analogiques et des pistes sonores analogiques ou numériques.
+Comprend :
+CD-vidéo (CDV) ;
+LaserDisc (Philips 1978-1980) ;
+Laservision.
+Ne pas confondre avec vidéo CD (VCD), ni avec CDTV."""@fr;
+  skos:prefLabel "Disque vidéo"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/114> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Disque optique de type DVD (Digital Versatile Disc, c’est-à-dire Disque numérique polyvalent) contenant des données vidéo (Sony, 1995)."@fr;
+  skos:prefLabel "DVD vidéo"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/115> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "DVD (Digital Versatile Disc, c’est-à-dire Disque numérique polyvalent) haute définition (Toshiba, 2006)."@fr;
+  skos:prefLabel "HD DVD"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/116> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Voir vidéo CD"@fr;
+  skos:prefLabel "SVCD"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/117> dct:created "2023-12-04T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition """Vidéo CD, format vidéo exploitant le support disque compact.
+Comprend :
+VCD (la partie vidéo est encodée au format MPEG-1) ;
+SVCD (Super-VCD ou standard amélioré du VCD, la partie vidéo est encodée en MPEG-2) ;
+KVCD ;
+XVCD (VCD avec débit variable) ;
+CVD (China Video Disc)."""@fr;
+  skos:prefLabel "Vidéo CD"@fr .
+
+<https://rdafr.fr/vocabulary/type-support/10> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/11> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/12> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/13> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/14> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/15> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/16> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/17> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/18> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/19> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/20> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/21> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/23> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/24> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/25> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/26> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/27> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/28> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/29> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/30> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/31> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/33> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/34> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/35> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/36> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/37> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/38> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/39> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/40> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/41> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/42> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/43> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/44> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/45> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/46> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/47> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/48> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/49> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/50> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/51> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/52> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/53> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/54> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/55> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/56> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/57> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/58> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/59> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/60> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/61> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/62> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/63> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/64> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/65> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/66> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/67> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/68> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/69> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/70> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/71> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/72> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/73> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/74> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/75> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/76> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/77> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/78> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/79> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/80> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/81> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/82> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/83> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/84> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/85> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/86> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/87> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/88> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/89> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/90> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/91> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/92> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/93> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/94> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/95> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/96> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/97> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/98> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/99> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/100> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/101> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/102> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/103> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/104> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/105> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/106> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/107> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/108> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/109> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/110> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/111> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/112> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/113> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/114> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/115> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/116> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/117> a skos:Concept .
+
+<https://rdafr.fr/vocabulary/type-support/1> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/2> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/3> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/4> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/5> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/6> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/7> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/8> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/9> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/10> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/11> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/12> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/13> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/14> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/15> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/16> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/17> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/18> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/19> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/20> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/21> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/23> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/24> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/25> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/26> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/27> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/28> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/29> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/30> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/31> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/33> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/34> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/35> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/36> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/37> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/38> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/39> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/40> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/41> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/42> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/43> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/44> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/45> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/46> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/47> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/48> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/49> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/50> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/51> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/52> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/53> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/54> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/55> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/56> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/57> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/58> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/59> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/60> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/61> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/62> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/63> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/64> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/65> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/66> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/67> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/68> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/69> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/70> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/71> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/72> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/73> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/74> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/75> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/76> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/77> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/78> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/79> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/80> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/81> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/82> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/83> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/84> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/85> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/86> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/87> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/88> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/89> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/90> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/91> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/92> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/93> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/94> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/95> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/96> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/97> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/98> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/99> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/100> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/101> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/102> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/103> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/104> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/105> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/106> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/107> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/108> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/109> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/110> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/111> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/112> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/113> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/114> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/115> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/116> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/117> skos:inScheme <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support> a skos:ConceptScheme;
+  skos:hasTopConcept <https://rdafr.fr/vocabulary/type-support/1>, <https://rdafr.fr/vocabulary/type-support/10>,
+    <https://rdafr.fr/vocabulary/type-support/11>, <https://rdafr.fr/vocabulary/type-support/12>,
+    <https://rdafr.fr/vocabulary/type-support/13>, <https://rdafr.fr/vocabulary/type-support/14>,
+    <https://rdafr.fr/vocabulary/type-support/15>, <https://rdafr.fr/vocabulary/type-support/16>,
+    <https://rdafr.fr/vocabulary/type-support/17>, <https://rdafr.fr/vocabulary/type-support/18>,
+    <https://rdafr.fr/vocabulary/type-support/19>, <https://rdafr.fr/vocabulary/type-support/2>,
+    <https://rdafr.fr/vocabulary/type-support/20>, <https://rdafr.fr/vocabulary/type-support/21>,
+    <https://rdafr.fr/vocabulary/type-support/23>, <https://rdafr.fr/vocabulary/type-support/24>,
+    <https://rdafr.fr/vocabulary/type-support/25>, <https://rdafr.fr/vocabulary/type-support/26>,
+    <https://rdafr.fr/vocabulary/type-support/27>, <https://rdafr.fr/vocabulary/type-support/28>,
+    <https://rdafr.fr/vocabulary/type-support/29>, <https://rdafr.fr/vocabulary/type-support/3>,
+    <https://rdafr.fr/vocabulary/type-support/30>, <https://rdafr.fr/vocabulary/type-support/31>,
+    <https://rdafr.fr/vocabulary/type-support/33>, <https://rdafr.fr/vocabulary/type-support/34>,
+    <https://rdafr.fr/vocabulary/type-support/35>, <https://rdafr.fr/vocabulary/type-support/36>,
+    <https://rdafr.fr/vocabulary/type-support/37>, <https://rdafr.fr/vocabulary/type-support/38>,
+    <https://rdafr.fr/vocabulary/type-support/39>, <https://rdafr.fr/vocabulary/type-support/4>,
+    <https://rdafr.fr/vocabulary/type-support/40>, <https://rdafr.fr/vocabulary/type-support/41>,
+    <https://rdafr.fr/vocabulary/type-support/42>, <https://rdafr.fr/vocabulary/type-support/43>,
+    <https://rdafr.fr/vocabulary/type-support/44>, <https://rdafr.fr/vocabulary/type-support/45>,
+    <https://rdafr.fr/vocabulary/type-support/46>, <https://rdafr.fr/vocabulary/type-support/47>,
+    <https://rdafr.fr/vocabulary/type-support/48>, <https://rdafr.fr/vocabulary/type-support/49>,
+    <https://rdafr.fr/vocabulary/type-support/5>, <https://rdafr.fr/vocabulary/type-support/50>,
+    <https://rdafr.fr/vocabulary/type-support/51>, <https://rdafr.fr/vocabulary/type-support/52>,
+    <https://rdafr.fr/vocabulary/type-support/53>, <https://rdafr.fr/vocabulary/type-support/54>,
+    <https://rdafr.fr/vocabulary/type-support/55>, <https://rdafr.fr/vocabulary/type-support/56>,
+    <https://rdafr.fr/vocabulary/type-support/57>, <https://rdafr.fr/vocabulary/type-support/58>,
+    <https://rdafr.fr/vocabulary/type-support/59>, <https://rdafr.fr/vocabulary/type-support/6>,
+    <https://rdafr.fr/vocabulary/type-support/60>, <https://rdafr.fr/vocabulary/type-support/61>,
+    <https://rdafr.fr/vocabulary/type-support/62>, <https://rdafr.fr/vocabulary/type-support/63>,
+    <https://rdafr.fr/vocabulary/type-support/64>, <https://rdafr.fr/vocabulary/type-support/65>,
+    <https://rdafr.fr/vocabulary/type-support/66>, <https://rdafr.fr/vocabulary/type-support/67>,
+    <https://rdafr.fr/vocabulary/type-support/68>, <https://rdafr.fr/vocabulary/type-support/69>,
+    <https://rdafr.fr/vocabulary/type-support/7>, <https://rdafr.fr/vocabulary/type-support/70>,
+    <https://rdafr.fr/vocabulary/type-support/71>, <https://rdafr.fr/vocabulary/type-support/72>,
+    <https://rdafr.fr/vocabulary/type-support/73>, <https://rdafr.fr/vocabulary/type-support/74>,
+    <https://rdafr.fr/vocabulary/type-support/75>, <https://rdafr.fr/vocabulary/type-support/76>,
+    <https://rdafr.fr/vocabulary/type-support/77>, <https://rdafr.fr/vocabulary/type-support/78>,
+    <https://rdafr.fr/vocabulary/type-support/79>, <https://rdafr.fr/vocabulary/type-support/8>,
+    <https://rdafr.fr/vocabulary/type-support/80>, <https://rdafr.fr/vocabulary/type-support/81>,
+    <https://rdafr.fr/vocabulary/type-support/82>, <https://rdafr.fr/vocabulary/type-support/83>,
+    <https://rdafr.fr/vocabulary/type-support/84>, <https://rdafr.fr/vocabulary/type-support/85>,
+    <https://rdafr.fr/vocabulary/type-support/86>, <https://rdafr.fr/vocabulary/type-support/87>,
+    <https://rdafr.fr/vocabulary/type-support/88>, <https://rdafr.fr/vocabulary/type-support/89>,
+    <https://rdafr.fr/vocabulary/type-support/9>, <https://rdafr.fr/vocabulary/type-support/90>,
+    <https://rdafr.fr/vocabulary/type-support/91>, <https://rdafr.fr/vocabulary/type-support/92>,
+    <https://rdafr.fr/vocabulary/type-support/93>, <https://rdafr.fr/vocabulary/type-support/94>,
+    <https://rdafr.fr/vocabulary/type-support/95>, <https://rdafr.fr/vocabulary/type-support/96>,
+    <https://rdafr.fr/vocabulary/type-support/100>, <https://rdafr.fr/vocabulary/type-support/97>,
+    <https://rdafr.fr/vocabulary/type-support/101>, <https://rdafr.fr/vocabulary/type-support/98>,
+    <https://rdafr.fr/vocabulary/type-support/102>, <https://rdafr.fr/vocabulary/type-support/99>,
+    <https://rdafr.fr/vocabulary/type-support/103> .
+
+<https://rdafr.fr/vocabulary/type-support/1> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/2> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/3> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/4> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/5> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/6> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/7> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/8> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/9> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/10> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/11> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/12> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/13> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/14> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/15> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/16> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/17> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/18> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/19> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/20> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/21> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/23> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/24> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/25> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/26> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/27> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/28> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/29> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/30> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/31> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/33> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/34> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/35> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/36> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/37> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/38> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/39> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/40> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/41> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/42> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/43> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/44> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/45> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/46> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/47> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/48> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/49> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/50> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/51> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/52> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/53> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/54> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/55> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/56> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/57> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/58> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/59> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/60> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/61> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/62> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/63> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/64> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/65> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/66> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/67> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/68> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/69> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/70> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/71> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/72> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/73> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/74> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/75> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/76> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/77> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/78> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/79> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/80> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/81> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/82> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/83> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/84> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/85> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/86> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/87> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/88> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/89> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/90> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/91> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/92> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/93> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/94> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/95> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/96> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/97> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/98> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/99> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/100> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/101> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/102> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/103> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support> skos:hasTopConcept <https://rdafr.fr/vocabulary/type-support/104>,
+    <https://rdafr.fr/vocabulary/type-support/105>, <https://rdafr.fr/vocabulary/type-support/106>,
+    <https://rdafr.fr/vocabulary/type-support/107>, <https://rdafr.fr/vocabulary/type-support/108>,
+    <https://rdafr.fr/vocabulary/type-support/109>, <https://rdafr.fr/vocabulary/type-support/110>,
+    <https://rdafr.fr/vocabulary/type-support/111>, <https://rdafr.fr/vocabulary/type-support/112>,
+    <https://rdafr.fr/vocabulary/type-support/113>, <https://rdafr.fr/vocabulary/type-support/114>,
+    <https://rdafr.fr/vocabulary/type-support/115>, <https://rdafr.fr/vocabulary/type-support/116>,
+    <https://rdafr.fr/vocabulary/type-support/117> .
+
+<https://rdafr.fr/vocabulary/type-support/104> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/105> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/106> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/107> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/108> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/109> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/110> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/111> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/112> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/113> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/114> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/115> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/116> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .
+
+<https://rdafr.fr/vocabulary/type-support/117> skos:topConceptOf <https://rdafr.fr/vocabulary/type-support> .

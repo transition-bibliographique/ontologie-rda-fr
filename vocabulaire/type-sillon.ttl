@@ -10,7 +10,7 @@
   dct:description "Le type de sillon est la largeur du sillon d’un disque analogique ou le pas du sillon d’un cylindre audio, exprimés sous forme générique."@fr;
   dct:modified "2023-11-06"^^xsd:date;
   dct:publisher "BnF, Abes"@fr;
-  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des types de sillon"@fr;
+  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des types de sillon (manifestation)"@fr;
   skos:hasTopConcept <https://rdafr.fr/vocabulary/type-sillon/1>, <https://rdafr.fr/vocabulary/type-sillon/2>,
     <https://rdafr.fr/vocabulary/type-sillon/3>, <https://rdafr.fr/vocabulary/type-sillon/4> .
 

@@ -85,6 +85,8 @@ RUN mv /build/ontologie/index-en.html /build/ontologie/index.html
 RUN mkdir -p profil-application
 
 # Ajout des métadonnées au profil d'application. On copie les métadonnées au format NT dans le fichier TTL, pour faire apparaître les préfixes dans le profil d'application
+# Deux fichier sont utilisés : le fichier `rdafr-doc` qui est un fichier simplifié pour la documentation HTML et le fichier rdafr.ttl qui est distribué à l'utilisateur final.
+RUN cat /tmp/ontologie/profil-application-metadata.nt /tmp/ontologie/rdafr-doc.ttl > /tmp/ontologie/profil-application-doc-avec-meta.ttl
 RUN cat /tmp/ontologie/profil-application-metadata.nt /tmp/ontologie/rdafr.ttl > /tmp/ontologie/profil-application-avec-meta.ttl
 
 # Installation de shacl play
@@ -92,7 +94,7 @@ RUN curl -L https://github.com/sparna-git/shacl-play/releases/download/0.7.0/sha
       -o shacl-play.jar
 
 # Génération du profil d'application
-RUN java -jar shacl-play.jar doc -i /tmp/ontologie/profil-application-avec-meta.ttl -o /build/profil-application/index.html -l fr
+RUN java -jar shacl-play.jar doc -i /tmp/ontologie/profil-application-doc-avec-meta.ttl -o /build/profil-application/index.html -l fr
 
 # Post traitement du profil d'application
 RUN sed -E -i /build/profil-application/index.html \

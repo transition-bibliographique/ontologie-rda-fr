@@ -10,7 +10,7 @@
   dct:description "La technique de réduction du bruit de fond est un procédé consistant à supprimer les composantes indésirables d’un signal sonore."@fr;
   dct:modified "2023-11-06"^^xsd:date;
   dct:publisher "BnF, Abes"@fr;
-  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des techniques de réduction du bruit de fond"@fr;
+  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des techniques de réduction du bruit de fond pour une manifestation"@fr;
   skos:hasTopConcept <https://rdafr.fr/vocabulary/technique-reduction-bruit/1>, <https://rdafr.fr/vocabulary/technique-reduction-bruit/2>,
     <https://rdafr.fr/vocabulary/technique-reduction-bruit/3>, <https://rdafr.fr/vocabulary/technique-reduction-bruit/4>,
     <https://rdafr.fr/vocabulary/technique-reduction-bruit/5>, <https://rdafr.fr/vocabulary/technique-reduction-bruit/6>,

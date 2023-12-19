@@ -1,0 +1,23 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://rdafr.fr/vocabulary/mode-enregistrement> a skos:ConceptScheme;
+  dct:created "2023-12-05T00:00:00.000Z"^^xsd:dateTime;
+  dct:description "Le mode d’enregistrement désigne la grande catégorie de techniques utilisées pour réaliser un enregistrement sonore, à partir de la nature du signal utilisé pour réaliser l’enregistrement."@fr;
+  dct:publisher "BnF, Abes"@fr;
+  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des modes d'enregistrement pour une expression"@fr;
+  skos:hasTopConcept <https://rdafr.fr/vocabulary/mode-enregistrement/1>, <https://rdafr.fr/vocabulary/mode-enregistrement/2> .
+
+<https://rdafr.fr/vocabulary/mode-enregistrement/1> a skos:Concept;
+  skos:altLabel "analogique"@fr;
+  skos:definition "enregistrement représentant les vibrations sonores sous la forme de variations continues."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/mode-enregistrement>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/mode-enregistrement> .
+
+<https://rdafr.fr/vocabulary/mode-enregistrement/2> a skos:Concept;
+  skos:altLabel "numérique"@fr;
+  skos:definition "enregistrement représentant les vibrations sonores par des valeurs numériques discrètes, sous forme binaire."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/mode-enregistrement>;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/mode-enregistrement> .
