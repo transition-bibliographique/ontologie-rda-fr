@@ -1,4 +1,6 @@
-
+---
+pagetitle: Ontologie RDA-FR - Vocabulaires
+---
 
 <!--Ce fichier est généré automatiquement. Il ne doit pas être édité manuellement.-->
 
