@@ -32,7 +32,7 @@
                 <xsl:value-of select="format-date(./dct:modified, '[D01]/[M01]/[Y0001]')"/>
             </xsl:variable>
             
-            <xsl:value-of select="concat('* **', $title, '**', ' ', $date, '&#10;')"/>            
+            <xsl:value-of select="concat('* **', $title, '**', ' (dernière modification : ', $date, ') &#10;')"/>            
         </xsl:for-each>
     </xsl:template>
 </xsl:stylesheet>
