@@ -1,5 +1,5 @@
 ---
-pagetitle: Ontologie RDA-FR - Vocabulaires
+pagetitle: Ontologie RDA-FR - Vocabulaires contrôlés
 ---
 
 <!--Ce fichier est généré automatiquement. Il ne doit pas être édité manuellement.-->
