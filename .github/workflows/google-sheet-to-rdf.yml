@@ -44,6 +44,8 @@ jobs:
           java -jar /tmp/xls2rdf.jar convert -i /tmp/ontologie-complete.xlsx -o ./ontologie/rdafr.nt -np -l fr -f text/plain
           java -jar /tmp/xls2rdf.jar convert -i /tmp/ontologie-complete.xlsx -o ./ontologie/rdafr.ttl -np -l fr -f text/turtle
           java -jar /tmp/xls2rdf.jar convert -i /tmp/ontologie-complete.xlsx -o ./ontologie/rdafr.rdf -np -l fr -f application/rdf+xml
+          rm  xls2rdf.log
+          
       - name: "Génération des données RDF des vocabulaires contrôlés"
         run : |
           # On génère un zip avec un fichier ttl par vocabulaire.
