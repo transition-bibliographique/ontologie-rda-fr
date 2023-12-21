@@ -44,12 +44,13 @@ jobs:
           java -jar /tmp/xls2rdf.jar convert -i /tmp/ontologie-complete.xlsx -o ./ontologie/rdafr.nt -np -l fr -f text/plain
           java -jar /tmp/xls2rdf.jar convert -i /tmp/ontologie-complete.xlsx -o ./ontologie/rdafr.ttl -np -l fr -f text/turtle
           java -jar /tmp/xls2rdf.jar convert -i /tmp/ontologie-complete.xlsx -o ./ontologie/rdafr.rdf -np -l fr -f application/rdf+xml
+          
       - name: "Génération des données RDF des vocabulaires contrôlés"
         run : |
           # On génère un zip avec un fichier ttl par vocabulaire.
           # Ces fichiers sont destinés à être distribués : ils sont commités dans le dépôt.
           java -jar /tmp/xls2rdf.jar convert -i /tmp/vocabulaires.xlsx -l fr -o /tmp/vocabulaires.zip -f text/turtle
-
+          
           # On supprime les anciens vocabulaires pour être sûr que les tableaux soient l'unique source de données.
           rm vocabulaire/*.ttl
 
@@ -65,7 +66,7 @@ jobs:
           # On génère un fichier intermédiaire qui contient l'ensemble des vocabulaires. Ce fichier n'est pas commité.
           # Ce fichier permet de générer la liste des vocabulaires contrôlés au format markdown pour le site web.
           java -jar /tmp/xls2rdf.jar convert -i /tmp/vocabulaires.xlsx -p -l fr -o /tmp/vocabulaires.rdf -f application/rdf+xml
-
+          rm  xls2rdf.log
 
       - name: "Génération de la liste des vocabulaires contrôlés au format markdown"
         run : |
