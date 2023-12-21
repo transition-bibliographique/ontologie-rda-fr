@@ -74,7 +74,6 @@ RUN java -jar /tmp/widoco.jar \
       -outFolder ontologie \
       -rewriteAll \
       -lang en \
-      -noPlaceHolderText \
       -ignoreIndividuals
 
 # Copie le profil d'application pour que l'utilisateur puisse le récupérer depuis http://rdafr.fr/ontologie/rdafr.ttl
@@ -83,6 +82,8 @@ RUN cp /build/ontologie/ontology.ttl /build/ontologie/rdafr.ttl
 
 # Renomme index-en.html, qui est généré automatiquement par Widoco, en index.html
 RUN mv /build/ontologie/index-en.html /build/ontologie/index.html
+# On supprime les sections vides de la documentation HTML de l'ontologie
+RUN rm /build/ontologie/sections/abstract-en.html /build/ontologie/sections/introduction-en.html /build/ontologie/sections/references-en.html
 
 # Génération du profil d'application
 RUN mkdir -p profil-application
