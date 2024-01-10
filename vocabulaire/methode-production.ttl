@@ -45,8 +45,8 @@
   dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:definition "Pour les disques optiques"@fr;
-  skos:prefLabel "pressage (disque)"@fr;
-  skos:inScheme <https://rdafr.fr/vocabulary/methode-production> .
+  skos:inScheme <https://rdafr.fr/vocabulary/methode-production>;
+  skos:prefLabel "pressage (disque)"@fr .
 
 <https://rdafr.fr/vocabulary/methode-production/5> a skos:Concept, rdafr:MethodeProduction;
   dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
@@ -66,7 +66,6 @@
   dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:definition "Pour les objets monétiformes"@fr;
-  skos:editorialNote "Changer \"numismatique\" en \"monétiforme\" dans RDA-FR."@fr;
   skos:inScheme <https://rdafr.fr/vocabulary/methode-production>;
   skos:prefLabel "électrotype/galvanoplastie"@fr .
 

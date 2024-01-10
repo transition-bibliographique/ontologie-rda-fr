@@ -18,7 +18,7 @@
   owl:deprecated false;
   skos:definition "si la langue de l’expression est celle dans laquelle l’œuvre a été exprimée à l’origine."@fr;
   skos:inScheme <https://rdafr.fr/vocabulary/aspect-traduction>;
-  skos:prefLabel "N’est pas une traduction"@fr;
+  skos:prefLabel "n’est pas une traduction"@fr;
   skos:topConceptOf <https://rdafr.fr/vocabulary/aspect-traduction> .
 
 <https://rdafr.fr/vocabulary/aspect-traduction/2> a skos:Concept;
@@ -26,7 +26,7 @@
   owl:deprecated false;
   skos:definition "si l’expression est une traduction établie directement à partir de la langue dans laquelle l’œuvre a été exprimée à l’origine."@fr;
   skos:inScheme <https://rdafr.fr/vocabulary/aspect-traduction>;
-  skos:prefLabel "Traduction directe"@fr;
+  skos:prefLabel "traduction directe"@fr;
   skos:topConceptOf <https://rdafr.fr/vocabulary/aspect-traduction> .
 
 <https://rdafr.fr/vocabulary/aspect-traduction/3> a skos:Concept;
@@ -34,7 +34,7 @@
   owl:deprecated false;
   skos:definition "si l’expression est une traduction établie à partir d’une autre traduction."@fr;
   skos:inScheme <https://rdafr.fr/vocabulary/aspect-traduction>;
-  skos:prefLabel "Traduction indirecte"@fr;
+  skos:prefLabel "traduction indirecte"@fr;
   skos:topConceptOf <https://rdafr.fr/vocabulary/aspect-traduction> .
 
 <https://rdafr.fr/vocabulary/aspect-traduction/4> a skos:Concept;
@@ -42,5 +42,5 @@
   owl:deprecated false;
   skos:definition "si l’expression est une traduction dont on ignore si elle est directe ou indirecte."@fr;
   skos:inScheme <https://rdafr.fr/vocabulary/aspect-traduction>;
-  skos:prefLabel "Traduction (sans précision)"@fr;
+  skos:prefLabel "traduction (sans précision)"@fr;
   skos:topConceptOf <https://rdafr.fr/vocabulary/aspect-traduction> .

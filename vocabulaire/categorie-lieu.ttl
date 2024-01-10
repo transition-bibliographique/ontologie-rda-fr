@@ -21,149 +21,148 @@
   dct:description "Catégorie générale à laquelle une instance de Lieu appartient."@fr;
   dct:modified "2023-11-06"^^xsd:date;
   dct:publisher "BnF, Abes"@fr;
-  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des catégories de lieu"@fr;
-  owl:equivalentClass rdafr:CategorieLieu .
+  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des catégories de lieu"@fr .
 
 <https://rdafr.fr/vocabulary/categorie-lieu/1> a skos:Concept, rdafr:CategorieLieu;
   dct:created "2023-06-12T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:definition "Objet céleste unitaire."@fr;
-  skos:prefLabel "Corps céleste"@fr .
+  skos:prefLabel "corps céleste"@fr .
 
 <https://rdafr.fr/vocabulary/categorie-lieu/2> a skos:Concept, rdafr:CategorieLieu;
   dct:created "2023-06-12T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:definition "Regroupement arbitraire d'étoiles."@fr;
-  skos:prefLabel "Groupement conventionnel de corps célestes"@fr .
+  skos:prefLabel "groupement conventionnel de corps célestes"@fr .
 
 <https://rdafr.fr/vocabulary/categorie-lieu/3> a skos:Concept, rdafr:CategorieLieu;
   dct:created "2023-06-12T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:definition "Ensemble d’objets extra ou intra-galactiques."@fr;
-  skos:prefLabel "Groupement naturel de corps célestes"@fr .
+  skos:prefLabel "groupement naturel de corps célestes"@fr .
 
 <https://rdafr.fr/vocabulary/categorie-lieu/4> a skos:Concept, rdafr:CategorieLieu;
   dct:created "2023-06-12T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:definition "Lieu linéaire favorisant la circulation des biens et des personnes."@fr;
-  skos:prefLabel "Voie de circulation ou de transport"@fr .
+  skos:prefLabel "voie de circulation ou de transport"@fr .
 
 <https://rdafr.fr/vocabulary/categorie-lieu/5> a skos:Concept, rdafr:CategorieLieu;
   dct:created "2023-06-12T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:definition "Construction humaine immobilière et couverte (en opposition à Terrain aménagé ou construit)."@fr;
-  skos:prefLabel "Bâtiment"@fr .
+  skos:prefLabel "bâtiment"@fr .
 
 <https://rdafr.fr/vocabulary/categorie-lieu/6> a skos:Concept, rdafr:CategorieLieu;
   dct:created "2023-06-12T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:definition "Construction humaine immobilière et découverte (en opposition à Bâtiment)."@fr;
-  skos:prefLabel "Terrain aménagé ou construit"@fr .
+  skos:prefLabel "terrain aménagé ou construit"@fr .
 
 <https://rdafr.fr/vocabulary/categorie-lieu/7> a skos:Concept, rdafr:CategorieLieu;
   dct:created "2023-06-12T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:definition "Végétation insérée dans le tissu urbain."@fr;
-  skos:prefLabel "Espace urbain végétal"@fr .
+  skos:prefLabel "rspace urbain végétal"@fr .
 
 <https://rdafr.fr/vocabulary/categorie-lieu/8> a skos:Concept, rdafr:CategorieLieu;
   dct:created "2023-06-12T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:definition "Regroupement de constructions humaines doté d'un fonctionnement politique commun."@fr;
-  skos:prefLabel "Commune"@fr .
+  skos:prefLabel "commune"@fr .
 
 <https://rdafr.fr/vocabulary/categorie-lieu/9> a skos:Concept, rdafr:CategorieLieu;
   dct:created "2023-06-12T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:definition "Partie d’une Commune."@fr;
-  skos:prefLabel "Lieudit ou quartier"@fr .
+  skos:prefLabel "lieudit ou quartier"@fr .
 
 <https://rdafr.fr/vocabulary/categorie-lieu/10> a skos:Concept, rdafr:CategorieLieu;
   dct:created "2023-06-12T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:definition "Espace rural arboré."@fr;
-  skos:prefLabel "Espace forestier"@fr .
+  skos:prefLabel "espace forestier"@fr .
 
 <https://rdafr.fr/vocabulary/categorie-lieu/11> a skos:Concept, rdafr:CategorieLieu;
   dct:created "2023-06-12T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:definition "Espace consacré à l'élevage ou à l'exploitation de la terre."@fr;
-  skos:prefLabel "Espace agricole"@fr .
+  skos:prefLabel "espace agricole"@fr .
 
 <https://rdafr.fr/vocabulary/categorie-lieu/12> a skos:Concept, rdafr:CategorieLieu;
   dct:created "2023-06-12T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:definition "Partie d’un Pays."@fr;
-  skos:prefLabel "Division territoriale"@fr .
+  skos:prefLabel "division territoriale"@fr .
 
 <https://rdafr.fr/vocabulary/categorie-lieu/13> a skos:Concept, rdafr:CategorieLieu;
   dct:created "2023-06-12T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:definition "Regroupement de pays à caractère géographique régional auquel correspond une collectivité."@fr;
-  skos:prefLabel "Union ou ensemble de pays"@fr .
+  skos:prefLabel "union ou ensemble de pays"@fr .
 
 <https://rdafr.fr/vocabulary/categorie-lieu/14> a skos:Concept, rdafr:CategorieLieu;
   dct:created "2023-06-12T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:definition "Espace dont l'unité est à la fois géographique, humaine et politique."@fr;
   skos:inScheme <https://rdafr.fr/vocabulary/categorie-lieu>;
-  skos:prefLabel "Pays"@fr .
+  skos:prefLabel "pays"@fr .
 
 <https://rdafr.fr/vocabulary/categorie-lieu/15> a skos:Concept, rdafr:CategorieLieu;
   dct:created "2023-06-12T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:definition "Espace ayant conservé au fil de l’histoire une intégrité culturelle avérée."@fr;
   skos:inScheme <https://rdafr.fr/vocabulary/categorie-lieu>;
-  skos:prefLabel "Lieu transhistorique"@fr .
+  skos:prefLabel "lieu transhistorique"@fr .
 
 <https://rdafr.fr/vocabulary/categorie-lieu/16> a skos:Concept, rdafr:CategorieLieu;
   dct:created "2023-06-12T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:definition "Formation définie par son élévation (en opposition à Espace géographique et à Relief sous-marin)."@fr;
   skos:inScheme <https://rdafr.fr/vocabulary/categorie-lieu>;
-  skos:prefLabel "Relief terrestre"@fr .
+  skos:prefLabel "relief terrestre"@fr .
 
 <https://rdafr.fr/vocabulary/categorie-lieu/17> a skos:Concept, rdafr:CategorieLieu;
   dct:created "2023-06-12T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:definition "Lieu côtier terrestre (en opposition à Espace maritime côtier)."@fr;
   skos:inScheme <https://rdafr.fr/vocabulary/categorie-lieu>;
-  skos:prefLabel "Littoral ou côte"@fr .
+  skos:prefLabel "littoral ou côte"@fr .
 
 <https://rdafr.fr/vocabulary/categorie-lieu/18> a skos:Concept, rdafr:CategorieLieu;
   dct:created "2023-06-12T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:definition "Formation bordée en tout ou en majeure partie par une étendue d'eau."@fr;
   skos:inScheme <https://rdafr.fr/vocabulary/categorie-lieu>;
-  skos:prefLabel "Formation terrestre émergée"@fr .
+  skos:prefLabel "formation terrestre émergée"@fr .
 
 <https://rdafr.fr/vocabulary/categorie-lieu/19> a skos:Concept, rdafr:CategorieLieu;
   dct:created "2023-06-12T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:definition "Espace accessible ou non, situé sous un espace émergé."@fr;
   skos:inScheme <https://rdafr.fr/vocabulary/categorie-lieu>;
-  skos:prefLabel "Espace souterrain"@fr .
+  skos:prefLabel "espace souterrain"@fr .
 
 <https://rdafr.fr/vocabulary/categorie-lieu/20> a skos:Concept, rdafr:CategorieLieu;
   dct:created "2023-06-12T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:definition "Espace sous-marin, accessible ou non, situé sous un espace immergé (en opposition à Relief terrestre)."@fr;
   skos:inScheme <https://rdafr.fr/vocabulary/categorie-lieu>;
-  skos:prefLabel "Relief sous-marin"@fr .
+  skos:prefLabel "relief sous-marin"@fr .
 
 <https://rdafr.fr/vocabulary/categorie-lieu/21> a skos:Concept, rdafr:CategorieLieu;
   dct:created "2023-06-12T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:definition "Formation définie par son horizontalité (en opposition à Relief terrestre)."@fr;
   skos:inScheme <https://rdafr.fr/vocabulary/categorie-lieu>;
-  skos:prefLabel "Espace géographique"@fr .
+  skos:prefLabel "espace géographique"@fr .
 
 <https://rdafr.fr/vocabulary/categorie-lieu/22> a skos:Concept, rdafr:CategorieLieu;
   dct:created "2023-06-12T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:definition "Formation émergée de très grande ampleur."@fr;
   skos:inScheme <https://rdafr.fr/vocabulary/categorie-lieu>;
-  skos:prefLabel "Continent"@fr;
+  skos:prefLabel "continent"@fr;
   skos:topConceptOf <https://rdafr.fr/vocabulary/categorie-lieu> .
 
 <https://rdafr.fr/vocabulary/categorie-lieu/23> a skos:Concept, rdafr:CategorieLieu;
@@ -171,7 +170,7 @@
   owl:deprecated false;
   skos:definition "Amas de glace de grande ampleur."@fr;
   skos:inScheme <https://rdafr.fr/vocabulary/categorie-lieu>;
-  skos:prefLabel "Formation glaciaire"@fr;
+  skos:prefLabel "formation glaciaire"@fr;
   skos:topConceptOf <https://rdafr.fr/vocabulary/categorie-lieu> .
 
 <https://rdafr.fr/vocabulary/categorie-lieu/24> a skos:Concept, rdafr:CategorieLieu;
@@ -179,7 +178,7 @@
   owl:deprecated false;
   skos:definition "Écoulement terrestre et continu d’eau liquide."@fr;
   skos:inScheme <https://rdafr.fr/vocabulary/categorie-lieu>;
-  skos:prefLabel "Cours d'eau"@fr;
+  skos:prefLabel "cours d'eau"@fr;
   skos:topConceptOf <https://rdafr.fr/vocabulary/categorie-lieu> .
 
 <https://rdafr.fr/vocabulary/categorie-lieu/25> a skos:Concept, rdafr:CategorieLieu;
@@ -187,7 +186,7 @@
   owl:deprecated false;
   skos:definition "Étendue d’eau entièrement entourée de terres (en opposition à Espace maritime)."@fr;
   skos:inScheme <https://rdafr.fr/vocabulary/categorie-lieu>;
-  skos:prefLabel "Étendue d'eau non maritime"@fr;
+  skos:prefLabel "étendue d'eau non maritime"@fr;
   skos:topConceptOf <https://rdafr.fr/vocabulary/categorie-lieu> .
 
 <https://rdafr.fr/vocabulary/categorie-lieu/26> a skos:Concept, rdafr:CategorieLieu;
@@ -195,7 +194,7 @@
   owl:deprecated false;
   skos:definition "Lieu côtier maritime (en opposition à Littoral ou côte)."@fr;
   skos:inScheme <https://rdafr.fr/vocabulary/categorie-lieu>;
-  skos:prefLabel "Espace maritime côtier"@fr;
+  skos:prefLabel "espace maritime côtier"@fr;
   skos:topConceptOf <https://rdafr.fr/vocabulary/categorie-lieu> .
 
 <https://rdafr.fr/vocabulary/categorie-lieu/27> a skos:Concept, rdafr:CategorieLieu;
@@ -203,7 +202,7 @@
   owl:deprecated false;
   skos:definition "Etendue d’eau en communication avec un océan (en opposition à Étendue d’eau non maritime)."@fr;
   skos:inScheme <https://rdafr.fr/vocabulary/categorie-lieu>;
-  skos:prefLabel "Espace maritime"@fr;
+  skos:prefLabel "espace maritime"@fr;
   skos:topConceptOf <https://rdafr.fr/vocabulary/categorie-lieu> .
 
 <https://rdafr.fr/vocabulary/categorie-lieu/28> a skos:Concept, rdafr:CategorieLieu;
@@ -211,7 +210,7 @@
   owl:deprecated false;
   skos:definition "Lieu attesté par des sources et n’ayant plus d’existence tangible."@fr;
   skos:inScheme <https://rdafr.fr/vocabulary/categorie-lieu>;
-  skos:prefLabel "Lieu disparu"@fr;
+  skos:prefLabel "lieu disparu"@fr;
   skos:topConceptOf <https://rdafr.fr/vocabulary/categorie-lieu> .
 
 <https://rdafr.fr/vocabulary/categorie-lieu/1> skos:inScheme <https://rdafr.fr/vocabulary/categorie-lieu>;

@@ -1,0 +1,38 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://rdafr.fr/vocabulary/categorisation-item> a skos:ConceptScheme;
+  dct:created "2023-12-22T00:00:00.000Z"^^xsd:dateTime;
+  dct:description "Une catégorisation d'item permet de caractériser un item selon qu'il est autonome ou composite"@fr;
+  dct:modified "2023-12-22"^^xsd:date;
+  dct:publisher "BnF, Abes"@fr;
+  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Catégorisation d'item"@fr;
+  skos:hasTopConcept <https://rdafr.fr/vocabulary/categorisation-item/1>, <https://rdafr.fr/vocabulary/categorisation-item/2>,
+    <https://rdafr.fr/vocabulary/categorisation-item/3> .
+
+<https://rdafr.fr/vocabulary/categorisation-item/1> a skos:Concept;
+  dct:created "2023-12-22T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "S'applique aux items constitués d'une seule unité matérielle formant un tout autonome"@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/categorisation-item>;
+  skos:prefLabel "item unitaire"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/categorisation-item> .
+
+<https://rdafr.fr/vocabulary/categorisation-item/2> a skos:Concept;
+  dct:created "2023-12-22T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "S'applique aux items constitués de plusieurs unités matérielles ou de plusieurs composants. La description des différents composants n'est pas obligatoire."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/categorisation-item>;
+  skos:prefLabel "item global"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/categorisation-item> .
+
+<https://rdafr.fr/vocabulary/categorisation-item/3> a skos:Concept;
+  dct:created "2023-12-22T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "S'applique aux items constituant une partie d'un item global. Cette valeur implique la description d'un item global."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/categorisation-item>;
+  skos:prefLabel "item composant"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/categorisation-item> .

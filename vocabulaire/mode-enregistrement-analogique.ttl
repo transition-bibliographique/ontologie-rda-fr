@@ -6,20 +6,21 @@
 <https://rdafr.fr/vocabulary/mode-enregistrement-analogique> a skos:ConceptScheme;
   dct:created "2023-12-05T00:00:00.000Z"^^xsd:dateTime;
   dct:description "Le mode d'enregistrement analogique est une sous-catégorie technique pour un enregistrement sonore réalisé de manière analogique."@fr;
+  dct:modified "2023-12-05"^^xsd:date;
   dct:publisher "BnF, Abes"@fr;
   dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des modes d'enregistrement analogique pour une expression"@fr;
   skos:hasTopConcept <https://rdafr.fr/vocabulary/mode-enregistremen-analogique/1>,
     <https://rdafr.fr/vocabulary/mode-enregistrement-analogique/2> .
 
 <https://rdafr.fr/vocabulary/mode-enregistremen-analogique/1> a skos:Concept;
-  skos:altLabel "acoustique"@fr;
-  skos:definition """enregistrement transcrivant directement les vibrations sonores sur un support. Correspond aux premières techniques d’enregistrement, antérieures à 1925.
+  skos:definition """Enregistrement transcrivant directement les vibrations sonores sur un support. Correspond aux premières techniques d’enregistrement, antérieures à 1925.
 Employé pour enregistrement mécanique."""@fr;
   skos:inScheme <https://rdafr.fr/vocabulary/mode-enregistrement-analogique>;
+  skos:prefLabel "acoustique"@fr;
   skos:topConceptOf <https://rdafr.fr/vocabulary/mode-enregistrement-analogique> .
 
 <https://rdafr.fr/vocabulary/mode-enregistrement-analogique/2> a skos:Concept;
-  skos:altLabel "électrique"@fr;
-  skos:definition "enregistrement transformant les ondes sonores en signal électrique analogique. Correspond aux techniques d’enregistrement postérieures à 1925."@fr;
+  skos:definition "Enregistrement transformant les ondes sonores en signal électrique analogique. Correspond aux techniques d’enregistrement postérieures à 1925."@fr;
   skos:inScheme <https://rdafr.fr/vocabulary/mode-enregistrement-analogique>;
+  skos:prefLabel "électrique"@fr;
   skos:topConceptOf <https://rdafr.fr/vocabulary/mode-enregistrement-analogique> .

@@ -28,7 +28,6 @@
   dct:created "2023-06-02T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:definition "Premier(s) état(s) d’une œuvre jusqu’à la version définitive avant la mise au net. Exemplaire de travail qui n'est pas destiné à la diffusion publique."@fr;
-  skos:editorialNote "Selon l’état considéré, peut signaler ou non une expression différente de l’expression représentative de l’œuvre."@fr;
   skos:prefLabel "brouillon"@fr .
 
 <https://rdafr.fr/vocabulary/designation-presentation-musicale/2> a skos:Concept,
@@ -43,7 +42,6 @@
   dct:created "2023-06-02T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:definition "Idées musicales de base qui peuvent servir de point de départ à une œuvre musicale."@fr;
-  skos:editorialNote "Signale une expression différente de l’expression représentative de l’œuvre à laquelle elle a servi de point de départ."@fr;
   skos:prefLabel "esquisse"@fr .
 
 <https://rdafr.fr/vocabulary/designation-presentation-musicale/4> a skos:Concept,
@@ -51,7 +49,6 @@
   dct:created "2023-06-02T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:definition "Pour les ressources anciennes, présentation des différentes parties vocales sur deux pages en regard."@fr;
-  skos:editorialNote "Ne s’applique qu’aux fac-similés de ressources anciennes."@fr;
   skos:prefLabel "livre de chœur"@fr .
 
 <https://rdafr.fr/vocabulary/designation-presentation-musicale/5> a skos:Concept,
@@ -94,7 +91,6 @@
   dct:created "2023-06-02T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:definition "Musique notée destinée à chaque exécutant dans un ensemble (vocal ou instrumental). S’applique particulièrement à la musique de chambre."@fr;
-  skos:editorialNote "Pour une œuvre orchestrale, voir Matériel d’orchestre"@fr;
   skos:prefLabel "parties"@fr .
 
 <https://rdafr.fr/vocabulary/designation-presentation-musicale/11> a skos:Concept,
@@ -102,7 +98,8 @@
   dct:created "2023-06-02T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:definition "Présentation des seules parties d’un groupe homogène d’instruments de l’orchestre."@fr;
-  skos:prefLabel "parties en accolade"@fr .
+  skos:prefLabel "parties en accolade"@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/designation-presentation-musicale> .
 
 <https://rdafr.fr/vocabulary/designation-presentation-musicale/12> a skos:Concept,
     rdafr:DesignationPresentationMusicale;
@@ -166,7 +163,8 @@
   owl:deprecated false;
   skos:definition "Présentation musicale associant la partition et les parties séparées nécessaires à l’exécution d’une œuvre musicale."@fr;
   skos:inScheme <https://rdafr.fr/vocabulary/designation-presentation-musicale>;
-  skos:prefLabel "partition et parties"@fr .
+  skos:prefLabel "partition et parties"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/designation-presentation-musicale> .
 
 <https://rdafr.fr/vocabulary/designation-presentation-musicale/20> a skos:Concept,
     rdafr:DesignationPresentationMusicale;
@@ -182,7 +180,6 @@
   dct:created "2023-06-02T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:definition "Présentation de toutes les parties musicales sur un minimum de portées, en général deux (recueil de cantiques par exemple)."@fr;
-  skos:editorialNote "Signale une expression différente de l’expression représentative de l’œuvre."@fr;
   skos:inScheme <https://rdafr.fr/vocabulary/designation-presentation-musicale>;
   skos:prefLabel "partition réduite"@fr;
   skos:topConceptOf <https://rdafr.fr/vocabulary/designation-presentation-musicale> .
@@ -192,7 +189,6 @@
   dct:created "2023-06-02T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:definition "Présentation d’une œuvre pour voix et instruments avec les parties vocales en partition et les parties instrumentales réduites pour clavier ou continuo."@fr;
-  skos:editorialNote "Signale une expression différente de l’expression représentative de l’œuvre."@fr;
   skos:inScheme <https://rdafr.fr/vocabulary/designation-presentation-musicale>;
   skos:prefLabel "partition vocale, accompagnement réduit"@fr;
   skos:topConceptOf <https://rdafr.fr/vocabulary/designation-presentation-musicale> .
@@ -202,8 +198,6 @@
   dct:created "2023-06-02T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:definition "Partie de piano (violon, etc.) permettant à l’exécutant de diriger grâce à la notation des répliques (entrées, etc.) des autres instruments."@fr;
-  skos:editorialNote """Signale une expression différente de l’expression représentative de l’œuvre.
-Enregistrer le nom de l’instrument conducteur dans la partition décrite."""@fr;
   skos:inScheme <https://rdafr.fr/vocabulary/designation-presentation-musicale>;
   skos:prefLabel "piano [violon, etc.] conducteur"@fr;
   skos:topConceptOf <https://rdafr.fr/vocabulary/designation-presentation-musicale> .
@@ -265,9 +259,6 @@ Enregistrer le nom de l’instrument conducteur dans la partition décrite."""@f
 <https://rdafr.fr/vocabulary/designation-presentation-musicale/10> skos:inScheme <https://rdafr.fr/vocabulary/designation-presentation-musicale>;
   skos:topConceptOf <https://rdafr.fr/vocabulary/designation-presentation-musicale> .
 
-<https://rdafr.fr/vocabulary/designation-presentation-musicale/11> skos:inScheme <https://rdafr.fr/vocabulary/designation-presentation-musicale>;
-  skos:topConceptOf <https://rdafr.fr/vocabulary/designation-presentation-musicale> .
-
 <https://rdafr.fr/vocabulary/designation-presentation-musicale> a skos:ConceptScheme;
   skos:hasTopConcept <https://rdafr.fr/vocabulary/designation-presentation-musicale/1>,
     <https://rdafr.fr/vocabulary/designation-presentation-musicale/10>, <https://rdafr.fr/vocabulary/designation-presentation-musicale/11>,
@@ -283,6 +274,9 @@ Enregistrer le nom de l’instrument conducteur dans la partition décrite."""@f
     <https://rdafr.fr/vocabulary/designation-presentation-musicale/5>, <https://rdafr.fr/vocabulary/designation-presentation-musicale/6>,
     <https://rdafr.fr/vocabulary/designation-presentation-musicale/7>, <https://rdafr.fr/vocabulary/designation-presentation-musicale/8>,
     <https://rdafr.fr/vocabulary/designation-presentation-musicale/9> .
+
+<https://rdafr.fr/vocabulary/designation-presentation-musicale/11> skos:topConceptOf
+    <https://rdafr.fr/vocabulary/designation-presentation-musicale> .
 
 <https://rdafr.fr/vocabulary/designation-presentation-musicale/12> skos:topConceptOf
     <https://rdafr.fr/vocabulary/designation-presentation-musicale> .
@@ -303,7 +297,4 @@ Enregistrer le nom de l’instrument conducteur dans la partition décrite."""@f
     <https://rdafr.fr/vocabulary/designation-presentation-musicale> .
 
 <https://rdafr.fr/vocabulary/designation-presentation-musicale/18> skos:topConceptOf
-    <https://rdafr.fr/vocabulary/designation-presentation-musicale> .
-
-<https://rdafr.fr/vocabulary/designation-presentation-musicale/19> skos:topConceptOf
     <https://rdafr.fr/vocabulary/designation-presentation-musicale> .

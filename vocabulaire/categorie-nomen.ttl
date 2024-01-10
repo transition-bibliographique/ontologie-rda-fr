@@ -1,6 +1,4 @@
 @prefix dct: <http://purl.org/dc/terms/> .
-@prefix owl: <http://www.w3.org/2002/07/owl#> .
-@prefix rdafr: <https://rdafr.fr/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -9,5 +7,4 @@
   dct:created "2022-10-20T00:00:00.000Z"^^xsd:dateTime;
   dct:modified "2023-11-06"^^xsd:date;
   dct:publisher "BnF, Abes"@fr;
-  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des catégories de nomen"@fr;
-  owl:equivalentClass rdafr:CategorieNomen .
+  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des catégories de nomen"@fr .

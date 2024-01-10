@@ -1,0 +1,27 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://rdafr.fr/vocabulary/statut-etat-collection> a skos:ConceptScheme;
+  dct:created "2023-12-22T00:00:00.000Z"^^xsd:dateTime;
+  dct:description "Le statut de l'état de collection est une mention permettant d'indiquer si de nouveaux éléments constitutifs à paraître sont attendus ou non."@fr;
+  dct:modified "2023-12-22"^^xsd:date;
+  dct:publisher "BnF, Abes"@fr;
+  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Statut de l'état de collection pour un item"@fr;
+  skos:hasTopConcept <https://rdafr.fr/vocabulary/statut-etat-collection/1>, <https://rdafr.fr/vocabulary/statut-etat-collection/2> .
+
+<https://rdafr.fr/vocabulary/statut-etat-collection/1> a skos:Concept;
+  dct:created "2023-12-22T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:inScheme <https://rdafr.fr/vocabulary/statut-etat-collection>;
+  skos:prefLabel "état de collection ouvert"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/statut-etat-collection> .
+
+<https://rdafr.fr/vocabulary/statut-etat-collection/2> a skos:Concept;
+  dct:created "2023-12-22T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:inScheme <https://rdafr.fr/vocabulary/statut-etat-collection>;
+  skos:prefLabel "état de collection fermé"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/statut-etat-collection> .

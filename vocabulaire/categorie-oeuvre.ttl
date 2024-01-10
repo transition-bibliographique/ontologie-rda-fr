@@ -23,7 +23,6 @@
   dct:modified "2023-11-06"^^xsd:date;
   dct:publisher "BnF, Abes"@fr;
   dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des catégories d'oeuvre"@fr;
-  owl:equivalentClass rdafr:CategorieOeuvre;
   skos:hasTopConcept <https://rdafr.fr/vocabulary/categories-oeuvres/1>, <https://rdafr.fr/vocabulary/categories-oeuvres/10>,
     <https://rdafr.fr/vocabulary/categories-oeuvres/11>, <https://rdafr.fr/vocabulary/categories-oeuvres/12>,
     <https://rdafr.fr/vocabulary/categories-oeuvres/13>, <https://rdafr.fr/vocabulary/categories-oeuvres/2>,

@@ -1,0 +1,97 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdafr: <https://rdafr.fr/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://rdafr.fr/vocabulary/type-specifique-oeuvre-periodique> a skos:ConceptScheme;
+  dct:created "2023-12-22T00:00:00.000Z"^^xsd:dateTime;
+  dct:description "Le type spécifique de l'œuvre de périodique est une sous-catégorie du type générique Périodique de l'œuvre de ressource continue."@fr;
+  dct:modified "2023-12-22"^^xsd:date;
+  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des types spécifiques pour une oeuvre de périodique"@fr;
+  skos:hasTopConcept <https://rdafr.fr/vocabulary/type-specifique-oeuvre-periodique/1>,
+    <https://rdafr.fr/vocabulary/type-specifique-oeuvre-periodique/10>, <https://rdafr.fr/vocabulary/type-specifique-oeuvre-periodique/2>,
+    <https://rdafr.fr/vocabulary/type-specifique-oeuvre-periodique/3>, <https://rdafr.fr/vocabulary/type-specifique-oeuvre-periodique/4>,
+    <https://rdafr.fr/vocabulary/type-specifique-oeuvre-periodique/5>, <https://rdafr.fr/vocabulary/type-specifique-oeuvre-periodique/6>,
+    <https://rdafr.fr/vocabulary/type-specifique-oeuvre-periodique/7>, <https://rdafr.fr/vocabulary/type-specifique-oeuvre-periodique/8>,
+    <https://rdafr.fr/vocabulary/type-specifique-oeuvre-periodique/9> .
+
+<https://rdafr.fr/vocabulary/type-specifique-oeuvre-periodique/1> a skos:Concept,
+    rdafr:TypeSpecifiqueOeuvrePeriodique;
+  dct:created "2023-12-22T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Périodique donnant des informations spécialisées à l’intention d’un public déterminé, souvent relatives à un groupement ou à une administration et pouvant avoir des fonctions diverses : information interne et lien social d’un groupe, information courante d’un public spécialisé, défense et promotion de droits et revendication collective, promotion commerciale, etc."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/type-specifique-oeuvre-periodique>;
+  skos:prefLabel "bulletin"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/type-specifique-oeuvre-periodique> .
+
+<https://rdafr.fr/vocabulary/type-specifique-oeuvre-periodique/2> a skos:Concept,
+    rdafr:TypeSpecifiqueOeuvrePeriodique;
+  dct:created "2023-12-22T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Périodique de fréquence variable (le plus souvent d’hebdomadaire à trimestrielle), ayant pour objet : l’analyse d’événements généraux ou spécialisés, internationaux, nationaux ou locaux ou la vulgarisation scientifique (mais sans l’appareil scientifique des revues) ou un sujet précis (mode, sport, pêche, etc.) ou le divertissement et le plus souvent distribué par les voies de la grande distribution commerciale."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/type-specifique-oeuvre-periodique>;
+  skos:prefLabel "magazine"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/type-specifique-oeuvre-periodique> .
+
+<https://rdafr.fr/vocabulary/type-specifique-oeuvre-periodique/3> a skos:Concept,
+    rdafr:TypeSpecifiqueOeuvrePeriodique;
+  dct:created "2023-12-22T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Périodique composé d’essais, comptes rendus, articles scientifiques, textes de création littéraire et artistique, etc. choisis par un directeur de publication ou un comité éditorial selon une problématique précise et explicite."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/type-specifique-oeuvre-periodique>;
+  skos:prefLabel "revue"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/type-specifique-oeuvre-periodique> .
+
+<https://rdafr.fr/vocabulary/type-specifique-oeuvre-periodique/4> a skos:Concept,
+    rdafr:TypeSpecifiqueOeuvrePeriodique;
+  dct:created "2023-12-22T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Périodique, en général quotidien mais pouvant aller jusqu’à une périodicité hebdomadaire, traitant des informations courantes et le plus souvent générales, au niveau international, national ou local. Il peut exister des journaux spécialisés (économie et finances ; sport, courses hippiques ; autrefois, arts et littératures)."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/type-specifique-oeuvre-periodique>;
+  skos:prefLabel "journal"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/type-specifique-oeuvre-periodique> .
+
+<https://rdafr.fr/vocabulary/type-specifique-oeuvre-periodique/5> a skos:Concept,
+    rdafr:TypeSpecifiqueOeuvrePeriodique;
+  dct:created "2023-12-22T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Périodique consistant en une liste d’entrées ou de données portant généralement sur l’année précédente ou l’année à venir : listes d’adresses, de membres d’une société, annuaires téléphoniques, etc.). Choisir pour la construction du point d’accès représentant l’œuvre la plus pertinente de ces deux formes."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/type-specifique-oeuvre-periodique>;
+  skos:prefLabel "répertoire/annuaire"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/type-specifique-oeuvre-periodique> .
+
+<https://rdafr.fr/vocabulary/type-specifique-oeuvre-periodique/6> a skos:Concept,
+    rdafr:TypeSpecifiqueOeuvrePeriodique;
+  dct:created "2023-12-22T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Périodique présentant un contenu rédactionnel relatif à une période écoulée : rapports, recueils statistiques, guides pratiques, chronologies."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/type-specifique-oeuvre-periodique>;
+  skos:prefLabel "bilan"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/type-specifique-oeuvre-periodique> .
+
+<https://rdafr.fr/vocabulary/type-specifique-oeuvre-periodique/7> a skos:Concept,
+    rdafr:TypeSpecifiqueOeuvrePeriodique;
+  dct:created "2023-12-22T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Site ou page Web présentant dans un ordre antéchronologique des billets généralement courts, datés et signés."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/type-specifique-oeuvre-periodique>;
+  skos:prefLabel "blogue"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/type-specifique-oeuvre-periodique> .
+
+<https://rdafr.fr/vocabulary/type-specifique-oeuvre-periodique/8> a skos:Concept,
+    rdafr:TypeSpecifiqueOeuvrePeriodique;
+  dct:created "2023-12-22T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Périodique annuel comprenant, outre un calendrier, des renseignements astronomiques, météorologiques, scientifiques, pratiques, administratifs, des poésies, etc."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/type-specifique-oeuvre-periodique>;
+  skos:prefLabel "almanach"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/type-specifique-oeuvre-periodique> .
+
+<https://rdafr.fr/vocabulary/type-specifique-oeuvre-periodique/9> a skos:Concept,
+    rdafr:TypeSpecifiqueOeuvrePeriodique;
+  dct:created "2023-12-22T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Contenus numériques audio ou vidéo disponibles en ligne ou via une application dédiée et abordant une thématique particulière à travers une série d’épisodes."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/type-specifique-oeuvre-periodique>;
+  skos:prefLabel "podcast"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/type-specifique-oeuvre-periodique> .
+
+<https://rdafr.fr/vocabulary/type-specifique-oeuvre-periodique/10> a skos:Concept,
+    rdafr:TypeSpecifiqueOeuvrePeriodique;
+  dct:created "2023-12-22T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Publication à diffusion généralement réduite et de périodicité souvent aléatoire, créée et réalisée hors de tout circuit professionnel par des amateurs passionnés d’un sujet."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/type-specifique-oeuvre-periodique>;
+  skos:prefLabel "fanzine"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/type-specifique-oeuvre-periodique> .

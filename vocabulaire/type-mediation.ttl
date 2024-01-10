@@ -22,8 +22,6 @@
   owl:deprecated false;
   skos:definition """Pour des ressources nécessitant un lecteur audio.
 Type de médiation s’appliquant aux ressources contenant du son enregistré et conçues pour une utilisation au moyen d’un dispositif de lecture tel qu’une platine, un lecteur de cassette audio, un lecteur de CD ou un lecteur MP3. S’applique aux ressources contenant du son analogique aussi bien que du son encodé numériquement."""@fr;
-  skos:editorialNote """Pour les ressources sur support matériel (par exemple, un CD audio), n’indiquer que le type de médiation audio.
-Pour des fichiers dématérialisés (par exemple, un fichier MP3), indiquer les deux types de médiation électronique et audio."""@fr;
   skos:inScheme <https://rdafr.fr/vocabulary/type-mediation>;
   skos:prefLabel "audio"@fr;
   skos:topConceptOf <https://rdafr.fr/vocabulary/type-mediation> .
@@ -72,7 +70,6 @@ Dans le cas de ressources composées de différents supports, auxquelles s’app
   skos:definition """Pour des ressources nécessitant un projecteur.
 Type de médiation s’appliquant aux ressources conçues pour une utilisation au moyen d’un dispositif de projection tel qu’un projecteur de film cinématographique, un projecteur de diapositives ou un rétroprojecteur. 
 S’applique à toute ressource conçue pour être projetée sous la forme d’images bidimensionnelles ou tridimensionnelles."""@fr;
-  skos:editorialNote "Pour des fichiers dématérialisés (par exemple, un fichier DCP utilisé pour la projection de films en salle), indiquer les deux types de médiation électronique et projeté."@fr;
   skos:inScheme <https://rdafr.fr/vocabulary/type-mediation>;
   skos:prefLabel "projeté"@fr;
   skos:topConceptOf <https://rdafr.fr/vocabulary/type-mediation> .
@@ -102,8 +99,6 @@ S’applique à toute ressource au contenu visuel et/ou tactile produit selon de
   skos:definition """Pour des ressources nécessitant un lecteur vidéo.
 Type de médiation s’appliquant aux ressources contenant des images animées ou fixes et conçues pour une utilisation au moyen d’un dispositif de lecture tel qu’un lecteur de cassette vidéo ou de DVD.
 S’applique aux ressources contenant des images encodées numériquement aussi bien que des images analogiques."""@fr;
-  skos:editorialNote """Pour les ressources sur support matériel (par exemple, un DVD vidéo), n’indiquer que le type de médiation vidéo.
-Pour des fichiers dématérialisés (par exemple, un fichier MP4), indiquer les deux types de médiation électronique et vidéo."""@fr;
   skos:inScheme <https://rdafr.fr/vocabulary/type-mediation>;
   skos:prefLabel "vidéo"@fr;
   skos:topConceptOf <https://rdafr.fr/vocabulary/type-mediation> .

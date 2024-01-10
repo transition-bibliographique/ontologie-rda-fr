@@ -1,0 +1,46 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdafr: <https://rdafr.fr/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://rdafr.fr/vocabulary/type-specifique-oeuvre-ressource-integratrice> a skos:ConceptScheme;
+  dct:created "2023-12-22T00:00:00.000Z"^^xsd:dateTime;
+  dct:description "Le type spécifique de l'œuvre de ressource intégratrice à mise à jour permanente est une sous-catégorie du type générique Ressource intégratrice de l'œuvre de ressource continue."@fr;
+  dct:modified "2023-12-22"^^xsd:date;
+  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des types spécifiques pour une oeuvre de ressource intégratrice à mise à jour permanente"@fr;
+  skos:hasTopConcept <https://rdafr.fr/vocabulary/type-specifique-oeuvre-ressource-integratrice/1>,
+    <https://rdafr.fr/vocabulary/type-specifique-oeuvre-ressource-integratrice/2>, <https://rdafr.fr/vocabulary/type-specifique-oeuvre-ressource-integratrice/3>,
+    <https://rdafr.fr/vocabulary/type-specifique-oeuvre-ressource-integratrice/4> .
+
+<https://rdafr.fr/vocabulary/type-specifique-oeuvre-ressource-integratrice/1> a skos:Concept,
+    rdafr:TypeSpecifiqueOeuvreRessourceIntegratrice;
+  dct:created "2023-12-22T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Ressource intégratrice imprimée constituée d'un ou plusieurs volume(s) de base mis à jour par l’insertion, la substitution ou le retrait de pages distinctes."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/type-specifique-oeuvre-ressource-integratrice>;
+  skos:prefLabel "publication à feuillets mobiles à mise à jour"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/type-specifique-oeuvre-ressource-integratrice> .
+
+<https://rdafr.fr/vocabulary/type-specifique-oeuvre-ressource-integratrice/2> a skos:Concept,
+    rdafr:TypeSpecifiqueOeuvreRessourceIntegratrice;
+  dct:created "2023-12-22T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Ensemble de pages web présentant un contenu éditorialisé et régulièrement mis à jour. Choisir « Site » pour la construction du point d’accès représentant l’œuvre."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/type-specifique-oeuvre-ressource-integratrice>;
+  skos:prefLabel "site Web à mise à jour"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/type-specifique-oeuvre-ressource-integratrice> .
+
+<https://rdafr.fr/vocabulary/type-specifique-oeuvre-ressource-integratrice/3> a skos:Concept,
+    rdafr:TypeSpecifiqueOeuvreRessourceIntegratrice;
+  dct:created "2023-12-22T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Ensemble de données liées entre elles de façon logique et accessibles via une interface de recherche constitutive de la ressource et faisant l’objet de mises à jour. Choisir « Base de données » pour la construction du point d’accès représentant l’œuvre."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/type-specifique-oeuvre-ressource-integratrice>;
+  skos:prefLabel "base de données à mise à jour"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/type-specifique-oeuvre-ressource-integratrice> .
+
+<https://rdafr.fr/vocabulary/type-specifique-oeuvre-ressource-integratrice/4> a skos:Concept,
+    rdafr:TypeSpecifiqueOeuvreRessourceIntegratrice;
+  dct:created "2023-12-22T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Archive permettant la collecte, la conservation et la diffusion de documents numériques issus de la production intellectuelle d'une ou plusieurs institutions, en particulier dans le domaine académique ou de la recherche."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/type-specifique-oeuvre-ressource-integratrice>;
+  skos:prefLabel "dépôt d’archives numériques"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/type-specifique-oeuvre-ressource-integratrice> .

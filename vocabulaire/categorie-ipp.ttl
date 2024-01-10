@@ -10,7 +10,6 @@
   dct:modified "2023-11-06"^^xsd:date;
   dct:publisher "BnF, Abes"@fr;
   dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des catégories d'identités publiques"@fr;
-  owl:equivalentClass rdafr:CategorieIdentitePublique;
   skos:hasTopConcept <https://rdafr.fr/vocabulary/categorie-ipp/1>, <https://rdafr.fr/vocabulary/categorie-ipp/2>,
     <https://rdafr.fr/vocabulary/categorie-ipp/3>, <https://rdafr.fr/vocabulary/categorie-ipp/4>,
     <https://rdafr.fr/vocabulary/categorie-ipp/5>, <https://rdafr.fr/vocabulary/categorie-ipp/6>,
@@ -25,10 +24,7 @@
   skos:topConceptOf <https://rdafr.fr/vocabulary/categorie-ipp> .
 
 <https://rdafr.fr/vocabulary/categorie-ipp/2> a skos:Concept, rdafr:CategorieIdentitePublique;
-  skos:definition "Un pseudonyme collectif est un nom de personne, choisi par un groupe de personnes dans le but de dissimuler au public leur existence à titre individuel ou leurs noms réels respectifs."@fr;
-  skos:editorialNote """Attention : ne peut être utilisée que lorsque l'Identité publique est associée à une instance de la classe Personne. 
-
-un pseud collectif c'est un groupe de personnes. Dans l'ontologie rda-fr, raccrocher cette valeur à la classe Agent (à discuter si on crée seulement pour le besoin de pseudonymes collectifs la classe Agent collectif dans l'ontologie rda-fr)"""@fr;
+  skos:definition "Un pseudonyme collectif est un nom de personne, choisi par un groupe de personnes dans le but de dissimuler au public leur existence à titre individuel ou leurs noms réels respectifs. Cette valeur est utilisée lorsque l'identité publiqué est associée à la classe Groupe informel."@fr;
   skos:inScheme <https://rdafr.fr/vocabulary/categorie-ipp>;
   skos:prefLabel "pseudonyme collectif"@fr;
   skos:topConceptOf <https://rdafr.fr/vocabulary/categorie-ipp> .
@@ -42,7 +38,6 @@ un pseud collectif c'est un groupe de personnes. Dans l'ontologie rda-fr, raccro
 <https://rdafr.fr/vocabulary/categorie-ipp/4> a skos:Concept, rdafr:CategorieIdentitePublique;
   skos:definition """Nom d’une entité numérique supposée avoir une responsabilité intellectuelle sur une ressource. Par exemple : voix de synthèse, programme d’intelligence artificielle portant un nom...
 Ne pas confondre avec le nom d’un personnage fictif."""@fr;
-  skos:editorialNote "Attention : la présence de cette valeur ici, déclarée comme applicable aux Nomens désignant des identité publiques de personne, est en divergence avec LRM qui a une définition très stricte de l'entité Personne. Une voix de sythèse, par exemple, n'est pas une Personne. Elle peut avoir une Identité publique propre, qui ne peut pas être une Identité publique de personne. Les automates sont considérés comme outils programmés ou manipulés par des êtres humains. Revoir la question de Identité publique, élargir son champ d'application, car dans nos pratiques cela peut couvrir des \"choses\" qui dans IFLA LRM relèvent de classes différentes, concrètement : les identités publiques de personnes, les agents virtuels, les personnages fictifs et les animaux."@fr;
   skos:inScheme <https://rdafr.fr/vocabulary/categorie-ipp>;
   skos:prefLabel "nom d’agent virtuel"@fr;
   skos:topConceptOf <https://rdafr.fr/vocabulary/categorie-ipp> .
@@ -50,17 +45,12 @@ Ne pas confondre avec le nom d’un personnage fictif."""@fr;
 <https://rdafr.fr/vocabulary/categorie-ipp/5> a skos:Concept, rdafr:CategorieIdentitePublique;
   skos:definition """Nom d’un animal qui concourt à la création ou à la réalisation d’une œuvre. Par exemple : interprète.
 Par convention, les êtres vivants non humains qui ont une relation de sujet avec une œuvre sont assimilés à cette catégorie."""@fr;
-  skos:editorialNote """Attention : quand l'Identité publique est associée à une instance de la classe Personne, on ne peut pas utiliser cette valeur de ce vocabulaire
-
-Voir commentaire en ligne 14"""@fr;
   skos:inScheme <https://rdafr.fr/vocabulary/categorie-ipp>;
   skos:prefLabel "nom d’être vivant non humain"@fr;
   skos:topConceptOf <https://rdafr.fr/vocabulary/categorie-ipp> .
 
 <https://rdafr.fr/vocabulary/categorie-ipp/6> a skos:Concept, rdafr:CategorieIdentitePublique;
   skos:definition "Nom de personnage relevant de la fiction, du mythe ou dont le caractère historique n’est pas fermement attesté."@fr;
-  skos:editorialNote """Attention : quand l'Identité publique est associée à une instance de la classe Personne, on ne peut pas utiliser cette valeur de ce vocabulaire
-Voir commentaire en ligne 14"""@fr;
   skos:inScheme <https://rdafr.fr/vocabulary/categorie-ipp>;
   skos:prefLabel "nom de personnage fictif"@fr;
   skos:topConceptOf <https://rdafr.fr/vocabulary/categorie-ipp> .

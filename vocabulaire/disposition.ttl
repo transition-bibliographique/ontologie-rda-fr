@@ -39,7 +39,6 @@ Pour les disques, ce terme ne s'applique que pour les disques optiques."""@fr;
   dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:definition "Disposition qui n'utilise qu'un seul côté d'un support (disque, cassette audio, etc.)."@fr;
-  skos:editorialNote "Manque périmètre dans RDA-FR."@fr;
   skos:inScheme <https://rdafr.fr/vocabulary/disposition>;
   skos:prefLabel "monoface"@fr;
   skos:topConceptOf <https://rdafr.fr/vocabulary/disposition> .

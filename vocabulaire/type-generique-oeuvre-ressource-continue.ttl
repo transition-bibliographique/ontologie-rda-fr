@@ -1,0 +1,37 @@
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdafr: <https://rdafr.fr/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://rdafr.fr/vocabulary/type-generique-oeuvre-ressource-continue> a skos:ConceptScheme;
+  dct:created "2023-12-22T00:00:00.000Z"^^xsd:dateTime;
+  dct:description "Le type générique de l’œuvre de ressource continue est une catégorie de ressource continue à laquelle l’œuvre appartient."@fr;
+  dct:modified "2023-12-22"^^xsd:date;
+  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des types génériques pour une oeuvre de ressource continue"@fr;
+  skos:hasTopConcept <https://rdafr.fr/vocabulary/type-generique-oeuvre-ressource-continue/1>,
+    <https://rdafr.fr/vocabulary/type-generique-oeuvre-ressource-continue/2>, <https://rdafr.fr/vocabulary/type-generique-oeuvre-ressource-continue/3> .
+
+<https://rdafr.fr/vocabulary/type-generique-oeuvre-ressource-continue/1> a skos:Concept,
+    rdafr:TypeGeneriqueOeuvreRessourceContinue;
+  dct:created "2023-12-22T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Catégorie de publication en série dont la périodicité est le plus souvent inférieure à un an et dont les livraisons ont généralement pour caractéristique la diversité du contenu et des contributions, soit à l’intérieur d’une même livraison, soit d’une livraison à l’autre."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/type-generique-oeuvre-ressource-continue>;
+  skos:prefLabel "périodique"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/type-generique-oeuvre-ressource-continue> .
+
+<https://rdafr.fr/vocabulary/type-generique-oeuvre-ressource-continue/2> a skos:Concept,
+    rdafr:TypeGeneriqueOeuvreRessourceContinue;
+  dct:created "2023-12-22T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Groupe de ressources distinctes dont chacune porte, outre son titre particulier, un titre collectif s’appliquant à l’ensemble. Ne pas confondre cette catégorie de publication en série avec les séries dont la fin est prédéterminée. Une collection peut réunir des monographies et/ou des ressources continues. Une collection peut être divisée en sections ou comprendre une ou plusieurs sous-collections."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/type-generique-oeuvre-ressource-continue>;
+  skos:prefLabel "collection"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/type-generique-oeuvre-ressource-continue> .
+
+<https://rdafr.fr/vocabulary/type-generique-oeuvre-ressource-continue/3> a skos:Concept,
+    rdafr:TypeGeneriqueOeuvreRessourceContinue;
+  dct:created "2023-12-22T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Publication sans fin prédéterminée, qui est augmentée ou modifiée par des mises à jour qui ne restent pas distinctes, mais qui sont intégrées à l’ensemble de la ressource."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/type-generique-oeuvre-ressource-continue>;
+  skos:prefLabel "ressource intégratrice à mise à jour permanente"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/type-generique-oeuvre-ressource-continue> .

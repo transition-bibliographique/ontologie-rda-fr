@@ -1,0 +1,158 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
+@prefix dct: <http://purl.org/dc/terms/> .
+@prefix euvoc: <http://publications.europa.eu/ontology/euvoc#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdafr: <https://rdafr.fr/> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosthes: <http://purl.org/iso25964/skos-thes#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://rdafr.fr/vocabulary/periodicite> dct:created "2023-12-18T00:00:00.000Z"^^xsd:dateTime;
+  dct:description "Intervalle temporel prévu ou constaté suivant lequel chacune des livraisons ou parties d’une publication en série ou des mises à jour d’une ressource intégratrice est publiée."@fr;
+  dct:modified "2023-12-18"^^xsd:date;
+  dct:publisher "BnF, Abes"@fr;
+  dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des périodicités pour une ressource continue"@fr .
+
+<https://rdafr.fr/vocabulary/periodicite/1> a skos:Concept, rdafr:Periodicite;
+  dct:created "2023-12-18T00:00:00.000Z"^^xsd:dateTime;
+  skos:inScheme <https://rdafr.fr/vocabulary/periodicite>;
+  skos:prefLabel "irrégulier"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/periodicite> .
+
+<https://rdafr.fr/vocabulary/periodicite/2> a skos:Concept, rdafr:Periodicite;
+  dct:created "2023-12-18T00:00:00.000Z"^^xsd:dateTime;
+  skos:inScheme <https://rdafr.fr/vocabulary/periodicite>;
+  skos:prefLabel "annuel"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/periodicite> .
+
+<https://rdafr.fr/vocabulary/periodicite/3> a skos:Concept, rdafr:Periodicite;
+  dct:created "2023-12-18T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Publié tous les deux mois"@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/periodicite>;
+  skos:prefLabel "bimestriel"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/periodicite> .
+
+<https://rdafr.fr/vocabulary/periodicite/4> a skos:Concept, rdafr:Periodicite;
+  dct:created "2023-12-18T00:00:00.000Z"^^xsd:dateTime;
+  skos:inScheme <https://rdafr.fr/vocabulary/periodicite>;
+  skos:prefLabel "toutes les deux semaines"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/periodicite> .
+
+<https://rdafr.fr/vocabulary/periodicite/5> a skos:Concept, rdafr:Periodicite;
+  dct:created "2023-12-18T00:00:00.000Z"^^xsd:dateTime;
+  skos:inScheme <https://rdafr.fr/vocabulary/periodicite>;
+  skos:prefLabel "quotidien"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/periodicite> .
+
+<https://rdafr.fr/vocabulary/periodicite/6> a skos:Concept, rdafr:Periodicite;
+  dct:created "2023-12-18T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Publié deux fois par semaine"@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/periodicite>;
+  skos:prefLabel "semi hebdomadaire"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/periodicite> .
+
+<https://rdafr.fr/vocabulary/periodicite/7> a skos:Concept, rdafr:Periodicite;
+  dct:created "2023-12-18T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Publié tous les six mois"@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/periodicite>;
+  skos:prefLabel "semestriel"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/periodicite> .
+
+<https://rdafr.fr/vocabulary/periodicite/8> a skos:Concept, rdafr:Periodicite;
+  dct:created "2023-12-18T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Publié tous les deux ans"@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/periodicite>;
+  skos:prefLabel "biennal"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/periodicite> .
+
+<https://rdafr.fr/vocabulary/periodicite/9> a skos:Concept, rdafr:Periodicite;
+  dct:created "2023-12-18T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Publié tous les trois ans"@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/periodicite>;
+  skos:prefLabel "triennal"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/periodicite> .
+
+<https://rdafr.fr/vocabulary/periodicite/10> a skos:Concept, rdafr:Periodicite;
+  dct:created "2023-12-18T00:00:00.000Z"^^xsd:dateTime;
+  skos:inScheme <https://rdafr.fr/vocabulary/periodicite>;
+  skos:prefLabel "trois fois par semaine"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/periodicite> .
+
+<https://rdafr.fr/vocabulary/periodicite/11> a skos:Concept, rdafr:Periodicite;
+  dct:created "2023-12-18T00:00:00.000Z"^^xsd:dateTime;
+  skos:inScheme <https://rdafr.fr/vocabulary/periodicite>;
+  skos:prefLabel "trois fois par mois"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/periodicite> .
+
+<https://rdafr.fr/vocabulary/periodicite/12> a skos:Concept, rdafr:Periodicite;
+  dct:created "2023-12-18T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Mise à jour permanente ou en continu. Cette valeur s'applique aux seules ressources intégratrices à mise à jour permanente"@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/periodicite>;
+  skos:prefLabel "permanent ou continue"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/periodicite> .
+
+<https://rdafr.fr/vocabulary/periodicite/13> a skos:Concept, rdafr:Periodicite;
+  dct:created "2023-12-18T00:00:00.000Z"^^xsd:dateTime;
+  skos:inScheme <https://rdafr.fr/vocabulary/periodicite>;
+  skos:prefLabel "mensuel"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/periodicite> .
+
+<https://rdafr.fr/vocabulary/periodicite/14> a skos:Concept, rdafr:Periodicite;
+  dct:created "2023-12-18T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Publié tous les trois mois"@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/periodicite>;
+  skos:prefLabel "trimestriel"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/periodicite> .
+
+<https://rdafr.fr/vocabulary/periodicite/15> a skos:Concept, rdafr:Periodicite;
+  dct:created "2023-12-18T00:00:00.000Z"^^xsd:dateTime;
+  skos:definition "Publié deux fois par mois"@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/periodicite>;
+  skos:prefLabel "bi-mensuel"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/periodicite> .
+
+<https://rdafr.fr/vocabulary/periodicite/16> a skos:Concept, rdafr:Periodicite;
+  dct:created "2023-12-18T00:00:00.000Z"^^xsd:dateTime;
+  skos:inScheme <https://rdafr.fr/vocabulary/periodicite>;
+  skos:prefLabel "trois fois par an"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/periodicite> .
+
+<https://rdafr.fr/vocabulary/periodicite/17> a skos:Concept, rdafr:Periodicite;
+  dct:created "2023-12-18T00:00:00.000Z"^^xsd:dateTime;
+  skos:inScheme <https://rdafr.fr/vocabulary/periodicite>;
+  skos:prefLabel "périodicité inconnue"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/periodicite> .
+
+<https://rdafr.fr/vocabulary/periodicite/18> a skos:Concept, rdafr:Periodicite;
+  dct:created "2023-12-18T00:00:00.000Z"^^xsd:dateTime;
+  skos:inScheme <https://rdafr.fr/vocabulary/periodicite>;
+  skos:prefLabel "hebdomadaire"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/periodicite> .
+
+<https://rdafr.fr/vocabulary/periodicite/19> a skos:Concept, rdafr:Periodicite;
+  dct:created "2023-12-18T00:00:00.000Z"^^xsd:dateTime;
+  skos:inScheme <https://rdafr.fr/vocabulary/periodicite>;
+  skos:prefLabel "autres périodicités"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/periodicite> .
+
+<https://rdafr.fr/vocabulary/periodicite> a skos:ConceptScheme;
+  skos:hasTopConcept <https://rdafr.fr/vocabulary/periodicite/1>, <https://rdafr.fr/vocabulary/periodicite/10>,
+    <https://rdafr.fr/vocabulary/periodicite/11>, <https://rdafr.fr/vocabulary/periodicite/12>,
+    <https://rdafr.fr/vocabulary/periodicite/13>, <https://rdafr.fr/vocabulary/periodicite/14>,
+    <https://rdafr.fr/vocabulary/periodicite/15>, <https://rdafr.fr/vocabulary/periodicite/16>,
+    <https://rdafr.fr/vocabulary/periodicite/17>, <https://rdafr.fr/vocabulary/periodicite/18>,
+    <https://rdafr.fr/vocabulary/periodicite/19>, <https://rdafr.fr/vocabulary/periodicite/2>,
+    <https://rdafr.fr/vocabulary/periodicite/3>, <https://rdafr.fr/vocabulary/periodicite/4>,
+    <https://rdafr.fr/vocabulary/periodicite/5>, <https://rdafr.fr/vocabulary/periodicite/6>,
+    <https://rdafr.fr/vocabulary/periodicite/7>, <https://rdafr.fr/vocabulary/periodicite/8>,
+    <https://rdafr.fr/vocabulary/periodicite/9> .
