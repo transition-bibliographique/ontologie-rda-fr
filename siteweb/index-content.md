@@ -13,7 +13,7 @@ L’ontologie RDA-FR, en cours d’élaboration, est une représentation formell
 _Vue globale de la hiérarchie des classes de l’ontologie RDA-FR._  \
 _Seules sont traitées dans cette version bêta les classes non grisées ci-dessous._
 
-![Vue globale de la hiérarchie des classes de l’ontologie RDA-FR](https://github.com/transition-bibliographique/ontologie-rda-fr/assets/60341438/0ff93797-0157-40c2-985b-e3d6da77f82f)
+![HierarchieClassesV0 3 0](https://github.com/transition-bibliographique/ontologie-rda-fr/assets/51800062/4e8ad73c-bc0c-4c99-abcf-a9ea8aa3c1da)
 
 </div>
 
@@ -27,29 +27,32 @@ Il est pourtant prévu d’établir des alignements avec les autres ontologies p
 
 Dans le système des classes et propriétés : 
 
-* Pour chacune des entités du code RDA-FR, on trouve la classe correspondante dans l’ontologie RDA-FR (classes Œuvre, Personne, etc.). Ces classes sont organisées selon la même hiérarchie que dans le code RDA-FR, en conformité avec l’ontologie IFLA LRM. A contrario, certaines classes présentes dans l’ontologie RDA-FR sont créées pour les besoins propres de celle-ci et ne se retrouvent pas dans le code RDA-FR (voir plus bas les explications sur, par exemple, la classe Groupe informel).
+* Pour chacune des entités du code RDA-FR, on trouve la classe correspondante dans l’ontologie RDA-FR (classes Œuvre, Personne, etc.). Ces classes sont organisées selon la même hiérarchie que dans le code RDA-FR.
+Toutefois le code RDA-FR a un champ d’application plus vaste que l’ontologie IFLA LRM afin de couvrir tous les besoins de traitement en catalogage courant, notamment l’indexation matière. En conséquence, certaines classes de l’ontologie RDA-FR, par exemple la classe Personne, ont une définition plus large que les classes correspondantes dans le modèle IFLA LRM. Elles portent toutes les propriétés applicables à l’entité concernée.
+Pour ces classes, une propriété ‘est une instance du monde réel’ (avec un choix Vrai/Faux) permet de distinguer d’une part les instances qui peuvent être alignées avec les classes IFLA LRM correspondantes, d’autre part celles qui relèvent de la classe Res de IFLA LRM : par exemple, “personne réelle” et “personne fictive”. Cela concerne en particulier les agents et les lieux.
 * Les attributs des entités du code RDA-FR, ainsi que les relations entre entités du code constituent des propriétés dans l’ontologie RDA-FR (‘a pour langue de la personne’, ou ‘est membre de’ pour une relation entre une Personne et une Collectivité, etc.).
 * Les référentiels associés aux entités du code RDA-FR font l’objet de vocabulaires contrôlés dans l’ontologie RDA-FR (voir plus bas).
 
 #### Remarques générales sur les classes de l’ontologie RDA-FR
 
 * **_Entité RDA-FR_** est la classe de niveau supérieur à la racine de l’ontologie RDA-FR ; elle est déclarée comme sous-classe de la classe _Res_ du modèle IFLA LRM. Toute classe de l’ontologie RDA-FR est déclarée comme sous-classe de celle-ci. Les propriétés de cette classe, en vertu du principe d’héritage, s’appliquent à toutes les sous-classes de l’ontologie.
-* La classe **_Nomen_** (entité du modèle IFLA LRM) est déclarée comme une classe distincte dans l’ontologie RDA-FR. Dans le code RDA-FR, il n’y a pas d’entité propre Nomen : les noms, titres d’œuvre etc., points d’accès et identifiants sont traités comme des attributs des entités qu’ils servent à identifier ou représenter. Il n’en reste pas moins que ces noms, titres, points d’accès et identifiants, du point de vue du modèle IFLA LRM, relèvent de l’entité Nomen. Ainsi, dans l’ontologie RDA-FR, toutes les propriétés qui représentent des noms, des titres, des points d’accès et des identifiants ont pour classe cible la classe Nomen.
-* La classe **_Agent_** (entité du modèle IFLA LRM) est créée dans l’ontologie RDA-FR comme classe générique des sous-classes Personne et Agent collectif. Elle permet de factoriser un certain nombre de propriétés, mais aussi de traiter les cas où les informations sur la nature de l’agent sont lacunaires.
-* La classe **_Agent collectif_** (entité du modèle IFLA LRM) ne fait pas partie du code RDA-FR. Elle est aussi ajoutée dans l’ontologie RDA-FR pour servir de super-classe aux classes Collectivité, Groupe informel (voir plus bas) et Famille. De ce fait, ces dernières héritent des propriétés de la classe Agent collectif.
+* La classe **_Nomen_** est déclarée comme une classe distincte dans l’ontologie RDA-FR. Dans le code RDA-FR, il n’y a pas d’entité propre Nomen : les noms, titres d’œuvre etc., points d’accès et identifiants sont traités comme des attributs des entités qu’ils servent à identifier ou représenter. Il n’en reste pas moins que ces noms, titres, points d’accès et identifiants, du point de vue du modèle IFLA LRM, relèvent de l’entité Nomen. Ainsi, dans l’ontologie RDA-FR, toutes les propriétés qui représentent des noms, des titres, des points d’accès et des identifiants ont pour classe cible la classe Nomen.
+* La classe **_Agent_** est créée dans l’ontologie RDA-FR comme classe générique des sous-classes Personne et Agent collectif. Elle permet de factoriser un certain nombre de propriétés, mais aussi de traiter les cas où les informations sur la nature de l’agent sont lacunaires.
+* La classe **_Agent collectif_** ne fait pas partie du code RDA-FR. Elle est aussi ajoutée dans l’ontologie RDA-FR pour servir de super-classe aux classes Collectivité, Groupe informel (voir plus bas) et Famille. De ce fait, ces dernières héritent des propriétés de la classe Agent collectif.
 * La classe **_Groupe informel_**, absente du code RDA-FR, est créée dans l’ontologie RDA-FR comme sous-classe de la classe Agent collectif, pour permettre de traiter comme groupes du monde réel les groupes de personnes qui ne sont ni des familles ni des collectivités. C’est le cas, notamment, des groupes identifiés par un pseudonyme collectif dont le nom se présente formellement comme un nom de personne (le pseudonyme collectif, lui-même, relève de la classe Identité publique). Cette classe permet d’établir, par exemple, la relation de création entre le groupe informel et son œuvre, ou la relation entre le groupe et les personnes qui le composent.
 * La classe **_Identité publique_**, spécifique à l’ontologie RDA-FR, reflète l’approche du chapitre 9 du code RDA-FR Identification des personnes et de leurs identités publiques, qui distingue clairement les personnes de leurs identités publiques. Une personne ou un groupe informel a toujours au moins une identité publique. Le modèle IFLA LRM appréhende l’Identité publique comme une grappe de Nomen (voir [IFLA LRM, 2017, traduction française](https://repository.ifla.org/bitstream/123456789/1703/1/IFLA-LRM-traduction-francaise.pdf), paragraphe 5.5 Modélisation des identités bibliographiques). C’est pour cette raison que dans l’ontologie RDA-FR, la classe Identité publique est déclarée comme une sous-classe de la classe racine ‘Entité RDA-FR’.
 
 <div align="center">
   
 _Schéma représentant les relations entre la classe Identité publique et les classes Personne ou Groupe informel, ainsi que les relations de ces dernières avec la classe Oeuvre_
-![image](https://github.com/transition-bibliographique/ontologie-rda-fr/assets/60341438/9f4d9927-b02e-44dc-b86f-04de6d74262a)
+![Identité publiqueV0 3 0](https://github.com/transition-bibliographique/ontologie-rda-fr/assets/51800062/65a977f3-c860-4c0f-999c-16a84438ac85)
 
 </div>
 
-* La classe **_Laps de temps_** (entité du modèle IFLA LRM) et ses sous-classes, ainsi que les classes **_Concept_**, **_Objet_**, **_Événement_**, sont d’ores et déjà créées dans l’ontologie RDA-FR pour leur réserver la place qui convient dans l’architecture globale. Elles seront abordées en détail, ou modifiées, lorsque les chapitres correspondants ou les orientations normatives du code RDA-FR seront publiés, sous réserve de l’avancée des travaux des groupes nationaux de la Transition Bibliographique.
+* La classe **_Laps de temps_**(ainsi que ses sous-classes) est déclarée dans l’ontologie RDA-FR car elle sert de classe cible à toute propriété qui exprime des notions temporelles.
+* Les classes **_Concept_**, **_Objet_**, **_Événement_**, sont d’ores et déjà créées dans l’ontologie RDA-FR pour leur réserver la place qui convient dans l’architecture globale. Elles seront abordées en détail, ou modifiées, lorsque les chapitres correspondants ou les orientations normatives du code RDA-FR seront publiés, sous réserve de l’avancée des travaux des groupes nationaux de la Transition Bibliographique.
 
-### **Les référentiels du code RDA-FR dans l’ontologie**
+### Les référentiels du code RDA-FR dans l’ontologie
 
 Les référentiels associés aux entités du code RDA-FR sont traités dans l’ontologie comme des vocabulaires contrôlés. Pour leur gestion, l’ontologie RDA-FR fait appel au standard du W3C [SKOS Simple Knowledge Organization System](https://www.w3.org/2009/08/skos-reference/skos.html). Ainsi les vocabulaires contrôlés de l’ontologie RDA-FR relèvent de la classe **_[skos:ConceptScheme](http://www.w3.org/2004/02/skos/core#ConceptScheme)_** de ce standard. 
 
@@ -58,7 +61,7 @@ Les référentiels propres au code RDA-FR et ceux repris de RDA avec adaptations
 Pour les référentiels régis par des normes internationales ISO, en raison d’absence de leur déclaration en Linked Data par l’ISO même, une démarche pragmatique est adoptée. Notamment : 
 
 * Pour les codes de langue de la norme ISO 639-2, le vocabulaire de la Library of Congres, exposé en Linked data sur id.loc.gov est utilisé [https://id.loc.gov/vocabulary/iso639-2.html](https://id.loc.gov/vocabulary/iso639-2.html)
-* Pour les codes de représentation des écritures de la norme ISO 15924, le référentiel est déclaré dans les vocabulaires RDA-FR, en reprenant le code ISO comme suffixe dans l’URI. ex: [https://rdafr.fr/vocabulary/ecriture-ISO15924/Latn](https://rdafr.fr/vocabulary/ecriture-ISO15925/Latn)
+* Pour les codes de représentation des écritures de la norme ISO 15924, le référentiel sera déclaré dans les vocabulaires RDA-FR, en reprenant le code ISO comme suffixe dans l’URI. ex: [https://rdafr.fr/vocabulary/ecriture-ISO15924/Latn](https://rdafr.fr/vocabulary/ecriture-ISO15925/Latn)
 * Pour les codes de pays de la norme ISO 3166, le choix est laissé à chaque institution qui implémente l’ontologie RDA-FR d’utiliser ses propres sources.
 
 ### Mécanismes fonctionnels de l’ontologie RDA-FR
@@ -76,7 +79,8 @@ Font exception de cette règle :  les propriétés d’appellation, comme ‘a p
 <div align="center">
 
 _Exemple de réification de la propriété ‘a pour domaine d’activité de la personne’_
-![Exemple de réification de la propriété ‘a pour domaine d’activité de la personne’](https://github.com/transition-bibliographique/ontologie-rda-fr/assets/60341438/59c584b7-6b14-4f28-a60c-5f74ada2f19e)
+![ProprieteReifie_aPourDomaineActivitePersonneV0 3 0](https://github.com/transition-bibliographique/ontologie-rda-fr/assets/51800062/3a157a4c-3d89-4a98-8820-f3501d02450e)
+
 
 </div>
 
@@ -86,7 +90,8 @@ Font exception de cette règle les relations dites fondamentales du modèle IFLA
 <div align="center">
 
 _Exemple de réification de la relation ‘est élève de’ / ‘est enseignant de’_ 
-![Exemple de réification de la relation ‘est élève de’ / ‘est enseignant de](https://github.com/transition-bibliographique/ontologie-rda-fr/assets/60341438/5411cd8b-81c5-4c91-aeb6-563027cc050d)
+![RelationReifie-estEleveDe-estEnseignantDeV0 3 0](https://github.com/transition-bibliographique/ontologie-rda-fr/assets/51800062/3bd81023-be6d-4a6a-8e6c-4660b5952617)
+
 
 </div>
 
@@ -133,14 +138,15 @@ L’ensemble de l’ontologie est géré depuis le compte GitHub du programme Tr
 
 ### Historique des versions
 
+* [V 0.3.0 (janvier 2024)](/release-notes.html#v0.3.0)
 * [V 0.2.0 (novembre 2023)](/release-notes.html#v0.2.0)
 * [V 0.1.0 (mai 2023)](/release-notes.html#v0.1.0)
 * [V 0.0.1 (janvier 2023) - première publication](/release-notes.html#v0.0.1)
 
 ### Contributeurs associés à ce projet
 
-* BnF : Anila Angjeli, Vincent Boulet, Etienne Cavalié, Françoise Leresche, Mélanie Roche
+* BnF : Anila Angjeli, Vincent Boulet, Philippe Cantié, Etienne Cavalié, Alice Faure, Françoise Leresche, Mélanie Roche
 * Abes : Benjamin Bober, Mathis Eon, Stéphane Gully, Laure Jestaz, Héloïse Lecomte
 * La conception de cette ontologie a bénéficié de l’expertise et des compétences de Jean Delahousse.
 
-Pour toute question à l’ontologie RDA-FR et sa publication merci d’écrire à [ontologie-rdafr@abes.fr](mailto:ontologie-rdafr@abes.fr)
+Pour toute question relative à l’ontologie RDA-FR et sa publication merci d’écrire à [ontologie-rdafr@abes.fr](mailto:ontologie-rdafr@abes.fr)
