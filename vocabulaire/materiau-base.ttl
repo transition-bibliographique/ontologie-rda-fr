@@ -23,255 +23,255 @@
   dct:publisher "BnF, Abes"@fr;
   dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des matériaux de base pour une manifestation"@fr .
 
-<https://rdafr.fr/vocabulary/materiau-base/1> a skos:Concept, rdafr:MateriauBase;
+<https://rdafr.fr/vocabulary/materiau-base/1> a skos:Concept, rdafr:MateriauBase-MateriauApplique;
   dct:created "2023-06-05T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:prefLabel "acétate"@fr .
 
-<https://rdafr.fr/vocabulary/materiau-base/2> a skos:Concept, rdafr:MateriauBase;
+<https://rdafr.fr/vocabulary/materiau-base/2> a skos:Concept, rdafr:MateriauBase-MateriauApplique;
   dct:created "2023-06-05T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:prefLabel "acier"@fr .
 
-<https://rdafr.fr/vocabulary/materiau-base/3> a skos:Concept, rdafr:MateriauBase;
+<https://rdafr.fr/vocabulary/materiau-base/3> a skos:Concept, rdafr:MateriauBase-MateriauApplique;
   dct:created "2023-06-05T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:prefLabel "aluminium"@fr .
 
-<https://rdafr.fr/vocabulary/materiau-base/4> a skos:Concept, rdafr:MateriauBase;
+<https://rdafr.fr/vocabulary/materiau-base/4> a skos:Concept, rdafr:MateriauBase-MateriauApplique;
   dct:created "2023-06-05T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:prefLabel "bois"@fr .
 
-<https://rdafr.fr/vocabulary/materiau-base/5> a skos:Concept, rdafr:MateriauBase;
+<https://rdafr.fr/vocabulary/materiau-base/5> a skos:Concept, rdafr:MateriauBase-MateriauApplique;
   dct:created "2023-06-05T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:prefLabel "bristol"@fr .
 
-<https://rdafr.fr/vocabulary/materiau-base/6> a skos:Concept, rdafr:MateriauBase;
+<https://rdafr.fr/vocabulary/materiau-base/6> a skos:Concept, rdafr:MateriauBase-MateriauApplique;
   dct:created "2023-06-05T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:prefLabel "calque"@fr .
 
-<https://rdafr.fr/vocabulary/materiau-base/7> a skos:Concept, rdafr:MateriauBase;
+<https://rdafr.fr/vocabulary/materiau-base/7> a skos:Concept, rdafr:MateriauBase-MateriauApplique;
   dct:created "2023-06-05T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:prefLabel "canevas"@fr .
 
-<https://rdafr.fr/vocabulary/materiau-base/8> a skos:Concept, rdafr:MateriauBase;
+<https://rdafr.fr/vocabulary/materiau-base/8> a skos:Concept, rdafr:MateriauBase-MateriauApplique;
   dct:created "2023-06-05T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:prefLabel "caoutchouc"@fr .
 
-<https://rdafr.fr/vocabulary/materiau-base/9> a skos:Concept, rdafr:MateriauBase;
+<https://rdafr.fr/vocabulary/materiau-base/9> a skos:Concept, rdafr:MateriauBase-MateriauApplique;
   dct:created "2023-06-05T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:prefLabel "carton"@fr .
 
-<https://rdafr.fr/vocabulary/materiau-base/10> a skos:Concept, rdafr:MateriauBase;
+<https://rdafr.fr/vocabulary/materiau-base/10> a skos:Concept, rdafr:MateriauBase-MateriauApplique;
   dct:created "2023-06-05T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:prefLabel "carton à dessiner"@fr .
 
-<https://rdafr.fr/vocabulary/materiau-base/11> a skos:Concept, rdafr:MateriauBase;
+<https://rdafr.fr/vocabulary/materiau-base/11> a skos:Concept, rdafr:MateriauBase-MateriauApplique;
   dct:created "2023-06-05T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:prefLabel "céramique"@fr .
 
-<https://rdafr.fr/vocabulary/materiau-base/12> a skos:Concept, rdafr:MateriauBase;
+<https://rdafr.fr/vocabulary/materiau-base/12> a skos:Concept, rdafr:MateriauBase-MateriauApplique;
   dct:created "2023-06-05T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:prefLabel "cire"@fr .
 
-<https://rdafr.fr/vocabulary/materiau-base/13> a skos:Concept, rdafr:MateriauBase;
+<https://rdafr.fr/vocabulary/materiau-base/13> a skos:Concept, rdafr:MateriauBase-MateriauApplique;
   dct:created "2023-06-05T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:prefLabel "cuir"@fr .
 
-<https://rdafr.fr/vocabulary/materiau-base/14> a skos:Concept, rdafr:MateriauBase;
+<https://rdafr.fr/vocabulary/materiau-base/14> a skos:Concept, rdafr:MateriauBase-MateriauApplique;
   dct:created "2023-06-05T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:prefLabel "cuivre"@fr .
 
-<https://rdafr.fr/vocabulary/materiau-base/15> a skos:Concept, rdafr:MateriauBase;
+<https://rdafr.fr/vocabulary/materiau-base/15> a skos:Concept, rdafr:MateriauBase-MateriauApplique;
   dct:created "2023-06-05T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:prefLabel "diacétate"@fr .
 
-<https://rdafr.fr/vocabulary/materiau-base/16> a skos:Concept, rdafr:MateriauBase;
+<https://rdafr.fr/vocabulary/materiau-base/16> a skos:Concept, rdafr:MateriauBase-MateriauApplique;
   dct:created "2023-06-05T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:prefLabel "fer"@fr .
 
-<https://rdafr.fr/vocabulary/materiau-base/17> a skos:Concept, rdafr:MateriauBase;
+<https://rdafr.fr/vocabulary/materiau-base/17> a skos:Concept, rdafr:MateriauBase-MateriauApplique;
   dct:created "2023-06-05T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:prefLabel "gomme laque"@fr .
 
-<https://rdafr.fr/vocabulary/materiau-base/18> a skos:Concept, rdafr:MateriauBase;
+<https://rdafr.fr/vocabulary/materiau-base/18> a skos:Concept, rdafr:MateriauBase-MateriauApplique;
   dct:created "2023-06-05T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:prefLabel "ivoire"@fr .
 
-<https://rdafr.fr/vocabulary/materiau-base/19> a skos:Concept, rdafr:MateriauBase;
+<https://rdafr.fr/vocabulary/materiau-base/19> a skos:Concept, rdafr:MateriauBase-MateriauApplique;
   dct:created "2023-06-05T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:prefLabel "linoléum"@fr .
 
-<https://rdafr.fr/vocabulary/materiau-base/20> a skos:Concept, rdafr:MateriauBase;
+<https://rdafr.fr/vocabulary/materiau-base/20> a skos:Concept, rdafr:MateriauBase-MateriauApplique;
   dct:created "2023-06-05T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:prefLabel "matière synthétique"@fr .
 
-<https://rdafr.fr/vocabulary/materiau-base/21> a skos:Concept, rdafr:MateriauBase;
+<https://rdafr.fr/vocabulary/materiau-base/21> a skos:Concept, rdafr:MateriauBase-MateriauApplique;
   dct:created "2023-06-05T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:prefLabel "métal"@fr .
 
-<https://rdafr.fr/vocabulary/materiau-base/22> a skos:Concept, rdafr:MateriauBase;
+<https://rdafr.fr/vocabulary/materiau-base/22> a skos:Concept, rdafr:MateriauBase-MateriauApplique;
   dct:created "2023-06-05T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:prefLabel "nitrate"@fr .
 
-<https://rdafr.fr/vocabulary/materiau-base/23> a skos:Concept, rdafr:MateriauBase;
+<https://rdafr.fr/vocabulary/materiau-base/23> a skos:Concept, rdafr:MateriauBase-MateriauApplique;
   dct:created "2023-06-05T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:prefLabel "panneau de fibres"@fr .
 
-<https://rdafr.fr/vocabulary/materiau-base/24> a skos:Concept, rdafr:MateriauBase;
+<https://rdafr.fr/vocabulary/materiau-base/24> a skos:Concept, rdafr:MateriauBase-MateriauApplique;
   dct:created "2023-06-05T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:prefLabel "papier"@fr .
 
-<https://rdafr.fr/vocabulary/materiau-base/25> a skos:Concept, rdafr:MateriauBase;
+<https://rdafr.fr/vocabulary/materiau-base/25> a skos:Concept, rdafr:MateriauBase-MateriauApplique;
   dct:created "2023-06-05T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:prefLabel "papier albuminé"@fr .
 
-<https://rdafr.fr/vocabulary/materiau-base/26> a skos:Concept, rdafr:MateriauBase;
+<https://rdafr.fr/vocabulary/materiau-base/26> a skos:Concept, rdafr:MateriauBase-MateriauApplique;
   dct:created "2023-06-05T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:prefLabel "papier Arche"@fr .
 
-<https://rdafr.fr/vocabulary/materiau-base/27> a skos:Concept, rdafr:MateriauBase;
+<https://rdafr.fr/vocabulary/materiau-base/27> a skos:Concept, rdafr:MateriauBase-MateriauApplique;
   dct:created "2023-06-05T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:prefLabel "papier bible"@fr .
 
-<https://rdafr.fr/vocabulary/materiau-base/28> a skos:Concept, rdafr:MateriauBase;
+<https://rdafr.fr/vocabulary/materiau-base/28> a skos:Concept, rdafr:MateriauBase-MateriauApplique;
   dct:created "2023-06-05T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:prefLabel "papier chine"@fr .
 
-<https://rdafr.fr/vocabulary/materiau-base/29> a skos:Concept, rdafr:MateriauBase;
+<https://rdafr.fr/vocabulary/materiau-base/29> a skos:Concept, rdafr:MateriauBase-MateriauApplique;
   dct:created "2023-06-05T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:prefLabel "papier japon"@fr .
 
-<https://rdafr.fr/vocabulary/materiau-base/30> a skos:Concept, rdafr:MateriauBase;
+<https://rdafr.fr/vocabulary/materiau-base/30> a skos:Concept, rdafr:MateriauBase-MateriauApplique;
   dct:created "2023-06-05T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:prefLabel "papier Rives"@fr .
 
-<https://rdafr.fr/vocabulary/materiau-base/31> a skos:Concept, rdafr:MateriauBase;
+<https://rdafr.fr/vocabulary/materiau-base/31> a skos:Concept, rdafr:MateriauBase-MateriauApplique;
   dct:created "2023-06-05T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:prefLabel "papier salé"@fr .
 
-<https://rdafr.fr/vocabulary/materiau-base/32> a skos:Concept, rdafr:MateriauBase;
+<https://rdafr.fr/vocabulary/materiau-base/32> a skos:Concept, rdafr:MateriauBase-MateriauApplique;
   dct:created "2023-06-05T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:prefLabel "papier vergé"@fr .
 
-<https://rdafr.fr/vocabulary/materiau-base/33> a skos:Concept, rdafr:MateriauBase;
+<https://rdafr.fr/vocabulary/materiau-base/33> a skos:Concept, rdafr:MateriauBase-MateriauApplique;
   dct:created "2023-06-05T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:prefLabel "papyrus"@fr .
 
-<https://rdafr.fr/vocabulary/materiau-base/34> a skos:Concept, rdafr:MateriauBase;
+<https://rdafr.fr/vocabulary/materiau-base/34> a skos:Concept, rdafr:MateriauBase-MateriauApplique;
   dct:created "2023-06-05T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:prefLabel "parchemin"@fr .
 
-<https://rdafr.fr/vocabulary/materiau-base/35> a skos:Concept, rdafr:MateriauBase;
+<https://rdafr.fr/vocabulary/materiau-base/35> a skos:Concept, rdafr:MateriauBase-MateriauApplique;
   dct:created "2023-06-05T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:inScheme <https://rdafr.fr/vocabulary/materiau-base>;
   skos:prefLabel "peau"@fr .
 
-<https://rdafr.fr/vocabulary/materiau-base/36> a skos:Concept, rdafr:MateriauBase;
+<https://rdafr.fr/vocabulary/materiau-base/36> a skos:Concept, rdafr:MateriauBase-MateriauApplique;
   dct:created "2023-06-05T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:inScheme <https://rdafr.fr/vocabulary/materiau-base>;
   skos:prefLabel "pierre"@fr .
 
-<https://rdafr.fr/vocabulary/materiau-base/37> a skos:Concept, rdafr:MateriauBase;
+<https://rdafr.fr/vocabulary/materiau-base/37> a skos:Concept, rdafr:MateriauBase-MateriauApplique;
   dct:created "2023-06-05T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:inScheme <https://rdafr.fr/vocabulary/materiau-base>;
   skos:prefLabel "plastique"@fr .
 
-<https://rdafr.fr/vocabulary/materiau-base/38> a skos:Concept, rdafr:MateriauBase;
+<https://rdafr.fr/vocabulary/materiau-base/38> a skos:Concept, rdafr:MateriauBase-MateriauApplique;
   dct:created "2023-06-05T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:inScheme <https://rdafr.fr/vocabulary/materiau-base>;
   skos:prefLabel "plâtre"@fr .
 
-<https://rdafr.fr/vocabulary/materiau-base/39> a skos:Concept, rdafr:MateriauBase;
+<https://rdafr.fr/vocabulary/materiau-base/39> a skos:Concept, rdafr:MateriauBase-MateriauApplique;
   dct:created "2023-06-05T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:inScheme <https://rdafr.fr/vocabulary/materiau-base>;
   skos:prefLabel "plomb"@fr .
 
-<https://rdafr.fr/vocabulary/materiau-base/40> a skos:Concept, rdafr:MateriauBase;
+<https://rdafr.fr/vocabulary/materiau-base/40> a skos:Concept, rdafr:MateriauBase-MateriauApplique;
   dct:created "2023-06-05T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:inScheme <https://rdafr.fr/vocabulary/materiau-base>;
   skos:prefLabel "polyester"@fr .
 
-<https://rdafr.fr/vocabulary/materiau-base/41> a skos:Concept, rdafr:MateriauBase;
+<https://rdafr.fr/vocabulary/materiau-base/41> a skos:Concept, rdafr:MateriauBase-MateriauApplique;
   dct:created "2023-06-05T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:inScheme <https://rdafr.fr/vocabulary/materiau-base>;
   skos:prefLabel "porcelaine"@fr .
 
-<https://rdafr.fr/vocabulary/materiau-base/42> a skos:Concept, rdafr:MateriauBase;
+<https://rdafr.fr/vocabulary/materiau-base/42> a skos:Concept, rdafr:MateriauBase-MateriauApplique;
   dct:created "2023-06-05T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:inScheme <https://rdafr.fr/vocabulary/materiau-base>;
   skos:prefLabel "textile"@fr .
 
-<https://rdafr.fr/vocabulary/materiau-base/43> a skos:Concept, rdafr:MateriauBase;
+<https://rdafr.fr/vocabulary/materiau-base/43> a skos:Concept, rdafr:MateriauBase-MateriauApplique;
   dct:created "2023-06-05T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:inScheme <https://rdafr.fr/vocabulary/materiau-base>;
   skos:prefLabel "tri-acétate"@fr .
 
-<https://rdafr.fr/vocabulary/materiau-base/44> a skos:Concept, rdafr:MateriauBase;
+<https://rdafr.fr/vocabulary/materiau-base/44> a skos:Concept, rdafr:MateriauBase-MateriauApplique;
   dct:created "2023-06-05T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:inScheme <https://rdafr.fr/vocabulary/materiau-base>;
   skos:prefLabel "végétal"@fr .
 
-<https://rdafr.fr/vocabulary/materiau-base/45> a skos:Concept, rdafr:MateriauBase;
+<https://rdafr.fr/vocabulary/materiau-base/45> a skos:Concept, rdafr:MateriauBase-MateriauApplique;
   dct:created "2023-06-05T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:inScheme <https://rdafr.fr/vocabulary/materiau-base>;
   skos:prefLabel "vélin"@fr .
 
-<https://rdafr.fr/vocabulary/materiau-base/46> a skos:Concept, rdafr:MateriauBase;
+<https://rdafr.fr/vocabulary/materiau-base/46> a skos:Concept, rdafr:MateriauBase-MateriauApplique;
   dct:created "2023-06-05T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:inScheme <https://rdafr.fr/vocabulary/materiau-base>;
   skos:prefLabel "verre"@fr .
 
-<https://rdafr.fr/vocabulary/materiau-base/47> a skos:Concept, rdafr:MateriauBase;
+<https://rdafr.fr/vocabulary/materiau-base/47> a skos:Concept, rdafr:MateriauBase-MateriauApplique;
   dct:created "2023-06-05T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:inScheme <https://rdafr.fr/vocabulary/materiau-base>;
   skos:prefLabel "vinyle"@fr .
 
-<https://rdafr.fr/vocabulary/materiau-base/48> a skos:Concept, rdafr:MateriauBase;
+<https://rdafr.fr/vocabulary/materiau-base/48> a skos:Concept, rdafr:MateriauBase-MateriauApplique;
   dct:created "2023-06-05T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:inScheme <https://rdafr.fr/vocabulary/materiau-base>;

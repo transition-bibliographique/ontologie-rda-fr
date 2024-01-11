@@ -27,7 +27,7 @@ Ce même vocabulaire contrôlé fournit les valeurs pour la propriété 'a pour 
   dct:title "Ontologie RDA-FR - Vocabulaires contrôlés : Liste des formes de l'expression ou des types de contenu pour une manifestation"@fr .
 
 <https://rdafr.fr/vocabulary/forme-expression-type-contenu-manifestation/1> a skos:Concept,
-    rdafr:FormeExpression;
+    rdafr:FormeExpression-TypeContenu;
   dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:definition """Réalisation d’une œuvre cartographique au moyen de données encodées numériquement en vue d’un traitement par ordinateur.
@@ -36,7 +36,7 @@ Ce même vocabulaire contrôlé fournit les valeurs pour la propriété 'a pour 
   skos:prefLabel "données cartographiques"@fr .
 
 <https://rdafr.fr/vocabulary/forme-expression-type-contenu-manifestation/2> a skos:Concept,
-    rdafr:FormeExpression;
+    rdafr:FormeExpression-TypeContenu;
   dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:definition """Réalisation d’une œuvre au moyen de données encodées numériquement, en vue d’un traitement par ordinateur. Comprend les données mathématiques, les données sur l’environnement, etc. utilisées par des logiciels d’application pour calculer des moyennes, des corrélations, etc. ou bien utilisées pour produire des modèles, etc. mais qui, normalement, ne sont pas affichées sous leur forme brute.
@@ -45,7 +45,7 @@ Ce même vocabulaire contrôlé fournit les valeurs pour la propriété 'a pour 
   skos:prefLabel "données informatiques"@fr .
 
 <https://rdafr.fr/vocabulary/forme-expression-type-contenu-manifestation/3> a skos:Concept,
-    rdafr:FormeExpression;
+    rdafr:FormeExpression-TypeContenu;
   dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:definition """Réalisation d’une œuvre au moyen d’images destinées à être perçues comme animées en deux dimensions.
@@ -53,7 +53,7 @@ Ce même vocabulaire contrôlé fournit les valeurs pour la propriété 'a pour 
   skos:prefLabel "image animée"@fr .
 
 <https://rdafr.fr/vocabulary/forme-expression-type-contenu-manifestation/4> a skos:Concept,
-    rdafr:FormeExpression;
+    rdafr:FormeExpression-TypeContenu;
   dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:definition """Réalisation d’une œuvre au moyen d’images destinées à être perçues comme animées en trois dimensions.
@@ -61,7 +61,7 @@ Ce même vocabulaire contrôlé fournit les valeurs pour la propriété 'a pour 
   skos:prefLabel "image animée tridimensionnelle"@fr .
 
 <https://rdafr.fr/vocabulary/forme-expression-type-contenu-manifestation/5> a skos:Concept,
-    rdafr:FormeExpression;
+    rdafr:FormeExpression-TypeContenu;
   dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:definition """Réalisation d’une œuvre cartographique au moyen de lignes, contours, estompage, etc. destinés à être perçus visuellement comme une ou plusieurs images fixes en deux dimensions.
@@ -69,21 +69,21 @@ Ce même vocabulaire contrôlé fournit les valeurs pour la propriété 'a pour 
   skos:prefLabel "image cartographique"@fr .
 
 <https://rdafr.fr/vocabulary/forme-expression-type-contenu-manifestation/6> a skos:Concept,
-    rdafr:FormeExpression;
+    rdafr:FormeExpression-TypeContenu;
   dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:definition "Réalisation d’une œuvre cartographique au moyen d’images destinées à être perçues comme animées en deux dimensions. Comprend les images satellite de la Terre ou d’autres corps célestes en mouvement."@fr;
   skos:prefLabel "image cartographique animée"@fr .
 
 <https://rdafr.fr/vocabulary/forme-expression-type-contenu-manifestation/7> a skos:Concept,
-    rdafr:FormeExpression;
+    rdafr:FormeExpression-TypeContenu;
   dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:definition "Réalisation d’une œuvre cartographique au moyen de lignes, contours et/ou d’autres formes destinés à être perçus au toucher comme une image fixe en deux dimensions."@fr;
   skos:prefLabel "image cartographique tactile"@fr .
 
 <https://rdafr.fr/vocabulary/forme-expression-type-contenu-manifestation/8> a skos:Concept,
-    rdafr:FormeExpression;
+    rdafr:FormeExpression-TypeContenu;
   dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:definition """Réalisation d’une œuvre au moyen de lignes, contours, estompage, etc. destinés à être perçus visuellement en deux dimensions. Comprend les dessins, les peintures, les diagrammes, les photographies, etc.
@@ -92,7 +92,7 @@ Ce même vocabulaire contrôlé fournit les valeurs pour la propriété 'a pour 
   skos:prefLabel "image fixe"@fr .
 
 <https://rdafr.fr/vocabulary/forme-expression-type-contenu-manifestation/9> a skos:Concept,
-    rdafr:FormeExpression;
+    rdafr:FormeExpression-TypeContenu;
   dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:definition """Réalisation d’une œuvre au moyen de lignes, contours, estompage, etc. destinés à être perçus visuellement en trois dimensions.
@@ -100,7 +100,7 @@ Ce même vocabulaire contrôlé fournit les valeurs pour la propriété 'a pour 
   skos:prefLabel "image fixe tridimensionnelle"@fr .
 
 <https://rdafr.fr/vocabulary/forme-expression-type-contenu-manifestation/10> a skos:Concept,
-    rdafr:FormeExpression;
+    rdafr:FormeExpression-TypeContenu;
   dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:definition "Réalisation d’une œuvre au moyen de lignes, contours et/ou d’autres formes destinés à être perçus au toucher comme une image fixe en deux dimensions."@fr;
@@ -108,7 +108,7 @@ Ce même vocabulaire contrôlé fournit les valeurs pour la propriété 'a pour 
   skos:prefLabel "image tactile"@fr .
 
 <https://rdafr.fr/vocabulary/forme-expression-type-contenu-manifestation/11> a skos:Concept,
-    rdafr:FormeExpression;
+    rdafr:FormeExpression-TypeContenu;
   dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:definition """Réalisation d’une œuvre au moyen d’une forme de notation du mouvement destinée à être perçue visuellement.
@@ -117,7 +117,7 @@ Ce même vocabulaire contrôlé fournit les valeurs pour la propriété 'a pour 
   skos:prefLabel "mouvement noté"@fr .
 
 <https://rdafr.fr/vocabulary/forme-expression-type-contenu-manifestation/12> a skos:Concept,
-    rdafr:FormeExpression;
+    rdafr:FormeExpression-TypeContenu;
   dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:definition "Réalisation d’une œuvre au moyen d’une forme de notation du mouvement destinée à être perçue au toucher."@fr;
@@ -125,7 +125,7 @@ Ce même vocabulaire contrôlé fournit les valeurs pour la propriété 'a pour 
   skos:prefLabel "mouvement noté tactile"@fr .
 
 <https://rdafr.fr/vocabulary/forme-expression-type-contenu-manifestation/13> a skos:Concept,
-    rdafr:FormeExpression;
+    rdafr:FormeExpression-TypeContenu;
   dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:definition """Réalisation d’une œuvre sous une forme intégrant des données numériques de toute nature (son, textes et images fixes ou animées) et conçue pour une consultation interactive.
@@ -134,7 +134,7 @@ Ce même vocabulaire contrôlé fournit les valeurs pour la propriété 'a pour 
   skos:prefLabel "multimédia"@fr .
 
 <https://rdafr.fr/vocabulary/forme-expression-type-contenu-manifestation/14> a skos:Concept,
-    rdafr:FormeExpression;
+    rdafr:FormeExpression-TypeContenu;
   dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:definition "Réalisation d’une œuvre musicale sous une forme destinée à être perçue par l’ouïe."@fr;
@@ -142,7 +142,7 @@ Ce même vocabulaire contrôlé fournit les valeurs pour la propriété 'a pour 
   skos:prefLabel "musique exécutée"@fr .
 
 <https://rdafr.fr/vocabulary/forme-expression-type-contenu-manifestation/15> a skos:Concept,
-    rdafr:FormeExpression;
+    rdafr:FormeExpression-TypeContenu;
   dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:definition """Réalisation d’une œuvre musicale au moyen d’une forme de notation de la musique destinée à être perçue visuellement.
@@ -151,7 +151,7 @@ Ce même vocabulaire contrôlé fournit les valeurs pour la propriété 'a pour 
   skos:prefLabel "musique notée"@fr .
 
 <https://rdafr.fr/vocabulary/forme-expression-type-contenu-manifestation/16> a skos:Concept,
-    rdafr:FormeExpression;
+    rdafr:FormeExpression-TypeContenu;
   dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:definition """Réalisation d’une œuvre musicale au moyen d’une forme de notation destinée à être perçue au toucher.
@@ -160,7 +160,7 @@ Ce même vocabulaire contrôlé fournit les valeurs pour la propriété 'a pour 
   skos:prefLabel "musique notée tactile"@fr .
 
 <https://rdafr.fr/vocabulary/forme-expression-type-contenu-manifestation/17> a skos:Concept,
-    rdafr:FormeExpression;
+    rdafr:FormeExpression-TypeContenu;
   dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:definition """Réalisation d’une œuvre au moyen d’une ou de plusieurs formes tridimensionnelles destinées à être perçues visuellement. Comprend les sculptures, les maquettes, les monnaies, etc.
@@ -171,7 +171,7 @@ Ce même vocabulaire contrôlé fournit les valeurs pour la propriété 'a pour 
   skos:topConceptOf <https://rdafr.fr/vocabulary/forme-expression-type-contenu-manifestation> .
 
 <https://rdafr.fr/vocabulary/forme-expression-type-contenu-manifestation/18> a skos:Concept,
-    rdafr:FormeExpression;
+    rdafr:FormeExpression-TypeContenu;
   dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:definition """Réalisation d’une œuvre cartographique au moyen d’une ou de plusieurs formes tridimensionnelles destinées à être perçues visuellement.
@@ -181,7 +181,7 @@ Ce même vocabulaire contrôlé fournit les valeurs pour la propriété 'a pour 
   skos:topConceptOf <https://rdafr.fr/vocabulary/forme-expression-type-contenu-manifestation> .
 
 <https://rdafr.fr/vocabulary/forme-expression-type-contenu-manifestation/19> a skos:Concept,
-    rdafr:FormeExpression;
+    rdafr:FormeExpression-TypeContenu;
   dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:definition "Réalisation d’une œuvre cartographique au moyen d’une ou de plusieurs formes tridimensionnelles destinées à être perçues au toucher."@fr;
@@ -190,7 +190,7 @@ Ce même vocabulaire contrôlé fournit les valeurs pour la propriété 'a pour 
   skos:topConceptOf <https://rdafr.fr/vocabulary/forme-expression-type-contenu-manifestation> .
 
 <https://rdafr.fr/vocabulary/forme-expression-type-contenu-manifestation/20> a skos:Concept,
-    rdafr:FormeExpression;
+    rdafr:FormeExpression-TypeContenu;
   dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:definition "Réalisation d’une œuvre au moyen d’une ou de plusieurs formes tridimensionnelles destinées à être perçues au toucher."@fr;
@@ -199,7 +199,7 @@ Ce même vocabulaire contrôlé fournit les valeurs pour la propriété 'a pour 
   skos:topConceptOf <https://rdafr.fr/vocabulary/forme-expression-type-contenu-manifestation> .
 
 <https://rdafr.fr/vocabulary/forme-expression-type-contenu-manifestation/21> a skos:Concept,
-    rdafr:FormeExpression;
+    rdafr:FormeExpression-TypeContenu;
   dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:definition """Réalisation d’une œuvre au moyen du langage sous une forme destinée à être perçue par l’ouïe.
@@ -209,7 +209,7 @@ Ce même vocabulaire contrôlé fournit les valeurs pour la propriété 'a pour 
   skos:topConceptOf <https://rdafr.fr/vocabulary/forme-expression-type-contenu-manifestation> .
 
 <https://rdafr.fr/vocabulary/forme-expression-type-contenu-manifestation/22> a skos:Concept,
-    rdafr:FormeExpression;
+    rdafr:FormeExpression-TypeContenu;
   dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:definition """Réalisation d’une œuvre au moyen d’instructions encodées numériquement, en vue d’un traitement et d’une exécution par ordinateur.
@@ -219,7 +219,7 @@ Ce même vocabulaire contrôlé fournit les valeurs pour la propriété 'a pour 
   skos:topConceptOf <https://rdafr.fr/vocabulary/forme-expression-type-contenu-manifestation> .
 
 <https://rdafr.fr/vocabulary/forme-expression-type-contenu-manifestation/23> a skos:Concept,
-    rdafr:FormeExpression;
+    rdafr:FormeExpression-TypeContenu;
   dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:definition """Réalisation d’une œuvre consistant à fixer des sons autres que des sons du langage ou des sons musicaux sous une forme destinée à être perçue par l’ouïe.
@@ -229,7 +229,7 @@ Ce même vocabulaire contrôlé fournit les valeurs pour la propriété 'a pour 
   skos:topConceptOf <https://rdafr.fr/vocabulary/forme-expression-type-contenu-manifestation> .
 
 <https://rdafr.fr/vocabulary/forme-expression-type-contenu-manifestation/24> a skos:Concept,
-    rdafr:FormeExpression;
+    rdafr:FormeExpression-TypeContenu;
   dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:definition """Réalisation d’une œuvre au moyen d’une forme de notation du langage destinée à être perçue visuellement.
@@ -239,7 +239,7 @@ Ce même vocabulaire contrôlé fournit les valeurs pour la propriété 'a pour 
   skos:topConceptOf <https://rdafr.fr/vocabulary/forme-expression-type-contenu-manifestation> .
 
 <https://rdafr.fr/vocabulary/forme-expression-type-contenu-manifestation/25> a skos:Concept,
-    rdafr:FormeExpression;
+    rdafr:FormeExpression-TypeContenu;
   dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:definition """Réalisation d’une œuvre au moyen d’une forme de notation du langage destinée à être perçue au toucher.

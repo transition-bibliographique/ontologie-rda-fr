@@ -1,5 +1,6 @@
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdafr: <https://rdafr.fr/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -13,7 +14,7 @@
   skos:hasTopConcept <https://rdafr.fr/vocabulary/caracteristique-sonore/1>, <https://rdafr.fr/vocabulary/caracteristique-sonore/2>,
     <https://rdafr.fr/vocabulary/caracteristique-sonore/3>, <https://rdafr.fr/vocabulary/caracteristique-sonore/4> .
 
-<https://rdafr.fr/vocabulary/caracteristique-sonore/1> a skos:Concept;
+<https://rdafr.fr/vocabulary/caracteristique-sonore/1> a skos:Concept, rdafr:CaracteristiqueSonore;
   dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:definition "Aucun contenu sonore."@fr;
@@ -21,7 +22,7 @@
   skos:prefLabel "silencieux"@fr;
   skos:topConceptOf <https://rdafr.fr/vocabulary/caracteristique-sonore> .
 
-<https://rdafr.fr/vocabulary/caracteristique-sonore/2> a skos:Concept;
+<https://rdafr.fr/vocabulary/caracteristique-sonore/2> a skos:Concept, rdafr:CaracteristiqueSonore;
   dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:definition "Contenu sonore."@fr;
@@ -29,7 +30,7 @@
   skos:prefLabel "sonore"@fr;
   skos:topConceptOf <https://rdafr.fr/vocabulary/caracteristique-sonore> .
 
-<https://rdafr.fr/vocabulary/caracteristique-sonore/3> a skos:Concept;
+<https://rdafr.fr/vocabulary/caracteristique-sonore/3> a skos:Concept, rdafr:CaracteristiqueSonore;
   dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:definition "Contenu sonore composé de paroles accompagnées ou non d’autres sons."@fr;
@@ -37,7 +38,7 @@
   skos:prefLabel "sonore, parlant"@fr;
   skos:topConceptOf <https://rdafr.fr/vocabulary/caracteristique-sonore> .
 
-<https://rdafr.fr/vocabulary/caracteristique-sonore/4> a skos:Concept;
+<https://rdafr.fr/vocabulary/caracteristique-sonore/4> a skos:Concept, rdafr:CaracteristiqueSonore;
   dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:altLabel "muet"@fr;

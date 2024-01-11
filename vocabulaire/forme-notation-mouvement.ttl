@@ -1,5 +1,6 @@
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdafr: <https://rdafr.fr/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -16,28 +17,28 @@
     <https://rdafr.fr/vocabulary/forme-notation-mouvement/6>, <https://rdafr.fr/vocabulary/forme-notation-mouvement/7>,
     <https://rdafr.fr/vocabulary/forme-notation-mouvement/8>, <https://rdafr.fr/vocabulary/forme-notation-mouvement/9> .
 
-<https://rdafr.fr/vocabulary/forme-notation-mouvement/1> a skos:Concept;
+<https://rdafr.fr/vocabulary/forme-notation-mouvement/1> a skos:Concept, rdafr:FormeNotationMouvement;
   dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:inScheme <https://rdafr.fr/vocabulary/forme-notation-mouvement>;
   skos:prefLabel "DanceWriting"@fr;
   skos:topConceptOf <https://rdafr.fr/vocabulary/forme-notation-mouvement> .
 
-<https://rdafr.fr/vocabulary/forme-notation-mouvement/2> a skos:Concept;
+<https://rdafr.fr/vocabulary/forme-notation-mouvement/2> a skos:Concept, rdafr:FormeNotationMouvement;
   dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:inScheme <https://rdafr.fr/vocabulary/forme-notation-mouvement>;
   skos:prefLabel "notation Benesh"@fr;
   skos:topConceptOf <https://rdafr.fr/vocabulary/forme-notation-mouvement> .
 
-<https://rdafr.fr/vocabulary/forme-notation-mouvement/3> a skos:Concept;
+<https://rdafr.fr/vocabulary/forme-notation-mouvement/3> a skos:Concept, rdafr:FormeNotationMouvement;
   dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:inScheme <https://rdafr.fr/vocabulary/forme-notation-mouvement>;
   skos:prefLabel "notation Conté"@fr;
   skos:topConceptOf <https://rdafr.fr/vocabulary/forme-notation-mouvement> .
 
-<https://rdafr.fr/vocabulary/forme-notation-mouvement/4> a skos:Concept;
+<https://rdafr.fr/vocabulary/forme-notation-mouvement/4> a skos:Concept, rdafr:FormeNotationMouvement;
   dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:definition "sert à enregistrer les mouvements tactiques pendant le déroulement d’un jeu, comme les échecs."@fr;
@@ -45,21 +46,21 @@
   skos:prefLabel "notation de jeu"@fr;
   skos:topConceptOf <https://rdafr.fr/vocabulary/forme-notation-mouvement> .
 
-<https://rdafr.fr/vocabulary/forme-notation-mouvement/5> a skos:Concept;
+<https://rdafr.fr/vocabulary/forme-notation-mouvement/5> a skos:Concept, rdafr:FormeNotationMouvement;
   dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:inScheme <https://rdafr.fr/vocabulary/forme-notation-mouvement>;
   skos:prefLabel "notation de la danse par traits d’action"@fr;
   skos:topConceptOf <https://rdafr.fr/vocabulary/forme-notation-mouvement> .
 
-<https://rdafr.fr/vocabulary/forme-notation-mouvement/6> a skos:Concept;
+<https://rdafr.fr/vocabulary/forme-notation-mouvement/6> a skos:Concept, rdafr:FormeNotationMouvement;
   dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:inScheme <https://rdafr.fr/vocabulary/forme-notation-mouvement>;
   skos:prefLabel "notation Eshkol-Wachman"@fr;
   skos:topConceptOf <https://rdafr.fr/vocabulary/forme-notation-mouvement> .
 
-<https://rdafr.fr/vocabulary/forme-notation-mouvement/7> a skos:Concept;
+<https://rdafr.fr/vocabulary/forme-notation-mouvement/7> a skos:Concept, rdafr:FormeNotationMouvement;
   dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:altLabel "notation Beauchamp-Feuillet"@fr;
@@ -67,7 +68,7 @@
   skos:prefLabel "notation Feuillet"@fr;
   skos:topConceptOf <https://rdafr.fr/vocabulary/forme-notation-mouvement> .
 
-<https://rdafr.fr/vocabulary/forme-notation-mouvement/8> a skos:Concept;
+<https://rdafr.fr/vocabulary/forme-notation-mouvement/8> a skos:Concept, rdafr:FormeNotationMouvement;
   dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:altLabel "Labanotation,cinétographie Laban"@fr;
@@ -75,14 +76,14 @@
   skos:prefLabel "notation Laban"@fr;
   skos:topConceptOf <https://rdafr.fr/vocabulary/forme-notation-mouvement> .
 
-<https://rdafr.fr/vocabulary/forme-notation-mouvement/9> a skos:Concept;
+<https://rdafr.fr/vocabulary/forme-notation-mouvement/9> a skos:Concept, rdafr:FormeNotationMouvement;
   dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:inScheme <https://rdafr.fr/vocabulary/forme-notation-mouvement>;
   skos:prefLabel "notation Stepanov"@fr;
   skos:topConceptOf <https://rdafr.fr/vocabulary/forme-notation-mouvement> .
 
-<https://rdafr.fr/vocabulary/forme-notation-mouvement/10> a skos:Concept;
+<https://rdafr.fr/vocabulary/forme-notation-mouvement/10> a skos:Concept, rdafr:FormeNotationMouvement;
   dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:inScheme <https://rdafr.fr/vocabulary/forme-notation-mouvement>;

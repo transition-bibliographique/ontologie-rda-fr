@@ -1,6 +1,20 @@
+@prefix dc: <http://purl.org/dc/elements/1.1/> .
+@prefix dcat: <http://www.w3.org/ns/dcat#> .
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix euvoc: <http://publications.europa.eu/ontology/euvoc#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+@prefix org: <http://www.w3.org/ns/org#> .
+@prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix prov: <http://www.w3.org/ns/prov#> .
+@prefix qb: <http://purl.org/linked-data/cube#> .
+@prefix rdafr: <https://rdafr.fr/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix schema: <http://schema.org/> .
+@prefix sh: <http://www.w3.org/ns/shacl#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
+@prefix skosthes: <http://purl.org/iso25964/skos-thes#> .
+@prefix skosxl: <http://www.w3.org/2008/05/skos-xl#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
 
 <https://rdafr.fr/vocabulary/format-image-animee> a skos:ConceptScheme;
@@ -8,4 +22,119 @@
   dct:description "Le format d’image animée est le rapport numérique entre la largeur et la hauteur d’une image animée."@fr;
   dct:modified "2023-11-06"^^xsd:date;
   dct:publisher "BnF, Abes"@fr;
-  dct:title "RDA-FROntologie RDA-FR - Vocabulaires contrôlés : Liste des formats d'image animée pour une manifestation"@fr .
+  dct:title "RDA-FROntologie RDA-FR - Vocabulaires contrôlés : Liste des formats d'image animée pour une manifestation"@fr;
+  skos:hasTopConcept <https://rdafr.fr/vocabulary/format-image-animee/1>, <https://rdafr.fr/vocabulary/format-image-animee/10>,
+    <https://rdafr.fr/vocabulary/format-image-animee/11>, <https://rdafr.fr/vocabulary/format-image-animee/12>,
+    <https://rdafr.fr/vocabulary/format-image-animee/13>, <https://rdafr.fr/vocabulary/format-image-animee/14>,
+    <https://rdafr.fr/vocabulary/format-image-animee/15>, <https://rdafr.fr/vocabulary/format-image-animee/16>,
+    <https://rdafr.fr/vocabulary/format-image-animee/17>, <https://rdafr.fr/vocabulary/format-image-animee/2>,
+    <https://rdafr.fr/vocabulary/format-image-animee/3>, <https://rdafr.fr/vocabulary/format-image-animee/4>,
+    <https://rdafr.fr/vocabulary/format-image-animee/5>, <https://rdafr.fr/vocabulary/format-image-animee/6>,
+    <https://rdafr.fr/vocabulary/format-image-animee/7>, <https://rdafr.fr/vocabulary/format-image-animee/8>,
+    <https://rdafr.fr/vocabulary/format-image-animee/9> .
+
+<https://rdafr.fr/vocabulary/format-image-animee/1> a skos:Concept;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Format d’image de film cinématographique"@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/format-image-animee>;
+  skos:prefLabel "1,33:1"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-image-animee> .
+
+<https://rdafr.fr/vocabulary/format-image-animee/2> a skos:Concept;
+  dct:created "2023-07-03T00:00:00.000Z"^^xsd:dateTime;
+  owl:deprecated false;
+  skos:definition "Format de vidéo/télévision"@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/format-image-animee>;
+  skos:prefLabel "4/3"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-image-animee> .
+
+<https://rdafr.fr/vocabulary/format-image-animee/3> a skos:Concept;
+  skos:definition "Format d’image de film cinématographique. Contexte de production : format super 8"@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/format-image-animee>;
+  skos:prefLabel "1,35:1"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-image-animee> .
+
+<https://rdafr.fr/vocabulary/format-image-animee/4> a skos:Concept;
+  skos:definition "Format d’image de film cinématographique. Contexte de production : format académique"@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/format-image-animee>;
+  skos:prefLabel "1,375:1"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-image-animee> .
+
+<https://rdafr.fr/vocabulary/format-image-animee/5> a skos:Concept;
+  skos:definition "Format d’image de film cinématographique. Contexte de production : format imax"@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/format-image-animee>;
+  skos:prefLabel "1,43:1"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-image-animee> .
+
+<https://rdafr.fr/vocabulary/format-image-animee/6> a skos:Concept;
+  skos:definition "Format d’image de film cinématographique. Contexte de production : format super 16"@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/format-image-animee>;
+  skos:prefLabel "1,66:1"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-image-animee> .
+
+<https://rdafr.fr/vocabulary/format-image-animee/7> a skos:Concept;
+  skos:definition "Format de vidéo/télévision. Contexte de production : format super 16"@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/format-image-animee>;
+  skos:prefLabel "5/3"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-image-animee> .
+
+<https://rdafr.fr/vocabulary/format-image-animee/8> a skos:Concept;
+  skos:definition "Format d’image de film cinématographique"@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/format-image-animee>;
+  skos:prefLabel "1,77:1"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-image-animee> .
+
+<https://rdafr.fr/vocabulary/format-image-animee/9> a skos:Concept;
+  skos:definition "Format de vidéo/télévision."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/format-image-animee>;
+  skos:prefLabel "16/9"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-image-animee> .
+
+<https://rdafr.fr/vocabulary/format-image-animee/10> a skos:Concept;
+  skos:definition "Format d’image de film cinématographique. Contexte de production : format panoramique"@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/format-image-animee>;
+  skos:prefLabel "1,85:1"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-image-animee> .
+
+<https://rdafr.fr/vocabulary/format-image-animee/11> a skos:Concept;
+  skos:definition "Format d’image de film cinématographique. Contexte de production : format techniscope"@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/format-image-animee>;
+  skos:prefLabel "2,33:1"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-image-animee> .
+
+<https://rdafr.fr/vocabulary/format-image-animee/12> a skos:Concept;
+  skos:definition "Format d’image de film cinématographique. Contexte de production : format cinémascope"@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/format-image-animee>;
+  skos:prefLabel "2,35:1"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-image-animee> .
+
+<https://rdafr.fr/vocabulary/format-image-animee/13> a skos:Concept;
+  skos:definition "Format d’image de film cinématographique. Contexte de production : format cinémascope anamorphosé"@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/format-image-animee>;
+  skos:prefLabel "2,39:1"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-image-animee> .
+
+<https://rdafr.fr/vocabulary/format-image-animee/14> a skos:Concept;
+  skos:definition "Format d’image de film cinématographique. Contexte de production : format cinémascope original"@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/format-image-animee>;
+  skos:prefLabel "2,55:1"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-image-animee> .
+
+<https://rdafr.fr/vocabulary/format-image-animee/15> a skos:Concept;
+  skos:definition "Terme générique désignant le rapport entre la largeur et la hauteur d’une image animée."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/format-image-animee>;
+  skos:prefLabel "écran large"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-image-animee> .
+
+<https://rdafr.fr/vocabulary/format-image-animee/16> a skos:Concept;
+  skos:definition "Terme générique désignant le rapport entre la largeur et la hauteur d’une image animée."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/format-image-animee>;
+  skos:prefLabel "format d'image fixe"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-image-animee> .
+
+<https://rdafr.fr/vocabulary/format-image-animee/17> a skos:Concept;
+  skos:definition "Terme générique désignant le rapport entre la largeur et la hauteur d’une image animée."@fr;
+  skos:inScheme <https://rdafr.fr/vocabulary/format-image-animee>;
+  skos:prefLabel "plein écran"@fr;
+  skos:topConceptOf <https://rdafr.fr/vocabulary/format-image-animee> .

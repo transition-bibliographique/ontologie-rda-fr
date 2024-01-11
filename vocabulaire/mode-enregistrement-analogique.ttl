@@ -1,4 +1,5 @@
 @prefix dct: <http://purl.org/dc/terms/> .
+@prefix rdafr: <https://rdafr.fr/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -12,14 +13,16 @@
   skos:hasTopConcept <https://rdafr.fr/vocabulary/mode-enregistremen-analogique/1>,
     <https://rdafr.fr/vocabulary/mode-enregistrement-analogique/2> .
 
-<https://rdafr.fr/vocabulary/mode-enregistremen-analogique/1> a skos:Concept;
+<https://rdafr.fr/vocabulary/mode-enregistremen-analogique/1> a skos:Concept, rdafr:ModeEnregistrementAnalogique;
+  dct:created "2023-12-05T00:00:00.000Z"^^xsd:dateTime;
   skos:definition """Enregistrement transcrivant directement les vibrations sonores sur un support. Correspond aux premières techniques d’enregistrement, antérieures à 1925.
 Employé pour enregistrement mécanique."""@fr;
   skos:inScheme <https://rdafr.fr/vocabulary/mode-enregistrement-analogique>;
   skos:prefLabel "acoustique"@fr;
   skos:topConceptOf <https://rdafr.fr/vocabulary/mode-enregistrement-analogique> .
 
-<https://rdafr.fr/vocabulary/mode-enregistrement-analogique/2> a skos:Concept;
+<https://rdafr.fr/vocabulary/mode-enregistrement-analogique/2> a skos:Concept, rdafr:ModeEnregistrementAnalogique;
+  dct:created "2023-12-05T00:00:00.000Z"^^xsd:dateTime;
   skos:definition "Enregistrement transformant les ondes sonores en signal électrique analogique. Correspond aux techniques d’enregistrement postérieures à 1925."@fr;
   skos:inScheme <https://rdafr.fr/vocabulary/mode-enregistrement-analogique>;
   skos:prefLabel "électrique"@fr;

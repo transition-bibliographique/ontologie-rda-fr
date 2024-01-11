@@ -1,5 +1,6 @@
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdafr: <https://rdafr.fr/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -13,7 +14,7 @@
   skos:hasTopConcept <https://rdafr.fr/vocabulary/aspect-traduction/1>, <https://rdafr.fr/vocabulary/aspect-traduction/2>,
     <https://rdafr.fr/vocabulary/aspect-traduction/3>, <https://rdafr.fr/vocabulary/aspect-traduction/4> .
 
-<https://rdafr.fr/vocabulary/aspect-traduction/1> a skos:Concept;
+<https://rdafr.fr/vocabulary/aspect-traduction/1> a skos:Concept, rdafr:AspectTraduction;
   dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:definition "si la langue de l’expression est celle dans laquelle l’œuvre a été exprimée à l’origine."@fr;
@@ -21,7 +22,7 @@
   skos:prefLabel "n’est pas une traduction"@fr;
   skos:topConceptOf <https://rdafr.fr/vocabulary/aspect-traduction> .
 
-<https://rdafr.fr/vocabulary/aspect-traduction/2> a skos:Concept;
+<https://rdafr.fr/vocabulary/aspect-traduction/2> a skos:Concept, rdafr:AspectTraduction;
   dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:definition "si l’expression est une traduction établie directement à partir de la langue dans laquelle l’œuvre a été exprimée à l’origine."@fr;
@@ -29,7 +30,7 @@
   skos:prefLabel "traduction directe"@fr;
   skos:topConceptOf <https://rdafr.fr/vocabulary/aspect-traduction> .
 
-<https://rdafr.fr/vocabulary/aspect-traduction/3> a skos:Concept;
+<https://rdafr.fr/vocabulary/aspect-traduction/3> a skos:Concept, rdafr:AspectTraduction;
   dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:definition "si l’expression est une traduction établie à partir d’une autre traduction."@fr;
@@ -37,7 +38,7 @@
   skos:prefLabel "traduction indirecte"@fr;
   skos:topConceptOf <https://rdafr.fr/vocabulary/aspect-traduction> .
 
-<https://rdafr.fr/vocabulary/aspect-traduction/4> a skos:Concept;
+<https://rdafr.fr/vocabulary/aspect-traduction/4> a skos:Concept, rdafr:AspectTraduction;
   dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:definition "si l’expression est une traduction dont on ignore si elle est directe ou indirecte."@fr;

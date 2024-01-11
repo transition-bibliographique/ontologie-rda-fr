@@ -1,5 +1,6 @@
 @prefix dct: <http://purl.org/dc/terms/> .
 @prefix owl: <http://www.w3.org/2002/07/owl#> .
+@prefix rdafr: <https://rdafr.fr/> .
 @prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
 @prefix skos: <http://www.w3.org/2004/02/skos/core#> .
 @prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
@@ -13,7 +14,7 @@
   skos:hasTopConcept <https://rdafr.fr/vocabulary/caracteristique-couleur/1>, <https://rdafr.fr/vocabulary/caracteristique-couleur/2>,
     <https://rdafr.fr/vocabulary/caracteristique-couleur/3> .
 
-<https://rdafr.fr/vocabulary/caracteristique-couleur/1> a skos:Concept;
+<https://rdafr.fr/vocabulary/caracteristique-couleur/1> a skos:Concept, rdafr:CaracteristiqueCouleur;
   dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:definition "D’une seule couleur. Comprend la couleur uniforme et les différentes gradations de cette couleur."@fr;
@@ -21,7 +22,7 @@
   skos:prefLabel "monochrome"@fr;
   skos:topConceptOf <https://rdafr.fr/vocabulary/caracteristique-couleur> .
 
-<https://rdafr.fr/vocabulary/caracteristique-couleur/2> a skos:Concept;
+<https://rdafr.fr/vocabulary/caracteristique-couleur/2> a skos:Concept, rdafr:CaracteristiqueCouleur;
   dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:definition "Comprend le noir et blanc ainsi que les gradations de gris."@fr;
@@ -29,7 +30,7 @@
   skos:prefLabel "noir et blanc"@fr;
   skos:topConceptOf <https://rdafr.fr/vocabulary/caracteristique-couleur> .
 
-<https://rdafr.fr/vocabulary/caracteristique-couleur/3> a skos:Concept;
+<https://rdafr.fr/vocabulary/caracteristique-couleur/3> a skos:Concept, rdafr:CaracteristiqueCouleur;
   dct:created "2023-06-26T00:00:00.000Z"^^xsd:dateTime;
   owl:deprecated false;
   skos:definition "Comprend plusieurs couleurs (au-delà de deux), sans compter le fond."@fr;
