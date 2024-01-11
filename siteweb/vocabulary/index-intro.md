@@ -1,6 +1,6 @@
 # Ontologie RDA-FR - Vocabulaires contrôlés
 
-Référentiels du code RDA-FR associés à l'ontologie RDA-FR.
+## Référentiels du code RDA-FR associés à l'ontologie RDA-FR.
 
 **Auteur :** BnF, Abes \
 **Editeur :** BnF, Abes \
