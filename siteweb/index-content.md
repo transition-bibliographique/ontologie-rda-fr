@@ -49,7 +49,7 @@ _Schéma représentant les relations entre la classe Identité publique et les c
 
 </div>
 
-* La classe **_Laps de temps_**(ainsi que ses sous-classes) est déclarée dans l’ontologie RDA-FR car elle sert de classe cible à toute propriété qui exprime des notions temporelles.
+* La classe **_Laps de temps_** (ainsi que ses sous-classes) est déclarée dans l’ontologie RDA-FR car elle sert de classe cible à toute propriété qui exprime des notions temporelles.
 * Les classes **_Concept_**, **_Objet_**, **_Événement_**, sont d’ores et déjà créées dans l’ontologie RDA-FR pour leur réserver la place qui convient dans l’architecture globale. Elles seront abordées en détail, ou modifiées, lorsque les chapitres correspondants ou les orientations normatives du code RDA-FR seront publiés, sous réserve de l’avancée des travaux des groupes nationaux de la Transition Bibliographique.
 
 ### Les référentiels du code RDA-FR dans l’ontologie
