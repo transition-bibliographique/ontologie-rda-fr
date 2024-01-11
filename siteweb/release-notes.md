@@ -1,5 +1,29 @@
 # Ontologie RDA-FR - Historique des versions
 
+## v0.3.0, janvier 2024 {#v0.3.0}
+
+Version toujours qualifiée comme bêta, reste partielle, et le caractère évolutif de l’ontologie d’une version à l’autre toujours valable. Apports de cette version : 
+
+* Classes et leurs propriétés
+  * Déclaration de quatre nouvelles classes, **_Oeuvre_**, **_Oeuvre de ressource continue (sous-classe d'Oeuvre)_** et **_Expression_**, **_Item_** et de leurs propriétés.
+    
+* Relations entre classes 
+  * Nouvelles relations
+    * Relations principales entre Oeuvre, Expression, Manifestation et Item
+    * Relations entre Oeuvres et entre Oeuvres de ressources continues
+    * Relations entre Oeuvre et Agent
+  * Compléments
+    * Relations entre Agents complétées et mises à jour suite à la finalisation de la partie Relations entre agents du code RDA-FR par les sous-groupes Normalisation > Transition bibliographique chargées de cette partie du code. 
+
+* Quelques nouvelles propriétés pour les classes déjà publiées
+* Quelques correctifs et modifications dans les propriétés déjà publiées
+
+* Vocabulaires contrôlés
+   * Des vocabulaire contrôlés supplémentaires pour la classe Manifestation
+   * Les vocabulaires contrôlés associées aux classes Oeuvre, Oeuvre de ressource continue, Expression et Item
+
+Toute nouveauté (nouvelle classe, nouvelle propriété, les référentiels et leurs valeurs, correctifs et modifications sur les propriétés déjà publiées) est identifiable par le numéro de version V 0.3.0 de cette publication.
+
 ## v0.2.0, novembre 2023 {#v0.2.0}
 
 Version toujours qualifiée comme bêta, reste partielle, et le caractère évolutif de l’ontologie d’une version à l’autre toujours valable. Apports de cette version : 
