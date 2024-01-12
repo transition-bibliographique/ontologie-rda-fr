@@ -13,7 +13,7 @@ Version toujours qualifiée comme bêta, reste partielle, et le caractère évol
     * Relations entre Oeuvres et entre Oeuvres de ressources continues
     * Relations entre Oeuvre et Agent
   * Compléments
-    * Les relations entre Agents sont complétées et mises à jour suite à la finalisation de la partie _Relations entre agents_ du code RDA-FR par les sous-groupes du groupe Tb Normalisation, chargées de cette partie du code. 
+    * Les relations entre Agents sont complétées et mises à jour suite à la finalisation de la partie _Relations entre agents_ du code RDA-FR par les sous-groupes du groupe Tb Normalisation, chargés de cette partie du code. 
 
 * Quelques nouvelles propriétés pour les classes déjà publiées
 * Quelques correctifs et modifications dans les propriétés déjà publiées
