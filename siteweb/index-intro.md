@@ -5,7 +5,6 @@
 Ce site est dédié à la publication de l’ontologie RDA-FR qui est en cours d’élaboration.
 
 Le domaine de l’ontologie RDA-FR est **[https://rdafr.fr](https://rdafr.fr)**
-
 * La version HTML du profil d’application de l’ontologie RDA-FR est publié ici : [https://rdafr.fr/profil-application/](/profil-application/)
 * La version SHACL du profil d'application (au format turtle) est publiée ici : [https://rdafr.fr/profil-application/rdafr-shacl.ttl/](/profil-application/rdafr-shacl/)
 * La version HTML de l'ontologie RDA-FR est publiée ici : [https://rdafr.fr/ontologie/](/ontologie/)
