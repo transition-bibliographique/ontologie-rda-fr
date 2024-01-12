@@ -20,9 +20,9 @@ Version toujours qualifiée comme bêta, reste partielle, et le caractère évol
 
 * Vocabulaires contrôlés
    * Des vocabulaire contrôlés supplémentaires pour la classe Manifestation
-   * Les vocabulaires contrôlés associées aux classes Oeuvre, Oeuvre de ressource continue, Expression et Item
+   * Les vocabulaires contrôlés associés aux classes Oeuvre, Oeuvre de ressource continue, Expression et Item
 
-Toute nouveauté (nouvelle classe, nouvelle propriété, les référentiels et leurs valeurs, correctifs et modifications sur les propriétés déjà publiées) est identifiable par le numéro de version V 0.3.0 de cette publication.
+Toute nouveauté (nouvelle classe, nouvelle propriété, référentiels et leurs valeurs, correctifs et modifications sur les propriétés déjà publiées) est identifiable par le numéro de version V 0.3.0 de cette publication.
 
 ## v0.2.0, novembre 2023 {#v0.2.0}
 
