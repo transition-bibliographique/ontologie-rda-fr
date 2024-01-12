@@ -5,7 +5,7 @@
 Version toujours qualifiée comme bêta, reste partielle, et le caractère évolutif de l’ontologie d’une version à l’autre toujours valable. Apports de cette version : 
 
 * Classes et leurs propriétés
-  * Déclaration de quatre nouvelles classes, **_Oeuvre_**, **_Oeuvre de ressource continue (sous-classe d'Oeuvre)_** et **_Expression_**, **_Item_** et de leurs propriétés.
+  * Déclaration de cinq nouvelles classes, **_Métadonnées de la description_**, **_Oeuvre_**, **_Oeuvre de ressource continue (sous-classe d'Oeuvre)_**, **_Expression_** et **_Item_** et de leurs propriétés.
     
 * Relations entre classes 
   * Nouvelles relations
@@ -13,7 +13,7 @@ Version toujours qualifiée comme bêta, reste partielle, et le caractère évol
     * Relations entre Oeuvres et entre Oeuvres de ressources continues
     * Relations entre Oeuvre et Agent
   * Compléments
-    * Relations entre Agents complétées et mises à jour suite à la finalisation de la partie Relations entre agents du code RDA-FR par les sous-groupes Normalisation > Transition bibliographique chargées de cette partie du code. 
+    * Les relations entre Agents sont complétées et mises à jour suite à la finalisation de la partie _Relations entre agents_ du code RDA-FR par les sous-groupes du groupe Tb Normalisation, chargées de cette partie du code. 
 
 * Quelques nouvelles propriétés pour les classes déjà publiées
 * Quelques correctifs et modifications dans les propriétés déjà publiées
