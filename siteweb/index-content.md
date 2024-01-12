@@ -11,7 +11,7 @@ L’ontologie RDA-FR, en cours d’élaboration, est une représentation formell
 <div align="center">
 
 _Vue globale de la hiérarchie des classes de l’ontologie RDA-FR._  \
-_Seules sont traitées dans cette version bêta les classes non grisées ci-dessous._
+_Les classes grisées ci-dessous ne font pas partie de cette version._
 
 ![HierarchieClassesV0 3 0](https://github.com/transition-bibliographique/ontologie-rda-fr/assets/51800062/4e8ad73c-bc0c-4c99-abcf-a9ea8aa3c1da)
 
