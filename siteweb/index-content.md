@@ -10,10 +10,10 @@ L’ontologie RDA-FR, en cours d’élaboration, est une représentation formell
 
 <div align="center">
 
-_Vue globale de la hiérarchie des classes de l’ontologie RDA-FR._  \
+_Vue globale de la hiérarchie des classes de l’ontologie RDA-FR_  \
 _(les classes grisées ci-dessous ne font pas l'objet de cette version)_
 
-![](https://github.com/transition-bibliographique/ontologie-rda-fr/assets/51800062/4ab0dd08-ba78-4dd5-b585-a2268191dcb4)
+![](https://github.com/transition-bibliographique/ontologie-rda-fr/assets/51800062/889a86bc-7811-4284-b2e4-6e178ab5736e)
 
 </div>
 
