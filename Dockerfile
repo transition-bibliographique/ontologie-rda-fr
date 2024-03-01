@@ -5,8 +5,9 @@ FROM debian:stable-20230502-slim AS builder
 # pandoc : l'outil pour générer les contenus html du site web à partir des fichiers markdown
 # default-jdk : pour pouvoir utiliser l'outil widoco (qui est un outil en java) utilisé pour générer l'ontologie en HTML
 # curl : pour installer les outils de Sparna (génération des fichiers TTL et NT) et Widoco depuis GitHub.
-
+# zip : pour générer le fichier vocabulaire-ttl.zip
 RUN apt update && DEBIAN_FRONTEND=noninteractive apt -y install locales pandoc default-jdk curl
+RUN apt -y install zip
 
 # Installation des outils : widoco, shacl play, skos play
 RUN curl -L https://github.com/dgarijo/Widoco/releases/download/v1.4.20/widoco-1.4.20-jar-with-dependencies_JDK-17.jar -o /tmp/widoco.jar
@@ -117,6 +118,9 @@ RUN for i in /build/vocabulaire/*.ttl; do \
       sed -i '/<h2 class="title">.*<\/h2>/d' ${i%.ttl}.html ; \
       sed -i "s/<li>DEF : /<li>Périmètre d'application : /g" ${i%.ttl}.html ; \
     done
+# Génération du fichier vocabulaire-ttl.zip
+RUN cd /build/vocabulaire/ && zip vocabulaire-ttl.zip *.ttl
+
 
 FROM nginx:1.20.2
 ENV ONTOLOGIE_RDAFR_VERSION 0.6.1
