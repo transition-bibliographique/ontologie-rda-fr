@@ -1,5 +1,12 @@
 # Ontologie RDA-FR - Historique des versions
 
+## vX.X.X, ... {#vX.X.X}
+
+* Correction d'un bug sur l'ontologie : le champ "Ontologie NS Prefix" avait comme valeur `https://rdafr.fr/Regles` ce qui était incorrect. Il a maintenant la bonne valeur `https://rdafr.fr/Elements#`
+* Le répertoire des vocabulaires est renommé pour être cohérent (tout en Français) :
+  * ancien nom : `https://rdafr.fr/vocabulary/`
+  * nouveau nom : `https://rdafr.fr/vocabulaire/`
+
 ## v0.3.0, janvier 2024 {#v0.3.0}
 
 Version toujours qualifiée comme bêta, reste partielle, et le caractère évolutif de l’ontologie d’une version à l’autre toujours valable. Apports de cette version : 
@@ -31,7 +38,7 @@ Version toujours qualifiée comme bêta, reste partielle, et le caractère évol
 * Classes et leurs propriétés
   * Déclaration de deux nouvelles classes, **_Manifestation_** et **_Lieu_**, et de leurs propriétés. 
 * Vocabulaires contrôlés 
-  * Cette version voit pour la première fois la publication des vocabulaires contrôlés associés aux attributs des entités, Manifestation et Lieu. Les vocabulaires contrôlés sont déclarés dans l’espace de nom [https://rdafr.fr/vocabulary/](https://rdafr.fr/vocabulary/).  \
+  * Cette version voit pour la première fois la publication des vocabulaires contrôlés associés aux attributs des entités, Manifestation et Lieu. Les vocabulaires contrôlés sont déclarés dans l’espace de nom [https://rdafr.fr/vocabulaire/](https://rdafr.fr/vocabulaire/).  \
 Chacun des référentiels déclarés fait l’objet d’une page distincte. Le nombre des valeurs dans un référentiel peut être très variable. Chacune d’entre elles fait l’objet d’une déclaration en propre.
 
 * Quelques nouvelles propriétés pour les classes déjà publiées
