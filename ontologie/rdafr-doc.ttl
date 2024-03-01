@@ -32,9 +32,9 @@ rdafr:C100001 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Toute création intellectuelle ou artistique distincte, susceptible d’être identifiée et nommée de manière univoque dans un contexte bibliographique. [code RDA-FR, 5.1.2]"@fr;
-  sh:ignoredProperties _:node1hnt7234px6 .
+  sh:ignoredProperties _:node1hnt8gun0x6 .
 
-_:node1hnt7234px6 rdf:first rdf:type;
+_:node1hnt8gun0x6 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100001 sh:nodeKind sh:IRI;
@@ -50,9 +50,9 @@ rdafr:C100026 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.3.0"@fr;
   sh:closed false;
   sh:description "Une œuvre de ressource continue est une œuvre agrégative et diachronique conçue comme n’ayant pas de fin prédéterminée et mise à la disposition du public (large ou restreint). L’œuvre de ressource continue reflète les intentions éditoriales de son créateur. Par commodité, des ressources bibliographiques comportant les caractéristiques d’une ressource continue (périodicité, numérotation, publication par intégration d’itérations successives, etc.) mais dont la durée de vie est limitée dans le temps (par exemple, les journaux d’événements, les wikis associés à un projet, les sites Web relatifs à une conférence, etc.) sont traitées comme des ressources continues."@fr;
-  sh:ignoredProperties _:node1hnt7234px7 .
+  sh:ignoredProperties _:node1hnt8gun0x7 .
 
-_:node1hnt7234px7 rdf:first rdf:type;
+_:node1hnt8gun0x7 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100026 sh:nodeKind sh:IRI;
@@ -67,9 +67,9 @@ rdafr:C100002 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Entité ayant la capacité d’agir et ayant un rapport avec des ressources qui font l’objet d’une description documentaire. Cela inclut les personnes ou les groupes, qu'ils soient réels ou fictifs. [code RDA-FR, 8.1.2]"@fr;
-  sh:ignoredProperties _:node1hnt7234px8 .
+  sh:ignoredProperties _:node1hnt8gun0x8 .
 
-_:node1hnt7234px8 rdf:first rdf:type;
+_:node1hnt8gun0x8 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100002 sh:nodeKind sh:IRI;
@@ -84,9 +84,9 @@ rdafr:C100003 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Un ou plusieurs objets portant des signes chargés de véhiculer un contenu intellectuel ou artistique. Un item exemplifie une manifestation et en reflète en principe toutes les caractéristiques. [code RDA-FR, 1.1.2]"@fr;
-  sh:ignoredProperties _:node1hnt7234px9 .
+  sh:ignoredProperties _:node1hnt8gun0x9 .
 
-_:node1hnt7234px9 rdf:first rdf:type;
+_:node1hnt8gun0x9 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100003 sh:nodeKind sh:IRI;
@@ -103,9 +103,9 @@ rdafr:C100004 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Agent identifié comme étant un individu existant, ayant existé, ou un personnage relevant de la fiction, du mythe ou dont le caractère historique n’est pas fermement attesté. [code RDA-FR, 8.1.2 et 9]"@fr;
-  sh:ignoredProperties _:node1hnt7234px10 .
+  sh:ignoredProperties _:node1hnt8gun0x10 .
 
-_:node1hnt7234px10 rdf:first rdf:type;
+_:node1hnt8gun0x10 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100004 sh:nodeKind sh:IRI;
@@ -122,9 +122,9 @@ rdafr:C100005 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Agent identifié comme étant une organisation ou une partie d'organisation, ou un groupe de personnes et/ou d'organisations. Une collectivité n’est considérée comme telle que si elle est identifiée par un nom particulier et si elle agit, ou peut agir, comme une unité. Comprend aussi les colletivités fictives. [code RDA-FR, 11]"@fr;
-  sh:ignoredProperties _:node1hnt7234px11 .
+  sh:ignoredProperties _:node1hnt8gun0x11 .
 
-_:node1hnt7234px11 rdf:first rdf:type;
+_:node1hnt8gun0x11 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100005 sh:nodeKind sh:IRI;
@@ -141,9 +141,9 @@ rdafr:C100006 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Réalisation d’une œuvre sous la forme d’une notation (alphanumérique, musicale ou chorégraphique), de son, d’image, d’objet, de mouvement, etc. ou de toute combinaison de ces formes. [code RDA-FR, 5.1.2]"@fr;
-  sh:ignoredProperties _:node1hnt7234px12 .
+  sh:ignoredProperties _:node1hnt8gun0x12 .
 
-_:node1hnt7234px12 rdf:first rdf:type;
+_:node1hnt8gun0x12 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100006 sh:nodeKind sh:IRI;
@@ -160,9 +160,9 @@ rdafr:C100007 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "L’ensemble de tous les supports qui sont présumés partager les mêmes caractéristiques relatives tant au contenu intellectuel ou artistique qu’aux aspects de présentation matérielle. Cet ensemble est défini à la fois par son contenu global et par le plan de production pour son (ou ses) support(s). [code RDA-FR, 1.1.2]"@fr;
-  sh:ignoredProperties _:node1hnt7234px13 .
+  sh:ignoredProperties _:node1hnt8gun0x13 .
 
-_:node1hnt7234px13 rdf:first rdf:type;
+_:node1hnt8gun0x13 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100007 sh:nodeKind sh:IRI;
@@ -179,9 +179,9 @@ rdafr:C100008 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Est considéré comme relevant de la catégorie famille un ensemble de personnes liées par la naissance, le mariage, l'adoption, l'union civile ou tout autre statut légal du même ordre, ou un ensemble de personnes qui se présentent elles-mêmes comme une famille. Comprend aussi les familles relevant de la fiction, du mythe ou dont le caractère historique n’est pas fermement attesté. [code RDA-FR, 10]"@fr;
-  sh:ignoredProperties _:node1hnt7234px14 .
+  sh:ignoredProperties _:node1hnt8gun0x14 .
 
-_:node1hnt7234px14 rdf:first rdf:type;
+_:node1hnt8gun0x14 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100008 sh:nodeKind sh:IRI;
@@ -198,9 +198,9 @@ rdafr:C100009 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Portion d’espace réel. Un lieu est déterminé par des coordonnées géographiques et pourvu d’un nom. Comprend aussi les lieux issus de l’imagination humaine. [code RDA-FR, 16]"@fr;
-  sh:ignoredProperties _:node1hnt7234px15 .
+  sh:ignoredProperties _:node1hnt8gun0x15 .
 
-_:node1hnt7234px15 rdf:first rdf:type;
+_:node1hnt8gun0x15 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100009 sh:nodeKind sh:IRI;
@@ -218,9 +218,9 @@ Comprend les dates uniques, les périodes et les séries de dates et de laps de 
   sh:closed false;
   sh:description """Plage temporelle ayant un début, une fin et une durée.
 Comprend les dates uniques, les périodes et les séries de dates et de laps de temps non contigus. Peut être exprimé en langage naturel ou/et en format numérique normalisé. Les dates normalisées sont typiquement exprimés en ISO 8601 ou en Extended Date-Time Format (EDTF)."""@fr;
-  sh:ignoredProperties _:node1hnt7234px16 .
+  sh:ignoredProperties _:node1hnt8gun0x16 .
 
-_:node1hnt7234px16 rdf:first rdf:type;
+_:node1hnt8gun0x16 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100010 sh:nodeKind sh:IRI;
@@ -236,9 +236,9 @@ rdafr:C100011 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Groupement ou association de personnes portant un nom particulier et disposant de la faculté d'agir collectivement."@fr;
-  sh:ignoredProperties _:node1hnt7234px17 .
+  sh:ignoredProperties _:node1hnt8gun0x17 .
 
-_:node1hnt7234px17 rdf:first rdf:type;
+_:node1hnt8gun0x17 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100011 sh:nodeKind sh:IRI;
@@ -254,9 +254,9 @@ rdafr:C100012 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Une association entre une entité et une désignation qui y réfère ."@fr;
-  sh:ignoredProperties _:node1hnt7234px18 .
+  sh:ignoredProperties _:node1hnt8gun0x18 .
 
-_:node1hnt7234px18 rdf:first rdf:type;
+_:node1hnt8gun0x18 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100012 sh:nodeKind sh:IRI;
@@ -272,9 +272,9 @@ rdafr:C100013 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Classe abstraite de plus haut niveau de l'univers de discours couvert par l'ontologie RDA-FR. Elle comprend toutes les entités qui sont définies dans le code RDA-FR. Toutes les classes définies pour les besoins de fonctionnement de l'ontologie RDA-FR sont également des sous-classes de celle ci."@fr;
-  sh:ignoredProperties _:node1hnt7234px19 .
+  sh:ignoredProperties _:node1hnt8gun0x19 .
 
-_:node1hnt7234px19 rdf:first rdf:type;
+_:node1hnt8gun0x19 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100013 sh:nodeKind sh:IRI;
@@ -291,9 +291,9 @@ rdafr:C100015 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Identité d’un agent qui est connue ou a été rendue publique. [code RDA-FR, 8.1.2 et 9]"@fr;
-  sh:ignoredProperties _:node1hnt7234px20 .
+  sh:ignoredProperties _:node1hnt8gun0x20 .
 
-_:node1hnt7234px20 rdf:first rdf:type;
+_:node1hnt8gun0x20 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100015 sh:nodeKind sh:IRI;
@@ -307,9 +307,9 @@ rdafr:C100017 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "En attente de traitement dans le code RDA-FR"@fr;
-  sh:ignoredProperties _:node1hnt7234px21 .
+  sh:ignoredProperties _:node1hnt8gun0x21 .
 
-_:node1hnt7234px21 rdf:first rdf:type;
+_:node1hnt8gun0x21 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100017 sh:nodeKind sh:IRI;
@@ -323,9 +323,9 @@ rdafr:C100018 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "En attente de traitement dans le code RDA-FR"@fr;
-  sh:ignoredProperties _:node1hnt7234px22 .
+  sh:ignoredProperties _:node1hnt8gun0x22 .
 
-_:node1hnt7234px22 rdf:first rdf:type;
+_:node1hnt8gun0x22 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100018 sh:nodeKind sh:IRI;
@@ -339,9 +339,9 @@ rdafr:C100020 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "En attente de traitement dans le code RDA-FR"@fr;
-  sh:ignoredProperties _:node1hnt7234px23 .
+  sh:ignoredProperties _:node1hnt8gun0x23 .
 
-_:node1hnt7234px23 rdf:first rdf:type;
+_:node1hnt8gun0x23 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100020 sh:nodeKind sh:IRI;
@@ -355,9 +355,9 @@ rdafr:C100021 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.3.0"@fr;
   sh:closed false;
   sh:description "Information chronologique associée à une entité et qui contribue à son identification et contextualisation. Une période est délimitée par une date de début et une date de fin."@fr;
-  sh:ignoredProperties _:node1hnt7234px24 .
+  sh:ignoredProperties _:node1hnt8gun0x24 .
 
-_:node1hnt7234px24 rdf:first rdf:type;
+_:node1hnt8gun0x24 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100021 sh:nodeKind sh:IRI;
@@ -371,9 +371,9 @@ rdafr:C100022 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.3.0"@fr;
   sh:closed false;
   sh:description "Information chronologique associée à une entité et qui contribue à son identification et contextualisation. Correspond à un point unique dans le temps."@fr;
-  sh:ignoredProperties _:node1hnt7234px25 .
+  sh:ignoredProperties _:node1hnt8gun0x25 .
 
-_:node1hnt7234px25 rdf:first rdf:type;
+_:node1hnt8gun0x25 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100022 sh:nodeKind sh:IRI;
@@ -387,9 +387,9 @@ rdafr:C100023 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.3.0"@fr;
   sh:closed false;
   sh:description "Séries de dates uniques et/ou de laps de temps non contigus."@fr;
-  sh:ignoredProperties _:node1hnt7234px26 .
+  sh:ignoredProperties _:node1hnt8gun0x26 .
 
-_:node1hnt7234px26 rdf:first rdf:type;
+_:node1hnt8gun0x26 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100023 sh:nodeKind sh:IRI;
@@ -403,9 +403,9 @@ rdafr:C100025 a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Agent étant identifié comme un groupe de personnes qui n'est ni une famille ni une collectivité et dont le nom se présente formellement comme un nom de personne (nom traditionnellement désigné par le terme \"pseudonyme collectif\")."@fr;
-  sh:ignoredProperties _:node1hnt7234px27 .
+  sh:ignoredProperties _:node1hnt8gun0x27 .
 
-_:node1hnt7234px27 rdf:first rdf:type;
+_:node1hnt8gun0x27 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:C100025 sh:nodeKind sh:IRI;
@@ -424,9 +424,9 @@ rdafr:P100001r a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.2.0"@fr;
   sh:closed false;
   sh:description "La classe ‘est en relation avec’ permet d’ajouter des assertions sur toutes les propriétés qui expriment une relation entre des instances de deux classes de l’ontologie (et qui, de fait, correspondent aux relations entre instances d’entités du code RDA-FR)."@fr;
-  sh:ignoredProperties _:node1hnt7234px28 .
+  sh:ignoredProperties _:node1hnt8gun0x28 .
 
-_:node1hnt7234px28 rdf:first rdf:type;
+_:node1hnt8gun0x28 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:P100001r sh:nodeKind sh:IRI;
@@ -440,9 +440,9 @@ rdafr:P100008r a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "La classe ‘propriété réifiée’ permet d'ajouter des assertions sur toutes les propriétés de l’ontologie qui correspondent aux attributs des entités du code RDA-FR."@fr;
-  sh:ignoredProperties _:node1hnt7234px29 .
+  sh:ignoredProperties _:node1hnt8gun0x29 .
 
-_:node1hnt7234px29 rdf:first rdf:type;
+_:node1hnt8gun0x29 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:P100008r sh:nodeKind sh:IRI;
@@ -456,9 +456,9 @@ skos:Concept a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Un concept SKOS peut être vu comme une idée ou une notion ; une unité de pensée."@fr;
-  sh:ignoredProperties _:node1hnt7234px30 .
+  sh:ignoredProperties _:node1hnt8gun0x30 .
 
-_:node1hnt7234px30 rdf:first rdf:type;
+_:node1hnt8gun0x30 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 skos:Concept sh:nodeKind sh:IRI;
@@ -470,9 +470,9 @@ rdafr:Langue a rdfs:Class, owl:Class, sh:NodeShape;
 Pour les codes de langue de la norme ISO 639-2, le vocabulaire de la Library of Congres, exposé en Linked data sur id.loc.gov est utilisé dans l'ontologie RDA-FR. [vocabulaire de la classe, voir: https://id.loc.gov/vocabulary/iso639-2.html ]"""@fr;
   rdfs:label "Langue"@fr;
   rdfs:subClassOf skos:Concept;
-  owl:equivalentClass _:node1hnt7234px32 .
+  owl:equivalentClass _:node1hnt8gun0x32 .
 
-_:node1hnt7234px32 a owl:Restriction;
+_:node1hnt8gun0x32 a owl:Restriction;
   owl:hasValue <https://id.loc.gov/vocabulary/iso639-2>;
   owl:onProperty skos:inScheme .
 
@@ -480,9 +480,9 @@ rdafr:Langue owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description """Langue d'une chaîne de caractères.
 Pour les codes de langue de la norme ISO 639-2, le vocabulaire de la Library of Congres, exposé en Linked data sur id.loc.gov est utilisé dans l'ontologie RDA-FR. [vocabulaire de la classe, voir: https://id.loc.gov/vocabulary/iso639-2.html ]"""@fr;
-  sh:ignoredProperties _:node1hnt7234px31 .
+  sh:ignoredProperties _:node1hnt8gun0x31 .
 
-_:node1hnt7234px31 rdf:first rdf:type;
+_:node1hnt8gun0x31 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:Langue sh:nodeKind sh:IRI;
@@ -496,9 +496,9 @@ rdafr:Ecriture a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Système d'écriture de la chaîne de caractères. RDA-FR recommande l'application de la liste des codes pour la représentation des noms d'écritures de la norme ISO 15924. En absence d'exposition en Linked Data de cette norme, par l'ISO Cette liste sera déclaré prochainement dans les vocabulaires de l'ontologie RDA-FR."@fr;
-  sh:ignoredProperties _:node1hnt7234px33 .
+  sh:ignoredProperties _:node1hnt8gun0x33 .
 
-_:node1hnt7234px33 rdf:first rdf:type;
+_:node1hnt8gun0x33 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:Ecriture sh:nodeKind sh:IRI;
@@ -518,9 +518,9 @@ d’autorité de noms, etc.) ;
 - des schémas d’encodage de valeurs (listes de vedettes matière, thésaurus, classifications systématiques, listes
 d’autorité de noms, etc.) ;
 − et des schémas d’encodage syntaxiques (normes d’encodage des dates, etc.)."""@fr;
-  sh:ignoredProperties _:node1hnt7234px34 .
+  sh:ignoredProperties _:node1hnt8gun0x34 .
 
-_:node1hnt7234px34 rdf:first rdf:type;
+_:node1hnt8gun0x34 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:SchemaEncodage sh:nodeKind sh:IRI;
@@ -536,9 +536,9 @@ Le choix est laissé à chaque institution qui implémente l’ontologie RDA-FR 
   sh:closed false;
   sh:description """Règle, système ou norme utilisée pour créer la chaîne de caractères d'un contenu linguistique à partir d'une autre chaîne de caractères notée dans une écriture différente (par exemple, un système de translittération).
 Le choix est laissé à chaque institution qui implémente l’ontologie RDA-FR d’utiliser ses propres sources."""@fr;
-  sh:ignoredProperties _:node1hnt7234px35 .
+  sh:ignoredProperties _:node1hnt8gun0x35 .
 
-_:node1hnt7234px35 rdf:first rdf:type;
+_:node1hnt8gun0x35 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:ConversionEcriture sh:nodeKind sh:IRI;
@@ -553,9 +553,9 @@ rdafr:Genre a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Le genre auquel une personne s'identifie."@fr;
-  sh:ignoredProperties _:node1hnt7234px36 .
+  sh:ignoredProperties _:node1hnt8gun0x36 .
 
-_:node1hnt7234px36 rdf:first rdf:type;
+_:node1hnt8gun0x36 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:Genre sh:nodeKind sh:IRI;
@@ -566,18 +566,18 @@ rdafr:NiveauFiabilite a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:comment "Niveau de fiabilité de l'information [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/niveau-fiabilite.html ]"@fr;
   rdfs:label "Niveau de fiabilité"@fr;
   rdfs:subClassOf skos:Concept;
-  owl:equivalentClass _:node1hnt7234px38 .
+  owl:equivalentClass _:node1hnt8gun0x38 .
 
-_:node1hnt7234px38 a owl:Restriction;
+_:node1hnt8gun0x38 a owl:Restriction;
   owl:hasValue <https://rdafr.fr/vocabulary/niveau-fiabilite>;
   owl:onProperty skos:inScheme .
 
 rdafr:NiveauFiabilite owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Niveau de fiabilité de l'information [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/niveau-fiabilite.html ]"@fr;
-  sh:ignoredProperties _:node1hnt7234px37 .
+  sh:ignoredProperties _:node1hnt8gun0x37 .
 
-_:node1hnt7234px37 rdf:first rdf:type;
+_:node1hnt8gun0x37 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:NiveauFiabilite sh:nodeKind sh:IRI;
@@ -591,9 +591,9 @@ rdafr:Calendrier a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Type de calendrier utilisé pour exprimer un laps de temps (julien, grégorien, hégire...)."@fr;
-  sh:ignoredProperties _:node1hnt7234px39 .
+  sh:ignoredProperties _:node1hnt8gun0x39 .
 
-_:node1hnt7234px39 rdf:first rdf:type;
+_:node1hnt8gun0x39 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:Calendrier sh:nodeKind sh:IRI;
@@ -605,18 +605,18 @@ rdafr:CategorieIdentitePublique a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:label "Catégorie d'identité publique"@fr;
   rdfs:seeAlso "9.1.1"@fr;
   rdfs:subClassOf skos:Concept;
-  owl:equivalentClass _:node1hnt7234px41 .
+  owl:equivalentClass _:node1hnt8gun0x41 .
 
-_:node1hnt7234px41 a owl:Restriction;
+_:node1hnt8gun0x41 a owl:Restriction;
   owl:hasValue <https://rdafr.fr/vocabulary/categorie-ipp>;
   owl:onProperty skos:inScheme .
 
 rdafr:CategorieIdentitePublique owl:versionInfo "0.1.0"@fr;
   sh:closed false;
   sh:description "Précision sur la nature du nom sur lequel est fondée l'identité publique (par exemple : nom réel, pseudonyme...) [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/categorie-ipp.html ]"@fr;
-  sh:ignoredProperties _:node1hnt7234px40 .
+  sh:ignoredProperties _:node1hnt8gun0x40 .
 
-_:node1hnt7234px40 rdf:first rdf:type;
+_:node1hnt8gun0x40 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:CategorieIdentitePublique sh:nodeKind sh:IRI;
@@ -627,18 +627,18 @@ rdafr:ModaliteParution a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:comment "La modalité de parution est une catégorisation qui indique si la parution d’une ressource est prévue pour s’échelonner dans le temps (diachronique) ou non. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/modalite-parution.html ]"@fr;
   rdfs:label "Modalité de parution"@fr;
   rdfs:subClassOf skos:Concept;
-  owl:equivalentClass _:node1hnt7234px43 .
+  owl:equivalentClass _:node1hnt8gun0x43 .
 
-_:node1hnt7234px43 a owl:Restriction;
+_:node1hnt8gun0x43 a owl:Restriction;
   owl:hasValue <https://rdafr.fr/vocabulary/modalite-parution>;
   owl:onProperty skos:inScheme .
 
 rdafr:ModaliteParution owl:versionInfo "0.2.0"@fr;
   sh:closed false;
   sh:description "La modalité de parution est une catégorisation qui indique si la parution d’une ressource est prévue pour s’échelonner dans le temps (diachronique) ou non. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/modalite-parution.html ]"@fr;
-  sh:ignoredProperties _:node1hnt7234px42 .
+  sh:ignoredProperties _:node1hnt8gun0x42 .
 
-_:node1hnt7234px42 rdf:first rdf:type;
+_:node1hnt8gun0x42 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:ModaliteParution sh:nodeKind sh:IRI;
@@ -649,18 +649,18 @@ rdafr:NiveauAutonomie a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:comment "Le niveau d’autonomie est une catégorisation permettant de dire si la ressource est une publication autonome ou si elle appartient à un ensemble plus vaste. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/niveau-autonomie.html ]"@fr;
   rdfs:label "Niveau d'autonomie"@fr;
   rdfs:subClassOf skos:Concept;
-  owl:equivalentClass _:node1hnt7234px45 .
+  owl:equivalentClass _:node1hnt8gun0x45 .
 
-_:node1hnt7234px45 a owl:Restriction;
+_:node1hnt8gun0x45 a owl:Restriction;
   owl:hasValue <https://rdafr.fr/vocabulary/niveau-autonomie>;
   owl:onProperty skos:inScheme .
 
 rdafr:NiveauAutonomie owl:versionInfo "0.2.0"@fr;
   sh:closed false;
   sh:description "Le niveau d’autonomie est une catégorisation permettant de dire si la ressource est une publication autonome ou si elle appartient à un ensemble plus vaste. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/niveau-autonomie.html ]"@fr;
-  sh:ignoredProperties _:node1hnt7234px44 .
+  sh:ignoredProperties _:node1hnt8gun0x44 .
 
-_:node1hnt7234px44 rdf:first rdf:type;
+_:node1hnt8gun0x44 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:NiveauAutonomie sh:nodeKind sh:IRI;
@@ -671,18 +671,18 @@ rdafr:TypeMediation a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:comment "Le type de médiation est une catégorisation indiquant le type général de dispositif de médiation requis pour visionner, faire fonctionner, faire défiler, etc. le contenu d’une ressource. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/type-mediation.html ]"@fr;
   rdfs:label "Type de médiation"@fr;
   rdfs:subClassOf skos:Concept;
-  owl:equivalentClass _:node1hnt7234px47 .
+  owl:equivalentClass _:node1hnt8gun0x47 .
 
-_:node1hnt7234px47 a owl:Restriction;
+_:node1hnt8gun0x47 a owl:Restriction;
   owl:hasValue <https://rdafr.fr/vocabulary/type-mediation>;
   owl:onProperty skos:inScheme .
 
 rdafr:TypeMediation owl:versionInfo "0.2.0"@fr;
   sh:closed false;
   sh:description "Le type de médiation est une catégorisation indiquant le type général de dispositif de médiation requis pour visionner, faire fonctionner, faire défiler, etc. le contenu d’une ressource. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/type-mediation.html ]"@fr;
-  sh:ignoredProperties _:node1hnt7234px46 .
+  sh:ignoredProperties _:node1hnt8gun0x46 .
 
-_:node1hnt7234px46 rdf:first rdf:type;
+_:node1hnt8gun0x46 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:TypeMediation sh:nodeKind sh:IRI;
@@ -693,18 +693,18 @@ rdafr:TypeSupport a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:comment "Le type de support est une catégorisation reflétant le support de la ressource, correspondant au type de dispositif de médiation requis pour visionner, faire fonctionner, faire défiler, etc. le contenu d’une ressource. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/type-support.html ]"@fr;
   rdfs:label "Type de support"@fr;
   rdfs:subClassOf skos:Concept;
-  owl:equivalentClass _:node1hnt7234px49 .
+  owl:equivalentClass _:node1hnt8gun0x49 .
 
-_:node1hnt7234px49 a owl:Restriction;
+_:node1hnt8gun0x49 a owl:Restriction;
   owl:hasValue <https://rdafr.fr/vocabulary/type-support>;
   owl:onProperty skos:inScheme .
 
 rdafr:TypeSupport owl:versionInfo "0.3.0"@fr;
   sh:closed false;
   sh:description "Le type de support est une catégorisation reflétant le support de la ressource, correspondant au type de dispositif de médiation requis pour visionner, faire fonctionner, faire défiler, etc. le contenu d’une ressource. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/type-support.html ]"@fr;
-  sh:ignoredProperties _:node1hnt7234px48 .
+  sh:ignoredProperties _:node1hnt8gun0x48 .
 
-_:node1hnt7234px48 rdf:first rdf:type;
+_:node1hnt8gun0x48 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:TypeSupport sh:nodeKind sh:IRI;
@@ -716,9 +716,9 @@ rdafr:MateriauBase-MateriauApplique a rdfs:Class, owl:Class, sh:NodeShape;
 Le matériau appliqué est une substance physique ou chimique appliquée sur un matériau de base d’une manifestation. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/materiau-base-materiau-applique.html ]"""@fr;
   rdfs:label "Matériau de base et/ou Matériau appliqué"@fr;
   rdfs:subClassOf skos:Concept;
-  owl:equivalentClass _:node1hnt7234px51 .
+  owl:equivalentClass _:node1hnt8gun0x51 .
 
-_:node1hnt7234px51 a owl:Restriction;
+_:node1hnt8gun0x51 a owl:Restriction;
   owl:hasValue <https://rdafr.fr/vocabulary/materiau-base-materiau-applique>;
   owl:onProperty skos:inScheme .
 
@@ -726,9 +726,9 @@ rdafr:MateriauBase-MateriauApplique owl:versionInfo "0.3.0"@fr;
   sh:closed false;
   sh:description """Le matériau de base est un matériau physique composant le support d’une manifestation, auquel peut éventuellement s’ajouter un matériau appliqué.
 Le matériau appliqué est une substance physique ou chimique appliquée sur un matériau de base d’une manifestation. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/materiau-base-materiau-applique.html ]"""@fr;
-  sh:ignoredProperties _:node1hnt7234px50 .
+  sh:ignoredProperties _:node1hnt8gun0x50 .
 
-_:node1hnt7234px50 rdf:first rdf:type;
+_:node1hnt8gun0x50 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:MateriauBase-MateriauApplique sh:nodeKind sh:IRI;
@@ -739,18 +739,18 @@ rdafr:MethodeProduction a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:comment "La méthode de production est un procédé utilisé pour produire une manifestation. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/methode-production.html ]"@fr;
   rdfs:label "Méthode de production"@fr;
   rdfs:subClassOf skos:Concept;
-  owl:equivalentClass _:node1hnt7234px53 .
+  owl:equivalentClass _:node1hnt8gun0x53 .
 
-_:node1hnt7234px53 a owl:Restriction;
+_:node1hnt8gun0x53 a owl:Restriction;
   owl:hasValue <https://rdafr.fr/vocabulary/methode-production>;
   owl:onProperty skos:inScheme .
 
 rdafr:MethodeProduction owl:versionInfo "0.2.0"@fr;
   sh:closed false;
   sh:description "La méthode de production est un procédé utilisé pour produire une manifestation. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/methode-production.html ]"@fr;
-  sh:ignoredProperties _:node1hnt7234px52 .
+  sh:ignoredProperties _:node1hnt8gun0x52 .
 
-_:node1hnt7234px52 rdf:first rdf:type;
+_:node1hnt8gun0x52 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:MethodeProduction sh:nodeKind sh:IRI;
@@ -761,18 +761,18 @@ rdafr:Generation a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:comment "La génération est le produit correspondant à une étape dans le processus de fabrication d’une ressource, depuis la matrice jusqu’au produit de diffusion. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/gneration.html ]"@fr;
   rdfs:label "Génération"@fr;
   rdfs:subClassOf skos:Concept;
-  owl:equivalentClass _:node1hnt7234px55 .
+  owl:equivalentClass _:node1hnt8gun0x55 .
 
-_:node1hnt7234px55 a owl:Restriction;
+_:node1hnt8gun0x55 a owl:Restriction;
   owl:hasValue <https://rdafr.fr/vocabulary/gneration>;
   owl:onProperty skos:inScheme .
 
 rdafr:Generation owl:versionInfo "0.2.0"@fr;
   sh:closed false;
   sh:description "La génération est le produit correspondant à une étape dans le processus de fabrication d’une ressource, depuis la matrice jusqu’au produit de diffusion. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/gneration.html ]"@fr;
-  sh:ignoredProperties _:node1hnt7234px54 .
+  sh:ignoredProperties _:node1hnt8gun0x54 .
 
-_:node1hnt7234px54 rdf:first rdf:type;
+_:node1hnt8gun0x54 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:Generation sh:nodeKind sh:IRI;
@@ -783,18 +783,18 @@ rdafr:Disposition a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:comment "La disposition est l’agencement du contenu par rapport au support d’une manifestation. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/disposition.html ]"@fr;
   rdfs:label "Disposition"@fr;
   rdfs:subClassOf skos:Concept;
-  owl:equivalentClass _:node1hnt7234px57 .
+  owl:equivalentClass _:node1hnt8gun0x57 .
 
-_:node1hnt7234px57 a owl:Restriction;
+_:node1hnt8gun0x57 a owl:Restriction;
   owl:hasValue <https://rdafr.fr/vocabulary/disposition>;
   owl:onProperty skos:inScheme .
 
 rdafr:Disposition owl:versionInfo "0.2.0"@fr;
   sh:closed false;
   sh:description "La disposition est l’agencement du contenu par rapport au support d’une manifestation. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/disposition.html ]"@fr;
-  sh:ignoredProperties _:node1hnt7234px56 .
+  sh:ignoredProperties _:node1hnt8gun0x56 .
 
-_:node1hnt7234px56 rdf:first rdf:type;
+_:node1hnt8gun0x56 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:Disposition sh:nodeKind sh:IRI;
@@ -805,18 +805,18 @@ rdafr:FormatBibliographique a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:comment "Le format bibliographique est déterminé par le nombre de pages résultant du nombre de fois où la feuille a été pliée pour former les feuillets d’un cahier, ou laissée à sa pleine grandeur (in-plano). [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/format-bibliographique.html ]"@fr;
   rdfs:label "Format bibliographique"@fr;
   rdfs:subClassOf skos:Concept;
-  owl:equivalentClass _:node1hnt7234px59 .
+  owl:equivalentClass _:node1hnt8gun0x59 .
 
-_:node1hnt7234px59 a owl:Restriction;
+_:node1hnt8gun0x59 a owl:Restriction;
   owl:hasValue <https://rdafr.fr/vocabulary/format-bibliographique>;
   owl:onProperty skos:inScheme .
 
 rdafr:FormatBibliographique owl:versionInfo "0.2.0"@fr;
   sh:closed false;
   sh:description "Le format bibliographique est déterminé par le nombre de pages résultant du nombre de fois où la feuille a été pliée pour former les feuillets d’un cahier, ou laissée à sa pleine grandeur (in-plano). [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/format-bibliographique.html ]"@fr;
-  sh:ignoredProperties _:node1hnt7234px58 .
+  sh:ignoredProperties _:node1hnt8gun0x58 .
 
-_:node1hnt7234px58 rdf:first rdf:type;
+_:node1hnt8gun0x58 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:FormatBibliographique sh:nodeKind sh:IRI;
@@ -827,18 +827,18 @@ rdafr:TypePoliceCaracteres a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:comment "Le type de police de caractères est une catégorisation générale des polices fondée sur leur style d’écriture. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/type-police-caracteres.html ]"@fr;
   rdfs:label "Type de police de caractères"@fr;
   rdfs:subClassOf skos:Concept;
-  owl:equivalentClass _:node1hnt7234px61 .
+  owl:equivalentClass _:node1hnt8gun0x61 .
 
-_:node1hnt7234px61 a owl:Restriction;
+_:node1hnt8gun0x61 a owl:Restriction;
   owl:hasValue <https://rdafr.fr/vocabulary/type-police-caracteres>;
   owl:onProperty skos:inScheme .
 
 rdafr:TypePoliceCaracteres owl:versionInfo "0.2.0"@fr;
   sh:closed false;
   sh:description "Le type de police de caractères est une catégorisation générale des polices fondée sur leur style d’écriture. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/type-police-caracteres.html ]"@fr;
-  sh:ignoredProperties _:node1hnt7234px60 .
+  sh:ignoredProperties _:node1hnt8gun0x60 .
 
-_:node1hnt7234px60 rdf:first rdf:type;
+_:node1hnt8gun0x60 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:TypePoliceCaracteres sh:nodeKind sh:IRI;
@@ -849,18 +849,18 @@ rdafr:TailleCaracteres a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:comment "La taille des caractères est la taille des fontes utilisées pour représenter les signes et les symboles dans une manifestation. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/taille-caracteres.html ]"@fr;
   rdfs:label "Taille de caractères"@fr;
   rdfs:subClassOf skos:Concept;
-  owl:equivalentClass _:node1hnt7234px63 .
+  owl:equivalentClass _:node1hnt8gun0x63 .
 
-_:node1hnt7234px63 a owl:Restriction;
+_:node1hnt8gun0x63 a owl:Restriction;
   owl:hasValue <https://rdafr.fr/vocabulary/taille-caracteres>;
   owl:onProperty skos:inScheme .
 
 rdafr:TailleCaracteres owl:versionInfo "0.2.0"@fr;
   sh:closed false;
   sh:description "La taille des caractères est la taille des fontes utilisées pour représenter les signes et les symboles dans une manifestation. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/taille-caracteres.html ]"@fr;
-  sh:ignoredProperties _:node1hnt7234px62 .
+  sh:ignoredProperties _:node1hnt8gun0x62 .
 
-_:node1hnt7234px62 rdf:first rdf:type;
+_:node1hnt8gun0x62 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:TailleCaracteres sh:nodeKind sh:IRI;
@@ -871,18 +871,18 @@ rdafr:Polarite a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:comment "Une polarité est une information précisant si les couleurs ou les valeurs de ton de l’image ont été inversées par rapport à l’objet représenté. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/polarite.html ]"@fr;
   rdfs:label "Polarité"@fr;
   rdfs:subClassOf skos:Concept;
-  owl:equivalentClass _:node1hnt7234px65 .
+  owl:equivalentClass _:node1hnt8gun0x65 .
 
-_:node1hnt7234px65 a owl:Restriction;
+_:node1hnt8gun0x65 a owl:Restriction;
   owl:hasValue <https://rdafr.fr/vocabulary/polarite>;
   owl:onProperty skos:inScheme .
 
 rdafr:Polarite owl:versionInfo "0.2.0"@fr;
   sh:closed false;
   sh:description "Une polarité est une information précisant si les couleurs ou les valeurs de ton de l’image ont été inversées par rapport à l’objet représenté. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/polarite.html ]"@fr;
-  sh:ignoredProperties _:node1hnt7234px64 .
+  sh:ignoredProperties _:node1hnt8gun0x64 .
 
-_:node1hnt7234px64 rdf:first rdf:type;
+_:node1hnt8gun0x64 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:Polarite sh:nodeKind sh:IRI;
@@ -893,18 +893,18 @@ rdafr:FacteurReduction a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:comment "Le facteur de réduction est un rapport numérique entre la taille d’une micro-image et celle de l’original à partir duquel elle a été produite. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/facteur-reduction.html ]"@fr;
   rdfs:label "Facteur de réduction"@fr;
   rdfs:subClassOf skos:Concept;
-  owl:equivalentClass _:node1hnt7234px67 .
+  owl:equivalentClass _:node1hnt8gun0x67 .
 
-_:node1hnt7234px67 a owl:Restriction;
+_:node1hnt8gun0x67 a owl:Restriction;
   owl:hasValue <https://rdafr.fr/vocabulary/facteur-reduction>;
   owl:onProperty skos:inScheme .
 
 rdafr:FacteurReduction owl:versionInfo "0.2.0"@fr;
   sh:closed false;
   sh:description "Le facteur de réduction est un rapport numérique entre la taille d’une micro-image et celle de l’original à partir duquel elle a été produite. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/facteur-reduction.html ]"@fr;
-  sh:ignoredProperties _:node1hnt7234px66 .
+  sh:ignoredProperties _:node1hnt8gun0x66 .
 
-_:node1hnt7234px66 rdf:first rdf:type;
+_:node1hnt8gun0x66 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:FacteurReduction sh:nodeKind sh:IRI;
@@ -915,18 +915,18 @@ rdafr:VitesseLecture a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:comment "La vitesse de lecture est la vitesse à laquelle un support audio doit être lu pour produire le son prévu. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/vitesse-lecture.html ]"@fr;
   rdfs:label "Vitesse de lecture"@fr;
   rdfs:subClassOf skos:Concept;
-  owl:equivalentClass _:node1hnt7234px69 .
+  owl:equivalentClass _:node1hnt8gun0x69 .
 
-_:node1hnt7234px69 a owl:Restriction;
+_:node1hnt8gun0x69 a owl:Restriction;
   owl:hasValue <https://rdafr.fr/vocabulary/vitesse-lecture>;
   owl:onProperty skos:inScheme .
 
 rdafr:VitesseLecture owl:versionInfo "0.2.0"@fr;
   sh:closed false;
   sh:description "La vitesse de lecture est la vitesse à laquelle un support audio doit être lu pour produire le son prévu. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/vitesse-lecture.html ]"@fr;
-  sh:ignoredProperties _:node1hnt7234px68 .
+  sh:ignoredProperties _:node1hnt8gun0x68 .
 
-_:node1hnt7234px68 rdf:first rdf:type;
+_:node1hnt8gun0x68 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:VitesseLecture sh:nodeKind sh:IRI;
@@ -936,9 +936,9 @@ rdafr:VitesseLecture sh:nodeKind sh:IRI;
 rdafr:TypeSillon rdfs:comment "Le type de sillon est la largeur du sillon d’un disque analogique ou le pas du sillon d’un cylindre audio, exprimés sous forme générique. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/type-sillon.html ]"@fr;
   rdfs:label "Type de sillon"@fr;
   rdfs:subClassOf skos:Concept;
-  owl:equivalentClass _:node1hnt7234px70 .
+  owl:equivalentClass _:node1hnt8gun0x70 .
 
-_:node1hnt7234px70 a owl:Restriction;
+_:node1hnt8gun0x70 a owl:Restriction;
   owl:hasValue <https://rdafr.fr/vocabulary/type-sillon>;
   owl:onProperty skos:inScheme .
 
@@ -949,9 +949,9 @@ rdafr:TypeSillon owl:versionInfo "0.2.0"@fr;
 rdafr:MethodeGravureSillon rdfs:comment "La méthode de gravure du sillon indique si le sillon est gravé latéralement ou verticalement et détermine la pointe de lecture (aiguille ou saphir) à utiliser pour les disques pré-microsillon. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/methode-gravure-sillon.html ]"@fr;
   rdfs:label "Méthode de gravure du sillon"@fr;
   rdfs:subClassOf skos:Concept;
-  owl:equivalentClass _:node1hnt7234px71 .
+  owl:equivalentClass _:node1hnt8gun0x71 .
 
-_:node1hnt7234px71 a owl:Restriction;
+_:node1hnt8gun0x71 a owl:Restriction;
   owl:hasValue <https://rdafr.fr/vocabulary/methode-gravure-sillon>;
   owl:onProperty skos:inScheme .
 
@@ -963,18 +963,18 @@ rdafr:FormatSupportElectronique a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:comment "Le format d’un support électronique est un standard utilisé pour enregistrer un contenu sur un support électronique propriétaire. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/format-support-electronique.html ]"@fr;
   rdfs:label "Format d'un support électronique"@fr;
   rdfs:subClassOf skos:Concept;
-  owl:equivalentClass _:node1hnt7234px73 .
+  owl:equivalentClass _:node1hnt8gun0x73 .
 
-_:node1hnt7234px73 a owl:Restriction;
+_:node1hnt8gun0x73 a owl:Restriction;
   owl:hasValue <https://rdafr.fr/vocabulary/format-support-electronique>;
   owl:onProperty skos:inScheme .
 
 rdafr:FormatSupportElectronique owl:versionInfo "0.2.0"@fr;
   sh:closed false;
   sh:description "Le format d’un support électronique est un standard utilisé pour enregistrer un contenu sur un support électronique propriétaire. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/format-support-electronique.html ]"@fr;
-  sh:ignoredProperties _:node1hnt7234px72 .
+  sh:ignoredProperties _:node1hnt8gun0x72 .
 
-_:node1hnt7234px72 rdf:first rdf:type;
+_:node1hnt8gun0x72 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:FormatSupportElectronique sh:nodeKind sh:IRI;
@@ -985,18 +985,18 @@ rdafr:TypeFichier a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:comment "Le type de fichier est un type général de contenu des données encodées dans un fichier informatique. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/type-fichier.html ]"@fr;
   rdfs:label "Type de fichier"@fr;
   rdfs:subClassOf skos:Concept;
-  owl:equivalentClass _:node1hnt7234px75 .
+  owl:equivalentClass _:node1hnt8gun0x75 .
 
-_:node1hnt7234px75 a owl:Restriction;
+_:node1hnt8gun0x75 a owl:Restriction;
   owl:hasValue <https://rdafr.fr/vocabulary/type-fichier>;
   owl:onProperty skos:inScheme .
 
 rdafr:TypeFichier owl:versionInfo "0.2.0"@fr;
   sh:closed false;
   sh:description "Le type de fichier est un type général de contenu des données encodées dans un fichier informatique. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/type-fichier.html ]"@fr;
-  sh:ignoredProperties _:node1hnt7234px74 .
+  sh:ignoredProperties _:node1hnt8gun0x74 .
 
-_:node1hnt7234px74 rdf:first rdf:type;
+_:node1hnt8gun0x74 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:TypeFichier sh:nodeKind sh:IRI;
@@ -1007,18 +1007,18 @@ rdafr:FormatProjection a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:comment "Le format de projection est un format utilisé pour la production d’une image projetée. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/format-projection.html ]"@fr;
   rdfs:label "Format de projection"@fr;
   rdfs:subClassOf skos:Concept;
-  owl:equivalentClass _:node1hnt7234px77 .
+  owl:equivalentClass _:node1hnt8gun0x77 .
 
-_:node1hnt7234px77 a owl:Restriction;
+_:node1hnt8gun0x77 a owl:Restriction;
   owl:hasValue <https://rdafr.fr/vocabulary/format-projection>;
   owl:onProperty skos:inScheme .
 
 rdafr:FormatProjection owl:versionInfo "0.2.0"@fr;
   sh:closed false;
   sh:description "Le format de projection est un format utilisé pour la production d’une image projetée. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/format-projection.html ]"@fr;
-  sh:ignoredProperties _:node1hnt7234px76 .
+  sh:ignoredProperties _:node1hnt8gun0x76 .
 
-_:node1hnt7234px76 rdf:first rdf:type;
+_:node1hnt8gun0x76 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:FormatProjection sh:nodeKind sh:IRI;
@@ -1029,18 +1029,18 @@ rdafr:FormatSupportVideo a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:comment "Le format d’un support vidéo est une norme, un standard, etc. utilisé pour enregistrer un contenu sur un support vidéo. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/format-support-video.html ]"@fr;
   rdfs:label "Format d'un support vidéo"@fr;
   rdfs:subClassOf skos:Concept;
-  owl:equivalentClass _:node1hnt7234px79 .
+  owl:equivalentClass _:node1hnt8gun0x79 .
 
-_:node1hnt7234px79 a owl:Restriction;
+_:node1hnt8gun0x79 a owl:Restriction;
   owl:hasValue <https://rdafr.fr/vocabulary/format-support-video>;
   owl:onProperty skos:inScheme .
 
 rdafr:FormatSupportVideo owl:versionInfo "0.2.0"@fr;
   sh:closed false;
   sh:description "Le format d’un support vidéo est une norme, un standard, etc. utilisé pour enregistrer un contenu sur un support vidéo. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/format-support-video.html ]"@fr;
-  sh:ignoredProperties _:node1hnt7234px78 .
+  sh:ignoredProperties _:node1hnt8gun0x78 .
 
-_:node1hnt7234px78 rdf:first rdf:type;
+_:node1hnt8gun0x78 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:FormatSupportVideo sh:nodeKind sh:IRI;
@@ -1051,18 +1051,18 @@ rdafr:NormeDiffusion a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:comment "La norme de diffusion est le standard de codage de la couleur du contenu vidéo de la manifestation décrite pour la diffusion sur téléviseur. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/norme-diffusion.html ]"@fr;
   rdfs:label "Norme de diffusion"@fr;
   rdfs:subClassOf skos:Concept;
-  owl:equivalentClass _:node1hnt7234px81 .
+  owl:equivalentClass _:node1hnt8gun0x81 .
 
-_:node1hnt7234px81 a owl:Restriction;
+_:node1hnt8gun0x81 a owl:Restriction;
   owl:hasValue <https://rdafr.fr/vocabulary/norme-diffusion>;
   owl:onProperty skos:inScheme .
 
 rdafr:NormeDiffusion owl:versionInfo "0.2.0"@fr;
   sh:closed false;
   sh:description "La norme de diffusion est le standard de codage de la couleur du contenu vidéo de la manifestation décrite pour la diffusion sur téléviseur. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/norme-diffusion.html ]"@fr;
-  sh:ignoredProperties _:node1hnt7234px80 .
+  sh:ignoredProperties _:node1hnt8gun0x80 .
 
-_:node1hnt7234px80 rdf:first rdf:type;
+_:node1hnt8gun0x80 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:NormeDiffusion sh:nodeKind sh:IRI;
@@ -1073,18 +1073,18 @@ rdafr:FamilleSupport a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:comment "La famille de support est la grande catégorie de matériel nécessitant une médiation pour accéder au contenu de la ressource. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/famille-support.html ]"@fr;
   rdfs:label "Famille de support"@fr;
   rdfs:subClassOf skos:Concept;
-  owl:equivalentClass _:node1hnt7234px83 .
+  owl:equivalentClass _:node1hnt8gun0x83 .
 
-_:node1hnt7234px83 a owl:Restriction;
+_:node1hnt8gun0x83 a owl:Restriction;
   owl:hasValue <https://rdafr.fr/vocabulary/famille-support>;
   owl:onProperty skos:inScheme .
 
 rdafr:FamilleSupport owl:versionInfo "0.2.0"@fr;
   sh:closed false;
   sh:description "La famille de support est la grande catégorie de matériel nécessitant une médiation pour accéder au contenu de la ressource. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/famille-support.html ]"@fr;
-  sh:ignoredProperties _:node1hnt7234px82 .
+  sh:ignoredProperties _:node1hnt8gun0x82 .
 
-_:node1hnt7234px82 rdf:first rdf:type;
+_:node1hnt8gun0x82 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:FamilleSupport sh:nodeKind sh:IRI;
@@ -1095,18 +1095,18 @@ rdafr:TechniqueSpatialisationSon a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:comment "La technique de spatialisation du son est la méthode utilisée pour reproduire le son et le diffuser dans l’espace. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/technique-spatialisation-son.html ]"@fr;
   rdfs:label "Technique de spatialisation du son"@fr;
   rdfs:subClassOf skos:Concept;
-  owl:equivalentClass _:node1hnt7234px85 .
+  owl:equivalentClass _:node1hnt8gun0x85 .
 
-_:node1hnt7234px85 a owl:Restriction;
+_:node1hnt8gun0x85 a owl:Restriction;
   owl:hasValue <https://rdafr.fr/vocabulary/technique-spatialisation-son>;
   owl:onProperty skos:inScheme .
 
 rdafr:TechniqueSpatialisationSon owl:versionInfo "0.2.0"@fr;
   sh:closed false;
   sh:description "La technique de spatialisation du son est la méthode utilisée pour reproduire le son et le diffuser dans l’espace. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/technique-spatialisation-son.html ]"@fr;
-  sh:ignoredProperties _:node1hnt7234px84 .
+  sh:ignoredProperties _:node1hnt8gun0x84 .
 
-_:node1hnt7234px84 rdf:first rdf:type;
+_:node1hnt8gun0x84 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:TechniqueSpatialisationSon sh:nodeKind sh:IRI;
@@ -1117,18 +1117,18 @@ rdafr:TechniqueReductionBruit a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:comment "La technique de réduction du bruit de fond est un procédé consistant à supprimer les composantes indésirables d’un signal sonore. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/technique-reduction-bruit.html ]"@fr;
   rdfs:label "Technique de réduction du bruit de fond"@fr;
   rdfs:subClassOf skos:Concept;
-  owl:equivalentClass _:node1hnt7234px87 .
+  owl:equivalentClass _:node1hnt8gun0x87 .
 
-_:node1hnt7234px87 a owl:Restriction;
+_:node1hnt8gun0x87 a owl:Restriction;
   owl:hasValue <https://rdafr.fr/vocabulary/technique-reduction-bruit>;
   owl:onProperty skos:inScheme .
 
 rdafr:TechniqueReductionBruit owl:versionInfo "0.2.0"@fr;
   sh:closed false;
   sh:description "La technique de réduction du bruit de fond est un procédé consistant à supprimer les composantes indésirables d’un signal sonore. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/technique-reduction-bruit.html ]"@fr;
-  sh:ignoredProperties _:node1hnt7234px86 .
+  sh:ignoredProperties _:node1hnt8gun0x86 .
 
-_:node1hnt7234px86 rdf:first rdf:type;
+_:node1hnt8gun0x86 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:TechniqueReductionBruit sh:nodeKind sh:IRI;
@@ -1139,18 +1139,18 @@ rdafr:FormatImageAnimee a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:comment "Le format d’image animée est le rapport numérique entre la largeur et la hauteur d’une image animée. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/format-image-animee.html ]"@fr;
   rdfs:label "Format d'image animée"@fr;
   rdfs:subClassOf skos:Concept;
-  owl:equivalentClass _:node1hnt7234px89 .
+  owl:equivalentClass _:node1hnt8gun0x89 .
 
-_:node1hnt7234px89 a owl:Restriction;
+_:node1hnt8gun0x89 a owl:Restriction;
   owl:hasValue <https://rdafr.fr/vocabulary/format-image-animee>;
   owl:onProperty skos:inScheme .
 
 rdafr:FormatImageAnimee owl:versionInfo "0.2.0"@fr;
   sh:closed false;
   sh:description "Le format d’image animée est le rapport numérique entre la largeur et la hauteur d’une image animée. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/format-image-animee.html ]"@fr;
-  sh:ignoredProperties _:node1hnt7234px88 .
+  sh:ignoredProperties _:node1hnt8gun0x88 .
 
-_:node1hnt7234px88 rdf:first rdf:type;
+_:node1hnt8gun0x88 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:FormatImageAnimee sh:nodeKind sh:IRI;
@@ -1161,18 +1161,18 @@ rdafr:Reliure a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:comment "La reliure est un dispositif par lequel les feuilles d’une ressource ont été pliées et/ou assemblées pour former un volume, fascicule ou brochure. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/reliure.html ]"@fr;
   rdfs:label "Reliure"@fr;
   rdfs:subClassOf skos:Concept;
-  owl:equivalentClass _:node1hnt7234px91 .
+  owl:equivalentClass _:node1hnt8gun0x91 .
 
-_:node1hnt7234px91 a owl:Restriction;
+_:node1hnt8gun0x91 a owl:Restriction;
   owl:hasValue <https://rdafr.fr/vocabulary/reliure>;
   owl:onProperty skos:inScheme .
 
 rdafr:Reliure owl:versionInfo "0.2.0"@fr;
   sh:closed false;
   sh:description "La reliure est un dispositif par lequel les feuilles d’une ressource ont été pliées et/ou assemblées pour former un volume, fascicule ou brochure. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/reliure.html ]"@fr;
-  sh:ignoredProperties _:node1hnt7234px90 .
+  sh:ignoredProperties _:node1hnt8gun0x90 .
 
-_:node1hnt7234px90 rdf:first rdf:type;
+_:node1hnt8gun0x90 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:Reliure sh:nodeKind sh:IRI;
@@ -1183,18 +1183,18 @@ rdafr:TypeConteneur a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:comment "Le conteneur est un dispositif matériel destiné à contenir un support ou un ensemble de supports et séparable physiquement de ce(s) support(s). Un boîtier, une pochette ou un emboîtage sont des conteneurs. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/type-conteneur.html ]"@fr;
   rdfs:label "Type de conteneur"@fr;
   rdfs:subClassOf skos:Concept;
-  owl:equivalentClass _:node1hnt7234px93 .
+  owl:equivalentClass _:node1hnt8gun0x93 .
 
-_:node1hnt7234px93 a owl:Restriction;
+_:node1hnt8gun0x93 a owl:Restriction;
   owl:hasValue <https://rdafr.fr/vocabulary/type-conteneur>;
   owl:onProperty skos:inScheme .
 
 rdafr:TypeConteneur owl:versionInfo "0.3.0"@fr;
   sh:closed false;
   sh:description "Le conteneur est un dispositif matériel destiné à contenir un support ou un ensemble de supports et séparable physiquement de ce(s) support(s). Un boîtier, une pochette ou un emboîtage sont des conteneurs. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/type-conteneur.html ]"@fr;
-  sh:ignoredProperties _:node1hnt7234px92 .
+  sh:ignoredProperties _:node1hnt8gun0x92 .
 
-_:node1hnt7234px92 rdf:first rdf:type;
+_:node1hnt8gun0x92 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:TypeConteneur sh:nodeKind sh:IRI;
@@ -1207,9 +1207,9 @@ Pour une manifestation le Type de contenu est une catégorisation reflétant la 
 Ce même vocabulaire contrôlé fournit les valeurs pour la propriété 'a pour forme de l'expression représentative de l'oeuvre' de la classe Oeuvre et pour la propriété 'a pour type de contenu' de la classe Manifestation. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/forme-expression-type-contenu-manifestation.html ]"""@fr;
   rdfs:label "Forme de l'expression ou type de contenu de la manifestation"@fr;
   rdfs:subClassOf skos:Concept;
-  owl:equivalentClass _:node1hnt7234px95 .
+  owl:equivalentClass _:node1hnt8gun0x95 .
 
-_:node1hnt7234px95 a owl:Restriction;
+_:node1hnt8gun0x95 a owl:Restriction;
   owl:hasValue <https://rdafr.fr/vocabulary/forme-expression-type-contenu-manifestation>;
   owl:onProperty skos:inScheme .
 
@@ -1218,9 +1218,9 @@ rdafr:FormeExpression-TypeContenu owl:versionInfo "0.3.0"@fr;
   sh:description """La forme de l’expression est le moyen par lequel l’œuvre est réalisée (par exemple, sous forme de notation alphanumérique, de notation musicale, sous forme déclamée, sous forme de sons musicaux, d’image cartographique, d’image photographique, de sculpture, de danse, de mime, etc.). 
 Pour une manifestation le Type de contenu est une catégorisation reflétant la (ou les) forme(s) fondamentale(s) utilisée(s) pour exprimer le contenu d’une ressource, accompagnée si nécessaire de précisions sur le (ou les) sens sollicité(s), sur le nombre de dimensions spatiales restituées à la perception et/ou sur la présence ou l’absence de mouvement.
 Ce même vocabulaire contrôlé fournit les valeurs pour la propriété 'a pour forme de l'expression représentative de l'oeuvre' de la classe Oeuvre et pour la propriété 'a pour type de contenu' de la classe Manifestation. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/forme-expression-type-contenu-manifestation.html ]"""@fr;
-  sh:ignoredProperties _:node1hnt7234px94 .
+  sh:ignoredProperties _:node1hnt8gun0x94 .
 
-_:node1hnt7234px94 rdf:first rdf:type;
+_:node1hnt8gun0x94 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:FormeExpression-TypeContenu sh:nodeKind sh:IRI;
@@ -1231,18 +1231,18 @@ rdafr:DesignationPresentationMusicale a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:comment "La désignation de présentation musicale est un mot, caractère ou groupe de mots ou de caractères qui indique la disposition de la présentation matérielle d’une ressource de musique notée. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/designation-presentation-musicale.html ]"@fr;
   rdfs:label "Désignation de présentation musicale"@fr;
   rdfs:subClassOf skos:Concept;
-  owl:equivalentClass _:node1hnt7234px97 .
+  owl:equivalentClass _:node1hnt8gun0x97 .
 
-_:node1hnt7234px97 a owl:Restriction;
+_:node1hnt8gun0x97 a owl:Restriction;
   owl:hasValue <https://rdafr.fr/vocabulary/designation-presentation-musicale>;
   owl:onProperty skos:inScheme .
 
 rdafr:DesignationPresentationMusicale owl:versionInfo "0.3.0"@fr;
   sh:closed false;
   sh:description "La désignation de présentation musicale est un mot, caractère ou groupe de mots ou de caractères qui indique la disposition de la présentation matérielle d’une ressource de musique notée. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/designation-presentation-musicale.html ]"@fr;
-  sh:ignoredProperties _:node1hnt7234px96 .
+  sh:ignoredProperties _:node1hnt8gun0x96 .
 
-_:node1hnt7234px96 rdf:first rdf:type;
+_:node1hnt8gun0x96 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:DesignationPresentationMusicale sh:nodeKind sh:IRI;
@@ -1254,9 +1254,9 @@ rdafr:NatureContenuSupplementaireIllustratif a rdfs:Class, owl:Class, sh:NodeSha
  [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/nature-contenu-supplementaire-illustratif.html ]"""@fr;
   rdfs:label "Nature du contenu supplémentaire illustratif"@fr;
   rdfs:subClassOf skos:Concept;
-  owl:equivalentClass _:node1hnt7234px99 .
+  owl:equivalentClass _:node1hnt8gun0x99 .
 
-_:node1hnt7234px99 a owl:Restriction;
+_:node1hnt8gun0x99 a owl:Restriction;
   owl:hasValue <https://rdafr.fr/vocabulary/nature-contenu-supplementaire-illustratif>;
   owl:onProperty skos:inScheme .
 
@@ -1264,9 +1264,9 @@ rdafr:NatureContenuSupplementaireIllustratif owl:versionInfo "0.3.0"@fr;
   sh:closed false;
   sh:description """Un contenu supplémentaire illustratif signale la présence d’un contenu d’image qui complète le contenu principal d’une manifestation, et qui n’appartient pas à l’œuvre initiale (souvent textuelle). Le contenu supplémentaire illustratif ne s’applique donc que dans les cas d’augmentations.
  [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/nature-contenu-supplementaire-illustratif.html ]"""@fr;
-  sh:ignoredProperties _:node1hnt7234px98 .
+  sh:ignoredProperties _:node1hnt8gun0x98 .
 
-_:node1hnt7234px98 rdf:first rdf:type;
+_:node1hnt8gun0x98 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:NatureContenuSupplementaireIllustratif sh:nodeKind sh:IRI;
@@ -1278,9 +1278,9 @@ rdafr:EmplacementContenuSupplementaireIllustratif a rdfs:Class, owl:Class, sh:No
  [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/emplacement-contenu-supplementaire-illustratif.html ]"""@fr;
   rdfs:label "Emplacement du contenu supplémentaire illustratif"@fr;
   rdfs:subClassOf skos:Concept;
-  owl:equivalentClass _:node1hnt7234px101 .
+  owl:equivalentClass _:node1hnt8gun0x101 .
 
-_:node1hnt7234px101 a owl:Restriction;
+_:node1hnt8gun0x101 a owl:Restriction;
   owl:hasValue <https://rdafr.fr/vocabulary/emplacement-contenu-supplementaire-illustratif>;
   owl:onProperty skos:inScheme .
 
@@ -1288,9 +1288,9 @@ rdafr:EmplacementContenuSupplementaireIllustratif owl:versionInfo "0.3.0"@fr;
   sh:closed false;
   sh:description """Un contenu supplémentaire illustratif signale la présence d’un contenu d’image qui complète le contenu principal d’une manifestation, et qui n’appartient pas à l’œuvre initiale (souvent textuelle). Le contenu supplémentaire illustratif ne s’applique donc que dans les cas d’augmentations.
  [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/emplacement-contenu-supplementaire-illustratif.html ]"""@fr;
-  sh:ignoredProperties _:node1hnt7234px100 .
+  sh:ignoredProperties _:node1hnt8gun0x100 .
 
-_:node1hnt7234px100 rdf:first rdf:type;
+_:node1hnt8gun0x100 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:EmplacementContenuSupplementaireIllustratif sh:nodeKind sh:IRI;
@@ -1301,18 +1301,18 @@ rdafr:TypeAccesDemat a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:comment "Le type d'accès à une ressource dématérialisée désigne les différents modes de connexion permettant d’accéder à une ressource dématérialisée. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/type-acces-demat.html ]"@fr;
   rdfs:label "Type d'accès à une ressource dématérialisée"@fr;
   rdfs:subClassOf skos:Concept;
-  owl:equivalentClass _:node1hnt7234px103 .
+  owl:equivalentClass _:node1hnt8gun0x103 .
 
-_:node1hnt7234px103 a owl:Restriction;
+_:node1hnt8gun0x103 a owl:Restriction;
   owl:hasValue <https://rdafr.fr/vocabulary/type-acces-demat>;
   owl:onProperty skos:inScheme .
 
 rdafr:TypeAccesDemat owl:versionInfo "0.3.0"@fr;
   sh:closed false;
   sh:description "Le type d'accès à une ressource dématérialisée désigne les différents modes de connexion permettant d’accéder à une ressource dématérialisée. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/type-acces-demat.html ]"@fr;
-  sh:ignoredProperties _:node1hnt7234px102 .
+  sh:ignoredProperties _:node1hnt8gun0x102 .
 
-_:node1hnt7234px102 rdf:first rdf:type;
+_:node1hnt8gun0x102 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:TypeAccesDemat sh:nodeKind sh:IRI;
@@ -1323,18 +1323,18 @@ rdafr:CategorieLieu a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:comment "Catégorie générale à laquelle une instance de Lieu appartient. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/categorie-lieu.html ]"@fr;
   rdfs:label "Catégorie de lieu"@fr;
   rdfs:subClassOf skos:Concept;
-  owl:equivalentClass _:node1hnt7234px105 .
+  owl:equivalentClass _:node1hnt8gun0x105 .
 
-_:node1hnt7234px105 a owl:Restriction;
+_:node1hnt8gun0x105 a owl:Restriction;
   owl:hasValue <https://rdafr.fr/vocabulary/categorie-lieu>;
   owl:onProperty skos:inScheme .
 
 rdafr:CategorieLieu owl:versionInfo "0.2.0"@fr;
   sh:closed false;
   sh:description "Catégorie générale à laquelle une instance de Lieu appartient. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/categorie-lieu.html ]"@fr;
-  sh:ignoredProperties _:node1hnt7234px104 .
+  sh:ignoredProperties _:node1hnt8gun0x104 .
 
-_:node1hnt7234px104 rdf:first rdf:type;
+_:node1hnt8gun0x104 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:CategorieLieu sh:nodeKind sh:IRI;
@@ -1345,18 +1345,18 @@ rdafr:AspectTraduction a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:comment "L’aspect de traduction permet de préciser si l’expression est une traduction d’une autre expression et, dans ce cas, s’il s’agit d’une traduction directe ou d’une traduction effectuée à partir d’une traduction intermédiaire. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/aspect-traduction.html ]"@fr;
   rdfs:label "Aspect de traduction"@fr;
   rdfs:subClassOf skos:Concept;
-  owl:equivalentClass _:node1hnt7234px107 .
+  owl:equivalentClass _:node1hnt8gun0x107 .
 
-_:node1hnt7234px107 a owl:Restriction;
+_:node1hnt8gun0x107 a owl:Restriction;
   owl:hasValue <https://rdafr.fr/vocabulary/aspect-traduction>;
   owl:onProperty skos:inScheme .
 
 rdafr:AspectTraduction owl:versionInfo "0.3.0"@fr;
   sh:closed false;
   sh:description "L’aspect de traduction permet de préciser si l’expression est une traduction d’une autre expression et, dans ce cas, s’il s’agit d’une traduction directe ou d’une traduction effectuée à partir d’une traduction intermédiaire. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/aspect-traduction.html ]"@fr;
-  sh:ignoredProperties _:node1hnt7234px106 .
+  sh:ignoredProperties _:node1hnt8gun0x106 .
 
-_:node1hnt7234px106 rdf:first rdf:type;
+_:node1hnt8gun0x106 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:AspectTraduction sh:nodeKind sh:IRI;
@@ -1367,18 +1367,18 @@ rdafr:PerimetreApplicationLangue a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:comment "Le périmètre d’application de la langue permet de qualifier la langue de certaines composantes de l’expression décrite. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/perimetre-application-langue.html ]"@fr;
   rdfs:label "Périmètre d'application de la langue"@fr;
   rdfs:subClassOf skos:Concept;
-  owl:equivalentClass _:node1hnt7234px109 .
+  owl:equivalentClass _:node1hnt8gun0x109 .
 
-_:node1hnt7234px109 a owl:Restriction;
+_:node1hnt8gun0x109 a owl:Restriction;
   owl:hasValue <https://rdafr.fr/vocabulary/perimetre-application-langue>;
   owl:onProperty skos:inScheme .
 
 rdafr:PerimetreApplicationLangue owl:versionInfo "0.3.0"@fr;
   sh:closed false;
   sh:description "Le périmètre d’application de la langue permet de qualifier la langue de certaines composantes de l’expression décrite. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/perimetre-application-langue.html ]"@fr;
-  sh:ignoredProperties _:node1hnt7234px108 .
+  sh:ignoredProperties _:node1hnt8gun0x108 .
 
-_:node1hnt7234px108 rdf:first rdf:type;
+_:node1hnt8gun0x108 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:PerimetreApplicationLangue sh:nodeKind sh:IRI;
@@ -1389,18 +1389,18 @@ rdafr:TypeCaptation a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:comment "Le périmètre d’application de la langue permet de qualifier la langue de certaines composantes de l’expression décrite. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/type-captation.html ]"@fr;
   rdfs:label "Type de captation"@fr;
   rdfs:subClassOf skos:Concept;
-  owl:equivalentClass _:node1hnt7234px111 .
+  owl:equivalentClass _:node1hnt8gun0x111 .
 
-_:node1hnt7234px111 a owl:Restriction;
+_:node1hnt8gun0x111 a owl:Restriction;
   owl:hasValue <https://rdafr.fr/vocabulary/type-captation>;
   owl:onProperty skos:inScheme .
 
 rdafr:TypeCaptation owl:versionInfo "0.3.0"@fr;
   sh:closed false;
   sh:description "Le périmètre d’application de la langue permet de qualifier la langue de certaines composantes de l’expression décrite. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/type-captation.html ]"@fr;
-  sh:ignoredProperties _:node1hnt7234px110 .
+  sh:ignoredProperties _:node1hnt8gun0x110 .
 
-_:node1hnt7234px110 rdf:first rdf:type;
+_:node1hnt8gun0x110 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:TypeCaptation sh:nodeKind sh:IRI;
@@ -1411,18 +1411,18 @@ rdafr:FormeNotationMusicale a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:comment "La forme de la notation musicale est un ensemble de signes et/ou de symboles utilisés pour exprimer le contenu musical noté d’une expression. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/forme-notation-musicale.html ]"@fr;
   rdfs:label "Forme de la notation musicale"@fr;
   rdfs:subClassOf skos:Concept;
-  owl:equivalentClass _:node1hnt7234px113 .
+  owl:equivalentClass _:node1hnt8gun0x113 .
 
-_:node1hnt7234px113 a owl:Restriction;
+_:node1hnt8gun0x113 a owl:Restriction;
   owl:hasValue <https://rdafr.fr/vocabulary/forme-notation-musicale>;
   owl:onProperty skos:inScheme .
 
 rdafr:FormeNotationMusicale owl:versionInfo "0.3.0"@fr;
   sh:closed false;
   sh:description "La forme de la notation musicale est un ensemble de signes et/ou de symboles utilisés pour exprimer le contenu musical noté d’une expression. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/forme-notation-musicale.html ]"@fr;
-  sh:ignoredProperties _:node1hnt7234px112 .
+  sh:ignoredProperties _:node1hnt8gun0x112 .
 
-_:node1hnt7234px112 rdf:first rdf:type;
+_:node1hnt8gun0x112 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:FormeNotationMusicale sh:nodeKind sh:IRI;
@@ -1433,18 +1433,18 @@ rdafr:FormeNotationTactile a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:comment "La forme de la notation tactile est un ensemble de signes et/ou de symboles utilisés pour exprimer le contenu d’une expression sous une forme perceptible au toucher. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/forme-notation-tactile.html ]"@fr;
   rdfs:label "Forme de la notation tactile"@fr;
   rdfs:subClassOf skos:Concept;
-  owl:equivalentClass _:node1hnt7234px115 .
+  owl:equivalentClass _:node1hnt8gun0x115 .
 
-_:node1hnt7234px115 a owl:Restriction;
+_:node1hnt8gun0x115 a owl:Restriction;
   owl:hasValue <https://rdafr.fr/vocabulary/forme-notation-tactile>;
   owl:onProperty skos:inScheme .
 
 rdafr:FormeNotationTactile owl:versionInfo "0.3.0"@fr;
   sh:closed false;
   sh:description "La forme de la notation tactile est un ensemble de signes et/ou de symboles utilisés pour exprimer le contenu d’une expression sous une forme perceptible au toucher. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/forme-notation-tactile.html ]"@fr;
-  sh:ignoredProperties _:node1hnt7234px114 .
+  sh:ignoredProperties _:node1hnt8gun0x114 .
 
-_:node1hnt7234px114 rdf:first rdf:type;
+_:node1hnt8gun0x114 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:FormeNotationTactile sh:nodeKind sh:IRI;
@@ -1455,18 +1455,18 @@ rdafr:FormeNotationMouvement a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:comment "La forme de la notation du mouvement est un ensemble de signes et/ou de caractères utilisés pour exprimer le contenu du mouvement d’une expression, en particulier celle d’une œuvre chorégraphique. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/forme-notation-mouvement.html ]"@fr;
   rdfs:label "Forme de la notation de mouvement"@fr;
   rdfs:subClassOf skos:Concept;
-  owl:equivalentClass _:node1hnt7234px117 .
+  owl:equivalentClass _:node1hnt8gun0x117 .
 
-_:node1hnt7234px117 a owl:Restriction;
+_:node1hnt8gun0x117 a owl:Restriction;
   owl:hasValue <https://rdafr.fr/vocabulary/forme-notation-mouvement>;
   owl:onProperty skos:inScheme .
 
 rdafr:FormeNotationMouvement owl:versionInfo "0.3.0"@fr;
   sh:closed false;
   sh:description "La forme de la notation du mouvement est un ensemble de signes et/ou de caractères utilisés pour exprimer le contenu du mouvement d’une expression, en particulier celle d’une œuvre chorégraphique. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/forme-notation-mouvement.html ]"@fr;
-  sh:ignoredProperties _:node1hnt7234px116 .
+  sh:ignoredProperties _:node1hnt8gun0x116 .
 
-_:node1hnt7234px116 rdf:first rdf:type;
+_:node1hnt8gun0x116 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:FormeNotationMouvement sh:nodeKind sh:IRI;
@@ -1477,18 +1477,18 @@ rdafr:CaracteristiqueCouleur a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:comment "La caractéristique de couleur est la présence de couleur, teinte, etc. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/caracteristique-couleur.html ]"@fr;
   rdfs:label "Caractéristique de couleur de l'expression et couleur du contenu supplémentaire illustratif de la manifestation"@fr;
   rdfs:subClassOf skos:Concept;
-  owl:equivalentClass _:node1hnt7234px119 .
+  owl:equivalentClass _:node1hnt8gun0x119 .
 
-_:node1hnt7234px119 a owl:Restriction;
+_:node1hnt8gun0x119 a owl:Restriction;
   owl:hasValue <https://rdafr.fr/vocabulary/caracteristique-couleur>;
   owl:onProperty skos:inScheme .
 
 rdafr:CaracteristiqueCouleur owl:versionInfo "0.3.0"@fr;
   sh:closed false;
   sh:description "La caractéristique de couleur est la présence de couleur, teinte, etc. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/caracteristique-couleur.html ]"@fr;
-  sh:ignoredProperties _:node1hnt7234px118 .
+  sh:ignoredProperties _:node1hnt8gun0x118 .
 
-_:node1hnt7234px118 rdf:first rdf:type;
+_:node1hnt8gun0x118 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:CaracteristiqueCouleur sh:nodeKind sh:IRI;
@@ -1499,18 +1499,18 @@ rdafr:CaracteristiqueSonore a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:comment "La caractéristique sonore est le son présent dans une expression qui n’est pas constituée principalement de son enregistré, par exemple une expression d’un film ou d’une œuvre multimédia. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/caracteristique-sonore.html ]"@fr;
   rdfs:label "Caractéristique sonore"@fr;
   rdfs:subClassOf skos:Concept;
-  owl:equivalentClass _:node1hnt7234px121 .
+  owl:equivalentClass _:node1hnt8gun0x121 .
 
-_:node1hnt7234px121 a owl:Restriction;
+_:node1hnt8gun0x121 a owl:Restriction;
   owl:hasValue <https://rdafr.fr/vocabulary/caracteristique-sonore>;
   owl:onProperty skos:inScheme .
 
 rdafr:CaracteristiqueSonore owl:versionInfo "0.3.0"@fr;
   sh:closed false;
   sh:description "La caractéristique sonore est le son présent dans une expression qui n’est pas constituée principalement de son enregistré, par exemple une expression d’un film ou d’une œuvre multimédia. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/caracteristique-sonore.html ]"@fr;
-  sh:ignoredProperties _:node1hnt7234px120 .
+  sh:ignoredProperties _:node1hnt8gun0x120 .
 
-_:node1hnt7234px120 rdf:first rdf:type;
+_:node1hnt8gun0x120 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:CaracteristiqueSonore sh:nodeKind sh:IRI;
@@ -1521,18 +1521,18 @@ rdafr:CouvertureAgregat a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:comment "La couverture de l’agrégat permet de préciser, dans le cas d’une expression d’agrégation, si la ou les formes de l’expression s’appliquent à toutes les expressions réunies dans l’agrégat ou seulement à une partie d’entre elles. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/couverture-agregat.html ]"@fr;
   rdfs:label "Couverture de l'agrégat"@fr;
   rdfs:subClassOf skos:Concept;
-  owl:equivalentClass _:node1hnt7234px123 .
+  owl:equivalentClass _:node1hnt8gun0x123 .
 
-_:node1hnt7234px123 a owl:Restriction;
+_:node1hnt8gun0x123 a owl:Restriction;
   owl:hasValue <https://rdafr.fr/vocabulary/couverture-agregat>;
   owl:onProperty skos:inScheme .
 
 rdafr:CouvertureAgregat owl:versionInfo "0.3.0"@fr;
   sh:closed false;
   sh:description "La couverture de l’agrégat permet de préciser, dans le cas d’une expression d’agrégation, si la ou les formes de l’expression s’appliquent à toutes les expressions réunies dans l’agrégat ou seulement à une partie d’entre elles. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/couverture-agregat.html ]"@fr;
-  sh:ignoredProperties _:node1hnt7234px122 .
+  sh:ignoredProperties _:node1hnt8gun0x122 .
 
-_:node1hnt7234px122 rdf:first rdf:type;
+_:node1hnt8gun0x122 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:CouvertureAgregat sh:nodeKind sh:IRI;
@@ -1543,18 +1543,18 @@ rdafr:ImportanceRelativeFormeExpression a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:comment "L’importance relative de la forme de l’expression représentative de l'oeuvre permet de préciser, pour des formes de l’expression présentes mais qui n’apportent pas une contribution essentielle, la place qu’elles occupent dans la réalisation de l’expression. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/importance-relative-forme-expression.html ]"@fr;
   rdfs:label "Importance relative de la forme de l'expression"@fr;
   rdfs:subClassOf skos:Concept;
-  owl:equivalentClass _:node1hnt7234px125 .
+  owl:equivalentClass _:node1hnt8gun0x125 .
 
-_:node1hnt7234px125 a owl:Restriction;
+_:node1hnt8gun0x125 a owl:Restriction;
   owl:hasValue <https://rdafr.fr/vocabulary/importance-relative-forme-expression>;
   owl:onProperty skos:inScheme .
 
 rdafr:ImportanceRelativeFormeExpression owl:versionInfo "0.3.0"@fr;
   sh:closed false;
   sh:description "L’importance relative de la forme de l’expression représentative de l'oeuvre permet de préciser, pour des formes de l’expression présentes mais qui n’apportent pas une contribution essentielle, la place qu’elles occupent dans la réalisation de l’expression. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/importance-relative-forme-expression.html ]"@fr;
-  sh:ignoredProperties _:node1hnt7234px124 .
+  sh:ignoredProperties _:node1hnt8gun0x124 .
 
-_:node1hnt7234px124 rdf:first rdf:type;
+_:node1hnt8gun0x124 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:ImportanceRelativeFormeExpression sh:nodeKind sh:IRI;
@@ -1565,18 +1565,18 @@ rdafr:PlanExtensionOeuvre a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:comment "Le plan d’extension de l’œuvre permet d’indiquer l’intention du créateur quant aux modalités d’extension d’une œuvre. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/plan-extension-oeuvre.html ]"@fr;
   rdfs:label "Plan extension de l'oeuvre"@fr;
   rdfs:subClassOf skos:Concept;
-  owl:equivalentClass _:node1hnt7234px127 .
+  owl:equivalentClass _:node1hnt8gun0x127 .
 
-_:node1hnt7234px127 a owl:Restriction;
+_:node1hnt8gun0x127 a owl:Restriction;
   owl:hasValue <https://rdafr.fr/vocabulary/plan-extension-oeuvre>;
   owl:onProperty skos:inScheme .
 
 rdafr:PlanExtensionOeuvre owl:versionInfo "0.3.0"@fr;
   sh:closed false;
   sh:description "Le plan d’extension de l’œuvre permet d’indiquer l’intention du créateur quant aux modalités d’extension d’une œuvre. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/plan-extension-oeuvre.html ]"@fr;
-  sh:ignoredProperties _:node1hnt7234px126 .
+  sh:ignoredProperties _:node1hnt8gun0x126 .
 
-_:node1hnt7234px126 rdf:first rdf:type;
+_:node1hnt8gun0x126 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:PlanExtensionOeuvre sh:nodeKind sh:IRI;
@@ -1587,18 +1587,18 @@ rdafr:CategorieOeuvre a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:comment "La catégorie d’œuvre est une large catégorisation de l’œuvre déterminée par la forme de l'expression représentative de celle-ci [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/categories-oeuvres.html ]"@fr;
   rdfs:label "Catégorie d'oeuvre"@fr;
   rdfs:subClassOf skos:Concept;
-  owl:equivalentClass _:node1hnt7234px129 .
+  owl:equivalentClass _:node1hnt8gun0x129 .
 
-_:node1hnt7234px129 a owl:Restriction;
+_:node1hnt8gun0x129 a owl:Restriction;
   owl:hasValue <https://rdafr.fr/vocabulary/categories-oeuvres>;
   owl:onProperty skos:inScheme .
 
 rdafr:CategorieOeuvre owl:versionInfo "0.2.0"@fr;
   sh:closed false;
   sh:description "La catégorie d’œuvre est une large catégorisation de l’œuvre déterminée par la forme de l'expression représentative de celle-ci [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/categories-oeuvres.html ]"@fr;
-  sh:ignoredProperties _:node1hnt7234px128 .
+  sh:ignoredProperties _:node1hnt8gun0x128 .
 
-_:node1hnt7234px128 rdf:first rdf:type;
+_:node1hnt8gun0x128 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:CategorieOeuvre sh:nodeKind sh:IRI;
@@ -1612,9 +1612,9 @@ rdafr:FormatEncodage a rdfs:Class, owl:Class, sh:NodeShape;
   owl:versionInfo "0.3.0"@fr;
   sh:closed false;
   sh:description "Le format d’encodage est une norme, un schéma, etc. utilisé pour encoder le contenu numérique d’une ressource. Etant donné la multitude des référentiels de format d'encodage, le choix est laissé à chaque institution qui implémente l’ontologie RDA-FR d’utiliser ses propres sources."@fr;
-  sh:ignoredProperties _:node1hnt7234px130 .
+  sh:ignoredProperties _:node1hnt8gun0x130 .
 
-_:node1hnt7234px130 rdf:first rdf:type;
+_:node1hnt8gun0x130 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:FormatEncodage sh:nodeKind sh:IRI;
@@ -1625,18 +1625,18 @@ rdafr:TypeGeneriqueOeuvreRessourceContinue a rdfs:Class, owl:Class, sh:NodeShape
   rdfs:comment "Le type générique de l’œuvre de ressource continue est une catégorie de ressource continue à laquelle l’œuvre appartient. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/type-generique-oeuvre-ressource-continue.html ]"@fr;
   rdfs:label "Type générique de l'oeuvre de ressource continue"@fr;
   rdfs:subClassOf skos:Concept;
-  owl:equivalentClass _:node1hnt7234px132 .
+  owl:equivalentClass _:node1hnt8gun0x132 .
 
-_:node1hnt7234px132 a owl:Restriction;
+_:node1hnt8gun0x132 a owl:Restriction;
   owl:hasValue <https://rdafr.fr/vocabulary/type-generique-oeuvre-ressource-continue>;
   owl:onProperty skos:inScheme .
 
 rdafr:TypeGeneriqueOeuvreRessourceContinue owl:versionInfo "0.3.0"@fr;
   sh:closed false;
   sh:description "Le type générique de l’œuvre de ressource continue est une catégorie de ressource continue à laquelle l’œuvre appartient. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/type-generique-oeuvre-ressource-continue.html ]"@fr;
-  sh:ignoredProperties _:node1hnt7234px131 .
+  sh:ignoredProperties _:node1hnt8gun0x131 .
 
-_:node1hnt7234px131 rdf:first rdf:type;
+_:node1hnt8gun0x131 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:TypeGeneriqueOeuvreRessourceContinue sh:nodeKind sh:IRI;
@@ -1647,18 +1647,18 @@ rdafr:TypeSpecifiqueOeuvrePeriodique a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:comment "Le type spécifique de l'œuvre de périodique est une sous-catégorie du type générique Périodique de l'œuvre de ressource continue. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/type-specifique-oeuvre-periodique.html ]"@fr;
   rdfs:label "Type spécifique de l'oeuvre de périodique"@fr;
   rdfs:subClassOf skos:Concept;
-  owl:equivalentClass _:node1hnt7234px134 .
+  owl:equivalentClass _:node1hnt8gun0x134 .
 
-_:node1hnt7234px134 a owl:Restriction;
+_:node1hnt8gun0x134 a owl:Restriction;
   owl:hasValue <https://rdafr.fr/vocabulary/type-specifique-oeuvre-periodique>;
   owl:onProperty skos:inScheme .
 
 rdafr:TypeSpecifiqueOeuvrePeriodique owl:versionInfo "0.3.0"@fr;
   sh:closed false;
   sh:description "Le type spécifique de l'œuvre de périodique est une sous-catégorie du type générique Périodique de l'œuvre de ressource continue. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/type-specifique-oeuvre-periodique.html ]"@fr;
-  sh:ignoredProperties _:node1hnt7234px133 .
+  sh:ignoredProperties _:node1hnt8gun0x133 .
 
-_:node1hnt7234px133 rdf:first rdf:type;
+_:node1hnt8gun0x133 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:TypeSpecifiqueOeuvrePeriodique sh:nodeKind sh:IRI;
@@ -1669,18 +1669,18 @@ rdafr:TypeSpecifiqueOeuvreRessourceIntegratrice a rdfs:Class, owl:Class, sh:Node
   rdfs:comment "Le type spécifique de l'œuvre de ressource intégratrice à mise à jour permanente est une sous-catégorie du type générique Ressource intégratrice de l'œuvre de ressource continue. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/type-specifique-oeuvre-ressource-integratrice.html ]"@fr;
   rdfs:label "Type spécifique de l'oeuvre de ressource intégratrice à mise à jour permanente"@fr;
   rdfs:subClassOf skos:Concept;
-  owl:equivalentClass _:node1hnt7234px136 .
+  owl:equivalentClass _:node1hnt8gun0x136 .
 
-_:node1hnt7234px136 a owl:Restriction;
+_:node1hnt8gun0x136 a owl:Restriction;
   owl:hasValue <https://rdafr.fr/vocabulary/type-specifique-oeuvre-ressource-integratrice>;
   owl:onProperty skos:inScheme .
 
 rdafr:TypeSpecifiqueOeuvreRessourceIntegratrice owl:versionInfo "0.3.0"@fr;
   sh:closed false;
   sh:description "Le type spécifique de l'œuvre de ressource intégratrice à mise à jour permanente est une sous-catégorie du type générique Ressource intégratrice de l'œuvre de ressource continue. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/type-specifique-oeuvre-ressource-integratrice.html ]"@fr;
-  sh:ignoredProperties _:node1hnt7234px135 .
+  sh:ignoredProperties _:node1hnt8gun0x135 .
 
-_:node1hnt7234px135 rdf:first rdf:type;
+_:node1hnt8gun0x135 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:TypeSpecifiqueOeuvreRessourceIntegratrice sh:nodeKind sh:IRI;
@@ -1691,18 +1691,18 @@ rdafr:ModeEnregistrement a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:comment "Le mode d’enregistrement désigne la grande catégorie de techniques utilisées pour réaliser un enregistrement sonore, à partir de la nature du signal utilisé pour réaliser l’enregistrement. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/mode-enregistrement.html ]"@fr;
   rdfs:label "Mode d'enregistrement pour une expression"@fr;
   rdfs:subClassOf skos:Concept;
-  owl:equivalentClass _:node1hnt7234px138 .
+  owl:equivalentClass _:node1hnt8gun0x138 .
 
-_:node1hnt7234px138 a owl:Restriction;
+_:node1hnt8gun0x138 a owl:Restriction;
   owl:hasValue <https://rdafr.fr/vocabulary/mode-enregistrement>;
   owl:onProperty skos:inScheme .
 
 rdafr:ModeEnregistrement owl:versionInfo "0.3.0"@fr;
   sh:closed false;
   sh:description "Le mode d’enregistrement désigne la grande catégorie de techniques utilisées pour réaliser un enregistrement sonore, à partir de la nature du signal utilisé pour réaliser l’enregistrement. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/mode-enregistrement.html ]"@fr;
-  sh:ignoredProperties _:node1hnt7234px137 .
+  sh:ignoredProperties _:node1hnt8gun0x137 .
 
-_:node1hnt7234px137 rdf:first rdf:type;
+_:node1hnt8gun0x137 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:ModeEnregistrement sh:nodeKind sh:IRI;
@@ -1713,18 +1713,18 @@ rdafr:ModeEnregistrementAnalogique a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:comment "Le mode d'enregistrement analogique est une sous-catégorie technique pour un enregistrement sonore réalisé de manière analogique. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/mode-enregistrement-analogique.html ]"@fr;
   rdfs:label "Mode d'enregistrement analogique pour une expression"@fr;
   rdfs:subClassOf skos:Concept;
-  owl:equivalentClass _:node1hnt7234px140 .
+  owl:equivalentClass _:node1hnt8gun0x140 .
 
-_:node1hnt7234px140 a owl:Restriction;
+_:node1hnt8gun0x140 a owl:Restriction;
   owl:hasValue <https://rdafr.fr/vocabulary/mode-enregistrement-analogique>;
   owl:onProperty skos:inScheme .
 
 rdafr:ModeEnregistrementAnalogique owl:versionInfo "0.3.0"@fr;
   sh:closed false;
   sh:description "Le mode d'enregistrement analogique est une sous-catégorie technique pour un enregistrement sonore réalisé de manière analogique. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/mode-enregistrement-analogique.html ]"@fr;
-  sh:ignoredProperties _:node1hnt7234px139 .
+  sh:ignoredProperties _:node1hnt8gun0x139 .
 
-_:node1hnt7234px139 rdf:first rdf:type;
+_:node1hnt8gun0x139 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:ModeEnregistrementAnalogique sh:nodeKind sh:IRI;
@@ -1735,18 +1735,18 @@ rdafr:Periodicite a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:comment "Intervalle temporel prévu ou constaté suivant lequel chacune des livraisons ou parties d’une publication en série ou des mises à jour d’une ressource intégratrice est publiée [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/periodicite.html ]"@fr;
   rdfs:label "Périodicité"@fr;
   rdfs:subClassOf skos:Concept;
-  owl:equivalentClass _:node1hnt7234px142 .
+  owl:equivalentClass _:node1hnt8gun0x142 .
 
-_:node1hnt7234px142 a owl:Restriction;
+_:node1hnt8gun0x142 a owl:Restriction;
   owl:hasValue <https://rdafr.fr/vocabulary/periodicite>;
   owl:onProperty skos:inScheme .
 
 rdafr:Periodicite owl:versionInfo "0.3.0"@fr;
   sh:closed false;
   sh:description "Intervalle temporel prévu ou constaté suivant lequel chacune des livraisons ou parties d’une publication en série ou des mises à jour d’une ressource intégratrice est publiée [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/periodicite.html ]"@fr;
-  sh:ignoredProperties _:node1hnt7234px141 .
+  sh:ignoredProperties _:node1hnt8gun0x141 .
 
-_:node1hnt7234px141 rdf:first rdf:type;
+_:node1hnt8gun0x141 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:Periodicite sh:nodeKind sh:IRI;
@@ -1757,18 +1757,18 @@ rdafr:StatutIdentification a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:comment "Le statut d’identification indique le niveau de fiabilité des données permettant l’identification des instances d’entités et la construction des points d’accès autorisés représentant ces instances. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/statut-identification.html ]"@fr;
   rdfs:label "Statut d'identification"@fr;
   rdfs:subClassOf skos:Concept;
-  owl:equivalentClass _:node1hnt7234px144 .
+  owl:equivalentClass _:node1hnt8gun0x144 .
 
-_:node1hnt7234px144 a owl:Restriction;
+_:node1hnt8gun0x144 a owl:Restriction;
   owl:hasValue <https://rdafr.fr/vocabulary/statut-identification>;
   owl:onProperty skos:inScheme .
 
 rdafr:StatutIdentification owl:versionInfo "0.3.0"@fr;
   sh:closed false;
   sh:description "Le statut d’identification indique le niveau de fiabilité des données permettant l’identification des instances d’entités et la construction des points d’accès autorisés représentant ces instances. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/statut-identification.html ]"@fr;
-  sh:ignoredProperties _:node1hnt7234px143 .
+  sh:ignoredProperties _:node1hnt8gun0x143 .
 
-_:node1hnt7234px143 rdf:first rdf:type;
+_:node1hnt8gun0x143 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:StatutIdentification sh:nodeKind sh:IRI;
@@ -1779,18 +1779,18 @@ rdafr:CategorisationItem a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:comment "Une catégorisation d'item permet de caractériser un item selon qu'il est autonome ou composite. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/categorisation-item.html ]"@fr;
   rdfs:label "Catégorisation de l'item"@fr;
   rdfs:subClassOf skos:Concept;
-  owl:equivalentClass _:node1hnt7234px146 .
+  owl:equivalentClass _:node1hnt8gun0x146 .
 
-_:node1hnt7234px146 a owl:Restriction;
+_:node1hnt8gun0x146 a owl:Restriction;
   owl:hasValue <https://rdafr.fr/vocabulary/categorisation-item>;
   owl:onProperty skos:inScheme .
 
 rdafr:CategorisationItem owl:versionInfo "0.3.0"@fr;
   sh:closed false;
   sh:description "Une catégorisation d'item permet de caractériser un item selon qu'il est autonome ou composite. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/categorisation-item.html ]"@fr;
-  sh:ignoredProperties _:node1hnt7234px145 .
+  sh:ignoredProperties _:node1hnt8gun0x145 .
 
-_:node1hnt7234px145 rdf:first rdf:type;
+_:node1hnt8gun0x145 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:CategorisationItem sh:nodeKind sh:IRI;
@@ -1801,18 +1801,18 @@ rdafr:StatutEtatCollection a rdfs:Class, owl:Class, sh:NodeShape;
   rdfs:comment "Le statut de l'état de collection est une mention permettant d'iniquer si de nouveaux éléments constitutifs à paraître sont attendus ou non. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/statut-etat-collection.html ]"@fr;
   rdfs:label "Statut de l'état de collection"@fr;
   rdfs:subClassOf skos:Concept;
-  owl:equivalentClass _:node1hnt7234px148 .
+  owl:equivalentClass _:node1hnt8gun0x148 .
 
-_:node1hnt7234px148 a owl:Restriction;
+_:node1hnt8gun0x148 a owl:Restriction;
   owl:hasValue <https://rdafr.fr/vocabulary/statut-etat-collection>;
   owl:onProperty skos:inScheme .
 
 rdafr:StatutEtatCollection owl:versionInfo "0.3.0"@fr;
   sh:closed false;
   sh:description "Le statut de l'état de collection est une mention permettant d'iniquer si de nouveaux éléments constitutifs à paraître sont attendus ou non. [vocabulaire de la classe, voir: https://rdafr.fr/vocabulary/statut-etat-collection.html ]"@fr;
-  sh:ignoredProperties _:node1hnt7234px147 .
+  sh:ignoredProperties _:node1hnt8gun0x147 .
 
-_:node1hnt7234px147 rdf:first rdf:type;
+_:node1hnt8gun0x147 rdf:first rdf:type;
   rdf:rest rdf:nil .
 
 rdafr:StatutEtatCollection sh:nodeKind sh:IRI;
