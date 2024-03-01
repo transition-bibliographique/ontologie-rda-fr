@@ -8,8 +8,11 @@ FROM debian:stable-20230502-slim AS builder
 
 RUN apt update && DEBIAN_FRONTEND=noninteractive apt -y install locales pandoc default-jdk curl
 
-# Installation de Widoco
+# Installation des outils : widoco, shacl play, skos play
 RUN curl -L https://github.com/dgarijo/Widoco/releases/download/v1.4.20/widoco-1.4.20-jar-with-dependencies_JDK-17.jar -o /tmp/widoco.jar
+RUN curl -L https://github.com/sparna-git/shacl-play/releases/download/0.7.0/shacl-play-app-0.7.0-onejar.jar -o /tmp/shacl-play.jar
+RUN curl -L https://github.com/sparna-git/skos-play/releases/download/0.9.1/skos-play-cli-0.9.1-onejar.jar -o /tmp/skos-play.jar
+
 
 RUN mkdir /build/
 COPY siteweb/ /build/
@@ -90,12 +93,8 @@ RUN mkdir -p profil-application
 RUN cat /tmp/ontologie/profil-application-metadata.nt /tmp/ontologie/rdafr-doc.ttl > /tmp/ontologie/profil-application-doc-avec-meta.ttl
 RUN cat /tmp/ontologie/profil-application-metadata.nt /tmp/ontologie/rdafr.ttl > /tmp/ontologie/profil-application-avec-meta.ttl
 
-# Installation de shacl play
-RUN curl -L https://github.com/sparna-git/shacl-play/releases/download/0.7.0/shacl-play-app-0.7.0-onejar.jar \
-      -o shacl-play.jar
-
 # Génération du profil d'application
-RUN java -jar shacl-play.jar doc -i /tmp/ontologie/profil-application-doc-avec-meta.ttl -o /build/profil-application/index.html -l fr
+RUN java -jar /tmp/shacl-play.jar doc -i /tmp/ontologie/profil-application-doc-avec-meta.ttl -o /build/profil-application/index.html -l fr
 
 # Post traitement du profil d'application
 RUN sed -E -i /build/profil-application/index.html \
@@ -111,13 +110,10 @@ RUN mv /tmp/ontologie/profil-application-avec-meta.ttl /build/profil-application
 RUN mkdir -p /build/vocabulary/
 COPY ./vocabulaire/* /build/vocabulary/
 
-# Installation de l'outil skos play 
-RUN curl -L https://github.com/sparna-git/skos-play/releases/download/0.9.1/skos-play-cli-0.9.1-onejar.jar -o skos-play.jar
-
 # Génération d'un fichier HTML par vocabulaire
 # Depuis la page d'un vocabulaire, l'utilisateur peut ajouter le suffix .ttl à l'url pour récupérer les données au format RDF.
 RUN for i in /build/vocabulary/*.ttl; do \
-      java -jar skos-play.jar alphabetical -i $i -o ${i%.ttl}.html -f html -l fr ; \
+      java -jar /tmp/skos-play.jar alphabetical -i $i -o ${i%.ttl}.html -f html -l fr ; \
       # Suppression des top terms dans le fichier HTML
       sed -i '/<h2 class="title">.*<\/h2>/d' ${i%.ttl}.html ; \
       sed -i "s/<li>DEF : /<li>Périmètre d'application : /g" ${i%.ttl}.html ; \
