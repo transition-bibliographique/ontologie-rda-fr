@@ -1,0 +1,13 @@
+# docker-compose.yml pour le debug
+version: "3.5"
+
+services:
+
+  ontologie-rda-fr-debug:
+    image: transitionbibliographique/ontologie-rda-fr:debug
+    build: .
+    container_name: ontologie-rda-fr-debug
+    restart: unless-stopped
+    ports:
+      - 8080:80
+
