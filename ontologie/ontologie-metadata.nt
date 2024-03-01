@@ -1,15 +1,15 @@
-<https://rdafr.fr#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
-<https://rdafr.fr#> <http://purl.org/dc/terms/title> "RDA-FR ontology"@en .
-<https://rdafr.fr#> <http://www.w3.org/2000/01/rdf-schema#label> "RDA-FR ontology"@en .
-<https://rdafr.fr#> <http://purl.org/dc/terms/description> "RDA-FR ontology is a formal representation, in classes and properties, expressed in OWL, for the univers of discours covered by the RDA-FR cataloguing code."@en .
-<https://rdafr.fr#> <http://www.w3.org/2000/01/rdf-schema#comment> "Beta version, partial. Includes the following classes from the RDA-FR ontology : Entité RDA-FR, Métadonnées de la description, Oeuvre, Oeuvre de ressource continue, Expression, Manifestation, Item, Agent, Agent collectif, Collectivité, Famille, Groupe informel, Personne, Identité publique, as well as the controlled vocabularies related to these classes. It also includes the main relationships between OEMI, relationships that can be established between instances of Oeuvre, between instances of Agent et and those between instances of Agent and instances of Oeuvre."@en .
-<https://rdafr.fr#> <http://www.w3.org/2002/07/owl#versionInfo> "0.3.0"@fr .
-<https://rdafr.fr#> <http://www.w3.org/2002/07/owl#versionIRI> <https://rdafr.fr/> .
-<https://rdafr.fr#> <http://purl.org/dc/terms/conformsTo> <https://www.w3.org/TR/shacl> .
-<https://rdafr.fr#> <http://purl.org/dc/terms/issued> "2024-01-12"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://rdafr.fr#> <http://purl.org/dc/terms/modified> "2024-01-12"^^<http://www.w3.org/2001/XMLSchema#date> .
-<https://rdafr.fr#> <http://purl.org/dc/terms/license> <https://www.etalab.gouv.fr/licence-ouverte-open-licence> .
-<https://rdafr.fr#> <http://purl.org/dc/terms/creator> "BnF, Abes" .
-<https://rdafr.fr#> <http://purl.org/dc/terms/publisher> "BnF, Abes" .
-<https://rdafr.fr#> <http://purl.org/dc/terms/rigthsHolder> "Bnf, Abes" .
+<https://rdafr.fr/Elements#> <http://www.w3.org/1999/02/22-rdf-syntax-ns#type> <http://www.w3.org/2002/07/owl#Ontology> .
+<https://rdafr.fr/Elements#> <http://purl.org/dc/terms/title> "RDA-FR ontology"@en .
+<https://rdafr.fr/Elements#> <http://www.w3.org/2000/01/rdf-schema#label> "RDA-FR ontology"@en .
+<https://rdafr.fr/Elements#> <http://purl.org/dc/terms/description> "RDA-FR ontology is a formal representation, in classes and properties, expressed in OWL, for the univers of discours covered by the RDA-FR cataloguing code."@en .
+<https://rdafr.fr/Elements#> <http://www.w3.org/2000/01/rdf-schema#comment> "Beta version, partial. Includes the following classes from the RDA-FR ontology : Entité RDA-FR, Métadonnées de la description, Oeuvre, Oeuvre de ressource continue, Expression, Manifestation, Item, Agent, Agent collectif, Collectivité, Famille, Groupe informel, Personne, Identité publique, as well as the controlled vocabularies related to these classes. It also includes the main relationships between OEMI, relationships that can be established between instances of Oeuvre, between instances of Agent et and those between instances of Agent and instances of Oeuvre."@en .
+<https://rdafr.fr/Elements#> <http://www.w3.org/2002/07/owl#versionInfo> "0.3.0"@fr .
+<https://rdafr.fr/Elements#> <http://www.w3.org/2002/07/owl#versionIRI> <https://rdafr.fr/Elements#> .
+<https://rdafr.fr/Elements#> <http://purl.org/dc/terms/conformsTo> <https://www.w3.org/TR/shacl> .
+<https://rdafr.fr/Elements#> <http://purl.org/dc/terms/issued> "2024-01-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://rdafr.fr/Elements#> <http://purl.org/dc/terms/modified> "2024-01-12"^^<http://www.w3.org/2001/XMLSchema#date> .
+<https://rdafr.fr/Elements#> <http://purl.org/dc/terms/license> <https://www.etalab.gouv.fr/licence-ouverte-open-licence> .
+<https://rdafr.fr/Elements#> <http://purl.org/dc/terms/creator> "BnF, Abes" .
+<https://rdafr.fr/Elements#> <http://purl.org/dc/terms/publisher> "BnF, Abes" .
+<https://rdafr.fr/Elements#> <http://purl.org/dc/terms/rigthsHolder> "Bnf, Abes" .
 
