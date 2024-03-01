@@ -57,12 +57,12 @@ _Schéma représentant les relations entre la classe Identité publique et les c
 
 Les référentiels associés aux entités du code RDA-FR sont traités dans l’ontologie comme des vocabulaires contrôlés. Pour leur gestion, l’ontologie RDA-FR fait appel au standard du W3C [SKOS Simple Knowledge Organization System](https://www.w3.org/2009/08/skos-reference/skos.html). Ainsi les vocabulaires contrôlés de l’ontologie RDA-FR relèvent de la classe **_[skos:ConceptScheme](http://www.w3.org/2004/02/skos/core#ConceptScheme)_** de ce standard. 
 
-Les référentiels propres au code RDA-FR et ceux repris de RDA avec adaptations et/ou enrichissements, sont tous déclarés dans l’espace de nom [https://rdafr.fr](https://rdafr.fr), sous [https://rdafr.fr/vocabulary/](/vocabulary/). 
+Les référentiels propres au code RDA-FR et ceux repris de RDA avec adaptations et/ou enrichissements, sont tous déclarés dans l’espace de nom [https://rdafr.fr](https://rdafr.fr), sous [https://rdafr.fr/vocabulaire/](/vocabulaire/). 
 
 Pour les référentiels régis par des normes internationales ISO, en raison d’absence de leur déclaration en Linked Data par l’ISO même, une démarche pragmatique est adoptée. Notamment : 
 
 * Pour les codes de langue de la norme ISO 639-2, le vocabulaire de la Library of Congres, exposé en Linked data sur id.loc.gov est utilisé [https://id.loc.gov/vocabulary/iso639-2.html](https://id.loc.gov/vocabulary/iso639-2.html)
-* Pour les codes de représentation des écritures de la norme ISO 15924, le référentiel sera déclaré dans les vocabulaires RDA-FR, en reprenant le code ISO comme suffixe dans l’URI. ex: [https://rdafr.fr/vocabulary/ecriture-ISO15924/Latn](https://rdafr.fr/vocabulary/ecriture-ISO15925/Latn)
+* Pour les codes de représentation des écritures de la norme ISO 15924, le référentiel sera déclaré dans les vocabulaires RDA-FR, en reprenant le code ISO comme suffixe dans l’URI. ex: [https://rdafr.fr/vocabulaire/ecriture-ISO15924/Latn](https://rdafr.fr/vocabulaire/ecriture-ISO15925/Latn)
 * Pour les codes de pays de la norme ISO 3166, le choix est laissé à chaque institution qui implémente l’ontologie RDA-FR d’utiliser ses propres sources.
 
 ### Mécanismes fonctionnels de l’ontologie RDA-FR
@@ -134,7 +134,7 @@ Il est à souligner que l’ontologie peut avoir un trait d’avance par rapport
 * La version HTML de l'ontologie RDA-FR est publiée ici : [https://rdafr.fr/ontologie/](/ontologie/)
 * La version OWL de l'ontologie RDA-FR est publiée ici : [https://rdafr.fr/ontologie/rdafr.ttl](/ontologie/rdafr.ttl)
 
-* Les vocabulaires contrôlés associés à l’ontologie sont publiés ici : [https://rdafr.fr/vocabulary/](/vocabulary/)
+* Les vocabulaires contrôlés associés à l’ontologie sont publiés ici : [https://rdafr.fr/vocabulaire/](/vocabulaire/)
 
 
 L’ensemble de l’ontologie est géré depuis le compte GitHub du programme Transition bibliographique : [https://github.com/transition-bibliographique/ontologie-rda-fr](https://github.com/transition-bibliographique/ontologie-rda-fr).

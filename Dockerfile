@@ -53,15 +53,15 @@ RUN pandoc --standalone \
       /build/release-notes.md -o /build/release-notes.html
 
 
-RUN pandoc /build/vocabulary/index-intro.md -o /build/vocabulary/intro.html
+RUN pandoc /build/vocabulaire/index-intro.md -o /build/vocabulaire/intro.html
 RUN pandoc --standalone \
       --toc \
       --shift-heading-level-by=-1 \
       --template template.html \
       -c /style.css \
-      -B /build/vocabulary/intro.html \
+      -B /build/vocabulaire/intro.html \
       -A /build/footer.html \
-      /build/vocabulary/index-content.md -o /build/vocabulary/index.html
+      /build/vocabulaire/index-content.md -o /build/vocabulaire/index.html
 
 # Génération de la documentation de l'ontologie
 RUN mkdir -p ontologie
@@ -106,13 +106,12 @@ RUN mv /tmp/ontologie/profil-application-avec-meta.ttl /build/profil-application
 
 
 # Génération des vocabulaires contrôlés
-
-RUN mkdir -p /build/vocabulary/
-COPY ./vocabulaire/* /build/vocabulary/
+RUN mkdir -p /build/vocabulaire/
+COPY ./vocabulaire/* /build/vocabulaire/
 
 # Génération d'un fichier HTML par vocabulaire
 # Depuis la page d'un vocabulaire, l'utilisateur peut ajouter le suffix .ttl à l'url pour récupérer les données au format RDF.
-RUN for i in /build/vocabulary/*.ttl; do \
+RUN for i in /build/vocabulaire/*.ttl; do \
       java -jar /tmp/skos-play.jar alphabetical -i $i -o ${i%.ttl}.html -f html -l fr ; \
       # Suppression des top terms dans le fichier HTML
       sed -i '/<h2 class="title">.*<\/h2>/d' ${i%.ttl}.html ; \
